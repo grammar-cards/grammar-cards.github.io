@@ -1,14 +1,94 @@
 [
   {
     "hints": [
-      "Sujeto: la base de datos",
-      "Verbo: almacenar en caché (guardar en caché)",
-      "Complemento: las queries",
-      "Tiempo: ahora mismo"
+      "Sujeto: el equipo de DevOps",
+      "Verbo: refactorizar (mejorar/rediseñar)",
+      "Complemento: la API antigua"
     ],
-    "hintDisplay": "Sujeto: la base de datos / Verbo: almacenar en caché (guardar en caché) / Complemento: las queries / Tiempo: ahora mismo",
-    "spanishSentence": "¿Está la base de datos almacenando en caché las queries ahora mismo?",
-    "correctSentence": "Is the database caching the queries right now?",
+    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: refactorizar (mejorar/rediseñar) / Complemento: la API antigua",
+    "spanishSentence": "¿No está el equipo de DevOps refactorizando la API antigua?",
+    "correctSentence": "Isn't the DevOps team refactoring the old API?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Isn't",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "DevOps",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "team",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "refactoring",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "old",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "API",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "deploying",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "new",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "Aren't",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "isn't": "¿no está",
+      "the": "el/la",
+      "devops": "DevOps",
+      "team": "equipo",
+      "refactoring": "refactorizando",
+      "old": "antigua",
+      "api": "API",
+      "deploying": "desplegando",
+      "new": "nueva",
+      "aren't": "¿no son"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: cachear (almacenar en caché)",
+      "Complemento: los datos de la API"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: cachear (almacenar en caché) / Complemento: los datos de la API",
+    "spanishSentence": "¿Está el equipo cacheando los datos de la API?",
+    "correctSentence": "Is the team caching the API data?",
     "cards": [
       {
         "id": "c1",
@@ -22,7 +102,7 @@
       },
       {
         "id": "c3",
-        "text": "database",
+        "text": "team",
         "isDistractor": false
       },
       {
@@ -32,17 +112,12 @@
       },
       {
         "id": "c5",
-        "text": "queries",
+        "text": "API",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "right",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "now",
+        "text": "data",
         "isDistractor": false
       },
       {
@@ -57,21 +132,20 @@
       },
       {
         "id": "d3",
-        "text": "later",
+        "text": "deploying",
         "isDistractor": true
       }
     ],
     "translations": {
       "is": "está",
-      "the": "la",
-      "database": "base de datos",
-      "caching": "almacenando en caché",
-      "queries": "queries",
-      "right": "ahora",
-      "now": "mismo",
+      "the": "el/la",
+      "team": "equipo",
+      "caching": "cacheando",
+      "api": "API",
+      "data": "datos",
       "storing": "almacenando",
       "server": "servidor",
-      "later": "más tarde"
+      "deploying": "desplegando"
     },
     "metadata": {
       "tense": "present continuous",
@@ -83,14 +157,14 @@
   },
   {
     "hints": [
-      "Sujeto: el servidor",
-      "Verbo: consultar (interrogación negativa)",
+      "Sujeto: el equipo de desarrollo",
+      "Verbo: optimizar",
       "Complemento: la base de datos",
       "Tiempo: ahora mismo"
     ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: consultar (interrogación negativa) / Complemento: la base de datos / Tiempo: ahora mismo",
-    "spanishSentence": "¿No está consultando el servidor la base de datos ahora mismo?",
-    "correctSentence": "Isn't the server querying the database right now?",
+    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: optimizar / Complemento: la base de datos / Tiempo: ahora mismo",
+    "spanishSentence": "¿No está optimizando el equipo la base de datos ahora mismo?",
+    "correctSentence": "Isn't the team optimizing the database right now?",
     "cards": [
       {
         "id": "c1",
@@ -104,12 +178,12 @@
       },
       {
         "id": "c3",
-        "text": "server",
+        "text": "team",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "querying",
+        "text": "optimizing",
         "isDistractor": false
       },
       {
@@ -129,12 +203,12 @@
       },
       {
         "id": "d1",
-        "text": "updating",
+        "text": "improving",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "cache",
+        "text": "server",
         "isDistractor": true
       },
       {
@@ -146,297 +220,17 @@
     "translations": {
       "isn't": "no está",
       "the": "el/la",
-      "server": "servidor",
-      "querying": "consultando",
+      "team": "equipo",
+      "optimizing": "optimizando",
       "database": "base de datos",
       "right": "ahora",
       "now": "mismo",
-      "updating": "actualizando",
-      "cache": "caché",
-      "later": "después"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el servidor",
-      "Verbo: procesar (presente continuo)",
-      "Complemento: las consultas de la base de datos",
-      "Tiempo: ahora mismo"
-    ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: procesar (presente continuo) / Complemento: las consultas de la base de datos / Tiempo: ahora mismo",
-    "spanishSentence": "¿Está el servidor procesando las consultas de la base de datos ahora mismo?",
-    "correctSentence": "Is the server processing the database queries right now?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Is",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "processing",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "right",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "handling",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cache",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "later",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "is": "está",
-      "the": "el",
+      "improving": "mejorando",
       "server": "servidor",
-      "processing": "procesando",
-      "database": "base de datos",
-      "queries": "consultas",
-      "right": "ahora",
-      "now": "mismo",
-      "handling": "manejando",
-      "cache": "caché",
       "later": "más tarde"
     },
     "metadata": {
       "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: desplegar (deploy)",
-      "Complemento: la aplicación en la nube",
-      "Tiempo: ahora mismo"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: desplegar (deploy) / Complemento: la aplicación en la nube / Tiempo: ahora mismo",
-    "spanishSentence": "¿Está el equipo desplegando la aplicación en la nube ahora mismo?",
-    "correctSentence": "Is the team deploying the application in the cloud right now?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Is",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "deploying",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "application",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "right",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "compiling",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "is": "está",
-      "the": "el/la",
-      "team": "equipo",
-      "deploying": "desplegando",
-      "application": "aplicación",
-      "in": "en",
-      "cloud": "nube",
-      "right": "ahora",
-      "now": "mismo",
-      "compiling": "compilando",
-      "on": "en",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: consultar (present continuous, forma negativa e interrogativa)",
-      "Complemento: la base de datos",
-      "Tiempo: ahora mismo"
-    ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: consultar (present continuous, forma negativa e interrogativa) / Complemento: la base de datos / Tiempo: ahora mismo",
-    "spanishSentence": "¿No está consultando el equipo de DevOps la base de datos ahora mismo?",
-    "correctSentence": "Isn't the DevOps team querying the database right now?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "DevOps",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "querying",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "right",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "updating",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "server",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "already",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "isn't": "¿no está",
-      "the": "el/la",
-      "devops": "DevOps",
-      "team": "equipo",
-      "querying": "consultando",
-      "database": "base de datos",
-      "right": "ahora",
-      "now": "mismo",
-      "updating": "actualizando",
-      "server": "servidor",
-      "already": "ya"
-    },
-    "metadata": {
-      "tense": "present continuous",
       "isNegative": true,
       "isQuestion": true,
       "difficulty": "beginner",
@@ -445,14 +239,14 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: desplegar (implementar software)",
-      "Complemento: la aplicación en la nube",
-      "Tiempo: ahora mismo"
+      "Sujeto: el arquitecto",
+      "Verbo: depurar (debuggear)",
+      "Complemento: la API",
+      "Tiempo: ahora"
     ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: desplegar (implementar software) / Complemento: la aplicación en la nube / Tiempo: ahora mismo",
-    "spanishSentence": "¿Está desplegando el equipo de DevOps la aplicación en la nube ahora?",
-    "correctSentence": "Is the DevOps team deploying the application to the cloud now",
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: depurar (debuggear) / Complemento: la API / Tiempo: ahora",
+    "spanishSentence": "¿Está el arquitecto depurando la API ahora?",
+    "correctSentence": "Is the architect debugging the API now?",
     "cards": [
       {
         "id": "c1",
@@ -466,248 +260,50 @@
       },
       {
         "id": "c3",
-        "text": "DevOps",
+        "text": "architect",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "team",
+        "text": "debugging",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "deploying",
+        "text": "API",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "application",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
         "text": "now",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "was",
+        "text": "fixing",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "updating",
+        "text": "developer",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "is": "está",
-      "the": "el/la",
-      "devops": "DevOps",
-      "team": "equipo",
-      "deploying": "desplegando",
-      "application": "aplicación",
-      "to": "en/a",
-      "cloud": "nube",
-      "now": "ahora",
-      "was": "estaba",
-      "updating": "actualizando",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: desplegar (deploy)",
-      "Complemento: la aplicación en la nube",
-      "Tiempo: ahora mismo"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: desplegar (deploy) / Complemento: la aplicación en la nube / Tiempo: ahora mismo",
-    "spanishSentence": "¿Está desplegando el equipo la aplicación en la nube ahora?",
-    "correctSentence": "Is the team deploying the application to the cloud now",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Is",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "deploying",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "application",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "refactoring",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "were",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "is": "está",
-      "the": "el/la",
-      "team": "equipo",
-      "deploying": "desplegando",
-      "application": "aplicación",
-      "to": "a",
-      "cloud": "nube",
-      "now": "ahora",
-      "refactoring": "refactorizando",
-      "were": "eran",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el microservice",
-      "Verbo: autenticar",
-      "Complemento: las solicitudes del usuario",
-      "Tiempo: ahora mismo"
-    ],
-    "hintDisplay": "Sujeto: el microservice / Verbo: autenticar / Complemento: las solicitudes del usuario / Tiempo: ahora mismo",
-    "spanishSentence": "¿Está el microservice autenticando las solicitudes del usuario ahora?",
-    "correctSentence": "Is the microservice authenticating user requests now",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Is",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "microservice",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "authenticating",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "user",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "requests",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "validating",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "server",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "today",
+        "text": "database",
         "isDistractor": true
       }
     ],
     "translations": {
       "is": "está",
       "the": "el",
-      "microservice": "microservice",
-      "authenticating": "autenticando",
-      "user": "del usuario",
-      "requests": "solicitudes",
+      "architect": "arquitecto",
+      "debugging": "depurando",
+      "api": "API",
       "now": "ahora",
-      "validating": "validando",
-      "server": "servidor",
-      "today": "hoy"
+      "fixing": "reparando",
+      "developer": "desarrollador",
+      "database": "base de datos"
     },
     "metadata": {
       "tense": "present continuous",
@@ -719,14 +315,13 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: desplegar (deploy)",
-      "Complemento: la nueva versión del microservicio en el servidor en la nube",
-      "Tiempo: ahora mismo"
+      "Sujeto: el equipo de frontend",
+      "Verbo: integrar",
+      "Complemento: la nueva API"
     ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: desplegar (deploy) / Complemento: la nueva versión del microservicio en el servidor en la nube / Tiempo: ahora mismo",
-    "spanishSentence": "¿Está el equipo desplegando la nueva versión del microservicio en la nube ahora?",
-    "correctSentence": "Is the team deploying the new microservice version in the cloud now",
+    "hintDisplay": "Sujeto: el equipo de frontend / Verbo: integrar / Complemento: la nueva API",
+    "spanishSentence": "¿Está el equipo de frontend integrando la nueva API?",
+    "correctSentence": "Is the frontend team integrating the new API?",
     "cards": [
       {
         "id": "c1",
@@ -740,17 +335,17 @@
       },
       {
         "id": "c3",
-        "text": "team",
+        "text": "frontend",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "deploying",
+        "text": "team",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "the",
+        "text": "integrating",
         "isDistractor": false
       },
       {
@@ -760,64 +355,36 @@
       },
       {
         "id": "c7",
-        "text": "microservice",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "version",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "now",
+        "text": "API",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "Was",
+        "text": "deploying",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "testing",
+        "text": "backend",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "on",
+        "text": "old",
         "isDistractor": true
       }
     ],
     "translations": {
       "is": "está",
-      "the": "el",
+      "the": "el/la",
+      "frontend": "frontend",
       "team": "equipo",
-      "deploying": "desplegando",
+      "integrating": "integrando",
       "new": "nueva",
-      "microservice": "microservicio",
-      "version": "versión",
-      "in": "en",
-      "cloud": "nube",
-      "now": "ahora",
-      "was": "estaba",
-      "testing": "probando",
-      "on": "en"
+      "api": "API",
+      "deploying": "desplegando",
+      "backend": "backend",
+      "old": "antigua"
     },
     "metadata": {
       "tense": "present continuous",
@@ -829,14 +396,13 @@
   },
   {
     "hints": [
-      "Sujeto: el servidor",
-      "Verbo: procesar (en presente continuo)",
-      "Complemento: la consulta a la base de datos",
-      "Tiempo: ahora mismo"
+      "Sujeto: el ingeniero",
+      "Verbo: almacenar en caché (present continuous)",
+      "Complemento: los datos de la API"
     ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: procesar (en presente continuo) / Complemento: la consulta a la base de datos / Tiempo: ahora mismo",
-    "spanishSentence": "¿No está procesando el servidor la consulta ahora mismo?",
-    "correctSentence": "Isn't the server processing the query right now?",
+    "hintDisplay": "Sujeto: el ingeniero / Verbo: almacenar en caché (present continuous) / Complemento: los datos de la API",
+    "spanishSentence": "¿No está almacenando en caché el ingeniero los datos de la API?",
+    "correctSentence": "Isn't the engineer caching the API data?",
     "cards": [
       {
         "id": "c1",
@@ -850,12 +416,12 @@
       },
       {
         "id": "c3",
-        "text": "server",
+        "text": "engineer",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "processing",
+        "text": "caching",
         "isDistractor": false
       },
       {
@@ -865,22 +431,258 @@
       },
       {
         "id": "c6",
-        "text": "query",
+        "text": "API",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "right",
+        "text": "data",
         "isDistractor": false
       },
       {
-        "id": "c8",
+        "id": "d1",
+        "text": "deploying",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "server",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "querying",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "isn't": "¿no está",
+      "the": "el/la",
+      "engineer": "ingeniero",
+      "caching": "almacenando en caché",
+      "api": "API",
+      "data": "datos",
+      "deploying": "desplegando",
+      "server": "servidor",
+      "querying": "consultando"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto",
+      "Verbo: compilar (presente continuo)",
+      "Complemento: el código del microservice"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: compilar (presente continuo) / Complemento: el código del microservice",
+    "spanishSentence": "¿No está compilando el arquitecto el código del microservice?",
+    "correctSentence": "Isn't the architect compiling the microservice code?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Isn't",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "architect",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "compiling",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "microservice",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "deploying",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "engineer",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "schema",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "isn't": "¿no está",
+      "the": "el",
+      "architect": "arquitecto",
+      "compiling": "compilando",
+      "microservice": "microservice",
+      "code": "código",
+      "deploying": "desplegando",
+      "engineer": "ingeniero",
+      "schema": "esquema"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la aplicación",
+      "Verbo: consultar (presente continuo)",
+      "Complemento: la base de datos"
+    ],
+    "hintDisplay": "Sujeto: la aplicación / Verbo: consultar (presente continuo) / Complemento: la base de datos",
+    "spanishSentence": "¿Está consultando la aplicación la base de datos ahora?",
+    "correctSentence": "Is the application querying the database now?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "application",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "querying",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "database",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
         "text": "now",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "executing",
+        "text": "server",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "updating",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "was",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "is": "está",
+      "the": "la",
+      "application": "aplicación",
+      "querying": "consultando",
+      "database": "base de datos",
+      "now": "ahora",
+      "server": "servidor",
+      "updating": "actualizando",
+      "was": "era"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo de DevOps",
+      "Verbo: poder (habilidad) + desplegar",
+      "Complemento: el contenedor de Docker",
+      "Tiempo: ahora mismo"
+    ],
+    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: poder (habilidad) + desplegar / Complemento: el contenedor de Docker / Tiempo: ahora mismo",
+    "spanishSentence": "¿No está el equipo de DevOps desplegando el contenedor de Docker ahora mismo?",
+    "correctSentence": "Isn't the DevOps team deploying the Docker container right now?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Isn't",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "DevOps",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "team",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "deploying",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "Docker",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "container",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "right",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "now",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "debugging",
         "isDistractor": true
       },
       {
@@ -890,24 +692,106 @@
       },
       {
         "id": "d3",
-        "text": "database",
+        "text": "server",
         "isDistractor": true
       }
     ],
     "translations": {
-      "isn't": "no está",
+      "isn't": "¿no está",
       "the": "el/la",
-      "server": "servidor",
-      "processing": "procesando",
-      "query": "consulta",
-      "right": "ahora",
-      "now": "mismo",
-      "executing": "ejecutando",
-      "database": "base de datos"
+      "devops": "DevOps",
+      "team": "equipo",
+      "deploying": "desplegando",
+      "docker": "Docker",
+      "container": "contenedor",
+      "right": "justo",
+      "now": "ahora",
+      "debugging": "depurando",
+      "server": "servidor"
     },
     "metadata": {
       "tense": "present continuous",
       "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero",
+      "Verbo: configurar (present continuous)",
+      "Complemento: el servidor en la nube"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero / Verbo: configurar (present continuous) / Complemento: el servidor en la nube",
+    "spanishSentence": "¿Está el ingeniero configurando el servidor en la nube?",
+    "correctSentence": "Is the engineer configuring the cloud server?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "configuring",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "cloud",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "server",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "debugging",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "developer",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "Does",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "is": "está",
+      "the": "el/la",
+      "engineer": "ingeniero",
+      "configuring": "configurando",
+      "cloud": "nube",
+      "server": "servidor",
+      "debugging": "depurando",
+      "developer": "desarrollador",
+      "does": "hace"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "beginner",
       "topic": "software engineering"

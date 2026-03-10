@@ -1,18 +1,17 @@
 [
   {
     "hints": [
-      "Sujeto: el diseñador",
-      "Verbo: asignar (pasado simple)",
-      "Complemento: un ticket al desarrollador",
-      "Tiempo: ayer"
+      "Sujeto: la ingeniera de QA",
+      "Verbo: demostrar (pasado simple)",
+      "Complemento: el nuevo bug fix en la demo"
     ],
-    "hintDisplay": "Sujeto: el diseñador / Verbo: asignar (pasado simple) / Complemento: un ticket al desarrollador / Tiempo: ayer",
-    "spanishSentence": "¿Asignó el diseñador un ticket al desarrollador ayer?",
-    "correctSentence": "Did the designer assign a ticket to the developer yesterday?",
+    "hintDisplay": "Sujeto: la ingeniera de QA / Verbo: demostrar (pasado simple) / Complemento: el nuevo bug fix en la demo",
+    "spanishSentence": "¿No demostró la ingeniera de QA el nuevo bug fix en la demo?",
+    "correctSentence": "Didn't the QA engineer demo the new bug fix?",
     "cards": [
       {
         "id": "c1",
-        "text": "Did",
+        "text": "Didn't",
         "isDistractor": false
       },
       {
@@ -22,77 +21,71 @@
       },
       {
         "id": "c3",
-        "text": "designer",
+        "text": "QA",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "assign",
+        "text": "engineer",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "a",
+        "text": "demo",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "ticket",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
         "text": "the",
         "isDistractor": false
       },
       {
-        "id": "c9",
-        "text": "developer",
+        "id": "c7",
+        "text": "new",
         "isDistractor": false
       },
       {
-        "id": "c10",
-        "text": "yesterday",
+        "id": "c8",
+        "text": "bug",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "fix",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "Does",
+        "text": "demonstrate",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "deploy",
+        "text": "showed",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "tomorrow",
+        "text": "old",
         "isDistractor": true
       }
     ],
     "translations": {
-      "did": "hizo",
-      "the": "el/la",
-      "designer": "diseñador",
-      "assign": "asignar",
-      "a": "un/una",
-      "ticket": "ticket",
-      "to": "a",
-      "developer": "desarrollador",
-      "yesterday": "ayer",
-      "does": "hace",
-      "deploy": "desplegar",
-      "tomorrow": "mañana"
+      "didn't": "no demostró",
+      "the": "el/la/los/las",
+      "qa": "QA",
+      "engineer": "ingeniera",
+      "demo": "demostrar",
+      "new": "nuevo",
+      "bug": "bug",
+      "fix": "fix",
+      "demonstrate": "demostrar",
+      "showed": "mostró",
+      "old": "antiguo"
     },
     "metadata": {
       "tense": "simple past",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"
@@ -100,18 +93,18 @@
   },
   {
     "hints": [
-      "Sujeto: el tech lead",
-      "Verbo: revisar (code review)",
-      "Complemento: la pull request",
+      "Sujeto: el equipo",
+      "Verbo: revisar",
+      "Complemento: los pull requests",
       "Tiempo: ayer"
     ],
-    "hintDisplay": "Sujeto: el tech lead / Verbo: revisar (code review) / Complemento: la pull request / Tiempo: ayer",
-    "spanishSentence": "¿Revisó el tech lead la pull request ayer?",
-    "correctSentence": "Did the tech lead review the pull request yesterday?",
+    "hintDisplay": "Sujeto: el equipo / Verbo: revisar / Complemento: los pull requests / Tiempo: ayer",
+    "spanishSentence": "¿No revisó el equipo los pull requests ayer?",
+    "correctSentence": "Didn't the team review the pull requests yesterday?",
     "cards": [
       {
         "id": "c1",
-        "text": "Did",
+        "text": "Didn't",
         "isDistractor": false
       },
       {
@@ -121,17 +114,17 @@
       },
       {
         "id": "c3",
-        "text": "tech",
+        "text": "team",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "lead",
+        "text": "review",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "review",
+        "text": "the",
         "isDistractor": false
       },
       {
@@ -141,7 +134,7 @@
       },
       {
         "id": "c7",
-        "text": "request",
+        "text": "requests",
         "isDistractor": false
       },
       {
@@ -156,7 +149,7 @@
       },
       {
         "id": "d2",
-        "text": "refactor",
+        "text": "approve",
         "isDistractor": true
       },
       {
@@ -166,121 +159,20 @@
       }
     ],
     "translations": {
-      "did": "¿hizo",
-      "the": "el",
-      "tech": "técnico",
-      "lead": "líder",
+      "didn't": "no revisó",
+      "the": "el/la",
+      "team": "equipo",
       "review": "revisar",
-      "pull": "extraer",
-      "request": "solicitud",
+      "pull": "pull",
+      "requests": "requests",
       "yesterday": "ayer",
       "merge": "fusionar",
-      "refactor": "refactorizar",
+      "approve": "aprobar",
       "today": "hoy"
     },
     "metadata": {
       "tense": "simple past",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el interno (the intern)",
-      "Verbo: bloquear (to block)",
-      "Complemento: el sprint con un bug crítico (the sprint with a critical bug)",
-      "Tiempo: ayer (yesterday)"
-    ],
-    "hintDisplay": "Sujeto: el interno / Verbo: bloquear / Complemento: el sprint con un bug crítico / Tiempo: ayer",
-    "spanishSentence": "¿Bloqueó el interno el sprint ayer con un bug crítico?",
-    "correctSentence": "Did the intern block the sprint yesterday with a critical bug?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Did",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "intern",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "block",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "critical",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "bug",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "blocked",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "junior",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "deployment",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "did": "¿Hizo",
-      "the": "el/la",
-      "intern": "interno",
-      "block": "bloquear",
-      "sprint": "sprint",
-      "yesterday": "ayer",
-      "with": "con",
-      "a": "un",
-      "critical": "crítico",
-      "bug": "bug",
-      "blocked": "bloqueó",
-      "junior": "junior",
-      "deployment": "despliegue"
-    },
-    "metadata": {
-      "tense": "simple past",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"
@@ -289,17 +181,16 @@
   {
     "hints": [
       "Sujeto: el product owner",
-      "Verbo: priorizar (acción completada)",
-      "Complemento: los tickets del sprint",
-      "Tiempo: ayer"
+      "Verbo: planificar",
+      "Complemento: el sprint"
     ],
-    "hintDisplay": "Sujeto: el product owner / Verbo: priorizar (acción completada) / Complemento: los tickets del sprint / Tiempo: ayer",
-    "spanishSentence": "¿No priorizó el product owner los tickets del sprint ayer?",
-    "correctSentence": "Didn't the product owner prioritize the sprint tickets yesterday?",
+    "hintDisplay": "Sujeto: el product owner / Verbo: planificar / Complemento: el sprint",
+    "spanishSentence": "¿Planificó el product owner el sprint?",
+    "correctSentence": "Did the product owner plan the sprint?",
     "cards": [
       {
         "id": "c1",
-        "text": "Didn't",
+        "text": "Did",
         "isDistractor": false
       },
       {
@@ -319,7 +210,7 @@
       },
       {
         "id": "c5",
-        "text": "prioritize",
+        "text": "plan",
         "isDistractor": false
       },
       {
@@ -328,47 +219,35 @@
         "isDistractor": false
       },
       {
-        "id": "c7",
-        "text": "tickets",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
         "id": "d1",
-        "text": "plan",
+        "text": "schedule",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "today",
+        "text": "Does",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "Does",
+        "text": "backlog",
         "isDistractor": true
       }
     ],
     "translations": {
-      "didn't": "no hizo / no priorizó",
-      "the": "el / la / los / las",
+      "did": "hizo",
+      "the": "el/la",
       "product": "producto",
-      "owner": "dueño / propietario",
-      "prioritize": "priorizar",
-      "sprint": "sprint",
-      "tickets": "tickets",
-      "yesterday": "ayer",
+      "owner": "dueño",
       "plan": "planificar",
-      "today": "hoy",
-      "does": "hace"
+      "sprint": "sprint",
+      "schedule": "programar",
+      "does": "hace",
+      "backlog": "backlog"
     },
     "metadata": {
       "tense": "simple past",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"
@@ -376,18 +255,17 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo de backend",
-      "Verbo: refactorizar (mejorar el código)",
-      "Complemento: la rama principal durante el sprint",
-      "Tiempo: ayer en el standup"
+      "Sujeto: el equipo backend",
+      "Verbo: estimar (pasado simple)",
+      "Complemento: los puntos de historia para el sprint"
     ],
-    "hintDisplay": "Sujeto: el equipo de backend / Verbo: refactorizar (mejorar el código) / Complemento: la rama principal durante el sprint / Tiempo: ayer en el standup",
-    "spanishSentence": "¿No refactorizó el equipo de backend la rama principal ayer durante el standup?",
-    "correctSentence": "Didn't the backend team refactor the main branch yesterday during the standup?",
+    "hintDisplay": "Sujeto: el equipo backend / Verbo: estimar (pasado simple) / Complemento: los puntos de historia para el sprint",
+    "spanishSentence": "¿Estimó el equipo backend los puntos de historia?",
+    "correctSentence": "Did the backend team estimate the story points",
     "cards": [
       {
         "id": "c1",
-        "text": "Didn't",
+        "text": "Did",
         "isDistractor": false
       },
       {
@@ -407,164 +285,46 @@
       },
       {
         "id": "c5",
-        "text": "refactor",
+        "text": "estimate",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "main",
+        "text": "story",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "branch",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "standup",
+        "text": "points",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "improve",
+        "text": "plan",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "merge",
+        "text": "review",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "today",
+        "text": "sprint",
         "isDistractor": true
       }
     ],
     "translations": {
-      "didn't": "no refactorizó",
+      "did": "¿hizo",
       "the": "el/la",
       "backend": "backend",
       "team": "equipo",
-      "refactor": "refactorizar",
-      "main": "principal",
-      "branch": "rama",
-      "yesterday": "ayer",
-      "during": "durante",
-      "standup": "standup",
-      "improve": "mejorar",
-      "merge": "fusionar",
-      "today": "hoy"
-    },
-    "metadata": {
-      "tense": "simple past",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el product owner",
-      "Verbo: refactorizar (mejorar el código)",
-      "Complemento: el código legacy en el sprint pasado",
-      "Tiempo: ayer en el standup"
-    ],
-    "hintDisplay": "Sujeto: el product owner / Verbo: refactorizar (mejorar el código) / Complemento: el código legacy en el sprint pasado / Tiempo: ayer en el standup",
-    "spanishSentence": "¿Refactorizó el product owner el código legacy ayer en el standup?",
-    "correctSentence": "Did the product owner refactor the legacy code yesterday in standup?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Did",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "product",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "owner",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "refactor",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "legacy",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "standup",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "refactored",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "during",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "old",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "did": "¿",
-      "the": "el",
-      "product": "product",
-      "owner": "owner",
-      "refactor": "refactorizar",
-      "legacy": "legacy",
-      "code": "código",
-      "yesterday": "ayer",
-      "in": "en",
-      "standup": "standup",
-      "refactored": "refactorizó",
-      "during": "durante",
-      "old": "antiguo"
+      "estimate": "estimar",
+      "story": "historia",
+      "points": "puntos",
+      "plan": "planificar",
+      "review": "revisar",
+      "sprint": "sprint"
     },
     "metadata": {
       "tense": "simple past",
@@ -576,198 +336,105 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo",
-      "Verbo: desplegar (pasado negativo)",
-      "Complemento: la nueva versión en producción",
-      "Tiempo: ayer"
+      "Sujeto: el scrum master",
+      "Verbo: bloquear (prevenir/impedir)",
+      "Complemento: un ticket importante en el sprint"
     ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: desplegar (pasado negativo) / Complemento: la nueva versión en producción / Tiempo: ayer",
-    "spanishSentence": "¿No desplegó el equipo la nueva versión en producción ayer?",
-    "correctSentence": "Didn't the team deploy the new version in production yesterday?",
+    "hintDisplay": "Sujeto: el scrum master / Verbo: bloquear (prevenir/impedir) / Complemento: un ticket importante en el sprint",
+    "spanishSentence": "¿Por qué bloqueó el scrum master un ticket importante en el sprint?",
+    "correctSentence": "Why did the scrum master block an important ticket in the sprint?",
     "cards": [
       {
         "id": "c1",
-        "text": "Didn't",
+        "text": "Why",
         "isDistractor": false
       },
       {
         "id": "c2",
-        "text": "the",
+        "text": "did",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "team",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "deploy",
+        "text": "scrum",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "the",
+        "text": "master",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "new",
+        "text": "block",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "version",
+        "text": "an",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "in",
+        "text": "important",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "production",
+        "text": "ticket",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "released",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "today",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "on",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "didn't": "no",
-      "the": "el/la",
-      "team": "equipo",
-      "deploy": "desplegar",
-      "new": "nueva",
-      "version": "versión",
-      "in": "en",
-      "production": "producción",
-      "yesterday": "ayer",
-      "released": "lanzar",
-      "today": "hoy",
-      "on": "en"
-    },
-    "metadata": {
-      "tense": "simple past",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el designer",
-      "Verbo: demostrar (pasado simple)",
-      "Complemento: las nuevas features en el sprint",
-      "Tiempo: ayer en la retrospective"
-    ],
-    "hintDisplay": "Sujeto: el designer / Verbo: demostrar (pasado simple) / Complemento: las nuevas features en el sprint / Tiempo: ayer en la retrospective",
-    "spanishSentence": "¿Demostró el designer las nuevas features ayer en la retrospective?",
-    "correctSentence": "Did the designer demo the new features yesterday in the retrospective?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Did",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "designer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "demo",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "features",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
         "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "retrospective",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "sprint",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "deploy",
+        "text": "blocked",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "at",
+        "text": "a",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "does",
+        "text": "at",
         "isDistractor": true
       }
     ],
     "translations": {
-      "did": "¿Demostró",
-      "the": "el/la/los/las",
-      "designer": "designer",
-      "demo": "demostrar",
-      "new": "nuevas",
-      "features": "features",
-      "yesterday": "ayer",
+      "why": "¿por qué",
+      "did": "hizo",
+      "the": "el/la",
+      "scrum": "scrum",
+      "master": "master",
+      "block": "bloquear",
+      "an": "un/una",
+      "important": "importante",
+      "ticket": "ticket",
       "in": "en",
-      "retrospective": "retrospective",
-      "deploy": "desplegar",
-      "at": "en",
-      "does": "hace"
+      "sprint": "sprint",
+      "blocked": "bloqueado",
+      "a": "un/una",
+      "at": "en"
     },
     "metadata": {
       "tense": "simple past",
@@ -780,13 +447,12 @@
   {
     "hints": [
       "Sujeto: el ingeniero de QA",
-      "Verbo: desplegar (deploy)",
-      "Complemento: la nueva versión al servidor de producción",
-      "Tiempo: ayer"
+      "Verbo: estimar (pasado simple)",
+      "Complemento: la velocidad del sprint"
     ],
-    "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: desplegar (deploy) / Complemento: la nueva versión al servidor de producción / Tiempo: ayer",
-    "spanishSentence": "¿Desplegó el ingeniero de QA la nueva versión ayer?",
-    "correctSentence": "Did the QA engineer deploy the new version yesterday?",
+    "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: estimar (pasado simple) / Complemento: la velocidad del sprint",
+    "spanishSentence": "¿Estimó el ingeniero de QA la velocidad del sprint?",
+    "correctSentence": "Did the QA engineer estimate the sprint velocity?",
     "cards": [
       {
         "id": "c1",
@@ -810,6 +476,162 @@
       },
       {
         "id": "c5",
+        "text": "estimate",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "velocity",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "calculate",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "deployment",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "Does",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "did": "hizo",
+      "the": "el/la",
+      "qa": "QA",
+      "engineer": "ingeniero",
+      "estimate": "estimar",
+      "sprint": "sprint",
+      "velocity": "velocidad",
+      "calculate": "calcular",
+      "deployment": "despliegue",
+      "does": "hace"
+    },
+    "metadata": {
+      "tense": "simple past",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el diseñador (the designer)",
+      "Verbo: priorizar (prioritize)",
+      "Complemento: los tickets del sprint"
+    ],
+    "hintDisplay": "Sujeto: el diseñador / Verbo: priorizar / Complemento: los tickets del sprint",
+    "spanishSentence": "¿Priorizó el diseñador los tickets del sprint?",
+    "correctSentence": "Did the designer prioritize the sprint tickets?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Did",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "designer",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "prioritize",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "tickets",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "schedule",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "organize",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "demo",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "did": "¿",
+      "the": "el/la",
+      "designer": "diseñador",
+      "prioritize": "priorizar",
+      "sprint": "sprint",
+      "tickets": "tickets",
+      "schedule": "programar",
+      "organize": "organizar",
+      "demo": "demo"
+    },
+    "metadata": {
+      "tense": "simple past",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el product owner",
+      "Verbo: desplegar (deploy)",
+      "Complemento: la nueva feature al servidor de producción"
+    ],
+    "hintDisplay": "Sujeto: el product owner / Verbo: desplegar (deploy) / Complemento: la nueva feature al servidor de producción",
+    "spanishSentence": "¿Desplegó el product owner la nueva feature al servidor de producción?",
+    "correctSentence": "Did the product owner deploy the new feature to the production server?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Did",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "product",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "owner",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
         "text": "deploy",
         "isDistractor": false
       },
@@ -820,22 +642,126 @@
       },
       {
         "id": "c7",
-        "text": "version",
+        "text": "feature",
         "isDistractor": false
       },
       {
         "id": "c8",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "production",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "server",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "deploy",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "merge",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "testing",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "did": "¿Desplegó?",
+      "the": "el/la",
+      "product": "product",
+      "owner": "owner",
+      "deploy": "desplegar",
+      "new": "nueva",
+      "feature": "feature",
+      "to": "al",
+      "production": "producción",
+      "server": "servidor",
+      "merge": "fusionar",
+      "testing": "prueba"
+    },
+    "metadata": {
+      "tense": "simple past",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de QA",
+      "Verbo: encontrar (pasado)",
+      "Complemento: un blocker crítico",
+      "Tiempo: ayer"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: encontrar (pasado) / Complemento: un blocker crítico / Tiempo: ayer",
+    "spanishSentence": "¿Encontró el ingeniero de QA un blocker crítico ayer?",
+    "correctSentence": "Did the QA engineer find a critical blocker yesterday?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Did",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "QA",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "engineer",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "find",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "a",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "critical",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "blocker",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
         "text": "yesterday",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "release",
+        "text": "discover",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "old",
+        "text": "found",
         "isDistractor": true
       },
       {
@@ -845,16 +771,17 @@
       }
     ],
     "translations": {
-      "did": "hizo",
+      "did": "¿",
       "the": "el",
       "qa": "QA",
       "engineer": "ingeniero",
-      "deploy": "desplegar",
-      "new": "nueva",
-      "version": "versión",
+      "find": "encontró",
+      "a": "un",
+      "critical": "crítico",
+      "blocker": "blocker",
       "yesterday": "ayer",
-      "release": "lanzar",
-      "old": "antigua",
+      "discover": "descubrir",
+      "found": "encontrado",
       "today": "hoy"
     },
     "metadata": {
@@ -867,18 +794,18 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo backend",
-      "Verbo: deploy (pasado simple)",
-      "Complemento: el código a producción",
+      "Sujeto: el ingeniero de QA",
+      "Verbo: revisar (pasado simple)",
+      "Complemento: el código en la pull request",
       "Tiempo: ayer"
     ],
-    "hintDisplay": "Sujeto: el equipo backend / Verbo: deploy (pasado simple) / Complemento: el código a producción / Tiempo: ayer",
-    "spanishSentence": "¿No desplegó el equipo backend el código a producción ayer?",
-    "correctSentence": "Didn't the backend team deploy the code to production yesterday?",
+    "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: revisar (pasado simple) / Complemento: el código en la pull request / Tiempo: ayer",
+    "spanishSentence": "¿Revisó el ingeniero de QA el código en la pull request ayer?",
+    "correctSentence": "Did the QA engineer review the code in the pull request yesterday?",
     "cards": [
       {
         "id": "c1",
-        "text": "Didn't",
+        "text": "Did",
         "isDistractor": false
       },
       {
@@ -888,17 +815,17 @@
       },
       {
         "id": "c3",
-        "text": "backend",
+        "text": "QA",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "team",
+        "text": "engineer",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "deploy",
+        "text": "review",
         "isDistractor": false
       },
       {
@@ -908,52 +835,58 @@
       },
       {
         "id": "c7",
-        "text": "to",
+        "text": "in",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "production",
+        "text": "pull",
         "isDistractor": false
       },
       {
         "id": "c9",
+        "text": "request",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
         "text": "yesterday",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "merge",
+        "text": "reviewed",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "today",
+        "text": "merge",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "review",
+        "text": "today",
         "isDistractor": true
       }
     ],
     "translations": {
-      "didn't": "no",
+      "did": "¿Hizo/Revisó",
       "the": "el/la",
-      "backend": "backend",
-      "team": "equipo",
-      "deploy": "desplegar",
+      "qa": "QA",
+      "engineer": "ingeniero",
+      "review": "revisar",
       "code": "código",
-      "to": "a",
-      "production": "producción",
+      "in": "en",
+      "pull": "pull",
+      "request": "request",
       "yesterday": "ayer",
+      "reviewed": "revisado",
       "merge": "fusionar",
-      "today": "hoy",
-      "review": "revisar"
+      "today": "hoy"
     },
     "metadata": {
       "tense": "simple past",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"
