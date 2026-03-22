@@ -1,14 +1,13 @@
 [
   {
     "hints": [
-      "Sujeto: el sistema",
-      "Verbo: almacenar (en caché)",
-      "Complemento: datos en la base de datos",
-      "Tiempo: durante la noche"
+      "Sujeto: el desarrollador",
+      "Verbo: compilar",
+      "Complemento: en el pipeline"
     ],
-    "hintDisplay": "Sujeto: el sistema / Verbo: almacenar (en caché) / Complemento: datos en la base de datos / Tiempo: durante la noche",
-    "spanishSentence": "El sistema almacena datos en caché durante la noche",
-    "correctSentence": "The system caches data during the night",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: compilar / Complemento: en el pipeline",
+    "spanishSentence": "El desarrollador no compila en el pipeline.",
+    "correctSentence": "The developer does not compile in the pipeline.",
     "cards": [
       {
         "id": "c1",
@@ -17,60 +16,151 @@
       },
       {
         "id": "c2",
-        "text": "system",
+        "text": "developer",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "caches",
+        "text": "does",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "data",
+        "text": "not",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "during",
+        "text": "compile",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "the",
+        "text": "in",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "night",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "pipeline",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
         "text": "on",
         "isDistractor": true
       },
       {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
         "id": "d3",
-        "text": "in",
+        "text": "server",
         "isDistractor": true
       }
     ],
     "translations": {
       "the": "el/la",
-      "system": "sistema",
-      "caches": "almacena en caché",
-      "data": "datos",
-      "during": "durante",
-      "night": "noche",
-      "at": "a",
+      "developer": "desarrollador",
+      "does": "hace",
+      "not": "no",
+      "compile": "compilar",
+      "in": "en",
+      "pipeline": "pipeline",
       "on": "en",
-      "in": "en"
+      "at": "en",
+      "server": "servidor"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: compilar",
+      "Complemento: el código en la branch"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: compilar / Complemento: el código en la branch",
+    "spanishSentence": "El desarrollador compila el código en la branch",
+    "correctSentence": "The developer compiles the code on the branch",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "compiles",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "branch",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "in",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "runs",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "developer": "desarrollador",
+      "compiles": "compila",
+      "code": "código",
+      "on": "en",
+      "branch": "branch",
+      "in": "en",
+      "at": "en",
+      "runs": "ejecuta"
     },
     "metadata": {
       "tense": "prepositions",
@@ -82,14 +172,13 @@
   },
   {
     "hints": [
-      "Sujeto: el servidor",
-      "Verbo: escalar",
-      "Complemento: en la nube",
-      "Tiempo: durante la pipeline"
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: automatizar",
+      "Complemento: tareas en el pipeline"
     ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: escalar / Complemento: en la nube / Tiempo: durante la pipeline",
-    "spanishSentence": "El servidor escala en la nube durante la pipeline",
-    "correctSentence": "The server scales in the cloud during the pipeline",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: automatizar / Complemento: tareas en el pipeline",
+    "spanishSentence": "El ingeniero de DevOps automatiza tareas en el pipeline",
+    "correctSentence": "The DevOps engineer automates tasks in the pipeline",
     "cards": [
       {
         "id": "c1",
@@ -98,17 +187,606 @@
       },
       {
         "id": "c2",
-        "text": "server",
+        "text": "DevOps",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "scales",
+        "text": "engineer",
         "isDistractor": false
       },
       {
         "id": "c4",
+        "text": "automates",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "tasks",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
         "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "processes",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "automates": "automatiza",
+      "tasks": "tareas",
+      "in": "en",
+      "pipeline": "pipeline",
+      "on": "en/sobre",
+      "at": "en",
+      "processes": "procesos"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo (the team)",
+      "Verbo: integrar (to integrate)",
+      "Complemento: código nuevo en el pipeline (new code in the pipeline)"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: integrar / Complemento: código nuevo en el pipeline",
+    "spanishSentence": "El equipo integra código nuevo en el pipeline",
+    "correctSentence": "The team integrates new code in the pipeline",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "team",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "integrates",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "new",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "merges",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "team": "equipo",
+      "integrates": "integra",
+      "new": "nuevo",
+      "code": "código",
+      "in": "en",
+      "pipeline": "pipeline",
+      "on": "en/sobre",
+      "at": "en",
+      "merges": "fusiona"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Pedro",
+      "Verbo: configurar",
+      "Complemento: en el servidor"
+    ],
+    "hintDisplay": "Sujeto: Pedro / Verbo: configurar / Complemento: en el servidor",
+    "spanishSentence": "Pedro no configura en el servidor.",
+    "correctSentence": "Pedro does not configure on the server",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Pedro",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "does",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "configure",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "server",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "in",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "configures",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "pedro": "Pedro",
+      "does": "hace",
+      "not": "no",
+      "configure": "configurar",
+      "on": "en",
+      "the": "el",
+      "server": "servidor",
+      "in": "en",
+      "at": "en",
+      "configures": "configura"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: depurar (debug)",
+      "Complemento: un bug en la pipeline"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: depurar (debug) / Complemento: un bug en la pipeline",
+    "spanishSentence": "El desarrollador no depura el bug en la pipeline",
+    "correctSentence": "The developer does not debug the bug in the pipeline",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "does",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "debug",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "bug",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "does not",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "developer": "desarrollador",
+      "does": "hace",
+      "not": "no",
+      "debug": "depura",
+      "bug": "bug",
+      "in": "en",
+      "pipeline": "pipeline",
+      "on": "en/sobre",
+      "at": "en/a",
+      "does not": "no hace"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Maria",
+      "Verbo: deploy (desplegar)",
+      "Complemento: en production"
+    ],
+    "hintDisplay": "Sujeto: Maria / Verbo: deploy (desplegar) / Complemento: en production",
+    "spanishSentence": "Maria despliega el código en production",
+    "correctSentence": "Maria deploys the code in production",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Maria",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "deploys",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "production",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "to",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "maria": "Maria",
+      "deploys": "despliega",
+      "the": "el",
+      "code": "código",
+      "in": "en",
+      "production": "production",
+      "on": "en",
+      "at": "en",
+      "to": "a"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: deploy (desplegar)",
+      "Complemento: en la pipeline"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: deploy (desplegar) / Complemento: en la pipeline",
+    "spanishSentence": "El desarrollador despliega el código en la pipeline",
+    "correctSentence": "The developer deploys the code in the pipeline",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "deploys",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "deploys",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "developer": "desarrollador",
+      "deploys": "despliega",
+      "code": "código",
+      "in": "en",
+      "pipeline": "pipeline",
+      "on": "en/sobre",
+      "at": "en"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Marcus",
+      "Verbo: automatizar",
+      "Complemento: las pruebas en el pipeline"
+    ],
+    "hintDisplay": "Sujeto: Marcus / Verbo: automatizar / Complemento: las pruebas en el pipeline",
+    "spanishSentence": "Marcus automatiza las pruebas en el pipeline",
+    "correctSentence": "Marcus automates the tests in the pipeline",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Marcus",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "automates",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "tests",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "checks",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "marcus": "Marcus",
+      "automates": "automatiza",
+      "the": "el/la/los/las",
+      "tests": "las pruebas",
+      "in": "en",
+      "pipeline": "pipeline",
+      "on": "en/sobre",
+      "at": "en",
+      "checks": "las verificaciones"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Sofia",
+      "Verbo: cachear (almacenar en caché)",
+      "Complemento: en el servidor"
+    ],
+    "hintDisplay": "Sujeto: Sofia / Verbo: cachear (almacenar en caché) / Complemento: en el servidor",
+    "spanishSentence": "Sofia no cachea los datos en el servidor",
+    "correctSentence": "Sofia does not cache the data on the server",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Sofia",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "does",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "cache",
         "isDistractor": false
       },
       {
@@ -118,12 +796,183 @@
       },
       {
         "id": "c6",
-        "text": "cloud",
+        "text": "data",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "during",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "server",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "in",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "does cache",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "sofia": "Sofia",
+      "does": "hace",
+      "not": "no",
+      "cache": "cachea",
+      "the": "el/la",
+      "data": "datos",
+      "on": "en",
+      "server": "servidor",
+      "in": "en",
+      "at": "en"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Olga",
+      "Verbo: migrar",
+      "Complemento: datos al servidor"
+    ],
+    "hintDisplay": "Sujeto: Olga / Verbo: migrar / Complemento: datos al servidor",
+    "spanishSentence": "Olga migra los datos en el servidor",
+    "correctSentence": "Olga migrates the data on the server",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Olga",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "migrates",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "data",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "server",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "in",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "transfers",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "olga": "Olga",
+      "migrates": "migra",
+      "the": "el/la/los/las",
+      "data": "los datos",
+      "on": "en",
+      "server": "servidor",
+      "in": "en",
+      "at": "en",
+      "transfers": "transfiere"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto (the architect)",
+      "Verbo: proponer (to propose)",
+      "Complemento: una nueva solución en el pipeline"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: proponer / Complemento: una nueva solución en el pipeline",
+    "spanishSentence": "El arquitecto propone una nueva solución en el pipeline",
+    "correctSentence": "The architect proposes a new solution in the pipeline",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "architect",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "proposes",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "new",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "solution",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "in",
         "isDistractor": false
       },
       {
@@ -148,1491 +997,22 @@
       },
       {
         "id": "d3",
-        "text": "after",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "server": "servidor",
-      "scales": "escala",
-      "in": "en",
-      "cloud": "nube",
-      "during": "durante",
-      "pipeline": "pipeline",
-      "on": "en",
-      "at": "en",
-      "after": "después"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el frontend",
-      "Verbo: no optimizar (negación)",
-      "Complemento: sin cache",
-      "Tiempo: en producción"
-    ],
-    "hintDisplay": "Sujeto: el frontend / Verbo: no optimizar (negación) / Complemento: sin cache / Tiempo: en producción",
-    "spanishSentence": "El frontend no está optimizado sin cache en producción",
-    "correctSentence": "The frontend is not optimized without cache in production",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "frontend",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "optimized",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "production",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "with",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "on",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el",
-      "frontend": "frontend",
-      "is": "está",
-      "not": "no",
-      "optimized": "optimizado",
-      "without": "sin",
-      "cache": "cache",
-      "in": "en",
-      "production": "producción",
-      "at": "en",
-      "with": "con",
-      "on": "en"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: escalar",
-      "Complemento: la base de datos en la nube",
-      "Tiempo: en la mañana"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: escalar / Complemento: la base de datos en la nube / Tiempo: en la mañana",
-    "spanishSentence": "El desarrollador escala la base de datos en la nube en la mañana",
-    "correctSentence": "The developer scales the database in the cloud in the morning",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "scales",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "morning",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el, la, los, las",
-      "developer": "desarrollador",
-      "scales": "escala",
-      "database": "base de datos",
-      "in": "en",
-      "cloud": "nube",
-      "morning": "mañana",
-      "on": "en, sobre",
-      "at": "en, a",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el sistema",
-      "Verbo: no puede depurar (poder – habilidad)",
-      "Complemento: el bug en el servidor",
-      "Tiempo: en la mañana"
-    ],
-    "hintDisplay": "Sujeto: el sistema / Verbo: no puede depurar (poder – habilidad) / Complemento: el bug en el servidor / Tiempo: en la mañana",
-    "spanishSentence": "El sistema no puede depurar el bug en el servidor en la mañana",
-    "correctSentence": "The system cannot debug the bug on the server in the morning",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "system",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "cannot",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "debug",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "bug",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "morning",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "system": "sistema",
-      "cannot": "no puede",
-      "debug": "depurar",
-      "bug": "bug",
-      "on": "en",
-      "server": "servidor",
-      "in": "en",
-      "morning": "mañana",
-      "at": "a"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el servidor",
-      "Verbo: desplegar (negación con cannot)",
-      "Complemento: a la nube",
-      "Tiempo: en la mañana"
-    ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: desplegar (negación con cannot) / Complemento: a la nube / Tiempo: en la mañana",
-    "spanishSentence": "El servidor no puede desplegarse a la nube en la mañana",
-    "correctSentence": "The server cannot be deployed to the cloud in the morning",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "cannot",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "deployed",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "morning",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "into",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "server": "servidor",
-      "cannot": "no puede",
-      "be": "ser/estar",
-      "deployed": "desplegarse",
-      "to": "a",
-      "cloud": "nube",
-      "in": "en",
-      "morning": "mañana",
-      "at": "en/a",
-      "on": "en",
-      "into": "en/dentro de"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el sistema",
-      "Verbo: no almacenar en caché (negación)",
-      "Complemento: las consultas de la base de datos",
-      "Tiempo: en la noche"
-    ],
-    "hintDisplay": "Sujeto: el sistema / Verbo: no almacenar en caché (negación) / Complemento: las consultas de la base de datos / Tiempo: en la noche",
-    "spanishSentence": "El sistema no almacena en caché las consultas de la base de datos en la noche",
-    "correctSentence": "The system does not cache the database queries at night",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "system",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "store",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el / la / los / las",
-      "system": "sistema",
-      "does": "hace / sí que",
-      "not": "no",
-      "cache": "almacenar en caché / cachea",
-      "database": "base de datos",
-      "queries": "consultas",
-      "at": "a / en (hora/momento específico)",
-      "night": "noche",
-      "on": "en / sobre",
-      "in": "en / dentro de",
-      "store": "almacenar / guardar"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el frontend",
-      "Verbo: integrar (conectar)",
-      "Complemento: con la API del servidor",
-      "Tiempo: en la mañana"
-    ],
-    "hintDisplay": "Sujeto: el frontend / Verbo: integrar (conectar) / Complemento: con la API del servidor / Tiempo: en la mañana",
-    "spanishSentence": "El frontend se integra con la API del servidor en la mañana",
-    "correctSentence": "The frontend integrates with the server API in the morning",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "frontend",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "integrates",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "morning",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "to",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "frontend": "frontend",
-      "integrates": "se integra",
-      "with": "con",
-      "server": "servidor",
-      "api": "API",
-      "in": "en",
-      "morning": "mañana",
-      "at": "a",
-      "on": "en",
-      "to": "a"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el sistema",
-      "Verbo: optimizar",
-      "Complemento: la base de datos",
-      "Tiempo: en la noche"
-    ],
-    "hintDisplay": "Sujeto: el sistema / Verbo: optimizar / Complemento: la base de datos / Tiempo: en la noche",
-    "spanishSentence": "El sistema optimiza la base de datos en la noche",
-    "correctSentence": "The system optimizes the database at night",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "system",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "optimizes",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "system": "sistema",
-      "optimizes": "optimiza",
-      "database": "base de datos",
-      "at": "a",
-      "night": "noche",
-      "in": "en",
-      "on": "sobre",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: no compilar (negación)",
-      "Complemento: el código en el servidor",
-      "Tiempo: en la noche"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: no compilar (negación) / Complemento: el código en el servidor / Tiempo: en la noche",
-    "spanishSentence": "El arquitecto no compila el código en el servidor en la noche",
-    "correctSentence": "The architect does not compile the code on the server at night",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "compile",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "in",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "architect": "arquitecto",
-      "does": "hace/sí",
-      "not": "no",
-      "compile": "compilar",
-      "code": "código",
-      "on": "en",
-      "server": "servidor",
-      "at": "a",
-      "night": "noche",
-      "in": "en"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: integrar",
-      "Complemento: la API con la base de datos",
-      "Tiempo: en la mañana"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: integrar / Complemento: la API con la base de datos / Tiempo: en la mañana",
-    "spanishSentence": "El ingeniero integra la API con la base de datos en la mañana",
-    "correctSentence": "The engineer integrates the API with the database in the morning",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "integrates",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "morning",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "to",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "engineer": "ingeniero",
-      "integrates": "integra",
-      "api": "API",
-      "with": "con",
-      "database": "base de datos",
-      "in": "en",
-      "morning": "mañana",
-      "at": "a",
-      "on": "en",
-      "to": "a"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el sistema",
-      "Verbo: optimizar",
-      "Complemento: la base de datos",
-      "Tiempo: en la noche"
-    ],
-    "hintDisplay": "Sujeto: el sistema / Verbo: optimizar / Complemento: la base de datos / Tiempo: en la noche",
-    "spanishSentence": "El sistema optimiza la base de datos en la noche",
-    "correctSentence": "The system optimizes the database in the night",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "system",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "optimizes",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "system": "sistema",
-      "optimizes": "optimiza",
-      "database": "base de datos",
-      "in": "en",
-      "night": "noche",
-      "at": "a",
-      "on": "en",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: almacenar (en caché)",
-      "Complemento: en la base de datos",
-      "Tiempo: por la noche"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: almacenar (en caché) / Complemento: en la base de datos / Tiempo: por la noche",
-    "spanishSentence": "El arquitecto no almacena en caché en la base de datos por la noche",
-    "correctSentence": "The architect does not cache in the database at night",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "during",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "architect": "arquitecto",
-      "does": "hace",
-      "not": "no",
-      "cache": "almacena en caché",
-      "in": "en",
-      "database": "base de datos",
-      "at": "a",
-      "night": "noche",
-      "on": "en",
-      "during": "durante",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el servidor",
-      "Verbo: no responder",
-      "Complemento: a las consultas de la API",
-      "Tiempo: en la noche"
-    ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: no responder / Complemento: a las consultas de la API / Tiempo: en la noche",
-    "spanishSentence": "El servidor no responde a las consultas de la API en la noche",
-    "correctSentence": "The server does not respond to the API queries at night",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "respond",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "for",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "server": "servidor",
-      "does": "hace/hace",
-      "not": "no",
-      "respond": "responder",
-      "to": "a",
-      "api": "API",
-      "queries": "consultas",
-      "at": "a/en",
-      "night": "noche",
-      "in": "en",
-      "on": "en",
-      "for": "para"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: no autenticar (negación)",
-      "Complemento: en la base de datos",
-      "Tiempo: en la noche"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: no autenticar (negación) / Complemento: en la base de datos / Tiempo: en la noche",
-    "spanishSentence": "El ingeniero no autentica al usuario en la base de datos en la noche",
-    "correctSentence": "The engineer does not authenticate the user in the database at night",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "authenticate",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "user",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "does authenticate",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "engineer": "ingeniero",
-      "does": "hace",
-      "not": "no",
-      "authenticate": "autentica",
-      "user": "usuario",
-      "in": "en",
-      "database": "base de datos",
-      "at": "a",
-      "night": "noche",
-      "on": "en",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: consultar (negación)",
-      "Complemento: la base de datos",
-      "Tiempo: en la noche"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: consultar (negación) / Complemento: la base de datos / Tiempo: en la noche",
-    "spanishSentence": "El desarrollador no consulta la base de datos en la noche",
-    "correctSentence": "The developer does not query the database at night",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "query",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "checks",
+        "text": "suggests",
         "isDistractor": true
       }
     ],
     "translations": {
       "the": "el / la",
-      "developer": "desarrollador",
-      "does": "hace / auxilia",
-      "not": "no",
-      "query": "consulta",
-      "database": "base de datos",
-      "at": "a",
-      "night": "noche",
+      "architect": "arquitecto",
+      "proposes": "propone",
+      "a": "un / una",
+      "new": "nueva",
+      "solution": "solución",
       "in": "en",
-      "on": "en",
-      "checks": "revisa"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el servidor",
-      "Verbo: almacenar",
-      "Complemento: datos en la nube",
-      "Tiempo: ahora"
-    ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: almacenar / Complemento: datos en la nube / Tiempo: ahora",
-    "spanishSentence": "El servidor almacena datos en la nube ahora",
-    "correctSentence": "The server stores data in the cloud now",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "stores",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "data",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "retrieves",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "server": "servidor",
-      "stores": "almacena",
-      "data": "datos",
-      "in": "en",
-      "cloud": "nube",
-      "now": "ahora",
-      "on": "en/sobre",
+      "pipeline": "pipeline",
+      "on": "en / sobre",
       "at": "en",
-      "retrieves": "recupera"
+      "suggests": "sugiere"
     },
     "metadata": {
       "tense": "prepositions",
@@ -1644,14 +1024,13 @@
   },
   {
     "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: no integrar",
-      "Complemento: la API en el servidor",
-      "Tiempo: ayer"
+      "Sujeto: el desarrollador backend",
+      "Verbo: consultar (query)",
+      "Complemento: la base de datos en el servidor"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: no integrar / Complemento: la API en el servidor / Tiempo: ayer",
-    "spanishSentence": "El desarrollador no integró la API en el servidor ayer",
-    "correctSentence": "The developer did not integrate the API on the server yesterday",
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: consultar (query) / Complemento: la base de datos en el servidor",
+    "spanishSentence": "El desarrollador backend consulta la base de datos en el servidor",
+    "correctSentence": "The backend developer queries the database on the server",
     "cards": [
       {
         "id": "c1",
@@ -1660,120 +1039,17 @@
       },
       {
         "id": "c2",
+        "text": "backend",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
         "text": "developer",
         "isDistractor": false
       },
       {
-        "id": "c3",
-        "text": "did",
-        "isDistractor": false
-      },
-      {
         "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "integrate",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "did",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "developer": "desarrollador",
-      "did": "hizo",
-      "not": "no",
-      "integrate": "integrar",
-      "api": "API",
-      "on": "en",
-      "server": "servidor",
-      "yesterday": "ayer",
-      "in": "en",
-      "at": "a"
-    },
-    "metadata": {
-      "tense": "prepositions",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: no poder (habilidad negada) + escalar",
-      "Complemento: la aplicación sin una base de datos",
-      "Tiempo: en producción"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: no poder (habilidad negada) + escalar / Complemento: la aplicación sin una base de datos / Tiempo: en producción",
-    "spanishSentence": "El arquitecto no puede escalar la aplicación sin una base de datos en producción",
-    "correctSentence": "The architect cannot scale the application without a database in production",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "cannot",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "scale",
+        "text": "queries",
         "isDistractor": false
       },
       {
@@ -1783,68 +1059,55 @@
       },
       {
         "id": "c6",
-        "text": "application",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
         "text": "database",
         "isDistractor": false
       },
       {
-        "id": "c10",
-        "text": "in",
+        "id": "c7",
+        "text": "on",
         "isDistractor": false
       },
       {
-        "id": "c11",
-        "text": "production",
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "server",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "at",
+        "text": "in",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "on",
+        "text": "at",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "with",
+        "text": "tests",
         "isDistractor": true
       }
     ],
     "translations": {
       "the": "el/la",
-      "architect": "arquitecto",
-      "cannot": "no puede",
-      "scale": "escalar",
-      "application": "aplicación",
-      "without": "sin",
-      "a": "un/una",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "queries": "consulta",
       "database": "base de datos",
+      "on": "en",
+      "server": "servidor",
       "in": "en",
-      "production": "producción",
-      "at": "en/a",
-      "on": "en/sobre",
-      "with": "con"
+      "at": "en",
+      "tests": "prueba"
     },
     "metadata": {
       "tense": "prepositions",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "software engineering"
@@ -1852,14 +1115,13 @@
   },
   {
     "hints": [
-      "Sujeto: el frontend",
-      "Verbo: compilar (no)",
-      "Complemento: en el servidor",
-      "Tiempo: por la noche"
+      "Sujeto: el desarrollador frontend",
+      "Verbo: estilizar",
+      "Complemento: los botones en la rama"
     ],
-    "hintDisplay": "Sujeto: el frontend / Verbo: compilar (no) / Complemento: en el servidor / Tiempo: por la noche",
-    "spanishSentence": "El frontend no compila en el servidor por la noche",
-    "correctSentence": "The frontend does not compile on the server at night",
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: estilizar / Complemento: los botones en la rama",
+    "spanishSentence": "El desarrollador frontend estiliza los botones en la rama",
+    "correctSentence": "The frontend developer styles the buttons on the branch",
     "cards": [
       {
         "id": "c1",
@@ -1873,42 +1135,37 @@
       },
       {
         "id": "c3",
-        "text": "does",
+        "text": "developer",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "not",
+        "text": "styles",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "compile",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
         "text": "the",
         "isDistractor": false
       },
       {
+        "id": "c6",
+        "text": "buttons",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
         "id": "c8",
-        "text": "server",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "night",
+        "text": "branch",
         "isDistractor": false
       },
       {
@@ -1918,28 +1175,533 @@
       },
       {
         "id": "d2",
-        "text": "during",
+        "text": "at",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "compiles",
+        "text": "designs",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la/los/las",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "styles": "estiliza",
+      "buttons": "botones",
+      "on": "en",
+      "branch": "rama",
+      "in": "en",
+      "at": "en",
+      "designs": "diseña"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Pedro",
+      "Verbo: optimizar",
+      "Complemento: el código en el pipeline"
+    ],
+    "hintDisplay": "Sujeto: Pedro / Verbo: optimizar / Complemento: el código en el pipeline",
+    "spanishSentence": "Pedro no optimiza el código en el pipeline",
+    "correctSentence": "Pedro does not optimize code in the pipeline",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Pedro",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "does",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "optimize",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "optimizes",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "pedro": "Pedro",
+      "does": "hace",
+      "not": "no",
+      "optimize": "optimizar",
+      "code": "código",
+      "in": "en",
+      "the": "el",
+      "pipeline": "pipeline",
+      "on": "en",
+      "at": "en",
+      "optimizes": "optimiza"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: David",
+      "Verbo: fetch (obtener)",
+      "Complemento: datos en el servidor"
+    ],
+    "hintDisplay": "Sujeto: David / Verbo: fetch (obtener) / Complemento: datos en el servidor",
+    "spanishSentence": "David obtiene datos en el servidor",
+    "correctSentence": "David fetches data on the server",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "David",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "fetches",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "data",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "server",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "in",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "from",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "david": "David",
+      "fetches": "obtiene",
+      "data": "datos",
+      "on": "en",
+      "the": "el",
+      "server": "servidor",
+      "at": "en",
+      "in": "en",
+      "from": "desde"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: configurar",
+      "Complemento: en el servidor"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: configurar / Complemento: en el servidor",
+    "spanishSentence": "El ingeniero de DevOps configura en el servidor.",
+    "correctSentence": "The DevOps engineer configures on the server.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "DevOps",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "configures",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "server",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "in",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "deploys",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "configures": "configura",
+      "on": "en",
+      "server": "servidor",
+      "in": "en",
+      "at": "en",
+      "deploys": "despliega"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador frontend",
+      "Verbo: renderizar",
+      "Complemento: componentes en la pipeline"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: renderizar / Complemento: componentes en la pipeline",
+    "spanishSentence": "El desarrollador frontend no renderiza componentes en la pipeline",
+    "correctSentence": "The frontend developer does not render components in the pipeline",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "frontend",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "does",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "render",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "components",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "creates",
         "isDistractor": true
       }
     ],
     "translations": {
       "the": "el/la",
       "frontend": "frontend",
-      "does": "hace",
+      "developer": "desarrollador",
+      "does": "hace (auxiliar)",
       "not": "no",
-      "compile": "compilar",
-      "on": "en",
-      "server": "servidor",
-      "at": "a",
-      "night": "noche",
+      "render": "renderizar",
+      "components": "componentes",
       "in": "en",
-      "during": "durante",
-      "compiles": "compila"
+      "pipeline": "pipeline",
+      "on": "en",
+      "at": "en",
+      "creates": "crea"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Anna",
+      "Verbo: compilar",
+      "Complemento: en la pipeline"
+    ],
+    "hintDisplay": "Sujeto: Anna / Verbo: compilar / Complemento: en la pipeline",
+    "spanishSentence": "Anna compila el código en la pipeline",
+    "correctSentence": "Anna compiles the code in the pipeline",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Anna",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "compiles",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "executes",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "anna": "Anna",
+      "compiles": "compila",
+      "the": "el/la",
+      "code": "código",
+      "in": "en",
+      "pipeline": "pipeline",
+      "on": "en/sobre",
+      "at": "en/a",
+      "executes": "ejecuta"
+    },
+    "metadata": {
+      "tense": "prepositions",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo (the team)",
+      "Verbo: monitorear (monitor)",
+      "Complemento: el código en production (the code in production)",
+      "Preposición clave: 'in' (dentro de, en) vs. 'on' (sobre) vs. 'at' (en un punto específico)"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: monitorear / Complemento: el código en production / Preposición clave: 'in' vs 'on' vs 'at'",
+    "spanishSentence": "El equipo no monitorea el código en production",
+    "correctSentence": "The team doesn't monitor the code in production",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "team",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "doesn't",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "monitor",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "production",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "on",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "at",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "team": "equipo",
+      "doesn't": "no",
+      "monitor": "monitorea",
+      "code": "código",
+      "in": "en",
+      "production": "production",
+      "on": "sobre",
+      "at": "en",
+      "does": "hace"
     },
     "metadata": {
       "tense": "prepositions",

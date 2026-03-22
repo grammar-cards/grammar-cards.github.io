@@ -1,14 +1,13 @@
 [
   {
     "hints": [
-      "Sujeto: el servidor",
-      "Verbo: optimizar",
-      "Complemento: la base de datos",
-      "Tiempo: todos los días"
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: deploy (acción de desplegar)",
+      "Complemento: las aplicaciones nuevas en el servidor de producción"
     ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: optimizar / Complemento: la base de datos / Tiempo: todos los días",
-    "spanishSentence": "¿No optimiza el servidor la base de datos todos los días?",
-    "correctSentence": "Doesn't the server optimize the database every day?",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: deploy (acción de desplegar) / Complemento: las aplicaciones nuevas en el servidor de producción",
+    "spanishSentence": "¿No despliega el ingeniero de DevOps las aplicaciones nuevas en el servidor de producción?",
+    "correctSentence": "Doesn't the DevOps engineer deploy new applications on the production server?",
     "cards": [
       {
         "id": "c1",
@@ -22,56 +21,79 @@
       },
       {
         "id": "c3",
-        "text": "server",
+        "text": "DevOps",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "optimize",
+        "text": "engineer",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "database",
+        "text": "deploy",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "every",
+        "text": "new",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "day",
+        "text": "applications",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "production",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "server",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "deploy",
+        "text": "Does",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "cache",
+        "text": "update",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "always",
+        "text": "at",
         "isDistractor": true
       }
     ],
     "translations": {
       "doesn't": "no",
       "the": "el/la",
-      "server": "servidor",
-      "optimize": "optimizar",
-      "database": "base de datos",
-      "every": "cada/todos los",
-      "day": "día",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
       "deploy": "desplegar",
-      "cache": "caché",
-      "always": "siempre"
+      "new": "nuevas",
+      "applications": "aplicaciones",
+      "on": "en",
+      "production": "producción",
+      "server": "servidor",
+      "does": "hace",
+      "update": "actualizar",
+      "at": "en"
     },
     "metadata": {
       "tense": "present simple",
@@ -83,13 +105,13 @@
   },
   {
     "hints": [
-      "Sujeto: el microservice",
-      "Verbo: cachear (almacenar en caché)",
-      "Complemento: los datos de la API"
+      "Sujeto: el desarrollador (the developer)",
+      "Verbo: deploy (desplegar)",
+      "Complemento: el código a producción (the code to production)"
     ],
-    "hintDisplay": "Sujeto: el microservice / Verbo: cachear (almacenar en caché) / Complemento: los datos de la API",
-    "spanishSentence": "¿No cachea el microservice los datos de la API?",
-    "correctSentence": "Doesn't the microservice cache the API data?",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: deploy / Complemento: el código a producción",
+    "spanishSentence": "¿No despliega el desarrollador el código a producción?",
+    "correctSentence": "Doesn't the developer deploy the code to production?",
     "cards": [
       {
         "id": "c1",
@@ -103,50 +125,61 @@
       },
       {
         "id": "c3",
-        "text": "microservice",
+        "text": "developer",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "cache",
+        "text": "deploy",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "API",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "data",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "production",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "store",
+        "text": "doesn't deploys",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "query",
+        "text": "test",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "server",
+        "text": "from",
         "isDistractor": true
       }
     ],
     "translations": {
-      "doesn't": "¿No",
+      "doesn't": "no",
       "the": "el/la",
-      "microservice": "microservice",
-      "cache": "cachea",
-      "api": "API",
-      "data": "datos",
-      "store": "almacena",
-      "query": "consulta",
-      "server": "servidor"
+      "developer": "desarrollador",
+      "deploy": "desplegar",
+      "code": "código",
+      "to": "a",
+      "production": "producción",
+      "doesn't deploys": "no despliega (incorrecto — doble negación)",
+      "test": "probar",
+      "from": "desde"
     },
     "metadata": {
       "tense": "present simple",
@@ -158,13 +191,13 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: refactorizar",
-      "Complemento: el código del microservice"
+      "Sujeto: el desarrollador backend",
+      "Verbo: migrate (migrar)",
+      "Complemento: la base de datos a la nueva infraestructura"
     ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: refactorizar / Complemento: el código del microservice",
-    "spanishSentence": "¿Refactoriza el equipo de desarrollo el código del microservice?",
-    "correctSentence": "Does the development team refactor the microservice code?",
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: migrate (migrar) / Complemento: la base de datos a la nueva infraestructura",
+    "spanishSentence": "¿Migra el desarrollador backend la base de datos a la nueva infraestructura?",
+    "correctSentence": "Does the backend developer migrate the database to the new infrastructure?",
     "cards": [
       {
         "id": "c1",
@@ -178,37 +211,57 @@
       },
       {
         "id": "c3",
-        "text": "development",
+        "text": "backend",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "team",
+        "text": "developer",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "refactor",
+        "text": "migrate",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "microservice",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "code",
+        "text": "database",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "new",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "infrastructure",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "optimize",
+        "text": "migrates",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "database",
+        "text": "frontend",
         "isDistractor": true
       },
       {
@@ -218,15 +271,17 @@
       }
     ],
     "translations": {
-      "does": "¿refactoriza",
-      "the": "el",
-      "development": "desarrollo",
-      "team": "equipo",
-      "refactor": "refactorizar",
-      "microservice": "microservice",
-      "code": "código",
-      "optimize": "optimizar",
+      "does": "¿Migra",
+      "the": "la/el",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "migrate": "migrar",
       "database": "base de datos",
+      "to": "a",
+      "new": "nueva",
+      "infrastructure": "infraestructura",
+      "migrates": "migra",
+      "frontend": "frontend",
       "deploy": "desplegar"
     },
     "metadata": {
@@ -239,13 +294,203 @@
   },
   {
     "hints": [
-      "Sujeto: la base de datos",
-      "Verbo: almacenar (guardar información)",
-      "Complemento: todos los datos del usuario"
+      "Sujeto: Anna",
+      "Verbo: fetch (obtener)",
+      "Complemento: datos de la API durante el pipeline"
     ],
-    "hintDisplay": "Sujeto: la base de datos / Verbo: almacenar (guardar información) / Complemento: todos los datos del usuario",
-    "spanishSentence": "¿No almacena la base de datos todos los datos del usuario?",
-    "correctSentence": "Doesn't the database store all the user data?",
+    "hintDisplay": "Sujeto: Anna / Verbo: fetch (obtener) / Complemento: datos de la API durante el pipeline",
+    "spanishSentence": "¿Obtiene Anna datos de la API durante el pipeline de CI?",
+    "correctSentence": "Does Anna fetch data from the API during the CI pipeline?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Does",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "Anna",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "fetch",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "data",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "from",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "API",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "during",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "CI",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "get",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "in",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "Is",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "does": "¿obtiene?",
+      "anna": "Anna",
+      "fetch": "obtiene",
+      "data": "datos",
+      "from": "de",
+      "the": "el/la",
+      "api": "API",
+      "during": "durante",
+      "ci": "CI",
+      "pipeline": "pipeline",
+      "get": "obtiene",
+      "in": "en",
+      "is": "¿es?"
+    },
+    "metadata": {
+      "tense": "present simple",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador frontend",
+      "Verbo: display (mostrar)",
+      "Complemento: los componentes de la interfaz de usuario en la pantalla"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: display (mostrar) / Complemento: los componentes de la interfaz de usuario en la pantalla",
+    "spanishSentence": "¿Dónde muestra el desarrollador frontend los componentes?",
+    "correctSentence": "Where does the frontend developer display the components",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Where",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "does",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "frontend",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "display",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "components",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "hide",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "is",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "displays",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "where": "dónde",
+      "does": "hace/auxilia",
+      "the": "el/la/los/las",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "display": "mostrar",
+      "components": "componentes",
+      "hide": "ocultar",
+      "is": "es",
+      "displays": "muestra"
+    },
+    "metadata": {
+      "tense": "present simple",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador frontend",
+      "Verbo: render (presente simple)",
+      "Complemento: componentes en la pantalla"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: render (presente simple) / Complemento: componentes en la pantalla",
+    "spanishSentence": "¿No renderiza el desarrollador frontend los componentes diariamente?",
+    "correctSentence": "Doesn't the frontend developer render components daily?",
     "cards": [
       {
         "id": "c1",
@@ -259,61 +504,56 @@
       },
       {
         "id": "c3",
-        "text": "database",
+        "text": "frontend",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "store",
+        "text": "developer",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "all",
+        "text": "render",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "the",
+        "text": "components",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "user",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "data",
+        "text": "daily",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "query",
+        "text": "renders",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "cache",
+        "text": "create",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "some",
+        "text": "weekly",
         "isDistractor": true
       }
     ],
     "translations": {
-      "doesn't": "¿no",
-      "the": "el/la",
-      "database": "base de datos",
-      "store": "almacena",
-      "all": "todos",
-      "user": "usuario",
-      "data": "datos",
-      "query": "consultar",
-      "cache": "caché",
-      "some": "algunos"
+      "doesn't": "no",
+      "the": "el",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "render": "renderizar",
+      "components": "componentes",
+      "daily": "diariamente",
+      "renders": "renderiza",
+      "create": "crear",
+      "weekly": "semanalmente"
     },
     "metadata": {
       "tense": "present simple",
@@ -325,350 +565,18 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: refactorizar (mejorar/reorganizar)",
-      "Complemento: la API antigua"
+      "Sujeto: el arquitecto (the architect)",
+      "Verbo: planificar (plan)",
+      "Complemento: la arquitectura del sistema (the system architecture)",
+      "Tiempo: cada sprint (every sprint)"
     ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: refactorizar (mejorar/reorganizar) / Complemento: la API antigua",
-    "spanishSentence": "¿Refactoriza el equipo la API antigua?",
-    "correctSentence": "Does the team refactor the old API?",
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: planificar / Complemento: la arquitectura del sistema / Tiempo: cada sprint",
+    "spanishSentence": "¿Planifica el arquitecto la arquitectura del sistema cada sprint?",
+    "correctSentence": "Does the architect plan the system architecture every sprint?",
     "cards": [
       {
         "id": "c1",
         "text": "Does",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "refactor",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "old",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "new",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "does": "¿Refactoriza",
-      "the": "el/la",
-      "team": "equipo",
-      "refactor": "refactoriza",
-      "old": "antigua",
-      "api": "API",
-      "deploy": "desplegar",
-      "new": "nueva",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "present simple",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: refactorizar",
-      "Complemento: la base de datos"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: refactorizar / Complemento: la base de datos",
-    "spanishSentence": "¿Refactoriza el ingeniero la base de datos?",
-    "correctSentence": "Does the engineer refactor the database?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Does",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "refactor",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "rebuild",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "server",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "Did",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "does": "¿hace?",
-      "the": "el",
-      "engineer": "ingeniero",
-      "refactor": "refactoriza",
-      "database": "base de datos",
-      "rebuild": "reconstruye",
-      "server": "servidor",
-      "did": "¿hizo?"
-    },
-    "metadata": {
-      "tense": "present simple",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: compilar",
-      "Complemento: el código fuente para el servidor"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: compilar / Complemento: el código fuente para el servidor",
-    "spanishSentence": "¿Compilamos el código fuente para el servidor?",
-    "correctSentence": "Do we compile the source code for the server?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Do",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "compile",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "source",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "compiling",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "do": "¿hacer?",
-      "we": "nosotros",
-      "compile": "compilar",
-      "the": "el/la",
-      "source": "fuente",
-      "code": "código",
-      "for": "para",
-      "server": "servidor",
-      "deploy": "desplegar",
-      "database": "base de datos",
-      "compiling": "compilando"
-    },
-    "metadata": {
-      "tense": "present simple",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el servidor",
-      "Verbo: desplegar (presente simple)",
-      "Complemento: la aplicación en la nube"
-    ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: desplegar (presente simple) / Complemento: la aplicación en la nube",
-    "spanishSentence": "¿Despliega el servidor la aplicación en la nube?",
-    "correctSentence": "Does the server deploy the application in the cloud?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Does",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "deploy",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "application",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deploys",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "database",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "does": "¿",
-      "the": "el/la/los/las",
-      "server": "servidor",
-      "deploy": "desplegar",
-      "application": "aplicación",
-      "in": "en",
-      "cloud": "nube",
-      "deploys": "despliega",
-      "at": "a",
-      "database": "base de datos"
-    },
-    "metadata": {
-      "tense": "present simple",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: depurar (corregir errores)",
-      "Complemento: la API",
-      "Tiempo: cada día"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: depurar (corregir errores) / Complemento: la API / Tiempo: cada día",
-    "spanishSentence": "¿No depura el arquitecto la API cada día?",
-    "correctSentence": "Doesn't the architect debug the API every day?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Doesn't",
         "isDistractor": false
       },
       {
@@ -683,51 +591,143 @@
       },
       {
         "id": "c4",
-        "text": "debug",
+        "text": "plan",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "API",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "every",
+        "text": "system",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "day",
+        "text": "architecture",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "every",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "sprint",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "deploy",
+        "text": "designs",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "server",
+        "text": "the pipeline",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "cache",
+        "text": "always",
         "isDistractor": true
       }
     ],
     "translations": {
-      "doesn't": "no depura",
+      "does": "¿planifica?",
       "the": "el/la",
       "architect": "arquitecto",
-      "debug": "depurar",
-      "api": "API",
+      "plan": "planificar",
+      "system": "del sistema",
+      "architecture": "arquitectura",
       "every": "cada",
-      "day": "día",
-      "deploy": "desplegar",
-      "server": "servidor",
-      "cache": "caché"
+      "sprint": "sprint",
+      "designs": "diseña",
+      "the pipeline": "el pipeline",
+      "always": "siempre"
+    },
+    "metadata": {
+      "tense": "present simple",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Pedro",
+      "Verbo: display (mostrar)",
+      "Complemento: errores en el pipeline"
+    ],
+    "hintDisplay": "Sujeto: Pedro / Verbo: display (mostrar) / Complemento: errores en el pipeline",
+    "spanishSentence": "¿No muestra Pedro errores en el pipeline?",
+    "correctSentence": "Doesn't Pedro display errors in the pipeline?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Doesn't",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "Pedro",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "display",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "errors",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "show",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "warnings",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "at",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "doesn't": "no muestra",
+      "pedro": "Pedro",
+      "display": "muestra",
+      "errors": "errores",
+      "in": "en",
+      "the": "el/la",
+      "pipeline": "pipeline",
+      "show": "mostrar",
+      "warnings": "advertencias",
+      "at": "a"
     },
     "metadata": {
       "tense": "present simple",
@@ -739,13 +739,14 @@
   },
   {
     "hints": [
-      "Sujeto: el pipeline",
-      "Verbo: ejecutar (acción presente)",
-      "Complemento: los tests automáticos"
+      "Sujeto: el equipo (the team)",
+      "Verbo: build (construir)",
+      "Complemento: nuevas características (new features)",
+      "Tiempo: cada sprint"
     ],
-    "hintDisplay": "Sujeto: el pipeline / Verbo: ejecutar (acción presente) / Complemento: los tests automáticos",
-    "spanishSentence": "¿Ejecuta el pipeline los tests automáticos?",
-    "correctSentence": "Does the pipeline execute the automated tests?",
+    "hintDisplay": "Sujeto: el equipo / Verbo: build (construir) / Complemento: nuevas características / Tiempo: cada sprint",
+    "spanishSentence": "¿Construye el equipo nuevas características cada sprint?",
+    "correctSentence": "Does the team build new features every sprint?",
     "cards": [
       {
         "id": "c1",
@@ -759,55 +760,137 @@
       },
       {
         "id": "c3",
-        "text": "pipeline",
+        "text": "team",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "execute",
+        "text": "build",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "the",
+        "text": "new",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "automated",
+        "text": "features",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "tests",
+        "text": "every",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "sprint",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "compile",
+        "text": "builds",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "manual",
+        "text": "create",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "Did",
+        "text": "components",
         "isDistractor": true
       }
     ],
     "translations": {
-      "does": "¿ejecuta?",
-      "the": "el/la",
+      "does": "¿construye",
+      "the": "el",
+      "team": "equipo",
+      "build": "construir",
+      "new": "nuevas",
+      "features": "características",
+      "every": "cada",
+      "sprint": "sprint",
+      "builds": "construye",
+      "create": "crear",
+      "components": "componentes"
+    },
+    "metadata": {
+      "tense": "present simple",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Juan",
+      "Verbo: planificar (rutina diaria)",
+      "Complemento: el pipeline de CI"
+    ],
+    "hintDisplay": "Sujeto: Juan / Verbo: planificar (rutina diaria) / Complemento: el pipeline de CI",
+    "spanishSentence": "¿Planifica Juan el pipeline de CI?",
+    "correctSentence": "Does Juan plan the CI pipeline?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Does",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "Juan",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "plan",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "CI",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "plans",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "Did",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "the sprint",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "does": "¿Planifica",
+      "juan": "Juan",
+      "plan": "planificar",
+      "the": "el",
+      "ci": "CI",
       "pipeline": "pipeline",
-      "execute": "ejecutar",
-      "automated": "automáticos",
-      "tests": "tests",
-      "compile": "compilar",
-      "manual": "manual",
-      "did": "¿ejecutó?"
+      "plans": "planifica",
+      "did": "¿Planificó",
+      "the sprint": "el sprint"
     },
     "metadata": {
       "tense": "present simple",

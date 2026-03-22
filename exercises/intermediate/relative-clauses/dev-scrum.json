@@ -1,14 +1,598 @@
 [
   {
     "hints": [
-      "Sujeto: el tech lead (líder técnico)",
-      "Verbo: no demostrar (negación + demostrar)",
-      "Complemento: la nueva feature que está en el branch",
-      "Tiempo: en el sprint actual"
+      "Sujeto: el stakeholder (la persona que toma decisiones)",
+      "Verbo: aprobar (dar permiso o consentimiento)",
+      "Complemento: el sprint que se pasó del presupuesto"
     ],
-    "hintDisplay": "Sujeto: el tech lead / Verbo: no demostrar (negación + demostrar) / Complemento: la nueva feature que está en el branch / Tiempo: en el sprint actual",
-    "spanishSentence": "El tech lead no demostró la nueva feature que está en el branch durante este sprint",
-    "correctSentence": "The tech lead didn't demo the new feature that is on the branch during this sprint",
+    "hintDisplay": "Sujeto: el stakeholder (la persona que toma decisiones) / Verbo: aprobar (dar permiso o consentimiento) / Complemento: el sprint que se pasó del presupuesto",
+    "spanishSentence": "El stakeholder que asistió a la reunión no aprobó el sprint que se pasó del presupuesto.",
+    "correctSentence": "The stakeholder who attended the meeting did not approve the sprint that went over budget.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "stakeholder",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "who",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "attended",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "meeting",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "did",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "approve",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "went",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "over",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "budget",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "approved",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "came",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "under",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la/los/las",
+      "stakeholder": "stakeholder",
+      "who": "quien/que",
+      "attended": "asistió",
+      "meeting": "reunión",
+      "did": "hizo (auxiliar del negativo)",
+      "not": "no",
+      "approve": "aprobar",
+      "sprint": "sprint",
+      "that": "que",
+      "went": "pasó",
+      "over": "de más/excedió",
+      "budget": "presupuesto",
+      "which": "cual",
+      "approved": "aprobó",
+      "came": "vino",
+      "under": "bajo"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la ingeniera de QA",
+      "Verbo: validar",
+      "Complemento: los cambios que el desarrollador implementó en el sprint"
+    ],
+    "hintDisplay": "Sujeto: la ingeniera de QA / Verbo: validar / Complemento: los cambios que el desarrollador implementó en el sprint",
+    "spanishSentence": "La ingeniera de QA que validó los cambios implementados en el sprint anterior es competente.",
+    "correctSentence": "The QA engineer who validated the changes implemented in the sprint is competent.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "QA",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "who",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "validated",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "changes",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "implemented",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "is",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "competent",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "verified",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "incompetent",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "during",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "la/el",
+      "qa": "QA",
+      "engineer": "ingeniera",
+      "who": "que",
+      "validated": "validó",
+      "changes": "cambios",
+      "implemented": "implementados",
+      "in": "en",
+      "sprint": "sprint",
+      "is": "es",
+      "competent": "competente",
+      "which": "cual",
+      "verified": "verificó",
+      "incompetent": "incompetente",
+      "during": "durante"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la pasante (the intern)",
+      "Verbo: aprender (learn)",
+      "Complemento: del sprint que se pasó de presupuesto (from the sprint that went over budget)",
+      "Estructura: oración relativa con 'that' (relative clause with 'that')"
+    ],
+    "hintDisplay": "Sujeto: la pasante / Verbo: aprender / Complemento: del sprint que se pasó de presupuesto / Estructura: oración relativa con 'that'",
+    "spanishSentence": "La pasante aprendió del sprint que se pasó de presupuesto.",
+    "correctSentence": "The intern learned from the sprint that went over budget.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "intern",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "learned",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "from",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "went",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "over",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "budget",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "studied",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "exceeded",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "through",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "la/el",
+      "intern": "pasante",
+      "learned": "aprendió",
+      "from": "de",
+      "sprint": "sprint",
+      "that": "que",
+      "went": "fue",
+      "over": "más allá de",
+      "budget": "presupuesto",
+      "which": "cual",
+      "studied": "estudió",
+      "exceeded": "superó",
+      "through": "a través de"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el stakeholder",
+      "Verbo: evaluar (acción)",
+      "Complemento: el sprint que se pasó del presupuesto"
+    ],
+    "hintDisplay": "Sujeto: el stakeholder / Verbo: evaluar (acción) / Complemento: el sprint que se pasó del presupuesto",
+    "spanishSentence": "El stakeholder que evaluamos no aprobó el sprint.",
+    "correctSentence": "The stakeholder whom we evaluated did not approve the sprint.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "stakeholder",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "whom",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "we",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "evaluated",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "did",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "approve",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "who",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "agreed",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "rejected",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "which",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "stakeholder": "stakeholder",
+      "whom": "a quien",
+      "we": "nosotros",
+      "evaluated": "evaluamos",
+      "did": "hizo",
+      "not": "no",
+      "approve": "aprobar",
+      "sprint": "sprint",
+      "who": "quien",
+      "agreed": "acordó",
+      "rejected": "rechazó",
+      "which": "cual"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la ingeniera de QA",
+      "Verbo: reportar",
+      "Complemento: el bug que encontró el desarrollador",
+      "Tiempo: durante el sprint"
+    ],
+    "hintDisplay": "Sujeto: la ingeniera de QA / Verbo: reportar / Complemento: el bug que encontró el desarrollador / Tiempo: durante el sprint",
+    "spanishSentence": "La ingeniera de QA que reportó el bug crítico trabajaba en el sprint pasado.",
+    "correctSentence": "The QA engineer who reported the critical bug worked on the last sprint.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "QA",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "who",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "reported",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "critical",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "bug",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "worked",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "last",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "found",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "serious",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "tested",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "la",
+      "qa": "QA",
+      "engineer": "ingeniera",
+      "who": "que",
+      "reported": "reportó",
+      "critical": "crítico",
+      "bug": "bug",
+      "worked": "trabajaba",
+      "on": "en",
+      "last": "pasado",
+      "sprint": "sprint",
+      "which": "la cual",
+      "found": "encontró",
+      "serious": "grave",
+      "tested": "probó"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el tech lead (quien)",
+      "Verbo: delegar (asignar tareas)",
+      "Complemento: las tareas que encontraron el bug en el sprint"
+    ],
+    "hintDisplay": "Sujeto: el tech lead (quien) / Verbo: delegar (asignar tareas) / Complemento: las tareas que encontraron el bug en el sprint",
+    "spanishSentence": "El tech lead que delegó las tareas encontró el bug.",
+    "correctSentence": "The tech lead who delegated the tasks found the bug.",
     "cards": [
       {
         "id": "c1",
@@ -27,1219 +611,12 @@
       },
       {
         "id": "c4",
-        "text": "didn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "demo",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "feature",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "branch",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "this",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "did",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "shown",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "which",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "tech": "técnico",
-      "lead": "líder",
-      "didn't": "no",
-      "demo": "demostrar",
-      "new": "nueva",
-      "feature": "feature",
-      "that": "que",
-      "is": "está",
-      "on": "en",
-      "branch": "branch",
-      "during": "durante",
-      "this": "este",
-      "sprint": "sprint",
-      "did": "hizo",
-      "shown": "mostrado",
-      "in": "en",
-      "which": "cual"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el scrum master",
-      "Verbo: no puede (habilidad negada) + aprobar",
-      "Complemento: un pull request que tiene bugs",
-      "Tiempo: durante el sprint"
-    ],
-    "hintDisplay": "Sujeto: el scrum master / Verbo: no puede (habilidad negada) + aprobar / Complemento: un pull request que tiene bugs / Tiempo: durante el sprint",
-    "spanishSentence": "El scrum master no puede aprobar un pull request que tiene bugs.",
-    "correctSentence": "The scrum master cannot approve a pull request that has bugs.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "scrum",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "master",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "cannot",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "approve",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "pull",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "request",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "has",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "bugs",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "must",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "merge",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "deploy",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "scrum": "scrum",
-      "master": "máster",
-      "cannot": "no puede",
-      "approve": "aprobar",
-      "a": "un/una",
-      "pull": "pull",
-      "request": "request",
-      "that": "que",
-      "has": "tiene",
-      "bugs": "bugs",
-      "must": "debe",
-      "merge": "fusionar",
-      "which": "cuál",
-      "deploy": "desplegar"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el product owner",
-      "Verbo: no asignar (negación)",
-      "Complemento: tickets que están en el backlog",
-      "Tiempo: durante el sprint"
-    ],
-    "hintDisplay": "Sujeto: el product owner / Verbo: no asignar (negación) / Complemento: tickets que están en el backlog / Tiempo: durante el sprint",
-    "spanishSentence": "El product owner no asigna tickets que están en el backlog durante el sprint",
-    "correctSentence": "The product owner does not assign tickets that are in the backlog during the sprint",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "product",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "owner",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "assign",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "tickets",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "are",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "backlog",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "will",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el / la",
-      "product": "producto",
-      "owner": "propietario / dueño",
-      "does": "hace / hace (auxiliar)",
-      "not": "no",
-      "assign": "asignar",
-      "tickets": "tickets",
-      "that": "que",
-      "are": "están",
-      "in": "en",
-      "backlog": "backlog",
-      "during": "durante",
-      "sprint": "sprint",
-      "which": "cual / que",
-      "deploy": "desplegar",
-      "after": "después",
-      "will": "va a / irá"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: no poder (habilidad negada) + hacer demo",
-      "Complemento: de las features que están en el branch",
-      "Tiempo: durante el standup de hoy"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: no poder (habilidad negada) + hacer demo / Complemento: de las features que están en el branch / Tiempo: durante el standup de hoy",
-    "spanishSentence": "No podemos hacer demo de las features que están en el branch durante el standup de hoy",
-    "correctSentence": "We cannot demo the features that are in the branch during today's standup",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "We",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "cannot",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "demo",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "features",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "are",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "branch",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "today's",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "standup",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "can",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "review",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "on",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "we": "nosotros",
-      "cannot": "no podemos",
-      "demo": "hacer demo",
-      "the": "el/la/los/las",
-      "features": "features",
-      "that": "que",
-      "are": "están",
-      "in": "en",
-      "branch": "branch",
-      "during": "durante",
-      "today's": "de hoy",
-      "standup": "standup",
-      "can": "podemos",
-      "review": "revisar",
-      "which": "cuales",
-      "on": "en"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: poder (habilidad) + revisar",
-      "Complemento: el pull request que tiene bloqueadores",
-      "Tiempo: ahora"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: poder (habilidad) + revisar / Complemento: el pull request que tiene bloqueadores / Tiempo: ahora",
-    "spanishSentence": "El equipo no puede revisar el pull request que tiene bloqueadores ahora",
-    "correctSentence": "The team cannot review the pull request which has blockers now",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "cannot",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "review",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "pull",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "request",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "which",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "has",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "blockers",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "that",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "can",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "merge",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "today",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "team": "equipo",
-      "cannot": "no poder",
-      "review": "revisar",
-      "pull": "pull",
-      "request": "request",
-      "which": "que",
-      "has": "tener",
-      "blockers": "bloqueadores",
-      "now": "ahora",
-      "that": "que",
-      "can": "poder",
-      "merge": "fusionar",
-      "today": "hoy"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo backend",
-      "Verbo: bloquear",
-      "Complemento: una característica crítica que el equipo necesita desplegar",
-      "Tiempo: en este sprint"
-    ],
-    "hintDisplay": "Sujeto: el equipo backend / Verbo: bloquear / Complemento: una característica crítica que el equipo necesita desplegar / Tiempo: en este sprint",
-    "spanishSentence": "El equipo backend bloquea una característica crítica que necesita desplegar en este sprint",
-    "correctSentence": "The backend team blocks a critical feature that it needs to deploy this sprint",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "backend",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "blocks",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "critical",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "feature",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "needs",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "deploy",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "this",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "blocking",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "should",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "released",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el",
-      "backend": "backend",
-      "team": "equipo",
-      "blocks": "bloquea",
-      "a": "una",
-      "critical": "crítica",
-      "feature": "característica",
-      "that": "que",
-      "it": "que",
-      "needs": "necesita",
-      "to": "desplegar",
-      "deploy": "desplegar",
-      "this": "este",
-      "sprint": "sprint",
-      "which": "cuales",
-      "blocking": "bloqueando",
-      "should": "debería",
-      "released": "lanzada"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: asignar",
-      "Complemento: tickets que están en el backlog",
-      "Tiempo: durante el standup"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: asignar / Complemento: tickets que están en el backlog / Tiempo: durante el standup",
-    "spanishSentence": "Asignamos los tickets que están en el backlog durante el standup",
-    "correctSentence": "We assign the tickets that are in the backlog during standup",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "We",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "assign",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "tickets",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "are",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "backlog",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "standup",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "allocate",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "were",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "after",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "we": "nosotros",
-      "assign": "asignar",
-      "the": "el/la/los/las",
-      "tickets": "tickets",
-      "that": "que",
-      "are": "están",
-      "in": "en",
-      "backlog": "backlog",
-      "during": "durante",
-      "standup": "standup",
-      "which": "cual/que",
-      "allocate": "asignar/distribuir",
-      "were": "eran/estaban",
-      "after": "después de"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: lanzar/desplegar (release)",
-      "Complemento: la feature que el product owner pidió",
-      "Tiempo: la semana pasada"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: lanzar/desplegar (release) / Complemento: la feature que el product owner pidió / Tiempo: la semana pasada",
-    "spanishSentence": "Lanzamos la feature que el product owner pidió la semana pasada",
-    "correctSentence": "We released the feature that the product owner requested last week",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "We",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "released",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "feature",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "product",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "owner",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "requested",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "last",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deployed",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "asked",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "next",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "we": "nosotros",
-      "released": "lanzamos",
-      "the": "el/la",
-      "feature": "feature",
-      "that": "que",
-      "product": "producto",
-      "owner": "propietario",
-      "requested": "pidió",
-      "last": "pasada",
-      "week": "semana",
-      "deployed": "desplegamos",
-      "which": "cual",
-      "asked": "solicitó",
-      "next": "próxima"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero de QA",
-      "Verbo: poder (habilidad) + estimar",
-      "Complemento: la velocidad del sprint",
-      "Tiempo: en la retrospectiva"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: poder (habilidad) + estimar / Complemento: la velocidad del sprint / Tiempo: en la retrospectiva",
-    "spanishSentence": "El ingeniero de QA que no puede estimar la velocidad del sprint en la retrospectiva.",
-    "correctSentence": "The QA engineer who cannot estimate the sprint velocity in the retrospective.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "QA",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
         "text": "who",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "cannot",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "estimate",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "velocity",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "retrospective",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "developer",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "calculate",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "standuo",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "qa": "QA",
-      "engineer": "ingeniero",
-      "who": "que",
-      "cannot": "no puede",
-      "estimate": "estimar",
-      "sprint": "sprint",
-      "velocity": "velocidad",
-      "in": "en",
-      "retrospective": "retrospectiva",
-      "could": "podría",
-      "developer": "desarrollador",
-      "calculate": "calcular",
-      "standuo": "standup"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo backend",
-      "Verbo: no priorizar (negación)",
-      "Complemento: los tickets que están en el backlog",
-      "Tiempo: durante el sprint"
-    ],
-    "hintDisplay": "Sujeto: el equipo backend / Verbo: no priorizar (negación) / Complemento: los tickets que están en el backlog / Tiempo: durante el sprint",
-    "spanishSentence": "El equipo backend no prioriza los tickets que están en el backlog durante el sprint",
-    "correctSentence": "The backend team does not prioritize the tickets that are in the backlog during the sprint",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "backend",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "prioritize",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "tickets",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "are",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "backlog",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "complete",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "merge",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "which",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "backend": "backend",
-      "team": "equipo",
-      "does": "hace",
-      "not": "no",
-      "prioritize": "priorizar",
-      "tickets": "tickets",
-      "that": "que",
-      "are": "están",
-      "in": "en",
-      "backlog": "backlog",
-      "during": "durante",
-      "sprint": "sprint",
-      "complete": "completar",
-      "merge": "fusionar",
-      "after": "después",
-      "which": "cual"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero de QA",
-      "Verbo: no poder (habilidad negativa) + estimar",
-      "Complemento: la velocidad del sprint, que es demasiado ambigua",
-      "Tiempo: durante la retrospective"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: no poder (habilidad negativa) + estimar / Complemento: la velocidad del sprint, que es demasiado ambigua / Tiempo: durante la retrospective",
-    "spanishSentence": "El ingeniero de QA no puede estimar la velocidad del sprint que es demasiado ambigua",
-    "correctSentence": "The QA engineer cannot estimate the sprint velocity which is too ambiguous",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "QA",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "cannot",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "estimate",
+        "text": "delegated",
         "isDistractor": false
       },
       {
@@ -1249,734 +626,17 @@
       },
       {
         "id": "c7",
-        "text": "sprint",
+        "text": "tasks",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "velocity",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "which",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "too",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "ambiguous",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "should",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "backlog",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "unclear",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "that",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el / la",
-      "qa": "QA",
-      "engineer": "ingeniero",
-      "cannot": "no puede",
-      "estimate": "estimar",
-      "sprint": "sprint",
-      "velocity": "velocidad",
-      "which": "que",
-      "is": "es",
-      "too": "demasiado",
-      "ambiguous": "ambiguo",
-      "should": "debería",
-      "backlog": "backlog",
-      "unclear": "poco claro",
-      "that": "que"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: estimar (calcular)",
-      "Complemento: los tickets que están en el backlog",
-      "Tiempo: durante el sprint planning"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: estimar (calcular) / Complemento: los tickets que están en el backlog / Tiempo: durante el sprint planning",
-    "spanishSentence": "El equipo estima los tickets que están en el backlog.",
-    "correctSentence": "The team estimates the tickets that are in the backlog.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "estimates",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "tickets",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "are",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "in",
+        "text": "found",
         "isDistractor": false
       },
       {
         "id": "c9",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "backlog",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "calculates",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "were",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "on",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "team": "equipo",
-      "estimates": "estima",
-      "tickets": "tickets",
-      "that": "que",
-      "are": "están",
-      "in": "en",
-      "backlog": "backlog",
-      "which": "cuales/que",
-      "calculates": "calcula",
-      "were": "eran",
-      "on": "sobre"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero de QA",
-      "Verbo: no revisar (negación + acción de examinar código)",
-      "Complemento: el pull request que el desarrollador envió",
-      "Tiempo: durante el sprint"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: no revisar (negación + acción de examinar código) / Complemento: el pull request que el desarrollador envió / Tiempo: durante el sprint",
-    "spanishSentence": "El ingeniero de QA no revisó el pull request que el desarrollador envió durante el sprint",
-    "correctSentence": "The QA engineer did not review the pull request that the developer submitted during the sprint",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "QA",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "did",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "review",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "pull",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "request",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "submitted",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "checked",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "was",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "approved",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "which",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "qa": "QA",
-      "engineer": "ingeniero/a",
-      "did": "hizo",
-      "not": "no",
-      "review": "revisar",
-      "pull": "pull",
-      "request": "request",
-      "that": "que",
-      "developer": "desarrollador",
-      "submitted": "envió",
-      "during": "durante",
-      "sprint": "sprint",
-      "checked": "verificó",
-      "was": "fue",
-      "approved": "aprobó",
-      "which": "cual"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero de QA",
-      "Verbo: estimar (negación)",
-      "Complemento: la velocidad del sprint",
-      "Tiempo: en la retrospectiva"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: estimar (negación) / Complemento: la velocidad del sprint / Tiempo: en la retrospectiva",
-    "spanishSentence": "El ingeniero de QA que no estimó la velocidad del sprint habló en la retrospectiva",
-    "correctSentence": "The QA engineer who did not estimate the sprint velocity spoke in the retrospective",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "QA",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "did",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "estimate",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "velocity",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "spoke",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "retrospective",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "didn't",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "calculate",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "backlog",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "standup",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el / la",
-      "qa": "QA",
-      "engineer": "ingeniero",
-      "who": "que",
-      "did": "hizo / auxiliar pasado",
-      "not": "no",
-      "estimate": "estimar",
-      "sprint": "sprint",
-      "velocity": "velocidad",
-      "spoke": "habló",
-      "in": "en",
-      "retrospective": "retrospectiva",
-      "didn't": "no hizo",
-      "calculate": "calcular",
-      "backlog": "backlog",
-      "standup": "standup"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: refactorizar (mejorar código)",
-      "Complemento: la rama que tiene problemas de rendimiento",
-      "Tiempo: durante el sprint actual"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: refactorizar (mejorar código) / Complemento: la rama que tiene problemas de rendimiento / Tiempo: durante el sprint actual",
-    "spanishSentence": "El desarrollador refactoriza la rama que tiene problemas de rendimiento este sprint.",
-    "correctSentence": "The developer refactors the branch which has performance issues this sprint.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "refactors",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "branch",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "which",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "has",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "performance",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "issues",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "this",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "that",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "deploys",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "bugs",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "last",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "developer": "desarrollador",
-      "refactors": "refactoriza",
-      "branch": "rama",
-      "which": "que",
-      "has": "tiene",
-      "performance": "rendimiento",
-      "issues": "problemas",
-      "this": "este",
-      "sprint": "sprint",
-      "that": "ese",
-      "deploys": "despliega",
-      "bugs": "errores",
-      "last": "último"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: desplegar (negación)",
-      "Complemento: la rama que no pasó la revisión de código",
-      "Tiempo: esta semana"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: desplegar (negación) / Complemento: la rama que no pasó la revisión de código / Tiempo: esta semana",
-    "spanishSentence": "El equipo no desplegará la rama que no pasó la revisión de código esta semana",
-    "correctSentence": "The team won't deploy the branch that didn't pass code review this week",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "deploy",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "branch",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "didn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "pass",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "review",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "this",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "release",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "didn't merge",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "can't",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "team": "equipo",
-      "won't": "no... (futuro negativo)",
-      "deploy": "desplegar",
-      "branch": "rama",
-      "that": "que",
-      "didn't": "no... (pasado negativo)",
-      "pass": "pasar",
-      "code": "código",
-      "review": "revisión",
-      "this": "esta",
-      "week": "semana",
-      "release": "lanzar",
-      "which": "cual",
-      "didn't merge": "no fusionó",
-      "can't": "no puede"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: bloquear",
-      "Complemento: el sprint con un bug crítico",
-      "Tiempo: en la retrospective"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: bloquear / Complemento: el sprint con un bug crítico / Tiempo: en la retrospective",
-    "spanishSentence": "El desarrollador que bloqueó el sprint con un bug crítico habló en la retrospective.",
-    "correctSentence": "The developer who blocked the sprint with a critical bug spoke at the retrospective.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "blocked",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "critical",
         "isDistractor": false
       },
       {
@@ -1985,58 +645,39 @@
         "isDistractor": false
       },
       {
-        "id": "c11",
-        "text": "spoke",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "retrospective",
-        "isDistractor": false
-      },
-      {
         "id": "d1",
-        "text": "that",
+        "text": "which",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "crashed",
+        "text": "assigned",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "in",
+        "text": "discovered",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "severe",
+        "text": "that",
         "isDistractor": true
       }
     ],
     "translations": {
-      "the": "el/la",
-      "developer": "desarrollador",
-      "who": "que",
-      "blocked": "bloqueó",
-      "sprint": "sprint",
-      "with": "con",
-      "a": "un/una",
-      "critical": "crítico",
+      "the": "el / la",
+      "tech": "tech",
+      "lead": "líder",
+      "who": "quien",
+      "delegated": "delegó",
+      "tasks": "tareas",
+      "found": "encontró",
       "bug": "bug",
-      "spoke": "habló",
-      "at": "en",
-      "retrospective": "retrospective",
-      "that": "ese/esa",
-      "crashed": "colapsó",
-      "in": "en",
-      "severe": "grave"
+      "which": "cual",
+      "assigned": "asignó",
+      "discovered": "descubrió",
+      "that": "que"
     },
     "metadata": {
       "tense": "relative clauses",
@@ -2048,14 +689,13 @@
   },
   {
     "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: revisar (relative clause con 'who')",
-      "Complemento: el pull request",
-      "Tiempo: durante el sprint"
+      "Sujeto: el product owner (la persona que delega)",
+      "Verbo: delegar (asignar tareas)",
+      "Complemento: tareas al equipo de desarrollo en el sprint"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: revisar (relative clause con 'who') / Complemento: el pull request / Tiempo: durante el sprint",
-    "spanishSentence": "El desarrollador que revisa el pull request trabaja durante el sprint",
-    "correctSentence": "The developer who reviews the pull request works during the sprint",
+    "hintDisplay": "Sujeto: el product owner / Verbo: delegar / Complemento: tareas al equipo de desarrollo en el sprint",
+    "spanishSentence": "El product owner que delegó tareas está satisfecho.",
+    "correctSentence": "The product owner who delegated tasks is satisfied.",
     "cards": [
       {
         "id": "c1",
@@ -2064,52 +704,37 @@
       },
       {
         "id": "c2",
-        "text": "developer",
+        "text": "product",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "who",
+        "text": "owner",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "reviews",
+        "text": "who",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "the",
+        "text": "delegated",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "pull",
+        "text": "tasks",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "request",
+        "text": "is",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "works",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "sprint",
+        "text": "satisfied",
         "isDistractor": false
       },
       {
@@ -2119,34 +744,33 @@
       },
       {
         "id": "d2",
-        "text": "tests",
+        "text": "assigned",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "after",
+        "text": "happy",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "deploys",
+        "text": "that",
         "isDistractor": true
       }
     ],
     "translations": {
-      "the": "el/la",
-      "developer": "desarrollador",
-      "who": "que",
-      "reviews": "revisa",
-      "pull": "pull",
-      "request": "request",
-      "works": "trabaja",
-      "during": "durante",
-      "sprint": "sprint",
-      "which": "que/cual",
-      "tests": "prueba",
-      "after": "después",
-      "deploys": "despliega"
+      "the": "el",
+      "product": "producto",
+      "owner": "propietario",
+      "who": "quien",
+      "delegated": "delegó",
+      "tasks": "tareas",
+      "is": "está",
+      "satisfied": "satisfecho",
+      "which": "cual",
+      "assigned": "asignó",
+      "happy": "feliz",
+      "that": "que"
     },
     "metadata": {
       "tense": "relative clauses",
@@ -2159,13 +783,12 @@
   {
     "hints": [
       "Sujeto: el scrum master",
-      "Verbo: revisar (en contexto de relative clause)",
-      "Complemento: pull requests que los desarrolladores envían",
-      "Tiempo: durante cada sprint"
+      "Verbo: organizar",
+      "Complemento: la reunión donde decidimos la arquitectura"
     ],
-    "hintDisplay": "Sujeto: el scrum master / Verbo: revisar (en contexto de relative clause) / Complemento: pull requests que los desarrolladores envían / Tiempo: durante cada sprint",
-    "spanishSentence": "El scrum master revisa los pull requests que los desarrolladores envían durante cada sprint",
-    "correctSentence": "The scrum master reviews the pull requests that developers submit during each sprint",
+    "hintDisplay": "Sujeto: el scrum master / Verbo: organizar / Complemento: la reunión donde decidimos la arquitectura",
+    "spanishSentence": "El scrum master que organiza la reunión donde decidimos la arquitectura es muy eficiente.",
+    "correctSentence": "The scrum master who organizes the meeting where we decided the architecture is very efficient.",
     "cards": [
       {
         "id": "c1",
@@ -2184,72 +807,82 @@
       },
       {
         "id": "c4",
-        "text": "reviews",
+        "text": "who",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "the",
+        "text": "organizes",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "pull",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "requests",
+        "text": "meeting",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "that",
+        "text": "where",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "developers",
+        "text": "we",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "submit",
+        "text": "decided",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "during",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c12",
-        "text": "each",
+        "text": "architecture",
         "isDistractor": false
       },
       {
         "id": "c13",
-        "text": "sprint",
+        "text": "is",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "very",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "efficient",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "approves",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
         "text": "which",
         "isDistractor": true
       },
       {
+        "id": "d2",
+        "text": "manages",
+        "isDistractor": true
+      },
+      {
         "id": "d3",
-        "text": "after",
+        "text": "when",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "merge",
+        "text": "productive",
         "isDistractor": true
       }
     ],
@@ -2257,19 +890,20 @@
       "the": "el/la",
       "scrum": "scrum",
       "master": "master",
-      "reviews": "revisa",
-      "pull": "pull",
-      "requests": "requests",
-      "that": "que",
-      "developers": "desarrolladores",
-      "submit": "envían",
-      "during": "durante",
-      "each": "cada",
-      "sprint": "sprint",
-      "approves": "aprueba",
-      "which": "el cual",
-      "after": "después",
-      "merge": "fusiona"
+      "who": "que (persona)",
+      "organizes": "organiza",
+      "meeting": "reunión",
+      "where": "donde",
+      "we": "nosotros",
+      "decided": "decidimos",
+      "architecture": "arquitectura",
+      "is": "es",
+      "very": "muy",
+      "efficient": "eficiente",
+      "which": "que (cosa)",
+      "manages": "gestiona",
+      "when": "cuando",
+      "productive": "productivo"
     },
     "metadata": {
       "tense": "relative clauses",
@@ -2281,33 +915,131 @@
   },
   {
     "hints": [
-      "Sujeto: el tech lead (la persona que dirige el equipo técnico)",
-      "Verbo: merge (fusionar código de una rama)",
-      "Complemento: el pull request que tiene aprobaciones",
-      "Tiempo: durante el sprint"
+      "Sujeto: Julia",
+      "Verbo: diseñar",
+      "Complemento: la arquitectura que decidimos en la reunión"
     ],
-    "hintDisplay": "Sujeto: el tech lead / Verbo: merge (fusionar código) / Complemento: el pull request que tiene aprobaciones / Tiempo: durante el sprint",
-    "spanishSentence": "El tech lead fusiona el pull request que tiene aprobaciones durante el sprint",
-    "correctSentence": "The tech lead merges the pull request that has approvals during the sprint",
+    "hintDisplay": "Sujeto: Julia / Verbo: diseñar / Complemento: la arquitectura que decidimos en la reunión",
+    "spanishSentence": "Julia diseñó la arquitectura que decidimos en la reunión",
+    "correctSentence": "Julia designed the architecture that we decided in the meeting",
     "cards": [
       {
         "id": "c1",
-        "text": "The",
+        "text": "Julia",
         "isDistractor": false
       },
       {
         "id": "c2",
-        "text": "tech",
+        "text": "designed",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "lead",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "merges",
+        "text": "architecture",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "we",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "decided",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "meeting",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "deployed",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "discussed",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "julia": "Julia",
+      "designed": "diseñó",
+      "the": "la",
+      "architecture": "arquitectura",
+      "that": "que",
+      "we": "nosotros",
+      "decided": "decidimos",
+      "in": "en",
+      "meeting": "reunión",
+      "which": "cual",
+      "deployed": "desplegó",
+      "discussed": "discutimos"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Juan",
+      "Verbo: clarificar (no negación)",
+      "Complemento: el bug que el developer encontró",
+      "Cláusula relativa: 'que' para cosa/objeto"
+    ],
+    "hintDisplay": "Sujeto: Juan / Verbo: clarificar / Complemento: el bug que el developer encontró / Cláusula relativa: 'que' para cosa/objeto",
+    "spanishSentence": "Juan no aclaró el bug que el developer encontró.",
+    "correctSentence": "Juan did not clarify the bug that the developer found.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Juan",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "did",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "clarify",
         "isDistractor": false
       },
       {
@@ -2317,47 +1049,32 @@
       },
       {
         "id": "c6",
-        "text": "pull",
+        "text": "bug",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "request",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
         "text": "that",
         "isDistractor": false
       },
       {
-        "id": "c9",
-        "text": "has",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "approvals",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
+        "id": "c8",
         "text": "the",
         "isDistractor": false
       },
       {
-        "id": "c13",
-        "text": "sprint",
+        "id": "c9",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "found",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "rejects",
+        "text": "explained",
         "isDistractor": true
       },
       {
@@ -2367,31 +1084,1054 @@
       },
       {
         "id": "d3",
-        "text": "lacked",
+        "text": "who",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "after",
+        "text": "resolved",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "juan": "Juan",
+      "did": "hizo",
+      "not": "no",
+      "clarify": "aclarar",
+      "the": "el/la",
+      "bug": "bug",
+      "that": "que",
+      "developer": "developer",
+      "found": "encontró",
+      "explained": "explicar",
+      "which": "cual",
+      "who": "quien",
+      "resolved": "resolver"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Carlos",
+      "Verbo: refactorizar (mejorar el código)",
+      "Complemento: el módulo de autenticación que causó problemas en el sprint anterior"
+    ],
+    "hintDisplay": "Sujeto: Carlos / Verbo: refactorizar (mejorar el código) / Complemento: el módulo de autenticación que causó problemas en el sprint anterior",
+    "spanishSentence": "Carlos refactorizó el módulo de autenticación que causó problemas.",
+    "correctSentence": "Carlos refactored the authentication module that caused problems.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Carlos",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "refactored",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "authentication",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "module",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "caused",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "problems",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "redesigned",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "deployment",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "created",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "carlos": "Carlos",
+      "refactored": "refactorizó",
+      "the": "el",
+      "authentication": "autenticación",
+      "module": "módulo",
+      "that": "que",
+      "caused": "causó",
+      "problems": "problemas",
+      "which": "cual",
+      "redesigned": "rediseñó",
+      "deployment": "despliegue",
+      "created": "creó"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: deploy (desplegar)",
+      "Complemento: la característica que pasó la revisión de código"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: deploy (desplegar) / Complemento: la característica que pasó la revisión de código",
+    "spanishSentence": "El desarrollador que desplegó la característica que pasó la revisión de código.",
+    "correctSentence": "The developer who deployed the feature that passed code review.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "who",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "deployed",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "feature",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "passed",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "review",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "delivered",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "failed",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "merge",
         "isDistractor": true
       }
     ],
     "translations": {
       "the": "el/la",
-      "tech": "técnico",
-      "lead": "líder",
-      "merges": "fusiona",
-      "pull": "pull",
-      "request": "request",
+      "developer": "desarrollador",
+      "who": "quien/que",
+      "deployed": "desplegó",
+      "feature": "característica",
       "that": "que",
-      "has": "tiene",
-      "approvals": "aprobaciones",
-      "during": "durante",
+      "passed": "pasó",
+      "code": "código",
+      "review": "revisión",
+      "which": "el cual/la cual",
+      "delivered": "entregó",
+      "failed": "falló",
+      "merge": "fusión"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el stakeholder (persona/rol)",
+      "Verbo: question (preguntar)",
+      "Complemento: el sprint que excedió el presupuesto",
+      "Cláusula relativa: that / which"
+    ],
+    "hintDisplay": "Sujeto: el stakeholder / Verbo: question (preguntar) / Complemento: el sprint que excedió el presupuesto / Cláusula relativa: that / which",
+    "spanishSentence": "El stakeholder cuestionó el sprint que excedió el presupuesto.",
+    "correctSentence": "The stakeholder questioned the sprint that exceeded budget.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "stakeholder",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "questioned",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "exceeded",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "budget",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "surpassed",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "challenged",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "the scope",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el / la",
+      "stakeholder": "stakeholder",
+      "questioned": "cuestionó",
       "sprint": "sprint",
-      "rejects": "rechaza",
-      "which": "que",
-      "lacked": "carecía",
-      "after": "después"
+      "that": "que",
+      "exceeded": "excedió",
+      "budget": "presupuesto",
+      "which": "que / el cual",
+      "surpassed": "superó",
+      "challenged": "desafió",
+      "the scope": "el alcance"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el scrum master (que es la persona en una oración relativa)",
+      "Verbo: track (seguir, monitorear)",
+      "Complemento: el sprint que excedió el presupuesto",
+      "Tipo de oración relativa: usa 'who' para la persona (scrum master) y 'that' para la cosa (sprint)"
+    ],
+    "hintDisplay": "Sujeto: el scrum master / Verbo: track / Complemento: el sprint que excedió el presupuesto / Tipo de oración relativa: who + that",
+    "spanishSentence": "El scrum master que track el sprint que excedió el presupuesto es competente",
+    "correctSentence": "The scrum master who tracks the sprint that exceeded budget is competent",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "scrum",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "master",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "who",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "tracks",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "exceeded",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "budget",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "is",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "competent",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "tracking",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "overran",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "organized",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "scrum": "scrum",
+      "master": "master",
+      "who": "quien",
+      "tracks": "monitorea",
+      "sprint": "sprint",
+      "that": "que",
+      "exceeded": "excedió",
+      "budget": "presupuesto",
+      "is": "es",
+      "competent": "competente",
+      "which": "cual",
+      "tracking": "monitoreando",
+      "overran": "rebasó",
+      "organized": "organizó"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la ingeniera de QA",
+      "Verbo: documentar",
+      "Complemento: los bugs que el desarrollador encontró en el sprint",
+      "Estructura: oración con cláusula relativa usando 'que'"
+    ],
+    "hintDisplay": "Sujeto: la ingeniera de QA / Verbo: documentar / Complemento: los bugs que el desarrollador encontró en el sprint",
+    "spanishSentence": "La ingeniera de QA que documenta los bugs que encontró el desarrollador.",
+    "correctSentence": "The QA engineer who documents the bugs that the developer found.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "QA",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "who",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "documents",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "bugs",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "found",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "reported",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "analyst",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "discovered",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la/los/las",
+      "qa": "aseguramiento de calidad",
+      "engineer": "ingeniera",
+      "who": "que (para personas)",
+      "documents": "documenta",
+      "bugs": "bugs",
+      "that": "que (para cosas)",
+      "developer": "desarrollador",
+      "found": "encontró",
+      "which": "que (para cosas, incorrecto aquí para persona)",
+      "reported": "reportó",
+      "analyst": "analista",
+      "discovered": "descubrió"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Julia",
+      "Verbo: automatizar (negación)",
+      "Complemento: los procesos repetitivos que ralentizan el sprint",
+      "Tiempo: omitido (presente general)"
+    ],
+    "hintDisplay": "Sujeto: Julia / Verbo: automatizar (negación) / Complemento: los procesos repetitivos que ralentizan el sprint",
+    "spanishSentence": "Julia no automatiza los procesos repetitivos que ralentizan el sprint.",
+    "correctSentence": "Julia doesn't automate the repetitive processes that slow the sprint.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Julia",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "doesn't",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "automate",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "repetitive",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "processes",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "slow",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "sprint",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "speeds",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "doesn't",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "delegate",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "julia": "Julia",
+      "doesn't": "no",
+      "automate": "automatizar",
+      "the": "los/las",
+      "repetitive": "repetitivos",
+      "processes": "procesos",
+      "that": "que",
+      "slow": "ralentizan",
+      "sprint": "sprint",
+      "which": "cuales",
+      "speeds": "acelera",
+      "delegate": "delega"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: brainstorm (lluvia de ideas)",
+      "Complemento: soluciones para el sprint que se pasó de presupuesto"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: brainstorm (lluvia de ideas) / Complemento: soluciones para el sprint que se pasó de presupuesto",
+    "spanishSentence": "El equipo que hizo brainstorm encontró soluciones innovadoras.",
+    "correctSentence": "The team that brainstormed found innovative solutions.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "team",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "that",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "brainstormed",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "found",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "innovative",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "solutions",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "discovered",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "creative",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "discussed",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "team": "equipo",
+      "that": "que",
+      "brainstormed": "hizo brainstorm",
+      "found": "encontró",
+      "innovative": "innovadoras",
+      "solutions": "soluciones",
+      "which": "cual",
+      "discovered": "descubrió",
+      "creative": "creativas",
+      "discussed": "discutió"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Miguel",
+      "Verbo: arreglar (fix)",
+      "Complemento: el bug que encontramos en el sprint anterior"
+    ],
+    "hintDisplay": "Sujeto: Miguel / Verbo: arreglar (fix) / Complemento: el bug que encontramos en el sprint anterior",
+    "spanishSentence": "Miguel es quien arregló el bug que encontramos.",
+    "correctSentence": "Miguel is the one who fixed the bug we found.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Miguel",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "one",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "who",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "fixed",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "bug",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "we",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "found",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "broke",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "that",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "solved",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "miguel": "Miguel",
+      "is": "es",
+      "the": "el",
+      "one": "uno",
+      "who": "quien",
+      "fixed": "arregló",
+      "bug": "bug",
+      "we": "nosotros",
+      "found": "encontramos",
+      "which": "cual",
+      "broke": "rompió",
+      "that": "que",
+      "solved": "resolvió"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: push (empujar/hacer push)",
+      "Complemento: código que arregla un bug crítico encontrado en el sprint"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: push (empujar/hacer push) / Complemento: código que arregla un bug crítico encontrado en el sprint",
+    "spanishSentence": "El desarrollador que encontró el bug crítico hizo push del código.",
+    "correctSentence": "The developer who found the critical bug pushed the code.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "who",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "found",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "critical",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "bug",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "pushed",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "pulled",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "merged",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "fixed",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "el/la",
+      "developer": "desarrollador",
+      "who": "quien",
+      "found": "encontró",
+      "critical": "crítico",
+      "bug": "bug",
+      "pushed": "hizo push",
+      "code": "código",
+      "which": "cual",
+      "pulled": "hizo pull",
+      "merged": "fusionó",
+      "fixed": "arregló"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la pasante (the intern)",
+      "Verbo: asistir (to assist)",
+      "Complemento: en la reunión donde decidimos la arquitectura (in the meeting where we decided the architecture)",
+      "Estructura: oración con cláusula relativa introducida por 'where'"
+    ],
+    "hintDisplay": "Sujeto: la pasante / Verbo: asistir / Complemento: en la reunión donde decidimos la arquitectura / Estructura: oración con cláusula relativa 'where'",
+    "spanishSentence": "La pasante asistió en la reunión donde decidimos la arquitectura.",
+    "correctSentence": "The intern assisted in the meeting where we decided the architecture.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "intern",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "assisted",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "meeting",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "where",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "we",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "decided",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "architecture",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "which",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "helped",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "sprint",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "who",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "the": "la/el",
+      "intern": "pasante",
+      "assisted": "asistió",
+      "in": "en",
+      "meeting": "reunión",
+      "where": "donde",
+      "we": "nosotros",
+      "decided": "decidimos",
+      "architecture": "arquitectura",
+      "which": "cual",
+      "helped": "ayudó",
+      "sprint": "sprint",
+      "who": "quien"
     },
     "metadata": {
       "tense": "relative clauses",

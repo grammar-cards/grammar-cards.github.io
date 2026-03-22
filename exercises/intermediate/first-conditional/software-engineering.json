@@ -1,14 +1,14 @@
 [
   {
     "hints": [
-      "Sujeto: nosotros",
-      "Verbo: integrar (acción principal) + no lograr (negación con modal)",
-      "Complemento: la API con el microservice",
-      "Tiempo: si no validamos el schema (condición futura)"
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: deploy (desplegar)",
+      "Complemento: la nueva versión al servidor de producción",
+      "Tiempo: si los tests pasan"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: integrar (acción principal) + no lograr (negación con modal) / Complemento: la API con el microservice / Tiempo: si no validamos el schema (condición futura)",
-    "spanishSentence": "Si no validamos el schema, no podremos integrar la API con el microservice.",
-    "correctSentence": "If we do not validate the schema, we will not be able to integrate the API with the microservice.",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: deploy (desplegar) / Complemento: la nueva versión al servidor de producción / Tiempo: si los tests pasan",
+    "spanishSentence": "Si los tests pasan, el ingeniero de DevOps desplegará la nueva versión al servidor de producción.",
+    "correctSentence": "If the tests pass, the DevOps engineer will deploy the new version to production.",
     "cards": [
       {
         "id": "c1",
@@ -17,32 +17,32 @@
       },
       {
         "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "do",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "validate",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
         "text": "the",
         "isDistractor": false
       },
       {
+        "id": "c3",
+        "text": "tests",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "pass",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "DevOps",
+        "isDistractor": false
+      },
+      {
         "id": "c7",
-        "text": "schema",
+        "text": "engineer",
         "isDistractor": false
       },
       {
@@ -52,52 +52,530 @@
       },
       {
         "id": "c9",
-        "text": "be",
+        "text": "deploy",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "able",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "to",
+        "text": "new",
         "isDistractor": false
       },
       {
         "id": "c12",
-        "text": "integrate",
+        "text": "version",
         "isDistractor": false
       },
       {
         "id": "c13",
-        "text": "API",
+        "text": "to",
         "isDistractor": false
       },
       {
         "id": "c14",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "microservice",
+        "text": "production",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "can",
+        "text": "would",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "verify",
+        "text": "fail",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "endpoint",
+        "text": "old",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "uploaded",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la",
+      "tests": "tests",
+      "pass": "pasan",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "will": "va a",
+      "deploy": "desplegar",
+      "new": "nueva",
+      "version": "versión",
+      "to": "a",
+      "production": "producción",
+      "would": "sería",
+      "fail": "fallan",
+      "old": "antigua",
+      "uploaded": "subir"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador backend",
+      "Verbo: migrar (cambiar a)",
+      "Complemento: la base de datos a una nueva arquitectura",
+      "Tiempo: si la startup recibe financiación"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: migrar (cambiar a) / Complemento: la base de datos a una nueva arquitectura / Tiempo: si la startup recibe financiación",
+    "spanishSentence": "Si la startup recibe financiación, el desarrollador backend migrará la base de datos a una nueva arquitectura.",
+    "correctSentence": "If the startup receives funding, the backend developer will migrate the database to a new architecture.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "startup",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "receives",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "funding",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "backend",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "migrate",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "database",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "a",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "new",
+        "isDistractor": false
+      },
+      {
+        "id": "c16",
+        "text": "architecture",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "migrates",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "money",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "shall",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "transfer",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la",
+      "startup": "startup",
+      "receives": "recibe",
+      "funding": "financiación",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "will": "va a",
+      "migrate": "migrar",
+      "database": "base de datos",
+      "to": "a",
+      "new": "nueva",
+      "architecture": "arquitectura",
+      "migrates": "migra",
+      "money": "dinero",
+      "shall": "deberá",
+      "transfer": "transferir"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Miguel",
+      "Verbo: mostrar (will + display)",
+      "Complemento: los resultados del código en la pantalla"
+    ],
+    "hintDisplay": "Sujeto: Miguel / Verbo: mostrar (will + display) / Complemento: los resultados del código en la pantalla",
+    "spanishSentence": "Si Miguel optimiza el algoritmo, mostrará los resultados del código en la pantalla.",
+    "correctSentence": "If Miguel optimizes the algorithm, he will display the code results on screen.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "Miguel",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "optimizes",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "algorithm",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "he",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "display",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "results",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "on",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "screen",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "will",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "show",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "improves",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "in",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "miguel": "Miguel",
+      "optimizes": "optimiza",
+      "the": "el/la",
+      "algorithm": "algoritmo",
+      "he": "él",
+      "will": "va a",
+      "display": "mostrar",
+      "code": "código",
+      "results": "resultados",
+      "on": "en",
+      "screen": "pantalla",
+      "show": "mostrar",
+      "improves": "mejora",
+      "in": "en"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador backend",
+      "Verbo: cachear (acción futura)",
+      "Complemento: los datos de usuario"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: cachear (acción futura) / Complemento: los datos de usuario",
+    "spanishSentence": "Si el backend developer cachea los datos de usuario, la aplicación funcionará más rápidamente",
+    "correctSentence": "If the backend developer caches user data, the application will run faster",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "backend",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "caches",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "user",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "data",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "application",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "run",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "faster",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "caching",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "slower",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "loads",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "caches": "cachea",
+      "user": "usuario",
+      "data": "datos",
+      "application": "aplicación",
+      "will": "va a",
+      "run": "funcionar",
+      "faster": "más rápidamente",
+      "caching": "cachear (sustantivo)",
+      "would": "sería",
+      "slower": "más lentamente",
+      "loads": "cargar"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Maria",
+      "Verbo: style (diseñar/estilizar)",
+      "Complemento: el componente de forma diferente"
+    ],
+    "hintDisplay": "Sujeto: Maria / Verbo: style (diseñar/estilizar) / Complemento: el componente de forma diferente",
+    "spanishSentence": "Si los tests pasan, Maria estilizará el componente de forma diferente.",
+    "correctSentence": "If the tests pass, Maria will style the component differently.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "tests",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "pass",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "Maria",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "style",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "component",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "differently",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "styled",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "passes",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "styling",
         "isDistractor": true
       },
       {
@@ -108,24 +586,133 @@
     ],
     "translations": {
       "if": "si",
-      "we": "nosotros",
-      "do": "hacemos/validamos",
-      "not": "no",
-      "validate": "validamos",
       "the": "el/la",
-      "schema": "schema",
-      "will": "irá/podremos",
-      "be": "ser",
-      "able": "capaces",
-      "to": "a",
-      "integrate": "integrar",
-      "api": "API",
-      "with": "con",
-      "microservice": "microservice",
-      "can": "poder",
-      "verify": "verificar",
-      "endpoint": "endpoint",
+      "tests": "tests",
+      "pass": "pasar",
+      "maria": "Maria",
+      "will": "volverá a",
+      "style": "estilizar",
+      "component": "componente",
+      "differently": "de forma diferente",
+      "styled": "estilizado",
+      "passes": "pasa",
+      "styling": "estilizando",
       "deploy": "desplegar"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el architect",
+      "Verbo: evaluar (acción futura)",
+      "Complemento: la arquitectura del sistema"
+    ],
+    "hintDisplay": "Sujeto: el architect / Verbo: evaluar (acción futura) / Complemento: la arquitectura del sistema",
+    "spanishSentence": "Si los tests pasan, el architect no evaluará la arquitectura del sistema.",
+    "correctSentence": "If the tests pass, the architect will not evaluate the system architecture.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "tests",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "pass",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "architect",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "evaluate",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "system",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "architecture",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "assess",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "won't",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "failed",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "design",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la",
+      "tests": "tests",
+      "pass": "pasen",
+      "architect": "architect",
+      "will": "va a",
+      "not": "no",
+      "evaluate": "evaluar",
+      "system": "sistema",
+      "architecture": "arquitectura",
+      "assess": "evaluar",
+      "won't": "no va a",
+      "failed": "fallaron",
+      "design": "diseño"
     },
     "metadata": {
       "tense": "first conditional",
@@ -137,14 +724,157 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: no optimizar (negación) + mejorar (improvement en resultado)",
-      "Complemento: la pipeline de deployment",
-      "Tiempo: si no se realiza la acción (condición futura)"
+      "Sujeto: Julia",
+      "Verbo: autenticar (futuro probable)",
+      "Complemento: los usuarios con un token seguro"
     ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: no optimizar + mejorar / Complemento: la pipeline de deployment / Tiempo: condición futura",
-    "spanishSentence": "Si el equipo de DevOps no optimiza la pipeline, no mejorará el deployment.",
-    "correctSentence": "If the DevOps team does not optimize the pipeline, deployment will not improve.",
+    "hintDisplay": "Sujeto: Julia / Verbo: autenticar (futuro probable) / Complemento: los usuarios con un token seguro",
+    "spanishSentence": "Si Julia no autentica los usuarios con un token seguro, la aplicación no será segura.",
+    "correctSentence": "If Julia does not authenticate the users with a secure token, the application will not be secure.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "Julia",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "does",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "authenticate",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "users",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "with",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "a",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "secure",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "token",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "application",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c16",
+        "text": "be",
+        "isDistractor": false
+      },
+      {
+        "id": "c17",
+        "text": "secure",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "authorizes",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "validates",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "encrypts",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "verifies",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "julia": "Julia",
+      "does": "hace",
+      "not": "no",
+      "authenticate": "autentica",
+      "the": "los/la",
+      "users": "usuarios",
+      "with": "con",
+      "a": "un",
+      "secure": "seguro",
+      "token": "token",
+      "application": "aplicación",
+      "will": "será",
+      "be": "ser",
+      "authorizes": "autoriza",
+      "validates": "valida",
+      "encrypts": "cifra",
+      "verifies": "verifica"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: automatizar (futuro con will)",
+      "Complemento: los despliegues repetitivos"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: automatizar (futuro con will) / Complemento: los despliegues repetitivos",
+    "spanishSentence": "Si el ingeniero de DevOps no automatiza los despliegues repetitivos, el equipo perderá tiempo valioso.",
+    "correctSentence": "If the DevOps engineer does not automate repetitive deployments, the team will lose valuable time.",
     "cards": [
       {
         "id": "c1",
@@ -163,7 +893,7 @@
       },
       {
         "id": "c4",
-        "text": "team",
+        "text": "engineer",
         "isDistractor": false
       },
       {
@@ -178,57 +908,67 @@
       },
       {
         "id": "c7",
-        "text": "optimize",
+        "text": "automate",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "the",
+        "text": "repetitive",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "pipeline",
+        "text": "deployments",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "deployment",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "will",
+        "text": "team",
         "isDistractor": false
       },
       {
         "id": "c12",
-        "text": "not",
+        "text": "will",
         "isDistractor": false
       },
       {
         "id": "c13",
-        "text": "improve",
+        "text": "lose",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "valuable",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "time",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "optimizes",
+        "text": "automates",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "improves",
+        "text": "will",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "can",
+        "text": "scripts",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "should",
+        "text": "won't",
         "isDistractor": true
       }
     ],
@@ -236,18 +976,20 @@
       "if": "si",
       "the": "el/la",
       "devops": "DevOps",
-      "team": "equipo",
-      "does": "hace/hace (auxiliar)",
+      "engineer": "ingeniero",
+      "does": "hace",
       "not": "no",
-      "optimize": "optimizar",
-      "pipeline": "pipeline",
-      "deployment": "deployment",
-      "will": "va a/irá",
-      "improve": "mejorar",
-      "optimizes": "optimiza",
-      "improves": "mejora",
-      "can": "puede",
-      "should": "debería"
+      "automate": "automatizar",
+      "repetitive": "repetitivos",
+      "deployments": "despliegues",
+      "team": "equipo",
+      "will": "va a",
+      "lose": "perder",
+      "valuable": "valioso",
+      "time": "tiempo",
+      "automates": "automatiza",
+      "scripts": "scripts",
+      "won't": "no va a"
     },
     "metadata": {
       "tense": "first conditional",
@@ -259,14 +1001,13 @@
   },
   {
     "hints": [
-      "Sujeto: el microservice",
-      "Verbo: escalar (will scale)",
-      "Complemento: bajo carga de tráfico pesada",
-      "Tiempo: si implementamos un buen cache"
+      "Sujeto: el equipo",
+      "Verbo: configurar (acción futura condicional)",
+      "Complemento: el servidor de producción correctamente"
     ],
-    "hintDisplay": "Sujeto: el microservice / Verbo: escalar (will scale) / Complemento: bajo carga de tráfico pesada / Tiempo: si implementamos un buen cache",
-    "spanishSentence": "Si implementamos un buen cache, el microservice escalará bajo carga de tráfico pesada",
-    "correctSentence": "If we implement a good cache, the microservice will scale under heavy traffic load",
+    "hintDisplay": "Sujeto: el equipo / Verbo: configurar (acción futura condicional) / Complemento: el servidor de producción correctamente",
+    "spanishSentence": "Si el cliente aprueba el presupuesto, el equipo configurará el servidor de producción correctamente.",
+    "correctSentence": "If the client approves the budget, the team will configure the production server correctly.",
     "cards": [
       {
         "id": "c1",
@@ -275,27 +1016,27 @@
       },
       {
         "id": "c2",
-        "text": "we",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "implement",
+        "text": "client",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "a",
+        "text": "approves",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "good",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "cache",
+        "text": "budget",
         "isDistractor": false
       },
       {
@@ -305,7 +1046,7 @@
       },
       {
         "id": "c8",
-        "text": "microservice",
+        "text": "team",
         "isDistractor": false
       },
       {
@@ -315,69 +1056,66 @@
       },
       {
         "id": "c10",
-        "text": "scale",
+        "text": "configure",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "under",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c12",
-        "text": "heavy",
+        "text": "production",
         "isDistractor": false
       },
       {
         "id": "c13",
-        "text": "traffic",
+        "text": "server",
         "isDistractor": false
       },
       {
         "id": "c14",
-        "text": "load",
+        "text": "correctly",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "deploy",
+        "text": "configures",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
         "text": "would",
         "isDistractor": true
       },
       {
+        "id": "d3",
+        "text": "rejects",
+        "isDistractor": true
+      },
+      {
         "id": "d4",
-        "text": "light",
+        "text": "develop",
         "isDistractor": true
       }
     ],
     "translations": {
       "if": "si",
-      "we": "nosotros",
-      "implement": "implementamos",
-      "a": "un",
-      "good": "buen",
-      "cache": "cache",
-      "the": "el",
-      "microservice": "microservice",
-      "will": "va a / escalará",
-      "scale": "escalar",
-      "under": "bajo",
-      "heavy": "pesada",
-      "traffic": "tráfico",
-      "load": "carga",
-      "deploy": "desplegar",
-      "database": "base de datos",
+      "the": "el / la / los / las",
+      "client": "cliente",
+      "approves": "aprueba",
+      "budget": "presupuesto",
+      "team": "equipo",
+      "will": "va a",
+      "configure": "configurar",
+      "production": "producción",
+      "server": "servidor",
+      "correctly": "correctamente",
+      "configures": "configura",
       "would": "sería",
-      "light": "ligera"
+      "rejects": "rechaza",
+      "develop": "desarrollar"
     },
     "metadata": {
       "tense": "first conditional",
@@ -389,14 +1127,276 @@
   },
   {
     "hints": [
-      "Sujeto: la aplicación",
-      "Verbo: won't (no podrá) + optimize (optimizar)",
-      "Complemento: las queries de la base de datos",
-      "Tiempo: si no implementamos caché"
+      "Sujeto: el equipo (the team)",
+      "Verbo: integrar (to integrate)",
+      "Complemento: la nueva API en el pipeline"
     ],
-    "hintDisplay": "Sujeto: la aplicación / Verbo: won't (no podrá) + optimize (optimizar) / Complemento: las queries de la base de datos / Tiempo: si no implementamos caché",
-    "spanishSentence": "Si no implementamos caché, la aplicación no optimizará las queries de la base de datos.",
-    "correctSentence": "If we do not implement cache, the application will not optimize the database queries.",
+    "hintDisplay": "Sujeto: el equipo / Verbo: integrar / Complemento: la nueva API en el pipeline",
+    "spanishSentence": "Si el cliente aprueba el diseño, el equipo integrará la nueva API en el pipeline.",
+    "correctSentence": "If the client approves the design, the team will integrate the new API into the pipeline.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "client",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "approves",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "design",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "team",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "integrate",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "new",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "API",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "into",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c16",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "integrates",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "reject",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "from",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "unless",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la/los/las",
+      "client": "cliente",
+      "approves": "aprueba",
+      "design": "diseño",
+      "team": "equipo",
+      "will": "va a/irá",
+      "integrate": "integrar",
+      "new": "nueva",
+      "api": "API",
+      "into": "en/dentro de",
+      "pipeline": "pipeline",
+      "integrates": "integra",
+      "reject": "rechazar",
+      "from": "desde",
+      "unless": "a menos que"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: compilar",
+      "Complemento: el código sin errores"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: compilar / Complemento: el código sin errores",
+    "spanishSentence": "Si el desarrollador corrige los bugs, compilará el código sin errores.",
+    "correctSentence": "If the developer fixes the bugs, the developer will compile the code without errors.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "fixes",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "bugs",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "compile",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "without",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "errors",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "compiles",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "build",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "with",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "would",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la",
+      "developer": "desarrollador",
+      "fixes": "corrige",
+      "bugs": "bugs",
+      "will": "irá",
+      "compile": "compilar",
+      "code": "código",
+      "without": "sin",
+      "errors": "errores",
+      "compiles": "compila",
+      "build": "construir",
+      "with": "con",
+      "would": "sería"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo (the team)",
+      "Verbo: integrar (to integrate)",
+      "Complemento: la nueva API sin pruebas (the new API without tests)",
+      "Tiempo: si no pasamos las pruebas (if we don't pass the tests)"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: integrar / Complemento: la nueva API sin pruebas / Tiempo: si no pasamos las pruebas",
+    "spanishSentence": "Si no pasamos las pruebas, el equipo no integrará la nueva API.",
+    "correctSentence": "If we don't pass the tests, the team won't integrate the new API.",
     "cards": [
       {
         "id": "c1",
@@ -410,22 +1410,22 @@
       },
       {
         "id": "c3",
-        "text": "do",
+        "text": "don't",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "not",
+        "text": "pass",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "implement",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "cache",
+        "text": "tests",
         "isDistractor": false
       },
       {
@@ -435,77 +1435,71 @@
       },
       {
         "id": "c8",
-        "text": "application",
+        "text": "team",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "will",
+        "text": "won't",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "not",
+        "text": "integrate",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
         "text": "the",
         "isDistractor": false
       },
       {
-        "id": "c13",
-        "text": "database",
+        "id": "c12",
+        "text": "new",
         "isDistractor": false
       },
       {
-        "id": "c14",
-        "text": "queries",
+        "id": "c13",
+        "text": "API",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "deploy",
+        "text": "will",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "can",
+        "text": "deploy",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "server",
+        "text": "fail",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "does",
+        "text": "shouldn't",
         "isDistractor": true
       }
     ],
     "translations": {
       "if": "si",
       "we": "nosotros",
-      "do": "hacer",
-      "not": "no",
-      "implement": "implementar",
-      "cache": "caché",
-      "the": "el/la/los/las",
-      "application": "aplicación",
-      "will": "futuro",
-      "optimize": "optimizar",
-      "database": "base de datos",
-      "queries": "queries",
+      "don't": "no",
+      "pass": "pasamos",
+      "the": "la/el",
+      "tests": "pruebas",
+      "team": "equipo",
+      "won't": "no integrará",
+      "integrate": "integrar",
+      "new": "nueva",
+      "api": "API",
+      "will": "va a",
       "deploy": "desplegar",
-      "can": "poder",
-      "server": "servidor",
-      "does": "hace"
+      "fail": "fallar",
+      "shouldn't": "no debería"
     },
     "metadata": {
       "tense": "first conditional",
@@ -517,14 +1511,13 @@
   },
   {
     "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: consultar (negación: no consultar)",
-      "Complemento: la base de datos",
-      "Tiempo: si el schema cambia"
+      "Sujeto: el architect (un rol en software engineering)",
+      "Verbo: propose (will + base verb en la cláusula principal)",
+      "Complemento: una solución de caching"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: consultar (negación: no consultar) / Complemento: la base de datos / Tiempo: si el schema cambia",
-    "spanishSentence": "Si el schema cambia, el desarrollador no consultará la base de datos correctamente.",
-    "correctSentence": "If the schema changes, the developer will not query the database correctly.",
+    "hintDisplay": "Sujeto: el architect / Verbo: propose (will + base verb) / Complemento: una solución de caching",
+    "spanishSentence": "Si los tests pasan, el architect propondrá una solución de caching.",
+    "correctSentence": "If the tests pass, the architect will propose a caching solution.",
     "cards": [
       {
         "id": "c1",
@@ -538,12 +1531,689 @@
       },
       {
         "id": "c3",
-        "text": "schema",
+        "text": "tests",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "changes",
+        "text": "pass",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "architect",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "propose",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "a",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "caching",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "solution",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "suggest",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "bugs",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "performance",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la/los/las",
+      "tests": "tests",
+      "pass": "pasen",
+      "architect": "architect",
+      "will": "va a",
+      "propose": "proponer",
+      "a": "una",
+      "caching": "caching",
+      "solution": "solución",
+      "suggest": "sugerir",
+      "bugs": "bugs",
+      "would": "sería",
+      "performance": "rendimiento"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Carlos",
+      "Verbo: integrar (primera condicional: condición real y posible)",
+      "Complemento: las nuevas APIs",
+      "Negación: won't (no integrará)"
+    ],
+    "hintDisplay": "Sujeto: Carlos / Verbo: integrar (primera condicional) / Complemento: las nuevas APIs / Negación: won't",
+    "spanishSentence": "Carlos no integrará las nuevas APIs si los tests no pasan",
+    "correctSentence": "Carlos will not integrate the new APIs if the tests do not pass",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Carlos",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "integrate",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "new",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "APIs",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "if",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "tests",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "do",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "not",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "pass",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "deploy",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "merge",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "when",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "fixes",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "carlos": "Carlos",
+      "will": "va a",
+      "not": "no",
+      "integrate": "integrar",
+      "the": "el/la/los/las",
+      "new": "nuevas",
+      "apis": "APIs",
+      "if": "si",
+      "tests": "tests",
+      "do": "hacen",
+      "pass": "pasar",
+      "deploy": "desplegar",
+      "merge": "fusionar",
+      "when": "cuando",
+      "fixes": "arreglos"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador frontend",
+      "Verbo: estilizar (style)",
+      "Complemento: los componentes responsivos"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: estilizar (style) / Complemento: los componentes responsivos",
+    "spanishSentence": "Si el diseñador aprueba el mockup, el desarrollador frontend estilizará los componentes responsivos.",
+    "correctSentence": "If the designer approves the mockup, the frontend developer will style the responsive components.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "designer",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "approves",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "mockup",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "frontend",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "style",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "responsive",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "components",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "styled",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "rejects",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "design",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la/los/las",
+      "designer": "diseñador",
+      "approves": "aprueba",
+      "mockup": "mockup",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "will": "va a",
+      "style": "estilizar",
+      "responsive": "responsivos",
+      "components": "componentes",
+      "styled": "estilizado",
+      "rejects": "rechaza",
+      "would": "sería",
+      "design": "diseñar"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Anna",
+      "Verbo: optimizar (condición futura)",
+      "Complemento: el código de la aplicación",
+      "Tiempo: si los tests pasan"
+    ],
+    "hintDisplay": "Sujeto: Anna / Verbo: optimizar (condición futura) / Complemento: el código de la aplicación / Tiempo: si los tests pasan",
+    "spanishSentence": "Si los tests pasan, Anna optimizará el código de la aplicación",
+    "correctSentence": "If the tests pass, Anna will optimize the application code",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "tests",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "pass",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "Anna",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "optimize",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "application",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "optimizes",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "bugs",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "failed",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "would",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la",
+      "tests": "tests",
+      "pass": "pasan",
+      "anna": "Anna",
+      "will": "will",
+      "optimize": "optimizar",
+      "application": "aplicación",
+      "code": "código",
+      "optimizes": "optimiza",
+      "bugs": "bugs",
+      "failed": "fallaron",
+      "would": "sería"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Marcus",
+      "Verbo: planificar (plan)",
+      "Complemento: la refactorización del código si los tests pasan"
+    ],
+    "hintDisplay": "Sujeto: Marcus / Verbo: planificar (plan) / Complemento: la refactorización del código si los tests pasan",
+    "spanishSentence": "Si los tests pasan, Marcus planificará la refactorización del código.",
+    "correctSentence": "If the tests pass, Marcus will plan the code refactoring.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "tests",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "pass",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "Marcus",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "plan",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "refactoring",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "bugs",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "deploy",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "failed",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la",
+      "tests": "tests",
+      "pass": "pasar",
+      "marcus": "Marcus",
+      "will": "va a/irá",
+      "plan": "planificar",
+      "code": "código",
+      "refactoring": "refactorización",
+      "would": "sería",
+      "bugs": "bugs",
+      "deploy": "desplegar",
+      "failed": "fallaron"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: automatizar",
+      "Complemento: el pipeline de despliegue"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: automatizar / Complemento: el pipeline de despliegue",
+    "spanishSentence": "Si el ingeniero de DevOps automatiza el pipeline de despliegue, los errores disminuirán.",
+    "correctSentence": "If the DevOps engineer automates the deployment pipeline, errors will decrease.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "DevOps",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "engineer",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "automates",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "deployment",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "pipeline",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "errors",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "will",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "decrease",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "automated",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "manual",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "increase",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "automates": "automatiza",
+      "deployment": "despliegue",
+      "pipeline": "pipeline",
+      "errors": "errores",
+      "will": "van a",
+      "decrease": "disminuir",
+      "automated": "automatizado",
+      "manual": "manual",
+      "would": "sería",
+      "increase": "aumentar"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: deploy (desplegar)",
+      "Complemento: la aplicación en producción"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: deploy (desplegar) / Complemento: la aplicación en producción",
+    "spanishSentence": "Si todos los tests pasan, el desarrollador desplegará la aplicación en producción",
+    "correctSentence": "If all tests pass, the developer will deploy the application in production",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "all",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "tests",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "pass",
         "isDistractor": false
       },
       {
@@ -563,1796 +2233,70 @@
       },
       {
         "id": "c8",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "query",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "correctly",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "update",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "properly",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "cache",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la",
-      "schema": "schema",
-      "changes": "cambia",
-      "developer": "desarrollador",
-      "will": "va a/irá",
-      "not": "no",
-      "query": "consultar",
-      "database": "base de datos",
-      "correctly": "correctamente",
-      "update": "actualizar",
-      "would": "sería",
-      "properly": "apropiadamente",
-      "cache": "caché"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el frontend",
-      "Verbo: escalar (will + base verb)",
-      "Complemento: con microservicios y cache",
-      "Tiempo: si implementamos una nueva arquitectura"
-    ],
-    "hintDisplay": "Sujeto: el frontend / Verbo: escalar (will + base verb) / Complemento: con microservicios y cache / Tiempo: si implementamos una nueva arquitectura",
-    "spanishSentence": "Si implementamos una nueva arquitectura, el frontend escalará con microservicios y cache",
-    "correctSentence": "If we implement a new architecture, the frontend will scale with microservices and cache",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "implement",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "architecture",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "frontend",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "scale",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "microservices",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "and",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "improve",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "old",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "implement": "implementamos",
-      "a": "un/una",
-      "new": "nueva",
-      "architecture": "arquitectura",
-      "the": "el",
-      "frontend": "frontend",
-      "will": "va a",
-      "scale": "escalar",
-      "with": "con",
-      "microservices": "microservicios",
-      "and": "y",
-      "cache": "cache",
-      "improve": "mejorar",
-      "would": "sería",
-      "database": "base de datos",
-      "old": "antigua"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: optimizar (con will en resultado)",
-      "Complemento: la base de datos con un índice de schema",
-      "Tiempo: si se implementa una solución"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: optimizar (con will en resultado) / Complemento: la base de datos con un índice de schema / Tiempo: si se implementa una solución",
-    "spanishSentence": "Si el equipo implementa un índice de schema, optimizará la base de datos",
-    "correctSentence": "If the team implements a schema index, it will optimize the database",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "implements",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "schema",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "index",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
         "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "creates",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "cache",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la/los/las",
-      "team": "equipo",
-      "implements": "implementa",
-      "a": "un/una",
-      "schema": "schema",
-      "index": "índice",
-      "it": "lo/la/esto",
-      "will": "va a/irá a",
-      "optimize": "optimizará",
-      "database": "base de datos",
-      "deploy": "desplegar",
-      "would": "sería/estaría",
-      "creates": "crea",
-      "cache": "caché"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: no autenticar (negación con will not)",
-      "Complemento: las credenciales de usuario en el endpoint",
-      "Tiempo: si el servidor cloud cae"
-    ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: no autenticar (negación con will not) / Complemento: las credenciales de usuario en el endpoint / Tiempo: si el servidor cloud cae",
-    "spanishSentence": "Si el servidor cloud cae, el equipo de DevOps no autenticará las credenciales de usuario en el endpoint.",
-    "correctSentence": "If the cloud server falls, the DevOps team will not authenticate user credentials at the endpoint.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "falls",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "DevOps",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "team",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "will",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "not",
+        "text": "application",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "authenticate",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "user",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "credentials",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "endpoint",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "authorize",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "should",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el",
-      "cloud": "cloud",
-      "server": "servidor",
-      "falls": "cae",
-      "devops": "DevOps",
-      "team": "equipo",
-      "will": "va a",
-      "not": "no",
-      "authenticate": "autenticar",
-      "user": "usuario",
-      "credentials": "credenciales",
-      "at": "en",
-      "endpoint": "endpoint",
-      "authorize": "autorizar",
-      "database": "base de datos",
-      "deploy": "desplegar",
-      "should": "debería"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: optimizar (acción futura)",
-      "Complemento: las queries de la base de datos",
-      "Tiempo: si los usuarios reportan problemas de rendimiento"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: optimizar (acción futura) / Complemento: las queries de la base de datos / Tiempo: si los usuarios reportan problemas de rendimiento",
-    "spanishSentence": "Si los usuarios reportan problemas de rendimiento, el equipo optimizará las queries de la base de datos.",
-    "correctSentence": "If users report performance issues, the team will optimize the database queries.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "users",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "report",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "performance",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "issues",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "improve",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "mention",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "speed",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "might",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "users": "usuarios",
-      "report": "reportan",
-      "performance": "rendimiento",
-      "issues": "problemas",
-      "the": "el/la",
-      "team": "equipo",
-      "will": "va a",
-      "optimize": "optimizará",
-      "database": "base de datos",
-      "queries": "queries",
-      "improve": "mejorar",
-      "mention": "mencionar",
-      "speed": "velocidad",
-      "might": "podría"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: poder (habilidad) + recuperar",
-      "Complemento: los datos del servidor",
-      "Tiempo: si la caché no funciona correctamente"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: poder (habilidad) + recuperar / Complemento: los datos del servidor / Tiempo: si la caché no funciona correctamente",
-    "spanishSentence": "Si la caché no funciona correctamente, el ingeniero no podrá recuperar los datos del servidor.",
-    "correctSentence": "If the cache does not work correctly, the engineer will not be able to retrieve the server data.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "work",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "correctly",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "able",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "retrieve",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c18",
-        "text": "data",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cannot",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "access",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "properly",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la",
-      "cache": "caché",
-      "does": "hace",
-      "not": "no",
-      "work": "funciona",
-      "correctly": "correctamente",
-      "engineer": "ingeniero",
-      "will": "va a",
-      "be": "ser",
-      "able": "capaz",
-      "to": "a",
-      "retrieve": "recuperar",
-      "server": "servidor",
-      "data": "datos",
-      "database": "base de datos",
-      "cannot": "no puede",
-      "access": "acceder",
-      "properly": "apropiadamente"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: optimizar (mejorar)",
-      "Complemento: la base de datos",
-      "Tiempo: si la query es lenta"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: optimizar (mejorar) / Complemento: la base de datos / Tiempo: si la query es lenta",
-    "spanishSentence": "Si la query es lenta, el ingeniero optimizará la base de datos.",
-    "correctSentence": "If the query is slow, the engineer will optimize the database.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "query",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "slow",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cache",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "broken",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "would",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "la",
-      "query": "query",
-      "is": "es",
-      "slow": "lenta",
-      "engineer": "ingeniero",
-      "will": "optimizará",
-      "optimize": "optimizar",
-      "database": "base de datos",
-      "cache": "caché",
-      "deploy": "desplegar",
-      "broken": "roto",
-      "would": "podría"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el servidor",
-      "Verbo: optimizar (acción futura)",
-      "Complemento: la base de datos",
-      "Tiempo: si no implementamos caché"
-    ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: optimizar (acción futura) / Complemento: la base de datos / Tiempo: si no implementamos caché",
-    "spanishSentence": "Si no implementamos caché, el servidor no optimizará la base de datos.",
-    "correctSentence": "If we do not implement cache, the server will not optimize the database.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "do",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "implement",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "did",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "configure",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "API",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "do": "hacemos",
-      "not": "no",
-      "implement": "implementamos",
-      "cache": "caché",
-      "the": "el",
-      "server": "servidor",
-      "will": "va a",
-      "optimize": "optimizará",
-      "database": "base de datos",
-      "deploy": "desplegar",
-      "did": "hicimos",
-      "configure": "configurar",
-      "api": "API"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: no implementar (negación con will not)",
-      "Complemento: caché en el servidor",
-      "Tiempo: si las queries se ejecutan rápidamente"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: no implementar (negación con will not) / Complemento: caché en el servidor / Tiempo: si las queries se ejecutan rápidamente",
-    "spanishSentence": "Si las queries se ejecutan rápidamente, el equipo no implementará caché en el servidor.",
-    "correctSentence": "If the queries execute quickly, the team will not implement cache on the server.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "execute",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "quickly",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "implement",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "slowly",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "could",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el, la, los, las",
-      "queries": "queries",
-      "execute": "ejecutar",
-      "quickly": "rápidamente",
-      "team": "equipo",
-      "will": "irá (futuro)",
-      "not": "no",
-      "implement": "implementar",
-      "cache": "caché",
-      "on": "en",
-      "server": "servidor",
-      "deploy": "desplegar",
-      "slowly": "lentamente",
-      "database": "base de datos",
-      "could": "podría"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: refactorizar (acción futura)",
-      "Complemento: la base de datos sin una prueba de carga",
-      "Tiempo: en la próxima iteración (if clause indica futuro posible)"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: refactorizar (acción futura) / Complemento: la base de datos sin una prueba de carga / Tiempo: en la próxima iteración",
-    "spanishSentence": "Si el equipo no refactoriza la base de datos, fallará la prueba de carga en la próxima iteración.",
-    "correctSentence": "If the team does not refactor the database, the load test will fail in the next iteration.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "refactor",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "load",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "test",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "fail",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
         "text": "in",
         "isDistractor": false
       },
       {
-        "id": "c13",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "iteration",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "optimize",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "pass",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "schema",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "should",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la",
-      "team": "equipo",
-      "does": "hace",
-      "not": "no",
-      "refactor": "refactoriza",
-      "database": "base de datos",
-      "load": "carga",
-      "test": "prueba",
-      "will": "va a",
-      "fail": "fallar",
-      "in": "en",
-      "next": "próxima",
-      "iteration": "iteración",
-      "optimize": "optimizar",
-      "pass": "pasar",
-      "schema": "esquema",
-      "should": "debería"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: optimizar (acción futura) + cache",
-      "Complemento: las consultas a la base de datos",
-      "Tiempo: si implementan la estrategia"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: optimizar (acción futura) + cache / Complemento: las consultas a la base de datos / Tiempo: si implementan la estrategia",
-    "spanishSentence": "Si el equipo implementa un cache, optimizará las consultas a la base de datos",
-    "correctSentence": "If the team implements a cache, it will optimize the database queries",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "implements",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "might",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "server",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "deploys",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "reduces",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la",
-      "team": "equipo",
-      "implements": "implementa",
-      "a": "un/una",
-      "cache": "cache",
-      "it": "ello/esto",
-      "will": "va a/irá",
-      "optimize": "optimizar",
-      "database": "base de datos",
-      "queries": "consultas",
-      "might": "podría",
-      "server": "servidor",
-      "deploys": "desplega",
-      "reduces": "reduce"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: integrar (no + will)",
-      "Complemento: la nueva API en el microservice",
-      "Tiempo: si no optimizamos la database query"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: integrar (no + will) / Complemento: la nueva API en el microservice / Tiempo: si no optimizamos la database query",
-    "spanishSentence": "Si no optimizamos la database query, no integraremos la nueva API en el microservice.",
-    "correctSentence": "If we do not optimize the database query, we will not integrate the new API in the microservice.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "do",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "query",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "integrate",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
         "id": "c12",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "microservice",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cache",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "endpoint",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "schema",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "do": "hacemos",
-      "not": "no",
-      "optimize": "optimizamos",
-      "the": "la",
-      "database": "database",
-      "query": "query",
-      "will": "va",
-      "integrate": "integraremos",
-      "new": "nueva",
-      "api": "API",
-      "in": "en",
-      "microservice": "microservice",
-      "deploy": "desplegar",
-      "cache": "caché",
-      "endpoint": "endpoint",
-      "schema": "esquema"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el sistema",
-      "Verbo: no optimizar (negación)",
-      "Complemento: las consultas a la base de datos",
-      "Tiempo: si añadimos índices al schema"
-    ],
-    "hintDisplay": "Sujeto: el sistema / Verbo: no optimizar (negación) / Complemento: las consultas a la base de datos / Tiempo: si añadimos índices al schema",
-    "spanishSentence": "Si añadimos índices al schema, el sistema no optimizará las consultas a la base de datos.",
-    "correctSentence": "If we add indexes to the schema, the system will not optimize the database queries.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "add",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "indexes",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "schema",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "system",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cache",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "won't",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "configure",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "add": "añadimos",
-      "indexes": "índices",
-      "to": "a",
-      "the": "el/la/los/las",
-      "schema": "schema",
-      "system": "sistema",
-      "will": "va a",
-      "not": "no",
-      "optimize": "optimizar",
-      "database": "base de datos",
-      "queries": "consultas",
-      "cache": "caché",
-      "deploy": "desplegar",
-      "won't": "no va a",
-      "configure": "configurar"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: integrar",
-      "Complemento: la nueva API en el pipeline de despliegue",
-      "Tiempo: si optimizan la caché"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: integrar / Complemento: la nueva API en el pipeline de despliegue / Tiempo: si optimizan la caché",
-    "spanishSentence": "Si el equipo optimiza la caché, integrará la nueva API en el pipeline de despliegue",
-    "correctSentence": "If the team optimizes the cache, it will integrate the new API into the deployment pipeline",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "optimizes",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "integrate",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "into",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "improved",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "from",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "deploy",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la/los/las",
-      "team": "equipo",
-      "optimizes": "optimiza",
-      "cache": "caché",
-      "it": "él/ella",
-      "will": "va a",
-      "integrate": "integrar",
-      "new": "nueva/nuevo",
-      "api": "API",
-      "into": "en",
-      "deployment": "despliegue",
-      "pipeline": "pipeline",
-      "would": "podría",
-      "improved": "mejorada",
-      "from": "desde",
-      "deploy": "desplegar"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: desplegar (will not deploy) — negación con 'won't'",
-      "Complemento: el frontend a producción",
-      "Tiempo: si la pipeline falla"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: desplegar (will not deploy) — negación con 'won't' / Complemento: el frontend a producción / Tiempo: si la pipeline falla",
-    "spanishSentence": "Si la pipeline falla, el equipo no desplegará el frontend a producción.",
-    "correctSentence": "If the pipeline fails, the team will not deploy the frontend to production.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "fails",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "deploy",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "frontend",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
         "text": "production",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "upload",
+        "text": "passes",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "breaks",
+        "text": "deploys",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "should",
+        "text": "would",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "backend",
+        "text": "to",
         "isDistractor": true
       }
     ],
     "translations": {
       "if": "si",
+      "all": "todos",
+      "tests": "tests",
+      "pass": "pasan",
       "the": "el/la",
-      "pipeline": "pipeline",
-      "fails": "falla",
-      "team": "equipo",
+      "developer": "desarrollador",
       "will": "va a",
-      "not": "no",
       "deploy": "desplegar",
-      "frontend": "frontend",
-      "to": "a",
+      "application": "aplicación",
+      "in": "en",
       "production": "producción",
-      "upload": "subir",
-      "breaks": "rompe",
-      "should": "debería",
-      "backend": "backend"
+      "passes": "aprueba",
+      "deploys": "despliegue",
+      "would": "sería",
+      "to": "a"
     },
     "metadata": {
       "tense": "first conditional",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "software engineering"
@@ -2360,14 +2304,14 @@
   },
   {
     "hints": [
-      "Sujeto: el servidor",
-      "Verbo: no integrar (negación)",
-      "Complemento: la nueva API",
-      "Tiempo: si la documentación no está lista"
+      "Sujeto: el desarrollador backend",
+      "Verbo: query (consultar/hacer una consulta)",
+      "Complemento: la base de datos lentamente",
+      "Tiempo: si no optimizamos el código"
     ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: no integrar (negación) / Complemento: la nueva API / Tiempo: si la documentación no está lista",
-    "spanishSentence": "Si la documentación no está lista, el servidor no integrará la nueva API.",
-    "correctSentence": "If the documentation is not ready, the server will not integrate the new API.",
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: query (consultar/hacer una consulta) / Complemento: la base de datos lentamente / Tiempo: si no optimizamos el código",
+    "spanishSentence": "Si no optimizamos el código, el desarrollador backend no podrá hacer una consulta a la base de datos lentamente.",
+    "correctSentence": "If we don't optimize the code, the backend developer won't query the database slowly.",
     "cards": [
       {
         "id": "c1",
@@ -2376,27 +2320,27 @@
       },
       {
         "id": "c2",
-        "text": "the",
+        "text": "we",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "documentation",
+        "text": "don't",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "is",
+        "text": "optimize",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "not",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "ready",
+        "text": "code",
         "isDistractor": false
       },
       {
@@ -2406,22 +2350,22 @@
       },
       {
         "id": "c8",
-        "text": "server",
+        "text": "backend",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "will",
+        "text": "developer",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "not",
+        "text": "won't",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "integrate",
+        "text": "query",
         "isDistractor": false
       },
       {
@@ -2431,51 +2375,52 @@
       },
       {
         "id": "c13",
-        "text": "new",
+        "text": "database",
         "isDistractor": false
       },
       {
         "id": "c14",
-        "text": "API",
+        "text": "slowly",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "available",
+        "text": "will",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "deploy",
+        "text": "request",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "database",
+        "text": "quickly",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "might",
+        "text": "do",
         "isDistractor": true
       }
     ],
     "translations": {
       "if": "si",
+      "we": "nosotros",
+      "don't": "no",
+      "optimize": "optimizamos",
       "the": "el/la",
-      "documentation": "documentación",
-      "is": "está",
-      "not": "no",
-      "ready": "lista",
-      "server": "servidor",
-      "will": "volverá a/integrará",
-      "integrate": "integrar",
-      "new": "nueva",
-      "api": "API",
-      "available": "disponible",
-      "deploy": "desplegar",
+      "code": "código",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "won't": "no podrá",
+      "query": "hacer una consulta",
       "database": "base de datos",
-      "might": "podría"
+      "slowly": "lentamente",
+      "will": "podrá",
+      "request": "solicitar",
+      "quickly": "rápidamente",
+      "do": "hacer"
     },
     "metadata": {
       "tense": "first conditional",

@@ -1,14 +1,13 @@
 [
   {
     "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: integrar (hábito pasado)",
-      "Complemento: APIs de terceros en el pipeline",
-      "Tiempo: antes (en el pasado)"
+      "Sujeto: el arquitecto",
+      "Verbo: documentar",
+      "Complemento: el código del sistema"
     ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: integrar (hábito pasado) / Complemento: APIs de terceros en el pipeline / Tiempo: antes (en el pasado)",
-    "spanishSentence": "¿Solía el ingeniero integrar APIs de terceros en el pipeline?",
-    "correctSentence": "Did the engineer use to integrate third-party APIs in the pipeline?",
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: documentar / Complemento: el código del sistema",
+    "spanishSentence": "¿Solía el arquitecto documentar el código del sistema?",
+    "correctSentence": "Did the architect use to document the system code?",
     "cards": [
       {
         "id": "c1",
@@ -22,7 +21,7 @@
       },
       {
         "id": "c3",
-        "text": "engineer",
+        "text": "architect",
         "isDistractor": false
       },
       {
@@ -37,70 +36,58 @@
       },
       {
         "id": "c6",
-        "text": "integrate",
+        "text": "document",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "third-party",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "APIs",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
         "text": "the",
         "isDistractor": false
       },
       {
-        "id": "c11",
-        "text": "pipeline",
+        "id": "c8",
+        "text": "system",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "code",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "develop",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
         "text": "used",
         "isDistractor": true
       },
       {
+        "id": "d2",
+        "text": "design",
+        "isDistractor": true
+      },
+      {
         "id": "d3",
-        "text": "deploy",
+        "text": "software",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "database",
+        "text": "deploy",
         "isDistractor": true
       }
     ],
     "translations": {
-      "did": "¿Hizo",
+      "did": "¿solía",
       "the": "el/la",
-      "engineer": "ingeniero",
+      "architect": "arquitecto",
       "use": "solía",
       "to": "a",
-      "integrate": "integrar",
-      "third-party": "de terceros",
-      "apis": "APIs",
-      "in": "en",
-      "pipeline": "pipeline",
-      "develop": "desarrollar",
-      "used": "acostumbrado",
-      "deploy": "desplegar",
-      "database": "base de datos"
+      "document": "documentar",
+      "system": "del sistema",
+      "code": "código",
+      "used": "usó",
+      "design": "diseñar",
+      "software": "software",
+      "deploy": "desplegar"
     },
     "metadata": {
       "tense": "used to",
@@ -112,14 +99,205 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: consultar (query) la base de datos",
-      "Complemento: sin cachés",
-      "Tiempo: en el pasado, pero ya no"
+      "Sujeto: Carlos",
+      "Verbo: evaluar",
+      "Complemento: código sin pruebas automatizadas"
     ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: consultar (query) la base de datos / Complemento: sin cachés / Tiempo: en el pasado, pero ya no",
-    "spanishSentence": "¿Solía el equipo consultar la base de datos sin cachés?",
-    "correctSentence": "Did the team use to query the database without caches",
+    "hintDisplay": "Sujeto: Carlos / Verbo: evaluar / Complemento: código sin pruebas automatizadas",
+    "spanishSentence": "¿Solía Carlos evaluar código sin pruebas automatizadas?",
+    "correctSentence": "Did Carlos use to evaluate code without automated tests?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Did",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "Carlos",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "use",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "evaluate",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "without",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "automated",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "tests",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "used",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "review",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "with",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "Does",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "did": "¿Solía",
+      "carlos": "Carlos",
+      "use": "solía",
+      "to": "a",
+      "evaluate": "evaluar",
+      "code": "código",
+      "without": "sin",
+      "automated": "automatizadas",
+      "tests": "pruebas",
+      "used": "utilizado",
+      "review": "revisar",
+      "with": "con",
+      "does": "¿Acaso hace"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Miguel",
+      "Verbo: compilar",
+      "Complemento: código sin errores"
+    ],
+    "hintDisplay": "Sujeto: Miguel / Verbo: compilar / Complemento: código sin errores",
+    "spanishSentence": "¿No solía Miguel compilar código sin errores?",
+    "correctSentence": "Didn't Miguel use to compile code without errors",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Didn't",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "Miguel",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "use",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "compile",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "without",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "errors",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "used",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "compiling",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "bugs",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "deploy",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "didn't": "no solía",
+      "miguel": "Miguel",
+      "use": "solía",
+      "to": "infinitivo (marcador)",
+      "compile": "compilar",
+      "code": "código",
+      "without": "sin",
+      "errors": "errores",
+      "used": "usado",
+      "compiling": "compilando",
+      "bugs": "bugs",
+      "deploy": "desplegar"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: integrar",
+      "Complemento: el código manualmente en cada sprint"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: integrar / Complemento: el código manualmente en cada sprint",
+    "spanishSentence": "¿Solía el equipo integrar el código manualmente en cada sprint?",
+    "correctSentence": "Did the team use to integrate the code manually in each sprint?",
     "cards": [
       {
         "id": "c1",
@@ -148,7 +326,7 @@
       },
       {
         "id": "c6",
-        "text": "query",
+        "text": "integrate",
         "isDistractor": false
       },
       {
@@ -158,37 +336,47 @@
       },
       {
         "id": "c8",
-        "text": "database",
+        "text": "code",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "without",
+        "text": "manually",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "caches",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "each",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "sprint",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "used",
+        "text": "deploy",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "server",
+        "text": "used",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "with",
+        "text": "during",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "fetch",
+        "text": "automatically",
         "isDistractor": true
       }
     ],
@@ -198,314 +386,16 @@
       "team": "equipo",
       "use": "solía",
       "to": "a",
-      "query": "consultar",
-      "database": "base de datos",
-      "without": "sin",
-      "caches": "cachés",
-      "used": "acostumbrado",
-      "server": "servidor",
-      "with": "con",
-      "fetch": "obtener"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la aplicación",
-      "Verbo: desplegar (used to)",
-      "Complemento: en servidores on-premise",
-      "Tiempo: en el pasado"
-    ],
-    "hintDisplay": "Sujeto: la aplicación / Verbo: desplegar (used to) / Complemento: en servidores on-premise / Tiempo: en el pasado",
-    "spanishSentence": "¿No solía la aplicación desplegarse en servidores on-premise?",
-    "correctSentence": "Didn't the application use to deploy on on-premise servers?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Didn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "application",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "use",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "deploy",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "on-premise",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "servers",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "upload",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cloud",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "always",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "used",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "didn't": "no solía",
-      "the": "la",
-      "application": "aplicación",
-      "use": "solía",
-      "to": "a",
-      "deploy": "desplegar",
-      "on": "en",
-      "on-premise": "on-premise",
-      "servers": "servidores",
-      "upload": "subir",
-      "cloud": "nube",
-      "always": "siempre",
-      "used": "solía"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: desplegar (deploy)",
-      "Complemento: microservicios en servidores en la nube",
-      "Tiempo: en el pasado, pero ya no"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: desplegar (deploy) / Complemento: microservicios en servidores en la nube / Tiempo: en el pasado, pero ya no",
-    "spanishSentence": "¿Solíamos desplegar microservicios en servidores en la nube?",
-    "correctSentence": "Did we use to deploy microservices on cloud servers?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Did",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "use",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "deploy",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "microservices",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "servers",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "used",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "databases",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "maintain",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "did": "¿hicimos",
-      "we": "nosotros",
-      "use": "solíamos",
-      "to": "a",
-      "deploy": "desplegar",
-      "microservices": "microservicios",
-      "on": "en",
-      "cloud": "nube",
-      "servers": "servidores",
-      "used": "usábamos",
-      "databases": "bases de datos",
-      "in": "dentro de",
-      "maintain": "mantener"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: desplegar (deploy)",
-      "Complemento: microservicios en la nube",
-      "Tiempo: en el pasado, pero ya no"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: desplegar (deploy) / Complemento: microservicios en la nube / Tiempo: en el pasado, pero ya no",
-    "spanishSentence": "¿Solíamos desplegar microservicios en la nube?",
-    "correctSentence": "Did we use to deploy microservices in the cloud?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Did",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "use",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "deploy",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "microservices",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "used",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "containers",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "on",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "develop",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "did": "¿hicimos",
-      "we": "nosotros",
-      "use": "solíamos",
-      "to": "para",
-      "deploy": "desplegar",
-      "microservices": "microservicios",
+      "integrate": "integrar",
+      "code": "código",
+      "manually": "manualmente",
       "in": "en",
-      "the": "la",
-      "cloud": "nube",
-      "used": "usábamos",
-      "containers": "contenedores",
-      "on": "en",
-      "develop": "desarrollar"
+      "each": "cada",
+      "sprint": "sprint",
+      "deploy": "desplegar",
+      "used": "usaba",
+      "during": "durante",
+      "automatically": "automáticamente"
     },
     "metadata": {
       "tense": "used to",
@@ -517,14 +407,13 @@
   },
   {
     "hints": [
-      "Sujeto: la aplicación",
-      "Verbo: autenticar (hábito pasado)",
-      "Complemento: usuarios con esquema antiguo",
-      "Tiempo: en el pasado"
+      "Sujeto: el desarrollador",
+      "Verbo: debuggear (pasado habitual)",
+      "Complemento: código sin pruebas unitarias"
     ],
-    "hintDisplay": "Sujeto: la aplicación / Verbo: autenticar (hábito pasado) / Complemento: usuarios con esquema antiguo / Tiempo: en el pasado",
-    "spanishSentence": "¿Solía la aplicación autenticar usuarios con un esquema antiguo?",
-    "correctSentence": "Did the application used to authenticate users with an old schema?",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: debuggear (pasado habitual) / Complemento: código sin pruebas unitarias",
+    "spanishSentence": "¿Solía el desarrollador debuggear código sin pruebas unitarias?",
+    "correctSentence": "Did the developer use to debug untested code?",
     "cards": [
       {
         "id": "c1",
@@ -538,12 +427,12 @@
       },
       {
         "id": "c3",
-        "text": "application",
+        "text": "developer",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "used",
+        "text": "use",
         "isDistractor": false
       },
       {
@@ -553,71 +442,163 @@
       },
       {
         "id": "c6",
-        "text": "authenticate",
+        "text": "debug",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "users",
+        "text": "untested",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "with",
+        "text": "code",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "used",
+        "isDistractor": true
+      },
+      {
+        "id": "d2",
+        "text": "broken",
+        "isDistractor": true
+      },
+      {
+        "id": "d3",
+        "text": "engineer",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "fix",
+        "isDistractor": true
+      }
+    ],
+    "translations": {
+      "did": "¿hizo",
+      "the": "el",
+      "developer": "desarrollador",
+      "use": "solía",
+      "to": "para",
+      "debug": "debuggear",
+      "untested": "sin pruebas",
+      "code": "código",
+      "used": "usaba",
+      "broken": "roto",
+      "engineer": "ingeniero",
+      "fix": "reparar"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador backend",
+      "Verbo: optimizar (pasado habitual)",
+      "Complemento: las bases de datos sin herramientas modernas"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: optimizar (pasado habitual) / Complemento: las bases de datos sin herramientas modernas",
+    "spanishSentence": "¿Solía el desarrollador backend optimizar las bases de datos sin herramientas modernas?",
+    "correctSentence": "Did the backend developer use to optimize databases without modern tools?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Did",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "backend",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "developer",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "use",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "optimize",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "databases",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "an",
+        "text": "without",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "old",
+        "text": "modern",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "schema",
+        "text": "tools",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "use",
+        "text": "used",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "authorize",
+        "text": "optimize",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "new",
+        "text": "improve",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "database",
+        "text": "with",
         "isDistractor": true
       }
     ],
     "translations": {
-      "did": "¿Hizo",
-      "the": "la",
-      "application": "aplicación",
-      "used": "solía",
-      "to": "de",
-      "authenticate": "autenticar",
-      "users": "usuarios",
-      "with": "con",
-      "an": "un",
-      "old": "antiguo",
-      "schema": "esquema",
+      "did": "¿Solía",
+      "the": "el",
+      "backend": "backend",
+      "developer": "desarrollador",
       "use": "usar",
-      "authorize": "autorizar",
-      "new": "nuevo",
-      "database": "base de datos"
+      "to": "para",
+      "optimize": "optimizar",
+      "databases": "bases de datos",
+      "without": "sin",
+      "modern": "modernas",
+      "tools": "herramientas",
+      "used": "utilizó",
+      "improve": "mejorar",
+      "with": "con"
     },
     "metadata": {
       "tense": "used to",
@@ -629,18 +610,17 @@
   },
   {
     "hints": [
-      "Sujeto: el sistema",
-      "Verbo: autenticar (acción pasada habitual)",
-      "Complemento: usuarios sin tokens de API",
-      "Tiempo: en el pasado"
+      "Sujeto: el developer",
+      "Verbo: optimize (pasado habitual)",
+      "Complemento: el código sin considerar la legibilidad"
     ],
-    "hintDisplay": "Sujeto: el sistema / Verbo: autenticar (acción pasada habitual) / Complemento: usuarios sin tokens de API / Tiempo: en el pasado",
-    "spanishSentence": "¿No solía el sistema autenticar usuarios sin tokens de API?",
-    "correctSentence": "Didn't the system use to authenticate users without API tokens?",
+    "hintDisplay": "Sujeto: el developer / Verbo: optimize (pasado habitual) / Complemento: el código sin considerar la legibilidad",
+    "spanishSentence": "¿Solía el developer optimizar el código sin considerar la legibilidad?",
+    "correctSentence": "Did the developer use to optimize code without considering readability?",
     "cards": [
       {
         "id": "c1",
-        "text": "Didn't",
+        "text": "Did",
         "isDistractor": false
       },
       {
@@ -650,7 +630,7 @@
       },
       {
         "id": "c3",
-        "text": "system",
+        "text": "developer",
         "isDistractor": false
       },
       {
@@ -665,12 +645,12 @@
       },
       {
         "id": "c6",
-        "text": "authenticate",
+        "text": "optimize",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "users",
+        "text": "code",
         "isDistractor": false
       },
       {
@@ -680,48 +660,53 @@
       },
       {
         "id": "c9",
-        "text": "API",
+        "text": "considering",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "tokens",
+        "text": "readability",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "validate",
+        "text": "used",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "with",
+        "text": "optimize",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "Does",
+        "text": "ignoring",
+        "isDistractor": true
+      },
+      {
+        "id": "d4",
+        "text": "performance",
         "isDistractor": true
       }
     ],
     "translations": {
-      "didn't": "no solía",
+      "did": "¿Solía",
       "the": "el",
-      "system": "sistema",
-      "use": "solía",
-      "to": "a",
-      "authenticate": "autenticar",
-      "users": "usuarios",
+      "developer": "developer",
+      "use": "usar",
+      "to": "para",
+      "optimize": "optimizar",
+      "code": "código",
       "without": "sin",
-      "api": "tokens de API",
-      "tokens": "tokens",
-      "validate": "validar",
-      "with": "con",
-      "does": "hace"
+      "considering": "considerar",
+      "readability": "legibilidad",
+      "used": "usó",
+      "ignoring": "ignorar",
+      "performance": "rendimiento"
     },
     "metadata": {
       "tense": "used to",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "intermediate",
       "topic": "software engineering"
@@ -729,14 +714,13 @@
   },
   {
     "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: compilar (pasado habitual)",
-      "Complemento: el código antes del deploy",
-      "Tiempo: en el pasado"
+      "Sujeto: el arquitecto (the architect)",
+      "Verbo: diseñar (to design)",
+      "Complemento: sistemas monolíticos (monolithic systems)"
     ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: compilar (pasado habitual) / Complemento: el código antes del deploy / Tiempo: en el pasado",
-    "spanishSentence": "¿No solía compilar el arquitecto el código antes del deploy?",
-    "correctSentence": "Didn't the architect use to compile the code before deploy?",
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: diseñar / Complemento: sistemas monolíticos",
+    "spanishSentence": "¿No solía el arquitecto diseñar sistemas monolíticos?",
+    "correctSentence": "Didn't the architect use to design monolithic systems?",
     "cards": [
       {
         "id": "c1",
@@ -765,37 +749,32 @@
       },
       {
         "id": "c6",
-        "text": "compile",
+        "text": "design",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "code",
+        "text": "monolithic",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "deploy",
+        "text": "systems",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "build",
+        "text": "used",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "after",
+        "text": "develop",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "used",
+        "text": "legacy",
         "isDistractor": true
       },
       {
@@ -805,18 +784,17 @@
       }
     ],
     "translations": {
-      "didn't": "¿no",
+      "didn't": "¿No",
       "the": "el",
       "architect": "arquitecto",
       "use": "solía",
-      "to": "para",
-      "compile": "compilar",
-      "code": "código",
-      "before": "antes del",
-      "deploy": "deploy",
-      "build": "construir",
-      "after": "después del",
-      "used": "solía",
+      "to": "para/a",
+      "design": "diseñar",
+      "monolithic": "monolíticos",
+      "systems": "sistemas",
+      "used": "utilizaba",
+      "develop": "desarrollar",
+      "legacy": "heredados",
       "engineer": "ingeniero"
     },
     "metadata": {
@@ -829,18 +807,17 @@
   },
   {
     "hints": [
-      "Sujeto: la aplicación",
-      "Verbo: optimizar (acción pasada habitual)",
-      "Complemento: las consultas de base de datos",
-      "Tiempo: en el pasado, pero ya no"
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: automatizar (pasado habitual)",
+      "Complemento: los despliegues manuales"
     ],
-    "hintDisplay": "Sujeto: la aplicación / Verbo: optimizar (acción pasada habitual) / Complemento: las consultas de base de datos / Tiempo: en el pasado, pero ya no",
-    "spanishSentence": "¿La aplicación solía optimizar las consultas de base de datos?",
-    "correctSentence": "Did the application use to optimize database queries",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: automatizar (pasado habitual) / Complemento: los despliegues manuales",
+    "spanishSentence": "¿No solía el ingeniero de DevOps automatizar los despliegues manuales?",
+    "correctSentence": "Didn't the DevOps engineer used to automate manual deployments?",
     "cards": [
       {
         "id": "c1",
-        "text": "Did",
+        "text": "Didn't",
         "isDistractor": false
       },
       {
@@ -850,72 +827,78 @@
       },
       {
         "id": "c3",
-        "text": "application",
+        "text": "DevOps",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "use",
+        "text": "engineer",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "to",
+        "text": "used",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "optimize",
+        "text": "to",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "database",
+        "text": "automate",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "queries",
+        "text": "manual",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "deployments",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "improve",
+        "text": "automates",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "server",
+        "text": "automated",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "used",
+        "text": "automation",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "Does",
+        "text": "developer",
         "isDistractor": true
       }
     ],
     "translations": {
-      "did": "¿hizo",
-      "the": "la",
-      "application": "aplicación",
-      "use": "solía",
-      "to": "para",
-      "optimize": "optimizar",
-      "database": "base de datos",
-      "queries": "consultas",
-      "improve": "mejorar",
-      "server": "servidor",
-      "used": "usada",
-      "does": "¿hace"
+      "didn't": "no solía",
+      "the": "el/la",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "used": "solía",
+      "to": "a",
+      "automate": "automatizar",
+      "manual": "manuales",
+      "deployments": "despliegues",
+      "automates": "automatiza",
+      "automated": "automatizó",
+      "automation": "automatización",
+      "developer": "desarrollador"
     },
     "metadata": {
       "tense": "used to",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "intermediate",
       "topic": "software engineering"
@@ -923,14 +906,13 @@
   },
   {
     "hints": [
-      "Sujeto: el servidor",
-      "Verbo: almacenar en caché (used to)",
-      "Complemento: todas las consultas de la base de datos",
-      "Tiempo: en el pasado"
+      "Sujeto: el desarrollador frontend",
+      "Verbo: mostrar (display)",
+      "Complemento: errores de compilación directamente al usuario"
     ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: almacenar en caché (used to) / Complemento: todas las consultas de la base de datos / Tiempo: en el pasado",
-    "spanishSentence": "¿Solía el servidor almacenar en caché todas las consultas de la base de datos?",
-    "correctSentence": "Did the server used to cache all database queries?",
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: mostrar (display) / Complemento: errores de compilación directamente al usuario",
+    "spanishSentence": "¿Solía el desarrollador frontend mostrar errores de compilación directamente al usuario?",
+    "correctSentence": "Did the frontend developer use to display compilation errors directly to the user?",
     "cards": [
       {
         "id": "c1",
@@ -944,74 +926,96 @@
       },
       {
         "id": "c3",
-        "text": "server",
+        "text": "frontend",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "used",
+        "text": "developer",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "to",
+        "text": "use",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "cache",
+        "text": "to",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "all",
+        "text": "display",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "database",
+        "text": "compilation",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "queries",
+        "text": "errors",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "directly",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "user",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "update",
+        "text": "used",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "some",
+        "text": "show",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "use",
+        "text": "runtime",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "endpoint",
+        "text": "indirectly",
         "isDistractor": true
       }
     ],
     "translations": {
       "did": "¿Solía",
-      "the": "el",
-      "server": "servidor",
-      "used": "solía",
-      "to": "a",
-      "cache": "almacenar en caché",
-      "all": "todas las",
-      "database": "base de datos",
-      "queries": "consultas",
-      "update": "actualizar",
-      "some": "algunas",
-      "use": "usar",
-      "endpoint": "endpoint"
+      "the": "el/la",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "use": "solía",
+      "to": "a/para",
+      "display": "mostrar",
+      "compilation": "compilación",
+      "errors": "errores",
+      "directly": "directamente",
+      "user": "usuario",
+      "used": "usó",
+      "show": "mostrar (variante)",
+      "runtime": "tiempo de ejecución",
+      "indirectly": "indirectamente"
     },
     "metadata": {
       "tense": "used to",
