@@ -653,31 +653,31 @@
   {
     "hints": [
       "Sujeto: implícito (tú/usted)",
-      "Verbo: ganar (obligación/instrucción)",
-      "Complemento: el partido"
+      "Verbo: ganar (imperativo)",
+      "Complemento: el partido por el equipo"
     ],
-    "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: ganar (obligación/instrucción) / Complemento: el partido",
-    "spanishSentence": "¡El equipo debe ganar el partido!",
-    "correctSentence": "The team must win the match!",
+    "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: ganar (imperativo) / Complemento: el partido por el equipo",
+    "spanishSentence": "¡Gana el partido por el equipo!",
+    "correctSentence": "Win the match for the team!",
     "cards": [
       {
         "id": "c1",
-        "text": "The",
+        "text": "Win",
         "isDistractor": false
       },
       {
         "id": "c2",
-        "text": "team",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "must",
+        "text": "match",
         "isDistractor": false
       },
       {
         "id": "c4",
-        "text": "win",
+        "text": "for",
         "isDistractor": false
       },
       {
@@ -687,7 +687,7 @@
       },
       {
         "id": "c6",
-        "text": "match",
+        "text": "team",
         "isDistractor": false
       },
       {
@@ -702,19 +702,19 @@
       },
       {
         "id": "d3",
-        "text": "can",
+        "text": "must",
         "isDistractor": true
       }
     ],
     "translations": {
+      "win": "gana",
       "the": "el/la",
-      "team": "equipo",
-      "must": "debe/deber",
-      "win": "ganar",
       "match": "partido",
+      "for": "por",
+      "team": "equipo",
       "lose": "perder",
       "game": "juego",
-      "can": "puede"
+      "must": "debe"
     },
     "metadata": {
       "tense": "imperative",
@@ -796,12 +796,12 @@
   {
     "hints": [
       "Sujeto: implícito (tú/usted)",
-      "Verbo: jugar (instrucción/orden)",
-      "Complemento: sin foulear"
+      "Verbo: jugar (instrucción/orden negativa)",
+      "Complemento: sin calentar"
     ],
-    "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: jugar (instrucción/orden) / Complemento: sin foulear",
-    "spanishSentence": "No juegues sin foulear",
-    "correctSentence": "Don't play without fouling",
+    "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: jugar (instrucción/orden negativa) / Complemento: sin calentar",
+    "spanishSentence": "No juegues sin calentar",
+    "correctSentence": "Don't play without warming up",
     "cards": [
       {
         "id": "c1",
@@ -820,7 +820,12 @@
       },
       {
         "id": "c4",
-        "text": "fouling",
+        "text": "warming",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "up",
         "isDistractor": false
       },
       {
@@ -835,7 +840,7 @@
       },
       {
         "id": "d3",
-        "text": "Stop",
+        "text": "fouling",
         "isDistractor": true
       }
     ],
@@ -843,10 +848,11 @@
       "don't": "no",
       "play": "juegues",
       "without": "sin",
-      "fouling": "foulear",
+      "warming": "calentar",
+      "up": "(partícula)",
       "playing": "jugando",
       "with": "con",
-      "stop": "detente"
+      "fouling": "foulear"
     },
     "metadata": {
       "tense": "imperative",

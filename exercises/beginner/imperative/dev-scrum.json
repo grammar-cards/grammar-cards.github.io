@@ -6,8 +6,8 @@
       "Complemento: las pruebas repetitivas"
     ],
     "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: automatizar (instrucción) / Complemento: las pruebas repetitivas",
-    "spanishSentence": "Automatiza las pruebas repetitivas en standup",
-    "correctSentence": "Automate the repetitive tests in standup",
+    "spanishSentence": "Automatiza las pruebas repetitivas antes del sprint",
+    "correctSentence": "Automate the repetitive tests before the sprint",
     "cards": [
       {
         "id": "c1",
@@ -31,12 +31,17 @@
       },
       {
         "id": "c5",
-        "text": "in",
+        "text": "before",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "standup",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "sprint",
         "isDistractor": false
       },
       {
@@ -51,20 +56,20 @@
       },
       {
         "id": "d3",
-        "text": "create",
+        "text": "after",
         "isDistractor": true
       }
     ],
     "translations": {
       "automate": "automatizar",
-      "the": "las",
+      "the": "las/el",
       "repetitive": "repetitivas",
       "tests": "pruebas",
-      "in": "en",
-      "standup": "standup",
+      "before": "antes de",
+      "sprint": "sprint",
       "manual": "manual",
       "during": "durante",
-      "create": "crear"
+      "after": "después"
     },
     "metadata": {
       "tense": "imperative",
@@ -232,12 +237,12 @@
   {
     "hints": [
       "Sujeto: implícito (tú/usted)",
-      "Verbo: observar",
-      "Complemento: la reunión de standup"
+      "Verbo: unirse (join) negativo",
+      "Complemento: la reunión de standup tarde"
     ],
-    "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: observar / Complemento: la reunión de standup",
-    "spanishSentence": "No observes la reunión de standup tardíamente",
-    "correctSentence": "Don't observe the standup meeting late",
+    "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: unirse (join) negativo / Complemento: la reunión de standup tarde",
+    "spanishSentence": "No te unas a la reunión de standup tarde",
+    "correctSentence": "Don't join the standup meeting late",
     "cards": [
       {
         "id": "c1",
@@ -246,7 +251,7 @@
       },
       {
         "id": "c2",
-        "text": "observe",
+        "text": "join",
         "isDistractor": false
       },
       {
@@ -271,7 +276,7 @@
       },
       {
         "id": "d1",
-        "text": "watch",
+        "text": "observe",
         "isDistractor": true
       },
       {
@@ -287,12 +292,12 @@
     ],
     "translations": {
       "don't": "no",
-      "observe": "observes",
+      "join": "te unas a",
       "the": "la",
       "standup": "standup",
       "meeting": "reunión",
-      "late": "tardíamente",
-      "watch": "mires",
+      "late": "tarde",
+      "observe": "observes",
       "early": "temprano",
       "scrum": "scrum"
     },
@@ -456,51 +461,51 @@
   {
     "hints": [
       "Sujeto: implícito (tú/usted)",
-      "Verbo: clarificar",
-      "Complemento: los requisitos de aceptación en el standup"
+      "Verbo: clarificar (imperativo)",
+      "Complemento: los criterios de aceptación antes del sprint"
     ],
-    "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: clarificar / Complemento: los requisitos de aceptación en el standup",
-    "spanishSentence": "No clarifiques los requisitos de aceptación en el standup",
-    "correctSentence": "Don't clarify the acceptance criteria in standup",
+    "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: clarificar (imperativo) / Complemento: los criterios de aceptación antes del sprint",
+    "spanishSentence": "Clarifica los criterios de aceptación antes del sprint",
+    "correctSentence": "Clarify the acceptance criteria before the sprint",
     "cards": [
       {
         "id": "c1",
-        "text": "Don't",
+        "text": "Clarify",
         "isDistractor": false
       },
       {
         "id": "c2",
-        "text": "clarify",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
         "text": "the",
         "isDistractor": false
       },
       {
-        "id": "c4",
+        "id": "c3",
         "text": "acceptance",
         "isDistractor": false
       },
       {
-        "id": "c5",
+        "id": "c4",
         "text": "criteria",
         "isDistractor": false
       },
       {
+        "id": "c5",
+        "text": "before",
+        "isDistractor": false
+      },
+      {
         "id": "c6",
-        "text": "in",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "standup",
+        "text": "sprint",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "explain",
+        "text": "Don't",
         "isDistractor": true
       },
       {
@@ -515,20 +520,19 @@
       }
     ],
     "translations": {
-      "don't": "no",
-      "clarify": "clarifiques",
-      "the": "los",
+      "clarify": "clarifica",
+      "the": "los/el",
       "acceptance": "aceptación",
-      "criteria": "requisitos",
-      "in": "en",
-      "standup": "standup",
-      "explain": "expliques",
+      "criteria": "criterios",
+      "before": "antes de",
+      "sprint": "sprint",
+      "don't": "no",
       "during": "durante",
       "requirements": "requerimientos"
     },
     "metadata": {
       "tense": "imperative",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"
@@ -1288,47 +1292,42 @@
       "Complemento: los problemas bloqueadores en standup"
     ],
     "hintDisplay": "Sujeto: implícito (tú/usted) / Verbo: reportar (instrucción) / Complemento: los problemas bloqueadores en standup",
-    "spanishSentence": "No reportes los problemas bloqueadores en standup",
-    "correctSentence": "Don't report the blocking issues in standup",
+    "spanishSentence": "Reporta los problemas bloqueadores en standup",
+    "correctSentence": "Report the blocking issues in standup",
     "cards": [
       {
         "id": "c1",
-        "text": "Don't",
+        "text": "Report",
         "isDistractor": false
       },
       {
         "id": "c2",
-        "text": "report",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
         "text": "the",
         "isDistractor": false
       },
       {
-        "id": "c4",
+        "id": "c3",
         "text": "blocking",
         "isDistractor": false
       },
       {
-        "id": "c5",
+        "id": "c4",
         "text": "issues",
         "isDistractor": false
       },
       {
-        "id": "c6",
+        "id": "c5",
         "text": "in",
         "isDistractor": false
       },
       {
-        "id": "c7",
+        "id": "c6",
         "text": "standup",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "Do",
+        "text": "Don't",
         "isDistractor": true
       },
       {
@@ -1343,20 +1342,19 @@
       }
     ],
     "translations": {
-      "don't": "no",
-      "report": "reportes",
+      "report": "reporta",
       "the": "los",
       "blocking": "bloqueadores",
       "issues": "problemas",
       "in": "en",
       "standup": "standup",
-      "do": "haz",
+      "don't": "no",
       "blocker": "bloqueador",
       "during": "durante"
     },
     "metadata": {
       "tense": "imperative",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"
