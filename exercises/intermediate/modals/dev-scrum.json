@@ -105,7 +105,7 @@
     ],
     "hintDisplay": "Sujeto: el desarrollador / Verbo: deber (obligación) + debuggear / Complemento: los errores críticos del sprint",
     "spanishSentence": "El desarrollador debe debuggear los errores críticos del sprint",
-    "correctSentence": "The developer must debug the critical sprint errors",
+    "correctSentence": "The developer must debug the critical sprint errors.",
     "cards": [
       {
         "id": "c1",
@@ -197,7 +197,7 @@
     ],
     "hintDisplay": "Sujeto: Maria / Verbo: deber (obligación) + arquitecturar / Complemento: la nueva infraestructura del sistema",
     "spanishSentence": "Maria debe arquitecturar la nueva infraestructura del sistema",
-    "correctSentence": "Maria must architect the new system infrastructure",
+    "correctSentence": "Maria must architect the new system infrastructure.",
     "cards": [
       {
         "id": "c1",
@@ -284,7 +284,7 @@
     ],
     "hintDisplay": "Sujeto: el product owner / Verbo: deber (obligación) + priorizar / Complemento: las nuevas características en el backlog",
     "spanishSentence": "El product owner debe priorizar las nuevas características en el backlog",
-    "correctSentence": "The product owner must prioritize the new features in the backlog",
+    "correctSentence": "The product owner must prioritize the new features in the backlog.",
     "cards": [
       {
         "id": "c1",
@@ -393,7 +393,7 @@
     ],
     "hintDisplay": "Sujeto: la pasante / Verbo: deber (obligación) + asistir / Complemento: en la reunión de sprint",
     "spanishSentence": "La pasante debe asistir en la reunión de sprint",
-    "correctSentence": "The intern must assist in the sprint meeting",
+    "correctSentence": "The intern must assist in the sprint meeting.",
     "cards": [
       {
         "id": "c1",
@@ -594,7 +594,7 @@
     ],
     "hintDisplay": "Sujeto: David / Verbo: deber (obligación) + entrenar / Complemento: a los desarrolladores junior en el sprint",
     "spanishSentence": "David debe entrenar a los desarrolladores junior en el sprint",
-    "correctSentence": "David must coach the junior developers in the sprint",
+    "correctSentence": "David must coach the junior developers in the sprint.",
     "cards": [
       {
         "id": "c1",
@@ -785,7 +785,7 @@
     ],
     "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: deber (obligación) + informar / Complemento: los bugs críticos encontrados en el sprint",
     "spanishSentence": "El ingeniero de QA debe informar los bugs críticos encontrados en el sprint",
-    "correctSentence": "The QA engineer must report the critical bugs found in the sprint",
+    "correctSentence": "The QA engineer must report the critical bugs found in the sprint.",
     "cards": [
       {
         "id": "c1",
@@ -895,12 +895,12 @@
   {
     "hints": [
       "Sujeto: el desarrollador",
-      "Verbo: deber (obligación) + comprometerse",
-      "Complemento: con las historias del sprint"
+      "Verbo: no deber (obligación) + subir",
+      "Complemento: código sin probar al sprint"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: deber (obligación) + comprometerse / Complemento: con las historias del sprint",
-    "spanishSentence": "El desarrollador no debe comprometerse con las historias del sprint.",
-    "correctSentence": "The developer must not commit to the sprint stories.",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: no deber (obligación) + subir / Complemento: código sin probar al sprint",
+    "spanishSentence": "El desarrollador no debe subir código sin probar al sprint.",
+    "correctSentence": "The developer must not push untested code to the sprint.",
     "cards": [
       {
         "id": "c1",
@@ -924,27 +924,32 @@
       },
       {
         "id": "c5",
-        "text": "commit",
+        "text": "push",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "to",
+        "text": "untested",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "the",
+        "text": "code",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "sprint",
+        "text": "to",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "stories",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "sprint",
         "isDistractor": false
       },
       {
@@ -954,7 +959,7 @@
       },
       {
         "id": "d2",
-        "text": "agree",
+        "text": "merge",
         "isDistractor": true
       },
       {
@@ -964,23 +969,24 @@
       },
       {
         "id": "d4",
-        "text": "never",
+        "text": "tested",
         "isDistractor": true
       }
     ],
     "translations": {
       "the": "el/la",
       "developer": "desarrollador",
-      "must": "debe/deber",
+      "must": "deber",
       "not": "no",
-      "commit": "comprometerse",
-      "to": "con",
+      "push": "subir/empujar",
+      "untested": "sin probar",
+      "code": "código",
+      "to": "a/al",
       "sprint": "sprint",
-      "stories": "historias",
       "should": "debería",
-      "agree": "estar de acuerdo",
+      "merge": "fusionar",
       "backlog": "backlog",
-      "never": "nunca"
+      "tested": "probado"
     },
     "metadata": {
       "tense": "modals",
@@ -1101,7 +1107,7 @@
     ],
     "hintDisplay": "Sujeto: el tech lead / Verbo: deber (obligación) + mentorizar / Complemento: a los desarrolladores junior en el sprint",
     "spanishSentence": "El tech lead debe mentorizar a los desarrolladores junior en el sprint",
-    "correctSentence": "The tech lead must mentor junior developers in the sprint",
+    "correctSentence": "The tech lead must mentor junior developers in the sprint.",
     "cards": [
       {
         "id": "c1",
@@ -1205,7 +1211,7 @@
     ],
     "hintDisplay": "Sujeto: Anna / Verbo: deber (obligación) + informar / Complemento: el progreso del sprint en la standup",
     "spanishSentence": "Anna debe informar el progreso del sprint en la standup",
-    "correctSentence": "Anna must report the sprint progress in standup",
+    "correctSentence": "Anna must report the sprint progress in standup.",
     "cards": [
       {
         "id": "c1",
@@ -1385,7 +1391,7 @@
     ],
     "hintDisplay": "Sujeto: Maria / Verbo: deber (obligación) + aprobar / Complemento: los cambios en el sprint",
     "spanishSentence": "Maria debe aprobar los cambios en el sprint",
-    "correctSentence": "Maria must approve the changes in the sprint",
+    "correctSentence": "Maria must approve the changes in the sprint.",
     "cards": [
       {
         "id": "c1",
@@ -1755,7 +1761,7 @@
     ],
     "hintDisplay": "Sujeto: el scrum master / Verbo: deber (obligación) + aclarar / Complemento: los requisitos confusos del sprint",
     "spanishSentence": "El scrum master debe aclarar los requisitos confusos del sprint",
-    "correctSentence": "The scrum master must clarify the confusing sprint requirements",
+    "correctSentence": "The scrum master must clarify the confusing sprint requirements.",
     "cards": [
       {
         "id": "c1",

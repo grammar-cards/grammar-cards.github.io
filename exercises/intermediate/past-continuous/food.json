@@ -102,7 +102,7 @@
     ],
     "hintDisplay": "Sujeto: mi abuela / Verbo: freír / Complemento: las verduras en aceite de oliva / Tiempo: ayer por la tarde",
     "spanishSentence": "Mi abuela estaba friendo las verduras en aceite de oliva ayer por la tarde",
-    "correctSentence": "My grandmother was frying the vegetables in olive oil yesterday afternoon",
+    "correctSentence": "My grandmother was frying the vegetables in olive oil yesterday afternoon.",
     "cards": [
       {
         "id": "c1",
@@ -171,12 +171,13 @@
       },
       {
         "id": "d3",
-        "text": "the herbs",
-        "isDistractor": true
+        "text": "the",
+        "isDistractor": true,
+        "translation": "las"
       },
       {
         "id": "d4",
-        "text": "at",
+        "text": "herbs",
         "isDistractor": true
       }
     ],
@@ -214,7 +215,7 @@
     ],
     "hintDisplay": "Sujeto: los clientes / Verbo: esperar / Complemento: sus aperitivos en el restaurante / Tiempo: ayer por la noche",
     "spanishSentence": "Los clientes estaban esperando sus aperitivos en el restaurante ayer por la noche",
-    "correctSentence": "The customers were waiting for their appetizers at the restaurant last night",
+    "correctSentence": "The customers were waiting for their appetizers at the restaurant last night.",
     "cards": [
       {
         "id": "c1",
@@ -325,7 +326,7 @@
     ],
     "hintDisplay": "Sujeto: yo / Verbo: mezclar / Complemento: los ingredientes en un bol / Tiempo: mientras mi pareja preparaba la cena",
     "spanishSentence": "Yo estaba mezclando los ingredientes en un bol mientras mi pareja preparaba la cena",
-    "correctSentence": "I was mixing the ingredients in a bowl while my partner prepared dinner",
+    "correctSentence": "I was mixing the ingredients in a bowl while my partner prepared dinner.",
     "cards": [
       {
         "id": "c1",
@@ -449,7 +450,7 @@
     ],
     "hintDisplay": "Sujeto: los clientes / Verbo: esperar / Complemento: sus platos principales en el restaurante / Tiempo: ayer por la noche",
     "spanishSentence": "Los clientes estaban esperando sus platos principales ayer por la noche",
-    "correctSentence": "The customers were waiting for their main courses last night",
+    "correctSentence": "The customers were waiting for their main courses last night.",
     "cards": [
       {
         "id": "c1",
@@ -503,22 +504,23 @@
       },
       {
         "id": "d1",
-        "text": "were cooking",
-        "isDistractor": true
+        "text": "were",
+        "isDistractor": true,
+        "translation": "estaban"
       },
       {
         "id": "d2",
-        "text": "appetizers",
+        "text": "cooking",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "yesterday afternoon",
+        "text": "appetizers",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "preparing",
+        "text": "yesterday",
         "isDistractor": true
       }
     ],
@@ -555,7 +557,7 @@
     ],
     "hintDisplay": "Sujeto: el chef / Verbo: probar / Complemento: la sopa con cuidado / Tiempo: mientras trabajaba en la cocina",
     "spanishSentence": "El chef estaba probando la sopa con cuidado mientras trabajaba en la cocina",
-    "correctSentence": "The chef was tasting the soup carefully while working in the kitchen",
+    "correctSentence": "The chef was tasting the soup carefully while working in the kitchen.",
     "cards": [
       {
         "id": "c1",
@@ -634,8 +636,9 @@
       },
       {
         "id": "d4",
-        "text": "the restaurant",
-        "isDistractor": true
+        "text": "the",
+        "isDistractor": true,
+        "translation": "el/la"
       }
     ],
     "translations": {
@@ -671,7 +674,7 @@
     ],
     "hintDisplay": "Sujeto: mi abuela / Verbo: preparar / Complemento: una receta especial con ingredientes frescos / Tiempo: ayer por la tarde",
     "spanishSentence": "Mi abuela estaba preparando una receta especial con ingredientes frescos ayer por la tarde",
-    "correctSentence": "My grandmother was preparing a special recipe with fresh ingredients yesterday afternoon",
+    "correctSentence": "My grandmother was preparing a special recipe with fresh ingredients yesterday afternoon.",
     "cards": [
       {
         "id": "c1",
@@ -905,8 +908,8 @@
       "Tiempo: mientras el chef preparaba la reserva"
     ],
     "hintDisplay": "Sujeto: nosotros / Verbo: mezclar / Complemento: los ingredientes para la salsa / Tiempo: mientras el chef preparaba la reserva",
-    "spanishSentence": "Estábamos mezclando los ingredientes para la salsa mientras el chef preparaba la reserva.",
-    "correctSentence": "We were mixing the ingredients for the sauce while the chef prepared the reservation.",
+    "spanishSentence": "Estábamos mezclando los ingredientes para la salsa mientras el chef preparaba el plato principal.",
+    "correctSentence": "We were mixing the ingredients for the sauce while the chef prepared the main course.",
     "cards": [
       {
         "id": "c1",
@@ -975,7 +978,12 @@
       },
       {
         "id": "c14",
-        "text": "reservation",
+        "text": "main",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "course",
         "isDistractor": false
       },
       {
@@ -1010,11 +1018,12 @@
       "while": "mientras",
       "chef": "chef",
       "prepared": "preparaba",
-      "reservation": "reserva",
       "are": "somos",
       "blending": "batiendo",
       "spices": "especias",
-      "confirmed": "confirmó"
+      "confirmed": "confirmó",
+      "main": "principal",
+      "course": "plato"
     },
     "metadata": {
       "tense": "past continuous",
@@ -1143,14 +1152,13 @@
   },
   {
     "hints": [
-      "Sujeto: los clientes",
-      "Verbo: mezclar",
-      "Complemento: los ingredientes en la mesa",
-      "Tiempo: mientras esperaban"
+      "Sujeto: el mesero",
+      "Verbo: no estar mezclando",
+      "Complemento: las bebidas en la barra mientras esperaba"
     ],
-    "hintDisplay": "Sujeto: los clientes / Verbo: mezclar / Complemento: los ingredientes en la mesa / Tiempo: mientras esperaban",
-    "spanishSentence": "Los clientes no estaban mezclando los ingredientes en la mesa mientras esperaban.",
-    "correctSentence": "The customers were not mixing the ingredients on the table while waiting.",
+    "hintDisplay": "Sujeto: el mesero / Verbo: no estar mezclando / Complemento: las bebidas en la barra mientras esperaba",
+    "spanishSentence": "El mesero no estaba mezclando las bebidas en la barra mientras esperaba.",
+    "correctSentence": "The waiter was not mixing the drinks at the bar while waiting.",
     "cards": [
       {
         "id": "c1",
@@ -1159,12 +1167,12 @@
       },
       {
         "id": "c2",
-        "text": "customers",
+        "text": "waiter",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "were",
+        "text": "was",
         "isDistractor": false
       },
       {
@@ -1184,12 +1192,12 @@
       },
       {
         "id": "c7",
-        "text": "ingredients",
+        "text": "drinks",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "on",
+        "text": "at",
         "isDistractor": false
       },
       {
@@ -1199,7 +1207,7 @@
       },
       {
         "id": "c10",
-        "text": "table",
+        "text": "bar",
         "isDistractor": false
       },
       {
@@ -1214,40 +1222,40 @@
       },
       {
         "id": "d1",
-        "text": "preparing",
+        "text": "serving",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "at",
+        "text": "customers",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "were being",
+        "text": "table",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "during",
+        "text": "chef",
         "isDistractor": true
       }
     ],
     "translations": {
-      "the": "el/la/los/las",
-      "customers": "clientes",
-      "were": "estaban",
+      "the": "el/las",
+      "waiter": "mesero",
+      "was": "estaba",
       "not": "no",
       "mixing": "mezclando",
-      "ingredients": "ingredientes",
-      "on": "en",
-      "table": "mesa",
+      "drinks": "bebidas",
+      "at": "en",
+      "bar": "barra",
       "while": "mientras",
       "waiting": "esperando",
-      "preparing": "preparando",
-      "at": "a",
-      "were being": "estaban siendo",
-      "during": "durante"
+      "serving": "sirviendo",
+      "customers": "clientes",
+      "table": "mesa",
+      "chef": "chef"
     },
     "metadata": {
       "tense": "past continuous",
@@ -1266,7 +1274,7 @@
     ],
     "hintDisplay": "Sujeto: el chef / Verbo: picar (en pasado continuo) / Complemento: las cebollas para la receta / Tiempo: cuando llegaron los clientes",
     "spanishSentence": "El chef no estaba picando las cebollas cuando llegaron los clientes",
-    "correctSentence": "The chef was not chopping the onions when the customers arrived",
+    "correctSentence": "The chef was not chopping the onions when the customers arrived.",
     "cards": [
       {
         "id": "c1",
@@ -1376,7 +1384,7 @@
     ],
     "hintDisplay": "Sujeto: nosotros / Verbo: asar a la parrilla / Complemento: especias y hierbas aromáticas en los filetes / Tiempo: ayer por la tarde",
     "spanishSentence": "Estábamos asando a la parrilla filetes con especias y hierbas ayer por la tarde",
-    "correctSentence": "We were grilling steaks with spices and herbs yesterday afternoon",
+    "correctSentence": "We were grilling steaks with spices and herbs yesterday afternoon.",
     "cards": [
       {
         "id": "c1",
@@ -1430,22 +1438,23 @@
       },
       {
         "id": "d1",
-        "text": "were cooking",
-        "isDistractor": true
+        "text": "were",
+        "isDistractor": true,
+        "translation": "estaban"
       },
       {
         "id": "d2",
-        "text": "baking",
+        "text": "cooking",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "tomorrow",
+        "text": "baking",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "fish",
+        "text": "tomorrow",
         "isDistractor": true
       }
     ],
@@ -1482,7 +1491,7 @@
     ],
     "hintDisplay": "Sujeto: yo / Verbo: preparar (pasado continuo) / Complemento: los ingredientes para la receta / Tiempo: cuando llegó el chef",
     "spanishSentence": "No estaba preparando los ingredientes para la receta cuando llegó el chef",
-    "correctSentence": "I was not preparing the ingredients for the recipe when the chef arrived",
+    "correctSentence": "I was not preparing the ingredients for the recipe when the chef arrived.",
     "cards": [
       {
         "id": "c1",
@@ -1521,26 +1530,31 @@
       },
       {
         "id": "c8",
-        "text": "recipe",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "when",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
         "text": "the",
         "isDistractor": false
       },
       {
+        "id": "c9",
+        "text": "recipe",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "when",
+        "isDistractor": false
+      },
+      {
         "id": "c11",
-        "text": "chef",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c12",
+        "text": "chef",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
         "text": "arrived",
         "isDistractor": false
       },
@@ -1820,7 +1834,7 @@
     ],
     "hintDisplay": "Sujeto: ella / Verbo: freír / Complemento: las cebollas para la receta / Tiempo: mientras preparaba la cena",
     "spanishSentence": "Ella estaba friendo las cebollas para la receta mientras preparaba la cena",
-    "correctSentence": "She was frying the onions for the recipe while preparing dinner",
+    "correctSentence": "She was frying the onions for the recipe while preparing dinner.",
     "cards": [
       {
         "id": "c1",
@@ -1924,14 +1938,13 @@
   },
   {
     "hints": [
-      "Sujeto: los clientes",
-      "Verbo: asar a la parrilla",
-      "Complemento: las verduras",
-      "Tiempo: mientras esperaban"
+      "Sujeto: el chef",
+      "Verbo: no estar asando",
+      "Complemento: las verduras mientras esperaba"
     ],
-    "hintDisplay": "Sujeto: los clientes / Verbo: asar a la parrilla / Complemento: las verduras / Tiempo: mientras esperaban",
-    "spanishSentence": "Los clientes no estaban asando a la parrilla las verduras mientras esperaban.",
-    "correctSentence": "The customers were not grilling the vegetables while waiting.",
+    "hintDisplay": "Sujeto: el chef / Verbo: no estar asando / Complemento: las verduras mientras esperaba",
+    "spanishSentence": "El chef no estaba asando las verduras mientras esperaba.",
+    "correctSentence": "The chef was not grilling the vegetables while waiting.",
     "cards": [
       {
         "id": "c1",
@@ -1940,12 +1953,12 @@
       },
       {
         "id": "c2",
-        "text": "customers",
+        "text": "chef",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "were",
+        "text": "was",
         "isDistractor": false
       },
       {
@@ -1980,37 +1993,38 @@
       },
       {
         "id": "d1",
-        "text": "cooking",
+        "text": "frying",
         "isDistractor": true
       },
       {
         "id": "d2",
-        "text": "were",
+        "text": "customers",
         "isDistractor": true
       },
       {
         "id": "d3",
-        "text": "during",
+        "text": "serving",
         "isDistractor": true
       },
       {
         "id": "d4",
-        "text": "roasting",
+        "text": "preparing",
         "isDistractor": true
       }
     ],
     "translations": {
-      "the": "el/la/los/las",
-      "customers": "clientes",
-      "were": "estaban",
+      "the": "el/las",
+      "chef": "chef",
+      "was": "estaba",
       "not": "no",
-      "grilling": "asando a la parrilla",
+      "grilling": "asando",
       "vegetables": "verduras",
       "while": "mientras",
       "waiting": "esperando",
-      "cooking": "cocinando",
-      "during": "durante",
-      "roasting": "asando al horno"
+      "frying": "friendo",
+      "customers": "clientes",
+      "serving": "sirviendo",
+      "preparing": "preparando"
     },
     "metadata": {
       "tense": "past continuous",
@@ -2145,7 +2159,7 @@
     ],
     "hintDisplay": "Sujeto: el camarero / Verbo: servir / Complemento: los aperitivos a los clientes / Tiempo: ayer por la noche",
     "spanishSentence": "El camarero no estaba sirviendo los aperitivos a los clientes ayer por la noche",
-    "correctSentence": "The waiter was not serving the appetizers to the customers last night",
+    "correctSentence": "The waiter was not serving the appetizers to the customers last night.",
     "cards": [
       {
         "id": "c1",
