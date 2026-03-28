@@ -8,7 +8,7 @@
     ],
     "hintDisplay": "Sujeto: el servidor / Verbo: desplegar (negación) / Complemento: en producción sin pruebas / Tiempo: nunca",
     "spanishSentence": "Nunca se debe desplegar el servidor en producción sin pruebas exhaustivas",
-    "correctSentence": "Never should the server be deployed to production without thorough testing",
+    "correctSentence": "Never should the server be deployed to production without thorough testing.",
     "cards": [
       {
         "id": "c1",
@@ -102,12 +102,7 @@
       "production": "producción",
       "without": "sin",
       "thorough": "exhaustivo",
-      "testing": "pruebas",
-      "could": "podría",
-      "in": "en",
-      "shallow": "superficial",
-      "rarely": "raramente",
-      "compiled": "compilado"
+      "testing": "pruebas"
     },
     "metadata": {
       "tense": "inversion",
@@ -125,8 +120,8 @@
       "Tiempo: nunca (énfasis negativo)"
     ],
     "hintDisplay": "Sujeto: el frontend / Verbo: autenticar (acción enfatizada) / Complemento: usuarios contra el servidor backend / Tiempo: nunca (énfasis negativo)",
-    "spanishSentence": "Nunca debería el frontend autenticar usuarios contra el servidor backend.",
-    "correctSentence": "Never should the frontend authenticate users against the backend server.",
+    "spanishSentence": "Nunca debería el frontend almacenar credenciales de usuario sin encriptarlas primero.",
+    "correctSentence": "Never should the frontend store user credentials without encrypting them first.",
     "cards": [
       {
         "id": "c1",
@@ -150,32 +145,37 @@
       },
       {
         "id": "c5",
-        "text": "authenticate",
+        "text": "store",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "users",
+        "text": "user",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "against",
+        "text": "credentials",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "the",
+        "text": "without",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "backend",
+        "text": "encrypting",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "server",
+        "text": "them",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "first",
         "isDistractor": false
       },
       {
@@ -210,21 +210,17 @@
       }
     ],
     "translations": {
-      "never": "nunca",
+      "never": "Nunca",
       "should": "debería",
-      "the": "el/la",
+      "the": "el",
       "frontend": "frontend",
-      "authenticate": "autenticar",
-      "users": "usuarios",
-      "against": "contra",
-      "backend": "backend",
-      "server": "servidor",
-      "always": "siempre",
-      "could": "podría",
-      "verify": "verificar",
-      "validate": "validar",
-      "database": "base de datos",
-      "api": "API"
+      "store": "almacenar",
+      "user": "de usuario",
+      "credentials": "credenciales",
+      "without": "sin",
+      "encrypting": "encriptarlas",
+      "them": "las",
+      "first": "primero"
     },
     "metadata": {
       "tense": "inversion",
@@ -243,7 +239,7 @@
     ],
     "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: escalar (capacidad/habilidad) / Complemento: la infraestructura en la nube / Tiempo: solo después de optimizar el pipeline",
     "spanishSentence": "Solo después de optimizar el pipeline pudo el equipo de DevOps escalar la infraestructura en la nube",
-    "correctSentence": "Only after optimizing the pipeline could the DevOps team scale the cloud infrastructure",
+    "correctSentence": "Only after optimizing the pipeline could the DevOps team scale the cloud infrastructure.",
     "cards": [
       {
         "id": "c1",
@@ -347,12 +343,7 @@
       "team": "equipo",
       "scale": "escalar",
       "cloud": "nube",
-      "infrastructure": "infraestructura",
-      "deploy": "desplegar",
-      "before": "antes de",
-      "would": "habría",
-      "improving": "mejorar",
-      "server": "servidor"
+      "infrastructure": "infraestructura"
     },
     "metadata": {
       "tense": "inversion",
@@ -371,7 +362,7 @@
     ],
     "hintDisplay": "Sujeto: nosotros / Verbo: escalar (habilidad/capacidad) / Complemento: la arquitectura de microservicios con Docker / Tiempo: solo después de optimizar la pipeline",
     "spanishSentence": "Solo después de optimizar la pipeline pudimos escalar la arquitectura de microservicios con Docker",
-    "correctSentence": "Only after optimizing the pipeline could we scale the microservice architecture with Docker",
+    "correctSentence": "Only after optimizing the pipeline could we scale the microservice architecture with Docker.",
     "cards": [
       {
         "id": "c1",
@@ -415,21 +406,26 @@
       },
       {
         "id": "c9",
-        "text": "microservice",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "architecture",
+        "text": "microservice",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "with",
+        "text": "architecture",
         "isDistractor": false
       },
       {
         "id": "c12",
+        "text": "with",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
         "text": "Docker",
         "isDistractor": false
       },
@@ -476,13 +472,7 @@
       "microservice": "microservicios",
       "architecture": "arquitectura",
       "with": "con",
-      "docker": "Docker",
-      "before": "antes de",
-      "can": "podemos",
-      "kubernetes": "Kubernetes",
-      "deploying": "desplegar",
-      "database": "base de datos",
-      "without": "sin"
+      "docker": "Docker"
     },
     "metadata": {
       "tense": "inversion",
@@ -545,21 +535,26 @@
       },
       {
         "id": "c9",
-        "text": "new",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "microservice",
+        "text": "new",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "to",
+        "text": "microservice",
         "isDistractor": false
       },
       {
         "id": "c12",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
         "text": "production",
         "isDistractor": false
       },
@@ -601,12 +596,7 @@
       "new": "nuevo",
       "microservice": "microservice",
       "to": "a",
-      "production": "producción",
-      "finish": "terminar",
-      "before": "antes de",
-      "release": "lanzar",
-      "staging": "staging",
-      "does": "hace"
+      "production": "producción"
     },
     "metadata": {
       "tense": "inversion",
@@ -625,7 +615,7 @@
     ],
     "hintDisplay": "Sujeto: el sistema / Verbo: integrar / Complemento: la API del microservice con la base de datos en la nube / Tiempo: nunca",
     "spanishSentence": "Nunca ha integrado el sistema la API del microservice con la base de datos en la nube",
-    "correctSentence": "Never has the system integrated the API of the microservice with the database in the cloud",
+    "correctSentence": "Never has the system integrated the API of the microservice with the database in the cloud.",
     "cards": [
       {
         "id": "c1",
@@ -654,36 +644,56 @@
       },
       {
         "id": "c6",
-        "text": "API",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "of",
+        "text": "API",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "microservice",
+        "text": "of",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "with",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "database",
+        "text": "microservice",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "in",
+        "text": "with",
         "isDistractor": false
       },
       {
         "id": "c12",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "database",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "in",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c16",
         "text": "cloud",
         "isDistractor": false
       },
@@ -725,12 +735,7 @@
       "with": "con",
       "database": "base de datos",
       "in": "en",
-      "cloud": "nube",
-      "ever": "alguna vez",
-      "was": "era",
-      "connecting": "conectando",
-      "server": "servidor",
-      "cache": "caché"
+      "cloud": "nube"
     },
     "metadata": {
       "tense": "inversion",
@@ -831,12 +836,7 @@
       "database": "base de datos",
       "queries": "consultas",
       "without": "sin",
-      "caching": "almacenamiento en caché",
-      "handles": "maneja",
-      "always": "siempre",
-      "api": "API",
-      "with": "con",
-      "cloud": "nube"
+      "caching": "almacenamiento en caché"
     },
     "metadata": {
       "tense": "inversion",
@@ -854,8 +854,8 @@
       "Tiempo: solo después de revisar el esquema"
     ],
     "hintDisplay": "Sujeto: el servidor de base de datos / Verbo: depurar (reparar/diagnosticar) / Complemento: los problemas de latencia en la pipeline de deploy / Tiempo: solo después de revisar el esquema",
-    "spanishSentence": "Solo después de revisar el esquema pudo el servidor de base de datos depurar los problemas de latencia en la pipeline de deploy",
-    "correctSentence": "Only after reviewing the schema could the database server debug the latency issues in the deploy pipeline",
+    "spanishSentence": "Solo después de revisar el esquema pudo el ingeniero depurar los problemas de latencia en el pipeline de despliegue.",
+    "correctSentence": "Only after reviewing the schema could the engineer debug the latency issues in the deploy pipeline.",
     "cards": [
       {
         "id": "c1",
@@ -889,12 +889,12 @@
       },
       {
         "id": "c7",
-        "text": "database",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "server",
+        "text": "engineer",
         "isDistractor": false
       },
       {
@@ -904,26 +904,36 @@
       },
       {
         "id": "c10",
-        "text": "latency",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "issues",
+        "text": "latency",
         "isDistractor": false
       },
       {
         "id": "c12",
-        "text": "in",
+        "text": "issues",
         "isDistractor": false
       },
       {
         "id": "c13",
-        "text": "deploy",
+        "text": "in",
         "isDistractor": false
       },
       {
         "id": "c14",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "deploy",
+        "isDistractor": false
+      },
+      {
+        "id": "c16",
         "text": "pipeline",
         "isDistractor": false
       },
@@ -960,19 +970,12 @@
       "the": "el/la",
       "schema": "esquema",
       "could": "pudo",
-      "database": "base de datos",
-      "server": "servidor",
       "debug": "depurar",
       "latency": "latencia",
       "issues": "problemas",
       "in": "en",
       "deploy": "deploy",
-      "pipeline": "pipeline",
-      "before": "antes de",
-      "would": "sería",
-      "optimize": "optimizar",
-      "performance": "rendimiento",
-      "at": "en"
+      "pipeline": "pipeline"
     },
     "metadata": {
       "tense": "inversion",
@@ -1084,12 +1087,7 @@
       "without": "sin",
       "breaking": "romper",
       "existing": "existentes",
-      "endpoints": "endpoints",
-      "rarely": "raramente",
-      "modified": "modificado",
-      "while": "mientras",
-      "destroyed": "destruido",
-      "current": "actual"
+      "endpoints": "endpoints"
     },
     "metadata": {
       "tense": "inversion",
@@ -1107,8 +1105,8 @@
       "Tiempo: hasta que se completó la pipeline"
     ],
     "hintDisplay": "Sujeto: el ingeniero / Verbo: desplegar (deploy) / Complemento: el microservicio a producción / Tiempo: hasta que se completó la pipeline",
-    "spanishSentence": "No fue hasta que se completó la pipeline que el ingeniero no desplegó el microservicio a producción",
-    "correctSentence": "Not until the pipeline completed did the engineer not deploy the microservice to production",
+    "spanishSentence": "No fue hasta que el pipeline se completó que el ingeniero desplegó el microservicio a producción.",
+    "correctSentence": "Not until the pipeline completed did the engineer deploy the microservice to production.",
     "cards": [
       {
         "id": "c1",
@@ -1152,31 +1150,26 @@
       },
       {
         "id": "c9",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
         "text": "deploy",
         "isDistractor": false
       },
       {
-        "id": "c11",
+        "id": "c10",
         "text": "the",
         "isDistractor": false
       },
       {
-        "id": "c12",
+        "id": "c11",
         "text": "microservice",
         "isDistractor": false
       },
       {
-        "id": "c13",
+        "id": "c12",
         "text": "to",
         "isDistractor": false
       },
       {
-        "id": "c14",
+        "id": "c13",
         "text": "production",
         "isDistractor": false
       },
@@ -1217,12 +1210,7 @@
       "deploy": "desplegar",
       "microservice": "microservicio",
       "to": "a",
-      "production": "producción",
-      "release": "lanzar",
-      "unless": "a menos que",
-      "finished": "terminó",
-      "developer": "desarrollador",
-      "service": "servicio"
+      "production": "producción"
     },
     "metadata": {
       "tense": "inversion",
@@ -1270,26 +1258,36 @@
       },
       {
         "id": "c6",
-        "text": "deployment",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "pipeline",
+        "text": "deployment",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "without",
+        "text": "pipeline",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "reviewing",
+        "text": "without",
         "isDistractor": false
       },
       {
         "id": "c10",
+        "text": "reviewing",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
         "text": "schema",
         "isDistractor": false
       },
@@ -1329,12 +1327,7 @@
       "pipeline": "pipeline",
       "without": "sin",
       "reviewing": "revisar",
-      "schema": "schema",
-      "rarely": "rara vez",
-      "configured": "configurado",
-      "database": "base de datos",
-      "before": "antes",
-      "did": "hizo"
+      "schema": "schema"
     },
     "metadata": {
       "tense": "inversion",
@@ -1353,7 +1346,7 @@
     ],
     "hintDisplay": "Sujeto: la aplicación / Verbo: autenticar (negación) / Complemento: a los usuarios sin credenciales válidas / Tiempo: nunca (en ningún caso)",
     "spanishSentence": "Nunca debe la aplicación autenticar a usuarios sin credenciales válidas en el servidor",
-    "correctSentence": "Never should the application authenticate users without valid credentials on the server",
+    "correctSentence": "Never should the application authenticate users without valid credentials on the server.",
     "cards": [
       {
         "id": "c1",
@@ -1452,12 +1445,7 @@
       "valid": "válidas",
       "credentials": "credenciales",
       "on": "en",
-      "server": "servidor",
-      "can": "puede",
-      "verify": "verificar",
-      "with": "con",
-      "invalid": "inválidas",
-      "in": "dentro de"
+      "server": "servidor"
     },
     "metadata": {
       "tense": "inversion",
@@ -1476,7 +1464,7 @@
     ],
     "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: poder (habilidad) + escalar / Complemento: los microservicios sin Docker / Tiempo: nunca",
     "spanishSentence": "Nunca puede el equipo de DevOps escalar los microservicios sin Docker",
-    "correctSentence": "Never can the DevOps team scale the microservices without Docker",
+    "correctSentence": "Never can the DevOps team scale the microservices without Docker.",
     "cards": [
       {
         "id": "c1",
@@ -1510,16 +1498,21 @@
       },
       {
         "id": "c7",
-        "text": "microservices",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "without",
+        "text": "microservices",
         "isDistractor": false
       },
       {
         "id": "c9",
+        "text": "without",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
         "text": "Docker",
         "isDistractor": false
       },
@@ -1558,12 +1551,7 @@
       "scale": "escalar",
       "microservices": "microservicios",
       "without": "sin",
-      "docker": "Docker",
-      "might": "podría",
-      "deploy": "desplegar",
-      "servers": "servidores",
-      "with": "con",
-      "rarely": "raramente"
+      "docker": "Docker"
     },
     "metadata": {
       "tense": "inversion",
@@ -1616,21 +1604,26 @@
       },
       {
         "id": "c7",
-        "text": "database",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "cache",
+        "text": "database",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "query",
+        "text": "cache",
         "isDistractor": false
       },
       {
         "id": "c10",
+        "text": "query",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
         "text": "results",
         "isDistractor": false
       },
@@ -1670,12 +1663,7 @@
       "database": "base de datos",
       "cache": "cachear",
       "query": "query",
-      "results": "resultados",
-      "before": "antes de",
-      "server": "servidor",
-      "retrieve": "recuperar",
-      "endpoints": "endpoints",
-      "storing": "almacenando"
+      "results": "resultados"
     },
     "metadata": {
       "tense": "inversion",
@@ -1738,41 +1726,56 @@
       },
       {
         "id": "c9",
-        "text": "team",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "integrate",
+        "text": "team",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "legacy",
+        "text": "integrate",
         "isDistractor": false
       },
       {
         "id": "c12",
-        "text": "database",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c13",
-        "text": "with",
+        "text": "legacy",
         "isDistractor": false
       },
       {
         "id": "c14",
-        "text": "new",
+        "text": "database",
         "isDistractor": false
       },
       {
         "id": "c15",
-        "text": "microservices",
+        "text": "with",
         "isDistractor": false
       },
       {
         "id": "c16",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c17",
+        "text": "new",
+        "isDistractor": false
+      },
+      {
+        "id": "c18",
+        "text": "microservices",
+        "isDistractor": false
+      },
+      {
+        "id": "c19",
         "text": "architecture",
         "isDistractor": false
       },
@@ -1823,13 +1826,7 @@
       "with": "con",
       "new": "nueva",
       "microservices": "microservicios",
-      "architecture": "arquitectura",
-      "before": "antes de",
-      "migrating": "migrar",
-      "would": "sería",
-      "connect": "conectar",
-      "old": "antigua",
-      "infrastructure": "infraestructura"
+      "architecture": "arquitectura"
     },
     "metadata": {
       "tense": "inversion",
@@ -1848,7 +1845,7 @@
     ],
     "hintDisplay": "Sujeto: la API / Verbo: integrar (negación) / Complemento: con el microservice de autenticación / Tiempo: hasta que el pipeline esté listo",
     "spanishSentence": "No será integrada la API con el microservice de autenticación hasta que el pipeline esté listo",
-    "correctSentence": "Not until the pipeline is ready will the API be integrated with the authentication microservice",
+    "correctSentence": "Not until the pipeline is ready will the API be integrated with the authentication microservice.",
     "cards": [
       {
         "id": "c1",
@@ -1964,12 +1961,7 @@
       "integrated": "integrada",
       "with": "con",
       "authentication": "autenticación",
-      "microservice": "microservice",
-      "never": "nunca",
-      "deployed": "desplegada",
-      "cached": "en caché",
-      "database": "base de datos",
-      "had": "había"
+      "microservice": "microservice"
     },
     "metadata": {
       "tense": "inversion",
@@ -2093,12 +2085,7 @@
       "scale": "escalar",
       "without": "sin",
       "manual": "manual",
-      "intervention": "intervención",
-      "should": "debería",
-      "before": "antes de",
-      "configuring": "configurar",
-      "server": "servidor",
-      "automatic": "automática"
+      "intervention": "intervención"
     },
     "metadata": {
       "tense": "inversion",
@@ -2161,16 +2148,21 @@
       },
       {
         "id": "c9",
-        "text": "API",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "and",
+        "text": "API",
         "isDistractor": false
       },
       {
         "id": "c11",
+        "text": "and",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
         "text": "schema",
         "isDistractor": false
       },
@@ -2211,12 +2203,7 @@
       "debug": "debuguear",
       "api": "API",
       "and": "y",
-      "schema": "schema",
-      "might": "podría",
-      "cache": "caché",
-      "deployment": "despliegue",
-      "before": "antes de",
-      "configure": "configurar"
+      "schema": "schema"
     },
     "metadata": {
       "tense": "inversion",
@@ -2235,7 +2222,7 @@
     ],
     "hintDisplay": "Sujeto: la aplicación / Verbo: integrar (habilidad) / Complemento: con el servidor de base de datos legacy / Tiempo: hasta después de completar la migración del schema",
     "spanishSentence": "No podría la aplicación integrarse con el servidor de base de datos legacy hasta después de completar la migración del schema",
-    "correctSentence": "Not until after completing the schema migration could the application integrate with the legacy database server",
+    "correctSentence": "Not until after completing the schema migration could the application integrate with the legacy database server.",
     "cards": [
       {
         "id": "c1",
@@ -2279,31 +2266,41 @@
       },
       {
         "id": "c9",
-        "text": "application",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c10",
-        "text": "integrate",
+        "text": "application",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "with",
+        "text": "integrate",
         "isDistractor": false
       },
       {
         "id": "c12",
-        "text": "legacy",
+        "text": "with",
         "isDistractor": false
       },
       {
         "id": "c13",
-        "text": "database",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c14",
+        "text": "legacy",
+        "isDistractor": false
+      },
+      {
+        "id": "c15",
+        "text": "database",
+        "isDistractor": false
+      },
+      {
+        "id": "c16",
         "text": "server",
         "isDistractor": false
       },
@@ -2347,12 +2344,7 @@
       "with": "con",
       "legacy": "legacy",
       "database": "base de datos",
-      "server": "servidor",
-      "before": "antes",
-      "deploy": "desplegar",
-      "cannot": "no puede",
-      "connect": "conectar",
-      "endpoint": "endpoint"
+      "server": "servidor"
     },
     "metadata": {
       "tense": "inversion",
@@ -2471,12 +2463,7 @@
       "implementing": "implementar",
       "a": "un",
       "robust": "robusto",
-      "cache": "cache",
-      "ever": "jamás",
-      "did": "hizo",
-      "improved": "mejorado",
-      "deploying": "desplegar",
-      "weak": "débil"
+      "cache": "cache"
     },
     "metadata": {
       "tense": "inversion",
