@@ -1,14 +1,15 @@
 [
   {
     "hints": [
-      "Sujeto: los estudiantes",
-      "Verbo: estudiar",
-      "Complemento: para el examen final durante todo el semestre",
-      "Tiempo: antes de que llegara el día del examen"
+      "Tiempo: todos los días (indicador de acción repetida en el pasado)",
+      "Sujeto: el profesor",
+      "Verbo: estar (auxiliar para aspecto continuo) + asignar (acción principal)",
+      "Complemento: tareas",
+      "Tiempo: antes de que los estudiantes se quejaran (punto de referencia temporal anterior)"
     ],
-    "hintDisplay": "Sujeto: los estudiantes / Verbo: estudiar / Complemento: para el examen final durante todo el semestre / Tiempo: antes de que llegara el día del examen",
-    "spanishSentence": "¿Habían estado estudiando los estudiantes para el examen final durante todo el semestre antes de que llegara el día del examen?",
-    "correctSentence": "Had the students been studying for the final exam throughout the entire semester before the exam day arrived?",
+    "hintDisplay": "Tiempo: todos los días (indicador de acción repetida en el pasado) / Sujeto: el profesor / Verbo: estar (auxiliar para aspecto continuo) + asignar (acción principal) / Complemento: tareas / Tiempo: antes de que los estudiantes se quejaran (punto de referencia temporal anterior)",
+    "spanishSentence": "¿Había estado el profesor asignando tareas todos los días antes de que los estudiantes se quejaran?",
+    "correctSentence": "Had the teacher been assigning homework every day before the students complained?",
     "cards": [
       {
         "id": "c1",
@@ -22,7 +23,7 @@
       },
       {
         "id": "c3",
-        "text": "students",
+        "text": "teacher",
         "isDistractor": false
       },
       {
@@ -32,22 +33,158 @@
       },
       {
         "id": "c5",
-        "text": "studying",
+        "text": "assigning",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "for",
+        "text": "homework",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "the",
+        "text": "every",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "final",
+        "text": "day",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "before",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "students",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "complained",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "assigned",
+        "isDistractor": true,
+        "translation": "asignadas"
+      },
+      {
+        "id": "d2",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "sus"
+      },
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(presente perfecto)"
+      },
+      {
+        "id": "d4",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "d5",
+        "text": "giving",
+        "isDistractor": true,
+        "translation": "dando"
+      },
+      {
+        "id": "d6",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      }
+    ],
+    "translations": {
+      "had": "(pluscuamperfecto)",
+      "the": "(artículo)",
+      "teacher": "profesor",
+      "been": "estado",
+      "assigning": "asignando",
+      "homework": "tareas",
+      "every": "cada",
+      "day": "día",
+      "before": "antes de que",
+      "students": "estudiantes",
+      "complained": "se quejaran",
+      "were": "(pasado)",
+      "has": "(presente perfecto)",
+      "their": "sus",
+      "assigned": "asignadas",
+      "is": "(presente)",
+      "giving": "dando"
+    },
+    "metadata": {
+      "tense": "past perfect continuous",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "school"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú",
+      "Verbo: estudiar (pasado perfecto continuo)",
+      "Complemento: para el examen",
+      "Complemento: antes de que llegara tu compañero de clase",
+      "Tiempo: antes de un evento pasado"
+    ],
+    "hintDisplay": "Sujeto: tú / Verbo: estudiar (pasado perfecto continuo) / Complemento: para el examen / Complemento: antes de que llegara tu compañero de clase / Tiempo: antes de un evento pasado",
+    "spanishSentence": "¿Cuánto tiempo habías estado estudiando para el examen antes de que llegara tu compañero de clase?",
+    "correctSentence": "How long had you been studying for the exam before the classmate arrived?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "How",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "long",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "you",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "been",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "studying",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "for",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "the",
         "isDistractor": false
       },
       {
@@ -57,7 +194,7 @@
       },
       {
         "id": "c10",
-        "text": "throughout",
+        "text": "before",
         "isDistractor": false
       },
       {
@@ -67,80 +204,63 @@
       },
       {
         "id": "c12",
-        "text": "entire",
+        "text": "classmate",
         "isDistractor": false
       },
       {
         "id": "c13",
-        "text": "semester",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "exam",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "day",
-        "isDistractor": false
-      },
-      {
-        "id": "c18",
         "text": "arrived",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "Have",
-        "isDistractor": true
+        "text": "during",
+        "isDistractor": true,
+        "translation": "durante"
       },
       {
         "id": "d2",
-        "text": "studied",
-        "isDistractor": true
+        "text": "arrives",
+        "isDistractor": true,
+        "translation": "llega"
       },
       {
         "id": "d3",
-        "text": "pupils",
-        "isDistractor": true
+        "text": "studied",
+        "isDistractor": true,
+        "translation": "estudiado"
       },
       {
         "id": "d4",
-        "text": "during",
-        "isDistractor": true
+        "text": "have",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "d5",
-        "text": "came",
-        "isDistractor": true
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
       }
     ],
     "translations": {
-      "had": "habían",
-      "the": "el/la/los/las",
-      "students": "estudiantes",
+      "how": "cómo",
+      "long": "largo",
+      "had": "(pluscuamperfecto)",
+      "you": "tú",
       "been": "estado",
       "studying": "estudiando",
       "for": "para",
-      "final": "final",
+      "the": "(artículo)",
       "exam": "examen",
-      "throughout": "durante todo",
-      "entire": "entero",
-      "semester": "semestre",
-      "before": "antes de que",
-      "day": "día",
-      "arrived": "llegara"
+      "before": "antes",
+      "classmate": "compañero de clase",
+      "arrived": "llegó",
+      "studied": "estudiado",
+      "have": "(auxiliar)",
+      "their": "su",
+      "arrives": "llega",
+      "during": "durante"
     },
     "metadata": {
       "tense": "past perfect continuous",
@@ -152,14 +272,159 @@
   },
   {
     "hints": [
-      "Sujeto: los estudiantes",
-      "Verbo: estudiar",
-      "Complemento: para el examen final durante varias horas",
-      "Tiempo: cuando el profesor entró al aula"
+      "Sujeto: el profesor",
+      "Verbo: haber (auxiliar para pasado perfecto continuo)",
+      "Verbo: estar (auxiliar para aspecto continuo)",
+      "Verbo: dar clases (lecturing)",
+      "Tiempo: durante tres horas",
+      "Complemento: cuando los estudiantes comenzaron a quedarse dormidos",
+      "Estructura: pregunta negativa en pasado perfecto continuo"
     ],
-    "hintDisplay": "Sujeto: los estudiantes / Verbo: estudiar / Complemento: para el examen final durante varias horas / Tiempo: cuando el profesor entró al aula",
-    "spanishSentence": "¿Habían estado estudiando los estudiantes para el examen final durante varias horas cuando el profesor entró al aula?",
-    "correctSentence": "Had the students been studying for the final exam for several hours when the professor entered the classroom?",
+    "hintDisplay": "Sujeto: el profesor / Verbo: haber (auxiliar para pasado perfecto continuo) / Verbo: estar (auxiliar para aspecto continuo) / Verbo: dar clases (lecturing) / Tiempo: durante tres horas / Complemento: cuando los estudiantes comenzaron a quedarse dormidos / Estructura: pregunta negativa en pasado perfecto continuo",
+    "spanishSentence": "¿No había estado el profesor dando clases durante tres horas cuando los estudiantes comenzaron a quedarse dormidos?",
+    "correctSentence": "Hadn't the professor been lecturing for three hours when the students started falling asleep?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Hadn't",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "professor",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "been",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "lecturing",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "for",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "three",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "hours",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "when",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "students",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "started",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "falling",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "asleep",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "d2",
+        "text": "Lectures",
+        "isDistractor": true,
+        "translation": "clases"
+      },
+      {
+        "id": "d3",
+        "text": "They",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "d4",
+        "text": "Being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "d5",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      }
+    ],
+    "translations": {
+      "hadn't": "no había",
+      "the": "(artículo)",
+      "professor": "profesor",
+      "been": "estado",
+      "lecturing": "dando clases",
+      "for": "durante",
+      "three": "tres",
+      "hours": "horas",
+      "when": "cuando",
+      "students": "estudiantes",
+      "started": "comenzaron",
+      "falling": "quedarse",
+      "asleep": "dormidos",
+      "has": "ha",
+      "being": "siendo",
+      "lectures": "clases",
+      "they": "ellos",
+      "would": "(condicional)"
+    },
+    "metadata": {
+      "tense": "past perfect continuous",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "school"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el estudiante",
+      "Verbo: haber (auxiliar para perfecto continuo)",
+      "Verbo: estar (auxiliar para aspecto continuo)",
+      "Verbo: entregar (acción principal)",
+      "Complemento: tareas",
+      "Complemento: antes de la fecha límite"
+    ],
+    "hintDisplay": "Sujeto: el estudiante / Verbo: haber (auxiliar para perfecto continuo) / Verbo: estar (auxiliar para aspecto continuo) / Verbo: entregar (acción principal) / Complemento: tareas / Complemento: antes de la fecha límite",
+    "spanishSentence": "¿Había estado el estudiante entregando tareas antes de la fecha límite?",
+    "correctSentence": "Had the student been submitting assignments before the deadline?",
     "cards": [
       {
         "id": "c1",
@@ -173,7 +438,7 @@
       },
       {
         "id": "c3",
-        "text": "students",
+        "text": "student",
         "isDistractor": false
       },
       {
@@ -183,120 +448,81 @@
       },
       {
         "id": "c5",
-        "text": "studying",
+        "text": "submitting",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "for",
+        "text": "assignments",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "the",
+        "text": "before",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "final",
+        "text": "the",
         "isDistractor": false
       },
       {
         "id": "c9",
-        "text": "exam",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "several",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "hours",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "when",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "professor",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "entered",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c18",
-        "text": "classroom",
+        "text": "deadline",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "Have",
-        "isDistractor": true
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "d2",
-        "text": "studied",
-        "isDistractor": true
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
       },
       {
         "id": "d3",
-        "text": "for",
-        "isDistractor": true
+        "text": "Submitted",
+        "isDistractor": true,
+        "translation": "entregado"
       },
       {
         "id": "d4",
-        "text": "midterm",
-        "isDistractor": true
+        "text": "They",
+        "isDistractor": true,
+        "translation": "ellos/ellas"
       },
       {
         "id": "d5",
-        "text": "left",
-        "isDistractor": true
+        "text": "Having",
+        "isDistractor": true,
+        "translation": "habiendo"
       },
       {
         "id": "d6",
-        "text": "lecture",
-        "isDistractor": true
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       }
     ],
     "translations": {
-      "had": "habían",
-      "the": "el/la/los/las",
-      "students": "estudiantes",
+      "had": "había",
+      "the": "(artículo)",
+      "student": "estudiante",
       "been": "estado",
-      "studying": "estudiando",
-      "for": "para/durante",
-      "final": "final",
-      "exam": "examen",
-      "several": "varias",
-      "hours": "horas",
-      "when": "cuando",
-      "professor": "profesor",
-      "entered": "entró",
-      "classroom": "aula"
+      "submitting": "entregando",
+      "assignments": "tareas",
+      "before": "antes de",
+      "deadline": "fecha límite",
+      "has": "ha",
+      "will": "(futuro)",
+      "submitted": "entregado",
+      "they": "ellos/ellas",
+      "does": "(auxiliar)",
+      "having": "habiendo"
     },
     "metadata": {
       "tense": "past perfect continuous",
@@ -308,14 +534,293 @@
   },
   {
     "hints": [
-      "Sujeto: yo",
-      "Verbo: estudiar",
-      "Complemento: para el examen de matemáticas",
-      "Tiempo: durante tres horas cuando mi profesor llegó a la clase"
+      "Sujeto: nosotros",
+      "Verbo: haber (auxiliar para pluscuamperfecto)",
+      "Verbo: estar (estar discutiendo)",
+      "Complemento: la tarea",
+      "Tiempo: antes de que llegara el profesor"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: estudiar / Complemento: para el examen de matemáticas / Tiempo: durante tres horas cuando mi profesor llegó a la clase",
-    "spanishSentence": "¿Había estado estudiando para el examen de matemáticas durante tres horas cuando mi profesor llegó a la clase?",
-    "correctSentence": "Had I been studying for the math exam for three hours when my professor arrived at the classroom?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: haber (auxiliar para pluscuamperfecto) / Verbo: estar (estar discutiendo) / Complemento: la tarea / Tiempo: antes de que llegara el profesor",
+    "spanishSentence": "¿Cuánto tiempo habíamos estado discutiendo la tarea antes de que llegara el profesor?",
+    "correctSentence": "How long had we been discussing the homework assignment before the teacher arrived?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "How",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "long",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "we",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "been",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "discussing",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "homework",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "assignment",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "before",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "teacher",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "arrived",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pretérito imperfecto)"
+      },
+      {
+        "id": "d2",
+        "text": "arrive",
+        "isDistractor": true,
+        "translation": "llegar"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "d4",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d5",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(presente perfecto)"
+      }
+    ],
+    "translations": {
+      "how": "cómo",
+      "long": "largo",
+      "had": "(pluscuamperfecto)",
+      "we": "nosotros",
+      "been": "estado",
+      "discussing": "discutiendo",
+      "the": "(artículo)",
+      "homework": "tarea",
+      "assignment": "tarea",
+      "before": "antes de",
+      "teacher": "profesor",
+      "arrived": "llegó",
+      "has": "(presente perfecto)",
+      "will": "(futuro)",
+      "they": "ellos",
+      "arrive": "llegar",
+      "were": "(pretérito imperfecto)"
+    },
+    "metadata": {
+      "tense": "past perfect continuous",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "school"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: los estudiantes",
+      "Verbo: estar (auxiliar de progresivo)",
+      "Verbo: investigar (infinitivo)",
+      "Complemento: el proyecto",
+      "Tiempo: antes de entregarlo"
+    ],
+    "hintDisplay": "Sujeto: los estudiantes / Verbo: estar (auxiliar de progresivo) / Verbo: investigar (infinitivo) / Complemento: el proyecto / Tiempo: antes de entregarlo",
+    "spanishSentence": "¿Cuánto tiempo habían estado investigando los estudiantes el proyecto antes de entregarlo?",
+    "correctSentence": "How long had the students been researching the project before they submitted it?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "How",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "long",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "students",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "been",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "researching",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "project",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "before",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "they",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "submitted",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "it",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "d2",
+        "text": "studying",
+        "isDistractor": true,
+        "translation": "estudiando"
+      },
+      {
+        "id": "d3",
+        "text": "researched",
+        "isDistractor": true,
+        "translation": "investigado"
+      },
+      {
+        "id": "d4",
+        "text": "submitting",
+        "isDistractor": true,
+        "translation": "entregando"
+      },
+      {
+        "id": "d5",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d6",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "estaban"
+      }
+    ],
+    "translations": {
+      "how": "cómo",
+      "long": "largo/tiempo",
+      "had": "(pluscuamperfecto)",
+      "the": "(artículo)",
+      "students": "estudiantes",
+      "been": "estado",
+      "researching": "investigando",
+      "project": "proyecto",
+      "before": "antes",
+      "they": "ellos",
+      "submitted": "entregaron",
+      "it": "lo",
+      "researched": "investigado",
+      "them": "los",
+      "have": "(auxiliar)",
+      "were": "estaban",
+      "submitting": "entregando",
+      "studying": "estudiando"
+    },
+    "metadata": {
+      "tense": "past perfect continuous",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "school"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: durante dos horas antes de que llegara el profesor",
+      "Sujeto: I (yo)",
+      "Verbo: have (auxiliar para perfecto)",
+      "Verbo: be (auxiliar para continuo)",
+      "Verbo: read (leer)",
+      "Complemento: that book (ese libro)"
+    ],
+    "hintDisplay": "Tiempo: durante dos horas antes de que llegara el profesor / Sujeto: I (yo) / Verbo: have (auxiliar para perfecto) / Verbo: be (auxiliar para continuo) / Verbo: read (leer) / Complemento: that book (ese libro)",
+    "spanishSentence": "¿Había estado leyendo ese libro durante dos horas antes de que llegara el profesor?",
+    "correctSentence": "Had I been reading that book for two hours before the teacher arrived?",
     "cards": [
       {
         "id": "c1",
@@ -334,822 +839,104 @@
       },
       {
         "id": "c4",
-        "text": "studying",
+        "text": "reading",
         "isDistractor": false
       },
       {
         "id": "c5",
-        "text": "for",
+        "text": "that",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "the",
+        "text": "book",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "math",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "exam",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
         "text": "for",
         "isDistractor": false
       },
       {
-        "id": "c10",
-        "text": "three",
+        "id": "c8",
+        "text": "two",
         "isDistractor": false
       },
       {
-        "id": "c11",
+        "id": "c9",
         "text": "hours",
         "isDistractor": false
       },
       {
+        "id": "c10",
+        "text": "before",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
         "id": "c12",
-        "text": "when",
+        "text": "teacher",
         "isDistractor": false
       },
       {
         "id": "c13",
-        "text": "my",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "professor",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
         "text": "arrived",
         "isDistractor": false
       },
       {
-        "id": "c16",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c18",
-        "text": "classroom",
-        "isDistractor": false
-      },
-      {
         "id": "d1",
-        "text": "Have",
-        "isDistractor": true
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
       {
         "id": "d2",
-        "text": "studied",
-        "isDistractor": true
+        "text": "Was",
+        "isDistractor": true,
+        "translation": "(pasado)"
       },
       {
         "id": "d3",
-        "text": "was",
-        "isDistractor": true
+        "text": "Arriving",
+        "isDistractor": true,
+        "translation": "llegando"
       },
       {
         "id": "d4",
-        "text": "physics",
-        "isDistractor": true
+        "text": "Have",
+        "isDistractor": true,
+        "translation": "haber"
       },
       {
         "id": "d5",
-        "text": "two",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "teacher",
-        "isDistractor": true
+        "text": "Being",
+        "isDistractor": true,
+        "translation": "siendo"
       }
     ],
     "translations": {
-      "had": "había",
+      "had": "(pluscuamperfecto)",
       "i": "yo",
       "been": "estado",
-      "studying": "estudiando",
-      "for": "para/durante",
-      "the": "el/la",
-      "math": "matemáticas",
-      "exam": "examen",
-      "three": "tres",
-      "hours": "horas",
-      "when": "cuando",
-      "my": "mi",
-      "professor": "profesor",
-      "arrived": "llegó",
-      "at": "a",
-      "classroom": "clase"
-    },
-    "metadata": {
-      "tense": "past perfect continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "school"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: los estudiantes",
-      "Verbo: estudiar",
-      "Complemento: para el examen final",
-      "Tiempo: durante tres horas antes de que terminara la clase"
-    ],
-    "hintDisplay": "Sujeto: los estudiantes / Verbo: estudiar / Complemento: para el examen final / Tiempo: durante tres horas antes de que terminara la clase",
-    "spanishSentence": "¿Habían estado estudiando los estudiantes para el examen final durante tres horas antes de que terminara la clase?",
-    "correctSentence": "Had the students been studying for the final exam for three hours before the class ended?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Had",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "students",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "been",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "studying",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "final",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "exam",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "three",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "hours",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "class",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "ended",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "being",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "revised",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "throughout",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "finished",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "had": "habían",
-      "the": "el/la/los/las",
-      "students": "estudiantes",
-      "been": "estado",
-      "studying": "estudiando",
-      "for": "para/durante",
-      "final": "final",
-      "exam": "examen",
-      "three": "tres",
-      "hours": "horas",
-      "before": "antes de que",
-      "class": "clase",
-      "ended": "terminara"
-    },
-    "metadata": {
-      "tense": "past perfect continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "school"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: ella",
-      "Verbo: escribir",
-      "Complemento: la tarea de investigación",
-      "Tiempo: durante dos horas antes de que terminara la clase"
-    ],
-    "hintDisplay": "Sujeto: ella / Verbo: escribir / Complemento: la tarea de investigación / Tiempo: durante dos horas antes de que terminara la clase",
-    "spanishSentence": "¿Había ella estado escribiendo la tarea de investigación durante dos horas antes de que terminara la clase?",
-    "correctSentence": "Had she been writing the research assignment for two hours before the class ended?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Had",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "been",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "writing",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "research",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "assignment",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "two",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "hours",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "class",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "ended",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Have",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "studying",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "homework",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "during",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "finished",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "three",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "had": "había",
-      "she": "ella",
-      "been": "estado",
-      "writing": "escribiendo",
-      "the": "la",
-      "research": "investigación",
-      "assignment": "tarea",
+      "reading": "leyendo",
+      "that": "ese",
+      "book": "libro",
       "for": "durante",
       "two": "dos",
       "hours": "horas",
       "before": "antes de que",
-      "class": "clase",
-      "ended": "terminara"
-    },
-    "metadata": {
-      "tense": "past perfect continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "school"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la profesora",
-      "Verbo: calificar (marcar con notas)",
-      "Complemento: los exámenes finales",
-      "Tiempo: durante toda la noche antes de que llegaran los estudiantes"
-    ],
-    "hintDisplay": "Sujeto: la profesora / Verbo: calificar / Complemento: los exámenes finales / Tiempo: durante toda la noche",
-    "spanishSentence": "¿Había estado calificando la profesora los exámenes finales toda la noche antes de que llegaran los estudiantes?",
-    "correctSentence": "Had the teacher been grading the final exams all night before the students arrived?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Had",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "teacher",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "been",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "grading",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "final",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "exams",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "all",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "students",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "arrived",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "marking",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "homework",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "Have",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "left",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "had": "había",
-      "the": "el/la/los/las",
-      "teacher": "profesor/a",
-      "been": "estado",
-      "grading": "calificando",
-      "final": "finales",
-      "exams": "exámenes",
-      "all": "toda",
-      "night": "noche",
-      "before": "antes de que",
-      "students": "estudiantes",
-      "arrived": "llegaran"
-    },
-    "metadata": {
-      "tense": "past perfect continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "school"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: estudiar",
-      "Complemento: para el examen de semestre",
-      "Tiempo: durante tres horas antes de que llegara el profesor"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: estudiar / Complemento: para el examen de semestre / Tiempo: durante tres horas antes de que llegara el profesor",
-    "spanishSentence": "¿No habíamos estado estudiando para el examen de semestre durante tres horas antes de que llegara el profesor?",
-    "correctSentence": "Hadn't we been studying for the semester exam for three hours before the professor arrived?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Hadn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "been",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "studying",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "semester",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "exam",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "three",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "hours",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "professor",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "arrived",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Have",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "studied",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "two",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "teacher",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "we": "nosotros",
-      "been": "estado",
-      "studying": "estudiando",
-      "for": "para",
-      "the": "el/la",
-      "semester": "semestre",
-      "exam": "examen",
-      "three": "tres",
-      "hours": "horas",
-      "before": "antes de que",
-      "professor": "profesor",
-      "arrived": "llegara"
-    },
-    "metadata": {
-      "tense": "past perfect continuous",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "school"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: los estudiantes",
-      "Verbo: estudiar",
-      "Complemento: para el examen final",
-      "Tiempo: durante tres semanas antes de que terminara el semestre"
-    ],
-    "hintDisplay": "Sujeto: los estudiantes / Verbo: estudiar / Complemento: para el examen final / Tiempo: durante tres semanas antes de que terminara el semestre",
-    "spanishSentence": "¿Habían estado estudiando los estudiantes para el examen final durante tres semanas antes de que terminara el semestre?",
-    "correctSentence": "Had the students been studying for the final exam for three weeks before the semester ended?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Had",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "students",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "been",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "studying",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "final",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "exam",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "three",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "weeks",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "semester",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "ended",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "been",
-        "isDistractor": true,
-        "translation": "estado"
-      },
-      {
-        "id": "d2",
-        "text": "studying",
-        "isDistractor": true,
-        "translation": "estudiando"
-      },
-      {
-        "id": "d3",
-        "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "midterm",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "two",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "after",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "had": "habían",
-      "the": "el/la/los/las",
-      "students": "estudiantes",
-      "been": "estado",
-      "studying": "estudiando",
-      "for": "para/durante",
-      "final": "final",
-      "exam": "examen",
-      "three": "tres",
-      "weeks": "semanas",
-      "before": "antes de que",
-      "semester": "semestre",
-      "ended": "terminara"
+      "the": "(artículo)",
+      "teacher": "profesor",
+      "arrived": "llegara",
+      "have": "haber",
+      "was": "(pasado)",
+      "arriving": "llegando",
+      "would": "(condicional)",
+      "being": "siendo"
     },
     "metadata": {
       "tense": "past perfect continuous",
@@ -1162,17 +949,21 @@
   {
     "hints": [
       "Sujeto: el profesor",
-      "Verbo: enseñar",
-      "Complemento: literatura medieval en el aula durante tres semestres",
-      "Tiempo: antes de que se jubilara"
+      "Verbo: haber (auxiliar para pluscuamperfecto)",
+      "Verbo: estar (estar + gerundio)",
+      "Verbo: mentorear/mentorar",
+      "Complemento: estudiantes",
+      "Complemento: en el aula",
+      "Tiempo: durante tres horas",
+      "Tiempo: antes de que sonara la campana"
     ],
-    "hintDisplay": "Sujeto: el profesor / Verbo: enseñar / Complemento: literatura medieval en el aula durante tres semestres / Tiempo: antes de que se jubilara",
-    "spanishSentence": "¿Había estado enseñando literatura medieval en el aula durante tres semestres antes de que se jubilara el profesor?",
-    "correctSentence": "Had the professor been teaching medieval literature in the classroom for three semesters before he retired?",
+    "hintDisplay": "Sujeto: el profesor / Verbo: haber (auxiliar para pluscuamperfecto) / Verbo: estar (estar + gerundio) / Verbo: mentorear/mentorar / Complemento: estudiantes / Complemento: en el aula / Tiempo: durante tres horas / Tiempo: antes de que sonara la campana",
+    "spanishSentence": "¿No había estado el profesor mentorando estudiantes en el aula durante tres horas antes de que sonara la campana?",
+    "correctSentence": "Hadn't the professor been mentoring students in the classroom for three hours before the bell rang?",
     "cards": [
       {
         "id": "c1",
-        "text": "Had",
+        "text": "Hadn't",
         "isDistractor": false
       },
       {
@@ -1192,110 +983,126 @@
       },
       {
         "id": "c5",
-        "text": "teaching",
+        "text": "mentoring",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "medieval",
+        "text": "students",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "literature",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
         "text": "in",
         "isDistractor": false
       },
       {
-        "id": "c9",
+        "id": "c8",
         "text": "the",
         "isDistractor": false
       },
       {
-        "id": "c10",
+        "id": "c9",
         "text": "classroom",
         "isDistractor": false
       },
       {
-        "id": "c11",
+        "id": "c10",
         "text": "for",
         "isDistractor": false
       },
       {
-        "id": "c12",
+        "id": "c11",
         "text": "three",
         "isDistractor": false
       },
       {
-        "id": "c13",
-        "text": "semesters",
+        "id": "c12",
+        "text": "hours",
         "isDistractor": false
       },
       {
-        "id": "c14",
+        "id": "c13",
         "text": "before",
         "isDistractor": false
       },
       {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
         "id": "c15",
-        "text": "he",
+        "text": "bell",
         "isDistractor": false
       },
       {
         "id": "c16",
-        "text": "retired",
+        "text": "rang",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "studying",
-        "isDistractor": true
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "habría"
       },
       {
         "id": "d2",
-        "text": "ancient",
-        "isDistractor": true
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "d3",
-        "text": "at",
-        "isDistractor": true
+        "text": "Them",
+        "isDistractor": true,
+        "translation": "los"
       },
       {
         "id": "d4",
-        "text": "during",
-        "isDistractor": true
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
       },
       {
         "id": "d5",
-        "text": "she",
-        "isDistractor": true
+        "text": "Since",
+        "isDistractor": true,
+        "translation": "desde"
+      },
+      {
+        "id": "d6",
+        "text": "Being",
+        "isDistractor": true,
+        "translation": "siendo"
       }
     ],
     "translations": {
-      "had": "había",
-      "the": "el/la",
+      "hadn't": "no había",
+      "the": "(artículo)",
       "professor": "profesor",
       "been": "estado",
-      "teaching": "enseñando",
-      "medieval": "medieval",
-      "literature": "literatura",
+      "mentoring": "mentorando",
+      "students": "estudiantes",
       "in": "en",
       "classroom": "aula",
       "for": "durante",
       "three": "tres",
-      "semesters": "semestres",
+      "hours": "horas",
       "before": "antes de que",
-      "he": "él",
-      "retired": "se jubilara"
+      "bell": "campana",
+      "rang": "sonara",
+      "has": "ha",
+      "will": "(futuro)",
+      "being": "siendo",
+      "them": "los",
+      "since": "desde",
+      "would": "habría"
     },
     "metadata": {
       "tense": "past perfect continuous",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "school"
@@ -1303,14 +1110,154 @@
   },
   {
     "hints": [
-      "Sujeto: la profesora",
-      "Verbo: enseñar",
-      "Complemento: la literatura inglesa en el aula durante cinco años",
-      "Tiempo: antes de jubilarse"
+      "Sujeto: Yo",
+      "Verbo: Haber (auxiliar para pasado perfecto)",
+      "Verbo: Estar (auxiliar progresivo)",
+      "Verbo: Aprender (en gerundio)",
+      "Complemento: Inglés",
+      "Complemento: En la escuela",
+      "Tiempo: Durante tres años antes de mudarme"
     ],
-    "hintDisplay": "Sujeto: la profesora / Verbo: enseñar / Complemento: la literatura inglesa en el aula durante cinco años / Tiempo: antes de jubilarse",
-    "spanishSentence": "¿Había estado la profesora enseñando literatura inglesa en el aula durante cinco años antes de jubilarse?",
-    "correctSentence": "Had the teacher been teaching English literature in the classroom for five years before retiring?",
+    "hintDisplay": "Sujeto: Yo / Verbo: Haber (auxiliar para pasado perfecto) / Verbo: Estar (auxiliar progresivo) / Verbo: Aprender (en gerundio) / Complemento: Inglés / Complemento: En la escuela / Tiempo: Durante tres años antes de mudarme",
+    "spanishSentence": "¿No había estado aprendiendo inglés en la escuela durante tres años antes de mudarme?",
+    "correctSentence": "Hadn't I been learning English at school for three years before I moved?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Hadn't",
+        "isDistractor": false
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false
+      },
+      {
+        "id": "c3",
+        "text": "been",
+        "isDistractor": false
+      },
+      {
+        "id": "c4",
+        "text": "learning",
+        "isDistractor": false
+      },
+      {
+        "id": "c5",
+        "text": "English",
+        "isDistractor": false
+      },
+      {
+        "id": "c6",
+        "text": "at",
+        "isDistractor": false
+      },
+      {
+        "id": "c7",
+        "text": "school",
+        "isDistractor": false
+      },
+      {
+        "id": "c8",
+        "text": "for",
+        "isDistractor": false
+      },
+      {
+        "id": "c9",
+        "text": "three",
+        "isDistractor": false
+      },
+      {
+        "id": "c10",
+        "text": "years",
+        "isDistractor": false
+      },
+      {
+        "id": "c11",
+        "text": "before",
+        "isDistractor": false
+      },
+      {
+        "id": "c12",
+        "text": "I",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "moved",
+        "isDistractor": false
+      },
+      {
+        "id": "d1",
+        "text": "He",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "d2",
+        "text": "You",
+        "isDistractor": true,
+        "translation": "tú"
+      },
+      {
+        "id": "d3",
+        "text": "Haven't",
+        "isDistractor": true,
+        "translation": "no he"
+      },
+      {
+        "id": "d4",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "d5",
+        "text": "Was",
+        "isDistractor": true,
+        "translation": "era"
+      }
+    ],
+    "translations": {
+      "hadn't": "no había",
+      "i": "yo",
+      "been": "estado",
+      "learning": "aprendiendo",
+      "english": "inglés",
+      "at": "en",
+      "school": "escuela",
+      "for": "durante",
+      "three": "tres",
+      "years": "años",
+      "before": "antes",
+      "moved": "mudarme",
+      "haven't": "no he",
+      "has": "ha",
+      "was": "era",
+      "you": "tú",
+      "he": "él"
+    },
+    "metadata": {
+      "tense": "past perfect continuous",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "school"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú (you)",
+      "Verbo: haber (auxiliar para perfecto continuo)",
+      "Verbo: estar (auxiliar para aspecto continuo)",
+      "Verbo: colaborar (trabajar juntos)",
+      "Complemento: con tus compañeros de clase",
+      "Complemento: en el proyecto",
+      "Tiempo: antes de que la maestra te pidiera que pararas"
+    ],
+    "hintDisplay": "Sujeto: tú (you) / Verbo: haber (auxiliar para perfecto continuo) / Verbo: estar (auxiliar para aspecto continuo) / Verbo: colaborar (trabajar juntos) / Complemento: con tus compañeros de clase / Complemento: en el proyecto / Tiempo: antes de que la maestra te pidiera que pararas",
+    "spanishSentence": "¿Habías estado colaborando con tus compañeros de clase en el proyecto antes de que la maestra te pidiera que pararas?",
+    "correctSentence": "Had you been collaborating with your classmates on the project before the teacher asked you to stop?",
     "cards": [
       {
         "id": "c1",
@@ -1319,37 +1266,37 @@
       },
       {
         "id": "c2",
-        "text": "the",
+        "text": "you",
         "isDistractor": false
       },
       {
         "id": "c3",
-        "text": "teacher",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
         "text": "been",
         "isDistractor": false
       },
       {
+        "id": "c4",
+        "text": "collaborating",
+        "isDistractor": false
+      },
+      {
         "id": "c5",
-        "text": "teaching",
+        "text": "with",
         "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "English",
+        "text": "your",
         "isDistractor": false
       },
       {
         "id": "c7",
-        "text": "literature",
+        "text": "classmates",
         "isDistractor": false
       },
       {
         "id": "c8",
-        "text": "in",
+        "text": "on",
         "isDistractor": false
       },
       {
@@ -1359,75 +1306,103 @@
       },
       {
         "id": "c10",
-        "text": "classroom",
+        "text": "project",
         "isDistractor": false
       },
       {
         "id": "c11",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "five",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "years",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
         "text": "before",
         "isDistractor": false
       },
       {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false
+      },
+      {
+        "id": "c13",
+        "text": "teacher",
+        "isDistractor": false
+      },
+      {
+        "id": "c14",
+        "text": "asked",
+        "isDistractor": false
+      },
+      {
         "id": "c15",
-        "text": "retiring",
+        "text": "you",
+        "isDistractor": false
+      },
+      {
+        "id": "c16",
+        "text": "to",
+        "isDistractor": false
+      },
+      {
+        "id": "c17",
+        "text": "stop",
         "isDistractor": false
       },
       {
         "id": "d1",
-        "text": "was",
-        "isDistractor": true
+        "text": "Have",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "d2",
-        "text": "studied",
-        "isDistractor": true
+        "text": "They",
+        "isDistractor": true,
+        "translation": "ellos"
       },
       {
         "id": "d3",
-        "text": "at",
-        "isDistractor": true
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "d4",
-        "text": "during",
-        "isDistractor": true
+        "text": "Collaborated",
+        "isDistractor": true,
+        "translation": "colaboró"
       },
       {
         "id": "d5",
-        "text": "lectures",
-        "isDistractor": true
+        "text": "Being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "d6",
+        "text": "Was",
+        "isDistractor": true,
+        "translation": "fue"
       }
     ],
     "translations": {
-      "had": "había",
-      "the": "el/la/los/las",
-      "teacher": "profesora",
+      "had": "(pluscuamperfecto)",
+      "you": "tú",
       "been": "estado",
-      "teaching": "enseñando",
-      "english": "inglesa",
-      "literature": "literatura",
-      "in": "en",
-      "classroom": "aula",
-      "for": "durante",
-      "five": "cinco",
-      "years": "años",
-      "before": "antes de",
-      "retiring": "jubilarse"
+      "collaborating": "colaborando",
+      "with": "con",
+      "your": "tu",
+      "classmates": "compañeros de clase",
+      "on": "en",
+      "the": "(artículo)",
+      "project": "proyecto",
+      "before": "antes",
+      "teacher": "maestra",
+      "asked": "pidió",
+      "to": "(marca de infinitivo)",
+      "stop": "parar",
+      "have": "(auxiliar)",
+      "was": "fue",
+      "being": "siendo",
+      "collaborated": "colaboró",
+      "they": "ellos",
+      "will": "(futuro)"
     },
     "metadata": {
       "tense": "past perfect continuous",

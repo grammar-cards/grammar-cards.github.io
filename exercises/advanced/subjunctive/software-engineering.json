@@ -1,1616 +1,211 @@
 [
   {
     "hints": [
-      "Sujeto: la aplicación",
-      "Verbo: consultar (subjuntivo, negación)",
-      "Complemento: la base de datos sin autenticación",
-      "Tiempo: en producción"
+      "Sujeto: yo",
+      "Verbo: ser (condicional)",
+      "Complemento: el arquitecto",
+      "Verbo: evaluar (condicional)",
+      "Complemento: el diseño del sistema",
+      "Verbo: asegurar (infinitivo con preposición)",
+      "Complemento: que cumple con todos los requisitos de escalabilidad",
+      "Tiempo: antes de la implementación"
     ],
-    "hintDisplay": "Sujeto: la aplicación / Verbo: consultar (subjuntivo, negación) / Complemento: la base de datos sin autenticación / Tiempo: en producción",
-    "spanishSentence": "La aplicación no debería consultar la base de datos sin autenticación en producción",
-    "correctSentence": "The application should not query the database without authentication in production.",
+    "hintDisplay": "Sujeto: yo / Verbo: ser (condicional) / Complemento: el arquitecto / Verbo: evaluar (condicional) / Complemento: el diseño del sistema / Verbo: asegurar (infinitivo con preposición) / Complemento: que cumple con todos los requisitos de escalabilidad / Tiempo: antes de la implementación",
+    "spanishSentence": "Si yo fuera el arquitecto, evaluaría el diseño del sistema para asegurar que cumple con todos los requisitos de escalabilidad antes de la implementación.",
+    "correctSentence": "If I were the architect, I would evaluate the system design to ensure it meets all scalability requirements before implementation.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "application",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "should",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "query",
-        "isDistractor": false
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
         "id": "c6",
-        "text": "the",
-        "isDistractor": false
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
       },
       {
-        "id": "c7",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "authentication",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "production",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "might",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "access",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "with",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "cache",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "staging",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "la/el",
-      "application": "aplicación",
-      "should": "debería",
-      "not": "no",
-      "query": "consultar",
-      "database": "base de datos",
-      "without": "sin",
-      "authentication": "autenticación",
-      "in": "en",
-      "production": "producción"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: implementar (subjuntivo: que ocurra algo deseado/posible en el futuro)",
-      "Complemento: autenticación robusta en cada endpoint",
-      "Tiempo: antes de que el pipeline llegue a producción"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: implementar (subjuntivo: que ocurra algo deseado/posible en el futuro) / Complemento: autenticación robusta en cada endpoint / Tiempo: antes de que el pipeline llegue a producción",
-    "spanishSentence": "El equipo de desarrollo debe implementar autenticación robusta en cada endpoint antes de que el pipeline llegue a producción",
-    "correctSentence": "The development team should implement robust authentication on every endpoint before the pipeline reaches production.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "development",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "should",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "implement",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "robust",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "authentication",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "endpoint",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
+        "id": "c19",
         "text": "before",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "antes de"
       },
       {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "reaches",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "production",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "weak",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "some",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "arrives",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "development": "desarrollo",
-      "team": "equipo",
-      "should": "debería",
-      "implement": "implementar",
-      "robust": "robusta",
-      "authentication": "autenticación",
-      "on": "en",
-      "every": "cada",
-      "endpoint": "endpoint",
-      "before": "antes de que",
-      "pipeline": "pipeline",
-      "reaches": "llegue",
-      "production": "producción"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: depurar (subjuntivo: acción deseada/necesaria)",
-      "Complemento: el endpoint de la API antes del deploy",
-      "Tiempo: antes del deploy (antes de la implementación)"
-    ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: depurar (subjuntivo: acción deseada/necesaria) / Complemento: el endpoint de la API antes del deploy / Tiempo: antes del deploy",
-    "spanishSentence": "Es importante que el equipo de DevOps depure el endpoint de la API antes del despliegue",
-    "correctSentence": "It is important that the DevOps team debug the API endpoint before deployment.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "important",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "DevOps",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "debug",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "endpoint",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "test",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "configure",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "critical",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "database",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "it": "es",
-      "is": "es",
-      "important": "importante",
-      "that": "que",
-      "the": "el/la/los/las",
-      "devops": "DevOps",
-      "team": "equipo",
-      "debug": "depurar",
-      "api": "API",
-      "endpoint": "endpoint",
-      "before": "antes de",
-      "deployment": "deploy"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: depurar (subjuntivo: es necesario/recomendado)",
-      "Complemento: la caché del servidor antes del deploy",
-      "Tiempo: antes del deploy"
-    ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: depurar (subjuntivo: es necesario/recomendado) / Complemento: la caché del servidor antes del deploy / Tiempo: antes del deploy",
-    "spanishSentence": "Es crucial que el equipo de DevOps depure la caché del servidor antes del despliegue",
-    "correctSentence": "It is crucial that the DevOps team debug the server cache before deployment.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "crucial",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "DevOps",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "debug",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "debugged",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "important",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "should",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "it": "es",
-      "is": "es",
-      "crucial": "crucial",
-      "that": "que",
-      "the": "el/la",
-      "devops": "DevOps",
-      "team": "equipo",
-      "debug": "depure",
-      "server": "servidor",
-      "cache": "caché",
-      "before": "antes",
-      "deployment": "deploy"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: optimizar (recomendación/consejo)",
-      "Complemento: la base de datos sin ejecutar pruebas",
-      "Tiempo: en producción"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: optimizar (recomendación/consejo) / Complemento: la base de datos sin ejecutar pruebas / Tiempo: en producción",
-    "spanishSentence": "El desarrollador no debería optimizar la base de datos en producción sin ejecutar pruebas",
-    "correctSentence": "The developer should not optimize the database in production without running tests.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "should",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "production",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "running",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "tests",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "might",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cache",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "during",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "deploying",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "schema",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "developer": "desarrollador",
-      "should": "debería",
-      "not": "no",
-      "optimize": "optimizar",
-      "database": "base de datos",
-      "in": "en",
-      "production": "producción",
-      "without": "sin",
-      "running": "ejecutar",
-      "tests": "pruebas"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el microservicio",
-      "Verbo: autenticar (requisito/obligación en modo subjuntivo)",
-      "Complemento: las solicitudes entrantes",
-      "Tiempo: en el futuro próximo"
-    ],
-    "hintDisplay": "Sujeto: el microservicio / Verbo: autenticar (requisito/obligación en modo subjuntivo) / Complemento: las solicitudes entrantes / Tiempo: en el futuro próximo",
-    "spanishSentence": "Es crucial que el microservicio no autentique las solicitudes entrantes sin verificar el token.",
-    "correctSentence": "It is crucial that the microservice not authenticate incoming requests without verifying the token.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "crucial",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "microservice",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "authenticate",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "incoming",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "requests",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "verifying",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "token",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "authenticate",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "should",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "verify",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "outgoing",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "skip",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "it": "Es",
-      "is": "es",
-      "crucial": "crucial",
-      "that": "que",
-      "the": "el/la/los/las",
-      "microservice": "microservice",
-      "not": "no",
-      "authenticate": "autenticar",
-      "incoming": "entrante",
-      "requests": "solicitudes",
-      "without": "sin",
-      "verifying": "verificar",
-      "token": "token"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: deber (obligación) + escalar",
-      "Complemento: los microservicios sin implementar un pipeline de CI/CD",
-      "Tiempo: (presente subjuntivo)"
-    ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: deber (obligación) + escalar / Complemento: los microservicios sin implementar un pipeline de CI/CD / Tiempo: (presente subjuntivo)",
-    "spanishSentence": "El equipo de DevOps no debería escalar los microservicios sin implementar un pipeline de CI/CD robusto.",
-    "correctSentence": "The DevOps team should not scale the microservices without implementing a robust CI/CD pipeline.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "DevOps",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "should",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "scale",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "microservices",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "implementing",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "robust",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "CI/CD",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "containers",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "deploying",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "with",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "unstable",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "devops": "DevOps",
-      "team": "equipo",
-      "should": "debería",
-      "not": "no",
-      "scale": "escalar",
-      "microservices": "microservicios",
-      "without": "sin",
-      "implementing": "implementar",
-      "a": "un",
-      "robust": "robusto",
-      "ci/cd": "CI/CD",
-      "pipeline": "pipeline"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el frontend",
-      "Verbo: cachear (almacenamiento/optimización)",
-      "Complemento: las respuestas de la API",
-      "Tiempo: en producción"
-    ],
-    "hintDisplay": "Sujeto: el frontend / Verbo: cachear (almacenamiento/optimización) / Complemento: las respuestas de la API / Tiempo: en producción",
-    "spanishSentence": "Es importante que el frontend almacene en caché las respuestas de la API en producción.",
-    "correctSentence": "It is important that the frontend cache the API responses in production.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "important",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "frontend",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "responses",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "production",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "caching",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cached",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "store",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "it": "es",
-      "is": "es",
-      "important": "importante",
-      "that": "que",
-      "the": "el/la/los/las",
-      "frontend": "frontend",
-      "cache": "cachee",
-      "api": "API",
-      "responses": "respuestas",
-      "in": "en",
-      "production": "producción"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el servidor",
-      "Verbo: compilar (subjuntivo - deseo/recomendación)",
-      "Complemento: el código fuente antes del deploy",
-      "Tiempo: antes de cada release"
-    ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: compilar (subjuntivo - deseo/recomendación) / Complemento: el código fuente antes del deploy / Tiempo: antes de cada release",
-    "spanishSentence": "Es importante que el servidor compile el código fuente antes de cada despliegue",
-    "correctSentence": "It is important that the server compile the source code before each deploy.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "important",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "compile",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "source",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "each",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "deploy",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "compiles",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "build",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "critical",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "database",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "it": "es",
-      "is": "es",
-      "important": "importante",
-      "that": "que",
-      "the": "el",
-      "server": "servidor",
-      "compile": "compile",
-      "source": "fuente",
-      "code": "código",
-      "before": "antes de",
-      "each": "cada",
-      "deploy": "deploy"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la API",
-      "Verbo: escalar (posibilidad en subjuntivo)",
-      "Complemento: sin una estrategia de caché robusta",
-      "Tiempo: nunca"
-    ],
-    "hintDisplay": "Sujeto: la API / Verbo: escalar (posibilidad en subjuntivo) / Complemento: sin una estrategia de caché robusta / Tiempo: nunca",
-    "spanishSentence": "La API no podría escalar nunca sin una estrategia de caché robusta.",
-    "correctSentence": "The API could not scale without a robust caching strategy.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "could",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "scale",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "robust",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "caching",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "strategy",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "might",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "perform",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "with",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "deployment",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "weak",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "api": "API",
-      "could": "podría",
-      "not": "no",
-      "scale": "escalar",
-      "without": "sin",
-      "a": "una",
-      "robust": "robusta",
-      "caching": "caché",
-      "strategy": "estrategia"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el esquema de la base de datos",
-      "Verbo: no debería (consejo negativo) + cambiar",
-      "Complemento: sin una migración adecuada",
-      "Tiempo: en producción"
-    ],
-    "hintDisplay": "Sujeto: el esquema de la base de datos / Verbo: no debería (consejo negativo) + cambiar / Complemento: sin una migración adecuada / Tiempo: en producción",
-    "spanishSentence": "El esquema de la base de datos no debería cambiar sin una migración adecuada en producción",
-    "correctSentence": "The database schema should not change without proper migration in production.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "schema",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "should",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "change",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "proper",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "migration",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "production",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "alter",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "valid",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "deployment",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "with",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el",
-      "database": "base de datos",
-      "schema": "esquema",
-      "should": "debería",
-      "not": "no",
-      "change": "cambiar",
-      "without": "sin",
-      "proper": "adecuada",
-      "migration": "migración",
-      "in": "en",
-      "production": "producción"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el microservice",
-      "Verbo: refactorizar (subjuntivo, negación)",
-      "Complemento: sin actualizar la API",
-      "Tiempo: en la próxima sprint"
-    ],
-    "hintDisplay": "Sujeto: el microservice / Verbo: refactorizar (subjuntivo, negación) / Complemento: sin actualizar la API / Tiempo: en la próxima sprint",
-    "spanishSentence": "El microservicio no debe ser refactorizado sin actualizar la API en el próximo sprint",
-    "correctSentence": "The microservice must not be refactored without updating the API in the next sprint.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "microservice",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "must",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "refactored",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "updating",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "deployed",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "with",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "caching",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "this",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "should",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "microservice": "microservice",
-      "must": "deber",
-      "not": "no",
-      "be": "ser",
-      "refactored": "refactorizado",
-      "without": "sin",
-      "updating": "actualizar",
-      "api": "API",
-      "in": "en",
-      "next": "próximo",
-      "sprint": "sprint"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la API",
-      "Verbo: compilar (deseo/recomendación en subjuntivo)",
-      "Complemento: el código fuente sin errores",
-      "Tiempo: antes de cada deployment"
-    ],
-    "hintDisplay": "Sujeto: la API / Verbo: compilar (deseo/recomendación en subjuntivo) / Complemento: el código fuente sin errores / Tiempo: antes de cada deployment",
-    "spanishSentence": "Es importante que la API no compile el código fuente sin errores antes de cada despliegue",
-    "correctSentence": "It is important that the API not compile the source code without errors before each deployment.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "important",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "compile",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "source",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "errors",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "each",
-        "isDistractor": false
+        "id": "c18",
+        "text": "requirements",
+        "isDistractor": false,
+        "translation": "requisitos"
       },
       {
         "id": "c16",
-        "text": "deployment",
-        "isDistractor": false
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todos"
       },
       {
-        "id": "d1",
-        "text": "should",
-        "isDistractor": true
+        "id": "c11",
+        "text": "design",
+        "isDistractor": false,
+        "translation": "diseño"
       },
       {
-        "id": "d2",
-        "text": "execute",
-        "isDistractor": true
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "d3",
-        "text": "with",
-        "isDistractor": true
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c20",
+        "text": "implementation",
+        "isDistractor": false,
+        "translation": "implementación"
+      },
+      {
+        "id": "c7",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c14",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c10",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
       },
       {
         "id": "d4",
-        "text": "during",
-        "isDistractor": true
+        "text": "ensures",
+        "isDistractor": true,
+        "translation": "asegura"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
       },
       {
         "id": "d5",
-        "text": "bugs",
-        "isDistractor": true
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c8",
+        "text": "evaluate",
+        "isDistractor": false,
+        "translation": "evaluaría"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d3",
+        "text": "evaluated",
+        "isDistractor": true,
+        "translation": "evaluado"
+      },
+      {
+        "id": "c5",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "c13",
+        "text": "ensure",
+        "isDistractor": false,
+        "translation": "asegurar"
+      },
+      {
+        "id": "c15",
+        "text": "meets",
+        "isDistractor": false,
+        "translation": "cumple"
+      },
+      {
+        "id": "c3",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "fuera"
+      },
+      {
+        "id": "d2",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "he"
+      },
+      {
+        "id": "d1",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "soy"
+      },
+      {
+        "id": "c17",
+        "text": "scalability",
+        "isDistractor": false,
+        "translation": "escalabilidad"
+      },
+      {
+        "id": "d6",
+        "text": "me",
+        "isDistractor": true,
+        "translation": "me"
       }
     ],
     "translations": {
-      "it": "es",
-      "is": "es",
-      "important": "importante",
-      "that": "que",
-      "the": "el/la/los/las",
-      "api": "API",
-      "not": "no",
-      "compile": "compile",
-      "source": "fuente",
-      "code": "código",
-      "without": "sin",
-      "errors": "errores",
+      "if": "si",
+      "i": "yo",
+      "were": "fuera",
+      "the": "(artículo)",
+      "architect": "arquitecto",
+      "would": "(condicional)",
+      "evaluate": "evaluaría",
+      "system": "sistema",
+      "design": "diseño",
+      "to": "(marca de infinitivo)",
+      "ensure": "asegurar",
+      "it": "que",
+      "meets": "cumple",
+      "all": "todos",
+      "scalability": "escalabilidad",
+      "requirements": "requisitos",
       "before": "antes de",
-      "each": "cada",
-      "deployment": "deployment"
+      "implementation": "implementación",
+      "am": "soy",
+      "have": "he",
+      "evaluated": "evaluado",
+      "ensures": "asegura",
+      "will": "(futuro)",
+      "me": "me"
     },
     "metadata": {
       "tense": "subjunctive",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "software engineering"
@@ -1618,136 +213,692 @@
   },
   {
     "hints": [
-      "Sujeto: el microservice",
-      "Verbo: compilar (subjuntivo)",
-      "Complemento: sin errores en el pipeline",
-      "Tiempo: antes de que se despliegue"
+      "Sujeto: Nosotros",
+      "Verbo: Sugerir (presente indicativo)",
+      "Complemento: Que el código sea revisado por al menos dos ingenieros",
+      "Verbo: Revisar (subjuntivo pasivo)",
+      "Complemento: Por al menos dos ingenieros",
+      "Complemento: Antes del despliegue"
     ],
-    "hintDisplay": "Sujeto: el microservice / Verbo: compilar (subjuntivo) / Complemento: sin errores en el pipeline / Tiempo: antes de que se despliegue",
-    "spanishSentence": "Es crucial que el microservicio compile sin errores antes de que se despliegue en el servidor en la nube",
-    "correctSentence": "It is crucial that the microservice compile without errors before it deploys on the cloud server.",
+    "hintDisplay": "Sujeto: Nosotros / Verbo: Sugerir (presente indicativo) / Complemento: Que el código sea revisado por al menos dos ingenieros / Verbo: Revisar (subjuntivo pasivo) / Complemento: Por al menos dos ingenieros / Complemento: Antes del despliegue",
+    "spanishSentence": "Sugerimos que el código sea revisado por al menos dos ingenieros antes del despliegue.",
+    "correctSentence": "We suggest that the code be reviewed by at least two engineers before deployment.",
     "cards": [
       {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
+        "id": "d5",
+        "text": "after",
+        "isDistractor": true,
+        "translation": "después de"
+      },
+      {
+        "id": "c9",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "al menos"
       },
       {
         "id": "c2",
-        "text": "is",
-        "isDistractor": false
+        "text": "suggest",
+        "isDistractor": false,
+        "translation": "sugerimos"
       },
       {
-        "id": "c3",
-        "text": "crucial",
-        "isDistractor": false
+        "id": "c12",
+        "text": "engineers",
+        "isDistractor": false,
+        "translation": "ingenieros"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c13",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
       },
       {
         "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "d3",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "tener"
+      },
+      {
+        "id": "d1",
+        "text": "being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "c3",
         "text": "that",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c6",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "(subjuntivo)"
+      },
+      {
+        "id": "c8",
+        "text": "by",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "d4",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "d6",
+        "text": "reviewing",
+        "isDistractor": true,
+        "translation": "revisar"
+      },
+      {
+        "id": "c11",
+        "text": "two",
+        "isDistractor": false,
+        "translation": "dos"
+      },
+      {
+        "id": "d2",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(auxiliar/cópula)"
+      },
+      {
+        "id": "c7",
+        "text": "reviewed",
+        "isDistractor": false,
+        "translation": "revisado"
+      },
+      {
+        "id": "c10",
+        "text": "least",
+        "isDistractor": false,
+        "translation": "(parte de 'at least')"
+      },
+      {
+        "id": "c14",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "suggest": "sugerimos",
+      "that": "que",
+      "the": "(artículo)",
+      "code": "código",
+      "be": "(subjuntivo)",
+      "reviewed": "revisado",
+      "by": "por",
+      "at": "al menos",
+      "least": "(parte de 'at least')",
+      "two": "dos",
+      "engineers": "ingenieros",
+      "before": "antes de",
+      "deployment": "despliegue",
+      "being": "siendo",
+      "are": "(auxiliar/cópula)",
+      "have": "tener",
+      "them": "los",
+      "after": "después de",
+      "reviewing": "revisar"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El ingeniero DevOps",
+      "Verbo: ser (verbo ser en presente, indicando necesidad/obligación)",
+      "Complemento: esencial que automatice la tubería de despliegue",
+      "Complemento: para garantizar versiones consistentes y confiables",
+      "Complemento: en todos los entornos"
+    ],
+    "hintDisplay": "Sujeto: El ingeniero DevOps / Verbo: ser (verbo ser en presente, indicando necesidad/obligación) / Complemento: esencial que automatice la tubería de despliegue / Complemento: para garantizar versiones consistentes y confiables / Complemento: en todos los entornos",
+    "spanishSentence": "Es esencial que el ingeniero DevOps automatice la tubería de despliegue para garantizar versiones consistentes y confiables en todos los entornos.",
+    "correctSentence": "It is essential that the DevOps engineer automate the deployment pipeline to ensure consistent and reliable releases across all environments.",
+    "cards": [
+      {
+        "id": "c17",
+        "text": "releases",
+        "isDistractor": false,
+        "translation": "versiones"
+      },
+      {
+        "id": "d4",
+        "text": "guarantees",
+        "isDistractor": true,
+        "translation": "garantiza"
+      },
+      {
+        "id": "c16",
+        "text": "reliable",
+        "isDistractor": false,
+        "translation": "confiables"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c18",
+        "text": "across",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c8",
+        "text": "automate",
+        "isDistractor": false,
+        "translation": "automatice"
+      },
+      {
+        "id": "c3",
+        "text": "essential",
+        "isDistractor": false,
+        "translation": "esencial"
+      },
+      {
+        "id": "c7",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre)"
+      },
+      {
+        "id": "c14",
+        "text": "consistent",
+        "isDistractor": false,
+        "translation": "consistentes"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c15",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "c13",
+        "text": "ensure",
+        "isDistractor": false,
+        "translation": "garantizar"
       },
       {
         "id": "c5",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d1",
+        "text": "automates",
+        "isDistractor": true,
+        "translation": "automatiza"
+      },
+      {
+        "id": "c19",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todos"
+      },
+      {
+        "id": "c20",
+        "text": "environments",
+        "isDistractor": false,
+        "translation": "entornos"
       },
       {
         "id": "c6",
-        "text": "microservice",
-        "isDistractor": false
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "DevOps"
       },
       {
-        "id": "c7",
-        "text": "compile",
-        "isDistractor": false
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
       },
       {
-        "id": "c8",
-        "text": "without",
-        "isDistractor": false
+        "id": "c11",
+        "text": "pipeline",
+        "isDistractor": false,
+        "translation": "tubería"
       },
       {
-        "id": "c9",
-        "text": "errors",
-        "isDistractor": false
+        "id": "d2",
+        "text": "automating",
+        "isDistractor": true,
+        "translation": "automatizando"
+      },
+      {
+        "id": "d3",
+        "text": "deploys",
+        "isDistractor": true,
+        "translation": "despliega"
       },
       {
         "id": "c10",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      }
+    ],
+    "translations": {
+      "it": "(pronombre)",
+      "is": "(presente)",
+      "essential": "esencial",
+      "that": "que",
+      "the": "(artículo)",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "automate": "automatice",
+      "deployment": "despliegue",
+      "pipeline": "tubería",
+      "to": "(marca de infinitivo)",
+      "ensure": "garantizar",
+      "consistent": "consistentes",
+      "and": "y",
+      "reliable": "confiables",
+      "releases": "versiones",
+      "across": "en",
+      "all": "todos",
+      "environments": "entornos",
+      "automates": "automatiza",
+      "automating": "automatizando",
+      "deploys": "despliega",
+      "guarantees": "garantiza"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: ser (estructura impersonal con 'it is')",
+      "Complemento: esencial",
+      "Verbo: construir (subjuntivo después de 'es esencial que')",
+      "Complemento: un marco de pruebas sólido",
+      "Verbo: implementar",
+      "Complemento: la aplicación en producción",
+      "Tiempo: antes de (marcador temporal)"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: ser (estructura impersonal con 'it is') / Complemento: esencial / Verbo: construir (subjuntivo después de 'es esencial que') / Complemento: un marco de pruebas sólido / Verbo: implementar / Complemento: la aplicación en producción / Tiempo: antes de (marcador temporal)",
+    "spanishSentence": "Es esencial que el equipo construya un marco de pruebas sólido antes de implementar la aplicación en producción.",
+    "correctSentence": "It is essential that the team build a robust testing framework before deploying the application to production.",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "framework",
+        "isDistractor": false,
+        "translation": "marco"
+      },
+      {
+        "id": "c16",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "c8",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
         "text": "before",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d4",
+        "text": "constructed",
+        "isDistractor": true,
+        "translation": "construido"
+      },
+      {
+        "id": "c7",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "construya"
+      },
+      {
+        "id": "c3",
+        "text": "essential",
+        "isDistractor": false,
+        "translation": "esencial"
+      },
+      {
+        "id": "c9",
+        "text": "robust",
+        "isDistractor": false,
+        "translation": "sólido"
+      },
+      {
+        "id": "d3",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(ser/estar pasado)"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d6",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "d5",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c10",
+        "text": "testing",
+        "isDistractor": false,
+        "translation": "pruebas"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre neutro)"
+      },
+      {
+        "id": "c15",
+        "text": "application",
+        "isDistractor": false,
+        "translation": "aplicación"
+      },
+      {
+        "id": "c13",
+        "text": "deploying",
+        "isDistractor": false,
+        "translation": "implementar"
+      },
+      {
+        "id": "c6",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c17",
+        "text": "production",
+        "isDistractor": false,
+        "translation": "producción"
+      },
+      {
+        "id": "d1",
+        "text": "builds",
+        "isDistractor": true,
+        "translation": "construye"
+      },
+      {
+        "id": "d2",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      }
+    ],
+    "translations": {
+      "it": "(pronombre neutro)",
+      "is": "(ser/estar)",
+      "essential": "esencial",
+      "that": "que",
+      "the": "(artículo)",
+      "team": "equipo",
+      "build": "construya",
+      "a": "(artículo)",
+      "robust": "sólido",
+      "testing": "pruebas",
+      "framework": "marco",
+      "before": "antes de",
+      "deploying": "implementar",
+      "application": "aplicación",
+      "to": "(preposición)",
+      "production": "producción",
+      "builds": "construye",
+      "have": "haber",
+      "were": "(ser/estar pasado)",
+      "constructed": "construido",
+      "they": "ellos",
+      "has": "ha"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: ser (en presente, estructura impersonal con 'it is')",
+      "Complemento: importante",
+      "Verbo: revisar (en subjuntivo, después de 'es importante que')",
+      "Complemento: el código",
+      "Verbo: implementar (en infinitivo, después de preposición 'before')",
+      "Complemento: en producción"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: ser (en presente, estructura impersonal con 'it is') / Complemento: importante / Verbo: revisar (en subjuntivo, después de 'es importante que') / Complemento: el código / Verbo: implementar (en infinitivo, después de preposición 'before') / Complemento: en producción",
+    "spanishSentence": "Es importante que ellos revisen el código antes de implementarlo en producción.",
+    "correctSentence": "It is important that they review the code before deploying it to production.",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c6",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisen"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre neutro)"
+      },
+      {
+        "id": "c9",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c3",
+        "text": "important",
+        "isDistractor": false,
+        "translation": "importante"
+      },
+      {
+        "id": "d5",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado de ser/estar)"
+      },
+      {
+        "id": "c10",
+        "text": "deploying",
+        "isDistractor": false,
+        "translation": "implementar"
+      },
+      {
+        "id": "d1",
+        "text": "reviews",
+        "isDistractor": true,
+        "translation": "revisa"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
       },
       {
         "id": "c11",
         "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "deploys",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "compiles",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "critical",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "must",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "(pronombre neutro)"
       },
       {
         "id": "d4",
-        "text": "with",
-        "isDistractor": true
+        "text": "being",
+        "isDistractor": true,
+        "translation": "siendo"
       },
       {
-        "id": "d5",
-        "text": "database",
-        "isDistractor": true
+        "id": "c13",
+        "text": "production",
+        "isDistractor": false,
+        "translation": "producción"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "d6",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "(modal condicional)"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c8",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "d2",
+        "text": "reviewing",
+        "isDistractor": true,
+        "translation": "revisando"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
       }
     ],
     "translations": {
-      "it": "es",
-      "is": "es",
-      "crucial": "crucial",
+      "it": "(pronombre neutro)",
+      "is": "(ser/estar)",
+      "important": "importante",
       "that": "que",
-      "the": "el/la",
-      "microservice": "microservice",
-      "compile": "compile",
-      "without": "sin",
-      "errors": "errores",
-      "before": "antes de que",
-      "deploys": "se despliegue",
-      "on": "en",
-      "cloud": "cloud",
-      "server": "servidor"
+      "they": "ellos",
+      "review": "revisen",
+      "the": "(artículo definido)",
+      "code": "código",
+      "before": "antes de",
+      "deploying": "implementar",
+      "to": "(preposición)",
+      "production": "producción",
+      "reviews": "revisa",
+      "reviewing": "revisando",
+      "them": "los",
+      "being": "siendo",
+      "were": "(pasado de ser/estar)",
+      "should": "(modal condicional)"
     },
     "metadata": {
       "tense": "subjunctive",
@@ -1759,261 +910,164 @@
   },
   {
     "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: compilar (subjuntivo: obligación/requerimiento)",
-      "Complemento: el código antes del deployment",
-      "Tiempo: antes de cada release"
+      "Sujeto: Yo",
+      "Verbo: Sugerir",
+      "Complemento: Que el desarrollador refactorice el código heredado",
+      "Complemento: Para mejorar la mantenibilidad",
+      "Complemento: Y reducir la deuda técnica"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: compilar (subjuntivo: obligación/requerimiento) / Complemento: el código antes del deployment / Tiempo: antes de cada release",
-    "spanishSentence": "Es importante que el desarrollador compile el código antes de cada despliegue.",
-    "correctSentence": "It is important that the developer compile the code before each deployment.",
+    "hintDisplay": "Sujeto: Yo / Verbo: Sugerir / Complemento: Que el desarrollador refactorice el código heredado / Complemento: Para mejorar la mantenibilidad / Complemento: Y reducir la deuda técnica",
+    "spanishSentence": "Sugiero que el desarrollador refactorice el código heredado para mejorar la mantenibilidad y reducir la deuda técnica.",
+    "correctSentence": "I suggest that the developer refactor the legacy code to improve maintainability and reduce technical debt.",
     "cards": [
       {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
+        "id": "c12",
+        "text": "maintainability",
+        "isDistractor": false,
+        "translation": "mantenibilidad"
       },
       {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
+        "id": "c10",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
-        "id": "c3",
-        "text": "important",
-        "isDistractor": false
+        "id": "c11",
+        "text": "improve",
+        "isDistractor": false,
+        "translation": "mejorar"
       },
       {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
+        "id": "d4",
+        "text": "reduces",
+        "isDistractor": true,
+        "translation": "reduce"
       },
       {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
+        "id": "d1",
+        "text": "refactored",
+        "isDistractor": true,
+        "translation": "refactorizado"
       },
       {
         "id": "c6",
+        "text": "refactor",
+        "isDistractor": false,
+        "translation": "refactorizar"
+      },
+      {
+        "id": "d2",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "d5",
+        "text": "maintainance",
+        "isDistractor": true,
+        "translation": "mantenimiento"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c5",
         "text": "developer",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c14",
+        "text": "reduce",
+        "isDistractor": false,
+        "translation": "reducir"
       },
       {
         "id": "c7",
-        "text": "compile",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c16",
+        "text": "debt",
+        "isDistractor": false,
+        "translation": "deuda"
+      },
+      {
+        "id": "c2",
+        "text": "suggest",
+        "isDistractor": false,
+        "translation": "sugiero"
+      },
+      {
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c13",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
       },
       {
         "id": "c9",
         "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "each",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "compiles",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "essential",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "build",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "every",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "it": "es",
-      "is": "es",
-      "important": "importante",
-      "that": "que",
-      "the": "el/la",
-      "developer": "desarrollador",
-      "compile": "compilar",
-      "code": "código",
-      "before": "antes de",
-      "each": "cada",
-      "deployment": "deployment"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: implementar (subjuntivo + deseo/recomendación)",
-      "Complemento: una arquitectura de microservices con caché distribuido",
-      "Tiempo: lo antes posible"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: implementar (subjuntivo + deseo/recomendación) / Complemento: una arquitectura de microservices con caché distribuido / Tiempo: lo antes posible",
-    "spanishSentence": "Es importante que el ingeniero implemente una arquitectura de microservicios con caché distribuida lo antes posible",
-    "correctSentence": "It is important that the engineer implement a microservices architecture with distributed cache as soon as possible.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "important",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "implement",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "código"
       },
       {
         "id": "c8",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "microservices",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "architecture",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "distributed",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "as",
-        "isDistractor": false
+        "text": "legacy",
+        "isDistractor": false,
+        "translation": "heredado"
       },
       {
         "id": "c15",
-        "text": "soon",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "as",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "possible",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "implements",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "critical",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "microservices",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "docker",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "database",
-        "isDistractor": true
+        "text": "technical",
+        "isDistractor": false,
+        "translation": "técnica"
       }
     ],
     "translations": {
-      "it": "es",
-      "is": "es",
-      "important": "importante",
+      "i": "yo",
+      "suggest": "sugiero",
       "that": "que",
-      "the": "el",
-      "engineer": "ingeniero",
-      "implement": "implemente",
-      "a": "una",
-      "microservices": "microservices",
-      "architecture": "arquitectura",
-      "with": "con",
-      "distributed": "distribuido",
-      "cache": "caché",
-      "as": "tan",
-      "soon": "pronto",
-      "possible": "posible"
+      "the": "(artículo)",
+      "developer": "desarrollador",
+      "refactor": "refactorizar",
+      "legacy": "heredado",
+      "code": "código",
+      "to": "(marca de infinitivo)",
+      "improve": "mejorar",
+      "maintainability": "mantenibilidad",
+      "and": "y",
+      "reduce": "reducir",
+      "technical": "técnica",
+      "debt": "deuda",
+      "refactored": "refactorizado",
+      "him": "lo",
+      "would": "(condicional)",
+      "reduces": "reduce",
+      "maintainance": "mantenimiento"
     },
     "metadata": {
       "tense": "subjunctive",
@@ -2025,389 +1079,159 @@
   },
   {
     "hints": [
-      "Sujeto: la base de datos",
-      "Verbo: cachear (almacenamiento en caché)",
-      "Complemento: las consultas frecuentes",
-      "Tiempo: en la pipeline de deployment"
+      "Sujeto: el desarrollador frontend",
+      "Verbo: ser (es esencial)",
+      "Complemento: que no obtenga datos sin manejo de errores adecuado",
+      "Verbo: obtener (en subjuntivo negativo)",
+      "Complemento: datos",
+      "Complemento: sin un manejo de errores adecuado"
     ],
-    "hintDisplay": "Sujeto: la base de datos / Verbo: cachear (almacenamiento en caché) / Complemento: las consultas frecuentes / Tiempo: en la pipeline de deployment",
-    "spanishSentence": "Es importante que la base de datos no almacene en caché las consultas frecuentes en el pipeline de despliegue",
-    "correctSentence": "It is important that the database not cache frequent queries in the deployment pipeline.",
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: ser (es esencial) / Complemento: que no obtenga datos sin manejo de errores adecuado / Verbo: obtener (en subjuntivo negativo) / Complemento: datos / Complemento: sin un manejo de errores adecuado",
+    "spanishSentence": "Es esencial que el desarrollador frontend no obtenga datos sin un manejo de errores adecuado.",
+    "correctSentence": "It is essential that the frontend developer not fetch data without proper error handling.",
     "cards": [
       {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "important",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "cache",
-        "isDistractor": false
+        "id": "d5",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "(posibilidad)"
       },
       {
         "id": "c9",
-        "text": "frequent",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "deployment",
-        "isDistractor": false
+        "text": "fetch",
+        "isDistractor": false,
+        "translation": "obtenga"
       },
       {
         "id": "c14",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "caching",
-        "isDistractor": true
+        "text": "handling",
+        "isDistractor": false,
+        "translation": "manejo"
       },
       {
         "id": "d2",
-        "text": "should",
-        "isDistractor": true
+        "text": "fetching",
+        "isDistractor": true,
+        "translation": "obteniendo"
       },
       {
-        "id": "d3",
-        "text": "critical",
-        "isDistractor": true
+        "id": "c12",
+        "text": "proper",
+        "isDistractor": false,
+        "translation": "adecuado"
       },
       {
         "id": "d4",
-        "text": "server",
-        "isDistractor": true
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
       {
-        "id": "d5",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "it": "es",
-      "is": "es",
-      "important": "importante",
-      "that": "que",
-      "the": "la/el",
-      "database": "base de datos",
-      "not": "no",
-      "cache": "cachee",
-      "frequent": "frecuentes",
-      "queries": "consultas",
-      "in": "en",
-      "deployment": "deployment",
-      "pipeline": "pipeline"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el frontend",
-      "Verbo: cachear (almacenar en caché)",
-      "Complemento: las respuestas de la API",
-      "Tiempo: en producción"
-    ],
-    "hintDisplay": "Sujeto: el frontend / Verbo: cachear (almacenar en caché) / Complemento: las respuestas de la API / Tiempo: en producción",
-    "spanishSentence": "Es importante que el frontend almacene en caché las respuestas de la API en producción",
-    "correctSentence": "It is important that the frontend cache the API responses in production.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
+        "id": "c10",
+        "text": "data",
+        "isDistractor": false,
+        "translation": "datos"
       },
       {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
+        "id": "c11",
+        "text": "without",
+        "isDistractor": false,
+        "translation": "sin"
       },
       {
-        "id": "c3",
-        "text": "important",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
       },
       {
         "id": "c6",
         "text": "frontend",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "frontend"
       },
       {
-        "id": "c7",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "responses",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "production",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "caches",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cached",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "caching",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "critical",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "backend",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "it": "es",
-      "is": "es",
-      "important": "importante",
-      "that": "que",
-      "the": "el/la/los/las",
-      "frontend": "frontend",
-      "cache": "cachee",
-      "api": "API",
-      "responses": "respuestas",
-      "in": "en",
-      "production": "producción"
-    },
-    "metadata": {
-      "tense": "subjunctive",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: debería (consejo) + validar",
-      "Complemento: el esquema de la base de datos",
-      "Tiempo: antes de cada despliegue"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: debería (consejo) + validar / Complemento: el esquema de la base de datos / Tiempo: antes de cada despliegue",
-    "spanishSentence": "Es importante que el equipo de desarrollo no valide el esquema de la base de datos antes de cada despliegue",
-    "correctSentence": "It is important that the development team not validate the database schema before each deployment.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "It",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "important",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "development",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false
+        "id": "c13",
+        "text": "error",
+        "isDistractor": false,
+        "translation": "error"
       },
       {
         "id": "c8",
         "text": "not",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "no"
       },
       {
-        "id": "c9",
-        "text": "validate",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
+        "id": "c5",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "schema",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "each",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "deployment",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d1",
-        "text": "verify",
-        "isDistractor": true
+        "text": "fetches",
+        "isDistractor": true,
+        "translation": "obtiene"
       },
       {
-        "id": "d2",
-        "text": "critical",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "every",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "should",
-        "isDistractor": true
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre)"
       },
       {
         "id": "d6",
-        "text": "cache",
-        "isDistractor": true
+        "text": "retrieve",
+        "isDistractor": true,
+        "translation": "recuperar"
+      },
+      {
+        "id": "c7",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c3",
+        "text": "essential",
+        "isDistractor": false,
+        "translation": "esencial"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
       }
     ],
     "translations": {
-      "it": "es",
-      "is": "es",
-      "important": "importante",
+      "it": "(pronombre)",
+      "is": "(presente)",
+      "essential": "esencial",
       "that": "que",
-      "the": "el/la/los/las",
-      "development": "desarrollo",
-      "team": "equipo",
+      "the": "(artículo)",
+      "frontend": "frontend",
+      "developer": "desarrollador",
       "not": "no",
-      "validate": "validar",
-      "database": "base de datos",
-      "schema": "esquema",
-      "before": "antes de",
-      "each": "cada",
-      "deployment": "despliegue"
+      "fetch": "obtenga",
+      "data": "datos",
+      "without": "sin",
+      "proper": "adecuado",
+      "error": "error",
+      "handling": "manejo",
+      "fetches": "obtiene",
+      "fetching": "obteniendo",
+      "him": "lo",
+      "would": "(condicional)",
+      "might": "(posibilidad)",
+      "retrieve": "recuperar"
     },
     "metadata": {
       "tense": "subjunctive",
@@ -2419,132 +1243,2142 @@
   },
   {
     "hints": [
-      "Sujeto: el microservicio",
-      "Verbo: procesar (subjuntivo - necesidad/obligación)",
-      "Complemento: las solicitudes entrantes con validación de esquema",
-      "Tiempo: antes de cada despliegue"
+      "Sujeto: Yo",
+      "Verbo: Sugerir (opinión/recomendación)",
+      "Complemento: Que el desarrollador backend consulte la base de datos",
+      "Complemento: De manera eficiente",
+      "Complemento: Para garantizar un rendimiento óptimo"
     ],
-    "hintDisplay": "Sujeto: el microservicio / Verbo: procesar (subjuntivo - necesidad/obligación) / Complemento: las solicitudes entrantes con validación de esquema / Tiempo: antes de cada despliegue",
-    "spanishSentence": "Es importante que el microservicio procese las solicitudes entrantes con validación de esquema antes de cada despliegue",
-    "correctSentence": "It is important that the microservice process incoming requests with schema validation before each deployment.",
+    "hintDisplay": "Sujeto: Yo / Verbo: Sugerir (opinión/recomendación) / Complemento: Que el desarrollador backend consulte la base de datos / Complemento: De manera eficiente / Complemento: Para garantizar un rendimiento óptimo",
+    "spanishSentence": "Sugiero que el desarrollador backend consulte la base de datos de manera eficiente para garantizar un rendimiento óptimo.",
+    "correctSentence": "I suggest that the backend developer query the database efficiently to ensure optimal performance.",
     "cards": [
       {
+        "id": "c6",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c9",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
         "id": "c1",
-        "text": "It",
-        "isDistractor": false
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d5",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c13",
+        "text": "optimal",
+        "isDistractor": false,
+        "translation": "óptimo"
+      },
+      {
+        "id": "c10",
+        "text": "efficiently",
+        "isDistractor": false,
+        "translation": "eficientemente"
+      },
+      {
+        "id": "c11",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c7",
+        "text": "query",
+        "isDistractor": false,
+        "translation": "consulte"
+      },
+      {
+        "id": "c12",
+        "text": "ensure",
+        "isDistractor": false,
+        "translation": "garantizar"
+      },
+      {
+        "id": "d3",
+        "text": "querying",
+        "isDistractor": true,
+        "translation": "consultando"
+      },
+      {
+        "id": "d6",
+        "text": "ensures",
+        "isDistractor": true,
+        "translation": "garantiza"
+      },
+      {
+        "id": "c5",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "c14",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "d2",
+        "text": "suggestion",
+        "isDistractor": true,
+        "translation": "sugerencia"
+      },
+      {
+        "id": "d1",
+        "text": "queries",
+        "isDistractor": true,
+        "translation": "consultas"
       },
       {
         "id": "c2",
-        "text": "is",
-        "isDistractor": false
+        "text": "suggest",
+        "isDistractor": false,
+        "translation": "sugiero"
       },
       {
         "id": "c3",
-        "text": "important",
-        "isDistractor": false
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d4",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      }
+    ],
+    "translations": {
+      "i": "yo",
+      "suggest": "sugiero",
+      "that": "que",
+      "the": "(artículo)",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "query": "consulte",
+      "database": "base de datos",
+      "efficiently": "eficientemente",
+      "to": "(marca de infinitivo)",
+      "ensure": "garantizar",
+      "optimal": "óptimo",
+      "performance": "rendimiento",
+      "queries": "consultas",
+      "suggestion": "sugerencia",
+      "querying": "consultando",
+      "them": "los",
+      "could": "podría",
+      "ensures": "garantiza"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: The developer (El desarrollador)",
+      "Verbo: suggest (sugerir)",
+      "Complemento: that the code be optimized to improve performance and reduce memory consumption (que el código sea optimizado para mejorar el rendimiento y reducir el consumo de memoria)"
+    ],
+    "hintDisplay": "Sujeto: The developer (El desarrollador) / Verbo: suggest (sugerir) / Complemento: that the code be optimized to improve performance and reduce memory consumption (que el código sea optimizado para mejorar el rendimiento y reducir el consumo de memoria)",
+    "spanishSentence": "El desarrollador sugiere que el código sea optimizado para mejorar el rendimiento y reducir el consumo de memoria.",
+    "correctSentence": "The developer suggests that the code be optimized to improve performance and reduce memory consumption.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c11",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "c12",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "d6",
+        "text": "may",
+        "isDistractor": true,
+        "translation": "puede"
+      },
+      {
+        "id": "d1",
+        "text": "optimizing",
+        "isDistractor": true,
+        "translation": "optimizando"
+      },
+      {
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c15",
+        "text": "consumption",
+        "isDistractor": false,
+        "translation": "consumo"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c6",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d2",
+        "text": "being",
+        "isDistractor": true,
+        "translation": "(marca de gerundio)"
+      },
+      {
+        "id": "c8",
+        "text": "optimized",
+        "isDistractor": false,
+        "translation": "optimizado"
       },
       {
         "id": "c4",
         "text": "that",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d5",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c13",
+        "text": "reduce",
+        "isDistractor": false,
+        "translation": "reducir"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
       },
       {
         "id": "c5",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c6",
-        "text": "microservice",
-        "isDistractor": false
+        "id": "c3",
+        "text": "suggests",
+        "isDistractor": false,
+        "translation": "sugiere"
       },
       {
         "id": "c7",
-        "text": "process",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "incoming",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "requests",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "schema",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "validation",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "before",
-        "isDistractor": false
+        "text": "be",
+        "isDistractor": false,
+        "translation": "(marca de subjuntivo)"
       },
       {
         "id": "c14",
-        "text": "each",
-        "isDistractor": false
+        "text": "memory",
+        "isDistractor": false,
+        "translation": "memoria"
       },
       {
-        "id": "c15",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "processes",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "critical",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "outgoing",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "cache",
-        "isDistractor": true
+        "id": "c10",
+        "text": "improve",
+        "isDistractor": false,
+        "translation": "mejorar"
       }
     ],
     "translations": {
-      "it": "es",
-      "is": "es",
+      "the": "(artículo)",
+      "developer": "desarrollador",
+      "suggests": "sugiere",
+      "that": "que",
+      "code": "código",
+      "be": "(marca de subjuntivo)",
+      "optimized": "optimizado",
+      "to": "(marca de infinitivo)",
+      "improve": "mejorar",
+      "performance": "rendimiento",
+      "and": "y",
+      "reduce": "reducir",
+      "memory": "memoria",
+      "consumption": "consumo",
+      "optimizing": "optimizando",
+      "being": "(marca de gerundio)",
+      "him": "lo",
+      "does": "(auxiliar)",
+      "will": "(futuro)",
+      "may": "puede"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Nosotros",
+      "Verbo: Sugerir (acción principal)",
+      "Complemento: que el equipo realice una acción",
+      "Verbo: Probar (acción subordinada)",
+      "Complemento: la nueva función",
+      "Complemento: de manera exhaustiva/detallada",
+      "Tiempo: antes del despliegue (momento futuro relativo)"
+    ],
+    "hintDisplay": "Sujeto: Nosotros / Verbo: Sugerir (acción principal) / Complemento: que el equipo realice una acción / Verbo: Probar (acción subordinada) / Complemento: la nueva función / Complemento: de manera exhaustiva/detallada / Tiempo: antes del despliegue (momento futuro relativo)",
+    "spanishSentence": "Sugerimos que el equipo pruebe la nueva función exhaustivamente antes del despliegue.",
+    "correctSentence": "We suggest that the team test the new feature thoroughly before deployment.",
+    "cards": [
+      {
+        "id": "d2",
+        "text": "tests",
+        "isDistractor": true,
+        "translation": "pruebas"
+      },
+      {
+        "id": "c12",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "feature",
+        "isDistractor": false,
+        "translation": "función"
+      },
+      {
+        "id": "d5",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "deberían"
+      },
+      {
+        "id": "d1",
+        "text": "testing",
+        "isDistractor": true,
+        "translation": "prueba"
+      },
+      {
+        "id": "d4",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c2",
+        "text": "suggest",
+        "isDistractor": false,
+        "translation": "sugerimos"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "tested",
+        "isDistractor": true,
+        "translation": "probado"
+      },
+      {
+        "id": "c3",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "(que)"
+      },
+      {
+        "id": "c10",
+        "text": "thoroughly",
+        "isDistractor": false,
+        "translation": "exhaustivamente"
+      },
+      {
+        "id": "c11",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes"
+      },
+      {
+        "id": "c5",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c8",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
+      },
+      {
+        "id": "c6",
+        "text": "test",
+        "isDistractor": false,
+        "translation": "pruebe"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "suggest": "sugerimos",
+      "that": "(que)",
+      "the": "(artículo)",
+      "team": "equipo",
+      "test": "pruebe",
+      "new": "nueva",
+      "feature": "función",
+      "thoroughly": "exhaustivamente",
+      "before": "antes",
+      "deployment": "despliegue",
+      "testing": "prueba",
+      "tests": "pruebas",
+      "tested": "probado",
+      "they": "ellos",
+      "should": "deberían"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto",
+      "Verbo: ser (es crucial que...)",
+      "Verbo: planificar (subjuntivo, en negación)",
+      "Complemento: la arquitectura del sistema",
+      "Complemento: sin considerar los requisitos de escalabilidad"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: ser (es crucial que...) / Verbo: planificar (subjuntivo, en negación) / Complemento: la arquitectura del sistema / Complemento: sin considerar los requisitos de escalabilidad",
+    "spanishSentence": "Es crucial que el arquitecto no planifique la arquitectura del sistema sin considerar los requisitos de escalabilidad.",
+    "correctSentence": "It is crucial that the architect not plan the system architecture without considering scalability requirements.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "plan",
+        "isDistractor": false,
+        "translation": "planifique"
+      },
+      {
+        "id": "c12",
+        "text": "without",
+        "isDistractor": false,
+        "translation": "sin"
+      },
+      {
+        "id": "c10",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "d1",
+        "text": "plans",
+        "isDistractor": true,
+        "translation": "planes"
+      },
+      {
+        "id": "c3",
+        "text": "crucial",
+        "isDistractor": false,
+        "translation": "crucial"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "d2",
+        "text": "planning",
+        "isDistractor": true,
+        "translation": "planificación"
+      },
+      {
+        "id": "c11",
+        "text": "architecture",
+        "isDistractor": false,
+        "translation": "arquitectura"
+      },
+      {
+        "id": "d5",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "debería"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c7",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c6",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "d4",
+        "text": "must",
+        "isDistractor": true,
+        "translation": "debe"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c14",
+        "text": "scalability",
+        "isDistractor": false,
+        "translation": "escalabilidad"
+      },
+      {
+        "id": "c15",
+        "text": "requirements",
+        "isDistractor": false,
+        "translation": "requisitos"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre neutro)"
+      },
+      {
+        "id": "c13",
+        "text": "considering",
+        "isDistractor": false,
+        "translation": "considerar"
+      },
+      {
+        "id": "d6",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "ellos"
+      }
+    ],
+    "translations": {
+      "it": "(pronombre neutro)",
+      "is": "(ser/estar)",
+      "crucial": "crucial",
+      "that": "que",
+      "the": "(artículo)",
+      "architect": "arquitecto",
+      "not": "no",
+      "plan": "planifique",
+      "system": "sistema",
+      "architecture": "arquitectura",
+      "without": "sin",
+      "considering": "considerar",
+      "scalability": "escalabilidad",
+      "requirements": "requisitos",
+      "plans": "planes",
+      "planning": "planificación",
+      "him": "él",
+      "must": "debe",
+      "should": "debería",
+      "them": "ellos"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: ser (expresión de necesidad/obligación)",
+      "Complemento: que desplieguen la aplicación a producción",
+      "Complemento: solo después de que todas las pruebas pasen"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: ser (expresión de necesidad/obligación) / Complemento: que desplieguen la aplicación a producción / Complemento: solo después de que todas las pruebas pasen",
+    "spanishSentence": "Es esencial que ellos desplieguen la aplicación a producción solo después de que todas las pruebas pasen.",
+    "correctSentence": "It is essential that they deploy the application to production only after all tests pass.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre)"
+      },
+      {
+        "id": "c5",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "d4",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "d6",
+        "text": "before",
+        "isDistractor": true,
+        "translation": "antes de"
+      },
+      {
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "d1",
+        "text": "deploys",
+        "isDistractor": true,
+        "translation": "despliega"
+      },
+      {
+        "id": "d2",
+        "text": "deployed",
+        "isDistractor": true,
+        "translation": "desplegada"
+      },
+      {
+        "id": "c11",
+        "text": "only",
+        "isDistractor": false,
+        "translation": "solo"
+      },
+      {
+        "id": "d5",
+        "text": "unless",
+        "isDistractor": true,
+        "translation": "a menos que"
+      },
+      {
+        "id": "c8",
+        "text": "application",
+        "isDistractor": false,
+        "translation": "aplicación"
+      },
+      {
+        "id": "c3",
+        "text": "essential",
+        "isDistractor": false,
+        "translation": "esencial"
+      },
+      {
+        "id": "c14",
+        "text": "tests",
+        "isDistractor": false,
+        "translation": "pruebas"
+      },
+      {
+        "id": "c12",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después de"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c15",
+        "text": "pass",
+        "isDistractor": false,
+        "translation": "pasen"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "production",
+        "isDistractor": false,
+        "translation": "producción"
+      },
+      {
+        "id": "c13",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todas"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "c6",
+        "text": "deploy",
+        "isDistractor": false,
+        "translation": "desplegar"
+      }
+    ],
+    "translations": {
+      "it": "(pronombre)",
+      "is": "(ser/estar)",
+      "essential": "esencial",
+      "that": "que",
+      "they": "ellos",
+      "deploy": "desplegar",
+      "the": "(artículo)",
+      "application": "aplicación",
+      "to": "a",
+      "production": "producción",
+      "only": "solo",
+      "after": "después de",
+      "all": "todas",
+      "tests": "pruebas",
+      "pass": "pasen",
+      "deploys": "despliega",
+      "deployed": "desplegada",
+      "them": "los",
+      "has": "ha",
+      "unless": "a menos que",
+      "before": "antes de"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El equipo",
+      "Verbo: Ser (presente, forma impersonal con 'it is')",
+      "Complemento: Importante que",
+      "Verbo: Probar (infinitivo negado con 'not')",
+      "Complemento: El código",
+      "Complemento: Sin documentación adecuada"
+    ],
+    "hintDisplay": "Sujeto: El equipo / Verbo: Ser (presente, forma impersonal con 'it is') / Complemento: Importante que / Verbo: Probar (infinitivo negado con 'not') / Complemento: El código / Complemento: Sin documentación adecuada",
+    "spanishSentence": "Es importante que el equipo no pruebe el código sin documentación adecuada.",
+    "correctSentence": "It is important that the team not test the code without proper documentation.",
+    "cards": [
+      {
+        "id": "d5",
+        "text": "It's",
+        "isDistractor": true,
+        "translation": "es"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "esto"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "test",
+        "isDistractor": false,
+        "translation": "pruebe"
+      },
+      {
+        "id": "c11",
+        "text": "without",
+        "isDistractor": false,
+        "translation": "sin"
+      },
+      {
+        "id": "c6",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "d2",
+        "text": "testing",
+        "isDistractor": true,
+        "translation": "pruebas"
+      },
+      {
+        "id": "d1",
+        "text": "tests",
+        "isDistractor": true,
+        "translation": "pruebas"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c3",
+        "text": "important",
+        "isDistractor": false,
+        "translation": "importante"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c12",
+        "text": "proper",
+        "isDistractor": false,
+        "translation": "adecuada"
+      },
+      {
+        "id": "d4",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c13",
+        "text": "documentation",
+        "isDistractor": false,
+        "translation": "documentación"
+      },
+      {
+        "id": "c7",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      }
+    ],
+    "translations": {
+      "it": "esto",
+      "is": "(presente)",
       "important": "importante",
       "that": "que",
-      "the": "el",
-      "microservice": "microservicio",
-      "process": "procese",
-      "incoming": "entrantes",
-      "requests": "solicitudes",
-      "with": "con",
-      "schema": "esquema",
-      "validation": "validación",
+      "the": "(artículo)",
+      "team": "equipo",
+      "not": "no",
+      "test": "pruebe",
+      "code": "código",
+      "without": "sin",
+      "proper": "adecuada",
+      "documentation": "documentación",
+      "tests": "pruebas",
+      "testing": "pruebas",
+      "they": "ellos",
+      "does": "(auxiliar)",
+      "it's": "es"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: ser (en presente, forma impersonal con 'es')",
+      "Complemento: crucial",
+      "Verbo: monitorear (en subjuntivo presente, después de 'es crucial que')",
+      "Complemento: las métricas de rendimiento del sistema",
+      "Tiempo: en tiempo real",
+      "Verbo: prevenir (en infinitivo, expresando propósito)",
+      "Complemento: posibles interrupciones"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: ser (en presente, forma impersonal con 'es') / Complemento: crucial / Verbo: monitorear (en subjuntivo presente, después de 'es crucial que') / Complemento: las métricas de rendimiento del sistema / Tiempo: en tiempo real / Verbo: prevenir (en infinitivo, expresando propósito) / Complemento: posibles interrupciones",
+    "spanishSentence": "Es crucial que el ingeniero de DevOps monitoree las métricas de rendimiento del sistema en tiempo real para prevenir posibles interrupciones.",
+    "correctSentence": "It is crucial that the DevOps engineer monitor the system performance metrics in real-time to prevent potential outages.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c12",
+        "text": "metrics",
+        "isDistractor": false,
+        "translation": "métricas"
+      },
+      {
+        "id": "c15",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d6",
+        "text": "disruptions",
+        "isDistractor": true,
+        "translation": "interrupciones"
+      },
+      {
+        "id": "c7",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c10",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c11",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "c3",
+        "text": "crucial",
+        "isDistractor": false,
+        "translation": "crucial"
+      },
+      {
+        "id": "d2",
+        "text": "monitors",
+        "isDistractor": true,
+        "translation": "monitorea"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(sujeto impersonal)"
+      },
+      {
+        "id": "d4",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c17",
+        "text": "potential",
+        "isDistractor": false,
+        "translation": "posibles"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c16",
+        "text": "prevent",
+        "isDistractor": false,
+        "translation": "prevenir"
+      },
+      {
+        "id": "d1",
+        "text": "monitoring",
+        "isDistractor": true,
+        "translation": "monitoreo"
+      },
+      {
+        "id": "c14",
+        "text": "real-time",
+        "isDistractor": false,
+        "translation": "tiempo real"
+      },
+      {
+        "id": "d5",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c6",
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "DevOps"
+      },
+      {
+        "id": "c13",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c18",
+        "text": "outages",
+        "isDistractor": false,
+        "translation": "interrupciones"
+      },
+      {
+        "id": "c8",
+        "text": "monitor",
+        "isDistractor": false,
+        "translation": "monitorear"
+      }
+    ],
+    "translations": {
+      "it": "(sujeto impersonal)",
+      "is": "(presente)",
+      "crucial": "crucial",
+      "that": "que",
+      "the": "(artículo)",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "monitor": "monitorear",
+      "system": "sistema",
+      "performance": "rendimiento",
+      "metrics": "métricas",
+      "in": "en",
+      "real-time": "tiempo real",
+      "to": "(marca de infinitivo)",
+      "prevent": "prevenir",
+      "potential": "posibles",
+      "outages": "interrupciones",
+      "monitoring": "monitoreo",
+      "monitors": "monitorea",
+      "were": "(pasado)",
+      "should": "(condicional)",
+      "them": "los",
+      "disruptions": "interrupciones"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador frontend",
+      "Verbo: ser (estado/cualidad)",
+      "Complemento: importante",
+      "Verbo: animar (infinitivo, en negación con 'not')",
+      "Complemento: elementos",
+      "Verbo: considerar (sin + gerundio o without + gerundio)",
+      "Complemento: las implicaciones de rendimiento"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: ser (estado/cualidad) / Complemento: importante / Verbo: animar (infinitivo, en negación con 'not') / Complemento: elementos / Verbo: considerar (sin + gerundio o without + gerundio) / Complemento: las implicaciones de rendimiento",
+    "spanishSentence": "Es importante que el desarrollador frontend no anime elementos sin considerar las implicaciones de rendimiento.",
+    "correctSentence": "It is important that the frontend developer not animate elements without considering performance implications.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c7",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente del verbo ser/estar)"
+      },
+      {
+        "id": "c8",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c13",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "c12",
+        "text": "considering",
+        "isDistractor": false,
+        "translation": "considerar"
+      },
+      {
+        "id": "d2",
+        "text": "animates",
+        "isDistractor": true,
+        "translation": "anima"
+      },
+      {
+        "id": "c6",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre neutro)"
+      },
+      {
+        "id": "c10",
+        "text": "elements",
+        "isDistractor": false,
+        "translation": "elementos"
+      },
+      {
+        "id": "d5",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "debería"
+      },
+      {
+        "id": "c9",
+        "text": "animate",
+        "isDistractor": false,
+        "translation": "animar"
+      },
+      {
+        "id": "c11",
+        "text": "without",
+        "isDistractor": false,
+        "translation": "sin"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "animating",
+        "isDistractor": true,
+        "translation": "animando"
+      },
+      {
+        "id": "c14",
+        "text": "implications",
+        "isDistractor": false,
+        "translation": "implicaciones"
+      },
+      {
+        "id": "c3",
+        "text": "important",
+        "isDistractor": false,
+        "translation": "importante"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      }
+    ],
+    "translations": {
+      "it": "(pronombre neutro)",
+      "is": "(presente del verbo ser/estar)",
+      "important": "importante",
+      "that": "que",
+      "the": "(artículo)",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "not": "no",
+      "animate": "animar",
+      "elements": "elementos",
+      "without": "sin",
+      "considering": "considerar",
+      "performance": "rendimiento",
+      "implications": "implicaciones",
+      "animating": "animando",
+      "animates": "anima",
+      "would": "(condicional)",
+      "him": "lo",
+      "should": "debería"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Es esencial que",
+      "Sujeto: el desarrollador backend",
+      "Verbo: migrar (verbo en subjuntivo, acción necesaria)",
+      "Complemento: la base de datos",
+      "Complemento: al nuevo servidor",
+      "Tiempo: antes de la fecha límite de implementación"
+    ],
+    "hintDisplay": "Sujeto: Es esencial que / Sujeto: el desarrollador backend / Verbo: migrar (verbo en subjuntivo, acción necesaria) / Complemento: la base de datos / Complemento: al nuevo servidor / Tiempo: antes de la fecha límite de implementación",
+    "spanishSentence": "Es esencial que el desarrollador backend migre la base de datos al nuevo servidor antes de la fecha límite de implementación.",
+    "correctSentence": "It is essential that the backend developer migrate the database to the new server before the deployment deadline.",
+    "cards": [
+      {
+        "id": "c18",
+        "text": "deadline",
+        "isDistractor": false,
+        "translation": "fecha límite"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "d4",
+        "text": "transfer",
+        "isDistractor": true,
+        "translation": "transferir"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre)"
+      },
+      {
+        "id": "c14",
+        "text": "server",
+        "isDistractor": false,
+        "translation": "servidor"
+      },
+      {
+        "id": "d1",
+        "text": "migrates",
+        "isDistractor": true,
+        "translation": "migra"
+      },
+      {
+        "id": "c10",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "c8",
+        "text": "migrate",
+        "isDistractor": false,
+        "translation": "migrar"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c16",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c17",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "implementación"
+      },
+      {
+        "id": "c13",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevo"
+      },
+      {
+        "id": "c15",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "essential",
+        "isDistractor": false,
+        "translation": "esencial"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "(que)"
+      },
+      {
+        "id": "d5",
+        "text": "crucial",
+        "isDistractor": true,
+        "translation": "crucial"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c6",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "c7",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      }
+    ],
+    "translations": {
+      "it": "(pronombre)",
+      "is": "(ser/estar)",
+      "essential": "esencial",
+      "that": "(que)",
+      "the": "(artículo)",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "migrate": "migrar",
+      "database": "base de datos",
+      "to": "(preposición)",
+      "new": "nuevo",
+      "server": "servidor",
       "before": "antes de",
-      "each": "cada",
-      "deployment": "despliegue"
+      "deployment": "implementación",
+      "deadline": "fecha límite",
+      "migrates": "migra",
+      "has": "ha",
+      "would": "(condicional)",
+      "transfer": "transferir",
+      "crucial": "crucial"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: yo",
+      "Verbo: sugerir",
+      "Complemento: que el desarrollador despliegue la aplicación",
+      "Complemento: solo después de que pasen todas las pruebas unitarias"
+    ],
+    "hintDisplay": "Sujeto: yo / Verbo: sugerir / Complemento: que el desarrollador despliegue la aplicación / Complemento: solo después de que pasen todas las pruebas unitarias",
+    "spanishSentence": "Sugiero que el desarrollador despliegue la aplicación solo después de que pasen todas las pruebas unitarias.",
+    "correctSentence": "I suggest that the developer deploy the application only after all unit tests pass.",
+    "cards": [
+      {
+        "id": "c13",
+        "text": "tests",
+        "isDistractor": false,
+        "translation": "pruebas"
+      },
+      {
+        "id": "c10",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después de"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c3",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d2",
+        "text": "deployed",
+        "isDistractor": true,
+        "translation": "desplegada"
+      },
+      {
+        "id": "d1",
+        "text": "deploys",
+        "isDistractor": true,
+        "translation": "despliega"
+      },
+      {
+        "id": "c11",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todas"
+      },
+      {
+        "id": "c14",
+        "text": "pass",
+        "isDistractor": false,
+        "translation": "pasen"
+      },
+      {
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c2",
+        "text": "suggest",
+        "isDistractor": false,
+        "translation": "sugiero"
+      },
+      {
+        "id": "c6",
+        "text": "deploy",
+        "isDistractor": false,
+        "translation": "despliegue"
+      },
+      {
+        "id": "c9",
+        "text": "only",
+        "isDistractor": false,
+        "translation": "solo"
+      },
+      {
+        "id": "d6",
+        "text": "unless",
+        "isDistractor": true,
+        "translation": "a menos que"
+      },
+      {
+        "id": "c8",
+        "text": "application",
+        "isDistractor": false,
+        "translation": "aplicación"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
+        "text": "unit",
+        "isDistractor": false,
+        "translation": "unitarias"
+      },
+      {
+        "id": "d5",
+        "text": "some",
+        "isDistractor": true,
+        "translation": "algunas"
+      },
+      {
+        "id": "d4",
+        "text": "before",
+        "isDistractor": true,
+        "translation": "antes"
+      }
+    ],
+    "translations": {
+      "i": "yo",
+      "suggest": "sugiero",
+      "that": "que",
+      "the": "(artículo)",
+      "developer": "desarrollador",
+      "deploy": "despliegue",
+      "application": "aplicación",
+      "only": "solo",
+      "after": "después de",
+      "all": "todas",
+      "unit": "unitarias",
+      "tests": "pruebas",
+      "pass": "pasen",
+      "deploys": "despliega",
+      "deployed": "desplegada",
+      "him": "lo",
+      "before": "antes",
+      "some": "algunas",
+      "unless": "a menos que"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: ser (en presente, forma impersonal)",
+      "Complemento: importante",
+      "Verbo: configurar (infinitivo, en negación)",
+      "Complemento: la base de datos",
+      "Complemento: sin las pruebas adecuadas"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: ser (en presente, forma impersonal) / Complemento: importante / Verbo: configurar (infinitivo, en negación) / Complemento: la base de datos / Complemento: sin las pruebas adecuadas",
+    "spanishSentence": "Es importante que el equipo no configure la base de datos sin las pruebas adecuadas.",
+    "correctSentence": "It is important that the team not configure the database without proper testing.",
+    "cards": [
+      {
+        "id": "c12",
+        "text": "proper",
+        "isDistractor": false,
+        "translation": "adecuadas"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c11",
+        "text": "without",
+        "isDistractor": false,
+        "translation": "sin"
+      },
+      {
+        "id": "c13",
+        "text": "testing",
+        "isDistractor": false,
+        "translation": "pruebas"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los/las"
+      },
+      {
+        "id": "c10",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "c7",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre neutro)"
+      },
+      {
+        "id": "d6",
+        "text": "may",
+        "isDistractor": true,
+        "translation": "(modal de posibilidad)"
+      },
+      {
+        "id": "d4",
+        "text": "his",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "d2",
+        "text": "configured",
+        "isDistractor": true,
+        "translation": "configurada"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "d1",
+        "text": "configures",
+        "isDistractor": true,
+        "translation": "configura"
+      },
+      {
+        "id": "c3",
+        "text": "important",
+        "isDistractor": false,
+        "translation": "importante"
+      },
+      {
+        "id": "c6",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c8",
+        "text": "configure",
+        "isDistractor": false,
+        "translation": "configure"
+      },
+      {
+        "id": "d5",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      }
+    ],
+    "translations": {
+      "it": "(pronombre neutro)",
+      "is": "(ser/estar)",
+      "important": "importante",
+      "that": "que",
+      "the": "(artículo)",
+      "team": "equipo",
+      "not": "no",
+      "configure": "configure",
+      "database": "base de datos",
+      "without": "sin",
+      "proper": "adecuadas",
+      "testing": "pruebas",
+      "configures": "configura",
+      "configured": "configurada",
+      "them": "los/las",
+      "his": "su",
+      "would": "(condicional)",
+      "may": "(modal de posibilidad)"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador frontend",
+      "Verbo: ser (expresión de necesidad/importancia)",
+      "Complemento: que no estilice los componentes sin seguir las pautas del sistema de diseño",
+      "Verbo: no estilizar (negación con verbo modal de prohibición)",
+      "Complemento: los componentes",
+      "Complemento: sin seguir las pautas del sistema de diseño"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: ser (expresión de necesidad/importancia) / Complemento: que no estilice los componentes sin seguir las pautas del sistema de diseño / Verbo: no estilizar (negación con verbo modal de prohibición) / Complemento: los componentes / Complemento: sin seguir las pautas del sistema de diseño",
+    "spanishSentence": "Es importante que el desarrollador frontend no estilice los componentes sin seguir las pautas del sistema de diseño.",
+    "correctSentence": "It is important that the frontend developer not style the components without following the design system guidelines.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "styles",
+        "isDistractor": true,
+        "translation": "estilos"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente de ser/estar)"
+      },
+      {
+        "id": "c15",
+        "text": "design",
+        "isDistractor": false,
+        "translation": "diseño"
+      },
+      {
+        "id": "c8",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c16",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c7",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "style",
+        "isDistractor": false,
+        "translation": "estilizar"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "developer's",
+        "isDistractor": true,
+        "translation": "del desarrollador"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c6",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "c3",
+        "text": "important",
+        "isDistractor": false,
+        "translation": "importante"
+      },
+      {
+        "id": "c13",
+        "text": "following",
+        "isDistractor": false,
+        "translation": "seguir"
+      },
+      {
+        "id": "d4",
+        "text": "components'",
+        "isDistractor": true,
+        "translation": "de los componentes"
+      },
+      {
+        "id": "d3",
+        "text": "may",
+        "isDistractor": true,
+        "translation": "puede"
+      },
+      {
+        "id": "c17",
+        "text": "guidelines",
+        "isDistractor": false,
+        "translation": "pautas"
+      },
+      {
+        "id": "c12",
+        "text": "without",
+        "isDistractor": false,
+        "translation": "sin"
+      },
+      {
+        "id": "c11",
+        "text": "components",
+        "isDistractor": false,
+        "translation": "componentes"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(sujeto impersonal)"
+      }
+    ],
+    "translations": {
+      "it": "(sujeto impersonal)",
+      "is": "(presente de ser/estar)",
+      "important": "importante",
+      "that": "que",
+      "the": "(artículo)",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "not": "no",
+      "style": "estilizar",
+      "components": "componentes",
+      "without": "sin",
+      "following": "seguir",
+      "design": "diseño",
+      "system": "sistema",
+      "guidelines": "pautas",
+      "styles": "estilos",
+      "developer's": "del desarrollador",
+      "may": "puede",
+      "components'": "de los componentes"
+    },
+    "metadata": {
+      "tense": "subjunctive",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: ser (en forma impersonal con 'que')",
+      "Complemento: crucial",
+      "Verbo: escalar (en subjuntivo presente)",
+      "Complemento: la infraestructura",
+      "Tiempo: antes de que ocurra el aumento de tráfico"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: ser (en forma impersonal con 'que') / Complemento: crucial / Verbo: escalar (en subjuntivo presente) / Complemento: la infraestructura / Tiempo: antes de que ocurra el aumento de tráfico",
+    "spanishSentence": "Es crucial que el ingeniero de DevOps escale la infraestructura antes de que ocurra el aumento de tráfico.",
+    "correctSentence": "It is crucial that the DevOps engineer scale the infrastructure before the traffic surge occurs.",
+    "cards": [
+      {
+        "id": "d5",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c14",
+        "text": "surge",
+        "isDistractor": false,
+        "translation": "aumento"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "scale",
+        "isDistractor": false,
+        "translation": "escalar"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c3",
+        "text": "crucial",
+        "isDistractor": false,
+        "translation": "crucial"
+      },
+      {
+        "id": "c13",
+        "text": "traffic",
+        "isDistractor": false,
+        "translation": "tráfico"
+      },
+      {
+        "id": "d1",
+        "text": "scaled",
+        "isDistractor": true,
+        "translation": "escalada"
+      },
+      {
+        "id": "c6",
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "DevOps"
+      },
+      {
+        "id": "c15",
+        "text": "occurs",
+        "isDistractor": false,
+        "translation": "ocurra"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(verbo ser/estar)"
+      },
+      {
+        "id": "c1",
+        "text": "It",
+        "isDistractor": false,
+        "translation": "(pronombre impersonal)"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c10",
+        "text": "infrastructure",
+        "isDistractor": false,
+        "translation": "infraestructura"
+      },
+      {
+        "id": "d4",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "d2",
+        "text": "scales",
+        "isDistractor": true,
+        "translation": "escalas"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d6",
+        "text": "after",
+        "isDistractor": true,
+        "translation": "después de"
+      }
+    ],
+    "translations": {
+      "it": "(pronombre impersonal)",
+      "is": "(verbo ser/estar)",
+      "crucial": "crucial",
+      "that": "que",
+      "the": "(artículo)",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "scale": "escalar",
+      "infrastructure": "infraestructura",
+      "before": "antes de",
+      "traffic": "tráfico",
+      "surge": "aumento",
+      "occurs": "ocurra",
+      "scaled": "escalada",
+      "scales": "escalas",
+      "him": "lo",
+      "will": "(futuro)",
+      "might": "podría",
+      "after": "después de"
     },
     "metadata": {
       "tense": "subjunctive",

@@ -1,898 +1,230 @@
 [
   {
     "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: integrar (futuro)",
-      "Complemento: la nueva API en el pipeline de deployment",
-      "Tiempo: la próxima semana"
+      "Sujeto: el equipo",
+      "Verbo: will monitor (futuro con modal 'will')",
+      "Complemento: el rendimiento del sistema",
+      "Tiempo: durante el despliegue"
     ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: integrar (futuro) / Complemento: la nueva API en el pipeline de deployment / Tiempo: la próxima semana",
-    "spanishSentence": "¿No integrará el equipo de DevOps la nueva API en el pipeline de deployment la próxima semana?",
-    "correctSentence": "Won't the DevOps team integrate the new API into the deployment pipeline next week?",
+    "hintDisplay": "Sujeto: el equipo / Verbo: will monitor (futuro con modal 'will') / Complemento: el rendimiento del sistema / Tiempo: durante el despliegue",
+    "spanishSentence": "¿Monitoreará el equipo el rendimiento del sistema durante el despliegue?",
+    "correctSentence": "Will the team monitor the system performance during the deployment?",
     "cards": [
       {
+        "id": "d2",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c10",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      },
+      {
+        "id": "c7",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "c3",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c6",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c8",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
         "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "Their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c4",
+        "text": "monitor",
+        "isDistractor": false,
+        "translation": "monitorear"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "team": "equipo",
+      "monitor": "monitorear",
+      "system": "sistema",
+      "performance": "rendimiento",
+      "during": "durante",
+      "deployment": "despliegue",
+      "would": "(condicional)",
+      "has": "ha",
+      "their": "su"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: automatizar (futuro simple)",
+      "Complemento: el pipeline de despliegue",
+      "Tiempo: en el próximo sprint"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: automatizar (futuro simple) / Complemento: el pipeline de despliegue / Tiempo: en el próximo sprint",
+    "spanishSentence": "¿Automatizará el ingeniero de DevOps el pipeline de despliegue en el próximo sprint?",
+    "correctSentence": "Will the DevOps engineer automate the deployment pipeline next sprint?",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c5",
+        "text": "automate",
+        "isDistractor": false,
+        "translation": "automatizar"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "pipeline",
+        "isDistractor": false,
+        "translation": "pipeline"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "sería"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c7",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      },
+      {
+        "id": "d1",
+        "text": "automated",
+        "isDistractor": true,
+        "translation": "automatizado"
+      },
+      {
+        "id": "c9",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
       },
       {
         "id": "c3",
         "text": "DevOps",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "DevOps"
       },
-      {
-        "id": "c4",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "integrate",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "into",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "update",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "old",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "devops": "DevOps",
-      "team": "equipo",
-      "integrate": "integrar",
-      "new": "nueva",
-      "api": "API",
-      "into": "en",
-      "deployment": "deployment",
-      "pipeline": "pipeline",
-      "next": "próxima",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: depurar (will future)",
-      "Complemento: los errores en la pipeline de deployment",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: depurar (will future) / Complemento: los errores en la pipeline de deployment / Tiempo: mañana",
-    "spanishSentence": "¿No depurará el equipo de desarrollo los errores en la pipeline de deployment mañana?",
-    "correctSentence": "Won't the development team debug the errors in the deployment pipeline tomorrow?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "development",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "debug",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "errors",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Wouldn't",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "test",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "production",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "today",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el / la / los / las",
-      "development": "de desarrollo",
-      "team": "equipo",
-      "debug": "depurar",
-      "errors": "errores",
-      "in": "en",
-      "deployment": "de deployment",
-      "pipeline": "pipeline",
-      "tomorrow": "mañana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: desplegar (will future)",
-      "Complemento: el microservicio a la nube",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: desplegar (will future) / Complemento: el microservicio a la nube / Tiempo: mañana",
-    "spanishSentence": "¿Desplegará el desarrollador el microservicio a la nube mañana?",
-    "correctSentence": "Will the developer deploy the microservice to the cloud tomorrow?",
-    "cards": [
       {
         "id": "c1",
         "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "deploy",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "microservice",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "cloud",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(futuro)"
       },
       {
         "id": "c10",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "compile",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cache",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "today",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "database",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "will": "¿Desplegará?",
-      "the": "el/la",
-      "developer": "desarrollador",
-      "deploy": "desplegar",
-      "microservice": "microservicio",
-      "to": "a",
-      "cloud": "nube",
-      "tomorrow": "mañana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el servidor",
-      "Verbo: escalar (futuro simple)",
-      "Complemento: bajo carga pesada",
-      "Tiempo: en el futuro"
-    ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: escalar (futuro simple) / Complemento: bajo carga pesada / Tiempo: en el futuro",
-    "spanishSentence": "¿No escalará el servidor bajo carga pesada?",
-    "correctSentence": "Won't the server scale under heavy load?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "scale",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "under",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "heavy",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "load",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "handle",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "during",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "intense",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "Didn't",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el",
-      "server": "servidor",
-      "scale": "escalar",
-      "under": "bajo",
-      "heavy": "pesada",
-      "load": "carga"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: refactorizar (mejorar/restructurar)",
-      "Complemento: la API antigua",
-      "Tiempo: la próxima semana"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: refactorizar (mejorar/restructurar) / Complemento: la API antigua / Tiempo: la próxima semana",
-    "spanishSentence": "¿Refactorizará el equipo de desarrollo la API antigua la próxima semana?",
-    "correctSentence": "Will the development team refactor the old API next week?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "development",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "refactor",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "old",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "migrate",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "legacy",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "optimize",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "this",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "will": "¿Refactorizará",
-      "the": "el/la",
-      "development": "desarrollo",
-      "team": "equipo",
-      "refactor": "refactorizar",
-      "old": "antigua",
-      "api": "API",
-      "next": "próxima",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el servidor",
-      "Verbo: escalar (futuro)",
-      "Complemento: bajo carga pesada",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: escalar (futuro) / Complemento: bajo carga pesada / Tiempo: mañana",
-    "spanishSentence": "¿No escalará el servidor bajo carga pesada mañana?",
-    "correctSentence": "Won't the server scale under heavy load tomorrow?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "scale",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "under",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "heavy",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "load",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "light",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "handle",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el",
-      "server": "servidor",
-      "scale": "escalar",
-      "under": "bajo",
-      "heavy": "pesada",
-      "load": "carga",
-      "tomorrow": "mañana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: depurar (will future)",
-      "Complemento: el endpoint de la API",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: depurar (will future) / Complemento: el endpoint de la API / Tiempo: mañana",
-    "spanishSentence": "¿Depurará el ingeniero el endpoint de la API mañana?",
-    "correctSentence": "Will the engineer debug the API endpoint tomorrow?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "debug",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "endpoint",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "fix",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "developer",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "today",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "will": "¿depurará",
-      "the": "el/la",
-      "engineer": "ingeniero",
-      "debug": "depurar",
-      "api": "API",
-      "endpoint": "endpoint",
-      "tomorrow": "mañana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: refactorizar (will future)",
-      "Complemento: la base de datos y el cache",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: refactorizar (will future) / Complemento: la base de datos y el cache / Tiempo: mañana",
-    "spanishSentence": "¿No refactorizará el desarrollador la base de datos y el cache mañana?",
-    "correctSentence": "Won't the developer refactor the database and cache tomorrow?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "refactor",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "and",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "redesign",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "engineer",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "server",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "today",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "developer": "desarrollador",
-      "refactor": "refactorizar",
-      "database": "base de datos",
-      "and": "y",
-      "cache": "cache",
-      "tomorrow": "mañana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: integrar (integrate)",
-      "Complemento: en el próximo sprint",
-      "Tiempo: en el próximo sprint"
-    ],
-    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: integrar (integrate) / Complemento: en el próximo sprint / Tiempo: en el próximo sprint",
-    "spanishSentence": "¿Integrará el equipo de desarrollo una nueva API en el próximo sprint?",
-    "correctSentence": "Will the development team integrate a new API in the next sprint?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "development",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "integrate",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
         "text": "sprint",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "last",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "old",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "Can",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "sprint"
       }
     ],
     "translations": {
-      "will": "¿",
-      "the": "el/la",
-      "development": "desarrollo",
-      "team": "equipo",
-      "integrate": "integrar",
-      "a": "una",
-      "new": "nueva",
-      "api": "API",
-      "in": "en",
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "automate": "automatizar",
+      "deployment": "despliegue",
+      "pipeline": "pipeline",
       "next": "próximo",
-      "sprint": "sprint"
+      "sprint": "sprint",
+      "automated": "automatizado",
+      "he": "él",
+      "would": "sería"
     },
     "metadata": {
       "tense": "will future",
@@ -905,82 +237,970 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: cachear (almacenar en caché)",
-      "Complemento: las consultas de la base de datos",
-      "Tiempo: mañana"
+      "Verbo: will/shall (auxiliar para futuro) + refactorizar",
+      "Complemento: el código heredado",
+      "Tiempo: en el próximo sprint"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: cachear (almacenar en caché) / Complemento: las consultas de la base de datos / Tiempo: mañana",
-    "spanishSentence": "¿Cachearemos las consultas de la base de datos mañana?",
-    "correctSentence": "Will we cache the database queries tomorrow?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: will/shall (auxiliar para futuro) + refactorizar / Complemento: el código heredado / Tiempo: en el próximo sprint",
+    "spanishSentence": "¿No refactorizaremos el código heredado en el próximo sprint?",
+    "correctSentence": "Won't we refactor the legacy code in the next sprint?",
     "cards": [
       {
+        "id": "c7",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c5",
+        "text": "legacy",
+        "isDistractor": false,
+        "translation": "heredado"
+      },
+      {
         "id": "c1",
-        "text": "Will",
-        "isDistractor": false
+        "text": "Won't",
+        "isDistractor": false,
+        "translation": "(negación futuro)"
+      },
+      {
+        "id": "d3",
+        "text": "refactored",
+        "isDistractor": true,
+        "translation": "refactorizado"
+      },
+      {
+        "id": "c10",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c6",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
       },
       {
         "id": "c2",
         "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "cache",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "nosotros"
       },
       {
         "id": "c4",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "tomorrow",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d1",
-        "text": "deploy",
-        "isDistractor": true
+        "text": "Wouldn't",
+        "isDistractor": true,
+        "translation": "(negación condicional)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d2",
-        "text": "can",
-        "isDistractor": true
+        "text": "Aren't",
+        "isDistractor": true,
+        "translation": "(negación presente)"
       },
       {
-        "id": "d3",
-        "text": "optimize",
-        "isDistractor": true
+        "id": "c9",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
       },
       {
-        "id": "d4",
-        "text": "yesterday",
-        "isDistractor": true
+        "id": "c3",
+        "text": "refactor",
+        "isDistractor": false,
+        "translation": "refactorizar"
       }
     ],
     "translations": {
-      "will": "¿",
+      "won't": "(negación futuro)",
       "we": "nosotros",
-      "cache": "cachear",
-      "the": "las",
-      "database": "base de datos",
-      "queries": "consultas",
-      "tomorrow": "mañana"
+      "refactor": "refactorizar",
+      "the": "(artículo)",
+      "legacy": "heredado",
+      "code": "código",
+      "in": "en",
+      "next": "próximo",
+      "sprint": "sprint",
+      "wouldn't": "(negación condicional)",
+      "aren't": "(negación presente)",
+      "refactored": "refactorizado"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador frontend",
+      "Verbo: render (auxiliar will para futuro)",
+      "Complemento: los nuevos componentes de la interfaz de usuario",
+      "Tiempo: mañana"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: render (auxiliar will para futuro) / Complemento: los nuevos componentes de la interfaz de usuario / Tiempo: mañana",
+    "spanishSentence": "¿Renderizará el desarrollador frontend los nuevos componentes de la interfaz de usuario mañana?",
+    "correctSentence": "Will the frontend developer render the new user interface components tomorrow?",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "render",
+        "isDistractor": false,
+        "translation": "renderizar"
+      },
+      {
+        "id": "c10",
+        "text": "components",
+        "isDistractor": false,
+        "translation": "componentes"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d1",
+        "text": "rendered",
+        "isDistractor": true,
+        "translation": "renderizado"
+      },
+      {
+        "id": "c8",
+        "text": "user",
+        "isDistractor": false,
+        "translation": "usuario"
+      },
+      {
+        "id": "c9",
+        "text": "interface",
+        "isDistractor": false,
+        "translation": "interfaz"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c7",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevo"
+      },
+      {
+        "id": "c11",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c3",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "c4",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "render": "renderizar",
+      "new": "nuevo",
+      "user": "usuario",
+      "interface": "interfaz",
+      "components": "componentes",
+      "tomorrow": "mañana",
+      "rendered": "renderizado",
+      "does": "(auxiliar)",
+      "him": "él"
     },
     "metadata": {
       "tense": "will future",
       "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: construir (futuro simple con modal negativo)",
+      "Complemento: una nueva arquitectura de microservicios para este proyecto"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: construir (futuro simple con modal negativo) / Complemento: una nueva arquitectura de microservicios para este proyecto",
+    "spanishSentence": "¿No construirá el desarrollador una nueva arquitectura de microservicios para este proyecto?",
+    "correctSentence": "Won't the developer build a new microservices architecture for this project?",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "Didn't",
+        "isDistractor": true,
+        "translation": "(pasado negativo)"
+      },
+      {
+        "id": "c5",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      },
+      {
+        "id": "c11",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
+      },
+      {
+        "id": "c9",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c10",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "d3",
+        "text": "Built",
+        "isDistractor": true,
+        "translation": "construido"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      },
+      {
+        "id": "c6",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevo"
+      },
+      {
+        "id": "c8",
+        "text": "architecture",
+        "isDistractor": false,
+        "translation": "arquitectura"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c4",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "construir"
+      },
+      {
+        "id": "d2",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c1",
+        "text": "Won't",
+        "isDistractor": false,
+        "translation": "(futuro negativo)"
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      }
+    ],
+    "translations": {
+      "won't": "(futuro negativo)",
+      "the": "(artículo)",
+      "developer": "desarrollador",
+      "build": "construir",
+      "a": "(artículo indefinido)",
+      "new": "nuevo",
+      "microservices": "microservicios",
+      "architecture": "arquitectura",
+      "for": "para",
+      "this": "este",
+      "project": "proyecto",
+      "didn't": "(pasado negativo)",
+      "would": "(condicional)",
+      "built": "construido"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto",
+      "Verbo: evaluar (will - futuro simple)",
+      "Complemento: la escalabilidad de la nueva arquitectura de microservicios"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: evaluar (will - futuro simple) / Complemento: la escalabilidad de la nueva arquitectura de microservicios",
+    "spanishSentence": "¿Evaluará el arquitecto la escalabilidad de la nueva arquitectura de microservicios?",
+    "correctSentence": "Will the architect evaluate the scalability of the new microservices architecture?",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d1",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d2",
+        "text": "Evaluated",
+        "isDistractor": true,
+        "translation": "evaluada"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "evaluate",
+        "isDistractor": false,
+        "translation": "evaluar"
+      },
+      {
+        "id": "c10",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      },
+      {
+        "id": "c11",
+        "text": "architecture",
+        "isDistractor": false,
+        "translation": "arquitectura"
+      },
+      {
+        "id": "c6",
+        "text": "scalability",
+        "isDistractor": false,
+        "translation": "escalabilidad"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c7",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c3",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "architect": "arquitecto",
+      "evaluate": "evaluar",
+      "scalability": "escalabilidad",
+      "of": "de",
+      "new": "nueva",
+      "microservices": "microservicios",
+      "architecture": "arquitectura",
+      "would": "(condicional)",
+      "evaluated": "evaluada",
+      "has": "ha"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: construir (futuro simple)",
+      "Complemento: una nueva arquitectura de microservicios",
+      "Tiempo: para la próxima versión"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: construir (futuro simple) / Complemento: una nueva arquitectura de microservicios / Tiempo: para la próxima versión",
+    "spanishSentence": "¿Construirán ellos una nueva arquitectura de microservicios para la próxima versión?",
+    "correctSentence": "Will they build a new microservices architecture for the next release?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c8",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c3",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "construir"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo determinado)"
+      },
+      {
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c7",
+        "text": "architecture",
+        "isDistractor": false,
+        "translation": "arquitectura"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d2",
+        "text": "built",
+        "isDistractor": true,
+        "translation": "construida"
+      },
+      {
+        "id": "c5",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
+      },
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indeterminado)"
+      },
+      {
+        "id": "c10",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próxima"
+      },
+      {
+        "id": "c11",
+        "text": "release",
+        "isDistractor": false,
+        "translation": "versión"
+      },
+      {
+        "id": "d1",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "sería"
+      },
+      {
+        "id": "c6",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "they": "ellos",
+      "build": "construir",
+      "a": "(artículo indeterminado)",
+      "new": "nueva",
+      "microservices": "microservicios",
+      "architecture": "arquitectura",
+      "for": "para",
+      "the": "(artículo determinado)",
+      "next": "próxima",
+      "release": "versión",
+      "would": "sería",
+      "built": "construida",
+      "them": "los"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador backend",
+      "Verbo: will query (futuro simple)",
+      "Complemento: la base de datos",
+      "Complemento: para recuperar la información del usuario"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: will query (futuro simple) / Complemento: la base de datos / Complemento: para recuperar la información del usuario",
+    "spanishSentence": "¿Consultará el desarrollador backend la base de datos para recuperar la información del usuario?",
+    "correctSentence": "Will the backend developer query the database to retrieve the user information?",
+    "cards": [
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "query",
+        "isDistractor": false,
+        "translation": "consultar"
+      },
+      {
+        "id": "c12",
+        "text": "information",
+        "isDistractor": false,
+        "translation": "información"
+      },
+      {
+        "id": "d2",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
+      },
+      {
+        "id": "c11",
+        "text": "user",
+        "isDistractor": false,
+        "translation": "usuario"
+      },
+      {
+        "id": "c7",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "d3",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c3",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "d1",
+        "text": "queried",
+        "isDistractor": true,
+        "translation": "consultado"
+      },
+      {
+        "id": "c9",
+        "text": "retrieve",
+        "isDistractor": false,
+        "translation": "recuperar"
+      },
+      {
+        "id": "c8",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "query": "consultar",
+      "database": "base de datos",
+      "to": "(marca de infinitivo)",
+      "retrieve": "recuperar",
+      "user": "usuario",
+      "information": "información",
+      "queried": "consultado",
+      "him": "le",
+      "does": "(auxiliar)"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: construir (will - futuro simple)",
+      "Complemento: una arquitectura de microservicios escalable",
+      "Complemento: para este proyecto"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: construir (will - futuro simple) / Complemento: una arquitectura de microservicios escalable / Complemento: para este proyecto",
+    "spanishSentence": "¿Construiremos una arquitectura de microservicios escalable para este proyecto?",
+    "correctSentence": "Will we build a scalable microservices architecture for this project?",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d2",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c6",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      },
+      {
+        "id": "c7",
+        "text": "architecture",
+        "isDistractor": false,
+        "translation": "arquitectura"
+      },
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      },
+      {
+        "id": "d3",
+        "text": "built",
+        "isDistractor": true,
+        "translation": "construido"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c8",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c5",
+        "text": "scalable",
+        "isDistractor": false,
+        "translation": "escalable"
+      },
+      {
+        "id": "c10",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d1",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "sería"
+      },
+      {
+        "id": "c3",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "construir"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "we": "nosotros",
+      "build": "construir",
+      "a": "(artículo indefinido)",
+      "scalable": "escalable",
+      "microservices": "microservicios",
+      "architecture": "arquitectura",
+      "for": "para",
+      "this": "este",
+      "project": "proyecto",
+      "would": "sería",
+      "them": "los",
+      "built": "construido"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: los desarrolladores",
+      "Verbo: depurar (will - futuro simple)",
+      "Complemento: el código",
+      "Complemento: antes del despliegue",
+      "Tiempo: futuro (acciones que ocurrirán)"
+    ],
+    "hintDisplay": "Sujeto: los desarrolladores / Verbo: depurar (will - futuro simple) / Complemento: el código / Complemento: antes del despliegue / Tiempo: futuro (acciones que ocurrirán)",
+    "spanishSentence": "¿No depurarán los desarrolladores el código antes del despliegue?",
+    "correctSentence": "Won't the developers debug the code before deployment?",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "developers",
+        "isDistractor": false,
+        "translation": "desarrolladores"
+      },
+      {
+        "id": "d2",
+        "text": "Wouldn't",
+        "isDistractor": true,
+        "translation": "(condicional negativo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d3",
+        "text": "Shouldn't",
+        "isDistractor": true,
+        "translation": "(obligación negativa)"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "debug",
+        "isDistractor": false,
+        "translation": "depurar"
+      },
+      {
+        "id": "d1",
+        "text": "Didn't",
+        "isDistractor": true,
+        "translation": "(pasado negativo)"
+      },
+      {
+        "id": "c1",
+        "text": "Won't",
+        "isDistractor": false,
+        "translation": "(futuro negativo)"
+      },
+      {
+        "id": "c8",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      },
+      {
+        "id": "c6",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      }
+    ],
+    "translations": {
+      "won't": "(futuro negativo)",
+      "the": "(artículo)",
+      "developers": "desarrolladores",
+      "debug": "depurar",
+      "code": "código",
+      "before": "antes de",
+      "deployment": "despliegue",
+      "didn't": "(pasado negativo)",
+      "wouldn't": "(condicional negativo)",
+      "shouldn't": "(obligación negativa)"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "intermediate",
       "topic": "software engineering"

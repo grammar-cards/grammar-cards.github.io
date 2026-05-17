@@ -1,86 +1,256 @@
 [
   {
     "hints": [
-      "Sujeto: la base de datos",
-      "Verbo: optimizar (voz pasiva)",
-      "Complemento: durante las vacaciones"
+      "Sujeto: las pruebas",
+      "Verbo: estar (auxiliar para indicar acción en progreso)",
+      "Verbo: ejecutar/correr",
+      "Complemento: el despliegue",
+      "Verbo: iniciar",
+      "Tiempo: cuando (marcador temporal de simultaneidad)"
     ],
-    "hintDisplay": "Sujeto: la base de datos / Verbo: optimizar (voz pasiva) / Complemento: durante las vacaciones / Tiempo: durante las vacaciones",
-    "spanishSentence": "¿No fue optimizada la base de datos durante las vacaciones?",
-    "correctSentence": "Wasn't the database optimized during the holidays?",
+    "hintDisplay": "Sujeto: las pruebas / Verbo: estar (auxiliar para indicar acción en progreso) / Verbo: ejecutar/correr / Complemento: el despliegue / Verbo: iniciar / Tiempo: cuando (marcador temporal de simultaneidad)",
+    "spanishSentence": "¿Se estaban ejecutando las pruebas cuando se inició el despliegue?",
+    "correctSentence": "Were the tests being run when the deployment was initiated?",
     "cards": [
       {
+        "id": "d5",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
         "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
+        "text": "Were",
+        "isDistractor": false,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c9",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c3",
+        "text": "tests",
+        "isDistractor": false,
+        "translation": "pruebas"
+      },
+      {
+        "id": "c6",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c10",
+        "text": "initiated",
+        "isDistractor": false,
+        "translation": "iniciado"
+      },
+      {
+        "id": "c5",
+        "text": "run",
+        "isDistractor": false,
+        "translation": "ejecutarse"
+      },
+      {
+        "id": "c8",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "optimized",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "holidays",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "wasn't",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "compiled",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "the",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d4",
-        "text": "deployed",
-        "isDistractor": true
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellas"
       },
       {
-        "id": "d5",
-        "text": "before",
-        "isDistractor": true
+        "id": "d1",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(presente)"
       },
       {
-        "id": "d6",
-        "text": "upgraded",
-        "isDistractor": true
+        "id": "d2",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c4",
+        "text": "being",
+        "isDistractor": false,
+        "translation": "(gerundio)"
       }
     ],
     "translations": {
-      "the": "la/el",
-      "database": "base de datos",
-      "optimized": "optimizada",
-      "during": "durante",
-      "holidays": "vacaciones"
+      "were": "(pasado)",
+      "the": "(artículo)",
+      "tests": "pruebas",
+      "being": "(gerundio)",
+      "run": "ejecutarse",
+      "when": "cuando",
+      "deployment": "despliegue",
+      "was": "(pasado)",
+      "initiated": "iniciado",
+      "are": "(presente)",
+      "had": "había",
+      "will": "(futuro)",
+      "they": "ellas",
+      "has": "ha"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el código",
+      "Verbo: ser (auxiliar para voz pasiva)",
+      "Verbo: desplegar (en participio pasado para voz pasiva)",
+      "Complemento: a producción",
+      "Tiempo: esta semana"
+    ],
+    "hintDisplay": "Sujeto: el código / Verbo: ser (auxiliar para voz pasiva) / Verbo: desplegar (en participio pasado para voz pasiva) / Complemento: a producción / Tiempo: esta semana",
+    "spanishSentence": "¿Será desplegado el código a producción esta semana?",
+    "correctSentence": "Will the code be deployed to production this week?",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "d3",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d2",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d5",
+        "text": "Being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "c8",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c6",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c3",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c5",
+        "text": "deployed",
+        "isDistractor": false,
+        "translation": "desplegado"
+      },
+      {
+        "id": "c4",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "c7",
+        "text": "production",
+        "isDistractor": false,
+        "translation": "producción"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d4",
+        "text": "Production's",
+        "isDistractor": true,
+        "translation": "de producción"
+      },
+      {
+        "id": "d1",
+        "text": "Are",
+        "isDistractor": true,
+        "translation": "(ser/estar)"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "code": "código",
+      "be": "(ser/estar)",
+      "deployed": "desplegado",
+      "to": "(preposición)",
+      "production": "producción",
+      "this": "este",
+      "week": "semana",
+      "are": "(ser/estar)",
+      "has": "(auxiliar)",
+      "would": "(condicional)",
+      "production's": "de producción",
+      "being": "siendo"
     },
     "metadata": {
       "tense": "passive voice",
@@ -92,101 +262,137 @@
   },
   {
     "hints": [
-      "Sujeto: el servidor",
-      "Verbo: reiniciar (voz pasiva)",
-      "Complemento: durante las tareas de mantenimiento",
-      "Tiempo: dos veces por semana"
+      "Sujeto: el lanzamiento",
+      "Verbo: revertir (ser revertido en voz pasiva)",
+      "Verbo: ser (auxiliar en voz pasiva)",
+      "Complemento: cuando se encuentran errores críticos",
+      "Verbo: encontrar (en la cláusula condicional)",
+      "Estructura: pregunta negativa con 'not'"
     ],
-    "hintDisplay": "Sujeto: el servidor / Verbo: reiniciar (voz pasiva) / Complemento: durante las tareas de mantenimiento / Tiempo: dos veces por semana",
-    "spanishSentence": "¿No es reiniciado el servidor dos veces por semana durante las tareas de mantenimiento?",
-    "correctSentence": "Isn't the server restarted twice a week during maintenance tasks?",
+    "hintDisplay": "Sujeto: el lanzamiento / Verbo: revertir (ser revertido en voz pasiva) / Verbo: ser (auxiliar en voz pasiva) / Complemento: cuando se encuentran errores críticos / Verbo: encontrar (en la cláusula condicional) / Estructura: pregunta negativa con 'not'",
+    "spanishSentence": "¿No se revierte el lanzamiento cuando se encuentran errores críticos?",
+    "correctSentence": "Is the release not rolled back when critical bugs are found?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c11",
+        "text": "found",
+        "isDistractor": false,
+        "translation": "encuentran"
+      },
+      {
+        "id": "c8",
+        "text": "critical",
+        "isDistractor": false,
+        "translation": "críticos"
+      },
+      {
+        "id": "c5",
+        "text": "rolled",
+        "isDistractor": false,
+        "translation": "revierte"
+      },
+      {
+        "id": "c7",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "d1",
+        "text": "finding",
+        "isDistractor": true,
+        "translation": "hallazgo"
+      },
+      {
+        "id": "d4",
+        "text": "launching",
+        "isDistractor": true,
+        "translation": "lanzamiento"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "restarted",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "twice",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c6",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "maintenance",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "tasks",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "updated",
-        "isDistractor": true
+        "text": "back",
+        "isDistractor": false,
+        "translation": "atrás"
       },
       {
         "id": "d2",
-        "text": "deployed",
-        "isDistractor": true
+        "text": "discovers",
+        "isDistractor": true,
+        "translation": "descubre"
       },
       {
-        "id": "d3",
-        "text": "three",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "after",
-        "isDistractor": true
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "d5",
-        "text": "monthly",
-        "isDistractor": true
+        "text": "pushes",
+        "isDistractor": true,
+        "translation": "impulsa"
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c10",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c3",
+        "text": "release",
+        "isDistractor": false,
+        "translation": "lanzamiento"
+      },
+      {
+        "id": "c9",
+        "text": "bugs",
+        "isDistractor": false,
+        "translation": "errores"
+      },
+      {
+        "id": "d3",
+        "text": "reverted",
+        "isDistractor": true,
+        "translation": "revertida"
       }
     ],
     "translations": {
-      "the": "el",
-      "server": "servidor",
-      "restarted": "reiniciado",
-      "twice": "dos veces",
-      "a": "una",
-      "week": "semana",
-      "during": "durante",
-      "maintenance": "mantenimiento",
-      "tasks": "tareas"
+      "is": "(auxiliar)",
+      "the": "(artículo)",
+      "release": "lanzamiento",
+      "not": "no",
+      "rolled": "revierte",
+      "back": "atrás",
+      "when": "cuando",
+      "critical": "críticos",
+      "bugs": "errores",
+      "are": "(auxiliar)",
+      "found": "encuentran",
+      "finding": "hallazgo",
+      "discovers": "descubre",
+      "reverted": "revertida",
+      "launching": "lanzamiento",
+      "pushes": "impulsa"
     },
     "metadata": {
       "tense": "passive voice",
@@ -199,210 +405,134 @@
   {
     "hints": [
       "Sujeto: la API",
-      "Verbo: actualizar (voz pasiva)",
+      "Verbo: ser (voz pasiva)",
+      "Verbo: actualizar (participio pasado)",
       "Complemento: por el equipo de desarrollo",
-      "Tiempo: todos los sábados"
+      "Tiempo: la semana pasada"
     ],
-    "hintDisplay": "Sujeto: la API / Verbo: actualizar (voz pasiva) / Complemento: por el equipo de desarrollo / Tiempo: todos los sábados",
-    "spanishSentence": "¿No es actualizada la API por el equipo de desarrollo todos los sábados?",
-    "correctSentence": "Isn't the API updated by the development team every Saturday?",
+    "hintDisplay": "Sujeto: la API / Verbo: ser (voz pasiva) / Verbo: actualizar (participio pasado) / Complemento: por el equipo de desarrollo / Tiempo: la semana pasada",
+    "spanishSentence": "¿Fue la API actualizada por el equipo de desarrollo la semana pasada?",
+    "correctSentence": "Was the API updated by the development team last week?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
+        "id": "d1",
+        "text": "update",
+        "isDistractor": true,
+        "translation": "actualizar"
       },
       {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
+        "id": "d2",
+        "text": "being",
+        "isDistractor": true,
+        "translation": "siendo"
       },
       {
-        "id": "c3",
-        "text": "API",
-        "isDistractor": false
+        "id": "c10",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
       },
       {
         "id": "c4",
         "text": "updated",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "actualizada"
       },
       {
         "id": "c5",
         "text": "by",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "por"
       },
       {
-        "id": "c6",
+        "id": "d4",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c9",
+        "text": "last",
+        "isDistractor": false,
+        "translation": "pasada"
+      },
+      {
+        "id": "d5",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "d6",
+        "text": "doing",
+        "isDistractor": true,
+        "translation": "haciendo"
+      },
+      {
+        "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c7",
         "text": "development",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "desarrollo"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c1",
+        "text": "Was",
+        "isDistractor": false,
+        "translation": "(pasado)"
       },
       {
         "id": "c8",
         "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "Saturday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "updating",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "from",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "equipo"
       },
       {
         "id": "d3",
-        "text": "each",
-        "isDistractor": true
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
       },
       {
-        "id": "d4",
-        "text": "database",
-        "isDistractor": true
+        "id": "c3",
+        "text": "API",
+        "isDistractor": false,
+        "translation": "API"
       },
       {
-        "id": "d5",
-        "text": "weekly",
-        "isDistractor": true
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       }
     ],
     "translations": {
-      "the": "el/la",
+      "was": "(pasado)",
+      "the": "(artículo)",
       "api": "API",
       "updated": "actualizada",
       "by": "por",
       "development": "desarrollo",
       "team": "equipo",
-      "every": "todos los",
-      "saturday": "sábados"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el código",
-      "Verbo: revisar (voz pasiva)",
-      "Complemento: por los desarrolladores sénior",
-      "Tiempo: después del trabajo"
-    ],
-    "hintDisplay": "Sujeto: el código / Verbo: revisar (voz pasiva) / Complemento: por los desarrolladores sénior / Tiempo: después del trabajo",
-    "spanishSentence": "¿Fue revisado el código por los desarrolladores sénior después del trabajo?",
-    "correctSentence": "Was the code reviewed by the senior developers after work?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Was",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "reviewed",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "senior",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "developers",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "after",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "work",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Is",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "review",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "before",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "tested",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "junior",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "from",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "was": "fue",
-      "the": "el/la",
-      "code": "código",
-      "reviewed": "revisado",
-      "by": "por",
-      "senior": "sénior",
-      "developers": "desarrolladores",
-      "after": "después del",
-      "work": "trabajo"
+      "last": "pasada",
+      "week": "semana",
+      "update": "actualizar",
+      "being": "siendo",
+      "have": "haber",
+      "will": "(futuro)",
+      "them": "ellos",
+      "doing": "haciendo"
     },
     "metadata": {
       "tense": "passive voice",
@@ -414,122 +544,133 @@
   },
   {
     "hints": [
-      "Sujeto: la versión (el lanzamiento)",
-      "Verbo: revertir (voz pasiva)",
-      "Complemento: debido a una vulnerabilidad crítica",
-      "Tiempo: el viernes"
+      "Tiempo: presente perfecto (acción completada en tiempo reciente)",
+      "Sujeto: la base de datos",
+      "Verbo: ser (auxiliar pasivo)",
+      "Verbo: optimizar (participio pasado)",
+      "Complemento: para mejorar el rendimiento de la aplicación"
     ],
-    "hintDisplay": "Sujeto: la versión (el lanzamiento) / Verbo: revertir (voz pasiva) / Complemento: debido a una vulnerabilidad crítica / Tiempo: el viernes",
-    "spanishSentence": "¿No fue revertida la versión el viernes debido a una vulnerabilidad crítica?",
-    "correctSentence": "Wasn't the release rolled back on Friday due to a critical vulnerability?",
+    "hintDisplay": "Tiempo: presente perfecto (acción completada en tiempo reciente) / Sujeto: la base de datos / Verbo: ser (auxiliar pasivo) / Verbo: optimizar (participio pasado) / Complemento: para mejorar el rendimiento de la aplicación",
+    "spanishSentence": "¿Ha sido optimizada la base de datos para mejorar el rendimiento de la aplicación?",
+    "correctSentence": "Has the database been optimized to improve application performance?",
     "cards": [
       {
+        "id": "c6",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c3",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "d6",
+        "text": "Them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
         "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
+        "text": "Has",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d1",
+        "text": "Have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c9",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "d2",
+        "text": "Being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "c8",
+        "text": "application",
+        "isDistractor": false,
+        "translation": "aplicación"
+      },
+      {
+        "id": "d4",
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "release",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "rolled",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c5",
-        "text": "back",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "on",
-        "isDistractor": false
+        "text": "optimized",
+        "isDistractor": false,
+        "translation": "optimizada"
       },
       {
         "id": "c7",
-        "text": "Friday",
-        "isDistractor": false
+        "text": "improve",
+        "isDistractor": false,
+        "translation": "mejorar"
       },
       {
-        "id": "c8",
-        "text": "due",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "critical",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "vulnerability",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "deployed",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "merged",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "patched",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "Wednesday",
-        "isDistractor": true
+        "id": "c4",
+        "text": "been",
+        "isDistractor": false,
+        "translation": "sido"
       },
       {
         "id": "d5",
-        "text": "because",
-        "isDistractor": true
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "fueron"
       },
       {
-        "id": "d6",
-        "text": "forward",
-        "isDistractor": true
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d3",
+        "text": "Optimizing",
+        "isDistractor": true,
+        "translation": "optimizando"
       }
     ],
     "translations": {
-      "the": "la",
-      "release": "versión",
-      "rolled": "revertida",
-      "back": "atrás",
-      "on": "el",
-      "friday": "viernes",
-      "due": "debido",
-      "to": "a",
-      "a": "una",
-      "critical": "crítica",
-      "vulnerability": "vulnerabilidad"
+      "has": "(auxiliar)",
+      "the": "(artículo)",
+      "database": "base de datos",
+      "been": "sido",
+      "optimized": "optimizada",
+      "to": "(marca de infinitivo)",
+      "improve": "mejorar",
+      "application": "aplicación",
+      "performance": "rendimiento",
+      "have": "haber",
+      "being": "siendo",
+      "optimizing": "optimizando",
+      "will": "(futuro)",
+      "were": "fueron",
+      "them": "los"
     },
     "metadata": {
       "tense": "passive voice",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "software engineering"
@@ -537,538 +678,711 @@
   },
   {
     "hints": [
-      "Sujeto: la vulnerabilidad (the receiver of the action)",
-      "Verbo: ser parcheada (passive voice, past simple)",
-      "Complemento: en el código de producción (in production code)",
-      "Tiempo: el verano pasado (last summer)"
+      "Sujeto: la vulnerabilidad",
+      "Verbo: deber (obligación/recomendación modal)",
+      "Verbo: parchear",
+      "Complemento: antes del lanzamiento del software"
     ],
-    "hintDisplay": "Sujeto: la vulnerabilidad / Verbo: ser parcheada / Complemento: en el código de producción / Tiempo: el verano pasado",
-    "spanishSentence": "¿No fue parcheada la vulnerabilidad crítica en el código de producción el verano pasado?",
-    "correctSentence": "Wasn't the critical vulnerability patched in the production code last summer?",
+    "hintDisplay": "Sujeto: la vulnerabilidad / Verbo: deber (obligación/recomendación modal) / Verbo: parchear / Complemento: antes del lanzamiento del software",
+    "spanishSentence": "¿Debería la vulnerabilidad ser parcheada antes del lanzamiento del software?",
+    "correctSentence": "Should the vulnerability be patched before the software release?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
+        "id": "c9",
+        "text": "release",
+        "isDistractor": false,
+        "translation": "lanzamiento"
+      },
+      {
+        "id": "c8",
+        "text": "software",
+        "isDistractor": false,
+        "translation": "software"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "Could",
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
       {
         "id": "c3",
-        "text": "critical",
-        "isDistractor": false
+        "text": "vulnerability",
+        "isDistractor": false,
+        "translation": "vulnerabilidad"
       },
       {
-        "id": "c4",
-        "text": "vulnerability",
-        "isDistractor": false
+        "id": "d3",
+        "text": "patching",
+        "isDistractor": true,
+        "translation": "parcheado"
+      },
+      {
+        "id": "d6",
+        "text": "vulnerabilities",
+        "isDistractor": true,
+        "translation": "vulnerabilidades"
+      },
+      {
+        "id": "c1",
+        "text": "Should",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d2",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
       {
         "id": "c5",
         "text": "patched",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "production",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "last",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "summer",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "fixed",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "during",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "wasn't",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "parcheada"
       },
       {
         "id": "d4",
         "text": "released",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "security",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "critical": "crítica",
-      "vulnerability": "vulnerabilidad",
-      "patched": "parcheada",
-      "in": "en",
-      "production": "producción",
-      "code": "código",
-      "last": "pasado",
-      "summer": "verano"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la pipeline",
-      "Verbo: arreglar (voz pasiva)",
-      "Complemento: por los ingenieros",
-      "Tiempo: anoche"
-    ],
-    "hintDisplay": "Sujeto: la pipeline / Verbo: arreglar (voz pasiva) / Complemento: por los ingenieros / Tiempo: anoche",
-    "spanishSentence": "¿No fue arreglada la pipeline por los ingenieros anoche?",
-    "correctSentence": "Wasn't the pipeline fixed by the engineers last night?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "fixed",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "engineers",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "last",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Wasn't",
         "isDistractor": true,
-        "translation": "no fue"
-      },
-      {
-        "id": "d2",
-        "text": "it",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "built",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "deployed",
-        "isDistractor": true
+        "translation": "lanzado"
       },
       {
         "id": "d5",
-        "text": "this",
-        "isDistractor": true
+        "text": "softwares",
+        "isDistractor": true,
+        "translation": "software"
       },
       {
-        "id": "d6",
-        "text": "morning",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "la/los",
-      "pipeline": "pipeline",
-      "fixed": "arreglada",
-      "by": "por",
-      "engineers": "ingenieros",
-      "last": "pasada",
-      "night": "noche"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el código",
-      "Verbo: revisar (voz pasiva)",
-      "Complemento: por los miembros del equipo",
-      "Tiempo: todos los domingos"
-    ],
-    "hintDisplay": "Sujeto: el código / Verbo: revisar (voz pasiva) / Complemento: por los miembros del equipo / Tiempo: todos los domingos",
-    "spanishSentence": "¿No es revisado el código por los miembros del equipo todos los domingos?",
-    "correctSentence": "Isn't the code reviewed by the team members every Sunday?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
+        "id": "c4",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "code",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "reviewed",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "members",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "Sunday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "checking",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "approved",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "developers",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "Wednesday",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "during",
-        "isDistractor": true
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "code": "código",
-      "reviewed": "revisado",
-      "by": "por",
-      "team": "equipo",
-      "members": "miembros",
-      "every": "todos los",
-      "sunday": "domingos"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: the pipeline",
-      "Verbo: desencadenar (acción pasiva)",
-      "Complemento: por un commit fallido",
-      "Tiempo: el sábado"
-    ],
-    "hintDisplay": "Sujeto: the pipeline / Verbo: desencadenar (acción pasiva) / Complemento: por un commit fallido / Tiempo: el sábado",
-    "spanishSentence": "¿No fue desencadenado el pipeline por un commit fallido el sábado?",
-    "correctSentence": "Wasn't the pipeline triggered by a failed commit on Saturday?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "triggered",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "failed",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "commit",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "Saturday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Was",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "activated",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "broken",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "pipeline": "pipeline",
-      "triggered": "desencadenado",
-      "by": "por",
-      "a": "un",
-      "failed": "fallido",
-      "commit": "commit",
-      "on": "el",
-      "saturday": "sábado"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la release (el lanzamiento)",
-      "Verbo: retrasar (en voz pasiva)",
-      "Complemento: debido a vulnerabilidades críticas en la base de datos",
-      "Tiempo: el martes"
-    ],
-    "hintDisplay": "Sujeto: la release / Verbo: retrasar (en voz pasiva) / Complemento: debido a vulnerabilidades críticas en la base de datos / Tiempo: el martes",
-    "spanishSentence": "¿No fue retrasada la versión el martes debido a vulnerabilidades críticas en la base de datos?",
-    "correctSentence": "Wasn't the release delayed on Tuesday due to critical database vulnerabilities?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "release",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "delayed",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "Tuesday",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "due",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "critical",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "vulnerabilities",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "postponed",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "prevented",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "by",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "severe",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "la",
-      "release": "release",
-      "delayed": "retrasada",
-      "on": "el",
-      "tuesday": "martes",
-      "due": "debido",
-      "to": "a",
-      "critical": "críticas",
-      "database": "base de datos",
+      "should": "(condicional)",
+      "the": "(artículo)",
+      "vulnerability": "vulnerabilidad",
+      "be": "(auxiliar)",
+      "patched": "parcheada",
+      "before": "antes de",
+      "software": "software",
+      "release": "lanzamiento",
+      "could": "(condicional)",
+      "would": "(condicional)",
+      "patching": "parcheado",
+      "released": "lanzado",
+      "softwares": "software",
       "vulnerabilities": "vulnerabilidades"
     },
     "metadata": {
       "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el pipeline",
+      "Verbo: haber (auxiliar para pluscuamperfecto pasivo)",
+      "Verbo: configurar (en participio pasado)",
+      "Complemento: antes de que se activara el despliegue",
+      "Tiempo: pluscuamperfecto (acción anterior a otra acción pasada)"
+    ],
+    "hintDisplay": "Sujeto: el pipeline / Verbo: haber (auxiliar para pluscuamperfecto pasivo) / Verbo: configurar (en participio pasado) / Complemento: antes de que se activara el despliegue / Tiempo: pluscuamperfecto (acción anterior a otra acción pasada)",
+    "spanishSentence": "¿Había sido configurado el pipeline antes de que se activara el despliegue?",
+    "correctSentence": "Had the pipeline been configured before the deployment was triggered?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Had",
+        "isDistractor": false,
+        "translation": "(auxiliar de pasado perfecto)"
+      },
+      {
+        "id": "d3",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c3",
+        "text": "pipeline",
+        "isDistractor": false,
+        "translation": "pipeline"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c10",
+        "text": "triggered",
+        "isDistractor": false,
+        "translation": "activado"
+      },
+      {
+        "id": "c4",
+        "text": "been",
+        "isDistractor": false,
+        "translation": "sido"
+      },
+      {
+        "id": "c5",
+        "text": "configured",
+        "isDistractor": false,
+        "translation": "configurado"
+      },
+      {
+        "id": "d5",
+        "text": "Configure",
+        "isDistractor": true,
+        "translation": "configurar"
+      },
+      {
+        "id": "c6",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "Have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "d2",
+        "text": "Being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "d4",
+        "text": "Activate",
+        "isDistractor": true,
+        "translation": "activar"
+      },
+      {
+        "id": "c8",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      },
+      {
+        "id": "c9",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "(auxiliar de pasado)"
+      }
+    ],
+    "translations": {
+      "had": "(auxiliar de pasado perfecto)",
+      "the": "(artículo)",
+      "pipeline": "pipeline",
+      "been": "sido",
+      "configured": "configurado",
+      "before": "antes de",
+      "deployment": "despliegue",
+      "was": "(auxiliar de pasado)",
+      "triggered": "activado",
+      "have": "haber",
+      "being": "siendo",
+      "would": "(condicional)",
+      "activate": "activar",
+      "configure": "configurar"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el servidor",
+      "Verbo: ser (voz pasiva con 'to be')",
+      "Complemento: configurado con los últimos parches de seguridad",
+      "Tiempo: cada mes"
+    ],
+    "hintDisplay": "Sujeto: el servidor / Verbo: ser (voz pasiva con 'to be') / Complemento: configurado con los últimos parches de seguridad / Tiempo: cada mes",
+    "spanishSentence": "¿Es configurado el servidor con los últimos parches de seguridad cada mes?",
+    "correctSentence": "Is the server configured with the latest security patches every month?",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "month",
+        "isDistractor": false,
+        "translation": "mes"
+      },
+      {
+        "id": "d4",
+        "text": "Being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "d2",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "configured",
+        "isDistractor": false,
+        "translation": "configurado"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c3",
+        "text": "server",
+        "isDistractor": false,
+        "translation": "servidor"
+      },
+      {
+        "id": "d1",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c5",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d6",
+        "text": "Monthly",
+        "isDistractor": true,
+        "translation": "mensualmente"
+      },
+      {
+        "id": "d5",
+        "text": "Configure",
+        "isDistractor": true,
+        "translation": "configurar"
+      },
+      {
+        "id": "c10",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c9",
+        "text": "patches",
+        "isDistractor": false,
+        "translation": "parches"
+      },
+      {
+        "id": "d3",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c8",
+        "text": "security",
+        "isDistractor": false,
+        "translation": "seguridad"
+      },
+      {
+        "id": "c7",
+        "text": "latest",
+        "isDistractor": false,
+        "translation": "últimos"
+      }
+    ],
+    "translations": {
+      "is": "(auxiliar)",
+      "the": "(artículo)",
+      "server": "servidor",
+      "configured": "configurado",
+      "with": "con",
+      "latest": "últimos",
+      "security": "seguridad",
+      "patches": "parches",
+      "every": "cada",
+      "month": "mes",
+      "were": "(auxiliar)",
+      "does": "(auxiliar)",
+      "has": "(auxiliar)",
+      "being": "siendo",
+      "configure": "configurar",
+      "monthly": "mensualmente"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el pipeline",
+      "Verbo: ser (voz pasiva, futuro negativo)",
+      "Verbo: activar (participio en voz pasiva)",
+      "Complemento: por el evento de despliegue"
+    ],
+    "hintDisplay": "Sujeto: el pipeline / Verbo: ser (voz pasiva, futuro negativo) / Verbo: activar (participio en voz pasiva) / Complemento: por el evento de despliegue",
+    "spanishSentence": "¿No va a ser activado el pipeline por el evento de despliegue?",
+    "correctSentence": "Is the pipeline not going to be triggered by the deployment event?",
+    "cards": [
+      {
+        "id": "c12",
+        "text": "event",
+        "isDistractor": false,
+        "translation": "evento"
+      },
+      {
+        "id": "d5",
+        "text": "being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "c8",
+        "text": "triggered",
+        "isDistractor": false,
+        "translation": "activado"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "events",
+        "isDistractor": true,
+        "translation": "eventos"
+      },
+      {
+        "id": "c9",
+        "text": "by",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d4",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "ser"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "va"
+      },
+      {
+        "id": "c11",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "d1",
+        "text": "deploy",
+        "isDistractor": true,
+        "translation": "desplegar"
+      },
+      {
+        "id": "c3",
+        "text": "pipeline",
+        "isDistractor": false,
+        "translation": "pipeline"
+      },
+      {
+        "id": "c6",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d2",
+        "text": "activated",
+        "isDistractor": true,
+        "translation": "activado"
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      }
+    ],
+    "translations": {
+      "is": "(ser/estar)",
+      "the": "(artículo)",
+      "pipeline": "pipeline",
+      "not": "no",
+      "going": "va",
+      "to": "(marca de infinitivo)",
+      "be": "ser",
+      "triggered": "activado",
+      "by": "por",
+      "deployment": "despliegue",
+      "event": "evento",
+      "deploy": "desplegar",
+      "activated": "activado",
+      "events": "eventos",
+      "will": "(futuro)",
+      "being": "siendo"
+    },
+    "metadata": {
+      "tense": "passive voice",
       "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el servidor",
+      "Verbo: ser (auxiliar para voz pasiva)",
+      "Verbo: reiniciar (estar + gerundio para acción en progreso)",
+      "Complemento: ahora mismo (momento específico)",
+      "Complemento: para desplegar las nuevas actualizaciones (propósito)",
+      "Tiempo: ahora mismo"
+    ],
+    "hintDisplay": "Sujeto: el servidor / Verbo: ser (auxiliar para voz pasiva) / Verbo: reiniciar (estar + gerundio para acción en progreso) / Complemento: ahora mismo (momento específico) / Complemento: para desplegar las nuevas actualizaciones (propósito) / Tiempo: ahora mismo",
+    "spanishSentence": "¿Se está reiniciando el servidor ahora mismo para desplegar las nuevas actualizaciones?",
+    "correctSentence": "Is the server being restarted right now to deploy the new updates?",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevas"
+      },
+      {
+        "id": "c6",
+        "text": "right",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d2",
+        "text": "Been",
+        "isDistractor": true,
+        "translation": "sido"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c4",
+        "text": "being",
+        "isDistractor": false,
+        "translation": "(gerundio pasivo)"
+      },
+      {
+        "id": "c12",
+        "text": "updates",
+        "isDistractor": false,
+        "translation": "actualizaciones"
+      },
+      {
+        "id": "d5",
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c5",
+        "text": "restarted",
+        "isDistractor": false,
+        "translation": "reiniciado"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "Deploying",
+        "isDistractor": true,
+        "translation": "desplegando"
+      },
+      {
+        "id": "c8",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c9",
+        "text": "deploy",
+        "isDistractor": false,
+        "translation": "desplegar"
+      },
+      {
+        "id": "d6",
+        "text": "Have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c7",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "mismo"
+      },
+      {
+        "id": "d4",
+        "text": "Restart",
+        "isDistractor": true,
+        "translation": "reiniciar"
+      },
+      {
+        "id": "c3",
+        "text": "server",
+        "isDistractor": false,
+        "translation": "servidor"
+      }
+    ],
+    "translations": {
+      "is": "(presente)",
+      "the": "(artículo)",
+      "server": "servidor",
+      "being": "(gerundio pasivo)",
+      "restarted": "reiniciado",
+      "right": "ahora",
+      "now": "mismo",
+      "to": "(marca de infinitivo)",
+      "deploy": "desplegar",
+      "new": "nuevas",
+      "updates": "actualizaciones",
+      "were": "(pasado)",
+      "been": "sido",
+      "deploying": "desplegando",
+      "restart": "reiniciar",
+      "will": "(futuro)",
+      "have": "haber"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "software engineering"

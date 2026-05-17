@@ -1,108 +1,893 @@
 [
   {
     "hints": [
-      "Sujeto: la tormenta",
-      "Verbo: llover (posibilidad hipotética)",
-      "Complemento: durante toda la noche",
-      "Tiempo: condición irreal en presente/futuro"
+      "Sujeto: it (referencia a la lluvia/clima)",
+      "Verbo: rain (llover)",
+      "Tiempo: tomorrow (mañana)",
+      "Verbo: should (deber, obligación/recomendación)",
+      "Sujeto: you (tú)",
+      "Verbo: bring (traer)",
+      "Complemento: an umbrella (un paraguas)"
     ],
-    "hintDisplay": "Sujeto: la tormenta / Verbo: llover (posibilidad hipotética) / Complemento: durante toda la noche / Tiempo: condición irreal",
-    "spanishSentence": "Si fuera una tormenta severa, llovería durante toda la noche.",
-    "correctSentence": "If it were a severe storm, it would rain all night long.",
+    "hintDisplay": "Sujeto: it (referencia a la lluvia/clima) / Verbo: rain (llover) / Tiempo: tomorrow (mañana) / Verbo: should (deber, obligación/recomendación) / Sujeto: you (tú) / Verbo: bring (traer) / Complemento: an umbrella (un paraguas)",
+    "spanishSentence": "Si llegara a llover mañana, deberías traer un paraguas.",
+    "correctSentence": "If it should rain tomorrow, you should bring an umbrella.",
     "cards": [
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
+        "id": "c4",
+        "text": "rain",
+        "isDistractor": false,
+        "translation": "llover"
+      },
+      {
+        "id": "c10",
+        "text": "umbrella",
+        "isDistractor": false,
+        "translation": "paraguas"
+      },
+      {
+        "id": "c7",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c6",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
       },
       {
         "id": "c2",
         "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "ello"
       },
       {
         "id": "c5",
-        "text": "severe",
-        "isDistractor": false
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
       },
       {
-        "id": "c6",
-        "text": "storm",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "rain",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "all",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "long",
-        "isDistractor": false
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "d1",
-        "text": "was",
-        "isDistractor": true
+        "text": "rains",
+        "isDistractor": true,
+        "translation": "llueve"
+      },
+      {
+        "id": "c8",
+        "text": "bring",
+        "isDistractor": false,
+        "translation": "traer"
       },
       {
         "id": "d2",
-        "text": "rains",
-        "isDistractor": true
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
       {
         "id": "d3",
-        "text": "the",
-        "isDistractor": true
+        "text": "might",
+        "isDistractor": true,
+        "translation": "(posibilidad)"
+      },
+      {
+        "id": "c3",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "(condicional)"
       },
       {
         "id": "d4",
-        "text": "throughout",
-        "isDistractor": true
+        "text": "brings",
+        "isDistractor": true,
+        "translation": "trae"
+      },
+      {
+        "id": "c9",
+        "text": "an",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
       }
     ],
     "translations": {
       "if": "si",
-      "it": "eso/ella",
-      "were": "fuera",
-      "a": "una",
-      "severe": "severa",
-      "storm": "tormenta",
-      "would": "sería",
-      "rain": "llovería",
-      "all": "toda",
-      "night": "la noche",
-      "long": "larga"
+      "it": "ello",
+      "should": "(condicional)",
+      "rain": "llover",
+      "tomorrow": "mañana",
+      "you": "tú",
+      "bring": "traer",
+      "an": "(artículo indefinido)",
+      "umbrella": "paraguas",
+      "rains": "llueve",
+      "would": "(condicional)",
+      "might": "(posibilidad)",
+      "brings": "trae"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: meteorólogo",
+      "Verbo: ser (condicional, estructura hipotética)",
+      "Complemento: patrones climáticos",
+      "Verbo: poder (habilidad/capacidad, condicional negativo)",
+      "Complemento: reportar pronósticos inexactos"
+    ],
+    "hintDisplay": "Sujeto: meteorólogo / Verbo: ser (condicional, estructura hipotética) / Complemento: patrones climáticos / Verbo: poder (habilidad/capacidad, condicional negativo) / Complemento: reportar pronósticos inexactos",
+    "spanishSentence": "Si los patrones climáticos fueran más claros, el meteorólogo no podría reportar pronósticos inexactos.",
+    "correctSentence": "If the weather patterns were clearer, the meteorologist could not report inaccurate forecasts.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c3",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "climáticos"
+      },
+      {
+        "id": "c4",
+        "text": "patterns",
+        "isDistractor": false,
+        "translation": "patrones"
+      },
+      {
+        "id": "c13",
+        "text": "forecasts",
+        "isDistractor": false,
+        "translation": "pronósticos"
+      },
+      {
+        "id": "d2",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "puede"
+      },
+      {
+        "id": "c11",
+        "text": "report",
+        "isDistractor": false,
+        "translation": "reportar"
+      },
+      {
+        "id": "c8",
+        "text": "meteorologist",
+        "isDistractor": false,
+        "translation": "meteorólogo"
+      },
+      {
+        "id": "d4",
+        "text": "being",
+        "isDistractor": true,
+        "translation": "(gerundio)"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d5",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "d3",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c12",
+        "text": "inaccurate",
+        "isDistractor": false,
+        "translation": "inexactos"
+      },
+      {
+        "id": "c5",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c6",
+        "text": "clearer",
+        "isDistractor": false,
+        "translation": "más claros"
+      },
+      {
+        "id": "c9",
+        "text": "could",
+        "isDistractor": false,
+        "translation": "podría"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "weather": "climáticos",
+      "patterns": "patrones",
+      "were": "(condicional)",
+      "clearer": "más claros",
+      "meteorologist": "meteorólogo",
+      "could": "podría",
+      "not": "no",
+      "report": "reportar",
+      "inaccurate": "inexactos",
+      "forecasts": "pronósticos",
+      "would": "(condicional)",
+      "can": "puede",
+      "are": "(presente)",
+      "being": "(gerundio)",
+      "might": "podría"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el granjero",
+      "Verbo: llover (condicional, acción hipotética)",
+      "Complemento: tanto (en gran cantidad)",
+      "Verbo: proteger (condicional, acción hipotética)",
+      "Complemento: sus cultivos",
+      "Complemento: con coberturas de plástico"
+    ],
+    "hintDisplay": "Sujeto: el granjero / Verbo: llover (condicional, acción hipotética) / Complemento: tanto (en gran cantidad) / Verbo: proteger (condicional, acción hipotética) / Complemento: sus cultivos / Complemento: con coberturas de plástico",
+    "spanishSentence": "Si no lloviera tanto, el granjero no protegería sus cultivos con coberturas de plástico.",
+    "correctSentence": "If it didn't rain so much, the farmer would not protect his crops with plastic covers.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "rain",
+        "isDistractor": false,
+        "translation": "lluvia"
+      },
+      {
+        "id": "c5",
+        "text": "so",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c12",
+        "text": "his",
+        "isDistractor": false,
+        "translation": "su"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c14",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d3",
+        "text": "rained",
+        "isDistractor": true,
+        "translation": "llovió"
+      },
+      {
+        "id": "c13",
+        "text": "crops",
+        "isDistractor": false,
+        "translation": "cultivos"
+      },
+      {
+        "id": "c3",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(negación pasada)"
+      },
+      {
+        "id": "c9",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c16",
+        "text": "covers",
+        "isDistractor": false,
+        "translation": "coberturas"
+      },
+      {
+        "id": "c2",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "ello"
+      },
+      {
+        "id": "c6",
+        "text": "much",
+        "isDistractor": false,
+        "translation": "mucho"
+      },
+      {
+        "id": "c11",
+        "text": "protect",
+        "isDistractor": false,
+        "translation": "proteger"
+      },
+      {
+        "id": "d1",
+        "text": "rains",
+        "isDistractor": true,
+        "translation": "llueve"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c15",
+        "text": "plastic",
+        "isDistractor": false,
+        "translation": "plástico"
+      },
+      {
+        "id": "c10",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c8",
+        "text": "farmer",
+        "isDistractor": false,
+        "translation": "granjero"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "it": "ello",
+      "didn't": "(negación pasada)",
+      "rain": "lluvia",
+      "so": "tan",
+      "much": "mucho",
+      "the": "(artículo)",
+      "farmer": "granjero",
+      "would": "(condicional)",
+      "not": "no",
+      "protect": "proteger",
+      "his": "su",
+      "crops": "cultivos",
+      "with": "con",
+      "plastic": "plástico",
+      "covers": "coberturas",
+      "rains": "llueve",
+      "will": "(futuro)",
+      "rained": "llovió"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: los residentes",
+      "Verbo: quedarse (permanecer en un lugar)",
+      "Complemento: adentro",
+      "Verbo: empeorar (condicional)",
+      "Sujeto: el clima",
+      "Verbo: poder (posibilidad/capacidad)"
+    ],
+    "hintDisplay": "Sujeto: los residentes / Verbo: quedarse (permanecer en un lugar) / Complemento: adentro / Verbo: empeorar (condicional) / Sujeto: el clima / Verbo: poder (posibilidad/capacidad)",
+    "spanishSentence": "Si el clima empeorara, los residentes podrían quedarse adentro.",
+    "correctSentence": "If the weather got worse, the residents might stay inside.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "might",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d1",
+        "text": "getting",
+        "isDistractor": true,
+        "translation": "empeorando"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "residents",
+        "isDistractor": false,
+        "translation": "residentes"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c3",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "clima"
+      },
+      {
+        "id": "c10",
+        "text": "inside",
+        "isDistractor": false,
+        "translation": "adentro"
+      },
+      {
+        "id": "d5",
+        "text": "inhabitants",
+        "isDistractor": true,
+        "translation": "habitantes"
+      },
+      {
+        "id": "c4",
+        "text": "got",
+        "isDistractor": false,
+        "translation": "se volvió"
+      },
+      {
+        "id": "c9",
+        "text": "stay",
+        "isDistractor": false,
+        "translation": "quedarse"
+      },
+      {
+        "id": "d4",
+        "text": "out",
+        "isDistractor": true,
+        "translation": "afuera"
+      },
+      {
+        "id": "c5",
+        "text": "worse",
+        "isDistractor": false,
+        "translation": "peor"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d3",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "weather": "clima",
+      "got": "se volvió",
+      "worse": "peor",
+      "residents": "residentes",
+      "might": "(condicional)",
+      "stay": "quedarse",
+      "inside": "adentro",
+      "getting": "empeorando",
+      "will": "(futuro)",
+      "could": "(condicional)",
+      "out": "afuera",
+      "inhabitants": "habitantes"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el clima",
+      "Verbo: cambiar (condicional)",
+      "Complemento: repentinamente",
+      "Verbo: deber (condicional; obligación/recomendación)",
+      "Sujeto: yo",
+      "Verbo: preparar (infinitivo)",
+      "Complemento: un paraguas y ropa abrigada"
+    ],
+    "hintDisplay": "Sujeto: el clima / Verbo: cambiar (condicional) / Complemento: repentinamente / Verbo: deber (condicional; obligación/recomendación) / Sujeto: yo / Verbo: preparar (infinitivo) / Complemento: un paraguas y ropa abrigada",
+    "spanishSentence": "Si el clima cambiara repentinamente, yo debería preparar un paraguas y ropa abrigada.",
+    "correctSentence": "If the weather were to change suddenly, I should prepare an umbrella and warm clothes.",
+    "cards": [
+      {
+        "id": "c14",
+        "text": "warm",
+        "isDistractor": false,
+        "translation": "abrigada"
+      },
+      {
+        "id": "c12",
+        "text": "umbrella",
+        "isDistractor": false,
+        "translation": "paraguas"
+      },
+      {
+        "id": "c7",
+        "text": "suddenly",
+        "isDistractor": false,
+        "translation": "repentinamente"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d2",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
+      },
+      {
+        "id": "c11",
+        "text": "an",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c3",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "clima"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d5",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c4",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d3",
+        "text": "must",
+        "isDistractor": true,
+        "translation": "debe"
+      },
+      {
+        "id": "c10",
+        "text": "prepare",
+        "isDistractor": false,
+        "translation": "preparar"
+      },
+      {
+        "id": "c13",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "c9",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "debería"
+      },
+      {
+        "id": "d4",
+        "text": "me",
+        "isDistractor": true,
+        "translation": "me"
+      },
+      {
+        "id": "c6",
+        "text": "change",
+        "isDistractor": false,
+        "translation": "cambiar"
+      },
+      {
+        "id": "c15",
+        "text": "clothes",
+        "isDistractor": false,
+        "translation": "ropa"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "weather": "clima",
+      "were": "(condicional)",
+      "to": "(marca de infinitivo)",
+      "change": "cambiar",
+      "suddenly": "repentinamente",
+      "i": "yo",
+      "should": "debería",
+      "prepare": "preparar",
+      "an": "(artículo)",
+      "umbrella": "paraguas",
+      "and": "y",
+      "warm": "abrigada",
+      "clothes": "ropa",
+      "would": "(condicional)",
+      "had": "había",
+      "must": "debe",
+      "me": "me",
+      "could": "podría"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: todos los días (marca una condición repetida)",
+      "Verbo: llover (en condicional)",
+      "Sujeto: nosotros",
+      "Verbo: llevar (condicional)",
+      "Complemento: paraguas",
+      "Complemento: a todos lados"
+    ],
+    "hintDisplay": "Tiempo: todos los días (marca una condición repetida) / Verbo: llover (en condicional) / Sujeto: nosotros / Verbo: llevar (condicional) / Complemento: paraguas / Complemento: a todos lados",
+    "spanishSentence": "Si lloviera todos los días, nosotros llevaríamos paraguas a todos lados.",
+    "correctSentence": "If it rained every day, we would carry umbrellas everywhere we go.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c8",
+        "text": "carry",
+        "isDistractor": false,
+        "translation": "llevar"
+      },
+      {
+        "id": "d5",
+        "text": "went",
+        "isDistractor": true,
+        "translation": "fueron"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c2",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "eso"
+      },
+      {
+        "id": "c9",
+        "text": "umbrellas",
+        "isDistractor": false,
+        "translation": "paraguas"
+      },
+      {
+        "id": "c3",
+        "text": "rained",
+        "isDistractor": false,
+        "translation": "lloviera"
+      },
+      {
+        "id": "c10",
+        "text": "everywhere",
+        "isDistractor": false,
+        "translation": "a todos lados"
+      },
+      {
+        "id": "c11",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c7",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c12",
+        "text": "go",
+        "isDistractor": false,
+        "translation": "ir"
+      },
+      {
+        "id": "c6",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d4",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "deberían"
+      },
+      {
+        "id": "d1",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c4",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c5",
+        "text": "day",
+        "isDistractor": false,
+        "translation": "día"
+      },
+      {
+        "id": "d2",
+        "text": "rains",
+        "isDistractor": true,
+        "translation": "llueve"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "it": "eso",
+      "rained": "lloviera",
+      "every": "cada",
+      "day": "día",
+      "we": "nosotros",
+      "would": "(condicional)",
+      "carry": "llevar",
+      "umbrellas": "paraguas",
+      "everywhere": "a todos lados",
+      "go": "ir",
+      "will": "(futuro)",
+      "rains": "llueve",
+      "they": "ellos",
+      "should": "deberían",
+      "went": "fueron"
     },
     "metadata": {
       "tense": "second conditional",
@@ -115,321 +900,897 @@
   {
     "hints": [
       "Sujeto: yo",
-      "Verbo: traer (posibilidad/segundo condicional)",
-      "Complemento: un paraguas",
-      "Tiempo: si estuviera nublado"
+      "Verbo: ser (condicional negativo)",
+      "Complemento: meteorólogo",
+      "Verbo: poder (condicional, habilidad)",
+      "Verbo: pronosticar (infinitivo)",
+      "Complemento: el clima",
+      "Complemento: con precisión",
+      "Tiempo: durante las tormentas"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: traer (posibilidad/segundo condicional) / Complemento: un paraguas / Tiempo: si estuviera nublado",
-    "spanishSentence": "Si estuviera nublado, yo traería un paraguas.",
-    "correctSentence": "If it were cloudy, I would bring an umbrella.",
+    "hintDisplay": "Sujeto: yo / Verbo: ser (condicional negativo) / Complemento: meteorólogo / Verbo: poder (condicional, habilidad) / Verbo: pronosticar (infinitivo) / Complemento: el clima / Complemento: con precisión / Tiempo: durante las tormentas",
+    "spanishSentence": "Si no fuera meteorólogo, no podría pronosticar el clima con precisión durante las tormentas.",
+    "correctSentence": "If I weren't a meteorologist, I could not forecast the weather accurately during storms.",
     "cards": [
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
+        "id": "d4",
+        "text": "being",
+        "isDistractor": true,
+        "translation": "siendo"
       },
       {
-        "id": "c2",
-        "text": "it",
-        "isDistractor": false
+        "id": "c11",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "clima"
       },
       {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false
+        "id": "c14",
+        "text": "storms",
+        "isDistractor": false,
+        "translation": "tormentas"
       },
       {
-        "id": "c4",
-        "text": "cloudy",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "bring",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "an",
-        "isDistractor": false
+        "id": "d3",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "puedo"
       },
       {
         "id": "c9",
-        "text": "umbrella",
-        "isDistractor": false
+        "text": "forecast",
+        "isDistractor": false,
+        "translation": "pronosticar"
+      },
+      {
+        "id": "c6",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c8",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c5",
+        "text": "meteorologist",
+        "isDistractor": false,
+        "translation": "meteorólogo"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c13",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c12",
+        "text": "accurately",
+        "isDistractor": false,
+        "translation": "con precisión"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "weren't",
+        "isDistractor": false,
+        "translation": "no fuera"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "could",
+        "isDistractor": false,
+        "translation": "podría"
       },
       {
         "id": "d1",
         "text": "would",
         "isDistractor": true,
-        "translation": "traería"
+        "translation": "(condicional)"
       },
       {
         "id": "d2",
-        "text": "have",
-        "isDistractor": true
+        "text": "am",
+        "isDistractor": true,
+        "translation": "soy"
       },
       {
-        "id": "d3",
-        "text": "rainy",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "brought",
-        "isDistractor": true
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       }
     ],
     "translations": {
       "if": "si",
-      "it": "estuviera",
-      "were": "fuera",
-      "cloudy": "nublado",
       "i": "yo",
-      "would": "traería",
-      "bring": "traer",
-      "an": "un",
-      "umbrella": "paraguas"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el cielo",
-      "Verbo: despejarse (aclarar)",
-      "Complemento: durante el fin de semana",
-      "Tiempo: durante el fin de semana"
-    ],
-    "hintDisplay": "Sujeto: el cielo / Verbo: despejarse (aclarar) / Complemento: durante el fin de semana / Tiempo: durante el fin de semana",
-    "spanishSentence": "Si la humedad bajara, el cielo se despejaría durante el fin de semana",
-    "correctSentence": "If the humidity dropped, the sky would clear up during the weekend.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "humidity",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "dropped",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "sky",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "clear",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "up",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "weekend",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "falls",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "brighten",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "throughout",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la/los/las",
-      "humidity": "humedad",
-      "dropped": "bajara",
-      "sky": "cielo",
-      "would": "habría/sería",
-      "clear": "despejar",
-      "up": "arriba",
-      "during": "durante",
-      "weekend": "fin de semana"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el cielo",
-      "Verbo: no estar nublado (negación con second conditional)",
-      "Complemento: durante el pronóstico",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: el cielo / Verbo: no estar nublado (negación con second conditional) / Complemento: durante el pronóstico / Tiempo: mañana",
-    "spanishSentence": "Si no hubiera humedad, el cielo no estaría nublado mañana.",
-    "correctSentence": "If there were no humidity, the sky would not be cloudy tomorrow.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "no",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "humidity",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "sky",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "cloudy",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "some",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "sunny",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "is",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "there": "hubiera",
-      "were": "fuera",
-      "no": "ninguna",
-      "humidity": "humedad",
-      "the": "el",
-      "sky": "cielo",
-      "would": "estaría",
+      "weren't": "no fuera",
+      "a": "(artículo)",
+      "meteorologist": "meteorólogo",
+      "could": "podría",
       "not": "no",
-      "be": "estar",
-      "cloudy": "nublado",
-      "tomorrow": "mañana"
+      "forecast": "pronosticar",
+      "the": "(artículo)",
+      "weather": "clima",
+      "accurately": "con precisión",
+      "during": "durante",
+      "storms": "tormentas",
+      "would": "(condicional)",
+      "am": "soy",
+      "can": "puedo",
+      "being": "siendo"
     },
     "metadata": {
       "tense": "second conditional",
       "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el agricultor",
+      "Verbo: ser (condicional)",
+      "Complemento: el clima soleado",
+      "Verbo: poder (condicional)",
+      "Complemento: cosechar las cosechas",
+      "Complemento: sin ningún retraso",
+      "Tiempo: mañana"
+    ],
+    "hintDisplay": "Sujeto: el agricultor / Verbo: ser (condicional) / Complemento: el clima soleado / Verbo: poder (condicional) / Complemento: cosechar las cosechas / Complemento: sin ningún retraso / Tiempo: mañana",
+    "spanishSentence": "Si el clima fuera soleado mañana, el agricultor podría cosechar las cosechas sin ningún retraso.",
+    "correctSentence": "If the weather were sunny tomorrow, the farmer could harvest the crops without any delay.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "sunny",
+        "isDistractor": false,
+        "translation": "soleado"
+      },
+      {
+        "id": "c8",
+        "text": "farmer",
+        "isDistractor": false,
+        "translation": "agricultor"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d4",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "d3",
+        "text": "harvested",
+        "isDistractor": true,
+        "translation": "cosechado"
+      },
+      {
+        "id": "c4",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c13",
+        "text": "without",
+        "isDistractor": false,
+        "translation": "sin"
+      },
+      {
+        "id": "c9",
+        "text": "could",
+        "isDistractor": false,
+        "translation": "podría"
+      },
+      {
+        "id": "d5",
+        "text": "could've",
+        "isDistractor": true,
+        "translation": "podría haber"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
+        "text": "crops",
+        "isDistractor": false,
+        "translation": "cosechas"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c14",
+        "text": "any",
+        "isDistractor": false,
+        "translation": "ningún"
+      },
+      {
+        "id": "c10",
+        "text": "harvest",
+        "isDistractor": false,
+        "translation": "cosechar"
+      },
+      {
+        "id": "c15",
+        "text": "delay",
+        "isDistractor": false,
+        "translation": "retraso"
+      },
+      {
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "es/está"
+      },
+      {
+        "id": "c3",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "clima"
+      },
+      {
+        "id": "c6",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "weather": "clima",
+      "were": "(condicional)",
+      "sunny": "soleado",
+      "tomorrow": "mañana",
+      "farmer": "agricultor",
+      "could": "podría",
+      "harvest": "cosechar",
+      "crops": "cosechas",
+      "without": "sin",
+      "any": "ningún",
+      "delay": "retraso",
+      "is": "es/está",
+      "will": "(futuro)",
+      "harvested": "cosechado",
+      "him": "lo",
+      "could've": "podría haber"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: mañana",
+      "Sujeto: nosotros",
+      "Verbo: nevar (en condicional, expresando hipótesis)",
+      "Verbo: preparar (en condicional negativo)",
+      "Complemento: equipo de playa"
+    ],
+    "hintDisplay": "Tiempo: mañana / Sujeto: nosotros / Verbo: nevar (en condicional, expresando hipótesis) / Verbo: preparar (en condicional negativo) / Complemento: equipo de playa",
+    "spanishSentence": "Si nevara mañana, nosotros no prepararíamos nuestro equipo de playa.",
+    "correctSentence": "If it snowed tomorrow, we would not prepare our beach equipment.",
+    "cards": [
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c6",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c8",
+        "text": "prepare",
+        "isDistractor": false,
+        "translation": "preparar"
+      },
+      {
+        "id": "c2",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "esto/ello"
+      },
+      {
+        "id": "c3",
+        "text": "snowed",
+        "isDistractor": false,
+        "translation": "nevara"
+      },
+      {
+        "id": "c7",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d4",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había/hubiera"
+      },
+      {
+        "id": "c9",
+        "text": "our",
+        "isDistractor": false,
+        "translation": "nuestro"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c4",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c5",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c11",
+        "text": "equipment",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "d1",
+        "text": "snows",
+        "isDistractor": true,
+        "translation": "nieva"
+      },
+      {
+        "id": "c10",
+        "text": "beach",
+        "isDistractor": false,
+        "translation": "playa"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "it": "esto/ello",
+      "snowed": "nevara",
+      "tomorrow": "mañana",
+      "we": "nosotros",
+      "would": "(condicional)",
+      "not": "no",
+      "prepare": "preparar",
+      "our": "nuestro",
+      "beach": "playa",
+      "equipment": "equipo",
+      "snows": "nieva",
+      "will": "(futuro)",
+      "they": "ellos",
+      "had": "había/hubiera"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: mañana (marcador temporal que indica futuro hipotético)",
+      "Sujeto: yo",
+      "Verbo: ser (condicional, expresando condición hipotética)",
+      "Complemento: soleado",
+      "Verbo: vestir (condicional, acción que resultaría de la condición)",
+      "Complemento: con ropa ligera"
+    ],
+    "hintDisplay": "Tiempo: mañana (marcador temporal que indica futuro hipotético) / Sujeto: yo / Verbo: ser (condicional, expresando condición hipotética) / Complemento: soleado / Verbo: vestir (condicional, acción que resultaría de la condición) / Complemento: con ropa ligera",
+    "spanishSentence": "Si fuera soleado mañana, yo me vestiría con ropa ligera.",
+    "correctSentence": "If it were sunny tomorrow, I would dress in light clothes.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "fuera"
+      },
+      {
+        "id": "d3",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "es/está"
+      },
+      {
+        "id": "c9",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d1",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c10",
+        "text": "light",
+        "isDistractor": false,
+        "translation": "ligera"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c8",
+        "text": "dress",
+        "isDistractor": false,
+        "translation": "vestir"
+      },
+      {
+        "id": "c6",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c4",
+        "text": "sunny",
+        "isDistractor": false,
+        "translation": "soleado"
+      },
+      {
+        "id": "d2",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "soy/estoy"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c11",
+        "text": "clothes",
+        "isDistractor": false,
+        "translation": "ropa"
+      },
+      {
+        "id": "d5",
+        "text": "dressing",
+        "isDistractor": true,
+        "translation": "vistiendo"
+      },
+      {
+        "id": "c2",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "ello"
+      },
+      {
+        "id": "d4",
+        "text": "be",
+        "isDistractor": true,
+        "translation": "ser/estar"
+      },
+      {
+        "id": "c5",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "it": "ello",
+      "were": "fuera",
+      "sunny": "soleado",
+      "tomorrow": "mañana",
+      "i": "yo",
+      "would": "(condicional)",
+      "dress": "vestir",
+      "in": "con",
+      "light": "ligera",
+      "clothes": "ropa",
+      "will": "(futuro)",
+      "am": "soy/estoy",
+      "is": "es/está",
+      "be": "ser/estar",
+      "dressing": "vistiendo"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: It (el clima)",
+      "Verbo: clear up (despejarse, mejorar)",
+      "Tiempo: Condicional (si ocurriera)",
+      "Sujeto: I (yo)",
+      "Verbo: travel (viajar)",
+      "Complemento: the world (por el mundo)"
+    ],
+    "hintDisplay": "Sujeto: It (el clima) / Verbo: clear up (despejarse, mejorar) / Tiempo: Condicional (si ocurriera) / Sujeto: I (yo) / Verbo: travel (viajar) / Complemento: the world (por el mundo)",
+    "spanishSentence": "Si el clima mejorara, viajaría por el mundo.",
+    "correctSentence": "If it cleared up, I would travel the world.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "travel",
+        "isDistractor": false,
+        "translation": "viajar"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d4",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c5",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c4",
+        "text": "up",
+        "isDistractor": false,
+        "translation": "arriba"
+      },
+      {
+        "id": "c9",
+        "text": "world",
+        "isDistractor": false,
+        "translation": "mundo"
+      },
+      {
+        "id": "c2",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "él/ello"
+      },
+      {
+        "id": "c6",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d1",
+        "text": "clears",
+        "isDistractor": true,
+        "translation": "despeja"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d2",
+        "text": "travels",
+        "isDistractor": true,
+        "translation": "viaja"
+      },
+      {
+        "id": "d3",
+        "text": "clearing",
+        "isDistractor": true,
+        "translation": "despejando"
+      },
+      {
+        "id": "c3",
+        "text": "cleared",
+        "isDistractor": false,
+        "translation": "despejara"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "it": "él/ello",
+      "cleared": "despejara",
+      "up": "arriba",
+      "i": "yo",
+      "would": "(condicional)",
+      "travel": "viajar",
+      "the": "(artículo)",
+      "world": "mundo",
+      "clears": "despeja",
+      "travels": "viaja",
+      "clearing": "despejando",
+      "might": "podría"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el huracán",
+      "Verbo: acercarse (condicional, acción hipotética)",
+      "Complemento: a la costa",
+      "Sujeto: los residentes",
+      "Verbo: poder (modal, indicando posibilidad)",
+      "Verbo: evacuar (acción principal)",
+      "Complemento: el área",
+      "Complemento: debido a condiciones climáticas severas (razón/causa)"
+    ],
+    "hintDisplay": "Sujeto: el huracán / Verbo: acercarse (condicional, acción hipotética) / Complemento: a la costa / Sujeto: los residentes / Verbo: poder (modal, indicando posibilidad) / Verbo: evacuar (acción principal) / Complemento: el área / Complemento: debido a condiciones climáticas severas (razón/causa)",
+    "spanishSentence": "Si el huracán se acercara a la costa, los residentes podrían evacuar el área debido a condiciones climáticas severas.",
+    "correctSentence": "If the hurricane approached the coast, the residents might evacuate the area due to severe weather conditions.",
+    "cards": [
+      {
+        "id": "c15",
+        "text": "severe",
+        "isDistractor": false,
+        "translation": "severas"
+      },
+      {
+        "id": "c9",
+        "text": "might",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c17",
+        "text": "conditions",
+        "isDistractor": false,
+        "translation": "condiciones"
+      },
+      {
+        "id": "d4",
+        "text": "evacuated",
+        "isDistractor": true,
+        "translation": "evacuados"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c14",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "c10",
+        "text": "evacuate",
+        "isDistractor": false,
+        "translation": "evacuar"
+      },
+      {
+        "id": "c8",
+        "text": "residents",
+        "isDistractor": false,
+        "translation": "residentes"
+      },
+      {
+        "id": "c6",
+        "text": "coast",
+        "isDistractor": false,
+        "translation": "costa"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c13",
+        "text": "due",
+        "isDistractor": false,
+        "translation": "debido"
+      },
+      {
+        "id": "c12",
+        "text": "area",
+        "isDistractor": false,
+        "translation": "área"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d1",
+        "text": "approaches",
+        "isDistractor": true,
+        "translation": "se acerca"
+      },
+      {
+        "id": "c4",
+        "text": "approached",
+        "isDistractor": false,
+        "translation": "se acercara"
+      },
+      {
+        "id": "c3",
+        "text": "hurricane",
+        "isDistractor": false,
+        "translation": "huracán"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c16",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "climáticas"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "hurricane": "huracán",
+      "approached": "se acercara",
+      "coast": "costa",
+      "residents": "residentes",
+      "might": "(condicional)",
+      "evacuate": "evacuar",
+      "area": "área",
+      "due": "debido",
+      "to": "a",
+      "severe": "severas",
+      "weather": "climáticas",
+      "conditions": "condiciones",
+      "approaches": "se acerca",
+      "would": "(condicional)",
+      "them": "los",
+      "evacuated": "evacuados"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "weather"
@@ -438,1560 +1799,135 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: nevar (segunda condicional)",
-      "Complemento: mañana durante el día",
-      "Tiempo: mañana"
+      "Verbo: estar (condición hipotética)",
+      "Complemento: lloviendo mucho",
+      "Verbo: poder (habilidad/posibilidad)",
+      "Complemento: quedarse dentro todo el día"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: nevar (segunda condicional) / Complemento: mañana durante el día / Tiempo: mañana",
-    "spanishSentence": "Si nevara mañana, nosotros cancelaríamos el evento.",
-    "correctSentence": "If it snowed tomorrow, we would cancel the event.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: estar (condición hipotética) / Complemento: lloviendo mucho / Verbo: poder (habilidad/posibilidad) / Complemento: quedarse dentro todo el día",
+    "spanishSentence": "Si estuviera lloviendo mucho, nosotros no podríamos quedarnos dentro todo el día.",
+    "correctSentence": "If it were raining heavily, we couldn't stay inside all day.",
     "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
       {
         "id": "c2",
         "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "snowed",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "cancel",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "event",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "postpone",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "rained",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "today",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "it": "nevar (impersonal)",
-      "snowed": "nevara",
-      "tomorrow": "mañana",
-      "we": "nosotros",
-      "would": "cancelaríamos (condicional)",
-      "cancel": "cancelaríamos",
-      "the": "el",
-      "event": "evento"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: (impersonal)",
-      "Verbo: inundar (condición hipotética)",
-      "Complemento: las calles de la ciudad",
-      "Tiempo: si hubiera lluvia torrencial"
-    ],
-    "hintDisplay": "Sujeto: (impersonal) / Verbo: inundar (condición hipotética) / Complemento: las calles de la ciudad / Tiempo: si hubiera lluvia torrencial",
-    "spanishSentence": "Si hubiera lluvia torrencial, inundaría las calles de la ciudad.",
-    "correctSentence": "If there were heavy rainfall, it would flood the city streets.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "heavy",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "rainfall",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "they",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "flood",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "city",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "ello"
       },
       {
         "id": "c11",
-        "text": "streets",
-        "isDistractor": false
+        "text": "day",
+        "isDistractor": false,
+        "translation": "día"
       },
       {
         "id": "d1",
-        "text": "will",
-        "isDistractor": true
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
-      {
-        "id": "d2",
-        "text": "light",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "was",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "flooding",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "there": "hubiera",
-      "were": "fuera",
-      "heavy": "torrencial",
-      "rainfall": "lluvia",
-      "would": "inundarían",
-      "flood": "inundar",
-      "the": "las",
-      "city": "ciudad",
-      "streets": "calles",
-      "it": "ello"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: salir (negación con would not)",
-      "Complemento: sin paraguas",
-      "Tiempo: si lloviera"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: salir (negación con would not) / Complemento: sin paraguas / Tiempo: si lloviera",
-    "spanishSentence": "Si lloviera, yo no saldría sin paraguas.",
-    "correctSentence": "If it rained, I would not go without an umbrella.",
-    "cards": [
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "rained",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "I",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
       },
       {
         "id": "c5",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "go",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "an",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "umbrella",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "going",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "with",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "rains",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "it": "lloviera",
-      "rained": "lloviera",
-      "i": "yo",
-      "would": "saldría",
-      "not": "no",
-      "go": "ir",
-      "without": "sin",
-      "an": "un",
-      "umbrella": "paraguas"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la temperatura",
-      "Verbo: bajar (second conditional: would + cool down)",
-      "Complemento: durante la noche",
-      "Tiempo: implícito en la situación hipotética"
-    ],
-    "hintDisplay": "Sujeto: la temperatura / Verbo: bajar (second conditional: would + cool down) / Complemento: durante la noche / Tiempo: implícito en la situación hipotética",
-    "spanishSentence": "Si el cielo estuviera nublado, la temperatura bajaría durante la noche.",
-    "correctSentence": "If the sky were cloudy, the temperature would cool down during the night.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "sky",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "cloudy",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "temperature",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "cool",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "down",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "was",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "sunny",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "breeze",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la/los/las",
-      "sky": "cielo",
-      "were": "estuviera",
-      "cloudy": "nublado",
-      "temperature": "temperatura",
-      "would": "bajaría",
-      "cool": "bajar",
-      "down": "durante",
-      "during": "durante",
-      "night": "noche"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el sol (the sun)",
-      "Verbo: brillar (condicional negativo)",
-      "Complemento: durante la tormenta",
-      "Tiempo: hipotético/no real"
-    ],
-    "hintDisplay": "Sujeto: el sol (the sun) / Verbo: brillar (condicional negativo) / Complemento: durante la tormenta / Tiempo: hipotético/no real",
-    "spanishSentence": "Si hubiera nubes densas, el sol no brillaría durante la tormenta.",
-    "correctSentence": "If there were dense clouds, the sun would not shine during the storm.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "dense",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "clouds",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "sun",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "shine",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "storm",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "thick",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "is",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "glow",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "can",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "there": "hubiera",
-      "were": "había/estuviera",
-      "dense": "densas",
-      "clouds": "nubes",
-      "would": "sería",
-      "not": "no",
-      "shine": "brillarían",
-      "during": "durante",
-      "the": "la",
-      "storm": "tormenta",
-      "sun": "sol"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: (impersonal)",
-      "Verbo: enfriar (con negación)",
-      "Complemento: sin un breeze",
-      "Tiempo: si la temperatura fuera alta"
-    ],
-    "hintDisplay": "Sujeto: (impersonal) / Verbo: enfriar (con negación) / Complemento: sin un breeze / Tiempo: si la temperatura fuera alta",
-    "spanishSentence": "Si la temperatura fuera alta, no se enfriaría sin una brisa.",
-    "correctSentence": "If the temperature were high, it would not cool down without a breeze.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "temperature",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "high",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "they",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "cool",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "down",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "breeze",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "was",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "warm",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "with",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "la",
-      "temperature": "temperatura",
-      "were": "fuera",
-      "high": "alta",
-      "would": "se",
-      "not": "no",
-      "cool": "enfriarían",
-      "down": "enfriar",
-      "without": "sin",
-      "a": "un",
-      "breeze": "breeze",
-      "it": "ello"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la temperatura (the temperature)",
-      "Verbo: enfriar (condicional)",
-      "Complemento: durante la noche",
-      "Tiempo: hipotético/futuro irreal"
-    ],
-    "hintDisplay": "Sujeto: la temperatura (the temperature) / Verbo: enfriar (condicional) / Complemento: durante la noche / Tiempo: hipotético/futuro irreal",
-    "spanishSentence": "Si hubiera una brisa fuerte, la temperatura se enfriaría durante la noche.",
-    "correctSentence": "If there were a strong breeze, the temperature would cool down during the night.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "strong",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "breeze",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "temperature",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "cool",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "down",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "was",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "warm",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "after",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "there": "hubiera",
-      "were": "fuera",
-      "a": "una",
-      "strong": "fuerte",
-      "breeze": "brisa",
-      "would": "enfriarían",
-      "cool": "enfriar",
-      "down": "bajar",
-      "the": "la",
-      "temperature": "temperatura",
-      "during": "durante",
-      "night": "noche"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la temperatura",
-      "Verbo: subir (condicional con would)",
-      "Complemento: durante la ola de calor",
-      "Tiempo: si no hubiera humedad"
-    ],
-    "hintDisplay": "Sujeto: la temperatura / Verbo: subir (condicional con would) / Complemento: durante la ola de calor / Tiempo: si no hubiera humedad",
-    "spanishSentence": "Si no hubiera humedad, la temperatura subiría durante la ola de calor",
-    "correctSentence": "If there were no humidity, the temperature would rise during the heat wave.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "no",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "humidity",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "temperature",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "rise",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "heat",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "wave",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "was",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "fall",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "some",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "there": "hubiera",
-      "were": "hubiera",
-      "no": "no",
-      "humidity": "humedad",
-      "the": "la",
-      "temperature": "temperatura",
-      "would": "subiría",
-      "rise": "subir",
-      "during": "durante",
-      "heat": "calor",
-      "wave": "ola"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: ellos (they)",
-      "Verbo: nevar (snow)",
-      "Complemento: mañana",
-      "Tiempo: mañana (future hypothetical)"
-    ],
-    "hintDisplay": "Sujeto: ellos (they) / Verbo: nevar (snow) / Complemento: mañana / Tiempo: mañana (future hypothetical)",
-    "spanishSentence": "Si nevara mañana, cancelarían el partido de fútbol.",
-    "correctSentence": "If it snowed tomorrow, they would cancel the football match.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "snowed",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "they",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "cancel",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "football",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "match",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "postpone",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "rains",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "today",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "it": "esto",
-      "snowed": "nevara",
-      "tomorrow": "mañana",
-      "they": "ellos",
-      "would": "cancelarían",
-      "cancel": "cancelar",
-      "the": "el",
-      "football": "fútbol",
-      "match": "partido"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la lluvia",
-      "Verbo: inundar (condicional irreal)",
-      "Complemento: las calles de la ciudad",
-      "Tiempo: si no hubiera drenaje adecuado (condición hipotética)"
-    ],
-    "hintDisplay": "Sujeto: la lluvia / Verbo: inundar (condicional irreal) / Complemento: las calles de la ciudad / Tiempo: si no hubiera drenaje adecuado",
-    "spanishSentence": "Si no hubiera drenaje adecuado, la lluvia inundaría las calles de la ciudad.",
-    "correctSentence": "If there were no adequate drainage, the rain would flood the city streets.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "no",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "adequate",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "drainage",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "rain",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "flood",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "city",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "streets",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "was",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "floods",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "proper",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "there": "hubiera",
-      "were": "fuera",
-      "no": "no",
-      "adequate": "adecuado",
-      "drainage": "drenaje",
-      "the": "el/la",
-      "rain": "lluvia",
-      "would": "sería",
-      "flood": "inundaría",
-      "city": "ciudad",
-      "streets": "calles"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: preocuparse (worry) — negación",
-      "Complemento: por la lluvia",
-      "Tiempo: si llevara un paraguas"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: preocuparse (worry) — negación / Complemento: por la lluvia / Tiempo: si llevara un paraguas",
-    "spanishSentence": "Si llevara un paraguas, no me preocuparía por la lluvia.",
-    "correctSentence": "If I carried an umbrella, I would not worry about the rain.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "carried",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "an",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "umbrella",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "temperature",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "rise",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "so",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "much",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "went",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "increase",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "very",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "had",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "i": "yo",
-      "carried": "llevara",
-      "an": "un",
-      "umbrella": "paraguas",
-      "the": "la",
-      "would": "sería/estaría (structure: would)",
-      "not": "no",
-      "worry": "preocuparse",
-      "about": "sobre",
-      "rain": "lluvia"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la temperatura",
-      "Verbo: subir (cambio de condición)",
-      "Complemento: durante la sequía",
-      "Tiempo: si el cielo fuera despejado"
-    ],
-    "hintDisplay": "Sujeto: la temperatura / Verbo: subir (cambio de condición) / Complemento: durante la sequía / Tiempo: si el cielo fuera despejado",
-    "spanishSentence": "Si el cielo fuera despejado, la temperatura subiría durante la sequía.",
-    "correctSentence": "If the sky were clear, the temperature would rise during the drought.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "sky",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "clear",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "temperature",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "rise",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "drought",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "was",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cloudy",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "drop",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "after",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la/los/las",
-      "sky": "cielo",
-      "were": "fuera",
-      "clear": "despejado",
-      "temperature": "temperatura",
-      "would": "sería/estaría (condicional)",
-      "rise": "subir",
-      "during": "durante",
-      "drought": "sequía"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: los lagos (the lakes)",
-      "Verbo: congelar (segunda condicional)",
-      "Complemento: en la sequía",
-      "Tiempo: si las temperaturas cayeran"
-    ],
-    "hintDisplay": "Sujeto: los lagos (the lakes) / Verbo: congelar (segunda condicional) / Complemento: en la sequía / Tiempo: si las temperaturas cayeran",
-    "spanishSentence": "Si las temperaturas cayeran, los lagos se congelarían durante el invierno.",
-    "correctSentence": "If the temperatures fell, the lakes would freeze during the winter.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "temperatures",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "fell",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "lakes",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "freeze",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "winter",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "frozen",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "rise",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "during",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la/los/las",
-      "temperatures": "temperaturas",
-      "fell": "cayeran",
-      "would": "sería/estaría",
-      "freeze": "congelar",
-      "lakes": "lagos",
-      "during": "durante",
-      "winter": "invierno"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el agua (the water)",
-      "Verbo: inundar (acción hipotética negada)",
-      "Complemento: la ciudad",
-      "Tiempo: si lloviera mucho"
-    ],
-    "hintDisplay": "Sujeto: el agua (the water) / Verbo: inundar (acción hipotética negada) / Complemento: la ciudad / Tiempo: si lloviera mucho",
-    "spanishSentence": "Si lloviera mucho, el agua inundaría las calles de la ciudad.",
-    "correctSentence": "If it rained heavily, the water would flood the city streets.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "rained",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
         "text": "heavily",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "mucho"
       },
       {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "forecast",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "not",
-        "isDistractor": false
+        "id": "d5",
+        "text": "night",
+        "isDistractor": true,
+        "translation": "noche"
       },
       {
         "id": "c9",
-        "text": "flood",
-        "isDistractor": false
+        "text": "inside",
+        "isDistractor": false,
+        "translation": "dentro"
       },
       {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
+        "id": "c7",
+        "text": "couldn't",
+        "isDistractor": false,
+        "translation": "no podríamos"
       },
       {
-        "id": "c11",
-        "text": "city",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "predicted",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true
+        "id": "c4",
+        "text": "raining",
+        "isDistractor": false,
+        "translation": "lloviendo"
       },
       {
         "id": "d3",
-        "text": "drench",
-        "isDistractor": true
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(pasado)"
       },
       {
         "id": "d4",
-        "text": "lightly",
-        "isDistractor": true
+        "text": "out",
+        "isDistractor": true,
+        "translation": "fuera"
+      },
+      {
+        "id": "c6",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d2",
+        "text": "can't",
+        "isDistractor": true,
+        "translation": "no puede"
+      },
+      {
+        "id": "c10",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todo"
+      },
+      {
+        "id": "c8",
+        "text": "stay",
+        "isDistractor": false,
+        "translation": "quedarnos"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c3",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "(condicional)"
       }
     ],
     "translations": {
       "if": "si",
-      "it": "lloviera",
-      "rained": "lloviera",
+      "it": "ello",
+      "were": "(condicional)",
+      "raining": "lloviendo",
       "heavily": "mucho",
-      "the": "el/la",
-      "would": "sería/haría",
-      "flood": "inundaría",
-      "city": "ciudad",
-      "water": "agua",
-      "streets": "calles"
+      "we": "nosotros",
+      "couldn't": "no podríamos",
+      "stay": "quedarnos",
+      "inside": "dentro",
+      "all": "todo",
+      "day": "día",
+      "would": "(condicional)",
+      "can't": "no puede",
+      "was": "(pasado)",
+      "out": "fuera",
+      "night": "noche"
     },
     "metadata": {
       "tense": "second conditional",
@@ -2003,124 +1939,284 @@
   },
   {
     "hints": [
-      "Sujeto: el sol (the sun)",
-      "Verbo: brillar (shine)",
-      "Complemento: durante toda la semana",
-      "Tiempo: en una situación hipotética"
+      "Sujeto: I (yo)",
+      "Tiempo: tomorrow (mañana)",
+      "Verbo: be (ser/estar) en condicional",
+      "Verbo: rain (llover)",
+      "Verbo: should wear (deber usar, modal)",
+      "Complemento: a waterproof jacket (una chaqueta impermeable)"
     ],
-    "hintDisplay": "Sujeto: el sol (the sun) / Verbo: brillar (shine) / Complemento: durante toda la semana / Tiempo: en una situación hipotética",
-    "spanishSentence": "Si hubiera una sequía prolongada, el sol brillaría durante toda la semana.",
-    "correctSentence": "If there were a prolonged drought, the sun would shine during the entire week.",
+    "hintDisplay": "Sujeto: I (yo) / Tiempo: tomorrow (mañana) / Verbo: be (ser/estar) en condicional / Verbo: rain (llover) / Verbo: should wear (deber usar, modal) / Complemento: a waterproof jacket (una chaqueta impermeable)",
+    "spanishSentence": "Si estuviera lloviendo mañana, debería usar una chaqueta impermeable.",
+    "correctSentence": "If it were raining tomorrow, I should wear a waterproof jacket.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "fuera"
+      },
+      {
+        "id": "c8",
+        "text": "wear",
+        "isDistractor": false,
+        "translation": "usar"
+      },
+      {
+        "id": "c4",
+        "text": "raining",
+        "isDistractor": false,
+        "translation": "lloviendo"
+      },
+      {
+        "id": "c6",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c2",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "ello"
+      },
+      {
+        "id": "c10",
+        "text": "waterproof",
+        "isDistractor": false,
+        "translation": "impermeable"
+      },
+      {
+        "id": "c11",
+        "text": "jacket",
+        "isDistractor": false,
+        "translation": "chaqueta"
+      },
+      {
+        "id": "d3",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "d2",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "(presente de ser/estar)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "debería"
+      },
+      {
+        "id": "c5",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c9",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "it": "ello",
+      "were": "fuera",
+      "raining": "lloviendo",
+      "tomorrow": "mañana",
+      "i": "yo",
+      "should": "debería",
+      "wear": "usar",
+      "a": "(artículo)",
+      "waterproof": "impermeable",
+      "jacket": "chaqueta",
+      "would": "(condicional)",
+      "am": "(presente de ser/estar)",
+      "could": "podría"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: Condicional (si + pasado subjuntivo)",
+      "Sujeto: El granjero",
+      "Verbo: Empeorar (en la condición)",
+      "Complemento: El clima",
+      "Verbo: Poder (posibilidad)",
+      "Verbo: Cubrir (acción principal)",
+      "Complemento: Sus cultivos",
+      "Complemento: Con láminas de plástico"
+    ],
+    "hintDisplay": "Tiempo: Condicional (si + pasado subjuntivo) / Sujeto: El granjero / Verbo: Empeorar (en la condición) / Complemento: El clima / Verbo: Poder (posibilidad) / Verbo: Cubrir (acción principal) / Complemento: Sus cultivos / Complemento: Con láminas de plástico",
+    "spanishSentence": "Si el clima empeorara, el granjero podría cubrir sus cultivos con láminas de plástico.",
+    "correctSentence": "If the weather got worse, the farmer might cover his crops with plastic sheets.",
     "cards": [
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
       },
       {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "prolonged",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "drought",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "sun",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "shine",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
+        "id": "d3",
+        "text": "covering",
+        "isDistractor": true,
+        "translation": "cubriendo"
       },
       {
         "id": "c13",
-        "text": "entire",
-        "isDistractor": false
+        "text": "plastic",
+        "isDistractor": false,
+        "translation": "plástico"
       },
       {
-        "id": "c14",
-        "text": "week",
-        "isDistractor": false
+        "id": "c12",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
       },
       {
-        "id": "d1",
-        "text": "was",
-        "isDistractor": true
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d2",
-        "text": "would",
-        "isDistractor": true
+        "text": "gets",
+        "isDistractor": true,
+        "translation": "se pone"
       },
       {
-        "id": "d3",
-        "text": "shine",
-        "isDistractor": true
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c4",
+        "text": "got",
+        "isDistractor": false,
+        "translation": "empeorara"
+      },
+      {
+        "id": "c10",
+        "text": "his",
+        "isDistractor": false,
+        "translation": "sus"
       },
       {
         "id": "d4",
-        "text": "throughout",
-        "isDistractor": true
+        "text": "could",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c8",
+        "text": "might",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c5",
+        "text": "worse",
+        "isDistractor": false,
+        "translation": "peor"
+      },
+      {
+        "id": "c3",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "clima"
+      },
+      {
+        "id": "c7",
+        "text": "farmer",
+        "isDistractor": false,
+        "translation": "granjero"
+      },
+      {
+        "id": "c11",
+        "text": "crops",
+        "isDistractor": false,
+        "translation": "cultivos"
+      },
+      {
+        "id": "c9",
+        "text": "cover",
+        "isDistractor": false,
+        "translation": "cubrir"
+      },
+      {
+        "id": "c14",
+        "text": "sheets",
+        "isDistractor": false,
+        "translation": "láminas"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
       }
     ],
     "translations": {
       "if": "si",
-      "there": "hubiera",
-      "were": "fuera",
-      "a": "una",
-      "prolonged": "prolongada",
-      "drought": "sequía",
-      "the": "el/la",
-      "would": "sería",
-      "shine": "brillaría",
-      "during": "durante",
-      "entire": "entera",
-      "week": "semana",
-      "sun": "sol"
+      "the": "(artículo)",
+      "weather": "clima",
+      "got": "empeorara",
+      "worse": "peor",
+      "farmer": "granjero",
+      "might": "(condicional)",
+      "cover": "cubrir",
+      "his": "sus",
+      "crops": "cultivos",
+      "with": "con",
+      "plastic": "plástico",
+      "sheets": "láminas",
+      "would": "(condicional)",
+      "gets": "se pone",
+      "covering": "cubriendo",
+      "could": "(condicional)"
     },
     "metadata": {
       "tense": "second conditional",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "weather"
@@ -2128,112 +2224,774 @@
   },
   {
     "hints": [
-      "Sujeto: la brisa (the breeze)",
-      "Verbo: aclarar (segunda condicional)",
-      "Complemento: el cielo nublado",
-      "Tiempo: mañana"
+      "Sujeto: los residentes",
+      "Verbo: acercarse (condicional, en cláusula subordinada)",
+      "Complemento: una tormenta severa",
+      "Verbo: buscar (condicional, deber + infinitivo)",
+      "Complemento: refugio",
+      "Complemento: inmediatamente (adverbio de modo)"
     ],
-    "hintDisplay": "Sujeto: la brisa (the breeze) / Verbo: aclarar (segunda condicional) / Complemento: el cielo nublado / Tiempo: mañana",
-    "spanishSentence": "Si la brisa fuera más fuerte, aclararía el cielo nublado mañana.",
-    "correctSentence": "If the breeze were stronger, it would clear the cloudy sky tomorrow.",
+    "hintDisplay": "Sujeto: los residentes / Verbo: acercarse (condicional, en cláusula subordinada) / Complemento: una tormenta severa / Verbo: buscar (condicional, deber + infinitivo) / Complemento: refugio / Complemento: inmediatamente (adverbio de modo)",
+    "spanishSentence": "Si una tormenta severa se acercara, los residentes deberían buscar refugio inmediatamente.",
+    "correctSentence": "If a severe storm were approaching, the residents should seek shelter immediately.",
     "cards": [
+      {
+        "id": "d4",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c12",
+        "text": "immediately",
+        "isDistractor": false,
+        "translation": "inmediatamente"
+      },
+      {
+        "id": "c5",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "(subjuntivo)"
+      },
+      {
+        "id": "c3",
+        "text": "severe",
+        "isDistractor": false,
+        "translation": "severa"
+      },
+      {
+        "id": "d1",
+        "text": "approaches",
+        "isDistractor": true,
+        "translation": "se acerca"
+      },
+      {
+        "id": "c11",
+        "text": "shelter",
+        "isDistractor": false,
+        "translation": "refugio"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c6",
+        "text": "approaching",
+        "isDistractor": false,
+        "translation": "acercándose"
+      },
+      {
+        "id": "c2",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indeterminado)"
+      },
+      {
+        "id": "d5",
+        "text": "sought",
+        "isDistractor": true,
+        "translation": "buscado"
+      },
+      {
+        "id": "c4",
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c9",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "deberían"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c10",
+        "text": "seek",
+        "isDistractor": false,
+        "translation": "buscar"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo determinado)"
+      },
+      {
+        "id": "c8",
+        "text": "residents",
+        "isDistractor": false,
+        "translation": "residentes"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "a": "(artículo indeterminado)",
+      "severe": "severa",
+      "storm": "tormenta",
+      "were": "(subjuntivo)",
+      "approaching": "acercándose",
+      "the": "(artículo determinado)",
+      "residents": "residentes",
+      "should": "deberían",
+      "seek": "buscar",
+      "shelter": "refugio",
+      "immediately": "inmediatamente",
+      "approaches": "se acerca",
+      "will": "(futuro)",
+      "would": "(condicional)",
+      "have": "haber",
+      "sought": "buscado"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el meteorólogo",
+      "Verbo: predecir (condicional, pasado hipotético)",
+      "Complemento: un frente frío",
+      "Verbo: poder (condicional, posibilidad)",
+      "Complemento: nevar",
+      "Tiempo: mañana"
+    ],
+    "hintDisplay": "Sujeto: el meteorólogo / Verbo: predecir (condicional, pasado hipotético) / Complemento: un frente frío / Verbo: poder (condicional, posibilidad) / Complemento: nevar / Tiempo: mañana",
+    "spanishSentence": "Si el meteorólogo predijera un frente frío, podría nevar mañana.",
+    "correctSentence": "If the meteorologist predicted a cold front, it might snow tomorrow.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "might",
+        "isDistractor": false,
+        "translation": "podría"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c3",
-        "text": "breeze",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "were",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "stronger",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "they",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "c8",
-        "text": "clear",
-        "isDistractor": false
+        "text": "it",
+        "isDistractor": false,
+        "translation": "(pronombre)"
       },
       {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
-        "id": "c10",
-        "text": "cloudy",
-        "isDistractor": false
+        "id": "c3",
+        "text": "meteorologist",
+        "isDistractor": false,
+        "translation": "meteorólogo"
       },
       {
         "id": "c11",
-        "text": "sky",
-        "isDistractor": false
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
       },
       {
-        "id": "c12",
-        "text": "tomorrow",
-        "isDistractor": false
+        "id": "c10",
+        "text": "snow",
+        "isDistractor": false,
+        "translation": "nevar"
       },
       {
         "id": "d1",
-        "text": "was",
-        "isDistractor": true
+        "text": "predicts",
+        "isDistractor": true,
+        "translation": "predice"
+      },
+      {
+        "id": "c4",
+        "text": "predicted",
+        "isDistractor": false,
+        "translation": "predijera"
+      },
+      {
+        "id": "c7",
+        "text": "front",
+        "isDistractor": false,
+        "translation": "frente"
+      },
+      {
+        "id": "c6",
+        "text": "cold",
+        "isDistractor": false,
+        "translation": "frío"
+      },
+      {
+        "id": "d5",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c5",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d3",
+        "text": "snowed",
+        "isDistractor": true,
+        "translation": "nevó"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "meteorologist": "meteorólogo",
+      "predicted": "predijera",
+      "a": "(artículo)",
+      "cold": "frío",
+      "front": "frente",
+      "it": "(pronombre)",
+      "might": "podría",
+      "snow": "nevar",
+      "tomorrow": "mañana",
+      "predicts": "predice",
+      "will": "(futuro)",
+      "snowed": "nevó",
+      "could": "podría",
+      "have": "haber"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: tomorrow (mañana)",
+      "Sujeto: it (impersonal)",
+      "Verbo: snow (nevar)",
+      "Estructura condicional: if + past simple para condición irreal",
+      "Sujeto de la cláusula principal: I (yo)",
+      "Verbo: could (poder - capacidad/posibilidad en condicional)",
+      "Verbo: build (construir)",
+      "Complemento: a snowman (un muñeco de nieve)",
+      "Complemento: in my garden (en mi jardín)"
+    ],
+    "hintDisplay": "Tiempo: tomorrow (mañana) / Sujeto: it (impersonal) / Verbo: snow (nevar) / Estructura condicional: if + past simple para condición irreal / Sujeto de la cláusula principal: I (yo) / Verbo: could (poder - capacidad/posibilidad en condicional) / Verbo: build (construir) / Complemento: a snowman (un muñeco de nieve) / Complemento: in my garden (en mi jardín)",
+    "spanishSentence": "Si nevara mañana, podría construir un muñeco de nieve en mi jardín.",
+    "correctSentence": "If it snowed tomorrow, I could build a snowman in my garden.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indeterminado)"
+      },
+      {
+        "id": "c11",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "c6",
+        "text": "could",
+        "isDistractor": false,
+        "translation": "podría"
+      },
+      {
+        "id": "d5",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c3",
+        "text": "snowed",
+        "isDistractor": false,
+        "translation": "nevara"
+      },
+      {
+        "id": "c4",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "d1",
+        "text": "snows",
+        "isDistractor": true,
+        "translation": "nieva"
+      },
+      {
+        "id": "c2",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "eso"
+      },
+      {
+        "id": "c5",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c10",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c9",
+        "text": "snowman",
+        "isDistractor": false,
+        "translation": "muñeco de nieve"
+      },
+      {
+        "id": "c12",
+        "text": "garden",
+        "isDistractor": false,
+        "translation": "jardín"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c7",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "construir"
+      },
+      {
+        "id": "d4",
+        "text": "yesterday",
+        "isDistractor": true,
+        "translation": "ayer"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "sería/estaría"
+      },
+      {
+        "id": "d2",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "poder"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "it": "eso",
+      "snowed": "nevara",
+      "tomorrow": "mañana",
+      "i": "yo",
+      "could": "podría",
+      "build": "construir",
+      "a": "(artículo indeterminado)",
+      "snowman": "muñeco de nieve",
+      "in": "en",
+      "my": "mi",
+      "garden": "jardín",
+      "snows": "nieva",
+      "can": "poder",
+      "would": "sería/estaría",
+      "yesterday": "ayer",
+      "will": "(futuro)"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el meteorólogo",
+      "Verbo: anunciar (condicional)",
+      "Complemento: una advertencia de tormenta severa",
+      "Verbo: preparar (condicional)",
+      "Complemento: tu casa",
+      "Complemento: inmediatamente"
+    ],
+    "hintDisplay": "Sujeto: el meteorólogo / Verbo: anunciar (condicional) / Complemento: una advertencia de tormenta severa / Verbo: preparar (condicional) / Complemento: tu casa / Complemento: inmediatamente",
+    "spanishSentence": "Si el meteorólogo anunciara una advertencia de tormenta severa, deberías preparar tu casa inmediatamente.",
+    "correctSentence": "If the meteorologist should announce a severe storm warning, you should prepare your home immediately.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c13",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c12",
+        "text": "prepare",
+        "isDistractor": false,
+        "translation": "preparar"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c14",
+        "text": "home",
+        "isDistractor": false,
+        "translation": "casa"
+      },
+      {
+        "id": "c7",
+        "text": "severe",
+        "isDistractor": false,
+        "translation": "severa"
+      },
+      {
+        "id": "d1",
+        "text": "announces",
+        "isDistractor": true,
+        "translation": "anuncia"
+      },
+      {
+        "id": "d4",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "(potencial)"
+      },
+      {
+        "id": "c10",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c15",
+        "text": "immediately",
+        "isDistractor": false,
+        "translation": "inmediatamente"
+      },
+      {
+        "id": "c6",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "meteorologist",
+        "isDistractor": false,
+        "translation": "meteorólogo"
+      },
+      {
+        "id": "c8",
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
+      {
+        "id": "d3",
+        "text": "his",
+        "isDistractor": true,
+        "translation": "su"
       },
       {
         "id": "d2",
         "text": "would",
         "isDistractor": true,
-        "translation": "aclaría"
+        "translation": "(condicional)"
       },
       {
-        "id": "d3",
-        "text": "have",
-        "isDistractor": true
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "d4",
-        "text": "wind",
-        "isDistractor": true
+        "id": "c9",
+        "text": "warning",
+        "isDistractor": false,
+        "translation": "advertencia"
+      },
+      {
+        "id": "c5",
+        "text": "announce",
+        "isDistractor": false,
+        "translation": "anunciar"
+      },
+      {
+        "id": "c11",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "el/la",
-      "breeze": "brisa",
-      "were": "fuera",
-      "stronger": "más fuerte",
-      "would": "aclaría",
-      "clear": "aclarar",
-      "cloudy": "nublado",
-      "sky": "cielo",
-      "tomorrow": "mañana"
+      "the": "(artículo)",
+      "meteorologist": "meteorólogo",
+      "should": "(condicional)",
+      "announce": "anunciar",
+      "a": "(artículo)",
+      "severe": "severa",
+      "storm": "tormenta",
+      "warning": "advertencia",
+      "you": "tú",
+      "prepare": "preparar",
+      "your": "tu",
+      "home": "casa",
+      "immediately": "inmediatamente",
+      "announces": "anuncia",
+      "would": "(condicional)",
+      "his": "su",
+      "could": "(potencial)"
     },
     "metadata": {
       "tense": "second conditional",
       "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: los residentes",
+      "Verbo: predecir (condicional)",
+      "Complemento: nieve",
+      "Verbo: poder (condicional, posibilidad)",
+      "Verbo: preparar (infinitivo)",
+      "Complemento: sus jardines",
+      "Tiempo: para el invierno"
+    ],
+    "hintDisplay": "Sujeto: los residentes / Verbo: predecir (condicional) / Complemento: nieve / Verbo: poder (condicional, posibilidad) / Verbo: preparar (infinitivo) / Complemento: sus jardines / Tiempo: para el invierno",
+    "spanishSentence": "Si el pronóstico del tiempo predijera nieve, los residentes podrían no preparar sus jardines para el invierno.",
+    "correctSentence": "If the weather forecast predicted snow, the residents might not prepare their gardens for winter.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "residents",
+        "isDistractor": false,
+        "translation": "residentes"
+      },
+      {
+        "id": "c10",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d5",
+        "text": "unless",
+        "isDistractor": true,
+        "translation": "a menos que"
+      },
+      {
+        "id": "c5",
+        "text": "predicted",
+        "isDistractor": false,
+        "translation": "predijera"
+      },
+      {
+        "id": "c4",
+        "text": "forecast",
+        "isDistractor": false,
+        "translation": "pronóstico"
+      },
+      {
+        "id": "d4",
+        "text": "forecasts",
+        "isDistractor": true,
+        "translation": "pronósticos"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "might",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c14",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "d2",
+        "text": "prepares",
+        "isDistractor": true,
+        "translation": "prepara"
+      },
+      {
+        "id": "c6",
+        "text": "snow",
+        "isDistractor": false,
+        "translation": "nieve"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c12",
+        "text": "their",
+        "isDistractor": false,
+        "translation": "sus"
+      },
+      {
+        "id": "c3",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "tiempo"
+      },
+      {
+        "id": "c11",
+        "text": "prepare",
+        "isDistractor": false,
+        "translation": "preparar"
+      },
+      {
+        "id": "c13",
+        "text": "gardens",
+        "isDistractor": false,
+        "translation": "jardines"
+      },
+      {
+        "id": "c15",
+        "text": "winter",
+        "isDistractor": false,
+        "translation": "invierno"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "weather": "tiempo",
+      "forecast": "pronóstico",
+      "predicted": "predijera",
+      "snow": "nieve",
+      "residents": "residentes",
+      "might": "(condicional)",
+      "not": "no",
+      "prepare": "preparar",
+      "their": "sus",
+      "gardens": "jardines",
+      "for": "para",
+      "winter": "invierno",
+      "would": "(condicional)",
+      "prepares": "prepara",
+      "them": "los",
+      "forecasts": "pronósticos",
+      "unless": "a menos que"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": true,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "weather"

@@ -1,108 +1,632 @@
 [
   {
     "hints": [
-      "Sujeto: nosotros",
-      "Verbo: conducir",
-      "Complemento: a la costa mañana",
-      "Tiempo: si el clima es bueno"
+      "Sujeto: tú (implied en la segunda parte: yo)",
+      "Verbo: reservar",
+      "Complemento: hotel",
+      "Complemento: con anticipación",
+      "Verbo: recomendar",
+      "Complemento: destino",
+      "Complemento: a otros viajeros",
+      "Estructura: condicional (si... entonces...)"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: conducir / Complemento: a la costa mañana / Tiempo: si el clima es bueno",
-    "spanishSentence": "Si el clima es bueno, nosotros conduciremos a la costa mañana.",
-    "correctSentence": "If the weather is good, we will drive to the coast tomorrow.",
+    "hintDisplay": "Sujeto: tú (implied en la segunda parte: yo) / Verbo: reservar / Complemento: hotel / Complemento: con anticipación / Verbo: recomendar / Complemento: destino / Complemento: a otros viajeros / Estructura: condicional (si... entonces...)",
+    "spanishSentence": "Si no reservas tu hotel con anticipación, no te recomendaré este destino a otros viajeros.",
+    "correctSentence": "If you don't book your hotel in advance, I won't recommend this destination to other travelers.",
     "cards": [
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c15",
+        "text": "other",
+        "isDistractor": false,
+        "translation": "otros"
+      },
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "weather",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "good",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "drive",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
       },
       {
         "id": "c11",
-        "text": "coast",
-        "isDistractor": false
+        "text": "recommend",
+        "isDistractor": false,
+        "translation": "recomendar"
       },
       {
-        "id": "c12",
-        "text": "tomorrow",
-        "isDistractor": false
+        "id": "c6",
+        "text": "hotel",
+        "isDistractor": false,
+        "translation": "hotel"
+      },
+      {
+        "id": "c3",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(negación)"
       },
       {
         "id": "d1",
-        "text": "fly",
-        "isDistractor": true
+        "text": "booked",
+        "isDistractor": true,
+        "translation": "reservado"
       },
       {
-        "id": "d2",
-        "text": "bad",
-        "isDistractor": true
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
       },
       {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true
+        "id": "c8",
+        "text": "advance",
+        "isDistractor": false,
+        "translation": "anticipación"
+      },
+      {
+        "id": "c10",
+        "text": "won't",
+        "isDistractor": false,
+        "translation": "(futuro negativo)"
+      },
+      {
+        "id": "c4",
+        "text": "book",
+        "isDistractor": false,
+        "translation": "reservar"
+      },
+      {
+        "id": "c5",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c7",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c13",
+        "text": "destination",
+        "isDistractor": false,
+        "translation": "destino"
       },
       {
         "id": "d4",
-        "text": "ocean",
-        "isDistractor": true
+        "text": "destinations",
+        "isDistractor": true,
+        "translation": "destinos"
+      },
+      {
+        "id": "c9",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c14",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "c12",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c16",
+        "text": "travelers",
+        "isDistractor": false,
+        "translation": "viajeros"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d3",
+        "text": "suggesting",
+        "isDistractor": true,
+        "translation": "sugiriendo"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "el/la",
-      "weather": "clima",
-      "is": "es",
-      "good": "bueno",
-      "we": "nosotros",
-      "will": "vamos a",
-      "drive": "conducir",
+      "you": "tú",
+      "don't": "(negación)",
+      "book": "reservar",
+      "your": "tu",
+      "hotel": "hotel",
+      "in": "con",
+      "advance": "anticipación",
+      "i": "yo",
+      "won't": "(futuro negativo)",
+      "recommend": "recomendar",
+      "this": "este",
+      "destination": "destino",
       "to": "a",
+      "other": "otros",
+      "travelers": "viajeros",
+      "booked": "reservado",
+      "would": "(condicional)",
+      "suggesting": "sugiriendo",
+      "destinations": "destinos"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: Ahorrar (en condición presente)",
+      "Complemento: Suficiente dinero",
+      "Verbo: Viajar (en futuro)",
+      "Complemento: A Japón",
+      "Tiempo: El próximo año"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: Ahorrar (en condición presente) / Complemento: Suficiente dinero / Verbo: Viajar (en futuro) / Complemento: A Japón / Tiempo: El próximo año",
+    "spanishSentence": "Si ahorro suficiente dinero, viajaré a Japón el próximo año.",
+    "correctSentence": "If I save enough money, I will travel to Japan next year.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d5",
+        "text": "traveling",
+        "isDistractor": true,
+        "translation": "viajar"
+      },
+      {
+        "id": "c6",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d3",
+        "text": "you",
+        "isDistractor": true,
+        "translation": "tú"
+      },
+      {
+        "id": "c8",
+        "text": "travel",
+        "isDistractor": false,
+        "translation": "viajar"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c3",
+        "text": "save",
+        "isDistractor": false,
+        "translation": "ahorro"
+      },
+      {
+        "id": "d1",
+        "text": "saved",
+        "isDistractor": true,
+        "translation": "ahorrado"
+      },
+      {
+        "id": "c5",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "c12",
+        "text": "year",
+        "isDistractor": false,
+        "translation": "año"
+      },
+      {
+        "id": "c7",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c11",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c10",
+        "text": "Japan",
+        "isDistractor": false,
+        "translation": "Japón"
+      },
+      {
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c4",
+        "text": "enough",
+        "isDistractor": false,
+        "translation": "suficiente"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "i": "yo",
+      "save": "ahorro",
+      "enough": "suficiente",
+      "money": "dinero",
+      "will": "(futuro)",
+      "travel": "viajar",
+      "to": "(preposición)",
+      "japan": "Japón",
+      "next": "próximo",
+      "year": "año",
+      "saved": "ahorrado",
+      "would": "(condicional)",
+      "you": "tú",
+      "have": "haber",
+      "traveling": "viajar"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: yo",
+      "Verbo: tener (posesión)",
+      "Complemento: dinero suficiente",
+      "Verbo: comer",
+      "Complemento: en los mejores restaurantes",
+      "Tiempo: durante mi viaje"
+    ],
+    "hintDisplay": "Sujeto: yo / Verbo: tener (posesión) / Complemento: dinero suficiente / Verbo: comer / Complemento: en los mejores restaurantes / Tiempo: durante mi viaje",
+    "spanishSentence": "Si tengo suficiente dinero, comeré en los mejores restaurantes durante mi viaje.",
+    "correctSentence": "If I have enough money, I will eat at the best restaurants during my trip.",
+    "cards": [
+      {
+        "id": "d5",
+        "text": "finest",
+        "isDistractor": true,
+        "translation": "más finos"
+      },
+      {
+        "id": "c3",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "tengo"
+      },
+      {
+        "id": "c4",
+        "text": "enough",
+        "isDistractor": false,
+        "translation": "suficiente"
+      },
+      {
+        "id": "c7",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c13",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "tendría"
+      },
+      {
+        "id": "c8",
+        "text": "eat",
+        "isDistractor": false,
+        "translation": "comeré"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "best",
+        "isDistractor": false,
+        "translation": "mejores"
+      },
+      {
+        "id": "d4",
+        "text": "me",
+        "isDistractor": true,
+        "translation": "me"
+      },
+      {
+        "id": "c9",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c15",
+        "text": "trip",
+        "isDistractor": false,
+        "translation": "viaje"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c6",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c14",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "d2",
+        "text": "having",
+        "isDistractor": true,
+        "translation": "teniendo"
+      },
+      {
+        "id": "c5",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d3",
+        "text": "ate",
+        "isDistractor": true,
+        "translation": "comí"
+      },
+      {
+        "id": "c12",
+        "text": "restaurants",
+        "isDistractor": false,
+        "translation": "restaurantes"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "i": "yo",
+      "have": "tengo",
+      "enough": "suficiente",
+      "money": "dinero",
+      "will": "(futuro)",
+      "eat": "comeré",
+      "at": "en",
+      "the": "(artículo)",
+      "best": "mejores",
+      "restaurants": "restaurantes",
+      "during": "durante",
+      "my": "mi",
+      "trip": "viaje",
+      "would": "tendría",
+      "having": "teniendo",
+      "ate": "comí",
+      "me": "me",
+      "finest": "más finos"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros (we)",
+      "Verbo: conducir (drive) - en condicional",
+      "Complemento: hacia la costa (to the coast)",
+      "Tiempo: mañana (tomorrow)",
+      "Verbo: llegar (arrive) - en futuro",
+      "Complemento: antes del atardecer (before sunset)"
+    ],
+    "hintDisplay": "Sujeto: nosotros (we) / Verbo: conducir (drive) - en condicional / Complemento: hacia la costa (to the coast) / Tiempo: mañana (tomorrow) / Verbo: llegar (arrive) - en futuro / Complemento: antes del atardecer (before sunset)",
+    "spanishSentence": "Si conducimos hacia la costa mañana, llegaremos antes del atardecer.",
+    "correctSentence": "If we drive to the coast tomorrow, we will arrive before sunset.",
+    "cards": [
+      {
+        "id": "d2",
+        "text": "arrives",
+        "isDistractor": true,
+        "translation": "llega"
+      },
+      {
+        "id": "c12",
+        "text": "sunset",
+        "isDistractor": false,
+        "translation": "atardecer"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d1",
+        "text": "drove",
+        "isDistractor": true,
+        "translation": "conducía"
+      },
+      {
+        "id": "d4",
+        "text": "you",
+        "isDistractor": true,
+        "translation": "tú"
+      },
+      {
+        "id": "c7",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c11",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes"
+      },
+      {
+        "id": "c10",
+        "text": "arrive",
+        "isDistractor": false,
+        "translation": "llegar"
+      },
+      {
+        "id": "d3",
+        "text": "driving",
+        "isDistractor": true,
+        "translation": "conduciendo"
+      },
+      {
+        "id": "c3",
+        "text": "drive",
+        "isDistractor": false,
+        "translation": "conducir"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "d5",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c9",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c8",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c6",
+        "text": "coast",
+        "isDistractor": false,
+        "translation": "costa"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "we": "nosotros",
+      "drive": "conducir",
+      "to": "(preposición)",
+      "the": "(artículo)",
       "coast": "costa",
-      "tomorrow": "mañana"
+      "tomorrow": "mañana",
+      "will": "(futuro)",
+      "arrive": "llegar",
+      "before": "antes",
+      "sunset": "atardecer",
+      "drove": "conducía",
+      "arrives": "llega",
+      "driving": "conduciendo",
+      "you": "tú",
+      "shall": "(futuro)"
     },
     "metadata": {
       "tense": "first conditional",
@@ -115,348 +639,162 @@
   {
     "hints": [
       "Sujeto: el turista",
-      "Verbo: comprar (acción futura después de una condición)",
-      "Complemento: souvenirs caros en el mercado"
+      "Verbo: fotografiar",
+      "Complemento: el monumento",
+      "Verbo: tener (en forma negativa, auxiliar para expresar negación)",
+      "Complemento: recuerdos de su viaje"
     ],
-    "hintDisplay": "Sujeto: el turista / Verbo: comprar (acción futura después de una condición) / Complemento: souvenirs caros en el mercado",
-    "spanishSentence": "Si el turista encuentra dinero extra, comprará souvenirs caros en el mercado.",
-    "correctSentence": "If the tourist finds extra money, he will buy expensive souvenirs in the market.",
+    "hintDisplay": "Sujeto: el turista / Verbo: fotografiar / Complemento: el monumento / Verbo: tener (en forma negativa, auxiliar para expresar negación) / Complemento: recuerdos de su viaje",
+    "spanishSentence": "Si el turista no fotografía el monumento, no tendrá ningún recuerdo de su viaje.",
+    "correctSentence": "If the tourist doesn't photograph the monument, he won't have any memories of his trip.",
     "cards": [
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
+        "id": "d4",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "debería"
       },
       {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
+        "id": "c7",
+        "text": "monument",
+        "isDistractor": false,
+        "translation": "monumento"
       },
       {
         "id": "c3",
         "text": "tourist",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "finds",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "extra",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "buy",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "souvenirs",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "market",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "discovers",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "turista"
       },
       {
         "id": "d2",
-        "text": "shall",
-        "isDistractor": true
+        "text": "takes",
+        "isDistractor": true,
+        "translation": "toma"
       },
-      {
-        "id": "d3",
-        "text": "purchase",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el / la",
-      "tourist": "turista",
-      "finds": "encuentra",
-      "extra": "extra",
-      "money": "dinero",
-      "he": "él",
-      "will": "va a / irá",
-      "buy": "comprar",
-      "expensive": "caros",
-      "souvenirs": "souvenirs",
-      "in": "en",
-      "market": "mercado"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: visitar (acción futura condicional)",
-      "Complemento: un país nuevo en América del Sur"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: visitar (acción futura condicional) / Complemento: un país nuevo en América del Sur",
-    "spanishSentence": "Si ahorramos dinero, visitaremos un país nuevo en América del Sur.",
-    "correctSentence": "If we save money, we will visit a new country in South America.",
-    "cards": [
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
       },
       {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "save",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "visit",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "country",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "South",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "America",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "spend",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "explore",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "old",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "save": "ahorrar",
-      "money": "dinero",
-      "will": "iremos a",
-      "visit": "visitar",
-      "a": "un",
-      "new": "nuevo",
-      "country": "país",
-      "in": "en",
-      "south": "sur",
-      "america": "américa"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el pasajero",
-      "Verbo: abordar (acción futura condicional)",
-      "Complemento: el vuelo a tiempo"
-    ],
-    "hintDisplay": "Sujeto: el pasajero / Verbo: abordar (acción futura condicional) / Complemento: el vuelo a tiempo",
-    "spanishSentence": "Si el pasajero no llega a tiempo, no abordará el vuelo.",
-    "correctSentence": "If the passenger doesn't arrive on time, he won't board the flight.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "passenger",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "doesn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "arrive",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "time",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "he",
-        "isDistractor": false
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "c9",
         "text": "won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "board",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(futuro negativo)"
       },
       {
         "id": "c12",
-        "text": "flight",
-        "isDistractor": false
+        "text": "memories",
+        "isDistractor": false,
+        "translation": "recuerdos"
       },
       {
-        "id": "d1",
-        "text": "boards",
-        "isDistractor": true
+        "id": "c14",
+        "text": "his",
+        "isDistractor": false,
+        "translation": "su"
       },
       {
-        "id": "d2",
-        "text": "will",
-        "isDistractor": true
+        "id": "d5",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c15",
+        "text": "trip",
+        "isDistractor": false,
+        "translation": "viaje"
+      },
+      {
+        "id": "c5",
+        "text": "photograph",
+        "isDistractor": false,
+        "translation": "fotografía"
+      },
+      {
+        "id": "c8",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "c11",
+        "text": "any",
+        "isDistractor": false,
+        "translation": "ningún"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d3",
-        "text": "arrives",
-        "isDistractor": true
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
       },
       {
-        "id": "d4",
-        "text": "early",
-        "isDistractor": true
+        "id": "d1",
+        "text": "photographs",
+        "isDistractor": true,
+        "translation": "fotografía"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "tener"
+      },
+      {
+        "id": "c13",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c4",
+        "text": "doesn't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "el",
-      "passenger": "pasajero",
-      "doesnt": "no",
-      "arrive": "llega",
-      "on": "a",
-      "time": "tiempo",
-      "he": "no",
-      "wont": "abordará",
-      "board": "abordará",
-      "flight": "vuelo"
+      "the": "(artículo)",
+      "tourist": "turista",
+      "doesn't": "(auxiliar)",
+      "photograph": "fotografía",
+      "monument": "monumento",
+      "he": "él",
+      "won't": "(futuro negativo)",
+      "have": "tener",
+      "any": "ningún",
+      "memories": "recuerdos",
+      "of": "de",
+      "his": "su",
+      "trip": "viaje",
+      "photographs": "fotografía",
+      "takes": "toma",
+      "them": "los",
+      "should": "debería",
+      "could": "podría"
     },
     "metadata": {
       "tense": "first conditional",
@@ -469,1808 +807,2470 @@
   {
     "hints": [
       "Sujeto: el piloto",
-      "Verbo: preparar (acción futura condicional)",
-      "Complemento: el avión cuidadosamente"
+      "Verbo: volar (condicional - acción futura dependiente de una condición)",
+      "Complemento: a París",
+      "Tiempo: el próximo mes",
+      "Sujeto: los pasajeros",
+      "Verbo: disfrutar (futuro simple - resultado de la condición)",
+      "Complemento: de una maravillosa experiencia europea"
     ],
-    "hintDisplay": "Sujeto: el piloto / Verbo: preparar (acción futura condicional) / Complemento: el avión cuidadosamente",
-    "spanishSentence": "Si hay tormenta, el piloto preparará el avión cuidadosamente.",
-    "correctSentence": "If there is a storm, the pilot will prepare the plane carefully.",
+    "hintDisplay": "Sujeto: el piloto / Verbo: volar (condicional - acción futura dependiente de una condición) / Complemento: a París / Tiempo: el próximo mes / Sujeto: los pasajeros / Verbo: disfrutar (futuro simple - resultado de la condición) / Complemento: de una maravillosa experiencia europea",
+    "spanishSentence": "Si el piloto vuela a París el próximo mes, los pasajeros disfrutarán de una maravillosa experiencia europea.",
+    "correctSentence": "If the pilot flies to Paris next month, the passengers will enjoy a wonderful European experience.",
+    "cards": [
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c11",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c12",
+        "text": "enjoy",
+        "isDistractor": false,
+        "translation": "disfrutar"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c8",
+        "text": "month",
+        "isDistractor": false,
+        "translation": "mes"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d5",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d1",
+        "text": "flew",
+        "isDistractor": true,
+        "translation": "voló"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c13",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "pilot",
+        "isDistractor": false,
+        "translation": "piloto"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c4",
+        "text": "flies",
+        "isDistractor": false,
+        "translation": "vuela"
+      },
+      {
+        "id": "c6",
+        "text": "Paris",
+        "isDistractor": false,
+        "translation": "París"
+      },
+      {
+        "id": "c10",
+        "text": "passengers",
+        "isDistractor": false,
+        "translation": "pasajeros"
+      },
+      {
+        "id": "c7",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c14",
+        "text": "wonderful",
+        "isDistractor": false,
+        "translation": "maravillosa"
+      },
+      {
+        "id": "d4",
+        "text": "flying",
+        "isDistractor": true,
+        "translation": "volando"
+      },
+      {
+        "id": "c16",
+        "text": "experience",
+        "isDistractor": false,
+        "translation": "experiencia"
+      },
+      {
+        "id": "c15",
+        "text": "European",
+        "isDistractor": false,
+        "translation": "europea"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "pilot": "piloto",
+      "flies": "vuela",
+      "to": "(preposición)",
+      "paris": "París",
+      "next": "próximo",
+      "month": "mes",
+      "passengers": "pasajeros",
+      "will": "(futuro)",
+      "enjoy": "disfrutar",
+      "a": "(artículo)",
+      "wonderful": "maravillosa",
+      "european": "europea",
+      "experience": "experiencia",
+      "flew": "voló",
+      "would": "(condicional)",
+      "him": "lo",
+      "flying": "volando",
+      "shall": "(futuro)"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: reservar (condicional negativo)",
+      "Complemento: sus vuelos con anticipación",
+      "Verbo: viajar (futuro negativo)",
+      "Complemento: a Europa",
+      "Tiempo: el próximo verano"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: reservar (condicional negativo) / Complemento: sus vuelos con anticipación / Verbo: viajar (futuro negativo) / Complemento: a Europa / Tiempo: el próximo verano",
+    "spanishSentence": "Si ellos no reservan sus vuelos con anticipación, no viajarán a Europa el próximo verano.",
+    "correctSentence": "If they don't book their flights in advance, they won't travel to Europe next summer.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(negación)"
+      },
+      {
+        "id": "c6",
+        "text": "flights",
+        "isDistractor": false,
+        "translation": "vuelos"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c13",
+        "text": "Europe",
+        "isDistractor": false,
+        "translation": "Europa"
+      },
+      {
+        "id": "c11",
+        "text": "travel",
+        "isDistractor": false,
+        "translation": "viajarán"
+      },
+      {
+        "id": "c15",
+        "text": "summer",
+        "isDistractor": false,
+        "translation": "verano"
+      },
+      {
+        "id": "d2",
+        "text": "travels",
+        "isDistractor": true,
+        "translation": "viaja"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d1",
+        "text": "booked",
+        "isDistractor": true,
+        "translation": "reservados"
+      },
+      {
+        "id": "c9",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c7",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c8",
+        "text": "advance",
+        "isDistractor": false,
+        "translation": "anticipación"
+      },
+      {
+        "id": "c5",
+        "text": "their",
+        "isDistractor": false,
+        "translation": "sus"
+      },
+      {
+        "id": "c14",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c4",
+        "text": "book",
+        "isDistractor": false,
+        "translation": "reservan"
+      },
+      {
+        "id": "c10",
+        "text": "won't",
+        "isDistractor": false,
+        "translation": "(futuro negativo)"
+      },
+      {
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d4",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "they": "ellos",
+      "don't": "(negación)",
+      "book": "reservan",
+      "their": "sus",
+      "flights": "vuelos",
+      "in": "con",
+      "advance": "anticipación",
+      "won't": "(futuro negativo)",
+      "travel": "viajarán",
+      "to": "(preposición)",
+      "europe": "Europa",
+      "next": "próximo",
+      "summer": "verano",
+      "booked": "reservados",
+      "travels": "viaja",
+      "would": "(condicional)",
+      "him": "le"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú (you)",
+      "Verbo: escuchar (listen)",
+      "Complemento: a mí con atención (to me carefully)",
+      "Verbo: poder (can/will be able to - habilidad/capacidad)",
+      "Verbo: explicar (explain)",
+      "Complemento: el significado histórico de este monumento (the historical significance of this monument)",
+      "Complemento: durante nuestro viaje (during our travel)",
+      "Estructura: condicional negativo (If... not..., won't be able to...)"
+    ],
+    "hintDisplay": "Sujeto: tú (you) / Verbo: escuchar (listen) / Complemento: a mí con atención (to me carefully) / Verbo: poder (can/will be able to - habilidad/capacidad) / Verbo: explicar (explain) / Complemento: el significado histórico de este monumento (the historical significance of this monument) / Complemento: durante nuestro viaje (during our travel) / Estructura: condicional negativo (If... not..., won't be able to...)",
+    "spanishSentence": "Si no me escuchas atentamente, no podré explicar el significado histórico de este monumento durante nuestro viaje.",
+    "correctSentence": "If you don't listen to me carefully, I won't be able to explain the historical significance of this monument during our travel.",
     "cards": [
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c19",
+        "text": "monument",
+        "isDistractor": false,
+        "translation": "monumento"
+      },
+      {
+        "id": "c6",
+        "text": "me",
+        "isDistractor": false,
+        "translation": "me"
+      },
+      {
+        "id": "c22",
+        "text": "travel",
+        "isDistractor": false,
+        "translation": "viaje"
+      },
+      {
+        "id": "c16",
+        "text": "significance",
+        "isDistractor": false,
+        "translation": "significado"
+      },
+      {
+        "id": "c13",
+        "text": "explain",
+        "isDistractor": false,
+        "translation": "explicar"
+      },
+      {
+        "id": "c7",
+        "text": "carefully",
+        "isDistractor": false,
+        "translation": "atentamente"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d4",
+        "text": "clarify",
+        "isDistractor": true,
+        "translation": "aclarar"
+      },
+      {
+        "id": "c9",
+        "text": "won't",
+        "isDistractor": false,
+        "translation": "(futuro negativo)"
+      },
+      {
+        "id": "d5",
+        "text": "journey",
+        "isDistractor": true,
+        "translation": "travesía"
+      },
+      {
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c17",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c21",
+        "text": "our",
+        "isDistractor": false,
+        "translation": "nuestro"
+      },
+      {
+        "id": "c4",
+        "text": "listen",
+        "isDistractor": false,
+        "translation": "escuchas"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "able",
+        "isDistractor": false,
+        "translation": "capaz"
+      },
+      {
+        "id": "d1",
+        "text": "listened",
+        "isDistractor": true,
+        "translation": "escuchó"
+      },
+      {
+        "id": "c8",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c15",
+        "text": "historical",
+        "isDistractor": false,
+        "translation": "histórico"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c20",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c10",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "ser"
+      },
+      {
+        "id": "c18",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
         "id": "c2",
-        "text": "there",
-        "isDistractor": false
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
         "id": "c3",
-        "text": "is",
-        "isDistractor": false
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(negación)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "you": "tú",
+      "don't": "(negación)",
+      "listen": "escuchas",
+      "to": "(marca de infinitivo)",
+      "me": "me",
+      "carefully": "atentamente",
+      "i": "yo",
+      "won't": "(futuro negativo)",
+      "be": "ser",
+      "able": "capaz",
+      "explain": "explicar",
+      "the": "(artículo)",
+      "historical": "histórico",
+      "significance": "significado",
+      "of": "de",
+      "this": "este",
+      "monument": "monumento",
+      "during": "durante",
+      "our": "nuestro",
+      "travel": "viaje",
+      "listened": "escuchó",
+      "he": "él",
+      "will": "(futuro)",
+      "clarify": "aclarar",
+      "journey": "travesía"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: Viajar (condicional: si ocurre esta acción)",
+      "Complemento: A Japón",
+      "Tiempo: El próximo año",
+      "Verbo: Comprar (futuro simple: resultado de la condición)",
+      "Complemento: Recuerdos/souvenirs",
+      "Complemento: Para mi familia"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: Viajar (condicional: si ocurre esta acción) / Complemento: A Japón / Tiempo: El próximo año / Verbo: Comprar (futuro simple: resultado de la condición) / Complemento: Recuerdos/souvenirs / Complemento: Para mi familia",
+    "spanishSentence": "Si viajo a Japón el próximo año, compraré recuerdos para mi familia.",
+    "correctSentence": "If I travel to Japan next year, I will buy souvenirs for my family.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "travel",
+        "isDistractor": false,
+        "translation": "viajo"
+      },
+      {
+        "id": "d4",
+        "text": "we",
+        "isDistractor": true,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c5",
+        "text": "Japan",
+        "isDistractor": false,
+        "translation": "Japón"
+      },
+      {
+        "id": "c13",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "c14",
+        "text": "family",
+        "isDistractor": false,
+        "translation": "familia"
+      },
+      {
+        "id": "c10",
+        "text": "buy",
+        "isDistractor": false,
+        "translation": "comprar"
+      },
+      {
+        "id": "d5",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "soy"
+      },
+      {
+        "id": "c8",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c9",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "year",
+        "isDistractor": false,
+        "translation": "año"
+      },
+      {
+        "id": "d1",
+        "text": "travelled",
+        "isDistractor": true,
+        "translation": "viajé"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c6",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d3",
+        "text": "buys",
+        "isDistractor": true,
+        "translation": "compra"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c11",
+        "text": "souvenirs",
+        "isDistractor": false,
+        "translation": "recuerdos"
+      },
+      {
+        "id": "c12",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "i": "yo",
+      "travel": "viajo",
+      "to": "(marca de infinitivo)",
+      "japan": "Japón",
+      "next": "próximo",
+      "year": "año",
+      "will": "(futuro)",
+      "buy": "comprar",
+      "souvenirs": "recuerdos",
+      "for": "para",
+      "my": "mi",
+      "family": "familia",
+      "travelled": "viajé",
+      "would": "(condicional)",
+      "buys": "compra",
+      "we": "nosotros",
+      "am": "soy"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: visitar",
+      "Complemento: el Gran Cañón",
+      "Verbo: fotografiar",
+      "Complemento: las vistas impresionantes",
+      "Tiempo: condición futura (si ocurre algo, entonces...)"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: visitar / Complemento: el Gran Cañón / Verbo: fotografiar / Complemento: las vistas impresionantes / Tiempo: condición futura (si ocurre algo, entonces...)",
+    "spanishSentence": "Si ellos visitan el Gran Cañón, fotografiarán las vistas impresionantes.",
+    "correctSentence": "If they visit the Grand Canyon, they will photograph the stunning views.",
+    "cards": [
+      {
+        "id": "c12",
+        "text": "views",
+        "isDistractor": false,
+        "translation": "vistas"
+      },
+      {
+        "id": "d2",
+        "text": "photographs",
+        "isDistractor": true,
+        "translation": "fotografías"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "sería"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "stunning",
+        "isDistractor": false,
+        "translation": "impresionantes"
+      },
+      {
+        "id": "d3",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c5",
+        "text": "Grand",
+        "isDistractor": false,
+        "translation": "gran"
+      },
+      {
+        "id": "d1",
+        "text": "visited",
+        "isDistractor": true,
+        "translation": "visitaron"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c8",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c6",
+        "text": "Canyon",
+        "isDistractor": false,
+        "translation": "cañón"
+      },
+      {
+        "id": "c9",
+        "text": "photograph",
+        "isDistractor": false,
+        "translation": "fotografiarán"
+      },
+      {
+        "id": "c3",
+        "text": "visit",
+        "isDistractor": false,
+        "translation": "visitan"
+      },
+      {
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "they": "ellos",
+      "visit": "visitan",
+      "the": "(artículo)",
+      "grand": "gran",
+      "canyon": "cañón",
+      "will": "(futuro)",
+      "photograph": "fotografiarán",
+      "stunning": "impresionantes",
+      "views": "vistas",
+      "visited": "visitaron",
+      "photographs": "fotografías",
+      "he": "él",
+      "would": "sería"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el piloto",
+      "Verbo: preparar",
+      "Complemento: la aeronave cuidadosamente",
+      "Verbo: tener (futuro simple)",
+      "Sujeto: los pasajeros",
+      "Complemento: un vuelo seguro"
+    ],
+    "hintDisplay": "Sujeto: el piloto / Verbo: preparar / Complemento: la aeronave cuidadosamente / Verbo: tener (futuro simple) / Sujeto: los pasajeros / Complemento: un vuelo seguro",
+    "spanishSentence": "Si el piloto prepara la aeronave cuidadosamente, los pasajeros tendrán un vuelo seguro.",
+    "correctSentence": "If the pilot prepares the aircraft carefully, the passengers will have a safe flight.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "prepared",
+        "isDistractor": true,
+        "translation": "preparado"
+      },
+      {
+        "id": "d5",
+        "text": "planes",
+        "isDistractor": true,
+        "translation": "aviones"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
+      },
+      {
+        "id": "c14",
+        "text": "flight",
+        "isDistractor": false,
+        "translation": "vuelo"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c11",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "tendrán"
+      },
+      {
+        "id": "c9",
+        "text": "passengers",
+        "isDistractor": false,
+        "translation": "pasajeros"
+      },
+      {
+        "id": "c6",
+        "text": "aircraft",
+        "isDistractor": false,
+        "translation": "aeronave"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c10",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "carefully",
+        "isDistractor": false,
+        "translation": "cuidadosamente"
+      },
+      {
+        "id": "c4",
+        "text": "prepares",
+        "isDistractor": false,
+        "translation": "prepara"
+      },
+      {
+        "id": "d4",
+        "text": "safely",
+        "isDistractor": true,
+        "translation": "seguramente"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c3",
+        "text": "pilot",
+        "isDistractor": false,
+        "translation": "piloto"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c13",
+        "text": "safe",
+        "isDistractor": false,
+        "translation": "seguro"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "pilot": "piloto",
+      "prepares": "prepara",
+      "aircraft": "aeronave",
+      "carefully": "cuidadosamente",
+      "passengers": "pasajeros",
+      "will": "(futuro)",
+      "have": "tendrán",
+      "a": "(artículo)",
+      "safe": "seguro",
+      "flight": "vuelo",
+      "prepared": "preparado",
+      "would": "(condicional)",
+      "him": "le",
+      "safely": "seguramente",
+      "planes": "aviones"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: Llevar (en condicional presente)",
+      "Complemento: una mochila ligera",
+      "Verbo: Disfrutar (en futuro)",
+      "Complemento: mis viajes"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: Llevar (en condicional presente) / Complemento: una mochila ligera / Verbo: Disfrutar (en futuro) / Complemento: mis viajes",
+    "spanishSentence": "Si llevo una mochila ligera, disfrutaré más mis viajes.",
+    "correctSentence": "If I carry a light backpack, I will enjoy my travels more.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "backpack",
+        "isDistractor": false,
+        "translation": "mochila"
+      },
+      {
+        "id": "c7",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c10",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "(posesivo)"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
       {
         "id": "c4",
         "text": "a",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo indeterminado)"
+      },
+      {
+        "id": "d3",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c8",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
       },
       {
         "id": "c5",
-        "text": "storm",
-        "isDistractor": false
+        "text": "light",
+        "isDistractor": false,
+        "translation": "ligera"
+      },
+      {
+        "id": "d1",
+        "text": "carried",
+        "isDistractor": true,
+        "translation": "llevado"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d5",
+        "text": "traveling",
+        "isDistractor": true,
+        "translation": "viajar"
+      },
+      {
+        "id": "c12",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "d4",
+        "text": "enjoyed",
+        "isDistractor": true,
+        "translation": "disfrutó"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c3",
+        "text": "carry",
+        "isDistractor": false,
+        "translation": "llevar"
+      },
+      {
+        "id": "c11",
+        "text": "travels",
+        "isDistractor": false,
+        "translation": "viajes"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c9",
+        "text": "enjoy",
+        "isDistractor": false,
+        "translation": "disfrutar"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "i": "yo",
+      "carry": "llevar",
+      "a": "(artículo indeterminado)",
+      "light": "ligera",
+      "backpack": "mochila",
+      "will": "(futuro)",
+      "enjoy": "disfrutar",
+      "my": "(posesivo)",
+      "travels": "viajes",
+      "more": "más",
+      "carried": "llevado",
+      "would": "(condicional)",
+      "he": "él",
+      "enjoyed": "disfrutó",
+      "traveling": "viajar"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el pasajero",
+      "Verbo: dormir (futuro simple)",
+      "Complemento: en el avión",
+      "Estructura condicional: si el vuelo es largo (condición que determina la acción)"
+    ],
+    "hintDisplay": "Sujeto: el pasajero / Verbo: dormir (futuro simple) / Complemento: en el avión / Estructura condicional: si el vuelo es largo (condición que determina la acción)",
+    "spanishSentence": "Si el vuelo es largo, el pasajero dormirá en el avión.",
+    "correctSentence": "If the flight is long, the passenger will sleep on the airplane.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "slept",
+        "isDistractor": true,
+        "translation": "durmió"
+      },
+      {
+        "id": "d2",
+        "text": "sleeps",
+        "isDistractor": true,
+        "translation": "duerme"
+      },
+      {
+        "id": "c12",
+        "text": "airplane",
+        "isDistractor": false,
+        "translation": "avión"
+      },
+      {
+        "id": "c4",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(cópula)"
+      },
+      {
+        "id": "c10",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c9",
+        "text": "sleep",
+        "isDistractor": false,
+        "translation": "dormir"
+      },
+      {
+        "id": "c3",
+        "text": "flight",
+        "isDistractor": false,
+        "translation": "vuelo"
+      },
+      {
+        "id": "d4",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(perfecto)"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d5",
+        "text": "sleeping",
+        "isDistractor": true,
+        "translation": "durmiendo"
       },
       {
         "id": "c6",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "passenger",
+        "isDistractor": false,
+        "translation": "pasajero"
+      },
+      {
+        "id": "c5",
+        "text": "long",
+        "isDistractor": false,
+        "translation": "largo"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "flight": "vuelo",
+      "is": "(cópula)",
+      "long": "largo",
+      "passenger": "pasajero",
+      "will": "(futuro)",
+      "sleep": "dormir",
+      "on": "en",
+      "airplane": "avión",
+      "slept": "durmió",
+      "sleeps": "duerme",
+      "would": "(condicional)",
+      "has": "(perfecto)",
+      "sleeping": "durmiendo"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: el próximo verano (next summer)",
+      "Sujeto: nosotros (we)",
+      "Verbo: viajar (travel) - condición",
+      "Complemento: a Japón (to Japan)",
+      "Verbo: visitar (visit) - resultado/consecuencia",
+      "Complemento: Tokio y Kioto (Tokyo and Kyoto)"
+    ],
+    "hintDisplay": "Tiempo: el próximo verano (next summer) / Sujeto: nosotros (we) / Verbo: viajar (travel) - condición / Complemento: a Japón (to Japan) / Verbo: visitar (visit) - resultado/consecuencia / Complemento: Tokio y Kioto (Tokyo and Kyoto)",
+    "spanishSentence": "Si viajamos a Japón el próximo verano, visitaremos Tokio y Kioto.",
+    "correctSentence": "If we travel to Japan next summer, we will visit Tokyo and Kyoto.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c12",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c3",
+        "text": "travel",
+        "isDistractor": false,
+        "translation": "viajamos"
+      },
+      {
+        "id": "d3",
+        "text": "visits",
+        "isDistractor": true,
+        "translation": "visita"
+      },
+      {
+        "id": "c13",
+        "text": "Kyoto",
+        "isDistractor": false,
+        "translation": "Kioto"
+      },
+      {
+        "id": "d1",
+        "text": "travelled",
+        "isDistractor": true,
+        "translation": "viajamos"
+      },
+      {
+        "id": "c6",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c9",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d4",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c5",
+        "text": "Japan",
+        "isDistractor": false,
+        "translation": "Japón"
+      },
+      {
+        "id": "c11",
+        "text": "Tokyo",
+        "isDistractor": false,
+        "translation": "Tokio"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c10",
+        "text": "visit",
+        "isDistractor": false,
+        "translation": "visitaremos"
+      },
+      {
+        "id": "d5",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "summer",
+        "isDistractor": false,
+        "translation": "verano"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "we": "nosotros",
+      "travel": "viajamos",
+      "to": "(preposición)",
+      "japan": "Japón",
+      "next": "próximo",
+      "summer": "verano",
+      "will": "(futuro)",
+      "visit": "visitaremos",
+      "tokyo": "Tokio",
+      "and": "y",
+      "kyoto": "Kioto",
+      "travelled": "viajamos",
+      "would": "(condicional)",
+      "visits": "visita",
+      "them": "los",
+      "shall": "(futuro)"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú (you)",
+      "Verbo: reservar (book)",
+      "Complemento: tu tour",
+      "Complemento: con anticipación",
+      "Sujeto: yo (I)",
+      "Verbo: organizar (organize)",
+      "Complemento: todos los detalles",
+      "Complemento: para tu experiencia de viaje"
+    ],
+    "hintDisplay": "Sujeto: tú (you) / Verbo: reservar (book) / Complemento: tu tour / Complemento: con anticipación / Sujeto: yo (I) / Verbo: organizar (organize) / Complemento: todos los detalles / Complemento: para tu experiencia de viaje",
+    "spanishSentence": "Si reservas tu tour con anticipación, organizaré todos los detalles para tu experiencia de viaje.",
+    "correctSentence": "If you book your tour in advance, I will organize all the details for your travel experience.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c16",
+        "text": "travel",
+        "isDistractor": false,
+        "translation": "viaje"
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d3",
+        "text": "be",
+        "isDistractor": true,
+        "translation": "ser"
+      },
+      {
+        "id": "c8",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c9",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c10",
+        "text": "organize",
+        "isDistractor": false,
+        "translation": "organizar"
+      },
+      {
+        "id": "c5",
+        "text": "tour",
+        "isDistractor": false,
+        "translation": "tour"
+      },
+      {
+        "id": "d4",
+        "text": "organized",
+        "isDistractor": true,
+        "translation": "organizado"
+      },
+      {
+        "id": "c13",
+        "text": "details",
+        "isDistractor": false,
+        "translation": "detalles"
+      },
+      {
+        "id": "c3",
+        "text": "book",
+        "isDistractor": false,
+        "translation": "reservar"
+      },
+      {
+        "id": "c7",
+        "text": "advance",
+        "isDistractor": false,
+        "translation": "anticipación"
+      },
+      {
+        "id": "c17",
+        "text": "experience",
+        "isDistractor": false,
+        "translation": "experiencia"
+      },
+      {
+        "id": "c4",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "d5",
+        "text": "me",
+        "isDistractor": true,
+        "translation": "me"
+      },
+      {
+        "id": "d2",
+        "text": "organizing",
+        "isDistractor": true,
+        "translation": "organizando"
+      },
+      {
+        "id": "c15",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "d1",
+        "text": "booked",
+        "isDistractor": true,
+        "translation": "reservado"
+      },
+      {
+        "id": "c14",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c11",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todos"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "you": "tú",
+      "book": "reservar",
+      "your": "tu",
+      "tour": "tour",
+      "in": "con",
+      "advance": "anticipación",
+      "i": "yo",
+      "will": "(futuro)",
+      "organize": "organizar",
+      "all": "todos",
+      "the": "(artículo)",
+      "details": "detalles",
+      "for": "para",
+      "travel": "viaje",
+      "experience": "experiencia",
+      "booked": "reservado",
+      "organizing": "organizando",
+      "be": "ser",
+      "organized": "organizado",
+      "me": "me"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: yo",
+      "Verbo: reservar (condicional negativo en cláusula 'si')",
+      "Complemento: mi vuelo",
+      "Complemento: con anticipación",
+      "Verbo: visitar (futuro negativo en cláusula principal)",
+      "Complemento: París",
+      "Tiempo: este verano"
+    ],
+    "hintDisplay": "Sujeto: yo / Verbo: reservar (condicional negativo en cláusula 'si') / Complemento: mi vuelo / Complemento: con anticipación / Verbo: visitar (futuro negativo en cláusula principal) / Complemento: París / Tiempo: este verano",
+    "spanishSentence": "Si no reservo mi vuelo con anticipación, no visitaré París este verano.",
+    "correctSentence": "If I don't book my flight in advance, I won't visit Paris this summer.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c11",
+        "text": "visit",
+        "isDistractor": false,
+        "translation": "visitaré"
+      },
+      {
+        "id": "c14",
+        "text": "summer",
+        "isDistractor": false,
+        "translation": "verano"
+      },
+      {
+        "id": "c5",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "c12",
+        "text": "Paris",
+        "isDistractor": false,
+        "translation": "París"
+      },
+      {
+        "id": "c10",
+        "text": "won't",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c3",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "book",
+        "isDistractor": false,
+        "translation": "reservo"
+      },
+      {
+        "id": "d4",
+        "text": "visiting",
+        "isDistractor": true,
+        "translation": "visitando"
+      },
+      {
+        "id": "d2",
+        "text": "visits",
+        "isDistractor": true,
+        "translation": "visitas"
+      },
+      {
+        "id": "c8",
+        "text": "advance",
+        "isDistractor": false,
+        "translation": "anticipación"
+      },
+      {
+        "id": "c13",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d3",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c6",
+        "text": "flight",
+        "isDistractor": false,
+        "translation": "vuelo"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d1",
+        "text": "booked",
+        "isDistractor": true,
+        "translation": "reservado"
+      },
+      {
+        "id": "c7",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "con"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "i": "yo",
+      "don't": "(auxiliar)",
+      "book": "reservo",
+      "my": "mi",
+      "flight": "vuelo",
+      "in": "con",
+      "advance": "anticipación",
+      "won't": "(futuro)",
+      "visit": "visitaré",
+      "paris": "París",
+      "this": "este",
+      "summer": "verano",
+      "booked": "reservado",
+      "visits": "visitas",
+      "shall": "(futuro)",
+      "visiting": "visitando"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: tener (condicional)",
+      "Complemento: suficiente tiempo",
+      "Verbo: explorar (futuro simple)",
+      "Complemento: las ruinas antiguas de la ciudad"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: tener (condicional) / Complemento: suficiente tiempo / Verbo: explorar (futuro simple) / Complemento: las ruinas antiguas de la ciudad",
+    "spanishSentence": "Si tienen suficiente tiempo, explorarán las ruinas antiguas de la ciudad.",
+    "correctSentence": "If they have enough time, they will explore the ancient ruins of the city.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "enough",
+        "isDistractor": false,
+        "translation": "suficiente"
+      },
+      {
+        "id": "c7",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c11",
+        "text": "ruins",
+        "isDistractor": false,
+        "translation": "ruinas"
+      },
+      {
+        "id": "d4",
+        "text": "they'd",
+        "isDistractor": true,
+        "translation": "ellos/ellas habrían"
+      },
+      {
+        "id": "c12",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "tiempo"
+      },
+      {
+        "id": "c3",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "tienen"
+      },
+      {
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos/ellas"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "sería"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "explores",
+        "isDistractor": true,
+        "translation": "explora"
+      },
+      {
+        "id": "c8",
+        "text": "explore",
+        "isDistractor": false,
+        "translation": "explorar"
+      },
+      {
+        "id": "c14",
+        "text": "city",
+        "isDistractor": false,
+        "translation": "ciudad"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "tiene"
+      },
+      {
+        "id": "c6",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos/ellas"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c10",
+        "text": "ancient",
+        "isDistractor": false,
+        "translation": "antiguas"
+      },
+      {
+        "id": "d5",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "they": "ellos/ellas",
+      "have": "tienen",
+      "enough": "suficiente",
+      "time": "tiempo",
+      "will": "(futuro)",
+      "explore": "explorar",
+      "the": "(artículo)",
+      "ancient": "antiguas",
+      "ruins": "ruinas",
+      "of": "de",
+      "city": "ciudad",
+      "would": "sería",
+      "has": "tiene",
+      "explores": "explora",
+      "they'd": "ellos/ellas habrían",
+      "could": "podría"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: reservar",
+      "Complemento: nuestros vuelos",
+      "Verbo: visitar",
+      "Complemento: ese hermoso destino",
+      "Tiempo: el próximo verano",
+      "Estructura: condicional (si no... no...)"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: reservar / Complemento: nuestros vuelos / Verbo: visitar / Complemento: ese hermoso destino / Tiempo: el próximo verano / Estructura: condicional (si no... no...)",
+    "spanishSentence": "Si no reservamos nuestros vuelos con anticipación, no visitaremos ese hermoso destino el próximo verano.",
+    "correctSentence": "If we don't book our flights in advance, we won't visit that beautiful destination next summer.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c11",
+        "text": "visit",
+        "isDistractor": false,
+        "translation": "visitar"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d4",
+        "text": "those",
+        "isDistractor": true,
+        "translation": "esos"
+      },
+      {
+        "id": "c3",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "book",
+        "isDistractor": false,
+        "translation": "reservar"
+      },
+      {
+        "id": "c7",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c12",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "ese"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d5",
+        "text": "didn't",
+        "isDistractor": true,
+        "translation": "(auxiliar pasado)"
+      },
+      {
+        "id": "c15",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c10",
+        "text": "won't",
+        "isDistractor": false,
+        "translation": "(futuro negativo)"
+      },
+      {
+        "id": "c6",
+        "text": "flights",
+        "isDistractor": false,
+        "translation": "vuelos"
+      },
+      {
+        "id": "c5",
+        "text": "our",
+        "isDistractor": false,
+        "translation": "nuestro"
+      },
+      {
+        "id": "c14",
+        "text": "destination",
+        "isDistractor": false,
+        "translation": "destino"
+      },
+      {
+        "id": "c8",
+        "text": "advance",
+        "isDistractor": false,
+        "translation": "anticipación"
+      },
+      {
+        "id": "d1",
+        "text": "booked",
+        "isDistractor": true,
+        "translation": "reservado"
+      },
+      {
+        "id": "d2",
+        "text": "visits",
+        "isDistractor": true,
+        "translation": "visitas"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c16",
+        "text": "summer",
+        "isDistractor": false,
+        "translation": "verano"
+      },
+      {
+        "id": "d3",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c13",
+        "text": "beautiful",
+        "isDistractor": false,
+        "translation": "hermoso"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "we": "nosotros",
+      "don't": "(auxiliar)",
+      "book": "reservar",
+      "our": "nuestro",
+      "flights": "vuelos",
+      "in": "con",
+      "advance": "anticipación",
+      "won't": "(futuro negativo)",
+      "visit": "visitar",
+      "that": "ese",
+      "beautiful": "hermoso",
+      "destination": "destino",
+      "next": "próximo",
+      "summer": "verano",
+      "booked": "reservado",
+      "visits": "visitas",
+      "shall": "(futuro)",
+      "those": "esos",
+      "didn't": "(auxiliar pasado)"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: con anticipación (indica cuándo ocurre la acción de reservar)",
+      "Sujeto: yo",
+      "Verbo: reservar (acción en presente/futuro cercano)",
+      "Complemento: mi vuelo",
+      "Verbo: ver (acción que ocurrirá como consecuencia)",
+      "Complemento: la puesta de sol desde la ventanilla del avión"
+    ],
+    "hintDisplay": "Tiempo: con anticipación (indica cuándo ocurre la acción de reservar) / Sujeto: yo / Verbo: reservar (acción en presente/futuro cercano) / Complemento: mi vuelo / Verbo: ver (acción que ocurrirá como consecuencia) / Complemento: la puesta de sol desde la ventanilla del avión",
+    "spanishSentence": "Si reservo mi vuelo con anticipación, veré la puesta de sol desde la ventanilla del avión.",
+    "correctSentence": "If I book my flight early, I will watch the sunset from the airplane window.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c8",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d5",
+        "text": "saw",
+        "isDistractor": true,
+        "translation": "vio"
+      },
+      {
+        "id": "c9",
+        "text": "watch",
+        "isDistractor": false,
+        "translation": "veré"
+      },
+      {
+        "id": "c12",
+        "text": "from",
+        "isDistractor": false,
+        "translation": "desde"
+      },
+      {
+        "id": "c4",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c15",
+        "text": "window",
+        "isDistractor": false,
+        "translation": "ventanilla"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c7",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d1",
+        "text": "booked",
+        "isDistractor": true,
+        "translation": "reservado"
+      },
+      {
+        "id": "d2",
+        "text": "watches",
+        "isDistractor": true,
+        "translation": "observa"
+      },
+      {
+        "id": "c11",
+        "text": "sunset",
+        "isDistractor": false,
+        "translation": "puesta de sol"
+      },
+      {
+        "id": "c5",
+        "text": "flight",
+        "isDistractor": false,
+        "translation": "vuelo"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c3",
+        "text": "book",
+        "isDistractor": false,
+        "translation": "reservo"
+      },
+      {
+        "id": "c6",
+        "text": "early",
+        "isDistractor": false,
+        "translation": "con anticipación"
+      },
+      {
+        "id": "c14",
+        "text": "airplane",
+        "isDistractor": false,
+        "translation": "avión"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "i": "yo",
+      "book": "reservo",
+      "my": "mi",
+      "flight": "vuelo",
+      "early": "con anticipación",
+      "will": "(futuro)",
+      "watch": "veré",
+      "the": "(artículo)",
+      "sunset": "puesta de sol",
+      "from": "desde",
+      "airplane": "avión",
+      "window": "ventanilla",
+      "booked": "reservado",
+      "watches": "observa",
+      "would": "(condicional)",
+      "he": "él",
+      "saw": "vio"
+    },
+    "metadata": {
+      "tense": "first conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "travel"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el piloto",
+      "Verbo: navegar",
+      "Complemento: el avión de manera segura a través de la tormenta",
+      "Verbo: mejorar (en cláusula condicional)",
+      "Complemento: las condiciones climáticas (en cláusula condicional)",
+      "Tiempo: futuro (si se cumple la condición)"
+    ],
+    "hintDisplay": "Sujeto: el piloto / Verbo: navegar / Complemento: el avión de manera segura a través de la tormenta / Verbo: mejorar (en cláusula condicional) / Complemento: las condiciones climáticas (en cláusula condicional) / Tiempo: futuro (si se cumple la condición)",
+    "spanishSentence": "Si las condiciones climáticas mejoran, el piloto navegará el avión de manera segura a través de la tormenta.",
+    "correctSentence": "If the weather conditions improve, the pilot will navigate the plane safely through the storm.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "climáticas"
+      },
+      {
+        "id": "c12",
+        "text": "safely",
+        "isDistractor": false,
+        "translation": "de manera segura"
       },
       {
         "id": "c7",
         "text": "pilot",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "piloto"
       },
       {
-        "id": "c8",
-        "text": "will",
-        "isDistractor": false
+        "id": "c4",
+        "text": "conditions",
+        "isDistractor": false,
+        "translation": "condiciones"
       },
       {
-        "id": "c9",
-        "text": "prepare",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "plane",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "carefully",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "will",
+        "id": "d3",
+        "text": "him",
         "isDistractor": true,
-        "translation": "va a"
-      },
-      {
-        "id": "d2",
-        "text": "check",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "quickly",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "the",
-        "isDistractor": true,
-        "translation": "el/la"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "there": "hay",
-      "is": "es",
-      "a": "un/una",
-      "storm": "tormenta",
-      "the": "el/la",
-      "pilot": "piloto",
-      "will": "va a",
-      "prepare": "preparar",
-      "plane": "avión",
-      "carefully": "cuidadosamente"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el viajero",
-      "Verbo: empacar (negación)",
-      "Complemento: su maleta con cuidado",
-      "Tiempo: si pierde su pasaporte"
-    ],
-    "hintDisplay": "Sujeto: el viajero / Verbo: empacar (negación) / Complemento: su maleta con cuidado / Tiempo: si pierde su pasaporte",
-    "spanishSentence": "Si el viajero pierde su pasaporte, no abordará el avión.",
-    "correctSentence": "If the traveler loses his passport, he will not board the plane.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "traveler",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "loses",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "passport",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "board",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "his",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "plane",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "find",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "her",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "ticket",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "quickly",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el",
-      "traveler": "viajero",
-      "loses": "pierde",
-      "his": "su",
-      "passport": "pasaporte",
-      "he": "no",
-      "will": "empacará",
-      "not": "no",
-      "board": "abordará",
-      "plane": "avión"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el turista",
-      "Verbo: descubrir (acción futura después de una condición)",
-      "Complemento: gemas ocultas en la ciudad"
-    ],
-    "hintDisplay": "Sujeto: el turista / Verbo: descubrir (acción futura después de una condición) / Complemento: gemas ocultas en la ciudad",
-    "spanishSentence": "Si el turista explora las callejuelas, descubrirá joyas escondidas en la ciudad",
-    "correctSentence": "If the tourist explores the alleyways, he will discover hidden gems in the city.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "tourist",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "explores",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "alleyways",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "discover",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "hidden",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "gems",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false
+        "translation": "lo"
       },
       {
         "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "city",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "discovers",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "wanders",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "secret",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la",
-      "tourist": "turista",
-      "explores": "explora",
-      "alleyways": "callejuelas",
-      "he": "él",
-      "will": "va a/irá (futuro)",
-      "discover": "descubrir",
-      "hidden": "ocultas",
-      "gems": "joyas",
-      "in": "en",
-      "city": "ciudad"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Olga",
-      "Verbo: organizar (acción futura condicional)",
-      "Complemento: el viaje",
-      "Tiempo: si reserva los vuelos con anticipación"
-    ],
-    "hintDisplay": "Sujeto: Olga / Verbo: organizar (acción futura condicional) / Complemento: el viaje / Tiempo: si reserva los vuelos con anticipación",
-    "spanishSentence": "Si Olga no reserva los vuelos con anticipación, no organizará el viaje.",
-    "correctSentence": "If Olga does not book the flights early, she will not organize the trip.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "Olga",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "book",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "flights",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "early",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "organize",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "trip",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "reserve",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "plan",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "late",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "olga": "Olga",
-      "does": "hace/realiza (auxiliar negativo)",
-      "not": "no",
-      "book": "reservar",
-      "the": "el/la",
-      "flights": "vuelos",
-      "early": "con anticipación",
-      "she": "ella",
-      "will": "va a/irá",
-      "organize": "organizar",
-      "trip": "viaje"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Anna",
-      "Verbo: anunciar",
-      "Complemento: el cambio de itinerario a sus amigos"
-    ],
-    "hintDisplay": "Sujeto: Anna / Verbo: anunciar / Complemento: el cambio de itinerario a sus amigos",
-    "spanishSentence": "Si el vuelo se cancela, Anna anunciará el cambio de itinerario a sus amigos.",
-    "correctSentence": "If the flight is cancelled, Anna will announce the itinerary change to her friends.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "flight",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "cancelled",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "Anna",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "announce",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "itinerary",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "change",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "her",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "friends",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "canceled",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "tell",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "booking",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la",
-      "flight": "vuelo",
-      "is": "es",
-      "cancelled": "se cancela",
-      "anna": "Anna",
-      "will": "va a",
-      "announce": "anunciar",
-      "itinerary": "itinerario",
-      "change": "cambio",
-      "to": "a",
-      "her": "sus",
-      "friends": "amigos"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el viajero",
-      "Verbo: empacar (will pack)",
-      "Complemento: su maleta la noche anterior"
-    ],
-    "hintDisplay": "Sujeto: el viajero / Verbo: empacar (will pack) / Complemento: su maleta la noche anterior",
-    "spanishSentence": "Si el viajero sale temprano, empacará su maleta la noche anterior.",
-    "correctSentence": "If the traveler leaves early, he will pack his suitcase the night before.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "traveler",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "leaves",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "early",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "pack",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "his",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "suitcase",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "luggage",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "morning",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "arrives",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la",
-      "traveler": "viajero",
-      "leaves": "sale",
-      "early": "temprano",
-      "he": "él",
-      "will": "va a",
-      "pack": "empacar",
-      "his": "su",
-      "suitcase": "maleta",
-      "night": "noche",
-      "before": "anterior"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el turista",
-      "Verbo: vagar (wander)",
-      "Complemento: por las calles antiguas"
-    ],
-    "hintDisplay": "Sujeto: el turista / Verbo: vagar / Complemento: por las calles antiguas",
-    "spanishSentence": "Si el turista tiene tiempo libre, vagará por las calles antiguas.",
-    "correctSentence": "If the tourist has free time, he will wander through the old streets.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "tourist",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "has",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "free",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "time",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "wander",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
         "text": "through",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "old",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "streets",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "wonders",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "a través de"
       },
       {
         "id": "d2",
         "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "along",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "spare",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la",
-      "tourist": "turista",
-      "has": "tiene",
-      "free": "libre",
-      "time": "tiempo",
-      "he": "él",
-      "will": "va a",
-      "wander": "vagar",
-      "through": "por",
-      "old": "antiguos",
-      "streets": "calles"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: visitar (condición real/posible)",
-      "Complemento: ese museo de arte",
-      "Tiempo: si tenemos tiempo libre"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: visitar (condición real/posible) / Complemento: ese museo de arte / Tiempo: si tenemos tiempo libre",
-    "spanishSentence": "Si tenemos tiempo libre, visitaremos ese museo de arte.",
-    "correctSentence": "If we have free time, we will visit that art museum.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "free",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "time",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
       {
         "id": "c8",
-        "text": "visit",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "art",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "museum",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "visiting",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "had",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "this",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "have": "tenemos",
-      "free": "libre",
-      "time": "tiempo",
-      "will": "vamos a / iremos a",
-      "visit": "visitar",
-      "that": "ese",
-      "art": "de arte",
-      "museum": "museo"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: María",
-      "Verbo: visitar (si + presente simple, will + verbo base)",
-      "Complemento: París el próximo verano"
-    ],
-    "hintDisplay": "Sujeto: María / Verbo: visitar (si + presente simple, will + verbo base) / Complemento: París el próximo verano",
-    "spanishSentence": "Si María ahorra dinero, visitará París el próximo verano.",
-    "correctSentence": "If Maria saves money, she will visit Paris next summer.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "Maria",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "saves",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "money",
-        "isDistractor": false
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
       },
       {
         "id": "c5",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "visit",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "Paris",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "summer",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "spent",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "visiting",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "last",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "maria": "María",
-      "saves": "ahorra",
-      "money": "dinero",
-      "she": "ella",
-      "will": "va a / irá",
-      "visit": "visitar",
-      "paris": "París",
-      "next": "próximo",
-      "summer": "verano"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: recorrer (tour)",
-      "Complemento: los museos de la ciudad",
-      "Tiempo: si reservamos temprano"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: recorrer (tour) / Complemento: los museos de la ciudad / Tiempo: si reservamos temprano",
-    "spanishSentence": "Si reservamos temprano, recorreremos los museos de la ciudad.",
-    "correctSentence": "If we book early, we will tour the city museums.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "book",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "early",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "tour",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "city",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "museums",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "should",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "visit",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "late",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "beaches",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "book": "reservamos",
-      "early": "temprano",
-      "will": "futuro (marker)",
-      "tour": "recorrer",
-      "the": "los",
-      "city": "ciudad",
-      "museums": "museos"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la guía (the guide)",
-      "Verbo: organizar (to organize)",
-      "Complemento: excursiones adicionales (additional excursions)",
-      "Tiempo: si llueve (if it rains)"
-    ],
-    "hintDisplay": "Sujeto: la guía / Verbo: organizar / Complemento: excursiones adicionales / Tiempo: si llueve",
-    "spanishSentence": "Si llueve, la guía organizará excursiones adicionales.",
-    "correctSentence": "If it rains, the guide will organize additional excursions.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "cancel",
-        "isDistractor": true
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "d2",
-        "text": "postpone",
-        "isDistractor": true
-      },
-      {
-        "id": "c3",
-        "text": "rains",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "guide",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "d3",
-        "text": "arrange",
-        "isDistractor": true
-      },
-      {
-        "id": "c7",
-        "text": "organize",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "additional",
-        "isDistractor": false
-      },
-      {
-        "id": "d4",
-        "text": "indoor",
-        "isDistractor": true
-      },
-      {
-        "id": "c9",
-        "text": "excursions",
-        "isDistractor": false
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "it": "llueve (implied subject)",
-      "rains": "llueve",
-      "the": "la",
-      "guide": "guía",
-      "will": "will (future marker)",
-      "organize": "organizará",
-      "additional": "adicionales",
-      "excursions": "excursiones"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: llegar (arrive)",
-      "Complemento: al aeropuerto a tiempo",
-      "Tiempo: si salimos temprano"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: llegar (arrive) / Complemento: al aeropuerto a tiempo / Tiempo: si salimos temprano",
-    "spanishSentence": "Si salimos temprano, llegaremos al aeropuerto a tiempo.",
-    "correctSentence": "If we leave early, we will arrive at the airport on time.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "leave",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "early",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "arrive",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "airport",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "time",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "depart",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "reach",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "late",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "in",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "leave": "salimos",
-      "early": "temprano",
-      "will": "volveremos",
-      "arrive": "llegaremos",
-      "at": "al",
-      "the": "el",
-      "airport": "aeropuerto",
-      "on": "a",
-      "time": "tiempo"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: quedarse",
-      "Complemento: en un hotel de lujo",
-      "Tiempo: si reservamos con anticipación"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: quedarse / Complemento: en un hotel de lujo / Tiempo: si reservamos con anticipación",
-    "spanishSentence": "Si reservamos con anticipación, nos quedaremos en un hotel de lujo.",
-    "correctSentence": "If we book in advance, we will stay in a luxury hotel.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "book",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "advance",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "stay",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "luxury",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "hotel",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "reserve",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "early",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "expensive",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "book": "reservamos",
-      "in": "con",
-      "advance": "anticipación",
-      "will": "iremos",
-      "stay": "quedaremos",
-      "a": "un",
-      "luxury": "lujo",
-      "hotel": "hotel"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la guía (the guide)",
-      "Verbo: explicar (to explain)",
-      "Complemento: los sitios históricos (the historical sites)",
-      "Tiempo: si llegamos temprano (if we arrive early)"
-    ],
-    "hintDisplay": "Sujeto: la guía / Verbo: explicar / Complemento: los sitios históricos / Tiempo: si llegamos temprano",
-    "spanishSentence": "Si llegamos temprano, la guía explicará los sitios históricos.",
-    "correctSentence": "If we arrive early, the guide will explain the historical sites.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "arrive",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "early",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "guide",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "explain",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "historical",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "sites",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "describes",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "ancient",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "late",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "arrive": "llegamos",
-      "early": "temprano",
-      "the": "la",
-      "guide": "guía",
-      "will": "futuro (auxiliar)",
-      "explain": "explicará",
-      "historical": "históricos",
-      "sites": "sitios"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Sofia",
-      "Verbo: explicar",
-      "Complemento: los cambios de itinerario a los pasajeros",
-      "Tiempo: si el vuelo se retrasa"
-    ],
-    "hintDisplay": "Sujeto: Sofia / Verbo: explicar / Complemento: los cambios de itinerario a los pasajeros / Tiempo: si el vuelo se retrasa",
-    "spanishSentence": "Si el vuelo se retrasa, Sofia no explicará los cambios de itinerario a los pasajeros.",
-    "correctSentence": "If the flight is delayed, Sofia will not explain the itinerary changes to the passengers.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "flight",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "delayed",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "Sofia",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "explain",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "itinerary",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "changes",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false
+        "text": "improve",
+        "isDistractor": false,
+        "translation": "mejoran"
       },
       {
         "id": "c15",
-        "text": "passengers",
-        "isDistractor": false
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
       },
       {
-        "id": "d1",
-        "text": "cancelled",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "announce",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "confused",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la/los/las",
-      "flight": "vuelo",
-      "is": "es/está",
-      "delayed": "retrasado",
-      "sofia": "Sofia",
-      "will": "irá",
-      "not": "no",
-      "explain": "explicar",
-      "itinerary": "itinerario",
-      "changes": "cambios",
-      "to": "a",
-      "passengers": "pasajeros"
-    },
-    "metadata": {
-      "tense": "first conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "travel"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la guía (the guide)",
-      "Verbo: recomendar (to recommend)",
-      "Complemento: los mejores hoteles locales (the best local hotels)",
-      "Tiempo: si llegamos temprano (if we arrive early)"
-    ],
-    "hintDisplay": "Sujeto: la guía / Verbo: recomendar / Complemento: los mejores hoteles locales / Tiempo: si llegamos temprano",
-    "spanishSentence": "Si llegamos temprano, la guía recomendará los mejores hoteles locales.",
-    "correctSentence": "If we arrive early, the guide will recommend the best local hotels.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "arrive",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "early",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
+        "id": "c14",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "guide",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "will",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "recommend",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "best",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "local",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "hotels",
-        "isDistractor": false
+        "text": "navigate",
+        "isDistractor": false,
+        "translation": "navegará"
       },
       {
         "id": "d1",
-        "text": "suggest",
-        "isDistractor": true
+        "text": "navigates",
+        "isDistractor": true,
+        "translation": "navega"
       },
       {
-        "id": "d2",
-        "text": "late",
-        "isDistractor": true
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
       },
       {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c11",
+        "text": "plane",
+        "isDistractor": false,
+        "translation": "avión"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d4",
-        "text": "they",
-        "isDistractor": true
+        "text": "flew",
+        "isDistractor": true,
+        "translation": "voló"
       }
     ],
     "translations": {
       "if": "si",
-      "we": "nosotros",
-      "arrive": "llegamos",
-      "early": "temprano",
-      "the": "la / los / las",
-      "guide": "guía",
-      "will": "irá a",
-      "recommend": "recomendará",
-      "best": "mejores",
-      "local": "locales",
-      "hotels": "hoteles"
+      "the": "(artículo)",
+      "weather": "climáticas",
+      "conditions": "condiciones",
+      "improve": "mejoran",
+      "pilot": "piloto",
+      "will": "(futuro)",
+      "navigate": "navegará",
+      "plane": "avión",
+      "safely": "de manera segura",
+      "through": "a través de",
+      "storm": "tormenta",
+      "navigates": "navega",
+      "would": "(condicional)",
+      "him": "lo",
+      "flew": "voló"
     },
     "metadata": {
       "tense": "first conditional",

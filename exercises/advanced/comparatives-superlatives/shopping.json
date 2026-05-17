@@ -1,110 +1,519 @@
 [
   {
     "hints": [
-      "Sujeto: la vendedora",
-      "Verbo: recomendar",
-      "Complemento: el modelo más caro, no el más barato"
+      "Sujeto: Este artículo",
+      "Verbo: ser (en presente)",
+      "Complemento: tan caro como el que compraste",
+      "Tiempo: la semana pasada",
+      "Verbo: cobrar (en futuro)",
+      "Complemento: el mismo precio"
     ],
-    "hintDisplay": "Sujeto: la vendedora / Verbo: recomendar / Complemento: el modelo más caro, no el más barato",
-    "spanishSentence": "La vendedora no recomienda el modelo más caro sino el más barato.",
-    "correctSentence": "The salesperson doesn't recommend the most expensive model but the cheapest one.",
+    "hintDisplay": "Sujeto: Este artículo / Verbo: ser (en presente) / Complemento: tan caro como el que compraste / Tiempo: la semana pasada / Verbo: cobrar (en futuro) / Complemento: el mismo precio",
+    "spanishSentence": "Este artículo es tan caro como el que compraste la semana pasada, así que te cobraré el mismo precio.",
+    "correctSentence": "This item is as expensive as the one you bought last week, so I'll charge you the same price.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "salesperson",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "doesn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "recommend",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
+        "id": "c17",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "most",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "model",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "but",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "cheapest",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "one",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "recommends",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "least",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d3",
-        "text": "costliest",
-        "isDistractor": true
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
       },
       {
-        "id": "d4",
-        "text": "yet",
-        "isDistractor": true
+        "id": "c14",
+        "text": "I'll",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c2",
+        "text": "item",
+        "isDistractor": false,
+        "translation": "artículo"
       },
       {
         "id": "d5",
-        "text": "product",
-        "isDistractor": true
+        "text": "costed",
+        "isDistractor": true,
+        "translation": "costó"
+      },
+      {
+        "id": "c6",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "c15",
+        "text": "charge",
+        "isDistractor": false,
+        "translation": "cobraré"
+      },
+      {
+        "id": "c13",
+        "text": "so",
+        "isDistractor": false,
+        "translation": "así que"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "es"
+      },
+      {
+        "id": "c1",
+        "text": "This",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c10",
+        "text": "bought",
+        "isDistractor": false,
+        "translation": "compraste"
+      },
+      {
+        "id": "d2",
+        "text": "buying",
+        "isDistractor": true,
+        "translation": "comprando"
+      },
+      {
+        "id": "c12",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "c9",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "one",
+        "isDistractor": false,
+        "translation": "uno"
+      },
+      {
+        "id": "c5",
+        "text": "expensive",
+        "isDistractor": false,
+        "translation": "caro"
+      },
+      {
+        "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "fueron"
+      },
+      {
+        "id": "d1",
+        "text": "charged",
+        "isDistractor": true,
+        "translation": "cobré"
+      },
+      {
+        "id": "c16",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c11",
+        "text": "last",
+        "isDistractor": false,
+        "translation": "pasada"
+      },
+      {
+        "id": "c4",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "c18",
+        "text": "same",
+        "isDistractor": false,
+        "translation": "mismo"
+      },
+      {
+        "id": "c19",
+        "text": "price",
+        "isDistractor": false,
+        "translation": "precio"
       }
     ],
     "translations": {
-      "the": "el/la/los/las",
-      "salesperson": "vendedora",
-      "recommend": "recomendar",
-      "most": "más",
+      "this": "este",
+      "item": "artículo",
+      "is": "es",
+      "as": "tan",
       "expensive": "caro",
-      "model": "modelo",
-      "but": "sino",
-      "cheapest": "más barato",
-      "one": "uno"
+      "the": "(artículo)",
+      "one": "uno",
+      "you": "tú",
+      "bought": "compraste",
+      "last": "pasada",
+      "week": "semana",
+      "so": "así que",
+      "i'll": "(futuro)",
+      "charge": "cobraré",
+      "same": "mismo",
+      "price": "precio",
+      "charged": "cobré",
+      "buying": "comprando",
+      "him": "le",
+      "were": "fueron",
+      "costed": "costó"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Nosotros",
+      "Verbo: Comparar",
+      "Complemento: Los precios",
+      "Verbo: Decidir",
+      "Complemento: Que esta tienda tiene la mejor calidad por el menos dinero"
+    ],
+    "hintDisplay": "Sujeto: Nosotros / Verbo: Comparar / Complemento: Los precios / Verbo: Decidir / Complemento: Que esta tienda tiene la mejor calidad por el menos dinero",
+    "spanishSentence": "Comparamos los precios y decidimos que esta tienda tiene la mejor calidad por el menos dinero.",
+    "correctSentence": "We compare the prices and decide that this store has the best quality for the least money.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "has",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c17",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "d1",
+        "text": "comparing",
+        "isDistractor": true,
+        "translation": "comparando"
+      },
+      {
+        "id": "d2",
+        "text": "decides",
+        "isDistractor": true,
+        "translation": "decide"
+      },
+      {
+        "id": "c16",
+        "text": "least",
+        "isDistractor": false,
+        "translation": "menos"
+      },
+      {
+        "id": "c7",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d4",
+        "text": "analyze",
+        "isDistractor": true,
+        "translation": "analizan"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c5",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "c2",
+        "text": "compare",
+        "isDistractor": false,
+        "translation": "comparamos"
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d6",
+        "text": "offers",
+        "isDistractor": true,
+        "translation": "ofertas"
+      },
+      {
+        "id": "c4",
+        "text": "prices",
+        "isDistractor": false,
+        "translation": "precios"
+      },
+      {
+        "id": "c15",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c13",
+        "text": "quality",
+        "isDistractor": false,
+        "translation": "calidad"
+      },
+      {
+        "id": "c6",
+        "text": "decide",
+        "isDistractor": false,
+        "translation": "decidimos"
+      },
+      {
+        "id": "c12",
+        "text": "best",
+        "isDistractor": false,
+        "translation": "mejor"
+      },
+      {
+        "id": "c9",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c14",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "d5",
+        "text": "shop",
+        "isDistractor": true,
+        "translation": "tienda"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "compare": "comparamos",
+      "the": "(artículo)",
+      "prices": "precios",
+      "and": "y",
+      "decide": "decidimos",
+      "that": "que",
+      "this": "esta",
+      "store": "tienda",
+      "has": "(presente)",
+      "best": "mejor",
+      "quality": "calidad",
+      "for": "por",
+      "least": "menos",
+      "money": "dinero",
+      "comparing": "comparando",
+      "decides": "decide",
+      "they": "ellos",
+      "analyze": "analizan",
+      "shop": "tienda",
+      "offers": "ofertas"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Esta camisa",
+      "Verbo: ser (present tense)",
+      "Complemento: no tan cómoda como la que exploré ayer",
+      "Tiempo: ayer"
+    ],
+    "hintDisplay": "Sujeto: Esta camisa / Verbo: ser (present tense) / Complemento: no tan cómoda como la que exploré ayer / Tiempo: ayer",
+    "spanishSentence": "Esta camisa no es tan cómoda como la que exploré ayer.",
+    "correctSentence": "This shirt is not as comfortable as the one I browsed yesterday.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "explored",
+        "isDistractor": true,
+        "translation": "exploré"
+      },
+      {
+        "id": "c5",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c12",
+        "text": "yesterday",
+        "isDistractor": false,
+        "translation": "ayer"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente de ser/estar)"
+      },
+      {
+        "id": "c2",
+        "text": "shirt",
+        "isDistractor": false,
+        "translation": "camisa"
+      },
+      {
+        "id": "c9",
+        "text": "one",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c11",
+        "text": "browsed",
+        "isDistractor": false,
+        "translation": "exploré"
+      },
+      {
+        "id": "d3",
+        "text": "that",
+        "isDistractor": true,
+        "translation": "que"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d5",
+        "text": "more",
+        "isDistractor": true,
+        "translation": "más"
+      },
+      {
+        "id": "d6",
+        "text": "browsing",
+        "isDistractor": true,
+        "translation": "explorando"
+      },
+      {
+        "id": "d4",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(pasado de ser/estar)"
+      },
+      {
+        "id": "d2",
+        "text": "shirts",
+        "isDistractor": true,
+        "translation": "camisas"
+      },
+      {
+        "id": "c1",
+        "text": "This",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "c7",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "c6",
+        "text": "comfortable",
+        "isDistractor": false,
+        "translation": "cómoda"
+      },
+      {
+        "id": "c10",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      }
+    ],
+    "translations": {
+      "this": "esta",
+      "shirt": "camisa",
+      "is": "(presente de ser/estar)",
+      "not": "no",
+      "as": "tan",
+      "comfortable": "cómoda",
+      "the": "(artículo)",
+      "one": "la",
+      "i": "yo",
+      "browsed": "exploré",
+      "yesterday": "ayer",
+      "explored": "exploré",
+      "shirts": "camisas",
+      "that": "que",
+      "was": "(pasado de ser/estar)",
+      "more": "más",
+      "browsing": "explorando"
     },
     "metadata": {
       "tense": "comparatives and superlatives",
@@ -116,331 +525,161 @@
   },
   {
     "hints": [
-      "Sujeto: la vendedora",
-      "Verbo: asistir",
-      "Complemento: a clientes con las opciones de compra más asequibles"
+      "Sujeto: Los clientes",
+      "Verbo: estar (presente continuo)",
+      "Verbo: buscar",
+      "Complemento: artículos/productos",
+      "Complemento: tan caros como",
+      "Complemento: productos de marca de lujo"
     ],
-    "hintDisplay": "Sujeto: la vendedora / Verbo: asistir / Complemento: a clientes con las opciones de compra más asequibles",
-    "spanishSentence": "La vendedora asiste a los clientes con las opciones de compra más asequibles en la tienda.",
-    "correctSentence": "The salesperson assists customers with the most affordable shopping options in the store.",
+    "hintDisplay": "Sujeto: Los clientes / Verbo: estar (presente continuo) / Verbo: buscar / Complemento: artículos/productos / Complemento: tan caros como / Complemento: productos de marca de lujo",
+    "spanishSentence": "Los clientes no están buscando artículos tan caros como los productos de marca de lujo.",
+    "correctSentence": "The customers are not searching for items as expensive as the luxury brand products.",
     "cards": [
+      {
+        "id": "c9",
+        "text": "expensive",
+        "isDistractor": false,
+        "translation": "caros"
+      },
       {
         "id": "c1",
         "text": "The",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c2",
-        "text": "salesperson",
-        "isDistractor": false
+        "id": "d5",
+        "text": "those",
+        "isDistractor": true,
+        "translation": "aquellos"
       },
       {
         "id": "c3",
-        "text": "assists",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "customers",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "most",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "affordable",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "shopping",
-        "isDistractor": false
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente)"
       },
       {
         "id": "c10",
-        "text": "options",
-        "isDistractor": false
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
       },
       {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false
+        "id": "c8",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "d4",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "d1",
+        "text": "seeking",
+        "isDistractor": true,
+        "translation": "buscando"
+      },
+      {
+        "id": "c6",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "d6",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "eran"
       },
       {
         "id": "c12",
-        "text": "the",
-        "isDistractor": false
+        "text": "luxury",
+        "isDistractor": false,
+        "translation": "lujo"
       },
       {
         "id": "c13",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "least",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "expensively",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "helps",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "cheaper",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "salesperson": "vendedora",
-      "assists": "asiste",
-      "customers": "clientes",
-      "with": "con",
-      "most": "más",
-      "affordable": "asequibles",
-      "shopping": "compra",
-      "options": "opciones",
-      "in": "en",
-      "store": "tienda"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Laura",
-      "Verbo: recomendar",
-      "Complemento: la marca más cara de todas las tiendas"
-    ],
-    "hintDisplay": "Sujeto: Laura / Verbo: recomendar / Complemento: la marca más cara de todas las tiendas",
-    "spanishSentence": "Laura recomienda la marca más cara de todas las tiendas.",
-    "correctSentence": "Laura recommends the most expensive brand in all the stores.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Laura",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "recommends",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "most",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
         "text": "brand",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "all",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "stores",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "suggests",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cheapest",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "more",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "products",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "laura": "Laura",
-      "recommends": "recomienda",
-      "the": "la/el",
-      "most": "más",
-      "expensive": "cara",
-      "brand": "marca",
-      "in": "en",
-      "all": "todas",
-      "stores": "tiendas"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cajera",
-      "Verbo: contar",
-      "Complemento: los billetes más rápidamente que su colega"
-    ],
-    "hintDisplay": "Sujeto: la cajera / Verbo: contar / Complemento: los billetes más rápidamente que su colega",
-    "spanishSentence": "La cajera cuenta los billetes más rápidamente que su colega.",
-    "correctSentence": "The cashier counts the bills more quickly than her colleague.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "marca"
       },
       {
         "id": "c2",
-        "text": "cashier",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "counts",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "bills",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "quickly",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "than",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "her",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "colleague",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "slower",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "customer",
-        "isDistractor": true
+        "text": "customers",
+        "isDistractor": false,
+        "translation": "clientes"
       },
       {
         "id": "d3",
-        "text": "coins",
-        "isDistractor": true
+        "text": "wanting",
+        "isDistractor": true,
+        "translation": "queriendo"
       },
       {
-        "id": "d4",
-        "text": "counts",
-        "isDistractor": true
+        "id": "c14",
+        "text": "products",
+        "isDistractor": false,
+        "translation": "productos"
       },
       {
-        "id": "d5",
-        "text": "less",
-        "isDistractor": true
+        "id": "c5",
+        "text": "searching",
+        "isDistractor": false,
+        "translation": "buscando"
+      },
+      {
+        "id": "c7",
+        "text": "items",
+        "isDistractor": false,
+        "translation": "artículos"
+      },
+      {
+        "id": "d2",
+        "text": "buying",
+        "isDistractor": true,
+        "translation": "comprando"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
       }
     ],
     "translations": {
-      "the": "la/el/los/las",
-      "cashier": "cajera",
-      "counts": "cuenta",
-      "bills": "billetes",
-      "more": "más",
-      "quickly": "rápidamente",
-      "than": "que",
-      "her": "su",
-      "colleague": "colega"
+      "the": "(artículo)",
+      "customers": "clientes",
+      "are": "(presente)",
+      "not": "no",
+      "searching": "buscando",
+      "for": "por",
+      "items": "artículos",
+      "as": "tan",
+      "expensive": "caros",
+      "luxury": "lujo",
+      "brand": "marca",
+      "products": "productos",
+      "seeking": "buscando",
+      "buying": "comprando",
+      "wanting": "queriendo",
+      "them": "los",
+      "those": "aquellos",
+      "were": "eran"
     },
     "metadata": {
       "tense": "comparatives and superlatives",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "shopping"
@@ -448,116 +687,132 @@
   },
   {
     "hints": [
-      "Sujeto: mi amigo",
-      "Verbo: elegir",
-      "Complemento: la marca más cara en lugar de la más barata"
+      "Sujeto: Mi amigo",
+      "Verbo: Coleccionar (negación)",
+      "Complemento: Los mejores descuentos de compras en la ciudad"
     ],
-    "hintDisplay": "Sujeto: mi amigo / Verbo: elegir / Complemento: la marca más cara en lugar de la más barata",
-    "spanishSentence": "Mi amigo eligió la marca más cara en lugar de la más barata.",
-    "correctSentence": "My friend chose the most expensive brand instead of the cheapest one.",
+    "hintDisplay": "Sujeto: Mi amigo / Verbo: Coleccionar (negación) / Complemento: Los mejores descuentos de compras en la ciudad",
+    "spanishSentence": "Mi amigo no colecciona los mejores descuentos de compras en la ciudad.",
+    "correctSentence": "My friend doesn't collect the best shopping deals in town.",
     "cards": [
       {
-        "id": "c1",
-        "text": "My",
-        "isDistractor": false
+        "id": "c7",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "compras"
+      },
+      {
+        "id": "c9",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "deals",
+        "isDistractor": false,
+        "translation": "descuentos"
       },
       {
         "id": "c2",
         "text": "friend",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "chose",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "most",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "brand",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "instead",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "of",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "amigo"
       },
       {
         "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "cheapest",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "one",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "selected",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "least",
-        "isDistractor": true
+        "text": "town",
+        "isDistractor": false,
+        "translation": "ciudad"
       },
       {
         "id": "d3",
-        "text": "rather",
-        "isDistractor": true
+        "text": "gathers",
+        "isDistractor": true,
+        "translation": "recopila"
       },
       {
-        "id": "d4",
-        "text": "more",
-        "isDistractor": true
+        "id": "c6",
+        "text": "best",
+        "isDistractor": false,
+        "translation": "mejores"
       },
       {
         "id": "d5",
-        "text": "product",
-        "isDistractor": true
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d6",
+        "text": "won't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c3",
+        "text": "doesn't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d1",
+        "text": "collecting",
+        "isDistractor": true,
+        "translation": "coleccionando"
+      },
+      {
+        "id": "d4",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c4",
+        "text": "collect",
+        "isDistractor": false,
+        "translation": "colecciona"
+      },
+      {
+        "id": "d2",
+        "text": "collects",
+        "isDistractor": true,
+        "translation": "colecciona"
+      },
+      {
+        "id": "c1",
+        "text": "My",
+        "isDistractor": false,
+        "translation": "mi"
       }
     ],
     "translations": {
       "my": "mi",
       "friend": "amigo",
-      "chose": "eligió",
-      "the": "la/el",
-      "most": "más",
-      "expensive": "cara",
-      "brand": "marca",
-      "instead": "en lugar",
-      "of": "de",
-      "cheapest": "más barata",
-      "one": "una"
+      "doesn't": "(auxiliar)",
+      "collect": "colecciona",
+      "the": "(artículo)",
+      "best": "mejores",
+      "shopping": "compras",
+      "deals": "descuentos",
+      "in": "en",
+      "town": "ciudad",
+      "collecting": "coleccionando",
+      "collects": "colecciona",
+      "gathers": "recopila",
+      "their": "su",
+      "does": "(auxiliar)",
+      "won't": "(auxiliar)"
     },
     "metadata": {
       "tense": "comparatives and superlatives",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "shopping"
@@ -565,216 +820,142 @@
   },
   {
     "hints": [
-      "Sujeto: yo",
-      "Verbo: ahorrar",
-      "Complemento: más dinero en las rebajas que en las tiendas normales"
+      "Sujeto: Yo",
+      "Verbo: Ahorrar",
+      "Complemento: la mayor cantidad de dinero",
+      "Complemento: cuando compro durante la venta anual",
+      "Tiempo: durante la venta anual"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: ahorrar / Complemento: más dinero en las rebajas que en las tiendas normales",
-    "spanishSentence": "No ahorro más dinero en las rebajas que en las tiendas normales.",
-    "correctSentence": "I do not save more money at sales than at regular stores.",
+    "hintDisplay": "Sujeto: Yo / Verbo: Ahorrar / Complemento: la mayor cantidad de dinero / Complemento: cuando compro durante la venta anual / Tiempo: durante la venta anual",
+    "spanishSentence": "Ahorro la mayor cantidad de dinero cuando compro durante la venta anual.",
+    "correctSentence": "I save the most money when I shop during the annual sale.",
     "cards": [
       {
-        "id": "c1",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "do",
-        "isDistractor": false
+        "id": "c5",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
       },
       {
         "id": "c3",
-        "text": "not",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c4",
-        "text": "save",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "sales",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "than",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "regular",
-        "isDistractor": false
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
       },
       {
         "id": "c12",
-        "text": "stores",
-        "isDistractor": false
+        "text": "sale",
+        "isDistractor": false,
+        "translation": "venta"
+      },
+      {
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "d4",
+        "text": "loose",
+        "isDistractor": true,
+        "translation": "suelto"
+      },
+      {
+        "id": "c4",
+        "text": "most",
+        "isDistractor": false,
+        "translation": "la mayor cantidad de"
+      },
+      {
+        "id": "d6",
+        "text": "often",
+        "isDistractor": true,
+        "translation": "a menudo"
+      },
+      {
+        "id": "c8",
+        "text": "shop",
+        "isDistractor": false,
+        "translation": "compro"
+      },
+      {
+        "id": "d3",
+        "text": "selling",
+        "isDistractor": true,
+        "translation": "vendiendo"
+      },
+      {
+        "id": "c7",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "save",
+        "isDistractor": false,
+        "translation": "ahorro"
+      },
+      {
+        "id": "c9",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "d5",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "(presente)"
       },
       {
         "id": "d1",
         "text": "spend",
-        "isDistractor": true
+        "isDistractor": true,
+        "translation": "gasto"
       },
       {
-        "id": "d2",
-        "text": "less",
-        "isDistractor": true
+        "id": "c11",
+        "text": "annual",
+        "isDistractor": false,
+        "translation": "anual"
       },
       {
-        "id": "d3",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "discounts",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "nor",
-        "isDistractor": true
+        "id": "c6",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
       }
     ],
     "translations": {
       "i": "yo",
-      "do": "hago",
-      "not": "no",
       "save": "ahorro",
-      "more": "más",
+      "the": "(artículo)",
+      "most": "la mayor cantidad de",
       "money": "dinero",
-      "at": "en",
-      "sales": "rebajas",
-      "than": "que",
-      "regular": "normales",
-      "stores": "tiendas"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la clienta",
-      "Verbo: comprar",
-      "Complemento: los artículos más baratos en la tienda"
-    ],
-    "hintDisplay": "Sujeto: la clienta / Verbo: comprar / Complemento: los artículos más baratos en la tienda",
-    "spanishSentence": "La clienta siempre compra los artículos más baratos en la tienda.",
-    "correctSentence": "The customer always buys the cheapest items in the store.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "always",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "buys",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "cheapest",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "items",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "sells",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "most",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "cheaper",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "products",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "customer": "clienta",
-      "always": "siempre",
-      "buys": "compra",
-      "cheapest": "más baratos",
-      "items": "artículos",
-      "in": "en",
-      "store": "tienda"
+      "when": "cuando",
+      "shop": "compro",
+      "during": "durante",
+      "annual": "anual",
+      "sale": "venta",
+      "spend": "gasto",
+      "he": "él",
+      "selling": "vendiendo",
+      "loose": "suelto",
+      "am": "(presente)",
+      "often": "a menudo"
     },
     "metadata": {
       "tense": "comparatives and superlatives",
@@ -786,222 +967,142 @@
   },
   {
     "hints": [
-      "Sujeto: la clienta",
-      "Verbo: probar (try on)",
-      "Complemento: los vestidos más elegantes de la tienda",
-      "Negación: no (doesn't)"
+      "Sujeto: Esta camisa",
+      "Verbo: ser (estar en negación)",
+      "Complemento: más barata que la que te probaste antes"
     ],
-    "hintDisplay": "Sujeto: la clienta / Verbo: probar (try on) / Complemento: los vestidos más elegantes de la tienda / Negación: no (doesn't)",
-    "spanishSentence": "La clienta no se prueba los vestidos más elegantes de la tienda.",
-    "correctSentence": "The customer doesn't try on the most elegant dresses in the store.",
+    "hintDisplay": "Sujeto: Esta camisa / Verbo: ser (estar en negación) / Complemento: más barata que la que te probaste antes",
+    "spanishSentence": "Esta camisa no es más barata que la que te probaste antes.",
+    "correctSentence": "This shirt is not cheaper than the one you tried on earlier.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
+        "id": "d3",
+        "text": "that",
+        "isDistractor": true,
+        "translation": "esa"
       },
       {
-        "id": "c2",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "doesn't",
-        "isDistractor": false
+        "id": "d1",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
       },
       {
         "id": "c4",
-        "text": "try",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "most",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "elegant",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "dresses",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
       },
       {
         "id": "c12",
-        "text": "store",
-        "isDistractor": false
+        "text": "earlier",
+        "isDistractor": false,
+        "translation": "antes"
       },
-      {
-        "id": "d1",
-        "text": "tries",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "prettiest",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "put",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "most",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "customer": "clienta",
-      "try": "probar",
-      "on": "se",
-      "most": "más",
-      "elegant": "elegantes",
-      "dresses": "vestidos",
-      "in": "en",
-      "store": "tienda"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Olga",
-      "Verbo: embolsar (bag)",
-      "Complemento: la bolsa más cara de la tienda",
-      "Estructura: superlativo (the most expensive)"
-    ],
-    "hintDisplay": "Sujeto: Olga / Verbo: embolsar (bag) / Complemento: la bolsa más cara de la tienda / Estructura: superlativo (the most expensive)",
-    "spanishSentence": "Olga no embolsó la bolsa más cara de la tienda.",
-    "correctSentence": "Olga did not bag the most expensive bag in the store.",
-    "cards": [
       {
         "id": "c1",
-        "text": "Olga",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "did",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "bag",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "most",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "bag",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false
+        "text": "This",
+        "isDistractor": false,
+        "translation": "esta"
       },
       {
         "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "packed",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "least",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "cheapest",
-        "isDistractor": true
+        "text": "tried",
+        "isDistractor": false,
+        "translation": "probaste"
       },
       {
         "id": "d4",
-        "text": "at",
-        "isDistractor": true
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
+      },
+      {
+        "id": "c6",
+        "text": "than",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c11",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "prueba"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d5",
-        "text": "was",
-        "isDistractor": true
+        "text": "buying",
+        "isDistractor": true,
+        "translation": "comprar"
+      },
+      {
+        "id": "c2",
+        "text": "shirt",
+        "isDistractor": false,
+        "translation": "camisa"
+      },
+      {
+        "id": "c8",
+        "text": "one",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c9",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "te"
+      },
+      {
+        "id": "d6",
+        "text": "skirt",
+        "isDistractor": true,
+        "translation": "falda"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c5",
+        "text": "cheaper",
+        "isDistractor": false,
+        "translation": "más barata"
+      },
+      {
+        "id": "d2",
+        "text": "expensive",
+        "isDistractor": true,
+        "translation": "caras"
       }
     ],
     "translations": {
-      "olga": "Olga",
-      "did": "hizo",
+      "this": "esta",
+      "shirt": "camisa",
+      "is": "(presente)",
       "not": "no",
-      "bag": "embolsó",
-      "the": "la/el",
-      "most": "más",
-      "expensive": "cara",
-      "in": "en",
-      "store": "tienda"
+      "cheaper": "más barata",
+      "than": "que",
+      "the": "(artículo)",
+      "one": "la",
+      "you": "te",
+      "tried": "probaste",
+      "on": "prueba",
+      "earlier": "antes",
+      "were": "(pasado)",
+      "expensive": "caras",
+      "that": "esa",
+      "him": "le",
+      "buying": "comprar",
+      "skirt": "falda"
     },
     "metadata": {
       "tense": "comparatives and superlatives",
@@ -1013,107 +1114,426 @@
   },
   {
     "hints": [
-      "Sujeto: yo",
-      "Verbo: elegir/coger",
-      "Complemento: las marcas más caras",
-      "Negación: no"
+      "Sujeto: Yo (como gerente de la tienda)",
+      "Verbo: Supervisar (presente simple)",
+      "Complemento: a los cajeros",
+      "Complemento: porque son más eficientes que los otros empleados"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: elegir/coger / Complemento: las marcas más caras / Negación: no",
-    "spanishSentence": "No elijo las marcas más caras cuando compro ropa.",
-    "correctSentence": "I don't pick the most expensive brands when shopping for clothes.",
+    "hintDisplay": "Sujeto: Yo (como gerente de la tienda) / Verbo: Supervisar (presente simple) / Complemento: a los cajeros / Complemento: porque son más eficientes que los otros empleados",
+    "spanishSentence": "Como gerente de la tienda, superviso a los cajeros porque son más eficientes que los otros empleados.",
+    "correctSentence": "As the store manager, I supervise the cashiers because they are more efficient than the other employees.",
     "cards": [
+      {
+        "id": "c17",
+        "text": "employees",
+        "isDistractor": false,
+        "translation": "empleados"
+      },
+      {
+        "id": "c11",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c12",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "c15",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c6",
+        "text": "supervise",
+        "isDistractor": false,
+        "translation": "superviso"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c16",
+        "text": "other",
+        "isDistractor": false,
+        "translation": "otros"
+      },
+      {
+        "id": "c4",
+        "text": "manager",
+        "isDistractor": false,
+        "translation": "gerente"
+      },
+      {
+        "id": "c9",
+        "text": "because",
+        "isDistractor": false,
+        "translation": "porque"
+      },
+      {
+        "id": "c13",
+        "text": "efficient",
+        "isDistractor": false,
+        "translation": "eficientes"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c1",
+        "text": "As",
+        "isDistractor": false,
+        "translation": "como"
+      },
+      {
+        "id": "c3",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "d1",
+        "text": "supervised",
+        "isDistractor": true,
+        "translation": "supervisados"
+      },
+      {
+        "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c10",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c14",
+        "text": "than",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d2",
+        "text": "supervising",
+        "isDistractor": true,
+        "translation": "supervisando"
+      },
+      {
+        "id": "c8",
+        "text": "cashiers",
+        "isDistractor": false,
+        "translation": "cajeros"
+      }
+    ],
+    "translations": {
+      "as": "como",
+      "the": "(artículo)",
+      "store": "tienda",
+      "manager": "gerente",
+      "i": "yo",
+      "supervise": "superviso",
+      "cashiers": "cajeros",
+      "because": "porque",
+      "they": "ellos",
+      "are": "(presente)",
+      "more": "más",
+      "efficient": "eficientes",
+      "than": "que",
+      "other": "otros",
+      "employees": "empleados",
+      "supervised": "supervisados",
+      "supervising": "supervisando",
+      "them": "los",
+      "were": "(pasado)"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: Elegir",
+      "Complemento: El artículo más barato del estante"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: Elegir / Complemento: El artículo más barato del estante",
+    "spanishSentence": "Elijo el artículo más barato del estante.",
+    "correctSentence": "I pick the cheapest item on the shelf.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "choose",
+        "isDistractor": true,
+        "translation": "elegir"
+      },
+      {
+        "id": "c2",
+        "text": "pick",
+        "isDistractor": false,
+        "translation": "elijo"
+      },
+      {
+        "id": "c4",
+        "text": "cheapest",
+        "isDistractor": false,
+        "translation": "más barato"
+      },
+      {
+        "id": "c5",
+        "text": "item",
+        "isDistractor": false,
+        "translation": "artículo"
+      },
+      {
+        "id": "d6",
+        "text": "most",
+        "isDistractor": true,
+        "translation": "más"
+      },
+      {
+        "id": "d1",
+        "text": "picked",
+        "isDistractor": true,
+        "translation": "elegí"
+      },
+      {
+        "id": "d2",
+        "text": "picking",
+        "isDistractor": true,
+        "translation": "eligiendo"
+      },
+      {
+        "id": "c6",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo determinado)"
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo determinado)"
+      },
       {
         "id": "c1",
         "text": "I",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d3",
+        "text": "me",
+        "isDistractor": true,
+        "translation": "me"
+      },
+      {
+        "id": "c8",
+        "text": "shelf",
+        "isDistractor": false,
+        "translation": "estante"
+      },
+      {
+        "id": "d5",
+        "text": "us",
+        "isDistractor": true,
+        "translation": "nos"
+      }
+    ],
+    "translations": {
+      "i": "yo",
+      "pick": "elijo",
+      "the": "(artículo determinado)",
+      "cheapest": "más barato",
+      "item": "artículo",
+      "on": "en",
+      "shelf": "estante",
+      "picked": "elegí",
+      "picking": "eligiendo",
+      "me": "me",
+      "choose": "elegir",
+      "us": "nos",
+      "most": "más"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Ellos",
+      "Verbo: Comparar (negación)",
+      "Complemento: Esta tienda con la más barata de la ciudad"
+    ],
+    "hintDisplay": "Sujeto: Ellos / Verbo: Comparar (negación) / Complemento: Esta tienda con la más barata de la ciudad",
+    "spanishSentence": "Ellos no comparan esta tienda con la más barata de la ciudad.",
+    "correctSentence": "They don't compare this store to the cheapest one in town.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "compared",
+        "isDistractor": true,
+        "translation": "comparado"
+      },
+      {
+        "id": "d5",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c11",
+        "text": "town",
+        "isDistractor": false,
+        "translation": "ciudad"
+      },
+      {
+        "id": "c1",
+        "text": "They",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c6",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c10",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d1",
+        "text": "compares",
+        "isDistractor": true,
+        "translation": "compara"
+      },
+      {
+        "id": "c5",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c9",
+        "text": "one",
+        "isDistractor": false,
+        "translation": "una"
+      },
+      {
+        "id": "c3",
+        "text": "compare",
+        "isDistractor": false,
+        "translation": "comparan"
+      },
+      {
+        "id": "d2",
+        "text": "doesn't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d4",
+        "text": "comparing",
+        "isDistractor": true,
+        "translation": "comparando"
+      },
+      {
+        "id": "c8",
+        "text": "cheapest",
+        "isDistractor": false,
+        "translation": "más barata"
+      },
+      {
+        "id": "d6",
+        "text": "cheapest's",
+        "isDistractor": true,
+        "translation": "más barata"
       },
       {
         "id": "c2",
         "text": "don't",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "pick",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "most",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "expensive",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c7",
-        "text": "brands",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "when",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "shopping",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "clothes",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "choose",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
         "text": "the",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "d3",
-        "text": "most",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "cheapest",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "while",
-        "isDistractor": true
+        "id": "c4",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "esta"
       }
     ],
     "translations": {
-      "i": "yo",
-      "pick": "elijo/cojo",
-      "the": "el/la/los/las",
-      "most": "más",
-      "expensive": "caras",
-      "brands": "marcas",
-      "when": "cuando",
-      "shopping": "comprar",
-      "for": "por",
-      "clothes": "ropa"
+      "they": "ellos",
+      "don't": "(auxiliar)",
+      "compare": "comparan",
+      "this": "esta",
+      "store": "tienda",
+      "to": "con",
+      "the": "(artículo)",
+      "cheapest": "más barata",
+      "one": "una",
+      "in": "en",
+      "town": "ciudad",
+      "compares": "compara",
+      "doesn't": "(auxiliar)",
+      "compared": "comparado",
+      "comparing": "comparando",
+      "them": "los",
+      "cheapest's": "más barata"
     },
     "metadata": {
       "tense": "comparatives and superlatives",
@@ -1125,224 +1545,143 @@
   },
   {
     "hints": [
-      "Sujeto: mi amiga",
-      "Verbo: gastar",
-      "Complemento: en ropa de diseñador que no es la más asequible"
+      "Sujeto: Esta camisa",
+      "Verbo: ser (estar en presente)",
+      "Complemento: más barata que aquella",
+      "Verbo: comprar (futuro simple)",
+      "Complemento: la (objeto directo)"
     ],
-    "hintDisplay": "Sujeto: mi amiga / Verbo: gastar / Complemento: en ropa de diseñador que no es la más asequible",
-    "spanishSentence": "Mi amiga no gasta menos dinero en ropa de diseñador que yo.",
-    "correctSentence": "My friend doesn't spend less money on designer clothes than I do.",
+    "hintDisplay": "Sujeto: Esta camisa / Verbo: ser (estar en presente) / Complemento: más barata que aquella / Verbo: comprar (futuro simple) / Complemento: la (objeto directo)",
+    "spanishSentence": "Esta camisa es más barata que aquella, así que la compraré.",
+    "correctSentence": "This shirt is cheaper than that one, so I'll buy it.",
     "cards": [
       {
-        "id": "c1",
-        "text": "My",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "friend",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "doesn't",
-        "isDistractor": false
-      },
-      {
         "id": "c4",
-        "text": "spend",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "less",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "designer",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "clothes",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "than",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "do",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "more",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "spends",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "cheapest",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "doesn't",
-        "isDistractor": true,
-        "translation": "no"
-      },
-      {
-        "id": "d5",
-        "text": "save",
-        "isDistractor": true
+        "text": "cheaper",
+        "isDistractor": false,
+        "translation": "más barata"
       },
       {
         "id": "d6",
-        "text": "as",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "my": "mi",
-      "friend": "amiga",
-      "spend": "gasta",
-      "less": "menos",
-      "money": "dinero",
-      "on": "en",
-      "designer": "diseñador",
-      "clothes": "ropa",
-      "than": "que",
-      "i": "yo",
-      "do": "hago"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Juan",
-      "Verbo: recomendar (acción de sugerir)",
-      "Complemento: las tiendas en línea como más económicas que las físicas"
-    ],
-    "hintDisplay": "Sujeto: Juan / Verbo: recomendar (acción de sugerir) / Complemento: las tiendas en línea como más económicas que las físicas",
-    "spanishSentence": "Juan recomienda las tiendas en línea como más económicas que las físicas.",
-    "correctSentence": "Juan recommends online stores as more economical than physical ones.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Juan",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "recommends",
-        "isDistractor": false
+        "text": "was",
+        "isDistractor": true,
+        "translation": "era"
       },
       {
         "id": "c3",
-        "text": "online",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "stores",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "as",
-        "isDistractor": false
+        "text": "is",
+        "isDistractor": false,
+        "translation": "es"
       },
       {
         "id": "c6",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "economical",
-        "isDistractor": false
+        "text": "that",
+        "isDistractor": false,
+        "translation": "aquella"
       },
       {
         "id": "c8",
-        "text": "than",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "physical",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "ones",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "suggests",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cheaper",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "digital",
-        "isDistractor": true
+        "text": "so",
+        "isDistractor": false,
+        "translation": "así que"
       },
       {
         "id": "d4",
-        "text": "brick-and-mortar",
-        "isDistractor": true
+        "text": "expensive",
+        "isDistractor": true,
+        "translation": "cara"
+      },
+      {
+        "id": "c9",
+        "text": "I'll",
+        "isDistractor": false,
+        "translation": "compraré"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c2",
+        "text": "shirt",
+        "isDistractor": false,
+        "translation": "camisa"
+      },
+      {
+        "id": "c5",
+        "text": "than",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d1",
+        "text": "bought",
+        "isDistractor": true,
+        "translation": "compré"
+      },
+      {
+        "id": "c1",
+        "text": "This",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "d2",
+        "text": "buying",
+        "isDistractor": true,
+        "translation": "comprando"
+      },
+      {
+        "id": "c10",
+        "text": "buy",
+        "isDistractor": false,
+        "translation": "comprar"
       },
       {
         "id": "d5",
-        "text": "shops",
-        "isDistractor": true
+        "text": "blouse",
+        "isDistractor": true,
+        "translation": "blusa"
+      },
+      {
+        "id": "c11",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c7",
+        "text": "one",
+        "isDistractor": false,
+        "translation": "una"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       }
     ],
     "translations": {
-      "juan": "Juan",
-      "recommends": "recomienda",
-      "online": "en línea",
-      "stores": "tiendas",
-      "as": "como",
-      "more": "más",
-      "economical": "económicas",
+      "this": "esta",
+      "shirt": "camisa",
+      "is": "es",
+      "cheaper": "más barata",
       "than": "que",
-      "physical": "físicas",
-      "ones": "las"
+      "that": "aquella",
+      "one": "una",
+      "so": "así que",
+      "i'll": "compraré",
+      "buy": "comprar",
+      "it": "la",
+      "bought": "compré",
+      "buying": "comprando",
+      "will": "(futuro)",
+      "expensive": "cara",
+      "blouse": "blusa",
+      "was": "era"
     },
     "metadata": {
       "tense": "comparatives and superlatives",
@@ -1354,684 +1693,684 @@
   },
   {
     "hints": [
-      "Sujeto: la clienta",
-      "Verbo: devolver (retorno de productos)",
-      "Complemento: el vestido más caro que compró en línea",
-      "Comparación: uso de superlativo (the most expensive)"
+      "Sujeto: yo (como gerente de la tienda)",
+      "Verbo: necesitar",
+      "Complemento: organizar la nueva exhibición",
+      "Verbo: estar (en presente)",
+      "Complemento: no tan organizados",
+      "Complemento: comparación con los estantes de la sección frontal"
     ],
-    "hintDisplay": "Sujeto: la clienta / Verbo: devolver / Complemento: el vestido más caro que compró en línea / Comparación: superlativo",
-    "spanishSentence": "La clienta devolvió el vestido más caro que jamás había comprado en línea.",
-    "correctSentence": "The customer returned the most expensive dress she had ever bought online.",
+    "hintDisplay": "Sujeto: yo (como gerente de la tienda) / Verbo: necesitar / Complemento: organizar la nueva exhibición / Verbo: estar (en presente) / Complemento: no tan organizados / Complemento: comparación con los estantes de la sección frontal",
+    "spanishSentence": "Como gerente de la tienda, necesito organizar la nueva exhibición porque estos estantes no están tan organizados como los de la sección frontal.",
+    "correctSentence": "As the store manager, I need to organize the new display because these shelves are not as organized as the ones in the front section.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
+        "id": "c19",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "como"
       },
       {
         "id": "c2",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "returned",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c5",
-        "text": "most",
-        "isDistractor": false
+        "id": "c1",
+        "text": "As",
+        "isDistractor": false,
+        "translation": "como"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c8",
+        "text": "organize",
+        "isDistractor": false,
+        "translation": "organizar"
+      },
+      {
+        "id": "c18",
+        "text": "organized",
+        "isDistractor": false,
+        "translation": "organizados"
       },
       {
         "id": "c6",
-        "text": "expensive",
-        "isDistractor": false
+        "text": "need",
+        "isDistractor": false,
+        "translation": "necesito"
+      },
+      {
+        "id": "c20",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c17",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "como"
+      },
+      {
+        "id": "d4",
+        "text": "those",
+        "isDistractor": true,
+        "translation": "esos"
+      },
+      {
+        "id": "c16",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c11",
+        "text": "display",
+        "isDistractor": false,
+        "translation": "exhibición"
+      },
+      {
+        "id": "c14",
+        "text": "shelves",
+        "isDistractor": false,
+        "translation": "estantes"
+      },
+      {
+        "id": "d1",
+        "text": "organizing",
+        "isDistractor": true,
+        "translation": "organizando"
+      },
+      {
+        "id": "c10",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
+      },
+      {
+        "id": "c24",
+        "text": "front",
+        "isDistractor": false,
+        "translation": "frontal"
+      },
+      {
+        "id": "c12",
+        "text": "because",
+        "isDistractor": false,
+        "translation": "porque"
+      },
+      {
+        "id": "c5",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c21",
+        "text": "ones",
+        "isDistractor": false,
+        "translation": "los"
+      },
+      {
+        "id": "c4",
+        "text": "manager",
+        "isDistractor": false,
+        "translation": "gerente"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c13",
+        "text": "these",
+        "isDistractor": false,
+        "translation": "estos"
+      },
+      {
+        "id": "c15",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "d2",
+        "text": "manages",
+        "isDistractor": true,
+        "translation": "gestiona"
+      },
+      {
+        "id": "c25",
+        "text": "section",
+        "isDistractor": false,
+        "translation": "sección"
+      },
+      {
+        "id": "d5",
+        "text": "fronts",
+        "isDistractor": true,
+        "translation": "frentes"
+      },
+      {
+        "id": "c22",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c3",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c23",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      }
+    ],
+    "translations": {
+      "as": "como",
+      "the": "(artículo)",
+      "store": "tienda",
+      "manager": "gerente",
+      "i": "yo",
+      "need": "necesito",
+      "to": "(marca de infinitivo)",
+      "organize": "organizar",
+      "new": "nueva",
+      "display": "exhibición",
+      "because": "porque",
+      "these": "estos",
+      "shelves": "estantes",
+      "are": "(ser/estar)",
+      "not": "no",
+      "organized": "organizados",
+      "ones": "los",
+      "in": "en",
+      "front": "frontal",
+      "section": "sección",
+      "organizing": "organizando",
+      "manages": "gestiona",
+      "was": "(pasado)",
+      "those": "esos",
+      "fronts": "frentes"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Este producto",
+      "Verbo: tener",
+      "Complemento: un mejor precio",
+      "Complemento: que el que escaneé anteriormente"
+    ],
+    "hintDisplay": "Sujeto: Este producto / Verbo: tener / Complemento: un mejor precio / Complemento: que el que escaneé anteriormente",
+    "spanishSentence": "Este producto tiene un mejor precio que el que escaneé anteriormente.",
+    "correctSentence": "This product has a better price than the one I scanned earlier.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "than",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c11",
+        "text": "scanned",
+        "isDistractor": false,
+        "translation": "escaneé"
+      },
+      {
+        "id": "d2",
+        "text": "scanning",
+        "isDistractor": true,
+        "translation": "escaneando"
+      },
+      {
+        "id": "c3",
+        "text": "has",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c5",
+        "text": "better",
+        "isDistractor": false,
+        "translation": "mejor"
+      },
+      {
+        "id": "d1",
+        "text": "scans",
+        "isDistractor": true,
+        "translation": "escanea"
+      },
+      {
+        "id": "c10",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d6",
+        "text": "worse",
+        "isDistractor": true,
+        "translation": "peor"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c12",
+        "text": "earlier",
+        "isDistractor": false,
+        "translation": "anteriormente"
+      },
+      {
+        "id": "c1",
+        "text": "This",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c6",
+        "text": "price",
+        "isDistractor": false,
+        "translation": "precio"
+      },
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "d4",
+        "text": "that",
+        "isDistractor": true,
+        "translation": "ese"
+      },
+      {
+        "id": "c9",
+        "text": "one",
+        "isDistractor": false,
+        "translation": "uno"
+      },
+      {
+        "id": "c2",
+        "text": "product",
+        "isDistractor": false,
+        "translation": "producto"
+      },
+      {
+        "id": "d5",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "tener"
+      }
+    ],
+    "translations": {
+      "this": "este",
+      "product": "producto",
+      "has": "(presente)",
+      "a": "(artículo indefinido)",
+      "better": "mejor",
+      "price": "precio",
+      "than": "que",
+      "the": "(artículo definido)",
+      "one": "uno",
+      "i": "yo",
+      "scanned": "escaneé",
+      "earlier": "anteriormente",
+      "scans": "escanea",
+      "scanning": "escaneando",
+      "him": "lo",
+      "that": "ese",
+      "have": "tener",
+      "worse": "peor"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Mi amiga",
+      "Verbo: Elegir (pretérito indefinido)",
+      "Complemento: El vestido más hermoso",
+      "Complemento: En el centro comercial"
+    ],
+    "hintDisplay": "Sujeto: Mi amiga / Verbo: Elegir (pretérito indefinido) / Complemento: El vestido más hermoso / Complemento: En el centro comercial",
+    "spanishSentence": "Mi amiga eligió el vestido más hermoso en el centro comercial.",
+    "correctSentence": "My friend chose the most beautiful dress at the shopping mall.",
+    "cards": [
+      {
+        "id": "c10",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "comercial"
+      },
+      {
+        "id": "c8",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "an",
+        "isDistractor": true,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "choose",
+        "isDistractor": true,
+        "translation": "elegir"
+      },
+      {
+        "id": "c6",
+        "text": "beautiful",
+        "isDistractor": false,
+        "translation": "hermoso"
+      },
+      {
+        "id": "c1",
+        "text": "My",
+        "isDistractor": false,
+        "translation": "mi"
       },
       {
         "id": "c7",
         "text": "dress",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "ever",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "online",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "exchanged",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cheapest",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "more",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "sold",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "customer": "clienta",
-      "returned": "devolvió",
-      "most": "más",
-      "expensive": "caro",
-      "dress": "vestido",
-      "she": "ella",
-      "had": "había",
-      "ever": "jamás",
-      "bought": "comprado",
-      "online": "en línea"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cajera",
-      "Verbo: cobrar (comparativo)",
-      "Complemento: por los artículos más caros que su colega"
-    ],
-    "hintDisplay": "Sujeto: la cajera / Verbo: cobrar (comparativo) / Complemento: por los artículos más caros que su colega",
-    "spanishSentence": "La cajera cobra más por los artículos más caros que su colega.",
-    "correctSentence": "The cashier charges more for the most expensive items than her colleague.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "cashier",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "charges",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "more",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "vestido"
       },
       {
         "id": "c5",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
         "text": "most",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "items",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "than",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "her",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "colleague",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "charges",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "prices",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "least",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "cheaper",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "products",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "cashier": "cajera",
-      "charges": "cobra",
-      "more": "más",
-      "for": "por",
-      "most": "más",
-      "expensive": "caros",
-      "items": "artículos",
-      "than": "que",
-      "her": "su",
-      "colleague": "colega"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el vendedor (the salesperson)",
-      "Verbo: envolver (wrap)",
-      "Complemento: los regalos de manera más cuidadosa que sus colegas (the gifts more carefully than his colleagues)",
-      "Tipo de comparación: comparativo (comparative)"
-    ],
-    "hintDisplay": "Sujeto: el vendedor / Verbo: envolver / Complemento: los regalos de manera más cuidadosa que sus colegas / Tipo de comparación: comparativo",
-    "spanishSentence": "El vendedor no envuelve los regalos tan cuidadosamente como sus colegas más experimentados.",
-    "correctSentence": "The salesperson doesn't wrap the gifts as carefully as his more experienced colleagues.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "salesperson",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "doesn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "wrap",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "gifts",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "as",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "carefully",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "as",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "his",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "experienced",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "colleagues",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "box",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "carefully",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "less",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "packages",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "than",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "salesperson": "vendedor",
-      "wrap": "envolver",
-      "gifts": "regalos",
-      "as": "tan/como",
-      "carefully": "cuidadosamente",
-      "his": "su",
-      "more": "más",
-      "experienced": "experimentados",
-      "colleagues": "colegas"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el vendedor",
-      "Verbo: envolver (wrap)",
-      "Complemento: los paquetes de forma más cuidadosa que su colega"
-    ],
-    "hintDisplay": "Sujeto: el vendedor / Verbo: envolver (wrap) / Complemento: los paquetes de forma más cuidadosa que su colega",
-    "spanishSentence": "El vendedor envuelve los paquetes de forma más cuidadosa que su colega.",
-    "correctSentence": "The salesperson wraps the packages more carefully than his colleague.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "salesperson",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "wraps",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "más"
       },
       {
         "id": "c4",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "packages",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "carefully",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "than",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "his",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "colleague",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "wrapping",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d2",
-        "text": "careless",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "most",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "her",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "than",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "salesperson": "vendedor",
-      "wraps": "envuelve",
-      "packages": "paquetes",
-      "more": "más",
-      "carefully": "cuidadosamente",
-      "than": "que",
-      "his": "su",
-      "colleague": "colega"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: elegir (comparativo)",
-      "Complemento: la marca más cara de todas las opciones"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: elegir (comparativo) / Complemento: la marca más cara de todas las opciones",
-    "spanishSentence": "Yo elijo la marca más cara de todas las opciones en la tienda.",
-    "correctSentence": "I pick the most expensive brand of all the options in the store.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "pick",
-        "isDistractor": false
+        "text": "chosen",
+        "isDistractor": true,
+        "translation": "elegido"
       },
       {
         "id": "c3",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "most",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "brand",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "of",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "all",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "options",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cheapest",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "choose",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "more",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "product",
-        "isDistractor": true
+        "text": "chose",
+        "isDistractor": false,
+        "translation": "eligió"
       },
       {
         "id": "d5",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "i": "yo",
-      "pick": "elegir",
-      "the": "el/la/los/las",
-      "most": "más",
-      "expensive": "caro",
-      "brand": "marca",
-      "of": "de",
-      "all": "todos",
-      "options": "opciones",
-      "in": "en",
-      "store": "tienda"
-    },
-    "metadata": {
-      "tense": "comparatives and superlatives",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: mi amiga",
-      "Verbo: ordenar (comparativo)",
-      "Complemento: productos más caros que los míos"
-    ],
-    "hintDisplay": "Sujeto: mi amiga / Verbo: ordenar (comparativo) / Complemento: productos más caros que los míos",
-    "spanishSentence": "Mi amiga ordena productos más caros que los míos en línea.",
-    "correctSentence": "My friend orders more expensive products than mine online.",
-    "cards": [
+        "text": "picked",
+        "isDistractor": true,
+        "translation": "recogió"
+      },
       {
-        "id": "c1",
-        "text": "My",
-        "isDistractor": false
+        "id": "c11",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro"
       },
       {
         "id": "c2",
         "text": "friend",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "orders",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "products",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "than",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "mine",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "online",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cheapest",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "buys",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "amiga"
       },
       {
         "id": "d3",
-        "text": "less",
-        "isDistractor": true
+        "text": "hers",
+        "isDistractor": true,
+        "translation": "suyo"
+      }
+    ],
+    "translations": {
+      "my": "mi",
+      "friend": "amiga",
+      "chose": "eligió",
+      "the": "(artículo)",
+      "most": "más",
+      "beautiful": "hermoso",
+      "dress": "vestido",
+      "at": "en",
+      "shopping": "comercial",
+      "mall": "centro",
+      "choose": "elegir",
+      "chosen": "elegido",
+      "hers": "suyo",
+      "an": "(artículo)",
+      "picked": "recogió"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: buscar",
+      "Complemento: ropa que no sea tan cara como la de la tienda departamental"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: buscar / Complemento: ropa que no sea tan cara como la de la tienda departamental",
+    "spanishSentence": "Buscamos ropa que no sea tan cara como la de la tienda departamental.",
+    "correctSentence": "We look for clothes that are not as expensive as the ones in the department store.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "looked",
+        "isDistractor": true,
+        "translation": "miraron"
       },
       {
-        "id": "d4",
-        "text": "yours",
-        "isDistractor": true
+        "id": "c6",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c4",
+        "text": "clothes",
+        "isDistractor": false,
+        "translation": "ropa"
+      },
+      {
+        "id": "c3",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "d2",
+        "text": "seeking",
+        "isDistractor": true,
+        "translation": "buscando"
+      },
+      {
+        "id": "c16",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c12",
+        "text": "ones",
+        "isDistractor": false,
+        "translation": "las"
+      },
+      {
+        "id": "c2",
+        "text": "look",
+        "isDistractor": false,
+        "translation": "buscamos"
       },
       {
         "id": "d5",
+        "text": "pricey",
+        "isDistractor": true,
+        "translation": "cara"
+      },
+      {
+        "id": "c7",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "las"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c15",
+        "text": "department",
+        "isDistractor": false,
+        "translation": "departamental"
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c8",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c13",
         "text": "in",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d4",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c10",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "c9",
+        "text": "expensive",
+        "isDistractor": false,
+        "translation": "cara"
       },
       {
         "id": "d6",
-        "text": "store",
-        "isDistractor": true
+        "text": "stores",
+        "isDistractor": true,
+        "translation": "tiendas"
       }
     ],
     "translations": {
-      "my": "mi",
-      "friend": "amiga",
-      "orders": "ordena",
-      "more": "más",
-      "expensive": "caros",
-      "products": "productos",
-      "than": "que",
-      "mine": "los míos",
-      "online": "en línea"
+      "we": "nosotros",
+      "look": "buscamos",
+      "for": "por",
+      "clothes": "ropa",
+      "that": "que",
+      "are": "(presente)",
+      "not": "no",
+      "as": "tan",
+      "expensive": "cara",
+      "the": "(artículo)",
+      "ones": "las",
+      "in": "en",
+      "department": "departamental",
+      "store": "tienda",
+      "looked": "miraron",
+      "seeking": "buscando",
+      "them": "las",
+      "does": "(auxiliar)",
+      "pricey": "cara",
+      "stores": "tiendas"
     },
     "metadata": {
       "tense": "comparatives and superlatives",
@@ -2043,106 +2382,364 @@
   },
   {
     "hints": [
-      "Sujeto: yo",
-      "Verbo: comprar (comparativo)",
-      "Complemento: ropa de marca más cara que ropa de tienda"
+      "Sujeto: Yo",
+      "Verbo: Recomendar",
+      "Complemento: esta chaqueta",
+      "Complemento: porque es más resistente que la otra"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: comprar (comparativo) / Complemento: ropa de marca más cara que ropa de tienda",
-    "spanishSentence": "No compro ropa de marca más cara que la de tienda.",
-    "correctSentence": "I do not buy more expensive brand clothing than store clothing.",
+    "hintDisplay": "Sujeto: Yo / Verbo: Recomendar / Complemento: esta chaqueta / Complemento: porque es más resistente que la otra",
+    "spanishSentence": "Recomiendo esta chaqueta porque es más resistente que la otra.",
+    "correctSentence": "I recommend this jacket because it's more durable than the other one.",
     "cards": [
       {
-        "id": "c1",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "do",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "buy",
-        "isDistractor": false
+        "id": "d1",
+        "text": "recommended",
+        "isDistractor": true,
+        "translation": "recomendó"
       },
       {
         "id": "c5",
-        "text": "more",
-        "isDistractor": false
+        "text": "because",
+        "isDistractor": false,
+        "translation": "porque"
+      },
+      {
+        "id": "c3",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "d3",
+        "text": "durably",
+        "isDistractor": true,
+        "translation": "resistentemente"
       },
       {
         "id": "c6",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "brand",
-        "isDistractor": false
+        "text": "it's",
+        "isDistractor": false,
+        "translation": "es"
       },
       {
         "id": "c8",
-        "text": "clothing",
-        "isDistractor": false
+        "text": "durable",
+        "isDistractor": false,
+        "translation": "resistente"
+      },
+      {
+        "id": "d6",
+        "text": "advise",
+        "isDistractor": true,
+        "translation": "aconsejar"
+      },
+      {
+        "id": "c12",
+        "text": "one",
+        "isDistractor": false,
+        "translation": "una"
+      },
+      {
+        "id": "c11",
+        "text": "other",
+        "isDistractor": false,
+        "translation": "otra"
+      },
+      {
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d4",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "d2",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
       },
       {
         "id": "c9",
         "text": "than",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "que"
       },
       {
-        "id": "c10",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "clothing",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cheaper",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "sell",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "affordable",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "less",
-        "isDistractor": true
+        "id": "c7",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
       },
       {
         "id": "d5",
-        "text": "shop",
-        "isDistractor": true
+        "text": "then",
+        "isDistractor": true,
+        "translation": "entonces"
+      },
+      {
+        "id": "c2",
+        "text": "recommend",
+        "isDistractor": false,
+        "translation": "recomiendo"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "jacket",
+        "isDistractor": false,
+        "translation": "chaqueta"
       }
     ],
     "translations": {
       "i": "yo",
-      "buy": "compro",
-      "brand": "marca",
-      "clothing": "ropa",
+      "recommend": "recomiendo",
+      "this": "esta",
+      "jacket": "chaqueta",
+      "because": "porque",
+      "it's": "es",
       "more": "más",
-      "expensive": "cara",
+      "durable": "resistente",
       "than": "que",
+      "the": "(artículo)",
+      "other": "otra",
+      "one": "una",
+      "recommended": "recomendó",
+      "him": "le",
+      "durably": "resistentemente",
+      "was": "(pasado)",
+      "then": "entonces",
+      "advise": "aconsejar"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: gastar",
+      "Complemento: más dinero en esta tienda que en el centro comercial",
+      "Verbo: ser (negación con 'no')",
+      "Complemento: los precios más baratos que los que hay en línea"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: gastar / Complemento: más dinero en esta tienda que en el centro comercial / Verbo: ser (negación con 'no') / Complemento: los precios más baratos que los que hay en línea",
+    "spanishSentence": "No gasto más dinero en esta tienda que en el centro comercial, pero los precios no son más baratos que los que hay en línea.",
+    "correctSentence": "I don't spend more money at this store than I do at the mall, but the prices aren't cheaper than those online.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c16",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c20",
+        "text": "than",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c10",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c7",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "c12",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c2",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d6",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c5",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "c8",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c11",
+        "text": "do",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "d2",
+        "text": "spent",
+        "isDistractor": true,
+        "translation": "gasté"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c6",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d1",
+        "text": "spending",
+        "isDistractor": true,
+        "translation": "gastando"
+      },
+      {
+        "id": "c17",
+        "text": "prices",
+        "isDistractor": false,
+        "translation": "precios"
+      },
+      {
+        "id": "c18",
+        "text": "aren't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c19",
+        "text": "cheaper",
+        "isDistractor": false,
+        "translation": "más baratos"
+      },
+      {
+        "id": "d5",
+        "text": "us",
+        "isDistractor": true,
+        "translation": "nos"
+      },
+      {
+        "id": "c15",
+        "text": "but",
+        "isDistractor": false,
+        "translation": "pero"
+      },
+      {
+        "id": "c21",
+        "text": "those",
+        "isDistractor": false,
+        "translation": "los que"
+      },
+      {
+        "id": "c9",
+        "text": "than",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c14",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro comercial"
+      },
+      {
+        "id": "d4",
+        "text": "spends",
+        "isDistractor": true,
+        "translation": "gasta"
+      },
+      {
+        "id": "c3",
+        "text": "spend",
+        "isDistractor": false,
+        "translation": "gasto"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c22",
+        "text": "online",
+        "isDistractor": false,
+        "translation": "en línea"
+      }
+    ],
+    "translations": {
+      "i": "yo",
+      "don't": "(auxiliar)",
+      "spend": "gasto",
+      "more": "más",
+      "money": "dinero",
+      "at": "en",
+      "this": "esta",
       "store": "tienda",
-      "do": "hacer",
-      "not": "no"
+      "than": "que",
+      "do": "(auxiliar)",
+      "the": "(artículo)",
+      "mall": "centro comercial",
+      "but": "pero",
+      "prices": "precios",
+      "aren't": "(auxiliar)",
+      "cheaper": "más baratos",
+      "those": "los que",
+      "online": "en línea",
+      "spending": "gastando",
+      "spent": "gasté",
+      "them": "los",
+      "spends": "gasta",
+      "us": "nos",
+      "does": "(auxiliar)"
     },
     "metadata": {
       "tense": "comparatives and superlatives",
@@ -2154,113 +2751,460 @@
   },
   {
     "hints": [
-      "Sujeto: mi amiga",
-      "Verbo: comparar",
-      "Complemento: los precios en diferentes tiendas en línea"
+      "Sujeto: Ellos",
+      "Verbo: Comprar",
+      "Complemento: Productos de mejor calidad",
+      "Complemento: Que los que compraban el año pasado",
+      "Tiempo: El año pasado (comparación temporal)"
     ],
-    "hintDisplay": "Sujeto: mi amiga / Verbo: comparar / Complemento: los precios en diferentes tiendas en línea",
-    "spanishSentence": "Mi amiga compara los precios más cuidadosamente que yo cuando compra en línea.",
-    "correctSentence": "My friend compares prices more carefully than I do when shopping online.",
+    "hintDisplay": "Sujeto: Ellos / Verbo: Comprar / Complemento: Productos de mejor calidad / Complemento: Que los que compraban el año pasado / Tiempo: El año pasado (comparación temporal)",
+    "spanishSentence": "Ellos compran productos de mejor calidad que los que compraban el año pasado.",
+    "correctSentence": "They buy better quality products than they did last year.",
     "cards": [
       {
-        "id": "c1",
-        "text": "My",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "friend",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "compares",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "prices",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "carefully",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "than",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "do",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "when",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "shopping",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "online",
-        "isDistractor": false
+        "id": "d3",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
       },
       {
         "id": "d1",
-        "text": "contrasts",
-        "isDistractor": true
+        "text": "bought",
+        "isDistractor": true,
+        "translation": "compraban"
+      },
+      {
+        "id": "c8",
+        "text": "did",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c1",
+        "text": "They",
+        "isDistractor": false,
+        "translation": "ellos"
       },
       {
         "id": "d2",
-        "text": "less",
-        "isDistractor": true
+        "text": "buying",
+        "isDistractor": true,
+        "translation": "comprando"
       },
       {
-        "id": "d3",
-        "text": "careless",
-        "isDistractor": true
+        "id": "c4",
+        "text": "quality",
+        "isDistractor": false,
+        "translation": "calidad"
+      },
+      {
+        "id": "c6",
+        "text": "than",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c10",
+        "text": "year",
+        "isDistractor": false,
+        "translation": "año"
+      },
+      {
+        "id": "c9",
+        "text": "last",
+        "isDistractor": false,
+        "translation": "pasado"
+      },
+      {
+        "id": "c2",
+        "text": "buy",
+        "isDistractor": false,
+        "translation": "compran"
+      },
+      {
+        "id": "c5",
+        "text": "products",
+        "isDistractor": false,
+        "translation": "productos"
+      },
+      {
+        "id": "c3",
+        "text": "better",
+        "isDistractor": false,
+        "translation": "mejor"
       },
       {
         "id": "d4",
-        "text": "budgets",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "in",
-        "isDistractor": true
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       }
     ],
     "translations": {
-      "my": "mi",
-      "friend": "amiga",
-      "compares": "compara",
-      "prices": "precios",
-      "more": "más",
-      "carefully": "cuidadosamente",
+      "they": "ellos",
+      "buy": "compran",
+      "better": "mejor",
+      "quality": "calidad",
+      "products": "productos",
       "than": "que",
-      "i": "yo",
-      "do": "hago",
-      "when": "cuando",
-      "shopping": "compras",
-      "online": "en línea"
+      "did": "(auxiliar)",
+      "last": "pasado",
+      "year": "año",
+      "bought": "compraban",
+      "buying": "comprando",
+      "he": "él",
+      "does": "(auxiliar)"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El gerente de la tienda",
+      "Verbo: decir (pasado)",
+      "Complemento: que reabastecer la colección de invierno no es tan consumidor de tiempo como reabastecer los artículos de la venta de verano"
+    ],
+    "hintDisplay": "Sujeto: El gerente de la tienda / Verbo: decir (pasado) / Complemento: que reabastecer la colección de invierno no es tan consumidor de tiempo como reabastecer los artículos de la venta de verano",
+    "spanishSentence": "El gerente de la tienda dijo que reabastecer la colección de invierno no es tan consumidor de tiempo como reabastecer los artículos de la venta de verano.",
+    "correctSentence": "The store manager said that restocking the winter collection is not as time-consuming as restocking the summer sale items.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c14",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "c19",
+        "text": "items",
+        "isDistractor": false,
+        "translation": "artículos"
+      },
+      {
+        "id": "c18",
+        "text": "sale",
+        "isDistractor": false,
+        "translation": "venta"
+      },
+      {
+        "id": "c15",
+        "text": "restocking",
+        "isDistractor": false,
+        "translation": "reabastecer"
+      },
+      {
+        "id": "c6",
+        "text": "restocking",
+        "isDistractor": false,
+        "translation": "reabastecer"
+      },
+      {
+        "id": "c17",
+        "text": "summer",
+        "isDistractor": false,
+        "translation": "verano"
+      },
+      {
+        "id": "c8",
+        "text": "winter",
+        "isDistractor": false,
+        "translation": "invierno"
+      },
+      {
+        "id": "c13",
+        "text": "time-consuming",
+        "isDistractor": false,
+        "translation": "consumidor de tiempo"
+      },
+      {
+        "id": "c10",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c9",
+        "text": "collection",
+        "isDistractor": false,
+        "translation": "colección"
+      },
+      {
+        "id": "c11",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d2",
+        "text": "restocks",
+        "isDistractor": true,
+        "translation": "reabastece"
+      },
+      {
+        "id": "d1",
+        "text": "restocked",
+        "isDistractor": true,
+        "translation": "reabastecido"
+      },
+      {
+        "id": "d5",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pretérito)"
+      },
+      {
+        "id": "d6",
+        "text": "more",
+        "isDistractor": true,
+        "translation": "más"
+      },
+      {
+        "id": "d3",
+        "text": "consuming",
+        "isDistractor": true,
+        "translation": "consumidor"
+      },
+      {
+        "id": "c16",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d4",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c3",
+        "text": "manager",
+        "isDistractor": false,
+        "translation": "gerente"
+      },
+      {
+        "id": "c12",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "tan"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "store": "tienda",
+      "manager": "gerente",
+      "said": "dijo",
+      "that": "que",
+      "restocking": "reabastecer",
+      "winter": "invierno",
+      "collection": "colección",
+      "is": "(presente)",
+      "not": "no",
+      "as": "tan",
+      "time-consuming": "consumidor de tiempo",
+      "summer": "verano",
+      "sale": "venta",
+      "items": "artículos",
+      "restocked": "reabastecido",
+      "restocks": "reabastece",
+      "consuming": "consumidor",
+      "him": "lo",
+      "were": "(pretérito)",
+      "more": "más"
+    },
+    "metadata": {
+      "tense": "comparatives and superlatives",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Nosotros",
+      "Verbo: Comprar",
+      "Complemento: En la mejor tienda del centro comercial",
+      "Complemento: Porque tienen la mayor variedad"
+    ],
+    "hintDisplay": "Sujeto: Nosotros / Verbo: Comprar / Complemento: En la mejor tienda del centro comercial / Complemento: Porque tienen la mayor variedad",
+    "spanishSentence": "Nosotros compramos en la mejor tienda del centro comercial porque tienen la mayor variedad.",
+    "correctSentence": "We shop at the best store in the mall because they have the most variety.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "better",
+        "isDistractor": true,
+        "translation": "mejor"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c6",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c14",
+        "text": "most",
+        "isDistractor": false,
+        "translation": "mayor"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "best",
+        "isDistractor": false,
+        "translation": "mejor"
+      },
+      {
+        "id": "c9",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro comercial"
+      },
+      {
+        "id": "c11",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "d1",
+        "text": "shopped",
+        "isDistractor": true,
+        "translation": "compraron"
+      },
+      {
+        "id": "c12",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "tienen"
+      },
+      {
+        "id": "c7",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c2",
+        "text": "shop",
+        "isDistractor": false,
+        "translation": "compramos"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c15",
+        "text": "variety",
+        "isDistractor": false,
+        "translation": "variedad"
+      },
+      {
+        "id": "c10",
+        "text": "because",
+        "isDistractor": false,
+        "translation": "porque"
+      },
+      {
+        "id": "d4",
+        "text": "shopping",
+        "isDistractor": true,
+        "translation": "compras"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "tiene"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "shop": "compramos",
+      "at": "en",
+      "the": "(artículo)",
+      "best": "mejor",
+      "store": "tienda",
+      "in": "en",
+      "mall": "centro comercial",
+      "because": "porque",
+      "they": "ellos",
+      "have": "tienen",
+      "most": "mayor",
+      "variety": "variedad",
+      "shopped": "compraron",
+      "has": "tiene",
+      "better": "mejor",
+      "shopping": "compras"
     },
     "metadata": {
       "tense": "comparatives and superlatives",

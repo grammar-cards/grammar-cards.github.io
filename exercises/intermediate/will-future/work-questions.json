@@ -1,529 +1,204 @@
 [
   {
     "hints": [
-      "Sujeto: el jefe",
-      "Verbo: delegar (acción futura)",
-      "Complemento: las tareas del proyecto a los colegas",
-      "Tiempo: mañana"
+      "Sujeto: tú (you)",
+      "Verbo: evaluar (will - futuro simple)",
+      "Complemento: el desempeño del equipo",
+      "Tiempo: el próximo mes"
     ],
-    "hintDisplay": "Sujeto: el jefe / Verbo: delegar (acción futura) / Complemento: las tareas del proyecto a los colegas / Tiempo: mañana",
-    "spanishSentence": "¿Delegará el jefe las tareas del proyecto a los colegas mañana?",
-    "correctSentence": "Will the boss delegate the project tasks to colleagues tomorrow?",
+    "hintDisplay": "Sujeto: tú (you) / Verbo: evaluar (will - futuro simple) / Complemento: el desempeño del equipo / Tiempo: el próximo mes",
+    "spanishSentence": "¿Evaluarás el desempeño del equipo el próximo mes?",
+    "correctSentence": "Will you evaluate the team's performance next month?",
     "cards": [
       {
         "id": "c1",
         "text": "Will",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(futuro)"
       },
       {
         "id": "c2",
-        "text": "the",
-        "isDistractor": false
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c8",
+        "text": "month",
+        "isDistractor": false,
+        "translation": "mes"
+      },
+      {
+        "id": "d1",
+        "text": "evaluated",
+        "isDistractor": true,
+        "translation": "evaluado"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
         "id": "c3",
-        "text": "boss",
-        "isDistractor": false
+        "text": "evaluate",
+        "isDistractor": false,
+        "translation": "evaluar"
+      },
+      {
+        "id": "d2",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "sería"
+      },
+      {
+        "id": "c7",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "d3",
+        "text": "assessing",
+        "isDistractor": true,
+        "translation": "evaluando"
+      },
+      {
+        "id": "c6",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "desempeño"
       },
       {
         "id": "c4",
-        "text": "delegate",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "team's",
+        "isDistractor": false,
+        "translation": "del equipo"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "you": "tú",
+      "evaluate": "evaluar",
+      "the": "(artículo)",
+      "team's": "del equipo",
+      "performance": "desempeño",
+      "next": "próximo",
+      "month": "mes",
+      "evaluated": "evaluado",
+      "would": "sería",
+      "assessing": "evaluando"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el empleado",
+      "Verbo: will attend (auxiliar will para futuro)",
+      "Complemento: la reunión de trabajo",
+      "Tiempo: tomorrow"
+    ],
+    "hintDisplay": "Sujeto: el empleado / Verbo: will attend (auxiliar will para futuro) / Complemento: la reunión de trabajo / Tiempo: tomorrow",
+    "spanishSentence": "¿No asistirá el empleado a la reunión de trabajo mañana?",
+    "correctSentence": "Won't the employee attend the work meeting tomorrow?",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "work",
+        "isDistractor": false,
+        "translation": "trabajo"
+      },
+      {
+        "id": "d3",
+        "text": "Doesn't",
+        "isDistractor": true,
+        "translation": "no (presente)"
       },
       {
         "id": "c5",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "project",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "tasks",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c8",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "colleagues",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
         "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "assign",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "manager",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "today",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "reports",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "will": "¿Delegará",
-      "the": "el",
-      "boss": "jefe",
-      "delegate": "delegar",
-      "project": "proyecto",
-      "tasks": "tareas",
-      "to": "a",
-      "colleagues": "colegas",
-      "tomorrow": "mañana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: los empleados",
-      "Verbo: organizar",
-      "Complemento: una reunión con los clientes",
-      "Tiempo: la próxima semana"
-    ],
-    "hintDisplay": "Sujeto: los empleados / Verbo: organizar / Complemento: una reunión con los clientes / Tiempo: la próxima semana",
-    "spanishSentence": "¿Organizarán los empleados una reunión con los clientes la próxima semana?",
-    "correctSentence": "Will the employees organize a meeting with the clients next week?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "mañana"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c3",
-        "text": "employees",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "organize",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "meeting",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "clients",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "prepare",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "colleagues",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "presentation",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "Did",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "will": "¿Organizarán",
-      "the": "los/la",
-      "employees": "empleados",
-      "organize": "organizar",
-      "a": "una",
-      "meeting": "reunión",
-      "with": "con",
-      "clients": "clientes",
-      "next": "próxima",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: contratar (will future)",
-      "Complemento: un nuevo colega para el proyecto",
-      "Tiempo: la próxima semana"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: contratar (will future) / Complemento: un nuevo colega para el proyecto / Tiempo: la próxima semana",
-    "spanishSentence": "¿Contrataré un nuevo colega para el proyecto la próxima semana?",
-    "correctSentence": "Will I hire a new colleague for the project next week?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "hire",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "colleague",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "project",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "fire",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "promote",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "last",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
         "text": "employee",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "will": "¿",
-      "i": "yo",
-      "hire": "contratar",
-      "a": "un",
-      "new": "nuevo",
-      "colleague": "colega",
-      "for": "para",
-      "the": "el",
-      "project": "proyecto",
-      "next": "próxima",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: los empleados",
-      "Verbo: entregar (will future)",
-      "Complemento: el informe al cliente",
-      "Tiempo: antes de la fecha límite"
-    ],
-    "hintDisplay": "Sujeto: los empleados / Verbo: entregar (will future) / Complemento: el informe al cliente / Tiempo: antes de la fecha límite",
-    "spanishSentence": "¿Entregarán los empleados el informe al cliente antes de la fecha límite?",
-    "correctSentence": "Will the employees deliver the report to the client before the deadline?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "employees",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "deliver",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "report",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "client",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "deadline",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "submit",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "empleado"
       },
       {
         "id": "d2",
-        "text": "colleagues",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "manager",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "will": "¿Entregarán",
-      "the": "el/la/los/las",
-      "employees": "empleados",
-      "deliver": "entregar",
-      "report": "informe",
-      "to": "a",
-      "client": "cliente",
-      "before": "antes de",
-      "deadline": "fecha límite"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: aprobar (futuro)",
-      "Complemento: el informe del proyecto antes de la reunión",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: aprobar (futuro) / Complemento: el informe del proyecto antes de la reunión / Tiempo: mañana",
-    "spanishSentence": "¿No aprobaré el informe del proyecto mañana antes de la reunión?",
-    "correctSentence": "Will I not approve the project report tomorrow before the meeting?",
-    "cards": [
-      {
-        "id": "c1",
         "text": "Will",
-        "isDistractor": false
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "not",
-        "isDistractor": false
+        "id": "d1",
+        "text": "Wouldn't",
+        "isDistractor": true,
+        "translation": "no (condicional)"
       },
       {
         "id": "c4",
-        "text": "approve",
-        "isDistractor": false
+        "text": "attend",
+        "isDistractor": false,
+        "translation": "asistir"
       },
       {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
+        "id": "c1",
+        "text": "Won't",
+        "isDistractor": false,
+        "translation": "no (futuro)"
       },
       {
-        "id": "c6",
-        "text": "project",
-        "isDistractor": false
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
         "id": "c7",
-        "text": "report",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
         "text": "meeting",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "reject",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "presentation",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "Did",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "reunión"
       }
     ],
     "translations": {
-      "will": "¿",
-      "i": "yo",
-      "not": "no",
-      "approve": "aprobaré",
-      "the": "el/la",
-      "project": "proyecto",
-      "report": "informe",
+      "won't": "no (futuro)",
+      "the": "(artículo)",
+      "employee": "empleado",
+      "attend": "asistir",
+      "work": "trabajo",
+      "meeting": "reunión",
       "tomorrow": "mañana",
-      "before": "antes de",
-      "meeting": "reunión"
+      "wouldn't": "no (condicional)",
+      "will": "(futuro)",
+      "doesn't": "no (presente)"
     },
     "metadata": {
       "tense": "will future",
@@ -535,90 +210,434 @@
   },
   {
     "hints": [
-      "Sujeto: yo",
-      "Verbo: presentar (will future)",
-      "Complemento: el proyecto al cliente",
+      "Sujeto: el gerente",
+      "Verbo: revisar (negación con auxiliar will)",
+      "Complemento: la propuesta del proyecto",
       "Tiempo: mañana"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: presentar (will future) / Complemento: el proyecto al cliente / Tiempo: mañana",
-    "spanishSentence": "¿Presentaré el proyecto al cliente mañana?",
-    "correctSentence": "Will I present the project to the client tomorrow?",
+    "hintDisplay": "Sujeto: el gerente / Verbo: revisar (negación con auxiliar will) / Complemento: la propuesta del proyecto / Tiempo: mañana",
+    "spanishSentence": "¿No revisará el gerente la propuesta del proyecto mañana?",
+    "correctSentence": "Won't the manager review the project proposal tomorrow?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "present",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "project",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "client",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
         "id": "d1",
-        "text": "submit",
-        "isDistractor": true
+        "text": "reviewing",
+        "isDistractor": true,
+        "translation": "revisando"
       },
       {
         "id": "d2",
-        "text": "next",
-        "isDistractor": true
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c6",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
+      },
+      {
+        "id": "c8",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c7",
+        "text": "proposal",
+        "isDistractor": false,
+        "translation": "propuesta"
+      },
+      {
+        "id": "c3",
+        "text": "manager",
+        "isDistractor": false,
+        "translation": "gerente"
+      },
+      {
+        "id": "c4",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisar"
       },
       {
         "id": "d3",
-        "text": "colleague",
-        "isDistractor": true
+        "text": "didn't",
+        "isDistractor": true,
+        "translation": "no (pasado negativo)"
       },
       {
-        "id": "d4",
-        "text": "Do",
-        "isDistractor": true
+        "id": "c1",
+        "text": "Won't",
+        "isDistractor": false,
+        "translation": "no (futuro negativo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       }
     ],
     "translations": {
-      "will": "presentaré",
-      "i": "yo",
-      "present": "presentar",
-      "the": "el/la",
+      "won't": "no (futuro negativo)",
+      "the": "(artículo)",
+      "manager": "gerente",
+      "review": "revisar",
       "project": "proyecto",
-      "to": "a",
-      "client": "cliente",
-      "tomorrow": "mañana"
+      "proposal": "propuesta",
+      "tomorrow": "mañana",
+      "reviewing": "revisando",
+      "he": "él",
+      "didn't": "no (pasado negativo)"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el pasante",
+      "Verbo: preparar (futuro con auxiliar negativo)",
+      "Complemento: el informe",
+      "Complemento: para la reunión",
+      "Tiempo: mañana"
+    ],
+    "hintDisplay": "Sujeto: el pasante / Verbo: preparar (futuro con auxiliar negativo) / Complemento: el informe / Complemento: para la reunión / Tiempo: mañana",
+    "spanishSentence": "¿No preparará el pasante el informe para la reunión de mañana?",
+    "correctSentence": "Won't the intern prepare the report for tomorrow's meeting?",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "prepare",
+        "isDistractor": false,
+        "translation": "preparar"
+      },
+      {
+        "id": "c7",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c3",
+        "text": "intern",
+        "isDistractor": false,
+        "translation": "pasante"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c6",
+        "text": "report",
+        "isDistractor": false,
+        "translation": "informe"
+      },
+      {
+        "id": "d3",
+        "text": "prepared",
+        "isDistractor": true,
+        "translation": "preparado"
+      },
+      {
+        "id": "c8",
+        "text": "tomorrow's",
+        "isDistractor": false,
+        "translation": "de mañana"
+      },
+      {
+        "id": "d1",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d2",
+        "text": "Wouldn't",
+        "isDistractor": true,
+        "translation": "(condicional negativo)"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "Won't",
+        "isDistractor": false,
+        "translation": "(futuro negativo)"
+      },
+      {
+        "id": "c9",
+        "text": "meeting",
+        "isDistractor": false,
+        "translation": "reunión"
+      }
+    ],
+    "translations": {
+      "won't": "(futuro negativo)",
+      "the": "(artículo)",
+      "intern": "pasante",
+      "prepare": "preparar",
+      "report": "informe",
+      "for": "para",
+      "tomorrow's": "de mañana",
+      "meeting": "reunión",
+      "would": "(condicional)",
+      "wouldn't": "(condicional negativo)",
+      "prepared": "preparado"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la secretaria",
+      "Verbo: will schedule (futuro simple)",
+      "Complemento: la reunión",
+      "Tiempo: para la próxima semana"
+    ],
+    "hintDisplay": "Sujeto: la secretaria / Verbo: will schedule (futuro simple) / Complemento: la reunión / Tiempo: para la próxima semana",
+    "spanishSentence": "¿Programará la secretaria la reunión para la próxima semana?",
+    "correctSentence": "Will the secretary schedule the meeting for next week?",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "meeting",
+        "isDistractor": false,
+        "translation": "reunión"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "d1",
+        "text": "scheduled",
+        "isDistractor": true,
+        "translation": "programada"
+      },
+      {
+        "id": "d3",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c8",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próxima"
+      },
+      {
+        "id": "c7",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c3",
+        "text": "secretary",
+        "isDistractor": false,
+        "translation": "secretaria"
+      },
+      {
+        "id": "d2",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
+      },
+      {
+        "id": "c4",
+        "text": "schedule",
+        "isDistractor": false,
+        "translation": "programar"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "secretary": "secretaria",
+      "schedule": "programar",
+      "meeting": "reunión",
+      "for": "para",
+      "next": "próxima",
+      "week": "semana",
+      "scheduled": "programada",
+      "him": "le",
+      "would": "(condicional)"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: colaborar (futuro con auxiliar modal)",
+      "Complemento: en este proyecto",
+      "Tiempo: la próxima semana"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: colaborar (futuro con auxiliar modal) / Complemento: en este proyecto / Tiempo: la próxima semana",
+    "spanishSentence": "¿Colaborará el equipo en este proyecto la próxima semana?",
+    "correctSentence": "Will the team collaborate on this project next week?",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
+      },
+      {
+        "id": "d3",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c5",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c6",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c4",
+        "text": "collaborate",
+        "isDistractor": false,
+        "translation": "colaborar"
+      },
+      {
+        "id": "d1",
+        "text": "collaborated",
+        "isDistractor": true,
+        "translation": "colaboró"
+      },
+      {
+        "id": "d2",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c9",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "c8",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "team": "equipo",
+      "collaborate": "colaborar",
+      "on": "en",
+      "this": "este",
+      "project": "proyecto",
+      "next": "próximo",
+      "week": "semana",
+      "collaborated": "colaboró",
+      "they": "ellos",
+      "does": "(auxiliar)"
     },
     "metadata": {
       "tense": "will future",
@@ -631,377 +650,437 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: organizar (organize)",
-      "Complemento: una reunión con el cliente",
-      "Tiempo: la próxima semana"
+      "Verbo: colaborar (futuro)",
+      "Complemento: en este proyecto",
+      "Complemento: juntos"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: organizar (organize) / Complemento: una reunión con el cliente / Tiempo: la próxima semana",
-    "spanishSentence": "¿Organizaremos una reunión con el cliente la próxima semana?",
-    "correctSentence": "Will we organize a meeting with the client next week?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: colaborar (futuro) / Complemento: en este proyecto / Complemento: juntos",
+    "spanishSentence": "¿Colaboraremos juntos en este proyecto?",
+    "correctSentence": "Will we collaborate on this project together?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
+        "id": "c5",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
       },
       {
         "id": "c2",
         "text": "we",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "nosotros"
       },
       {
-        "id": "c3",
-        "text": "organize",
-        "isDistractor": false
+        "id": "d3",
+        "text": "Collaborated",
+        "isDistractor": true,
+        "translation": "colaboraron"
       },
       {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
       },
       {
-        "id": "c5",
-        "text": "meeting",
-        "isDistractor": false
+        "id": "d1",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "condicional"
       },
       {
-        "id": "c6",
-        "text": "with",
-        "isDistractor": false
+        "id": "d2",
+        "text": "Are",
+        "isDistractor": true,
+        "translation": "(ser/estar presente)"
       },
       {
         "id": "c7",
+        "text": "together",
+        "isDistractor": false,
+        "translation": "juntos"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c4",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c3",
+        "text": "collaborate",
+        "isDistractor": false,
+        "translation": "colaborar"
+      },
+      {
+        "id": "c6",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "we": "nosotros",
+      "collaborate": "colaborar",
+      "on": "en",
+      "this": "este",
+      "project": "proyecto",
+      "together": "juntos",
+      "would": "condicional",
+      "are": "(ser/estar presente)",
+      "collaborated": "colaboraron"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: presentar (will - futuro con auxiliar modal)",
+      "Complemento: el informe del proyecto",
+      "Tiempo: antes del viernes"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: presentar (will - futuro con auxiliar modal) / Complemento: el informe del proyecto / Tiempo: antes del viernes",
+    "spanishSentence": "¿Presentarán ellos el informe del proyecto antes del viernes?",
+    "correctSentence": "Will they submit the project report by Friday?",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c4",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "by",
+        "isDistractor": false,
+        "translation": "antes de"
       },
       {
         "id": "c8",
-        "text": "client",
-        "isDistractor": false
+        "text": "Friday",
+        "isDistractor": false,
+        "translation": "viernes"
+      },
+      {
+        "id": "c3",
+        "text": "submit",
+        "isDistractor": false,
+        "translation": "presentar"
+      },
+      {
+        "id": "d2",
+        "text": "submitting",
+        "isDistractor": true,
+        "translation": "presentando"
+      },
+      {
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c6",
+        "text": "report",
+        "isDistractor": false,
+        "translation": "informe"
+      },
+      {
+        "id": "c5",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "they": "ellos",
+      "submit": "presentar",
+      "the": "(artículo)",
+      "project": "proyecto",
+      "report": "informe",
+      "by": "antes de",
+      "friday": "viernes",
+      "would": "(condicional)",
+      "submitting": "presentando",
+      "he": "él"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el pasante",
+      "Verbo: aprender (modal/auxiliar: will - futuro)",
+      "Complemento: nuevas habilidades",
+      "Tiempo: durante el proyecto de trabajo"
+    ],
+    "hintDisplay": "Sujeto: el pasante / Verbo: aprender (modal/auxiliar: will - futuro) / Complemento: nuevas habilidades / Tiempo: durante el proyecto de trabajo",
+    "spanishSentence": "¿Aprenderá el pasante nuevas habilidades durante el proyecto de trabajo?",
+    "correctSentence": "Will the intern learn new skills during the work project?",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "intern",
+        "isDistractor": false,
+        "translation": "pasante"
+      },
+      {
+        "id": "c10",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
+      },
+      {
+        "id": "c5",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevo"
+      },
+      {
+        "id": "c6",
+        "text": "skills",
+        "isDistractor": false,
+        "translation": "habilidades"
+      },
+      {
+        "id": "c4",
+        "text": "learn",
+        "isDistractor": false,
+        "translation": "aprender"
+      },
+      {
+        "id": "d3",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d2",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c9",
+        "text": "work",
+        "isDistractor": false,
+        "translation": "trabajo"
+      },
+      {
+        "id": "d1",
+        "text": "Learned",
+        "isDistractor": true,
+        "translation": "aprendido"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "intern": "pasante",
+      "learn": "aprender",
+      "new": "nuevo",
+      "skills": "habilidades",
+      "during": "durante",
+      "work": "trabajo",
+      "project": "proyecto",
+      "learned": "aprendido",
+      "does": "(auxiliar)",
+      "has": "ha"
+    },
+    "metadata": {
+      "tense": "will future",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: planificar (futuro con auxiliar modal)",
+      "Complemento: la estrategia del proyecto",
+      "Tiempo: para el próximo trimestre"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: planificar (futuro con auxiliar modal) / Complemento: la estrategia del proyecto / Tiempo: para el próximo trimestre",
+    "spanishSentence": "¿Planificará el equipo la estrategia del proyecto para el próximo trimestre?",
+    "correctSentence": "Will the team plan the project strategy for next quarter?",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d3",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "sería"
+      },
+      {
+        "id": "c4",
+        "text": "plan",
+        "isDistractor": false,
+        "translation": "planificar"
       },
       {
         "id": "c9",
         "text": "next",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "próximo"
       },
       {
-        "id": "c10",
-        "text": "week",
-        "isDistractor": false
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d1",
-        "text": "arrange",
-        "isDistractor": true
+        "text": "planned",
+        "isDistractor": true,
+        "translation": "planificado"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d2",
         "text": "them",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "presentation",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "yesterday",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "will": "will (futuro)",
-      "we": "nosotros",
-      "organize": "organizar",
-      "a": "un/una",
-      "meeting": "reunión",
-      "with": "con",
-      "the": "el/la",
-      "client": "cliente",
-      "next": "próximo",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el jefe",
-      "Verbo: posponer (will future)",
-      "Complemento: la reunión con el cliente",
-      "Tiempo: hasta la próxima semana"
-    ],
-    "hintDisplay": "Sujeto: el jefe / Verbo: posponer (will future) / Complemento: la reunión con el cliente / Tiempo: hasta la próxima semana",
-    "spanishSentence": "¿No pospondrá el jefe la reunión con el cliente hasta la próxima semana?",
-    "correctSentence": "Won't the boss postpone the client meeting until next week?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "boss",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "postpone",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
+        "isDistractor": true,
+        "translation": "los"
       },
       {
         "id": "c6",
-        "text": "client",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "meeting",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "until",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "next",
-        "isDistractor": false
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
       },
       {
         "id": "c10",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "reschedule",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "manager",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "confirm",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "this",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "boss": "jefe",
-      "postpone": "posponer",
-      "client": "cliente",
-      "meeting": "reunión",
-      "until": "hasta",
-      "next": "próxima",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el gerente",
-      "Verbo: aprobar (will future)",
-      "Complemento: el presupuesto del proyecto",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: el gerente / Verbo: aprobar (will future) / Complemento: el presupuesto del proyecto / Tiempo: mañana",
-    "spanishSentence": "¿Aprobará el gerente el presupuesto del proyecto mañana?",
-    "correctSentence": "Will the manager approve the project budget tomorrow?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
+        "text": "quarter",
+        "isDistractor": false,
+        "translation": "trimestre"
       },
       {
         "id": "c3",
-        "text": "manager",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "approve",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "project",
-        "isDistractor": false
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
       },
       {
         "id": "c7",
-        "text": "budget",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "rejected",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "colleague",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "yesterday",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "submit",
-        "isDistractor": true
+        "text": "strategy",
+        "isDistractor": false,
+        "translation": "estrategia"
       }
     ],
     "translations": {
-      "will": "¿va a",
-      "the": "el/la",
-      "manager": "gerente",
-      "approve": "aprobar",
-      "project": "del proyecto",
-      "budget": "presupuesto",
-      "tomorrow": "mañana"
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "team": "equipo",
+      "plan": "planificar",
+      "project": "proyecto",
+      "strategy": "estrategia",
+      "for": "para",
+      "next": "próximo",
+      "quarter": "trimestre",
+      "planned": "planificado",
+      "them": "los",
+      "would": "sería"
     },
     "metadata": {
       "tense": "will future",
       "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el gerente",
-      "Verbo: rechazar (negación) + aprobar",
-      "Complemento: el informe del proyecto",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: el gerente / Verbo: rechazar (negación) + aprobar / Complemento: el informe del proyecto / Tiempo: mañana",
-    "spanishSentence": "¿No aprobará el gerente el informe del proyecto mañana?",
-    "correctSentence": "Won't the manager approve the project report tomorrow?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "manager",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "approve",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "project",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "report",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "reject",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "director",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "Does",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "today",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "manager": "gerente",
-      "approve": "aprobar",
-      "project": "proyecto",
-      "report": "informe",
-      "tomorrow": "mañana"
-    },
-    "metadata": {
-      "tense": "will future",
-      "isNegative": true,
       "isQuestion": true,
       "difficulty": "intermediate",
       "topic": "work"

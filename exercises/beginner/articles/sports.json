@@ -1,72 +1,103 @@
 [
   {
-    "hints": ["Sujeto: el árbitro", "Verbo: señalar", "Complemento: un foul"],
-    "hintDisplay": "Sujeto: el árbitro / Verbo: señalar / Complemento: un foul",
-    "spanishSentence": "El árbitro no señala una falta claramente",
-    "correctSentence": "The referee doesn't signal a foul clearly.",
+    "hints": [
+      "Sujeto: El entrenador",
+      "Verbo: Motivar",
+      "Complemento: al equipo",
+      "Tiempo: antes del partido"
+    ],
+    "hintDisplay": "Sujeto: El entrenador / Verbo: Motivar / Complemento: al equipo / Tiempo: antes del partido",
+    "spanishSentence": "El entrenador motiva al equipo antes del partido.",
+    "correctSentence": "The coach motivates the team before the match.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
+        "id": "c6",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes"
       },
       {
-        "id": "c2",
-        "text": "referee",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "doesn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "signal",
-        "isDistractor": false
+        "id": "d4",
+        "text": "matches",
+        "isDistractor": true,
+        "translation": "partidos"
       },
       {
         "id": "c5",
-        "text": "a",
-        "isDistractor": false
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
       },
       {
-        "id": "c6",
-        "text": "foul",
-        "isDistractor": false
+        "id": "c8",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
       },
       {
         "id": "c7",
-        "text": "clearly",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d1",
-        "text": "an",
-        "isDistractor": true
+        "text": "motivated",
+        "isDistractor": true,
+        "translation": "motivado"
       },
       {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
+        "id": "c3",
+        "text": "motivates",
+        "isDistractor": false,
+        "translation": "motiva"
       },
       {
         "id": "d3",
-        "text": "signals",
-        "isDistractor": true
+        "text": "after",
+        "isDistractor": true,
+        "translation": "después"
+      },
+      {
+        "id": "c2",
+        "text": "coach",
+        "isDistractor": false,
+        "translation": "entrenador"
+      },
+      {
+        "id": "d2",
+        "text": "coaches",
+        "isDistractor": true,
+        "translation": "entrenadores"
       }
     ],
     "translations": {
-      "the": "el",
-      "referee": "árbitro",
-      "signal": "señalar",
-      "a": "un",
-      "foul": "falta",
-      "clearly": "claramente"
+      "the": "(artículo)",
+      "coach": "entrenador",
+      "motivates": "motiva",
+      "team": "equipo",
+      "before": "antes",
+      "match": "partido",
+      "motivated": "motivado",
+      "coaches": "entrenadores",
+      "after": "después",
+      "matches": "partidos"
     },
     "metadata": {
       "tense": "articles",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "sports"
@@ -74,67 +105,86 @@
   },
   {
     "hints": [
-      "Sujeto: el atleta",
-      "Verbo: practicar",
-      "Complemento: en un estadio"
+      "Sujeto: El equipo",
+      "Verbo: Jugar",
+      "Complemento: en el estadio",
+      "Tiempo: cada fin de semana"
     ],
-    "hintDisplay": "Sujeto: el atleta / Verbo: practicar / Complemento: en un estadio",
-    "spanishSentence": "El atleta practica en un estadio.",
-    "correctSentence": "The athlete practices in a stadium.",
+    "hintDisplay": "Sujeto: El equipo / Verbo: Jugar / Complemento: en el estadio / Tiempo: cada fin de semana",
+    "spanishSentence": "El equipo juega en el estadio cada fin de semana.",
+    "correctSentence": "The team plays in the stadium every weekend.",
     "cards": [
+      {
+        "id": "c8",
+        "text": "weekend",
+        "isDistractor": false,
+        "translation": "fin de semana"
+      },
       {
         "id": "c1",
         "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "athlete",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c3",
-        "text": "practices",
-        "isDistractor": false
+        "text": "plays",
+        "isDistractor": false,
+        "translation": "juega"
+      },
+      {
+        "id": "d2",
+        "text": "weekends",
+        "isDistractor": true,
+        "translation": "fines de semana"
+      },
+      {
+        "id": "c7",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
       },
       {
         "id": "c4",
         "text": "in",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c2",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
       },
       {
         "id": "c5",
-        "text": "a",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c6",
         "text": "stadium",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "estadio"
       },
       {
         "id": "d1",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "practice",
-        "isDistractor": true
+        "text": "play",
+        "isDistractor": true,
+        "translation": "jugar"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "athlete": "atleta",
-      "practices": "practica",
+      "the": "(artículo)",
+      "team": "equipo",
+      "plays": "juega",
       "in": "en",
-      "a": "un/una",
-      "stadium": "estadio"
+      "stadium": "estadio",
+      "every": "cada",
+      "weekend": "fin de semana",
+      "play": "jugar",
+      "weekends": "fines de semana"
     },
     "metadata": {
       "tense": "articles",
@@ -146,422 +196,228 @@
   },
   {
     "hints": [
-      "Sujeto: el árbitro",
-      "Verbo: penalizar (acción de castigar)",
-      "Complemento: un jugador por comportamiento antideportivo"
+      "Sujeto: El árbitro",
+      "Verbo: Penalizar",
+      "Complemento: a un jugador por una entrada ilegal",
+      "Tiempo: durante el partido"
     ],
-    "hintDisplay": "Sujeto: el árbitro / Verbo: penalizar (acción de castigar) / Complemento: un jugador por comportamiento antideportivo",
-    "spanishSentence": "El árbitro penaliza a un jugador por comportamiento antideportivo",
-    "correctSentence": "The referee penalizes a player for unsporting conduct.",
+    "hintDisplay": "Sujeto: El árbitro / Verbo: Penalizar / Complemento: a un jugador por una entrada ilegal / Tiempo: durante el partido",
+    "spanishSentence": "El árbitro penalizó a un jugador por una entrada ilegal durante el partido.",
+    "correctSentence": "The referee penalized a player for an illegal tackle during the match.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
+        "id": "d2",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
       },
       {
         "id": "c2",
         "text": "referee",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "árbitro"
       },
       {
         "id": "c3",
-        "text": "penalizes",
-        "isDistractor": false
+        "text": "penalized",
+        "isDistractor": false,
+        "translation": "penalizó"
+      },
+      {
+        "id": "d1",
+        "text": "penalizing",
+        "isDistractor": true,
+        "translation": "penalizando"
+      },
+      {
+        "id": "c7",
+        "text": "an",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "fue"
       },
       {
         "id": "c4",
         "text": "a",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c5",
         "text": "player",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "jugador"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "illegal",
+        "isDistractor": false,
+        "translation": "ilegal"
       },
       {
         "id": "c6",
         "text": "for",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "c9",
+        "text": "tackle",
+        "isDistractor": false,
+        "translation": "entrada"
+      },
+      {
+        "id": "c12",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "referee": "árbitro",
+      "penalized": "penalizó",
+      "a": "(artículo)",
+      "player": "jugador",
+      "for": "por",
+      "an": "(artículo)",
+      "illegal": "ilegal",
+      "tackle": "entrada",
+      "during": "durante",
+      "match": "partido",
+      "penalizing": "penalizando",
+      "him": "lo",
+      "was": "fue"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El capitán",
+      "Verbo: deber (obligación/necesidad)",
+      "Verbo: liderar (acción principal)",
+      "Complemento: jugadores",
+      "Complemento: con confianza y estrategia"
+    ],
+    "hintDisplay": "Sujeto: El capitán / Verbo: deber (obligación/necesidad) / Verbo: liderar (acción principal) / Complemento: jugadores / Complemento: con confianza y estrategia",
+    "spanishSentence": "El capitán debe liderar jugadores con confianza y estrategia.",
+    "correctSentence": "The captain must lead players with confidence and strategy.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "leading",
+        "isDistractor": true,
+        "translation": "liderando"
       },
       {
         "id": "c7",
-        "text": "unsporting",
-        "isDistractor": false
+        "text": "confidence",
+        "isDistractor": false,
+        "translation": "confianza"
+      },
+      {
+        "id": "c9",
+        "text": "strategy",
+        "isDistractor": false,
+        "translation": "estrategia"
       },
       {
         "id": "c8",
-        "text": "conduct",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "an",
-        "isDistractor": true
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
       },
       {
         "id": "d2",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "some",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "referee": "árbitro",
-      "penalizes": "penaliza",
-      "a": "un/una",
-      "player": "jugador",
-      "for": "por",
-      "unsporting": "antideportivo",
-      "conduct": "comportamiento"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: competir",
-      "Complemento: en un partido importante"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: competir / Complemento: en un partido importante",
-    "spanishSentence": "El equipo compite en un partido importante.",
-    "correctSentence": "The team competes in a match.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "competes",
-        "isDistractor": false
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
       },
       {
         "id": "c4",
-        "text": "in",
-        "isDistractor": false
+        "text": "lead",
+        "isDistractor": false,
+        "translation": "liderar"
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c5",
-        "text": "a",
-        "isDistractor": false
+        "text": "players",
+        "isDistractor": false,
+        "translation": "jugadores"
       },
       {
         "id": "c6",
-        "text": "match",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "game",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "team": "equipo",
-      "competes": "compite",
-      "in": "en",
-      "a": "un/una",
-      "match": "partido"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Anna",
-      "Verbo: jugar",
-      "Complemento: un partido de tenis"
-    ],
-    "hintDisplay": "Sujeto: Anna / Verbo: jugar / Complemento: un partido de tenis",
-    "spanishSentence": "Anna juega un partido de tenis.",
-    "correctSentence": "Anna plays a tennis match.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Anna",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "plays",
-        "isDistractor": false
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
       },
       {
         "id": "c3",
-        "text": "a",
-        "isDistractor": false
+        "text": "must",
+        "isDistractor": false,
+        "translation": "debe"
       },
-      {
-        "id": "c4",
-        "text": "tennis",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "match",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "an",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "anna": "Anna",
-      "plays": "juega",
-      "a": "un/una",
-      "tennis": "tenis",
-      "match": "partido"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el capitán",
-      "Verbo: jugar",
-      "Complemento: un partido importante"
-    ],
-    "hintDisplay": "Sujeto: el capitán / Verbo: jugar / Complemento: un partido importante",
-    "spanishSentence": "El capitán juega un partido importante.",
-    "correctSentence": "The captain plays an important match.",
-    "cards": [
       {
         "id": "c1",
         "text": "The",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c2",
         "text": "captain",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "plays",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "an",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "important",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "match",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "a",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "capitán"
       }
     ],
     "translations": {
-      "the": "el, la, los, las",
+      "the": "(artículo)",
       "captain": "capitán",
-      "plays": "juega",
-      "an": "un, una",
-      "important": "importante",
-      "match": "partido"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el jugador",
-      "Verbo: correr rápidamente (sprint)",
-      "Complemento: hacia la portería"
-    ],
-    "hintDisplay": "Sujeto: el jugador / Verbo: correr rápidamente (sprint) / Complemento: hacia la portería",
-    "spanishSentence": "El jugador corre hacia la portería",
-    "correctSentence": "The player sprints toward the goal.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "player",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "sprints",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "toward",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "goal",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "a",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "runs",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "into",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "player": "jugador",
-      "sprints": "corre",
-      "toward": "hacia",
-      "goal": "portería"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Olga",
-      "Verbo: entrenar (presente)",
-      "Complemento: con un entrenador profesional"
-    ],
-    "hintDisplay": "Sujeto: Olga / Verbo: entrenar (presente) / Complemento: con un entrenador profesional",
-    "spanishSentence": "Olga entrena con un entrenador profesional",
-    "correctSentence": "Olga trains with a professional coach.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Olga",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "trains",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "professional",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "coach",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "expert",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "olga": "Olga",
-      "trains": "entrena",
+      "must": "debe",
+      "lead": "liderar",
+      "players": "jugadores",
       "with": "con",
-      "a": "un/una",
-      "professional": "profesional",
-      "coach": "entrenador"
+      "confidence": "confianza",
+      "and": "y",
+      "strategy": "estrategia",
+      "leading": "liderando",
+      "them": "los",
+      "does": "(auxiliar)"
     },
     "metadata": {
       "tense": "articles",
@@ -573,144 +429,97 @@
   },
   {
     "hints": [
-      "Sujeto: Juan",
-      "Verbo: decidir",
-      "Complemento: jugar un partido"
+      "Sujeto: Los jugadores",
+      "Verbo: practicar",
+      "Complemento: los ejercicios",
+      "Tiempo: cada mañana"
     ],
-    "hintDisplay": "Sujeto: Juan / Verbo: decidir / Complemento: jugar un partido",
-    "spanishSentence": "Juan decide jugar un partido mañana.",
-    "correctSentence": "Juan decides to play a match tomorrow.",
+    "hintDisplay": "Sujeto: Los jugadores / Verbo: practicar / Complemento: los ejercicios / Tiempo: cada mañana",
+    "spanishSentence": "Los jugadores practican los ejercicios cada mañana.",
+    "correctSentence": "The players practice the drills every morning.",
     "cards": [
       {
-        "id": "c1",
-        "text": "Juan",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "decides",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "play",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
         "id": "c6",
-        "text": "match",
-        "isDistractor": false
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
       },
       {
         "id": "c7",
-        "text": "tomorrow",
-        "isDistractor": false
+        "text": "morning",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d1",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "watch",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "juan": "Juan",
-      "decides": "decide",
-      "to": "a",
-      "play": "jugar",
-      "a": "un",
-      "match": "partido",
-      "tomorrow": "mañana"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": ["Sujeto: Lisa", "Verbo: practicar", "Complemento: con un balón"],
-    "hintDisplay": "Sujeto: Lisa / Verbo: practicar / Complemento: con un balón",
-    "spanishSentence": "Lisa no practica con un balón.",
-    "correctSentence": "Lisa doesn't practice with a ball.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Lisa",
-        "isDistractor": false
+        "text": "practices",
+        "isDistractor": true,
+        "translation": "practica"
       },
       {
         "id": "c2",
-        "text": "doesn't",
-        "isDistractor": false
+        "text": "players",
+        "isDistractor": false,
+        "translation": "jugadores"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c3",
         "text": "practice",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "ball",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "the",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "practican"
       },
       {
         "id": "d2",
-        "text": "an",
-        "isDistractor": true
+        "text": "athletes",
+        "isDistractor": true,
+        "translation": "atletas"
+      },
+      {
+        "id": "c5",
+        "text": "drills",
+        "isDistractor": false,
+        "translation": "ejercicios"
+      },
+      {
+        "id": "d4",
+        "text": "performs",
+        "isDistractor": true,
+        "translation": "realiza"
       },
       {
         "id": "d3",
-        "text": "practices",
-        "isDistractor": true
+        "text": "exercises",
+        "isDistractor": true,
+        "translation": "ejercicios"
       }
     ],
     "translations": {
-      "lisa": "Lisa",
-      "practice": "practica",
-      "with": "con",
-      "a": "un",
-      "ball": "balón"
+      "the": "(artículo)",
+      "players": "jugadores",
+      "practice": "practican",
+      "drills": "ejercicios",
+      "every": "cada",
+      "morning": "mañana",
+      "practices": "practica",
+      "athletes": "atletas",
+      "exercises": "ejercicios",
+      "performs": "realiza"
     },
     "metadata": {
       "tense": "articles",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "sports"
@@ -718,90 +527,397 @@
   },
   {
     "hints": [
-      "Sujeto: el jugador",
-      "Verbo: patear (shoot)",
-      "Complemento: un balón al arco"
+      "Sujeto: nosotros",
+      "Verbo: practicar",
+      "Complemento: con un balón de fútbol",
+      "Tiempo: cada tarde"
     ],
-    "hintDisplay": "Sujeto: el jugador / Verbo: disparar (shoot) / Complemento: un balón al arco",
-    "spanishSentence": "El jugador no patea un balón al arco",
-    "correctSentence": "The player does not shoot a ball at the goal.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: practicar / Complemento: con un balón de fútbol / Tiempo: cada tarde",
+    "spanishSentence": "Nosotros practicamos con un balón de fútbol cada tarde.",
+    "correctSentence": "We practice with a football every afternoon.",
     "cards": [
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      },
+      {
+        "id": "d2",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c5",
+        "text": "football",
+        "isDistractor": false,
+        "translation": "balón de fútbol"
+      },
+      {
+        "id": "c7",
+        "text": "afternoon",
+        "isDistractor": false,
+        "translation": "tarde"
+      },
+      {
+        "id": "c3",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c2",
+        "text": "practice",
+        "isDistractor": false,
+        "translation": "practicamos"
+      },
+      {
+        "id": "d1",
+        "text": "practiced",
+        "isDistractor": true,
+        "translation": "practicamos"
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d4",
+        "text": "soccer",
+        "isDistractor": true,
+        "translation": "fútbol"
+      },
+      {
+        "id": "c6",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "practice": "practicamos",
+      "with": "con",
+      "a": "(artículo indefinido)",
+      "football": "balón de fútbol",
+      "every": "cada",
+      "afternoon": "tarde",
+      "practiced": "practicamos",
+      "them": "los",
+      "does": "(auxiliar)",
+      "soccer": "fútbol"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: atleta",
+      "Verbo: estar (acción en progreso)",
+      "Verbo: competir",
+      "Complemento: Juegos Olímpicos"
+    ],
+    "hintDisplay": "Sujeto: atleta / Verbo: estar (acción en progreso) / Verbo: competir / Complemento: Juegos Olímpicos",
+    "spanishSentence": "El atleta está compitiendo en unos Juegos Olímpicos.",
+    "correctSentence": "The athlete is competing in an Olympic Games.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "competed",
+        "isDistractor": true,
+        "translation": "compitió"
+      },
+      {
+        "id": "c6",
+        "text": "an",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "competing",
+        "isDistractor": false,
+        "translation": "compitiendo"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "c8",
+        "text": "Games",
+        "isDistractor": false,
+        "translation": "juegos"
+      },
+      {
+        "id": "c2",
+        "text": "athlete",
+        "isDistractor": false,
+        "translation": "atleta"
+      },
+      {
+        "id": "c5",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
       {
         "id": "c1",
         "text": "The",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "Olympic",
+        "isDistractor": false,
+        "translation": "olímpico"
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "athlete": "atleta",
+      "is": "(ser/estar)",
+      "competing": "compitiendo",
+      "in": "en",
+      "an": "(artículo)",
+      "olympic": "olímpico",
+      "games": "juegos",
+      "competed": "compitió",
+      "he": "él",
+      "does": "(auxiliar)"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El jugador",
+      "Verbo: Marcar (pasado simple)",
+      "Complemento: Un gol increíble",
+      "Tiempo: Durante el partido"
+    ],
+    "hintDisplay": "Sujeto: El jugador / Verbo: Marcar (pasado simple) / Complemento: Un gol increíble / Tiempo: Durante el partido",
+    "spanishSentence": "El jugador marcó un gol increíble durante el partido.",
+    "correctSentence": "The player scored an amazing goal during the match.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "scoring",
+        "isDistractor": true,
+        "translation": "marcar"
+      },
+      {
+        "id": "c3",
+        "text": "scored",
+        "isDistractor": false,
+        "translation": "marcó"
+      },
+      {
+        "id": "d2",
+        "text": "scores",
+        "isDistractor": true,
+        "translation": "marca"
       },
       {
         "id": "c2",
         "text": "player",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "jugador"
       },
       {
         "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "shoot",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "ball",
-        "isDistractor": false
+        "text": "an",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c8",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c10",
-        "text": "goal",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
+        "id": "c5",
+        "text": "amazing",
+        "isDistractor": false,
+        "translation": "increíble"
       },
       {
         "id": "d3",
-        "text": "in",
-        "isDistractor": true
+        "text": "him",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c6",
+        "text": "goal",
+        "isDistractor": false,
+        "translation": "gol"
+      },
+      {
+        "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "fueron"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
+      },
+      {
+        "id": "c7",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
       }
     ],
     "translations": {
-      "the": "el / la",
+      "the": "(artículo)",
       "player": "jugador",
-      "does": "hace / auxiliar (do)",
-      "not": "no",
-      "shoot": "patea",
-      "a": "un / una",
-      "ball": "balón",
-      "at": "al / a",
-      "goal": "arco"
+      "scored": "marcó",
+      "an": "(artículo)",
+      "amazing": "increíble",
+      "goal": "gol",
+      "during": "durante",
+      "match": "partido",
+      "scoring": "marcar",
+      "scores": "marca",
+      "him": "él",
+      "were": "fueron"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Los equipos",
+      "Verbo: ganar",
+      "Complemento: campeonatos",
+      "Complemento: sin trabajo en equipo"
+    ],
+    "hintDisplay": "Sujeto: Los equipos / Verbo: ganar / Complemento: campeonatos / Complemento: sin trabajo en equipo",
+    "spanishSentence": "Los equipos no ganan campeonatos sin trabajo en equipo.",
+    "correctSentence": "Teams don't win championships without teamwork.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
+      },
+      {
+        "id": "c1",
+        "text": "Teams",
+        "isDistractor": false,
+        "translation": "equipos"
+      },
+      {
+        "id": "c6",
+        "text": "teamwork",
+        "isDistractor": false,
+        "translation": "trabajo en equipo"
+      },
+      {
+        "id": "d2",
+        "text": "earning",
+        "isDistractor": true,
+        "translation": "ganando"
+      },
+      {
+        "id": "c3",
+        "text": "win",
+        "isDistractor": false,
+        "translation": "ganan"
+      },
+      {
+        "id": "c5",
+        "text": "without",
+        "isDistractor": false,
+        "translation": "sin"
+      },
+      {
+        "id": "d1",
+        "text": "won",
+        "isDistractor": true,
+        "translation": "ganaron"
+      },
+      {
+        "id": "c4",
+        "text": "championships",
+        "isDistractor": false,
+        "translation": "campeonatos"
+      },
+      {
+        "id": "d4",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c2",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(negación)"
+      }
+    ],
+    "translations": {
+      "teams": "equipos",
+      "don't": "(negación)",
+      "win": "ganan",
+      "championships": "campeonatos",
+      "without": "sin",
+      "teamwork": "trabajo en equipo",
+      "won": "ganaron",
+      "earning": "ganando",
+      "him": "le",
+      "does": "(auxiliar)"
     },
     "metadata": {
       "tense": "articles",
@@ -813,56 +929,206 @@
   },
   {
     "hints": [
-      "Sujeto: María",
-      "Verbo: revisar",
-      "Complemento: un partido de fútbol"
+      "Sujeto: atleta",
+      "Verbo: estar (presente continuo) + estirar",
+      "Complemento: los músculos",
+      "Tiempo: antes de la competencia",
+      "Negación: no"
     ],
-    "hintDisplay": "Sujeto: María / Verbo: revisar / Complemento: un partido de fútbol",
-    "spanishSentence": "María revisa un partido de fútbol.",
-    "correctSentence": "Maria reviews a soccer match.",
+    "hintDisplay": "Sujeto: atleta / Verbo: estar (presente continuo) + estirar / Complemento: los músculos / Tiempo: antes de la competencia / Negación: no",
+    "spanishSentence": "El atleta no está estirando los músculos antes de la competencia.",
+    "correctSentence": "The athlete is not stretching the muscles before the competition.",
     "cards": [
       {
         "id": "c1",
-        "text": "Maria",
-        "isDistractor": false
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "stretching",
+        "isDistractor": false,
+        "translation": "estirando"
+      },
+      {
+        "id": "c7",
+        "text": "muscles",
+        "isDistractor": false,
+        "translation": "músculos"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c8",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d1",
+        "text": "stretched",
+        "isDistractor": true,
+        "translation": "estirado"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "warming",
+        "isDistractor": true,
+        "translation": "calentando"
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "d3",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
       },
       {
         "id": "c2",
-        "text": "reviews",
-        "isDistractor": false
+        "text": "athlete",
+        "isDistractor": false,
+        "translation": "atleta"
+      },
+      {
+        "id": "c10",
+        "text": "competition",
+        "isDistractor": false,
+        "translation": "competencia"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "athlete": "atleta",
+      "is": "(presente)",
+      "not": "no",
+      "stretching": "estirando",
+      "muscles": "músculos",
+      "before": "antes de",
+      "competition": "competencia",
+      "stretched": "estirado",
+      "are": "(presente)",
+      "he": "él",
+      "warming": "calentando"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Nosotros",
+      "Verbo: Jugar",
+      "Complemento: Un partido",
+      "Tiempo: Cada fin de semana"
+    ],
+    "hintDisplay": "Sujeto: Nosotros / Verbo: Jugar / Complemento: Un partido / Tiempo: Cada fin de semana",
+    "spanishSentence": "Nosotros jugamos un partido cada fin de semana.",
+    "correctSentence": "We play a match every weekend.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "weekend",
+        "isDistractor": false,
+        "translation": "fin de semana"
+      },
+      {
+        "id": "c5",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
       },
       {
         "id": "c3",
         "text": "a",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c4",
-        "text": "soccer",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "match",
-        "isDistractor": false
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "d1",
-        "text": "the",
-        "isDistractor": true
+        "text": "played",
+        "isDistractor": true,
+        "translation": "jugaron"
       },
       {
         "id": "d2",
-        "text": "an",
-        "isDistractor": true
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "d4",
+        "text": "matches",
+        "isDistractor": true,
+        "translation": "partidos"
+      },
+      {
+        "id": "c4",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
+      },
+      {
+        "id": "c2",
+        "text": "play",
+        "isDistractor": false,
+        "translation": "jugamos"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
       }
     ],
     "translations": {
-      "maria": "María",
-      "reviews": "revisa",
-      "a": "un",
-      "soccer": "fútbol",
-      "match": "partido"
+      "we": "nosotros",
+      "play": "jugamos",
+      "a": "(artículo)",
+      "match": "partido",
+      "every": "cada",
+      "weekend": "fin de semana",
+      "played": "jugaron",
+      "they": "ellos",
+      "does": "(auxiliar)",
+      "matches": "partidos"
     },
     "metadata": {
       "tense": "articles",
@@ -875,595 +1141,1028 @@
   {
     "hints": [
       "Sujeto: el árbitro",
-      "Verbo: advertir (no afirmativo)",
-      "Complemento: un jugador"
+      "Verbo: advertir (negado con auxiliar)",
+      "Complemento: a los jugadores",
+      "Complemento: sobre conducta peligrosa"
     ],
-    "hintDisplay": "Sujeto: el árbitro / Verbo: advertir (no afirmativo) / Complemento: un jugador",
-    "spanishSentence": "El árbitro no advierte a un jugador.",
-    "correctSentence": "The referee does not warn a player.",
+    "hintDisplay": "Sujeto: el árbitro / Verbo: advertir (negado con auxiliar) / Complemento: a los jugadores / Complemento: sobre conducta peligrosa",
+    "spanishSentence": "El árbitro no advirtió a los jugadores sobre conducta peligrosa.",
+    "correctSentence": "The referee did not warn players about dangerous conduct.",
     "cards": [
       {
         "id": "c1",
         "text": "The",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "spectators",
+        "isDistractor": true,
+        "translation": "espectadores"
       },
       {
         "id": "c2",
         "text": "referee",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "árbitro"
       },
       {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
+        "id": "d1",
+        "text": "warned",
+        "isDistractor": true,
+        "translation": "advirtió"
       },
       {
         "id": "c5",
         "text": "warn",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "a",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "advertir"
       },
       {
         "id": "c7",
-        "text": "player",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "some",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "referee": "árbitro",
-      "does": "hace/auxiliar",
-      "not": "no",
-      "warn": "advertir",
-      "a": "un/una",
-      "player": "jugador"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el atleta",
-      "Verbo: recuperarse",
-      "Complemento: de una lesión"
-    ],
-    "hintDisplay": "Sujeto: el atleta / Verbo: recuperarse / Complemento: de una lesión",
-    "spanishSentence": "El atleta se recupera de una lesión.",
-    "correctSentence": "The athlete recovers from an injury.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "athlete",
-        "isDistractor": false
+        "text": "about",
+        "isDistractor": false,
+        "translation": "sobre"
       },
       {
         "id": "c3",
-        "text": "recovers",
-        "isDistractor": false
+        "text": "did",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
-        "id": "c4",
-        "text": "from",
-        "isDistractor": false
+        "id": "c9",
+        "text": "conduct",
+        "isDistractor": false,
+        "translation": "conducta"
       },
       {
-        "id": "c5",
-        "text": "an",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "injury",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "a",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "some",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "athlete": "atleta",
-      "recovers": "se recupera",
-      "from": "de",
-      "injury": "lesión",
-      "an": "un/una"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Carlos",
-      "Verbo: instruir (enseñar)",
-      "Complemento: un equipo de fútbol"
-    ],
-    "hintDisplay": "Sujeto: Carlos / Verbo: instruir (enseñar) / Complemento: un equipo de fútbol",
-    "spanishSentence": "Carlos no instruye un equipo de fútbol.",
-    "correctSentence": "Carlos doesn't instruct a soccer team.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Carlos",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "doesn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "instruct",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "soccer",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "carlos": "Carlos",
-      "instruct": "instruye",
-      "a": "un",
-      "soccer": "fútbol",
-      "team": "equipo"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Juan",
-      "Verbo: jugar (deportes)",
-      "Complemento: un partido de fútbol"
-    ],
-    "hintDisplay": "Sujeto: Juan / Verbo: jugar (deportes) / Complemento: un partido de fútbol",
-    "spanishSentence": "Juan juega un partido de fútbol.",
-    "correctSentence": "Juan plays a match of football.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Juan",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "plays",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "match",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "of",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "football",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "game",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "juan": "Juan",
-      "plays": "juega",
-      "a": "un",
-      "match": "partido",
-      "of": "de",
-      "football": "fútbol"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": ["Sujeto: Sara", "Verbo: motivar", "Complemento: un atleta joven"],
-    "hintDisplay": "Sujeto: Sara / Verbo: motivar / Complemento: un atleta joven",
-    "spanishSentence": "Sara motiva a un atleta joven.",
-    "correctSentence": "Sara motivates a young athlete.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Sara",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "motivates",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "young",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "athlete",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "sara": "Sara",
-      "motivates": "motiva",
-      "a": "un/una",
-      "young": "joven",
-      "athlete": "atleta"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el jugador",
-      "Verbo: anotar (marcar un gol)",
-      "Complemento: un gol en el partido"
-    ],
-    "hintDisplay": "Sujeto: el jugador / Verbo: anotar (marcar un gol) / Complemento: un gol en el partido",
-    "spanishSentence": "El jugador anotó un gol en el partido.",
-    "correctSentence": "The player scored a goal in the match.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "player",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "scored",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "goal",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "match",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "scored",
+        "id": "d4",
+        "text": "could",
         "isDistractor": true,
-        "translation": "anotó"
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "player": "jugador",
-      "scored": "anotó",
-      "a": "un",
-      "goal": "gol",
-      "in": "en",
-      "match": "partido"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Carlos",
-      "Verbo: recuperarse",
-      "Complemento: de una lesión en el partido"
-    ],
-    "hintDisplay": "Sujeto: Carlos / Verbo: recuperarse / Complemento: de una lesión en el partido",
-    "spanishSentence": "Carlos se recupera de una lesión en el partido.",
-    "correctSentence": "Carlos recovers from an injury in the match.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Carlos",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "recovers",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "from",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "an",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "injury",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "match",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "a",
-        "isDistractor": true
+        "translation": "podría"
       },
       {
         "id": "d2",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "carlos": "Carlos",
-      "recovers": "se recupera",
-      "from": "de",
-      "injury": "lesión",
-      "in": "en",
-      "the": "el (artículo definido singular)",
-      "match": "partido",
-      "an": "un/una (artículo indefinido con sonido vocálico)"
-    },
-    "metadata": {
-      "tense": "articles",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el atleta",
-      "Verbo: competir (negación)",
-      "Complemento: en un partido"
-    ],
-    "hintDisplay": "Sujeto: el atleta / Verbo: competir (negación) / Complemento: en un partido",
-    "spanishSentence": "El atleta no compite en un partido.",
-    "correctSentence": "The athlete does not compete in a match.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "athlete",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
+        "text": "cautioned",
+        "isDistractor": true,
+        "translation": "amonestó"
       },
       {
         "id": "c4",
         "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "compete",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "no"
       },
       {
         "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "a",
-        "isDistractor": false
+        "text": "players",
+        "isDistractor": false,
+        "translation": "jugadores"
       },
       {
         "id": "c8",
-        "text": "match",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "competes",
-        "isDistractor": true
+        "text": "dangerous",
+        "isDistractor": false,
+        "translation": "peligrosa"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "athlete": "atleta",
-      "does": "hace (auxiliar)",
+      "the": "(artículo)",
+      "referee": "árbitro",
+      "did": "(auxiliar)",
       "not": "no",
-      "compete": "competir",
-      "in": "en",
-      "a": "un/una",
-      "match": "partido"
+      "warn": "advertir",
+      "players": "jugadores",
+      "about": "sobre",
+      "dangerous": "peligrosa",
+      "conduct": "conducta",
+      "warned": "advirtió",
+      "cautioned": "amonestó",
+      "spectators": "espectadores",
+      "could": "podría"
     },
     "metadata": {
       "tense": "articles",
       "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El entrenador",
+      "Verbo: Instruir (negado)",
+      "Complemento: al equipo",
+      "Tiempo: durante el partido"
+    ],
+    "hintDisplay": "Sujeto: El entrenador / Verbo: Instruir (negado) / Complemento: al equipo / Tiempo: durante el partido",
+    "spanishSentence": "El entrenador no instruye al equipo durante el partido.",
+    "correctSentence": "The coach does not instruct the team during the match.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c10",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "d3",
+        "text": "instructing",
+        "isDistractor": true,
+        "translation": "instruyendo"
+      },
+      {
+        "id": "c5",
+        "text": "instruct",
+        "isDistractor": false,
+        "translation": "instruir"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c2",
+        "text": "coach",
+        "isDistractor": false,
+        "translation": "entrenador"
+      },
+      {
+        "id": "d2",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "d1",
+        "text": "instructs",
+        "isDistractor": true,
+        "translation": "instruye"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "coach": "entrenador",
+      "does": "(auxiliar)",
+      "not": "no",
+      "instruct": "instruir",
+      "team": "equipo",
+      "during": "durante",
+      "match": "partido",
+      "instructs": "instruye",
+      "them": "los",
+      "instructing": "instruyendo"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El jugador",
+      "Verbo: Defender",
+      "Complemento: la portería",
+      "Complemento: contra el equipo contrario"
+    ],
+    "hintDisplay": "Sujeto: El jugador / Verbo: Defender / Complemento: la portería / Complemento: contra el equipo contrario",
+    "spanishSentence": "El jugador defendió la portería contra el equipo contrario.",
+    "correctSentence": "The player defended the goal against the opposing team.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "defended",
+        "isDistractor": false,
+        "translation": "defendió"
+      },
+      {
+        "id": "c2",
+        "text": "player",
+        "isDistractor": false,
+        "translation": "jugador"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c8",
+        "text": "opposing",
+        "isDistractor": false,
+        "translation": "contrario"
+      },
+      {
+        "id": "d2",
+        "text": "defending",
+        "isDistractor": true,
+        "translation": "defendiendo"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "defends",
+        "isDistractor": true,
+        "translation": "defiende"
+      },
+      {
+        "id": "d4",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c5",
+        "text": "goal",
+        "isDistractor": false,
+        "translation": "portería"
+      },
+      {
+        "id": "c6",
+        "text": "against",
+        "isDistractor": false,
+        "translation": "contra"
+      },
+      {
+        "id": "c9",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "player": "jugador",
+      "defended": "defendió",
+      "goal": "portería",
+      "against": "contra",
+      "opposing": "contrario",
+      "team": "equipo",
+      "defends": "defiende",
+      "defending": "defendiendo",
+      "him": "lo",
+      "did": "(auxiliar)"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El capitán",
+      "Verbo: estar (presente continuo)",
+      "Verbo: jugar",
+      "Complemento: un partido crucial",
+      "Tiempo: hoy"
+    ],
+    "hintDisplay": "Sujeto: El capitán / Verbo: estar (presente continuo) / Verbo: jugar / Complemento: un partido crucial / Tiempo: hoy",
+    "spanishSentence": "El capitán está jugando un partido crucial hoy.",
+    "correctSentence": "The captain is playing a crucial match today.",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "significant",
+        "isDistractor": true,
+        "translation": "significativo"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "plays",
+        "isDistractor": true,
+        "translation": "juega"
+      },
+      {
+        "id": "c8",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c4",
+        "text": "playing",
+        "isDistractor": false,
+        "translation": "jugando"
+      },
+      {
+        "id": "d2",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c7",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
+      },
+      {
+        "id": "c6",
+        "text": "crucial",
+        "isDistractor": false,
+        "translation": "crucial"
+      },
+      {
+        "id": "c2",
+        "text": "captain",
+        "isDistractor": false,
+        "translation": "capitán"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "captain": "capitán",
+      "is": "(presente)",
+      "playing": "jugando",
+      "a": "(artículo)",
+      "crucial": "crucial",
+      "match": "partido",
+      "today": "hoy",
+      "plays": "juega",
+      "were": "(pasado)",
+      "significant": "significativo"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Ellos",
+      "Verbo: Competir",
+      "Complemento: en deportes",
+      "Complemento: con determinación y pasión"
+    ],
+    "hintDisplay": "Sujeto: Ellos / Verbo: Competir / Complemento: en deportes / Complemento: con determinación y pasión",
+    "spanishSentence": "Ellos compiten en deportes con determinación y pasión.",
+    "correctSentence": "They compete in sports with determination and passion.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "d2",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
+      },
+      {
+        "id": "d1",
+        "text": "competing",
+        "isDistractor": true,
+        "translation": "compitiendo"
+      },
+      {
+        "id": "d4",
+        "text": "compassion",
+        "isDistractor": true,
+        "translation": "compasión"
+      },
+      {
+        "id": "c8",
+        "text": "passion",
+        "isDistractor": false,
+        "translation": "pasión"
+      },
+      {
+        "id": "c6",
+        "text": "determination",
+        "isDistractor": false,
+        "translation": "determinación"
+      },
+      {
+        "id": "c3",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c1",
+        "text": "They",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c4",
+        "text": "sports",
+        "isDistractor": false,
+        "translation": "deportes"
+      },
+      {
+        "id": "c5",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c2",
+        "text": "compete",
+        "isDistractor": false,
+        "translation": "compiten"
+      }
+    ],
+    "translations": {
+      "they": "ellos",
+      "compete": "compiten",
+      "in": "en",
+      "sports": "deportes",
+      "with": "con",
+      "determination": "determinación",
+      "and": "y",
+      "passion": "pasión",
+      "competing": "compitiendo",
+      "she": "ella",
+      "does": "(auxiliar)",
+      "compassion": "compasión"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: competir (negación en presente)",
+      "Complemento: contra equipos que carecen de disciplina"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: competir (negación en presente) / Complemento: contra equipos que carecen de disciplina",
+    "spanishSentence": "No competimos contra equipos que carecen de disciplina.",
+    "correctSentence": "We don't compete against teams that lack discipline.",
+    "cards": [
+      {
+        "id": "d2",
+        "text": "those",
+        "isDistractor": true,
+        "translation": "esos"
+      },
+      {
+        "id": "d1",
+        "text": "lacking",
+        "isDistractor": true,
+        "translation": "careciendo"
+      },
+      {
+        "id": "c3",
+        "text": "compete",
+        "isDistractor": false,
+        "translation": "competimos"
+      },
+      {
+        "id": "c8",
+        "text": "discipline",
+        "isDistractor": false,
+        "translation": "disciplina"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c5",
+        "text": "teams",
+        "isDistractor": false,
+        "translation": "equipos"
+      },
+      {
+        "id": "d3",
+        "text": "do",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c2",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "against",
+        "isDistractor": false,
+        "translation": "contra"
+      },
+      {
+        "id": "c7",
+        "text": "lack",
+        "isDistractor": false,
+        "translation": "carecen"
+      },
+      {
+        "id": "c6",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "don't": "(auxiliar)",
+      "compete": "competimos",
+      "against": "contra",
+      "teams": "equipos",
+      "that": "que",
+      "lack": "carecen",
+      "discipline": "disciplina",
+      "lacking": "careciendo",
+      "those": "esos",
+      "do": "(auxiliar)"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo, en mi rol de capitán",
+      "Verbo: Inspirar (presente indicativo)",
+      "Complemento: A mi equipo",
+      "Complemento: Con un compromiso inquebrantable",
+      "Complemento: Hacia la excelencia",
+      "Complemento: En cada partido"
+    ],
+    "hintDisplay": "Sujeto: Yo, en mi rol de capitán / Verbo: Inspirar (presente indicativo) / Complemento: A mi equipo / Complemento: Con un compromiso inquebrantable / Complemento: Hacia la excelencia / Complemento: En cada partido",
+    "spanishSentence": "Como capitán, inspiro a mi equipo con un compromiso inquebrantable con la excelencia en cada partido.",
+    "correctSentence": "As a captain, I inspire my team with an unwavering commitment to excellence in every match.",
+    "cards": [
+      {
+        "id": "c16",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
+      },
+      {
+        "id": "c10",
+        "text": "unwavering",
+        "isDistractor": false,
+        "translation": "inquebrantable"
+      },
+      {
+        "id": "c9",
+        "text": "an",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      },
+      {
+        "id": "c15",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c5",
+        "text": "inspire",
+        "isDistractor": false,
+        "translation": "inspiro"
+      },
+      {
+        "id": "c4",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d3",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "(presente del verbo ser/estar)"
+      },
+      {
+        "id": "c7",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c11",
+        "text": "commitment",
+        "isDistractor": false,
+        "translation": "compromiso"
+      },
+      {
+        "id": "c3",
+        "text": "captain",
+        "isDistractor": false,
+        "translation": "capitán"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c1",
+        "text": "As",
+        "isDistractor": false,
+        "translation": "como"
+      },
+      {
+        "id": "d1",
+        "text": "inspired",
+        "isDistractor": true,
+        "translation": "inspirado"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c8",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c6",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "d2",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c13",
+        "text": "excellence",
+        "isDistractor": false,
+        "translation": "excelencia"
+      },
+      {
+        "id": "c14",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d4",
+        "text": "excellence's",
+        "isDistractor": true,
+        "translation": "excelencia"
+      },
+      {
+        "id": "c2",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      }
+    ],
+    "translations": {
+      "as": "como",
+      "a": "(artículo indefinido)",
+      "captain": "capitán",
+      "i": "yo",
+      "inspire": "inspiro",
+      "my": "mi",
+      "team": "equipo",
+      "with": "con",
+      "an": "(artículo indefinido)",
+      "unwavering": "inquebrantable",
+      "commitment": "compromiso",
+      "to": "(preposición)",
+      "excellence": "excelencia",
+      "in": "en",
+      "every": "cada",
+      "match": "partido",
+      "inspired": "inspirado",
+      "their": "su",
+      "am": "(presente del verbo ser/estar)",
+      "excellence's": "excelencia"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El atleta",
+      "Verbo: estar (presente continuo)",
+      "Verbo: calentar (participio presente)",
+      "Complemento: antes de la competencia",
+      "Estructura: negación con 'no'"
+    ],
+    "hintDisplay": "Sujeto: El atleta / Verbo: estar (presente continuo) / Verbo: calentar (participio presente) / Complemento: antes de la competencia / Estructura: negación con 'no'",
+    "spanishSentence": "El atleta no se está calentando antes de la competencia.",
+    "correctSentence": "The athlete is not warming up before the competition.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d2",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "c5",
+        "text": "warming",
+        "isDistractor": false,
+        "translation": "calentando"
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d3",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "c9",
+        "text": "competition",
+        "isDistractor": false,
+        "translation": "competencia"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "athlete",
+        "isDistractor": false,
+        "translation": "atleta"
+      },
+      {
+        "id": "c6",
+        "text": "up",
+        "isDistractor": false,
+        "translation": "arriba"
+      },
+      {
+        "id": "d1",
+        "text": "warmed",
+        "isDistractor": true,
+        "translation": "calentado"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "athlete": "atleta",
+      "is": "(ser/estar)",
+      "not": "no",
+      "warming": "calentando",
+      "up": "arriba",
+      "before": "antes de",
+      "competition": "competencia",
+      "warmed": "calentado",
+      "am": "(ser/estar)",
+      "were": "(ser/estar)"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El árbitro",
+      "Verbo: Deber (obligación)",
+      "Verbo: Revisar",
+      "Complemento: decisiones",
+      "Complemento: para garantizar juego limpio",
+      "Complemento: en deportes"
+    ],
+    "hintDisplay": "Sujeto: El árbitro / Verbo: Deber (obligación) / Verbo: Revisar / Complemento: decisiones / Complemento: para garantizar juego limpio / Complemento: en deportes",
+    "spanishSentence": "El árbitro debe revisar decisiones para garantizar juego limpio en deportes.",
+    "correctSentence": "The referee must review decisions to ensure fair play in sports.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "reviewing",
+        "isDistractor": true,
+        "translation": "revisando"
+      },
+      {
+        "id": "c11",
+        "text": "sports",
+        "isDistractor": false,
+        "translation": "deportes"
+      },
+      {
+        "id": "c4",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisar"
+      },
+      {
+        "id": "c3",
+        "text": "must",
+        "isDistractor": false,
+        "translation": "debe"
+      },
+      {
+        "id": "c2",
+        "text": "referee",
+        "isDistractor": false,
+        "translation": "árbitro"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d2",
+        "text": "playing",
+        "isDistractor": true,
+        "translation": "jugando"
+      },
+      {
+        "id": "c5",
+        "text": "decisions",
+        "isDistractor": false,
+        "translation": "decisiones"
+      },
+      {
+        "id": "c6",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c7",
+        "text": "ensure",
+        "isDistractor": false,
+        "translation": "garantizar"
+      },
+      {
+        "id": "c8",
+        "text": "fair",
+        "isDistractor": false,
+        "translation": "limpio"
+      },
+      {
+        "id": "c9",
+        "text": "play",
+        "isDistractor": false,
+        "translation": "juego"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "referee": "árbitro",
+      "must": "debe",
+      "review": "revisar",
+      "decisions": "decisiones",
+      "to": "(marca de infinitivo)",
+      "ensure": "garantizar",
+      "fair": "limpio",
+      "play": "juego",
+      "in": "en",
+      "sports": "deportes",
+      "reviewing": "revisando",
+      "playing": "jugando"
+    },
+    "metadata": {
+      "tense": "articles",
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "sports"

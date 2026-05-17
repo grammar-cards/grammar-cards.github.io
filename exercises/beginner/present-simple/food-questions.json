@@ -1,76 +1,96 @@
 [
   {
     "hints": [
-      "Sujeto: el cliente",
-      "Verbo: probar (saborear)",
-      "Complemento: la comida"
+      "Sujeto: los invitados",
+      "Verbo: disfrutar (enjoy)",
+      "Complemento: la comida",
+      "Estructura: pregunta negativa con auxiliar 'do' invertido"
     ],
-    "hintDisplay": "Sujeto: el cliente / Verbo: probar (saborear) / Complemento: la comida",
-    "spanishSentence": "¿Prueba el cliente la comida deliciosa?",
-    "correctSentence": "Does the customer taste the delicious food?",
+    "hintDisplay": "Sujeto: los invitados / Verbo: disfrutar (enjoy) / Complemento: la comida / Estructura: pregunta negativa con auxiliar 'do' invertido",
+    "spanishSentence": "¿No disfrutan los invitados la comida?",
+    "correctSentence": "Don't the guests enjoy the food?",
     "cards": [
       {
         "id": "c1",
-        "text": "Does",
-        "isDistractor": false
+        "text": "Don't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d4",
+        "text": "Them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c3",
+        "text": "guests",
+        "isDistractor": false,
+        "translation": "invitados"
+      },
+      {
+        "id": "c4",
+        "text": "enjoy",
+        "isDistractor": false,
+        "translation": "disfrutan"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c3",
-        "text": "customer",
-        "isDistractor": false
+        "id": "d1",
+        "text": "Doesn't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
-        "id": "c4",
-        "text": "taste",
-        "isDistractor": false
+        "id": "d3",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c6",
+        "text": "food",
+        "isDistractor": false,
+        "translation": "comida"
+      },
+      {
+        "id": "d2",
+        "text": "Did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c5",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "delicious",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "food",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "eat",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "Is",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "fresh",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "(artículo)"
       }
     ],
     "translations": {
-      "does": "¿prueba",
-      "the": "el/la",
-      "customer": "cliente",
-      "taste": "probar",
-      "delicious": "deliciosa",
-      "food": "comida"
+      "don't": "(auxiliar)",
+      "the": "(artículo)",
+      "guests": "invitados",
+      "enjoy": "disfrutan",
+      "food": "comida",
+      "doesn't": "(auxiliar)",
+      "did": "(auxiliar)",
+      "does": "(auxiliar)",
+      "them": "los"
     },
     "metadata": {
       "tense": "present simple",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "beginner",
       "topic": "food"
@@ -78,79 +98,225 @@
   },
   {
     "hints": [
-      "Sujeto: Juan",
-      "Verbo: traer (hábito/rutina)",
-      "Complemento: comida deliciosa a la oficina"
+      "Sujeto: el chef",
+      "Verbo: cook (auxiliar negativo - do)",
+      "Complemento: comidas deliciosas",
+      "Tiempo: todos los días"
     ],
-    "hintDisplay": "Sujeto: Juan / Verbo: traer (hábito/rutina) / Complemento: comida deliciosa a la oficina",
-    "spanishSentence": "¿Trae Juan comida deliciosa a la oficina?",
-    "correctSentence": "Does Juan bring delicious food to the office?",
+    "hintDisplay": "Sujeto: el chef / Verbo: cook (auxiliar negativo - do) / Complemento: comidas deliciosas / Tiempo: todos los días",
+    "spanishSentence": "¿No cocina el chef comidas deliciosas todos los días?",
+    "correctSentence": "Doesn't the chef cook delicious meals every day?",
     "cards": [
       {
+        "id": "c8",
+        "text": "day",
+        "isDistractor": false,
+        "translation": "días"
+      },
+      {
+        "id": "d2",
+        "text": "do",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
         "id": "c1",
-        "text": "Does",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "Juan",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "bring",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "delicious",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "food",
-        "isDistractor": false
+        "text": "Doesn't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c6",
-        "text": "to",
-        "isDistractor": false
+        "text": "meals",
+        "isDistractor": false,
+        "translation": "comidas"
+      },
+      {
+        "id": "d4",
+        "text": "cooks",
+        "isDistractor": true,
+        "translation": "cocina"
+      },
+      {
+        "id": "c4",
+        "text": "cook",
+        "isDistractor": false,
+        "translation": "cocina"
+      },
+      {
+        "id": "c3",
+        "text": "chef",
+        "isDistractor": false,
+        "translation": "chef"
+      },
+      {
+        "id": "d3",
+        "text": "didn't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
         "id": "c7",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "todos"
+      },
+      {
+        "id": "c5",
+        "text": "delicious",
+        "isDistractor": false,
+        "translation": "deliciosas"
+      },
+      {
+        "id": "d1",
+        "text": "cooked",
+        "isDistractor": true,
+        "translation": "cocinado"
+      },
+      {
+        "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      }
+    ],
+    "translations": {
+      "doesn't": "(auxiliar)",
+      "the": "(artículo)",
+      "chef": "chef",
+      "cook": "cocina",
+      "delicious": "deliciosas",
+      "meals": "comidas",
+      "every": "todos",
+      "day": "días",
+      "cooked": "cocinado",
+      "do": "(auxiliar)",
+      "didn't": "(auxiliar)",
+      "cooks": "cocina"
+    },
+    "metadata": {
+      "tense": "present simple",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "food"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ustedes/ellos (they)",
+      "Verbo: tener (present simple)",
+      "Complemento: alguna opción vegetariana en el menú"
+    ],
+    "hintDisplay": "Sujeto: ustedes/ellos (they) / Verbo: tener (present simple) / Complemento: alguna opción vegetariana en el menú",
+    "spanishSentence": "¿Tienen alguna opción vegetariana en el menú?",
+    "correctSentence": "Do you have any vegetarian options on the menu?",
+    "cards": [
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
         "id": "c8",
-        "text": "office",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d1",
-        "text": "tasty",
-        "isDistractor": true
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c9",
+        "text": "menu",
+        "isDistractor": false,
+        "translation": "menú"
+      },
+      {
+        "id": "c6",
+        "text": "options",
+        "isDistractor": false,
+        "translation": "opciones"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú/ustedes"
+      },
+      {
+        "id": "c4",
+        "text": "any",
+        "isDistractor": false,
+        "translation": "algún/alguna"
+      },
+      {
+        "id": "c7",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
       },
       {
         "id": "d2",
-        "text": "brings",
-        "isDistractor": true
+        "text": "some",
+        "isDistractor": true,
+        "translation": "algún/alguno"
+      },
+      {
+        "id": "c5",
+        "text": "vegetarian",
+        "isDistractor": false,
+        "translation": "vegetariana"
+      },
+      {
+        "id": "d4",
+        "text": "menu's",
+        "isDistractor": true,
+        "translation": "del menú"
+      },
+      {
+        "id": "c3",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "tener"
       },
       {
         "id": "d3",
-        "text": "at",
-        "isDistractor": true
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "tiene"
+      },
+      {
+        "id": "c1",
+        "text": "Do",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       }
     ],
     "translations": {
-      "does": "¿trae",
-      "juan": "Juan",
-      "bring": "traer",
-      "delicious": "deliciosa",
-      "food": "comida",
-      "to": "a",
-      "the": "la",
-      "office": "oficina"
+      "do": "(auxiliar)",
+      "you": "tú/ustedes",
+      "have": "tener",
+      "any": "algún/alguna",
+      "vegetarian": "vegetariana",
+      "options": "opciones",
+      "on": "en",
+      "the": "(artículo)",
+      "menu": "menú",
+      "does": "(auxiliar)",
+      "some": "algún/alguno",
+      "has": "tiene",
+      "menu's": "del menú"
     },
     "metadata": {
       "tense": "present simple",
@@ -162,61 +328,93 @@
   },
   {
     "hints": [
-      "Sujeto: mi mamá",
-      "Verbo: cocinar",
-      "Complemento: comida deliciosa"
+      "Sujeto: nosotros",
+      "Verbo: bake (auxiliar de preguntas)",
+      "Complemento: galletas",
+      "Tiempo: cada fin de semana"
     ],
-    "hintDisplay": "Sujeto: mi mamá / Verbo: cocinar / Complemento: comida deliciosa",
-    "spanishSentence": "¿Cocina mi mamá comida deliciosa?",
-    "correctSentence": "Does mom cook delicious food?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: bake (auxiliar de preguntas) / Complemento: galletas / Tiempo: cada fin de semana",
+    "spanishSentence": "¿Horneamos galletas cada fin de semana?",
+    "correctSentence": "Do we bake cookies every weekend?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Does",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "mom",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "cook",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "delicious",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "food",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cooks",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "bake",
-        "isDistractor": true
+        "id": "d4",
+        "text": "break",
+        "isDistractor": true,
+        "translation": "romper"
       },
       {
         "id": "d3",
-        "text": "tasty",
-        "isDistractor": true
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d1",
+        "text": "baked",
+        "isDistractor": true,
+        "translation": "horneado"
+      },
+      {
+        "id": "c5",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c4",
+        "text": "cookies",
+        "isDistractor": false,
+        "translation": "galletas"
+      },
+      {
+        "id": "d2",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c6",
+        "text": "weekend",
+        "isDistractor": false,
+        "translation": "fin de semana"
+      },
+      {
+        "id": "c3",
+        "text": "bake",
+        "isDistractor": false,
+        "translation": "hornear"
+      },
+      {
+        "id": "c1",
+        "text": "Do",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       }
     ],
     "translations": {
-      "does": "¿Cocina",
-      "mom": "mi mamá",
-      "cook": "cocinar",
-      "delicious": "deliciosa",
-      "food": "comida"
+      "do": "(auxiliar)",
+      "we": "nosotros",
+      "bake": "hornear",
+      "cookies": "galletas",
+      "every": "cada",
+      "weekend": "fin de semana",
+      "baked": "horneado",
+      "does": "(auxiliar)",
+      "they": "ellos",
+      "break": "romper"
     },
     "metadata": {
       "tense": "present simple",
@@ -229,66 +427,553 @@
   {
     "hints": [
       "Sujeto: yo",
-      "Verbo: cocinar",
-      "Complemento: cena todos los días"
+      "Verbo: comer (presente, forma interrogativa)",
+      "Complemento: comida saludable",
+      "Tiempo: todos los días"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: cocinar / Complemento: cena todos los días",
-    "spanishSentence": "¿Cocino cena todos los días?",
-    "correctSentence": "Do I cook dinner every day?",
+    "hintDisplay": "Sujeto: yo / Verbo: comer (presente, forma interrogativa) / Complemento: comida saludable / Tiempo: todos los días",
+    "spanishSentence": "¿Como comida saludable todos los días?",
+    "correctSentence": "Do I eat healthy food every day?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Do",
-        "isDistractor": false
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d3",
+        "text": "Am",
+        "isDistractor": true,
+        "translation": "soy/estoy"
+      },
+      {
+        "id": "c6",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
       },
       {
         "id": "c2",
         "text": "I",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "yo"
       },
       {
-        "id": "c3",
-        "text": "cook",
-        "isDistractor": false
+        "id": "c5",
+        "text": "food",
+        "isDistractor": false,
+        "translation": "comida"
+      },
+      {
+        "id": "d1",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c1",
+        "text": "Do",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c4",
-        "text": "dinner",
-        "isDistractor": false
+        "text": "healthy",
+        "isDistractor": false,
+        "translation": "saludable"
+      },
+      {
+        "id": "c7",
+        "text": "day",
+        "isDistractor": false,
+        "translation": "día"
+      },
+      {
+        "id": "d4",
+        "text": "Ate",
+        "isDistractor": true,
+        "translation": "comí"
+      },
+      {
+        "id": "c3",
+        "text": "eat",
+        "isDistractor": false,
+        "translation": "como"
+      },
+      {
+        "id": "d2",
+        "text": "Did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      }
+    ],
+    "translations": {
+      "do": "(auxiliar)",
+      "i": "yo",
+      "eat": "como",
+      "healthy": "saludable",
+      "food": "comida",
+      "every": "cada",
+      "day": "día",
+      "does": "(auxiliar)",
+      "did": "(auxiliar)",
+      "am": "soy/estoy",
+      "ate": "comí"
+    },
+    "metadata": {
+      "tense": "present simple",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "food"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: mamá",
+      "Verbo: do (auxiliar para preguntas en presente simple)",
+      "Complemento: preparar comida saludable para la familia",
+      "Tiempo: todos los días"
+    ],
+    "hintDisplay": "Sujeto: mamá / Verbo: do (auxiliar para preguntas en presente simple) / Complemento: preparar comida saludable para la familia / Tiempo: todos los días",
+    "spanishSentence": "¿Mamá prepara comida saludable para la familia todos los días?",
+    "correctSentence": "Does mom prepare healthy food for the family every day?",
+    "cards": [
+      {
+        "id": "c10",
+        "text": "day",
+        "isDistractor": false,
+        "translation": "día"
+      },
+      {
+        "id": "c2",
+        "text": "mom",
+        "isDistractor": false,
+        "translation": "mamá"
+      },
+      {
+        "id": "c3",
+        "text": "prepare",
+        "isDistractor": false,
+        "translation": "prepara"
+      },
+      {
+        "id": "c8",
+        "text": "family",
+        "isDistractor": false,
+        "translation": "familia"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c5",
+        "text": "food",
+        "isDistractor": false,
+        "translation": "comida"
+      },
+      {
+        "id": "d3",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c1",
+        "text": "Does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c6",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "d2",
+        "text": "his",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "prepared",
+        "isDistractor": true,
+        "translation": "preparó"
+      },
+      {
+        "id": "c4",
+        "text": "healthy",
+        "isDistractor": false,
+        "translation": "saludable"
+      }
+    ],
+    "translations": {
+      "does": "(auxiliar)",
+      "mom": "mamá",
+      "prepare": "prepara",
+      "healthy": "saludable",
+      "food": "comida",
+      "for": "para",
+      "the": "(artículo)",
+      "family": "familia",
+      "every": "cada",
+      "day": "día",
+      "prepared": "preparó",
+      "his": "su",
+      "did": "(auxiliar)"
+    },
+    "metadata": {
+      "tense": "present simple",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "food"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: panadero",
+      "Verbo: hornear (presente simple, tercera persona singular)",
+      "Complemento: pan fresco",
+      "Tiempo: cada mañana"
+    ],
+    "hintDisplay": "Sujeto: panadero / Verbo: hornear (presente simple, tercera persona singular) / Complemento: pan fresco / Tiempo: cada mañana",
+    "spanishSentence": "¿El panadero hornea pan fresco cada mañana?",
+    "correctSentence": "Does the baker bake fresh bread every morning?",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "fresh",
+        "isDistractor": false,
+        "translation": "fresco"
+      },
+      {
+        "id": "d4",
+        "text": "makes",
+        "isDistractor": true,
+        "translation": "hace"
+      },
+      {
+        "id": "d3",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d2",
+        "text": "baker's",
+        "isDistractor": true,
+        "translation": "del panadero"
+      },
+      {
+        "id": "c1",
+        "text": "Does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c8",
+        "text": "morning",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c3",
+        "text": "baker",
+        "isDistractor": false,
+        "translation": "panadero"
+      },
+      {
+        "id": "c4",
+        "text": "bake",
+        "isDistractor": false,
+        "translation": "hornear"
+      },
+      {
+        "id": "c6",
+        "text": "bread",
+        "isDistractor": false,
+        "translation": "pan"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "baked",
+        "isDistractor": true,
+        "translation": "horneado"
+      },
+      {
+        "id": "c7",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      }
+    ],
+    "translations": {
+      "does": "(auxiliar)",
+      "the": "(artículo)",
+      "baker": "panadero",
+      "bake": "hornear",
+      "fresh": "fresco",
+      "bread": "pan",
+      "every": "cada",
+      "morning": "mañana",
+      "baked": "horneado",
+      "baker's": "del panadero",
+      "did": "(auxiliar)",
+      "makes": "hace"
+    },
+    "metadata": {
+      "tense": "present simple",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "food"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú",
+      "Verbo: verter (acción de servir líquido)",
+      "Complemento: el vino",
+      "Complemento: antes o después de la comida"
+    ],
+    "hintDisplay": "Sujeto: tú / Verbo: verter (acción de servir líquido) / Complemento: el vino / Complemento: antes o después de la comida",
+    "spanishSentence": "¿Viertes el vino antes o después de la comida?",
+    "correctSentence": "Do you pour the wine before or after the meal?",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "or",
+        "isDistractor": false,
+        "translation": "o"
+      },
+      {
+        "id": "c1",
+        "text": "Do",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c5",
+        "text": "wine",
+        "isDistractor": false,
+        "translation": "vino"
+      },
+      {
+        "id": "d4",
+        "text": "during",
+        "isDistractor": true,
+        "translation": "durante"
+      },
+      {
+        "id": "d3",
+        "text": "spill",
+        "isDistractor": true,
+        "translation": "derramar"
+      },
+      {
+        "id": "c10",
+        "text": "meal",
+        "isDistractor": false,
+        "translation": "comida"
+      },
+      {
+        "id": "d1",
+        "text": "poured",
+        "isDistractor": true,
+        "translation": "vertido"
+      },
+      {
+        "id": "c3",
+        "text": "pour",
+        "isDistractor": false,
+        "translation": "verter"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c6",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes"
+      },
+      {
+        "id": "d2",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      }
+    ],
+    "translations": {
+      "do": "(auxiliar)",
+      "you": "tú",
+      "pour": "verter",
+      "the": "(artículo)",
+      "wine": "vino",
+      "before": "antes",
+      "or": "o",
+      "after": "después",
+      "meal": "comida",
+      "poured": "vertido",
+      "does": "(auxiliar)",
+      "spill": "derramar",
+      "during": "durante"
+    },
+    "metadata": {
+      "tense": "present simple",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "food"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo (pronombre interrogativo)",
+      "Verbo: Asar (presente simple, tercera persona singular)",
+      "Complemento: Verduras",
+      "Tiempo: Todos los domingos (frecuencia regular)"
+    ],
+    "hintDisplay": "Sujeto: Yo (pronombre interrogativo) / Verbo: Asar (presente simple, tercera persona singular) / Complemento: Verduras / Tiempo: Todos los domingos (frecuencia regular)",
+    "spanishSentence": "¿Asó verduras todos los domingos?",
+    "correctSentence": "Do I roast vegetables every Sunday?",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "vegetables",
+        "isDistractor": false,
+        "translation": "verduras"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c1",
+        "text": "Do",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c6",
+        "text": "Sunday",
+        "isDistractor": false,
+        "translation": "domingo"
       },
       {
         "id": "c5",
         "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "day",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "make",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "lunch",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "cada"
       },
       {
         "id": "d3",
+        "text": "we",
+        "isDistractor": true,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d1",
+        "text": "roasted",
+        "isDistractor": true,
+        "translation": "asado"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d2",
         "text": "Does",
-        "isDistractor": true
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c3",
+        "text": "roast",
+        "isDistractor": false,
+        "translation": "asar"
+      },
+      {
+        "id": "d4",
+        "text": "bake",
+        "isDistractor": true,
+        "translation": "hornear"
       }
     ],
     "translations": {
-      "do": "hacer",
+      "do": "(auxiliar)",
       "i": "yo",
-      "cook": "cocinar",
-      "dinner": "cena",
+      "roast": "asar",
+      "vegetables": "verduras",
       "every": "cada",
-      "day": "día"
+      "sunday": "domingo",
+      "roasted": "asado",
+      "does": "(auxiliar)",
+      "we": "nosotros",
+      "bake": "hornear"
     },
     "metadata": {
       "tense": "present simple",
@@ -301,464 +986,109 @@
   {
     "hints": [
       "Sujeto: el panadero",
-      "Verbo: hornear",
-      "Complemento: pan fresco todos los días"
+      "Verbo: congelar (en presente, forma negativa interrogativa)",
+      "Complemento: el pastel",
+      "Tiempo: cada mañana"
     ],
-    "hintDisplay": "Sujeto: el panadero / Verbo: hornear / Complemento: pan fresco todos los días",
-    "spanishSentence": "¿Hornea el panadero pan fresco todos los días?",
-    "correctSentence": "Does the baker bake fresh bread every day?",
+    "hintDisplay": "Sujeto: el panadero / Verbo: congelar (en presente, forma negativa interrogativa) / Complemento: el pastel / Tiempo: cada mañana",
+    "spanishSentence": "¿No congela el panadero el pastel cada mañana?",
+    "correctSentence": "Doesn't the baker frost the cake every morning?",
     "cards": [
-      {
-        "id": "c1",
-        "text": "Does",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
       {
         "id": "c3",
         "text": "baker",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "panadero"
       },
       {
-        "id": "c4",
-        "text": "bake",
-        "isDistractor": false
+        "id": "d1",
+        "text": "frosted",
+        "isDistractor": true,
+        "translation": "congelado"
       },
       {
         "id": "c5",
-        "text": "fresh",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c6",
-        "text": "bread",
-        "isDistractor": false
+        "id": "d4",
+        "text": "frosts",
+        "isDistractor": true,
+        "translation": "congela"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "morning",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "d3",
+        "text": "didn't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d2",
+        "text": "Do",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "frost",
+        "isDistractor": false,
+        "translation": "congelar"
       },
       {
         "id": "c7",
         "text": "every",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "cada"
       },
       {
-        "id": "c8",
-        "text": "day",
-        "isDistractor": false
+        "id": "c1",
+        "text": "Doesn't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
-        "id": "d1",
-        "text": "bakes",
-        "isDistractor": true
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
-        "id": "d2",
-        "text": "cook",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "cakes",
-        "isDistractor": true
+        "id": "c6",
+        "text": "cake",
+        "isDistractor": false,
+        "translation": "pastel"
       }
     ],
     "translations": {
-      "does": "¿Hornea",
-      "the": "el",
+      "doesn't": "(auxiliar)",
+      "the": "(artículo)",
       "baker": "panadero",
-      "bake": "hornear",
-      "fresh": "fresco",
-      "bread": "pan",
-      "every": "todos",
-      "day": "los días"
-    },
-    "metadata": {
-      "tense": "present simple",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "food"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el camarero",
-      "Verbo: servir",
-      "Complemento: comida deliciosa"
-    ],
-    "hintDisplay": "Sujeto: el camarero / Verbo: servir / Complemento: comida deliciosa",
-    "spanishSentence": "¿No sirve el camarero comida deliciosa?",
-    "correctSentence": "Doesn't the waiter serve delicious food?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Doesn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "waiter",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "serve",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "delicious",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "food",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cook",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "Does",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "tasty",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el",
-      "waiter": "camarero",
-      "serve": "servir",
-      "delicious": "deliciosa",
-      "food": "comida"
+      "frost": "congelar",
+      "cake": "pastel",
+      "every": "cada",
+      "morning": "mañana",
+      "frosted": "congelado",
+      "do": "(auxiliar)",
+      "didn't": "(auxiliar)",
+      "frosts": "congela"
     },
     "metadata": {
       "tense": "present simple",
       "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "food"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Lisa",
-      "Verbo: saber/probar (en el sentido de experimentar un sabor)",
-      "Complemento: la comida italiana",
-      "Tiempo: todos los días"
-    ],
-    "hintDisplay": "Sujeto: Lisa / Verbo: saber/probar (en el sentido de experimentar un sabor) / Complemento: la comida italiana / Tiempo: todos los días",
-    "spanishSentence": "¿No prueba Lisa la comida italiana todos los días?",
-    "correctSentence": "Doesn't Lisa taste Italian food every day?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Doesn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "Lisa",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "taste",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "Italian",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "food",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "day",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cook",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "French",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "never",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "lisa": "Lisa",
-      "taste": "probar",
-      "italian": "italiana",
-      "food": "comida",
-      "every": "todos",
-      "day": "los días"
-    },
-    "metadata": {
-      "tense": "present simple",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "food"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el camarero",
-      "Verbo: verter",
-      "Complemento: agua en los vasos"
-    ],
-    "hintDisplay": "Sujeto: el camarero / Verbo: verter / Complemento: agua en los vasos",
-    "spanishSentence": "¿Vierte el camarero agua en los vasos?",
-    "correctSentence": "Does the waiter pour water in the glasses?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Does",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "waiter",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "pour",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "water",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "glasses",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "pours",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "juice",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "does": "vierte",
-      "the": "el/la",
-      "waiter": "camarero",
-      "pour": "verter",
-      "water": "agua",
-      "in": "en",
-      "glasses": "vasos"
-    },
-    "metadata": {
-      "tense": "present simple",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "food"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Pedro",
-      "Verbo: pagar (acción habitual)",
-      "Complemento: la comida en restaurantes"
-    ],
-    "hintDisplay": "Sujeto: Pedro / Verbo: pagar (acción habitual) / Complemento: la comida en restaurantes",
-    "spanishSentence": "¿Cuánto paga Pedro por la comida?",
-    "correctSentence": "How much does Pedro pay for the food?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "How",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "much",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "Pedro",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "pay",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "food",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "paid",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "spend",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "eats",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "how": "cuánto",
-      "much": "mucho",
-      "does": "hace (auxiliar)",
-      "pedro": "Pedro",
-      "pay": "pagar",
-      "for": "por",
-      "the": "la",
-      "food": "comida"
-    },
-    "metadata": {
-      "tense": "present simple",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "food"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Laura",
-      "Verbo: elegir",
-      "Complemento: comida saludable"
-    ],
-    "hintDisplay": "Sujeto: Laura / Verbo: elegir / Complemento: comida saludable",
-    "spanishSentence": "¿Elige Laura comida saludable?",
-    "correctSentence": "Does Laura choose healthy food?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Does",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "Laura",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "choose",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "healthy",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "food",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "eat",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "fresh",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "Is",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "does": "¿Elige",
-      "laura": "Laura",
-      "choose": "elige",
-      "healthy": "saludable",
-      "food": "comida"
-    },
-    "metadata": {
-      "tense": "present simple",
-      "isNegative": false,
       "isQuestion": true,
       "difficulty": "beginner",
       "topic": "food"

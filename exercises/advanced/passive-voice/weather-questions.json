@@ -2,97 +2,748 @@
   {
     "hints": [
       "Sujeto: el vuelo",
-      "Verbo: retrasar (voz pasiva)",
-      "Complemento: por la tormenta de nieve",
-      "Tiempo: antes de que empezara la escuela"
+      "Verbo: ser (auxiliar para voz pasiva)",
+      "Verbo: cancelar (participio pasado en voz pasiva)",
+      "Verbo: ir (auxiliar modal para futuro)",
+      "Complemento: debido a la tormenta"
     ],
-    "hintDisplay": "Sujeto: el vuelo / Verbo: retrasar (voz pasiva) / Complemento: por la tormenta de nieve / Tiempo: antes de que empezara la escuela",
-    "spanishSentence": "¿No fue retrasado el vuelo por la tormenta de nieve antes de que empezara la escuela?",
-    "correctSentence": "Wasn't the flight delayed by the snowstorm before school?",
+    "hintDisplay": "Sujeto: el vuelo / Verbo: ser (auxiliar para voz pasiva) / Verbo: cancelar (participio pasado en voz pasiva) / Verbo: ir (auxiliar modal para futuro) / Complemento: debido a la tormenta",
+    "spanishSentence": "¿Va a ser cancelado el vuelo debido a la tormenta?",
+    "correctSentence": "Is the flight going to be cancelled due to the storm?",
     "cards": [
-      {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
-      },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c6",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "ser"
       },
       {
         "id": "c3",
         "text": "flight",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "delayed",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "snowstorm",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "school",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "vuelo"
       },
       {
         "id": "d1",
-        "text": "postponed",
-        "isDistractor": true
+        "text": "been",
+        "isDistractor": true,
+        "translation": "sido"
       },
       {
-        "id": "d2",
-        "text": "weren't",
-        "isDistractor": true
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
-        "id": "d3",
-        "text": "cancelled",
-        "isDistractor": true
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d4",
-        "text": "the",
-        "isDistractor": true
+        "text": "storms",
+        "isDistractor": true,
+        "translation": "tormentas"
       },
       {
-        "id": "d5",
-        "text": "during",
-        "isDistractor": true
+        "id": "c8",
+        "text": "due",
+        "isDistractor": false,
+        "translation": "debido"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "cancelled",
+        "isDistractor": false,
+        "translation": "cancelado"
+      },
+      {
+        "id": "c11",
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c4",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "ir"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(perfecto)"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       }
     ],
     "translations": {
-      "the": "el/la",
+      "is": "(presente)",
+      "the": "(artículo)",
       "flight": "vuelo",
-      "delayed": "retrasado",
-      "by": "por",
-      "snowstorm": "tormenta de nieve",
-      "before": "antes de",
-      "school": "escuela"
+      "going": "ir",
+      "to": "(marca de infinitivo)",
+      "be": "ser",
+      "cancelled": "cancelado",
+      "due": "debido",
+      "storm": "tormenta",
+      "been": "sido",
+      "has": "(perfecto)",
+      "will": "(futuro)",
+      "storms": "tormentas"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la escuela",
+      "Verbo: ser (pasiva con will)",
+      "Complemento: reabierta",
+      "Tiempo: después de que pase la tormenta"
+    ],
+    "hintDisplay": "Sujeto: la escuela / Verbo: ser (pasiva con will) / Complemento: reabierta / Tiempo: después de que pase la tormenta",
+    "spanishSentence": "¿Será reabierta la escuela después de que pase la tormenta?",
+    "correctSentence": "Will the school be reopened after the storm passes?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c3",
+        "text": "school",
+        "isDistractor": false,
+        "translation": "escuela"
+      },
+      {
+        "id": "d1",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "fueron"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "Reopens",
+        "isDistractor": true,
+        "translation": "reabre"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d2",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c6",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después de"
+      },
+      {
+        "id": "c9",
+        "text": "passes",
+        "isDistractor": false,
+        "translation": "pase"
+      },
+      {
+        "id": "d3",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c8",
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
+      {
+        "id": "c4",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d5",
+        "text": "Before",
+        "isDistractor": true,
+        "translation": "antes"
+      },
+      {
+        "id": "c5",
+        "text": "reopened",
+        "isDistractor": false,
+        "translation": "reabierta"
+      }
+    ],
+    "translations": {
+      "will": "(futuro)",
+      "the": "(artículo)",
+      "school": "escuela",
+      "be": "(auxiliar)",
+      "reopened": "reabierta",
+      "after": "después de",
+      "storm": "tormenta",
+      "passes": "pase",
+      "were": "fueron",
+      "would": "(condicional)",
+      "has": "ha",
+      "reopens": "reabre",
+      "before": "antes"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el pueblo",
+      "Verbo: ser (voz pasiva en presente perfecto)",
+      "Complemento: evacuado debido a la tormenta severa"
+    ],
+    "hintDisplay": "Sujeto: el pueblo / Verbo: ser (voz pasiva en presente perfecto) / Complemento: evacuado debido a la tormenta severa",
+    "spanishSentence": "¿Ha sido evacuado el pueblo debido a la tormenta severa?",
+    "correctSentence": "Has the town been evacuated due to the severe storm?",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "Have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "d4",
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d2",
+        "text": "Was",
+        "isDistractor": true,
+        "translation": "fue"
+      },
+      {
+        "id": "c6",
+        "text": "due",
+        "isDistractor": false,
+        "translation": "debido"
+      },
+      {
+        "id": "d5",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "fueron"
+      },
+      {
+        "id": "c9",
+        "text": "severe",
+        "isDistractor": false,
+        "translation": "severa"
+      },
+      {
+        "id": "c7",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "Is",
+        "isDistractor": true,
+        "translation": "es"
+      },
+      {
+        "id": "c4",
+        "text": "been",
+        "isDistractor": false,
+        "translation": "sido"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c3",
+        "text": "town",
+        "isDistractor": false,
+        "translation": "pueblo"
+      },
+      {
+        "id": "c5",
+        "text": "evacuated",
+        "isDistractor": false,
+        "translation": "evacuado"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
+      {
+        "id": "c1",
+        "text": "Has",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      }
+    ],
+    "translations": {
+      "has": "(auxiliar)",
+      "the": "(artículo)",
+      "town": "pueblo",
+      "been": "sido",
+      "evacuated": "evacuado",
+      "due": "debido",
+      "to": "a",
+      "severe": "severa",
+      "storm": "tormenta",
+      "have": "haber",
+      "was": "fue",
+      "is": "es",
+      "will": "(futuro)",
+      "were": "fueron"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la electricidad",
+      "Verbo: cortar (voz pasiva, pasado continuo)",
+      "Complemento: durante la tormenta",
+      "Tiempo: durante la tormenta"
+    ],
+    "hintDisplay": "Sujeto: la electricidad / Verbo: cortar (voz pasiva, pasado continuo) / Complemento: durante la tormenta / Tiempo: durante la tormenta",
+    "spanishSentence": "¿No estaba siendo cortada la electricidad durante la tormenta?",
+    "correctSentence": "Wasn't the power being cut during the storm?",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "cut",
+        "isDistractor": false,
+        "translation": "cortada"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "power",
+        "isDistractor": false,
+        "translation": "electricidad"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "being",
+        "isDistractor": false,
+        "translation": "(estar + gerundio)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c6",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "d2",
+        "text": "Isn't",
+        "isDistractor": true,
+        "translation": "no es"
+      },
+      {
+        "id": "d3",
+        "text": "cutted",
+        "isDistractor": true,
+        "translation": "no existe en inglés"
+      },
+      {
+        "id": "d4",
+        "text": "storms",
+        "isDistractor": true,
+        "translation": "tormentas"
+      },
+      {
+        "id": "c8",
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
+      {
+        "id": "d1",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "(pasado de ser/estar)"
+      },
+      {
+        "id": "c1",
+        "text": "Wasn't",
+        "isDistractor": false,
+        "translation": "no estaba"
+      }
+    ],
+    "translations": {
+      "wasn't": "no estaba",
+      "the": "(artículo)",
+      "power": "electricidad",
+      "being": "(estar + gerundio)",
+      "cut": "cortada",
+      "during": "durante",
+      "storm": "tormenta",
+      "were": "(pasado de ser/estar)",
+      "isn't": "no es",
+      "cutted": "no existe en inglés",
+      "storms": "tormentas"
     },
     "metadata": {
       "tense": "passive voice",
       "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: las cosechas",
+      "Verbo: poder (capacidad/posibilidad)",
+      "Verbo: dañar (pasiva)",
+      "Complemento: por la lluvia fuerte"
+    ],
+    "hintDisplay": "Sujeto: las cosechas / Verbo: poder (capacidad/posibilidad) / Verbo: dañar (pasiva) / Complemento: por la lluvia fuerte",
+    "spanishSentence": "¿Podrían ser dañadas las cosechas por la lluvia fuerte?",
+    "correctSentence": "Could the crops be damaged by the heavy rain?",
+    "cards": [
+      {
+        "id": "d2",
+        "text": "raining",
+        "isDistractor": true,
+        "translation": "lloviendo"
+      },
+      {
+        "id": "d3",
+        "text": "heavily",
+        "isDistractor": true,
+        "translation": "fuertemente"
+      },
+      {
+        "id": "c5",
+        "text": "damaged",
+        "isDistractor": false,
+        "translation": "dañadas"
+      },
+      {
+        "id": "c4",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c3",
+        "text": "crops",
+        "isDistractor": false,
+        "translation": "cosechas"
+      },
+      {
+        "id": "c8",
+        "text": "heavy",
+        "isDistractor": false,
+        "translation": "fuerte"
+      },
+      {
+        "id": "d4",
+        "text": "harvest",
+        "isDistractor": true,
+        "translation": "cosecha"
+      },
+      {
+        "id": "c1",
+        "text": "Could",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "rain",
+        "isDistractor": false,
+        "translation": "lluvia"
+      },
+      {
+        "id": "d1",
+        "text": "damages",
+        "isDistractor": true,
+        "translation": "daños"
+      },
+      {
+        "id": "c6",
+        "text": "by",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      }
+    ],
+    "translations": {
+      "could": "(condicional)",
+      "the": "(artículo)",
+      "crops": "cosechas",
+      "be": "(auxiliar)",
+      "damaged": "dañadas",
+      "by": "por",
+      "heavy": "fuerte",
+      "rain": "lluvia",
+      "damages": "daños",
+      "raining": "lloviendo",
+      "heavily": "fuertemente",
+      "harvest": "cosecha"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: antes de que llegara la tormenta",
+      "Sujeto: la advertencia meteorológica",
+      "Verbo: ser (pasiva)",
+      "Verbo: levantar (participio pasado)",
+      "Verbo: haber (auxiliar de condicional perfecto)"
+    ],
+    "hintDisplay": "Tiempo: antes de que llegara la tormenta / Sujeto: la advertencia meteorológica / Verbo: ser (pasiva) / Verbo: levantar (participio pasado) / Verbo: haber (auxiliar de condicional perfecto)",
+    "spanishSentence": "¿Había sido levantada la advertencia meteorológica antes de que llegara la tormenta?",
+    "correctSentence": "Had the weather warning been lifted before the storm arrived?",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "lifted",
+        "isDistractor": false,
+        "translation": "levantada"
+      },
+      {
+        "id": "c1",
+        "text": "Had",
+        "isDistractor": false,
+        "translation": "(pluscuamperfecto)"
+      },
+      {
+        "id": "d4",
+        "text": "Arrives",
+        "isDistractor": true,
+        "translation": "llega"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "warning",
+        "isDistractor": false,
+        "translation": "advertencia"
+      },
+      {
+        "id": "d1",
+        "text": "Have",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d2",
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d5",
+        "text": "Removing",
+        "isDistractor": true,
+        "translation": "removiendo"
+      },
+      {
+        "id": "c9",
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
+      {
+        "id": "c5",
+        "text": "been",
+        "isDistractor": false,
+        "translation": "sido"
+      },
+      {
+        "id": "c7",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c3",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "meteorológica"
+      },
+      {
+        "id": "c10",
+        "text": "arrived",
+        "isDistractor": false,
+        "translation": "llegara"
+      },
+      {
+        "id": "d3",
+        "text": "Being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      }
+    ],
+    "translations": {
+      "had": "(pluscuamperfecto)",
+      "the": "(artículo)",
+      "weather": "meteorológica",
+      "warning": "advertencia",
+      "been": "sido",
+      "lifted": "levantada",
+      "before": "antes de",
+      "storm": "tormenta",
+      "arrived": "llegara",
+      "have": "(auxiliar)",
+      "will": "(futuro)",
+      "being": "siendo",
+      "arrives": "llega",
+      "removing": "removiendo"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "weather"
@@ -102,93 +753,113 @@
     "hints": [
       "Sujeto: las carreteras",
       "Verbo: limpiar (voz pasiva)",
-      "Complemento: de la nieve",
-      "Tiempo: recientemente"
+      "Verbo: ser (auxiliar para voz pasiva)",
+      "Complemento: después de las nevadas intensas",
+      "Estructura: pregunta negativa con inversión sujeto-verbo"
     ],
-    "hintDisplay": "Sujeto: las carreteras / Verbo: limpiar (voz pasiva) / Complemento: de la nieve / Tiempo: recientemente",
-    "spanishSentence": "¿No han sido limpiadas recientemente las carreteras de la nieve?",
-    "correctSentence": "Haven't the roads been recently cleared of snow?",
+    "hintDisplay": "Sujeto: las carreteras / Verbo: limpiar (voz pasiva) / Verbo: ser (auxiliar para voz pasiva) / Complemento: después de las nevadas intensas / Estructura: pregunta negativa con inversión sujeto-verbo",
+    "spanishSentence": "¿No se limpian las carreteras después de las nevadas intensas?",
+    "correctSentence": "Aren't the roads cleared after heavy snowfall?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Haven't",
-        "isDistractor": false
+        "id": "c7",
+        "text": "snowfall",
+        "isDistractor": false,
+        "translation": "nevadas"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c6",
+        "text": "heavy",
+        "isDistractor": false,
+        "translation": "intensas"
+      },
+      {
+        "id": "d3",
+        "text": "cleaned",
+        "isDistractor": true,
+        "translation": "limpias"
+      },
+      {
+        "id": "c5",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después de"
+      },
+      {
+        "id": "c4",
+        "text": "cleared",
+        "isDistractor": false,
+        "translation": "limpias"
       },
       {
         "id": "c3",
         "text": "roads",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "been",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "recently",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "cleared",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "of",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "snow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "wasn't",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "highways",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "blocked",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "carreteras"
       },
       {
         "id": "d4",
-        "text": "yesterday",
-        "isDistractor": true
+        "text": "clearing",
+        "isDistractor": true,
+        "translation": "limpieza"
       },
       {
-        "id": "d5",
-        "text": "ice",
-        "isDistractor": true
+        "id": "c1",
+        "text": "Aren't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "d6",
-        "text": "been",
+        "text": "Does",
         "isDistractor": true,
-        "translation": "sido"
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "Isn't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d5",
+        "text": "clears",
+        "isDistractor": true,
+        "translation": "limpia"
       }
     ],
     "translations": {
-      "the": "las",
+      "aren't": "(auxiliar)",
+      "the": "(artículo)",
       "roads": "carreteras",
-      "been": "sido",
-      "recently": "recientemente",
-      "cleared": "limpiadas",
-      "of": "de",
-      "snow": "nieve"
+      "cleared": "limpias",
+      "after": "después de",
+      "heavy": "intensas",
+      "snowfall": "nevadas",
+      "isn't": "(auxiliar)",
+      "were": "(pasado)",
+      "cleaned": "limpias",
+      "clearing": "limpieza",
+      "clears": "limpia",
+      "does": "(auxiliar)"
     },
     "metadata": {
       "tense": "passive voice",
@@ -200,209 +871,143 @@
   },
   {
     "hints": [
-      "Sujeto: la escuela",
-      "Verbo: cerrar (voz pasiva)",
-      "Complemento: debido a la tormenta de nieve",
-      "Tiempo: todos los domingos"
+      "Sujeto: el pronóstico del tiempo",
+      "Verbo: trasladar (pasiva con 'ser')",
+      "Verbo: poder (auxiliar modal de capacidad/permiso)",
+      "Complemento: a una franja horaria diferente",
+      "Estructura: forma interrogativa negativa"
     ],
-    "hintDisplay": "Sujeto: la escuela / Verbo: cerrar (voz pasiva) / Complemento: debido a la tormenta de nieve / Tiempo: todos los domingos",
-    "spanishSentence": "¿No es cerrada la escuela todos los domingos debido a la tormenta de nieve?",
-    "correctSentence": "Isn't the school closed every Sunday due to the snowstorm?",
+    "hintDisplay": "Sujeto: el pronóstico del tiempo / Verbo: trasladar (pasiva con 'ser') / Verbo: poder (auxiliar modal de capacidad/permiso) / Complemento: a una franja horaria diferente / Estructura: forma interrogativa negativa",
+    "spanishSentence": "¿No se traslada el pronóstico del tiempo a una franja horaria diferente?",
+    "correctSentence": "Is the weather forecast not moved to a different time slot?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "school",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "closed",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "Sunday",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "due",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
+        "id": "d1",
+        "text": "moving",
+        "isDistractor": true,
+        "translation": "trasladando"
       },
       {
         "id": "c10",
-        "text": "snowstorm",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "weren't",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "opened",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "every",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "because",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "of",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "library",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "school": "escuela",
-      "closed": "cerrada",
-      "every": "todos los",
-      "sunday": "domingo",
-      "due": "debido",
-      "to": "a",
-      "snowstorm": "tormenta de nieve"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la advertencia (the warning)",
-      "Verbo: ser emitida (to be issued)",
-      "Complemento: por los meteorólogos (by the meteorologists)",
-      "Tiempo: el domingo (on Sunday)"
-    ],
-    "hintDisplay": "Sujeto: la advertencia / Verbo: ser emitida / Complemento: por los meteorólogos / Tiempo: el domingo",
-    "spanishSentence": "¿No fue emitida la advertencia por los meteorólogos el domingo?",
-    "correctSentence": "Wasn't the warning issued by the meteorologists on Sunday?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
+        "text": "time",
+        "isDistractor": false,
+        "translation": "horaria"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "d3",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c3",
-        "text": "warning",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "issued",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "meteorologists",
-        "isDistractor": false
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "tiempo"
       },
       {
         "id": "c8",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "Sunday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "announced",
-        "isDistractor": true
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d2",
-        "text": "alert",
-        "isDistractor": true
+        "text": "Was",
+        "isDistractor": true,
+        "translation": "(pasado)"
       },
       {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
+        "id": "c7",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
-        "id": "d4",
-        "text": "Were",
-        "isDistractor": true
+        "id": "c9",
+        "text": "different",
+        "isDistractor": false,
+        "translation": "diferente"
       },
       {
-        "id": "d5",
-        "text": "forecasters",
-        "isDistractor": true
+        "id": "c4",
+        "text": "forecast",
+        "isDistractor": false,
+        "translation": "pronóstico"
       },
       {
         "id": "d6",
-        "text": "Monday",
-        "isDistractor": true
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d5",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
+      },
+      {
+        "id": "c6",
+        "text": "moved",
+        "isDistractor": false,
+        "translation": "trasladado"
+      },
+      {
+        "id": "c11",
+        "text": "slot",
+        "isDistractor": false,
+        "translation": "franja"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       }
     ],
     "translations": {
-      "the": "la / el / los / las",
-      "warning": "advertencia",
-      "issued": "emitida",
-      "by": "por",
-      "meteorologists": "meteorólogos",
-      "on": "el",
-      "sunday": "domingo"
+      "is": "(ser/estar)",
+      "the": "(artículo)",
+      "weather": "tiempo",
+      "forecast": "pronóstico",
+      "not": "no",
+      "moved": "trasladado",
+      "to": "(marca de infinitivo)",
+      "a": "(artículo)",
+      "different": "diferente",
+      "time": "horaria",
+      "slot": "franja",
+      "moving": "trasladando",
+      "was": "(pasado)",
+      "does": "(auxiliar)",
+      "them": "los",
+      "has": "ha",
+      "will": "(futuro)"
     },
     "metadata": {
       "tense": "passive voice",
@@ -414,586 +1019,256 @@
   },
   {
     "hints": [
-      "Sujeto: la electricidad (the power)",
-      "Verbo: cortar (cut) en voz pasiva",
-      "Complemento: por una tormenta severa (by a severe storm)",
-      "Tiempo: antes de la cena (before dinner)"
+      "Sujeto: las cosechas",
+      "Verbo: cosechar (voz pasiva, pasado)",
+      "Complemento: antes de que llegara la tormenta",
+      "Tiempo: antes de que llegara la tormenta"
     ],
-    "hintDisplay": "Sujeto: la electricidad / Verbo: cortar (voz pasiva) / Complemento: por una tormenta severa / Tiempo: antes de la cena",
-    "spanishSentence": "¿Fue cortada la electricidad por una tormenta severa antes de la cena?",
-    "correctSentence": "Was the power cut by a severe storm before dinner?",
+    "hintDisplay": "Sujeto: las cosechas / Verbo: cosechar (voz pasiva, pasado) / Complemento: antes de que llegara la tormenta / Tiempo: antes de que llegara la tormenta",
+    "spanishSentence": "¿Fueron cosechadas las cosechas antes de que llegara la tormenta?",
+    "correctSentence": "Were the crops harvested before the storm arrived?",
     "cards": [
       {
         "id": "c1",
-        "text": "Was",
-        "isDistractor": false
+        "text": "Were",
+        "isDistractor": false,
+        "translation": "(pasado)"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d6",
+        "text": "Arrives",
+        "isDistractor": true,
+        "translation": "llega"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
         "id": "c3",
-        "text": "power",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "cut",
-        "isDistractor": false
+        "text": "crops",
+        "isDistractor": false,
+        "translation": "cosechas"
       },
       {
         "id": "c5",
-        "text": "by",
-        "isDistractor": false
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
       },
       {
-        "id": "c6",
-        "text": "a",
-        "isDistractor": false
+        "id": "d4",
+        "text": "Him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "d3",
+        "text": "Harvesting",
+        "isDistractor": true,
+        "translation": "cosechando"
+      },
+      {
+        "id": "d2",
+        "text": "Are",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "d1",
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "c7",
-        "text": "severe",
-        "isDistractor": false
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
+      {
+        "id": "c8",
+        "text": "arrived",
+        "isDistractor": false,
+        "translation": "llegara"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "harvested",
+        "isDistractor": false,
+        "translation": "cosechadas"
+      },
+      {
+        "id": "d5",
+        "text": "After",
+        "isDistractor": true,
+        "translation": "después de"
+      }
+    ],
+    "translations": {
+      "were": "(pasado)",
+      "the": "(artículo)",
+      "crops": "cosechas",
+      "harvested": "cosechadas",
+      "before": "antes de",
+      "storm": "tormenta",
+      "arrived": "llegara",
+      "will": "(futuro)",
+      "are": "(presente)",
+      "harvesting": "cosechando",
+      "him": "lo",
+      "after": "después de",
+      "arrives": "llega"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el suministro eléctrico",
+      "Verbo: ser (en presente continuo pasivo)",
+      "Complemento: interrumpido por la tormenta",
+      "Tiempo: ahora, en este momento"
+    ],
+    "hintDisplay": "Sujeto: el suministro eléctrico / Verbo: ser (en presente continuo pasivo) / Complemento: interrumpido por la tormenta / Tiempo: ahora, en este momento",
+    "spanishSentence": "¿Está siendo interrumpido el suministro eléctrico por la tormenta en este momento?",
+    "correctSentence": "Is the power being disrupted by the storm right now?",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c8",
         "text": "storm",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "tormenta"
       },
       {
-        "id": "c9",
-        "text": "before",
-        "isDistractor": false
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d4",
+        "text": "Currently",
+        "isDistractor": true,
+        "translation": "actualmente"
+      },
+      {
+        "id": "d1",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c10",
-        "text": "dinner",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Were",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "electricity",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "damaged",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "during",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "wind",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "was": "fue",
-      "the": "la",
-      "power": "electricidad",
-      "cut": "cortada",
-      "by": "por",
-      "a": "una",
-      "severe": "severa",
-      "storm": "tormenta",
-      "before": "antes de",
-      "dinner": "la cena"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: las carreteras",
-      "Verbo: bloquear (voz pasiva)",
-      "Complemento: por la fuerte nevada",
-      "Tiempo: el martes"
-    ],
-    "hintDisplay": "Sujeto: las carreteras / Verbo: bloquear (voz pasiva) / Complemento: por la fuerte nevada / Tiempo: el martes",
-    "spanishSentence": "¿No fueron bloqueados los caminos el martes por la fuerte nevada?",
-    "correctSentence": "Weren't the roads blocked on Tuesday by the heavy snow?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Weren't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
+        "text": "now",
+        "isDistractor": false,
+        "translation": "en este momento"
       },
       {
         "id": "c3",
-        "text": "roads",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "cleared",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "Tuesday",
-        "isDistractor": false
+        "text": "power",
+        "isDistractor": false,
+        "translation": "suministro eléctrico"
       },
       {
         "id": "c7",
-        "text": "by",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
+        "id": "d5",
+        "text": "Powers",
+        "isDistractor": true,
+        "translation": "poderes"
+      },
+      {
+        "id": "d3",
+        "text": "Disrupting",
+        "isDistractor": true,
+        "translation": "interrumpiendo"
+      },
+      {
+        "id": "c4",
+        "text": "being",
+        "isDistractor": false,
+        "translation": "siendo"
       },
       {
         "id": "c9",
-        "text": "heavy",
-        "isDistractor": false
+        "text": "right",
+        "isDistractor": false,
+        "translation": "ahora mismo"
       },
-      {
-        "id": "c10",
-        "text": "snow",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "blocked",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "Were",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "during",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "from",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "thick",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "roads": "carreteras",
-      "on": "el",
-      "tuesday": "martes",
-      "by": "por",
-      "heavy": "pesada",
-      "snow": "nieve",
-      "blocked": "bloqueadas"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el vuelo",
-      "Verbo: desviar (voz pasiva)",
-      "Complemento: por la tormenta de granizo",
-      "Tiempo: después del desayuno"
-    ],
-    "hintDisplay": "Sujeto: el vuelo / Verbo: desviar (voz pasiva) / Complemento: por la tormenta de granizo / Tiempo: después del desayuno",
-    "spanishSentence": "¿No fue desviado el vuelo por la tormenta de granizo después del desayuno?",
-    "correctSentence": "Wasn't the flight diverted by the severe hailstorm after breakfast?",
-    "cards": [
       {
         "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "flight",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "diverted",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "severe",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "hailstorm",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "after",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "breakfast",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "delayed",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cancelled",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "during",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "thunderstorm",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "before",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "flight": "vuelo",
-      "diverted": "desviado",
-      "by": "por",
-      "severe": "severa",
-      "hailstorm": "tormenta de granizo",
-      "after": "después de",
-      "breakfast": "desayuno"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la advertencia",
-      "Verbo: extender (voz pasiva)",
-      "Complemento: por los meteorólogos",
-      "Tiempo: todos los sábados"
-    ],
-    "hintDisplay": "Sujeto: la advertencia / Verbo: extender (voz pasiva) / Complemento: por los meteorólogos / Tiempo: todos los sábados",
-    "spanishSentence": "¿No es la advertencia extendida por los meteorólogos cada sábado?",
-    "correctSentence": "Isn't the warning extended by meteorologists every Saturday?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "warning",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "extended",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "meteorologists",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "Saturday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "wasn't",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "alert",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "prolonged",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "weather",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "forecasters",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "each",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "la",
-      "warning": "advertencia",
-      "extended": "extendida",
-      "by": "por",
-      "meteorologists": "meteorólogos",
-      "every": "cada",
-      "saturday": "sábado"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la advertencia",
-      "Verbo: extender (voz pasiva)",
-      "Complemento: antes de la cena",
-      "Tiempo: antes de la cena"
-    ],
-    "hintDisplay": "Sujeto: la advertencia / Verbo: extender (voz pasiva) / Complemento: antes de la cena / Tiempo: antes de la cena",
-    "spanishSentence": "¿Fue extendida la advertencia antes de la cena?",
-    "correctSentence": "Was the warning extended before dinner?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Was",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "warning",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "extended",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "dinner",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "extended",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "extended",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "lasted",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "alert",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
         "text": "Is",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d2",
+        "text": "Was",
+        "isDistractor": true,
+        "translation": "era"
+      },
+      {
+        "id": "c5",
+        "text": "disrupted",
+        "isDistractor": false,
+        "translation": "interrumpido"
+      },
+      {
+        "id": "c6",
+        "text": "by",
+        "isDistractor": false,
+        "translation": "por"
       }
     ],
     "translations": {
-      "was": "fue",
-      "the": "la",
-      "warning": "advertencia",
-      "extended": "extendida",
-      "before": "antes de",
-      "dinner": "la cena"
+      "is": "(auxiliar)",
+      "the": "(artículo)",
+      "power": "suministro eléctrico",
+      "being": "siendo",
+      "disrupted": "interrumpido",
+      "by": "por",
+      "storm": "tormenta",
+      "right": "ahora mismo",
+      "now": "en este momento",
+      "does": "(auxiliar)",
+      "was": "era",
+      "disrupting": "interrumpiendo",
+      "currently": "actualmente",
+      "powers": "poderes"
     },
     "metadata": {
       "tense": "passive voice",
       "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el evento",
-      "Verbo: posponer (voz pasiva)",
-      "Complemento: ninguno específico",
-      "Tiempo: anoche"
-    ],
-    "hintDisplay": "Sujeto: el evento / Verbo: posponer (voz pasiva) / Complemento: ninguno específico / Tiempo: anoche",
-    "spanishSentence": "¿No fue pospuesto el evento anoche?",
-    "correctSentence": "Wasn't the event postponed last night?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "event",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "postponed",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "last",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "moved",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "shifted",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "pushed",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "eastward",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "this",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "wasnt": "No fue",
-      "the": "el",
-      "event": "evento",
-      "postponed": "pospuesto",
-      "last": "última",
-      "night": "noche"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "weather"

@@ -1,266 +1,323 @@
 [
   {
     "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: admitir + queried (pasado perfecto)",
-      "Complemento: la base de datos en producción sin cache",
-      "Tiempo: ayer"
+      "Sujeto: El equipo",
+      "Verbo: Decir (pasado)",
+      "Complemento: que no había probado las nuevas características antes del despliegue",
+      "Verbo: Probar (pasado perfecto negativo - había probado)",
+      "Complemento: las nuevas características",
+      "Tiempo: antes del despliegue"
     ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: admitir + queried (pasado perfecto) / Complemento: la base de datos en producción sin cache / Tiempo: ayer",
-    "spanishSentence": "El ingeniero admitió que había consultado la base de datos en producción sin cache ayer.",
-    "correctSentence": "The engineer admitted that he had queried the database in production without cache yesterday.",
+    "hintDisplay": "Sujeto: El equipo / Verbo: Decir (pasado) / Complemento: que no había probado las nuevas características antes del despliegue / Verbo: Probar (pasado perfecto negativo - había probado) / Complemento: las nuevas características / Tiempo: antes del despliegue",
+    "spanishSentence": "El equipo dijo que no había probado las nuevas características antes del despliegue.",
+    "correctSentence": "The team said that they hadn't tested the new features before the deployment.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "admitted",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "queried",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "production",
-        "isDistractor": false
+        "id": "d3",
+        "text": "testing",
+        "isDistractor": true,
+        "translation": "prueba"
       },
       {
         "id": "c12",
-        "text": "without",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c13",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "denied",
-        "isDistractor": true
+        "id": "c10",
+        "text": "features",
+        "isDistractor": false,
+        "translation": "características"
       },
       {
         "id": "d2",
-        "text": "querying",
-        "isDistractor": true
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
       },
       {
-        "id": "d3",
-        "text": "accessed",
-        "isDistractor": true
+        "id": "c9",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevas"
+      },
+      {
+        "id": "c11",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes"
+      },
+      {
+        "id": "c7",
+        "text": "tested",
+        "isDistractor": false,
+        "translation": "probado"
       },
       {
         "id": "d4",
-        "text": "with",
-        "isDistractor": true
+        "text": "hasn't",
+        "isDistractor": true,
+        "translation": "(negación presente perfecto)"
       },
-      {
-        "id": "d5",
-        "text": "server",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "explained",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "engineer": "ingeniero",
-      "admitted": "admitió",
-      "that": "que",
-      "he": "él",
-      "had": "había",
-      "queried": "consultado",
-      "database": "base de datos",
-      "in": "en",
-      "production": "producción",
-      "without": "sin",
-      "cache": "cache",
-      "yesterday": "ayer"
-    },
-    "metadata": {
-      "tense": "reported speech",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: integrar (reported speech con backshift)",
-      "Complemento: Docker en el pipeline de deployment",
-      "Tiempo: la semana pasada"
-    ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: integrar (reported speech con backshift) / Complemento: Docker en el pipeline de deployment / Tiempo: la semana pasada",
-    "spanishSentence": "El equipo de DevOps dijo que había integrado Docker en el pipeline de despliegue la semana pasada",
-    "correctSentence": "The DevOps team said that they had integrated Docker into the deployment pipeline last week.",
-    "cards": [
       {
         "id": "c1",
         "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "DevOps",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
         "text": "said",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c2",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
       },
       {
         "id": "c5",
-        "text": "that",
-        "isDistractor": false
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
       },
       {
         "id": "c6",
-        "text": "they",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "integrated",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "Docker",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "into",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "last",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "week",
-        "isDistractor": false
+        "text": "hadn't",
+        "isDistractor": false,
+        "translation": "(negación pasado perfecto)"
       },
       {
         "id": "d1",
-        "text": "told",
-        "isDistractor": true
+        "text": "have",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
-        "id": "d2",
-        "text": "integrated",
-        "isDistractor": true
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
       },
       {
-        "id": "d3",
-        "text": "deployed",
-        "isDistractor": true
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "d4",
-        "text": "from",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "previous",
-        "isDistractor": true
+        "id": "c13",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "devops": "DevOps",
+      "the": "(artículo)",
       "team": "equipo",
       "said": "dijo",
       "that": "que",
       "they": "ellos",
-      "had": "había",
-      "integrated": "integrado",
-      "docker": "Docker",
-      "into": "en",
-      "deployment": "deployment",
-      "pipeline": "pipeline",
-      "last": "pasada",
-      "week": "semana"
+      "hadn't": "(negación pasado perfecto)",
+      "tested": "probado",
+      "new": "nuevas",
+      "features": "características",
+      "before": "antes",
+      "deployment": "despliegue",
+      "have": "(auxiliar)",
+      "him": "le",
+      "testing": "prueba",
+      "hasn't": "(negación presente perfecto)"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El arquitecto",
+      "Verbo: decir (pasado)",
+      "Complemento: que el equipo de desarrollo debería documentar todos los puntos finales de la API",
+      "Complemento: antes de iniciar la fase de integración"
+    ],
+    "hintDisplay": "Sujeto: El arquitecto / Verbo: decir (pasado) / Complemento: que el equipo de desarrollo debería documentar todos los puntos finales de la API / Complemento: antes de iniciar la fase de integración",
+    "spanishSentence": "El arquitecto dijo que el equipo de desarrollo debería documentar todos los puntos finales de la API antes de iniciar la fase de integración.",
+    "correctSentence": "The architect said that the development team should document all the API endpoints before starting the integration phase.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "his",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c16",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c6",
+        "text": "development",
+        "isDistractor": false,
+        "translation": "desarrollo"
+      },
+      {
+        "id": "c8",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "debería"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c2",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "c13",
+        "text": "endpoints",
+        "isDistractor": false,
+        "translation": "puntos finales"
+      },
+      {
+        "id": "c12",
+        "text": "API",
+        "isDistractor": false,
+        "translation": "API"
+      },
+      {
+        "id": "d6",
+        "text": "beginning",
+        "isDistractor": true,
+        "translation": "comienzo"
+      },
+      {
+        "id": "d5",
+        "text": "documenting",
+        "isDistractor": true,
+        "translation": "documentando"
+      },
+      {
+        "id": "c17",
+        "text": "integration",
+        "isDistractor": false,
+        "translation": "integración"
+      },
+      {
+        "id": "c9",
+        "text": "document",
+        "isDistractor": false,
+        "translation": "documentar"
+      },
+      {
+        "id": "c7",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c3",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c15",
+        "text": "starting",
+        "isDistractor": false,
+        "translation": "iniciar"
+      },
+      {
+        "id": "c18",
+        "text": "phase",
+        "isDistractor": false,
+        "translation": "fase"
+      },
+      {
+        "id": "d2",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c14",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todos"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "architect": "arquitecto",
+      "said": "dijo",
+      "that": "que",
+      "development": "desarrollo",
+      "team": "equipo",
+      "should": "debería",
+      "document": "documentar",
+      "all": "todos",
+      "api": "API",
+      "endpoints": "puntos finales",
+      "before": "antes",
+      "starting": "iniciar",
+      "integration": "integración",
+      "phase": "fase",
+      "would": "(condicional)",
+      "could": "podría",
+      "them": "los",
+      "his": "su",
+      "documenting": "documentando",
+      "beginning": "comienzo"
     },
     "metadata": {
       "tense": "reported speech",
@@ -272,146 +329,171 @@
   },
   {
     "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: admitió (reported speech verb) + poder (habilidad) + escalar",
-      "Complemento: la infraestructura en microservicios sin reescribir el schema",
-      "Tiempo: ayer"
+      "Sujeto: Nosotros",
+      "Verbo: Decir (pasado simple)",
+      "Complemento: que habíamos realizado una acción previa",
+      "Verbo: Probar/Testear (pasado perfecto, forma negativa del auxiliary 'haber')",
+      "Complemento: el nuevo endpoint de API",
+      "Complemento: de manera exhaustiva/minuciosa",
+      "Verbo: Desplegar (antes de, expresión temporal)",
+      "Complemento: a producción"
     ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: admitió (reported speech verb) + poder (habilidad) + escalar / Complemento: la infraestructura en microservicios sin reescribir el schema / Tiempo: ayer",
-    "spanishSentence": "El arquitecto admitió ayer que no podía escalar la infraestructura en microservicios sin reescribir el esquema.",
-    "correctSentence": "The architect admitted yesterday that he could not scale the infrastructure in microservices without rewriting the schema.",
+    "hintDisplay": "Sujeto: Nosotros / Verbo: Decir (pasado simple) / Complemento: que habíamos realizado una acción previa / Verbo: Probar/Testear (pasado perfecto, forma negativa del auxiliary 'haber') / Complemento: el nuevo endpoint de API / Complemento: de manera exhaustiva/minuciosa / Verbo: Desplegar (antes de, expresión temporal) / Complemento: a producción",
+    "spanishSentence": "Dijimos que habíamos probado exhaustivamente el nuevo endpoint de API antes de desplegarlo en producción.",
+    "correctSentence": "We said that we had tested the new API endpoint thoroughly before deploying it to production.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
         "id": "c3",
-        "text": "admitted",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
         "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "could",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "not",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "que"
       },
       {
         "id": "c9",
-        "text": "scale",
-        "isDistractor": false
+        "text": "API",
+        "isDistractor": false,
+        "translation": "API"
       },
       {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "infrastructure",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false
+        "id": "c8",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevo"
       },
       {
         "id": "c13",
-        "text": "microservices",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "without",
-        "isDistractor": false
+        "text": "deploying",
+        "isDistractor": false,
+        "translation": "desplegar"
       },
       {
         "id": "c15",
-        "text": "rewriting",
-        "isDistractor": false
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
-        "id": "c16",
-        "text": "the",
-        "isDistractor": false
+        "id": "c2",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijimos"
       },
       {
-        "id": "c17",
-        "text": "schema",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "denied",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "today",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "can",
-        "isDistractor": true
+        "id": "c10",
+        "text": "endpoint",
+        "isDistractor": false,
+        "translation": "endpoint"
       },
       {
         "id": "d4",
-        "text": "deploy",
-        "isDistractor": true
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c4",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d2",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d3",
+        "text": "test",
+        "isDistractor": true,
+        "translation": "probar"
+      },
+      {
+        "id": "c11",
+        "text": "thoroughly",
+        "isDistractor": false,
+        "translation": "exhaustivamente"
       },
       {
         "id": "d5",
-        "text": "database",
-        "isDistractor": true
+        "text": "deploy",
+        "isDistractor": true,
+        "translation": "desplegar"
+      },
+      {
+        "id": "c14",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "lo"
+      },
+      {
+        "id": "c16",
+        "text": "production",
+        "isDistractor": false,
+        "translation": "producción"
+      },
+      {
+        "id": "d1",
+        "text": "say",
+        "isDistractor": true,
+        "translation": "decir"
+      },
+      {
+        "id": "c5",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(pluscuamperfecto)"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c6",
+        "text": "tested",
+        "isDistractor": false,
+        "translation": "probado"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "architect": "arquitecto",
-      "admitted": "admitió",
-      "yesterday": "ayer",
+      "we": "nosotros",
+      "said": "dijimos",
       "that": "que",
-      "he": "él",
-      "could": "podía",
-      "not": "no",
-      "scale": "escalar",
-      "infrastructure": "infraestructura",
-      "in": "en",
-      "microservices": "microservicios",
-      "without": "sin",
-      "rewriting": "reescribir",
-      "schema": "schema"
+      "had": "(pluscuamperfecto)",
+      "tested": "probado",
+      "the": "(artículo)",
+      "new": "nuevo",
+      "api": "API",
+      "endpoint": "endpoint",
+      "thoroughly": "exhaustivamente",
+      "before": "antes de",
+      "deploying": "desplegar",
+      "it": "lo",
+      "to": "(marca de infinitivo)",
+      "production": "producción",
+      "say": "decir",
+      "have": "(auxiliar)",
+      "test": "probar",
+      "them": "los",
+      "deploy": "desplegar"
     },
     "metadata": {
-      "tense": "reported speech: reporting verbs",
-      "isNegative": true,
+      "tense": "reported speech",
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "software engineering"
@@ -419,142 +501,149 @@
   },
   {
     "hints": [
-      "Sujeto: el arquitecto de software",
-      "Verbo: advertir (pasado)",
-      "Complemento: sobre un problema crítico en la base de datos",
-      "Tiempo: la semana pasada"
+      "Sujeto: El desarrollador",
+      "Verbo: decir (pasado)",
+      "Complemento: que construiría una nueva característica para la aplicación",
+      "Verbo secundario: construir (condicional)"
     ],
-    "hintDisplay": "Sujeto: el arquitecto de software / Verbo: advertir (pasado) / Complemento: sobre un problema crítico en la base de datos / Tiempo: la semana pasada",
-    "spanishSentence": "El arquitecto de software advirtió que había encontrado un problema crítico en la base de datos la semana pasada.",
-    "correctSentence": "The software architect warned that he had found a critical problem in the database last week.",
+    "hintDisplay": "Sujeto: El desarrollador / Verbo: decir (pasado) / Complemento: que construiría una nueva característica para la aplicación / Verbo secundario: construir (condicional)",
+    "spanishSentence": "El desarrollador dijo que construiría una nueva característica para la aplicación.",
+    "correctSentence": "The developer said that he would build a new feature for the application.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
+        "id": "d1",
+        "text": "builds",
+        "isDistractor": true,
+        "translation": "construye"
       },
       {
-        "id": "c2",
-        "text": "software",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "warned",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "found",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "critical",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "problem",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false
+        "id": "d4",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
       },
       {
         "id": "c13",
-        "text": "the",
-        "isDistractor": false
+        "text": "application",
+        "isDistractor": false,
+        "translation": "aplicación"
       },
       {
-        "id": "c14",
-        "text": "database",
-        "isDistractor": false
+        "id": "c5",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
       },
       {
-        "id": "c15",
-        "text": "last",
-        "isDistractor": false
+        "id": "c10",
+        "text": "feature",
+        "isDistractor": false,
+        "translation": "característica"
       },
       {
-        "id": "c16",
-        "text": "week",
-        "isDistractor": false
+        "id": "d6",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "(potencial)"
       },
       {
-        "id": "d1",
-        "text": "discovered",
-        "isDistractor": true
+        "id": "c8",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "d2",
-        "text": "serious",
-        "isDistractor": true
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c9",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevo"
+      },
+      {
+        "id": "c11",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
       },
       {
         "id": "d3",
         "text": "has",
-        "isDistractor": true
+        "isDistractor": true,
+        "translation": "ha"
       },
       {
-        "id": "d4",
-        "text": "at",
-        "isDistractor": true
+        "id": "c6",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
       },
       {
         "id": "d5",
-        "text": "told",
-        "isDistractor": true
+        "text": "constructed",
+        "isDistractor": true,
+        "translation": "construido"
       },
       {
-        "id": "d6",
-        "text": "previous",
-        "isDistractor": true
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c3",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c7",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "construir"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "software": "software",
-      "architect": "arquitecto",
-      "warned": "advirtió",
+      "the": "(artículo)",
+      "developer": "desarrollador",
+      "said": "dijo",
       "that": "que",
       "he": "él",
-      "had": "había",
-      "found": "encontrado",
-      "a": "un",
-      "critical": "crítico",
-      "problem": "problema",
-      "in": "en",
-      "database": "base de datos",
-      "last": "pasada",
-      "week": "semana"
+      "would": "(condicional)",
+      "build": "construir",
+      "a": "(artículo)",
+      "new": "nuevo",
+      "feature": "característica",
+      "for": "para",
+      "application": "aplicación",
+      "builds": "construye",
+      "will": "(futuro)",
+      "has": "ha",
+      "them": "los",
+      "constructed": "construido",
+      "could": "(potencial)"
     },
     "metadata": {
       "tense": "reported speech",
@@ -566,116 +655,165 @@
   },
   {
     "hints": [
-      "Sujeto: el arquitecto de software",
-      "Verbo: advertir (warning verb)",
-      "Complemento: que la API necesitaba refactorización antes del deployment",
-      "Tiempo: ayer"
+      "Sujeto: Ellos",
+      "Verbo: Decir (pasado)",
+      "Complemento: que depurarían la aplicación",
+      "Complemento: para corregir los problemas críticos",
+      "Complemento: antes del lanzamiento"
     ],
-    "hintDisplay": "Sujeto: el arquitecto de software / Verbo: advertir (warning verb) / Complemento: que la API necesitaba refactorización antes del deployment / Tiempo: ayer",
-    "spanishSentence": "El arquitecto de software advirtió ayer que la API necesitaba refactorización antes del despliegue",
-    "correctSentence": "The software architect warned yesterday that the API needed refactoring before deployment.",
+    "hintDisplay": "Sujeto: Ellos / Verbo: Decir (pasado) / Complemento: que depurarían la aplicación / Complemento: para corregir los problemas críticos / Complemento: antes del lanzamiento",
+    "spanishSentence": "Dijeron que depurarían la aplicación para corregir los problemas críticos antes del lanzamiento.",
+    "correctSentence": "They said they would debug the application to fix the critical issues before the release.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "software",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "warned",
-        "isDistractor": false
+        "id": "d3",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
       },
       {
         "id": "c5",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "API",
-        "isDistractor": false
+        "text": "debug",
+        "isDistractor": false,
+        "translation": "depurar"
       },
       {
         "id": "c9",
-        "text": "needed",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "refactoring",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "suggested",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "optimization",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "after",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "database",
-        "isDistractor": true
+        "text": "fix",
+        "isDistractor": false,
+        "translation": "corregir"
       },
       {
         "id": "d5",
-        "text": "mentioned",
-        "isDistractor": true
+        "text": "should",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c4",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c2",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijeron"
+      },
+      {
+        "id": "c12",
+        "text": "issues",
+        "isDistractor": false,
+        "translation": "problemas"
+      },
+      {
+        "id": "c11",
+        "text": "critical",
+        "isDistractor": false,
+        "translation": "críticos"
+      },
+      {
+        "id": "c15",
+        "text": "release",
+        "isDistractor": false,
+        "translation": "lanzamiento"
+      },
+      {
+        "id": "c13",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes"
+      },
+      {
+        "id": "d6",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d1",
+        "text": "debugged",
+        "isDistractor": true,
+        "translation": "depurado"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "They",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c3",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "debugging",
+        "isDistractor": true,
+        "translation": "depuración"
+      },
+      {
+        "id": "d4",
+        "text": "we",
+        "isDistractor": true,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c7",
+        "text": "application",
+        "isDistractor": false,
+        "translation": "aplicación"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "software": "software",
-      "architect": "arquitecto",
-      "warned": "advirtió",
-      "yesterday": "ayer",
-      "that": "que",
-      "api": "API",
-      "needed": "necesitaba",
-      "refactoring": "refactorización",
-      "before": "antes de",
-      "deployment": "deployment"
+      "they": "ellos",
+      "said": "dijeron",
+      "would": "(condicional)",
+      "debug": "depurar",
+      "the": "(artículo)",
+      "application": "aplicación",
+      "to": "(marca de infinitivo)",
+      "fix": "corregir",
+      "critical": "críticos",
+      "issues": "problemas",
+      "before": "antes",
+      "release": "lanzamiento",
+      "debugged": "depurado",
+      "debugging": "depuración",
+      "he": "él",
+      "we": "nosotros",
+      "should": "(condicional)",
+      "will": "(futuro)"
     },
     "metadata": {
-      "tense": "reported speech: reporting verbs",
+      "tense": "reported speech",
       "isNegative": false,
       "isQuestion": false,
       "difficulty": "advanced",
@@ -684,139 +822,1675 @@
   },
   {
     "hints": [
-      "Sujeto: el líder técnico",
-      "Verbo: optimizar (mejorar el rendimiento)",
-      "Complemento: el frontend y las queries a la base de datos",
-      "Tiempo: durante la reunión de standup"
+      "Sujeto: El desarrollador backend",
+      "Verbo: Decir (pasado)",
+      "Complemento: que almacenaría en caché las consultas de la base de datos",
+      "Complemento: para mejorar el rendimiento de la aplicación"
     ],
-    "hintDisplay": "Sujeto: el líder técnico / Verbo: optimizar (mejorar el rendimiento) / Complemento: el frontend y las queries a la base de datos / Tiempo: durante la reunión de standup",
-    "spanishSentence": "El líder técnico comentó que no podían optimizar el frontend sin reducir las consultas a la base de datos.",
-    "correctSentence": "The tech lead mentioned that they could not optimize the frontend without reducing database queries.",
+    "hintDisplay": "Sujeto: El desarrollador backend / Verbo: Decir (pasado) / Complemento: que almacenaría en caché las consultas de la base de datos / Complemento: para mejorar el rendimiento de la aplicación",
+    "spanishSentence": "El desarrollador backend dijo que almacenaría en caché las consultas de la base de datos para mejorar el rendimiento de la aplicación.",
+    "correctSentence": "The backend developer said that he would cache the database queries to improve the application's performance.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "tech",
-        "isDistractor": false
-      },
-      {
         "id": "c3",
-        "text": "lead",
-        "isDistractor": false
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
       },
       {
-        "id": "c4",
-        "text": "mentioned",
-        "isDistractor": false
+        "id": "c15",
+        "text": "application's",
+        "isDistractor": false,
+        "translation": "de la aplicación"
+      },
+      {
+        "id": "c13",
+        "text": "improve",
+        "isDistractor": false,
+        "translation": "mejorar"
+      },
+      {
+        "id": "c6",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
       },
       {
         "id": "c5",
         "text": "that",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c16",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "c7",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d6",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "debería"
+      },
+      {
+        "id": "d4",
+        "text": "we",
+        "isDistractor": true,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c2",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "c4",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "cache",
+        "isDistractor": false,
+        "translation": "almacenar en caché"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "queries",
+        "isDistractor": false,
+        "translation": "consultas"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d1",
+        "text": "cached",
+        "isDistractor": true,
+        "translation": "almacenado en caché"
+      },
+      {
+        "id": "c10",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "d5",
+        "text": "caches",
+        "isDistractor": true,
+        "translation": "almacena en caché"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "said": "dijo",
+      "that": "que",
+      "he": "él",
+      "would": "(condicional)",
+      "cache": "almacenar en caché",
+      "database": "base de datos",
+      "queries": "consultas",
+      "to": "(marca de infinitivo)",
+      "improve": "mejorar",
+      "application's": "de la aplicación",
+      "performance": "rendimiento",
+      "cached": "almacenado en caché",
+      "has": "ha",
+      "them": "los",
+      "we": "nosotros",
+      "caches": "almacena en caché",
+      "should": "debería"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El desarrollador frontend",
+      "Verbo: Decir (pasado simple)",
+      "Complemento: Que él animaría los componentes de la interfaz de usuario para mejorar la experiencia del usuario",
+      "Verbo: Animar (condicional, dentro de la oración subordinada)",
+      "Complemento: Los componentes de la interfaz de usuario",
+      "Complemento: Para mejorar la experiencia del usuario (propósito)"
+    ],
+    "hintDisplay": "Sujeto: El desarrollador frontend / Verbo: Decir (pasado simple) / Complemento: Que él animaría los componentes de la interfaz de usuario para mejorar la experiencia del usuario / Verbo: Animar (condicional, dentro de la oración subordinada) / Complemento: Los componentes de la interfaz de usuario / Complemento: Para mejorar la experiencia del usuario (propósito)",
+    "spanishSentence": "El desarrollador frontend dijo que animaría los componentes de la interfaz de usuario para mejorar la experiencia del usuario.",
+    "correctSentence": "The frontend developer said that he would animate the UI components to improve the user experience.",
+    "cards": [
+      {
+        "id": "c15",
+        "text": "user",
+        "isDistractor": false,
+        "translation": "usuario"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "animate",
+        "isDistractor": false,
+        "translation": "animar"
+      },
+      {
+        "id": "c10",
+        "text": "UI",
+        "isDistractor": false,
+        "translation": "interfaz de usuario"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "d5",
+        "text": "components'",
+        "isDistractor": true,
+        "translation": "componentes"
+      },
+      {
+        "id": "c16",
+        "text": "experience",
+        "isDistractor": false,
+        "translation": "experiencia"
+      },
+      {
+        "id": "c6",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "d4",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c4",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "components",
+        "isDistractor": false,
+        "translation": "componentes"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d1",
+        "text": "animating",
+        "isDistractor": true,
+        "translation": "animando"
+      },
+      {
+        "id": "c7",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c2",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "d6",
+        "text": "experiences",
+        "isDistractor": true,
+        "translation": "experiencias"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c13",
+        "text": "improve",
+        "isDistractor": false,
+        "translation": "mejorar"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "said": "dijo",
+      "that": "que",
+      "he": "él",
+      "would": "(condicional)",
+      "animate": "animar",
+      "ui": "interfaz de usuario",
+      "components": "componentes",
+      "to": "(marca de infinitivo)",
+      "improve": "mejorar",
+      "user": "usuario",
+      "experience": "experiencia",
+      "animating": "animando",
+      "has": "ha",
+      "will": "(futuro)",
+      "them": "los",
+      "components'": "componentes",
+      "experiences": "experiencias"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El ingeniero de DevOps",
+      "Verbo: Decir (pasado simple)",
+      "Complemento: que desplegaría la nueva versión en el servidor de producción",
+      "Tiempo: mañana"
+    ],
+    "hintDisplay": "Sujeto: El ingeniero de DevOps / Verbo: Decir (pasado simple) / Complemento: que desplegaría la nueva versión en el servidor de producción / Tiempo: mañana",
+    "spanishSentence": "El ingeniero de DevOps dijo que desplegaría la nueva versión en el servidor de producción mañana.",
+    "correctSentence": "The DevOps engineer said that he would deploy the new version to the production server tomorrow.",
+    "cards": [
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d3",
+        "text": "deployed",
+        "isDistractor": true,
+        "translation": "desplegada"
+      },
+      {
+        "id": "c16",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c7",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c2",
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "DevOps"
+      },
+      {
+        "id": "c15",
+        "text": "server",
+        "isDistractor": false,
+        "translation": "servidor"
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c6",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c14",
+        "text": "production",
+        "isDistractor": false,
+        "translation": "producción"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "d6",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "han"
+      },
+      {
+        "id": "c11",
+        "text": "version",
+        "isDistractor": false,
+        "translation": "versión"
+      },
+      {
+        "id": "c10",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
+      },
+      {
+        "id": "c8",
+        "text": "deploy",
+        "isDistractor": false,
+        "translation": "desplegar"
+      },
+      {
+        "id": "d1",
+        "text": "deploys",
+        "isDistractor": true,
+        "translation": "despliega"
+      },
+      {
+        "id": "d4",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
+      },
+      {
+        "id": "d5",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "said": "dijo",
+      "that": "que",
+      "he": "él",
+      "would": "(condicional)",
+      "deploy": "desplegar",
+      "new": "nueva",
+      "version": "versión",
+      "to": "(preposición)",
+      "production": "producción",
+      "server": "servidor",
+      "tomorrow": "mañana",
+      "deploys": "despliega",
+      "will": "(futuro)",
+      "deployed": "desplegada",
+      "she": "ella",
+      "has": "ha",
+      "have": "han"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El desarrollador backend",
+      "Verbo: Decir (en pasado)",
+      "Complemento: que autenticaría las credenciales del usuario antes de otorgar acceso a la API",
+      "Verbo: Autenticar (condicional, dentro de estilo indirecto)",
+      "Verbo: Otorgar (infinitivo, después de 'antes de')"
+    ],
+    "hintDisplay": "Sujeto: El desarrollador backend / Verbo: Decir (en pasado) / Complemento: que autenticaría las credenciales del usuario antes de otorgar acceso a la API / Verbo: Autenticar (condicional, dentro de estilo indirecto) / Verbo: Otorgar (infinitivo, después de 'antes de')",
+    "spanishSentence": "El desarrollador backend dijo que autenticaría las credenciales del usuario antes de otorgar acceso a la API.",
+    "correctSentence": "The backend developer said that he would authenticate the user credentials before granting access to the API.",
+    "cards": [
+      {
+        "id": "c13",
+        "text": "granting",
+        "isDistractor": false,
+        "translation": "otorgar"
+      },
+      {
+        "id": "c15",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c11",
+        "text": "credentials",
+        "isDistractor": false,
+        "translation": "credenciales"
+      },
+      {
+        "id": "c14",
+        "text": "access",
+        "isDistractor": false,
+        "translation": "acceso"
+      },
+      {
+        "id": "c6",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c10",
+        "text": "user",
+        "isDistractor": false,
+        "translation": "usuario"
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d5",
+        "text": "authorize",
+        "isDistractor": true,
+        "translation": "autorizar"
+      },
+      {
+        "id": "c2",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "d6",
+        "text": "verification",
+        "isDistractor": true,
+        "translation": "verificación"
+      },
+      {
+        "id": "d3",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
+      },
+      {
+        "id": "c17",
+        "text": "API",
+        "isDistractor": false,
+        "translation": "API"
+      },
+      {
+        "id": "c12",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c16",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "d1",
+        "text": "authenticated",
+        "isDistractor": true,
+        "translation": "autenticado"
+      },
+      {
+        "id": "c8",
+        "text": "authenticate",
+        "isDistractor": false,
+        "translation": "autenticar"
+      },
+      {
+        "id": "c7",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "said": "dijo",
+      "that": "que",
+      "he": "él",
+      "would": "(condicional)",
+      "authenticate": "autenticar",
+      "user": "usuario",
+      "credentials": "credenciales",
+      "before": "antes de",
+      "granting": "otorgar",
+      "access": "acceso",
+      "to": "(preposición)",
+      "api": "API",
+      "authenticated": "autenticado",
+      "will": "(futuro)",
+      "she": "ella",
+      "has": "ha",
+      "authorize": "autorizar",
+      "verification": "verificación"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El equipo",
+      "Verbo: Decir (pasado)",
+      "Complemento: que monitorean las métricas de rendimiento de la aplicación",
+      "Tiempo: Diariamente",
+      "Complemento: para identificar posibles cuellos de botella"
+    ],
+    "hintDisplay": "Sujeto: El equipo / Verbo: Decir (pasado) / Complemento: que monitorean las métricas de rendimiento de la aplicación / Tiempo: Diariamente / Complemento: para identificar posibles cuellos de botella",
+    "spanishSentence": "El equipo dijo que monitorean las métricas de rendimiento de la aplicación diariamente para identificar posibles cuellos de botella.",
+    "correctSentence": "The team said that they monitor the application performance metrics daily to identify potential bottlenecks.",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c14",
+        "text": "potential",
+        "isDistractor": false,
+        "translation": "posibles"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "identifies",
+        "isDistractor": true,
+        "translation": "identifica"
+      },
+      {
+        "id": "c9",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "c13",
+        "text": "identify",
+        "isDistractor": false,
+        "translation": "identificar"
+      },
+      {
+        "id": "c6",
+        "text": "monitor",
+        "isDistractor": false,
+        "translation": "monitorean"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c15",
+        "text": "bottlenecks",
+        "isDistractor": false,
+        "translation": "cuellos de botella"
+      },
+      {
+        "id": "c3",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "d2",
+        "text": "monitoring",
+        "isDistractor": true,
+        "translation": "monitoreando"
+      },
+      {
+        "id": "d3",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "d1",
+        "text": "monitored",
+        "isDistractor": true,
+        "translation": "monitoreado"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c11",
+        "text": "daily",
+        "isDistractor": false,
+        "translation": "diariamente"
+      },
+      {
+        "id": "c10",
+        "text": "metrics",
+        "isDistractor": false,
+        "translation": "métricas"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c8",
+        "text": "application",
+        "isDistractor": false,
+        "translation": "aplicación"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "team": "equipo",
+      "said": "dijo",
+      "that": "que",
+      "they": "ellos",
+      "monitor": "monitorean",
+      "application": "aplicación",
+      "performance": "rendimiento",
+      "metrics": "métricas",
+      "daily": "diariamente",
+      "to": "(marca de infinitivo)",
+      "identify": "identificar",
+      "potential": "posibles",
+      "bottlenecks": "cuellos de botella",
+      "monitored": "monitoreado",
+      "monitoring": "monitoreando",
+      "he": "él",
+      "identifies": "identifica"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El desarrollador frontend",
+      "Verbo: Decir (pasado simple)",
+      "Complemento: Que el componente se renderizaría correctamente",
+      "Complemento: Después de arreglar los problemas de CSS"
+    ],
+    "hintDisplay": "Sujeto: El desarrollador frontend / Verbo: Decir (pasado simple) / Complemento: Que el componente se renderizaría correctamente / Complemento: Después de arreglar los problemas de CSS",
+    "spanishSentence": "El desarrollador frontend dijo que el componente se renderizaría correctamente después de arreglar los problemas de CSS.",
+    "correctSentence": "The frontend developer said that the component would render correctly after fixing the CSS issues.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "rendered",
+        "isDistractor": true,
+        "translation": "renderizado"
+      },
+      {
+        "id": "d3",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c15",
+        "text": "issues",
+        "isDistractor": false,
+        "translation": "problemas"
+      },
+      {
+        "id": "c10",
+        "text": "correctly",
+        "isDistractor": false,
+        "translation": "correctamente"
+      },
+      {
+        "id": "c2",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "c9",
+        "text": "render",
+        "isDistractor": false,
+        "translation": "renderizar"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "component",
+        "isDistractor": false,
+        "translation": "componente"
+      },
+      {
+        "id": "d5",
+        "text": "frontend's",
+        "isDistractor": true,
+        "translation": "del frontend"
+      },
+      {
+        "id": "d1",
+        "text": "rendering",
+        "isDistractor": true,
+        "translation": "renderización"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c14",
+        "text": "CSS",
+        "isDistractor": false,
+        "translation": "CSS"
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d2",
+        "text": "fixes",
+        "isDistractor": true,
+        "translation": "arreglos"
+      },
+      {
+        "id": "d6",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "debería"
+      },
+      {
+        "id": "c4",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
+        "text": "fixing",
+        "isDistractor": false,
+        "translation": "arreglar"
+      },
+      {
+        "id": "c8",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c11",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después de"
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "said": "dijo",
+      "that": "que",
+      "component": "componente",
+      "would": "(condicional)",
+      "render": "renderizar",
+      "correctly": "correctamente",
+      "after": "después de",
+      "fixing": "arreglar",
+      "css": "CSS",
+      "issues": "problemas",
+      "rendering": "renderización",
+      "fixes": "arreglos",
+      "have": "(auxiliar)",
+      "rendered": "renderizado",
+      "frontend's": "del frontend",
+      "should": "debería"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Nosotros",
+      "Verbo: Reportar (pasado simple)",
+      "Complemento: que habíamos implementado los nuevos microservicios",
+      "Complemento: en el entorno de producción",
+      "Tiempo: la semana pasada"
+    ],
+    "hintDisplay": "Sujeto: Nosotros / Verbo: Reportar (pasado simple) / Complemento: que habíamos implementado los nuevos microservicios / Complemento: en el entorno de producción / Tiempo: la semana pasada",
+    "spanishSentence": "Reportamos que habíamos implementado los nuevos microservicios en el entorno de producción la semana pasada.",
+    "correctSentence": "We reported that we had deployed the new microservices to the production environment last week.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "deploy",
+        "isDistractor": true,
+        "translation": "implementar"
+      },
+      {
+        "id": "c14",
+        "text": "last",
+        "isDistractor": false,
+        "translation": "pasada"
+      },
+      {
+        "id": "c10",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c3",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c6",
+        "text": "deployed",
+        "isDistractor": false,
+        "translation": "implementado"
+      },
+      {
+        "id": "d2",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "d5",
+        "text": "installing",
+        "isDistractor": true,
+        "translation": "instalando"
+      },
+      {
+        "id": "c9",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      },
+      {
+        "id": "c13",
+        "text": "environment",
+        "isDistractor": false,
+        "translation": "entorno"
+      },
+      {
+        "id": "d6",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "fueron"
+      },
+      {
+        "id": "c15",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "d4",
+        "text": "declaring",
+        "isDistractor": true,
+        "translation": "declarando"
+      },
+      {
+        "id": "c4",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c12",
+        "text": "production",
+        "isDistractor": false,
+        "translation": "producción"
+      },
+      {
+        "id": "c2",
+        "text": "reported",
+        "isDistractor": false,
+        "translation": "reportamos"
+      },
+      {
+        "id": "c5",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(pluscuamperfecto)"
+      },
+      {
+        "id": "c8",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevos"
+      },
+      {
+        "id": "d3",
+        "text": "report",
+        "isDistractor": true,
+        "translation": "reportar"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "reported": "reportamos",
+      "that": "que",
+      "had": "(pluscuamperfecto)",
+      "deployed": "implementado",
+      "the": "(artículo)",
+      "new": "nuevos",
+      "microservices": "microservicios",
+      "to": "(preposición)",
+      "production": "producción",
+      "environment": "entorno",
+      "last": "pasada",
+      "week": "semana",
+      "deploy": "implementar",
+      "have": "haber",
+      "report": "reportar",
+      "declaring": "declarando",
+      "installing": "instalando",
+      "were": "fueron"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El ingeniero de DevOps",
+      "Verbo: decir (pasado)",
+      "Complemento: que necesitaría escalar la infraestructura",
+      "Complemento: para manejar el aumento de tráfico",
+      "Tiempo: durante las horas pico"
+    ],
+    "hintDisplay": "Sujeto: El ingeniero de DevOps / Verbo: decir (pasado) / Complemento: que necesitaría escalar la infraestructura / Complemento: para manejar el aumento de tráfico / Tiempo: durante las horas pico",
+    "spanishSentence": "El ingeniero de DevOps dijo que necesitaría escalar la infraestructura para manejar el aumento de tráfico durante las horas pico.",
+    "correctSentence": "The DevOps engineer said that they would need to scale the infrastructure to handle the increased traffic during peak hours.",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c19",
+        "text": "peak",
+        "isDistractor": false,
+        "translation": "pico"
+      },
+      {
+        "id": "c7",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c18",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c17",
+        "text": "traffic",
+        "isDistractor": false,
+        "translation": "tráfico"
+      },
+      {
+        "id": "c12",
+        "text": "infrastructure",
+        "isDistractor": false,
+        "translation": "infraestructura"
+      },
+      {
+        "id": "c2",
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "DevOps"
+      },
+      {
+        "id": "c8",
+        "text": "need",
+        "isDistractor": false,
+        "translation": "necesitar"
+      },
+      {
+        "id": "d4",
+        "text": "peaks",
+        "isDistractor": true,
+        "translation": "picos"
+      },
+      {
+        "id": "d3",
+        "text": "handled",
+        "isDistractor": true,
+        "translation": "manejado"
+      },
+      {
+        "id": "d2",
+        "text": "scaling",
+        "isDistractor": true,
+        "translation": "escalado"
       },
       {
         "id": "c6",
         "text": "they",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "ellos"
       },
       {
-        "id": "c7",
-        "text": "could",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "frontend",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "reducing",
-        "isDistractor": false
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
       },
       {
         "id": "c14",
-        "text": "database",
-        "isDistractor": false
+        "text": "handle",
+        "isDistractor": false,
+        "translation": "manejar"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
       },
       {
         "id": "c15",
-        "text": "queries",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c16",
+        "text": "increased",
+        "isDistractor": false,
+        "translation": "aumentado"
+      },
+      {
+        "id": "c13",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c20",
+        "text": "hours",
+        "isDistractor": false,
+        "translation": "horas"
+      },
+      {
+        "id": "c10",
+        "text": "scale",
+        "isDistractor": false,
+        "translation": "escalar"
       },
       {
         "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "improve",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "backend",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "increasing",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "said",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "schema",
-        "isDistractor": true
+        "text": "says",
+        "isDistractor": true,
+        "translation": "dice"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "tech": "técnico",
-      "lead": "líder",
-      "mentioned": "comentó",
+      "the": "(artículo)",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "said": "dijo",
       "that": "que",
       "they": "ellos",
-      "could": "podría (posibilidad/pasado)",
-      "not": "no",
-      "optimize": "optimizar",
-      "frontend": "frontend",
-      "without": "sin",
-      "reducing": "reducir",
-      "database": "base de datos",
-      "queries": "queries"
+      "would": "(condicional)",
+      "need": "necesitar",
+      "to": "(marca de infinitivo)",
+      "scale": "escalar",
+      "infrastructure": "infraestructura",
+      "handle": "manejar",
+      "increased": "aumentado",
+      "traffic": "tráfico",
+      "during": "durante",
+      "peak": "pico",
+      "hours": "horas",
+      "says": "dice",
+      "scaling": "escalado",
+      "handled": "manejado",
+      "peaks": "picos"
     },
     "metadata": {
-      "tense": "reported speech: reporting verbs",
+      "tense": "reported speech",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El desarrollador",
+      "Verbo: Decir (pasado)",
+      "Complemento: que optimizaría las consultas de la base de datos para mejorar el rendimiento de la aplicación"
+    ],
+    "hintDisplay": "Sujeto: El desarrollador / Verbo: Decir (pasado) / Complemento: que optimizaría las consultas de la base de datos para mejorar el rendimiento de la aplicación",
+    "spanishSentence": "El desarrollador dijo que optimizaría las consultas de la base de datos para mejorar el rendimiento de la aplicación.",
+    "correctSentence": "The developer said that he would optimize the database queries to improve the application's performance.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c7",
+        "text": "optimize",
+        "isDistractor": false,
+        "translation": "optimizar"
+      },
+      {
+        "id": "c11",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d6",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "d1",
+        "text": "optimizes",
+        "isDistractor": true,
+        "translation": "optimiza"
+      },
+      {
+        "id": "c5",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "d5",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d4",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c12",
+        "text": "improve",
+        "isDistractor": false,
+        "translation": "mejorar"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c3",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c15",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "le"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c14",
+        "text": "application's",
+        "isDistractor": false,
+        "translation": "de la aplicación"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "optimizing",
+        "isDistractor": true,
+        "translation": "optimizando"
+      },
+      {
+        "id": "c9",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "queries",
+        "isDistractor": false,
+        "translation": "consultas"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "developer": "desarrollador",
+      "said": "dijo",
+      "that": "que",
+      "he": "él",
+      "would": "(condicional)",
+      "optimize": "optimizar",
+      "database": "base de datos",
+      "queries": "consultas",
+      "to": "(marca de infinitivo)",
+      "improve": "mejorar",
+      "application's": "de la aplicación",
+      "performance": "rendimiento",
+      "optimizes": "optimiza",
+      "optimizing": "optimizando",
+      "him": "le",
+      "has": "ha",
+      "will": "(futuro)",
+      "could": "podría"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Ellos",
+      "Verbo: Decir (pasado simple)",
+      "Complemento: Que no habían optimizado el código para el rendimiento",
+      "Verbo (subordinado): Haber optimizado (pluscuamperfecto, negación)",
+      "Complemento (subordinado): El código para el rendimiento"
+    ],
+    "hintDisplay": "Sujeto: Ellos / Verbo: Decir (pasado simple) / Complemento: Que no habían optimizado el código para el rendimiento / Verbo (subordinado): Haber optimizado (pluscuamperfecto, negación) / Complemento (subordinado): El código para el rendimiento",
+    "spanishSentence": "Dijeron que no habían optimizado el código para el rendimiento.",
+    "correctSentence": "They said that they hadn't optimized the code for performance.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c5",
+        "text": "hadn't",
+        "isDistractor": false,
+        "translation": "no habían"
+      },
+      {
+        "id": "d1",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c9",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c10",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d5",
+        "text": "we",
+        "isDistractor": true,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c1",
+        "text": "They",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c4",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c3",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c6",
+        "text": "optimized",
+        "isDistractor": false,
+        "translation": "optimizado"
+      },
+      {
+        "id": "c2",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijeron"
+      },
+      {
+        "id": "d4",
+        "text": "optimize",
+        "isDistractor": true,
+        "translation": "optimizar"
+      }
+    ],
+    "translations": {
+      "they": "ellos",
+      "said": "dijeron",
+      "that": "que",
+      "hadn't": "no habían",
+      "optimized": "optimizado",
+      "the": "(artículo)",
+      "code": "código",
+      "for": "para",
+      "performance": "rendimiento",
+      "have": "haber",
+      "has": "ha",
+      "him": "lo",
+      "optimize": "optimizar",
+      "we": "nosotros"
+    },
+    "metadata": {
+      "tense": "reported speech",
       "isNegative": true,
       "isQuestion": false,
       "difficulty": "advanced",
@@ -825,133 +2499,335 @@
   },
   {
     "hints": [
-      "Sujeto: el arquitecto de software",
-      "Verbo: advertir (warning verb)",
-      "Complemento: que el equipo debería optimizar la caché antes del deployment",
-      "Tiempo: ayer en la reunión"
+      "Sujeto: El arquitecto",
+      "Verbo: decir (pasado)",
+      "Complemento: que no propondría una arquitectura de microservicios para este proyecto",
+      "Complemento: porque aumentaría la complejidad"
     ],
-    "hintDisplay": "Sujeto: el arquitecto de software / Verbo: advertir (warning verb) / Complemento: que el equipo debería optimizar la caché antes del deployment / Tiempo: ayer en la reunión",
-    "spanishSentence": "El arquitecto de software advirtió ayer que el equipo debería optimizar la caché antes del despliegue",
-    "correctSentence": "The software architect warned yesterday that the team should optimize the cache before deployment.",
+    "hintDisplay": "Sujeto: El arquitecto / Verbo: decir (pasado) / Complemento: que no propondría una arquitectura de microservicios para este proyecto / Complemento: porque aumentaría la complejidad",
+    "spanishSentence": "El arquitecto dijo que no propondría una arquitectura de microservicios para este proyecto porque aumentaría la complejidad.",
+    "correctSentence": "The architect said that he would not propose a microservices architecture for this project because it would increase complexity.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "software",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "warned",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "should",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "deployment",
-        "isDistractor": false
+        "id": "c18",
+        "text": "increase",
+        "isDistractor": false,
+        "translation": "aumentaría"
       },
       {
         "id": "d1",
-        "text": "would",
-        "isDistractor": true
+        "text": "proposes",
+        "isDistractor": true,
+        "translation": "propone"
       },
       {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true
+        "id": "c14",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
       },
       {
-        "id": "d3",
-        "text": "database",
-        "isDistractor": true
+        "id": "c15",
+        "text": "because",
+        "isDistractor": false,
+        "translation": "porque"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d4",
-        "text": "after",
-        "isDistractor": true
+        "text": "complexities",
+        "isDistractor": true,
+        "translation": "complejidades"
+      },
+      {
+        "id": "c11",
+        "text": "architecture",
+        "isDistractor": false,
+        "translation": "arquitectura"
+      },
+      {
+        "id": "c10",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      },
+      {
+        "id": "c5",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "c17",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c6",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c12",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c16",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "ella"
+      },
+      {
+        "id": "c9",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "c3",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c13",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c8",
+        "text": "propose",
+        "isDistractor": false,
+        "translation": "propondría"
+      },
+      {
+        "id": "c19",
+        "text": "complexity",
+        "isDistractor": false,
+        "translation": "complejidad"
       },
       {
         "id": "d5",
-        "text": "suggested",
-        "isDistractor": true
+        "text": "has",
+        "isDistractor": true,
+        "translation": "tiene"
       },
       {
-        "id": "d6",
-        "text": "server",
-        "isDistractor": true
+        "id": "d2",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c7",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "software": "software",
+      "the": "(artículo)",
       "architect": "arquitecto",
-      "warned": "advirtió",
-      "yesterday": "ayer",
+      "said": "dijo",
       "that": "que",
-      "team": "equipo",
-      "should": "debería",
-      "optimize": "optimizar",
-      "cache": "caché",
-      "before": "antes de",
-      "deployment": "deployment"
+      "he": "él",
+      "would": "(condicional)",
+      "not": "no",
+      "propose": "propondría",
+      "a": "(artículo)",
+      "microservices": "microservicios",
+      "architecture": "arquitectura",
+      "for": "para",
+      "this": "este",
+      "project": "proyecto",
+      "because": "porque",
+      "it": "ella",
+      "increase": "aumentaría",
+      "complexity": "complejidad",
+      "proposes": "propone",
+      "them": "los",
+      "does": "(auxiliar)",
+      "complexities": "complejidades",
+      "has": "tiene"
     },
     "metadata": {
-      "tense": "reported speech: reporting verbs",
-      "isNegative": false,
+      "tense": "reported speech",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El ingeniero de DevOps",
+      "Verbo: Decir (pasado simple)",
+      "Complemento: Que no había configurado correctamente la tubería de CI/CD",
+      "Estructura adicional: Utiliza reported speech (estilo indirecto) con 'that' y cambio de tiempo verbal a pasado perfecto"
+    ],
+    "hintDisplay": "Sujeto: El ingeniero de DevOps / Verbo: Decir (pasado simple) / Complemento: Que no había configurado correctamente la tubería de CI/CD / Estructura adicional: Utiliza reported speech (estilo indirecto) con 'that' y cambio de tiempo verbal a pasado perfecto",
+    "spanishSentence": "El ingeniero de DevOps dijo que no había configurado correctamente la tubería de CI/CD.",
+    "correctSentence": "The DevOps engineer said that he had not configured the CI/CD pipeline correctly.",
+    "cards": [
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d3",
+        "text": "me",
+        "isDistractor": true,
+        "translation": "me"
+      },
+      {
+        "id": "c9",
+        "text": "configured",
+        "isDistractor": false,
+        "translation": "configurado"
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c4",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c7",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(auxiliar de pluscuamperfecto)"
+      },
+      {
+        "id": "c13",
+        "text": "correctly",
+        "isDistractor": false,
+        "translation": "correctamente"
+      },
+      {
+        "id": "c12",
+        "text": "pipeline",
+        "isDistractor": false,
+        "translation": "tubería"
+      },
+      {
+        "id": "c6",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "c2",
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "DevOps"
+      },
+      {
+        "id": "d1",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(auxiliar de presente perfecto)"
+      },
+      {
+        "id": "d5",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d4",
+        "text": "configure",
+        "isDistractor": true,
+        "translation": "configurar"
+      },
+      {
+        "id": "c11",
+        "text": "CI/CD",
+        "isDistractor": false,
+        "translation": "CI/CD"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "devops": "DevOps",
+      "engineer": "ingeniero",
+      "said": "dijo",
+      "that": "que",
+      "he": "él",
+      "had": "(auxiliar de pluscuamperfecto)",
+      "not": "no",
+      "configured": "configurado",
+      "ci/cd": "CI/CD",
+      "pipeline": "tubería",
+      "correctly": "correctamente",
+      "has": "(auxiliar de presente perfecto)",
+      "would": "(condicional)",
+      "me": "me",
+      "configure": "configurar",
+      "will": "(futuro)"
+    },
+    "metadata": {
+      "tense": "reported speech",
+      "isNegative": true,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "software engineering"
@@ -960,1636 +2836,151 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: admitir (reported speech) + haber encontrado (past perfect)",
-      "Complemento: un problema crítico en el pipeline de deployment",
-      "Tiempo: ayer"
+      "Verbo: decir (pasado)",
+      "Complemento: que estábamos construyendo una arquitectura de microservicios escalable para la nueva plataforma",
+      "Verbo: estar (pasado continuo)",
+      "Verbo: construir (gerundio)",
+      "Complemento: arquitectura de microservicios escalable",
+      "Complemento: para la nueva plataforma"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: admitir (reported speech) + haber encontrado (past perfect) / Complemento: un problema crítico en el pipeline de deployment / Tiempo: ayer",
-    "spanishSentence": "Nosotros admitimos que habíamos encontrado un problema crítico en el pipeline de despliegue ayer",
-    "correctSentence": "We admitted that we had found a critical issue in the deployment pipeline yesterday.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: decir (pasado) / Complemento: que estábamos construyendo una arquitectura de microservicios escalable para la nueva plataforma / Verbo: estar (pasado continuo) / Verbo: construir (gerundio) / Complemento: arquitectura de microservicios escalable / Complemento: para la nueva plataforma",
+    "spanishSentence": "Dijimos que estábamos construyendo una arquitectura de microservicios escalable para la nueva plataforma.",
+    "correctSentence": "We said that we were building a scalable microservices architecture for the new platform.",
     "cards": [
       {
-        "id": "c1",
-        "text": "We",
-        "isDistractor": false
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo determinado)"
       },
       {
-        "id": "c2",
-        "text": "admitted",
-        "isDistractor": false
+        "id": "d5",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "era"
       },
       {
-        "id": "c3",
-        "text": "that",
-        "isDistractor": false
+        "id": "c9",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      },
+      {
+        "id": "c6",
+        "text": "building",
+        "isDistractor": false,
+        "translation": "construyendo"
+      },
+      {
+        "id": "d1",
+        "text": "say",
+        "isDistractor": true,
+        "translation": "decir"
+      },
+      {
+        "id": "d2",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c10",
+        "text": "architecture",
+        "isDistractor": false,
+        "translation": "arquitectura"
+      },
+      {
+        "id": "d3",
+        "text": "built",
+        "isDistractor": true,
+        "translation": "construida"
+      },
+      {
+        "id": "d4",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c5",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c13",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
       },
       {
         "id": "c4",
         "text": "we",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "nosotros"
       },
       {
-        "id": "c5",
-        "text": "had",
-        "isDistractor": false
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
       },
       {
-        "id": "c6",
-        "text": "found",
-        "isDistractor": false
+        "id": "c8",
+        "text": "scalable",
+        "isDistractor": false,
+        "translation": "escalable"
+      },
+      {
+        "id": "c14",
+        "text": "platform",
+        "isDistractor": false,
+        "translation": "plataforma"
       },
       {
         "id": "c7",
         "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "critical",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "issue",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo indeterminado)"
       },
       {
         "id": "c11",
-        "text": "the",
-        "isDistractor": false
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
       },
       {
-        "id": "c12",
-        "text": "deployment",
-        "isDistractor": false
+        "id": "c3",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
       },
       {
-        "id": "c13",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "denied",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "discovered",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "severe",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "bug",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "at",
-        "isDistractor": true
+        "id": "c2",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijimos"
       }
     ],
     "translations": {
       "we": "nosotros",
-      "admitted": "admitimos",
+      "said": "dijimos",
       "that": "que",
-      "had": "habíamos",
-      "found": "encontrado",
-      "a": "un",
-      "critical": "crítico",
-      "issue": "problema",
-      "in": "en",
-      "the": "el",
-      "deployment": "deployment",
-      "pipeline": "pipeline",
-      "yesterday": "ayer"
-    },
-    "metadata": {
-      "tense": "reported speech",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto de sistemas",
-      "Verbo: advertir (warning verb)",
-      "Complemento: que el equipo debería cachear los resultados de las queries para mejorar el rendimiento",
-      "Tiempo: durante la reunión de standup"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto de sistemas / Verbo: advertir (warning verb) / Complemento: que el equipo debería cachear los resultados de las queries para mejorar el rendimiento / Tiempo: durante la reunión de standup",
-    "spanishSentence": "El arquitecto de sistemas advirtió que el equipo debería almacenar en caché los resultados de las consultas para mejorar el rendimiento.",
-    "correctSentence": "The systems architect warned that the team should cache the query results for better performance.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "systems",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "warned",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "should",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "query",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "results",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "better",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "performance",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "suggested",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "store",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "database",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "faster",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "systems": "sistemas",
-      "architect": "arquitecto",
-      "warned": "advirtió",
-      "that": "que",
-      "team": "equipo",
-      "should": "debería",
-      "cache": "cachear",
-      "query": "query",
-      "results": "resultados",
-      "for": "para",
-      "better": "mejor",
-      "performance": "rendimiento"
-    },
-    "metadata": {
-      "tense": "reported speech: reporting verbs",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: admitir + cachear",
-      "Complemento: las consultas de la base de datos en memoria",
-      "Tiempo: ayer"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: admitir + cachear / Complemento: las consultas de la base de datos en memoria / Tiempo: ayer",
-    "spanishSentence": "El desarrollador admitió que había almacenado en caché las consultas de la base de datos en memoria ayer.",
-    "correctSentence": "The developer admitted that he had cached the database queries in memory yesterday.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "admitted",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "cached",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "memory",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "denied",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "compiled",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "has",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "server",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "developer": "desarrollador",
-      "admitted": "admitió",
-      "that": "que",
-      "he": "él",
-      "had": "había",
-      "cached": "cacheado",
-      "database": "base de datos",
-      "queries": "consultas",
-      "in": "en",
-      "memory": "memoria",
-      "yesterday": "ayer"
-    },
-    "metadata": {
-      "tense": "reported speech",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: integrar (reported speech con backshift de will a would)",
-      "Complemento: Docker en el pipeline de deployment",
-      "Tiempo: la próxima semana"
-    ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: integrar (reported speech con backshift de will a would) / Complemento: Docker en el pipeline de deployment / Tiempo: la próxima semana",
-    "spanishSentence": "El jefe de infraestructura dijo que el equipo de DevOps no integraría Docker en el pipeline de despliegue la próxima semana",
-    "correctSentence": "The infrastructure manager said the DevOps team would not integrate Docker in the deployment pipeline next week.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "infrastructure",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "manager",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "said",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "DevOps",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "integrate",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "Docker",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "deploy",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "told",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "could",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "infrastructure": "infraestructura",
-      "manager": "jefe",
-      "said": "dijo",
-      "devops": "DevOps",
-      "team": "equipo",
-      "would": "integraría",
-      "not": "no",
-      "integrate": "integrar",
-      "docker": "Docker",
-      "in": "en",
-      "deployment": "deployment",
-      "pipeline": "pipeline",
-      "next": "próxima",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "reported speech",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo de DevOps",
-      "Verbo: refactorizar (pasado perfecto)",
-      "Complemento: la arquitectura de microservicios",
-      "Tiempo: la semana anterior"
-    ],
-    "hintDisplay": "Sujeto: el equipo de DevOps / Verbo: refactorizar (pasado perfecto) / Complemento: la arquitectura de microservicios / Tiempo: la semana anterior",
-    "spanishSentence": "El equipo de DevOps mencionó que había refactorizado la arquitectura de microservicios la semana anterior.",
-    "correctSentence": "The DevOps team mentioned that they had refactored the microservice architecture the previous week.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "deployed",
-        "isDistractor": true
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "DevOps",
-        "isDistractor": false
-      },
-      {
-        "id": "d2",
-        "text": "optimized",
-        "isDistractor": true
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "mentioned",
-        "isDistractor": false
-      },
-      {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "they",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "refactored",
-        "isDistractor": false
-      },
-      {
-        "id": "d4",
-        "text": "scaled",
-        "isDistractor": true
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "microservice",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "architecture",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "previous",
-        "isDistractor": false
-      },
-      {
-        "id": "d5",
-        "text": "last",
-        "isDistractor": true
-      },
-      {
-        "id": "c14",
-        "text": "week",
-        "isDistractor": false
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "devops": "DevOps",
-      "team": "equipo",
-      "mentioned": "mencionó",
-      "that": "que",
-      "they": "ellos",
-      "had": "había",
-      "refactored": "refactorizado",
-      "microservice": "microservicios",
-      "architecture": "arquitectura",
-      "previous": "anterior",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "reported speech",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: advertir (reporting verb - past tense)",
-      "Complemento: sobre la necesidad de optimizar la base de datos",
-      "Tiempo: ayer"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: advertir (reporting verb - past tense) / Complemento: sobre la necesidad de optimizar la base de datos / Tiempo: ayer",
-    "spanishSentence": "El desarrollador advirtió que la aplicación necesitaría optimizar la base de datos en el servidor en la nube.",
-    "correctSentence": "The developer warned that the application would need to optimize the database on the cloud server.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "warned",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "application",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "need",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "cloud",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "told",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "should",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "improve",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "cache",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "developer": "desarrollador",
-      "warned": "advirtió",
-      "that": "que",
-      "application": "aplicación",
-      "would": "sería (condicional)",
-      "need": "necesitaría",
-      "to": "para",
-      "optimize": "optimizar",
-      "database": "base de datos",
-      "on": "en",
-      "cloud": "cloud",
-      "server": "servidor"
-    },
-    "metadata": {
-      "tense": "reported speech",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: admitir (reconocer)",
-      "Complemento: que el servidor no podría procesar las queries de la base de datos sin optimizar el schema",
-      "Tiempo: ayer"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: admitir (reconocer) / Complemento: que el servidor no podría procesar las queries de la base de datos sin optimizar el schema / Tiempo: ayer",
-    "spanishSentence": "El desarrollador admitió ayer que el servidor no podría procesar las consultas de la base de datos sin optimizar el esquema",
-    "correctSentence": "The developer admitted yesterday that the server could not process the database queries without optimizing the schema.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "d2",
-        "text": "denied",
-        "isDistractor": true
-      },
-      {
-        "id": "c3",
-        "text": "admitted",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "d3",
-        "text": "can",
-        "isDistractor": true
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "server",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "could",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "process",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "queries",
-        "isDistractor": false
-      },
-      {
-        "id": "d4",
-        "text": "cache",
-        "isDistractor": true
-      },
-      {
-        "id": "c14",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "optimizing",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "schema",
-        "isDistractor": false
-      },
-      {
-        "id": "d5",
-        "text": "deploying",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "confessed",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "developer": "desarrollador",
-      "admitted": "admitió",
-      "yesterday": "ayer",
-      "that": "que",
-      "server": "servidor",
-      "could": "podría",
-      "not": "no",
-      "process": "procesar",
-      "database": "base de datos",
-      "queries": "queries",
-      "without": "sin",
-      "optimizing": "optimizar",
-      "schema": "schema"
-    },
-    "metadata": {
-      "tense": "reported speech: reporting verbs",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto de software",
-      "Verbo: integrar (acción reportada en pasado)",
-      "Complemento: la base de datos heredada con la pipeline de deployment",
-      "Tiempo: ayer"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto de software / Verbo: integrar (acción reportada en pasado) / Complemento: la base de datos heredada con la pipeline de deployment / Tiempo: ayer",
-    "spanishSentence": "El arquitecto de software admitió que no había integrado la base de datos heredada con el pipeline de despliegue ayer.",
-    "correctSentence": "The software architect admitted that he had not integrated the legacy database with the deployment pipeline yesterday.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "software",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "admitted",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "integrated",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "legacy",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "denied",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "has",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "deployed",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "old",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "from",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "integrated",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "software": "software",
-      "architect": "arquitecto",
-      "admitted": "admitió",
-      "that": "que",
-      "he": "él",
-      "had": "había",
-      "not": "no",
-      "integrated": "integrado",
-      "legacy": "heredada",
-      "database": "base de datos",
-      "with": "con",
-      "deployment": "deployment",
-      "pipeline": "pipeline",
-      "yesterday": "ayer"
-    },
-    "metadata": {
-      "tense": "reported speech",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el líder técnico",
-      "Verbo: poder (habilidad) + optimizar",
-      "Complemento: la base de datos sin cache distribuido",
-      "Tiempo: ayer"
-    ],
-    "hintDisplay": "Sujeto: el líder técnico / Verbo: poder (habilidad) + optimizar / Complemento: la base de datos sin cache distribuido / Tiempo: ayer",
-    "spanishSentence": "El líder técnico mencionó ayer que no podía optimizar la base de datos sin cache distribuido.",
-    "correctSentence": "The tech lead mentioned yesterday that he could not optimize the database without distributed cache.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "tech",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "lead",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "mentioned",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "could",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "optimize",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "distributed",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "cache",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "said",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "improve",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "with",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "server",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "tech": "técnico",
-      "lead": "líder",
-      "mentioned": "mencionó",
-      "yesterday": "ayer",
-      "that": "que",
-      "he": "él",
-      "could": "podía",
-      "not": "no",
-      "optimize": "optimizar",
-      "database": "base de datos",
-      "without": "sin",
-      "distributed": "distribuido",
-      "cache": "cache"
-    },
-    "metadata": {
-      "tense": "reported speech",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto de software",
-      "Verbo: prometió (promesa futura) + refactorizar",
-      "Complemento: la arquitectura de microservicios y el pipeline de deployment",
-      "Tiempo: la próxima semana"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto de software / Verbo: prometió (promesa futura) + refactorizar / Complemento: la arquitectura de microservicios y el pipeline de deployment / Tiempo: la próxima semana",
-    "spanishSentence": "El arquitecto prometió que refactorizaría la arquitectura de microservicios y el pipeline de despliegue la próxima semana.",
-    "correctSentence": "The architect promised he would refactor the microservice architecture and deployment pipeline next week.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "architect",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "promised",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "refactor",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "microservice",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "architecture",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "and",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "deployment",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "pipeline",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "insisted",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "rebuild",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "server",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "this",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "architect": "arquitecto",
-      "promised": "prometió",
-      "he": "él",
-      "would": "would (estructura de promesa futura)",
-      "refactor": "refactorizar",
-      "microservice": "microservicio",
-      "architecture": "arquitectura",
-      "and": "y",
-      "deployment": "deployment",
-      "pipeline": "pipeline",
-      "next": "próximo",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "reported speech",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero",
-      "Verbo: admitir (pasado) + no poder (habilidad negada)",
-      "Complemento: el bug en la API",
-      "Tiempo: ayer"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero / Verbo: admitir (pasado) + no poder (habilidad negada) / Complemento: el bug en la API / Tiempo: ayer",
-    "spanishSentence": "El ingeniero admitió ayer que no podía depurar el error en la API.",
-    "correctSentence": "The engineer admitted yesterday that he could not debug the bug in the API.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "admitted",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "could",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "debug",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "bug",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "API",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "denied",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "fix",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "error",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "today",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "would",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "engineer": "ingeniero",
-      "admitted": "admitió",
-      "yesterday": "ayer",
-      "that": "que",
-      "he": "él",
-      "could": "podría",
-      "not": "no",
-      "debug": "debuguear",
-      "bug": "bug",
-      "in": "en",
-      "api": "API"
-    },
-    "metadata": {
-      "tense": "reported speech: reporting verbs",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la desarrolladora",
-      "Verbo: prometer + escalar",
-      "Complemento: la aplicación mediante microservicios",
-      "Tiempo: durante la reunión"
-    ],
-    "hintDisplay": "Sujeto: la desarrolladora / Verbo: prometer + escalar / Complemento: la aplicación mediante microservicios / Tiempo: durante la reunión",
-    "spanishSentence": "La desarrolladora prometió que escalaría la aplicación mediante microservicios durante la reunión.",
-    "correctSentence": "The developer promised that she would scale the application through microservices during the meeting.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "promised",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "scale",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "application",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "through",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "microservices",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "during",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "meeting",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "insisted",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "optimize",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "across",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "after",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "developer": "desarrollador/a",
-      "promised": "prometió",
-      "that": "que",
-      "she": "ella",
-      "would": "sería/estaría (futuro en pasado)",
-      "scale": "escalar",
-      "application": "aplicación",
-      "through": "mediante/a través de",
+      "were": "(pasado)",
+      "building": "construyendo",
+      "a": "(artículo indeterminado)",
+      "scalable": "escalable",
       "microservices": "microservicios",
-      "during": "durante",
-      "meeting": "reunión"
+      "architecture": "arquitectura",
+      "for": "para",
+      "the": "(artículo determinado)",
+      "new": "nueva",
+      "platform": "plataforma",
+      "say": "decir",
+      "are": "(presente)",
+      "built": "construida",
+      "him": "él",
+      "was": "era"
     },
     "metadata": {
       "tense": "reported speech",
@@ -2601,145 +2992,345 @@
   },
   {
     "hints": [
-      "Sujeto: el ingeniero de software",
-      "Verbo: admitir (confesar)",
-      "Complemento: que el microservicio no podría ser desplegado sin refactorizar la schema de la base de datos",
-      "Tiempo: ayer"
+      "Sujeto: El desarrollador frontend",
+      "Verbo: decir (pasado)",
+      "Complemento: que la API no iba a obtener los datos correctamente del servidor"
     ],
-    "hintDisplay": "Sujeto: el ingeniero de software / Verbo: admitir (confesar) / Complemento: que el microservicio no podría ser desplegado sin refactorizar la schema de la base de datos / Tiempo: ayer",
-    "spanishSentence": "El ingeniero de software admitió ayer que el microservicio no podría ser desplegado sin refactorizar el esquema de la base de datos.",
-    "correctSentence": "The software engineer admitted yesterday that the microservice could not be deployed without refactoring the database schema.",
+    "hintDisplay": "Sujeto: El desarrollador frontend / Verbo: decir (pasado) / Complemento: que la API no iba a obtener los datos correctamente del servidor",
+    "spanishSentence": "El desarrollador frontend dijo que la API no iba a obtener los datos correctamente del servidor.",
+    "correctSentence": "The frontend developer said that the API was not going to fetch the data correctly from the server.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "software",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "admitted",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "microservice",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "could",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "deployed",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "without",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "refactoring",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "database",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "schema",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
+        "id": "d4",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "él"
       },
       {
         "id": "d2",
-        "text": "developer",
-        "isDistractor": true
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
       {
-        "id": "d3",
-        "text": "denied",
-        "isDistractor": true
+        "id": "c4",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
       },
       {
-        "id": "d4",
-        "text": "with",
-        "isDistractor": true
+        "id": "c8",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c11",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c2",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c16",
+        "text": "from",
+        "isDistractor": false,
+        "translation": "del"
+      },
+      {
+        "id": "c10",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "iba"
+      },
+      {
+        "id": "c9",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c12",
+        "text": "fetch",
+        "isDistractor": false,
+        "translation": "obtener"
+      },
+      {
+        "id": "c15",
+        "text": "correctly",
+        "isDistractor": false,
+        "translation": "correctamente"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c17",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d5",
+        "text": "being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "c18",
         "text": "server",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "servidor"
+      },
+      {
+        "id": "c14",
+        "text": "data",
+        "isDistractor": false,
+        "translation": "datos"
+      },
+      {
+        "id": "d3",
+        "text": "retrieve",
+        "isDistractor": true,
+        "translation": "recuperar"
+      },
+      {
+        "id": "c7",
+        "text": "API",
+        "isDistractor": false,
+        "translation": "API"
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d1",
+        "text": "fetching",
+        "isDistractor": true,
+        "translation": "obteniendo"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "software": "software",
-      "engineer": "ingeniero",
-      "admitted": "admitió",
-      "yesterday": "ayer",
+      "the": "(artículo)",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "said": "dijo",
       "that": "que",
-      "microservice": "microservicio",
-      "could": "podría",
+      "api": "API",
+      "was": "(pasado)",
       "not": "no",
-      "be": "ser",
-      "deployed": "desplegado",
-      "without": "sin",
-      "refactoring": "refactorizar",
-      "database": "base de datos",
-      "schema": "schema"
+      "going": "iba",
+      "to": "(marca de infinitivo)",
+      "fetch": "obtener",
+      "data": "datos",
+      "correctly": "correctamente",
+      "from": "del",
+      "server": "servidor",
+      "fetching": "obteniendo",
+      "would": "(condicional)",
+      "retrieve": "recuperar",
+      "him": "él",
+      "being": "siendo"
     },
     "metadata": {
-      "tense": "reported speech: reporting verbs",
+      "tense": "reported speech",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El arquitecto",
+      "Verbo: Decir (pasado)",
+      "Complemento: que no diseñaría la arquitectura del sistema",
+      "Complemento: sin realizar una evaluación técnica exhaustiva"
+    ],
+    "hintDisplay": "Sujeto: El arquitecto / Verbo: Decir (pasado) / Complemento: que no diseñaría la arquitectura del sistema / Complemento: sin realizar una evaluación técnica exhaustiva",
+    "spanishSentence": "El arquitecto dijo que no diseñaría la arquitectura del sistema sin realizar una evaluación técnica exhaustiva.",
+    "correctSentence": "The architect said that he would not design the system architecture without conducting a thorough technical assessment.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "d2",
+        "text": "conducted",
+        "isDistractor": true,
+        "translation": "realizado"
+      },
+      {
+        "id": "d1",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(presente perfecto)"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
+        "text": "without",
+        "isDistractor": false,
+        "translation": "sin"
+      },
+      {
+        "id": "c4",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d3",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c3",
+        "text": "said",
+        "isDistractor": false,
+        "translation": "dijo"
+      },
+      {
+        "id": "d4",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c11",
+        "text": "architecture",
+        "isDistractor": false,
+        "translation": "arquitectura"
+      },
+      {
+        "id": "c5",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "c16",
+        "text": "technical",
+        "isDistractor": false,
+        "translation": "técnica"
+      },
+      {
+        "id": "c13",
+        "text": "conducting",
+        "isDistractor": false,
+        "translation": "realizar"
+      },
+      {
+        "id": "c7",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c8",
+        "text": "design",
+        "isDistractor": false,
+        "translation": "diseñar"
+      },
+      {
+        "id": "c17",
+        "text": "assessment",
+        "isDistractor": false,
+        "translation": "evaluación"
+      },
+      {
+        "id": "c15",
+        "text": "thorough",
+        "isDistractor": false,
+        "translation": "exhaustiva"
+      },
+      {
+        "id": "c6",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c10",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c14",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "architect": "arquitecto",
+      "said": "dijo",
+      "that": "que",
+      "he": "él",
+      "would": "(condicional)",
+      "not": "no",
+      "design": "diseñar",
+      "system": "sistema",
+      "architecture": "arquitectura",
+      "without": "sin",
+      "conducting": "realizar",
+      "a": "(artículo)",
+      "thorough": "exhaustiva",
+      "technical": "técnica",
+      "assessment": "evaluación",
+      "has": "(presente perfecto)",
+      "conducted": "realizado",
+      "their": "su",
+      "does": "(auxiliar)"
+    },
+    "metadata": {
+      "tense": "reported speech",
       "isNegative": true,
       "isQuestion": false,
       "difficulty": "advanced",

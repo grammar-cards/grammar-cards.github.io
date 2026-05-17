@@ -1,111 +1,585 @@
 [
   {
     "hints": [
-      "Sujeto: la cliente (the customer)",
-      "Verbo: probar (try on)",
-      "Complemento: la chaqueta que encontró en la tienda (the jacket which she found in the store)",
-      "Relatividad: 'que' introduce una cláusula relativa describiendo el objeto"
+      "Sujeto: El cajero",
+      "Verbo: Cobrar",
+      "Complemento: Al cliente cuya tarjeta de crédito fue rechazada",
+      "Verbo: Ser rechazada (pasiva, refiriéndose a la tarjeta de crédito)"
     ],
-    "hintDisplay": "Sujeto: la cliente / Verbo: probar / Complemento: la chaqueta que encontró en la tienda / Relatividad: 'que' introduce una cláusula relativa",
-    "spanishSentence": "La cliente probó la chaqueta que encontró en la tienda.",
-    "correctSentence": "The customer tried on the jacket which she found in the store.",
+    "hintDisplay": "Sujeto: El cajero / Verbo: Cobrar / Complemento: Al cliente cuya tarjeta de crédito fue rechazada / Verbo: Ser rechazada (pasiva, refiriéndose a la tarjeta de crédito)",
+    "spanishSentence": "El cajero no cobró al cliente cuya tarjeta de crédito fue rechazada.",
+    "correctSentence": "The cashier didn't charge the customer whose credit card was declined.",
     "cards": [
       {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
+        "id": "c8",
+        "text": "credit",
+        "isDistractor": false,
+        "translation": "crédito"
       },
       {
-        "id": "c2",
+        "id": "c11",
+        "text": "declined",
+        "isDistractor": false,
+        "translation": "rechazada"
+      },
+      {
+        "id": "c6",
         "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "tried",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "on",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "cliente"
       },
       {
         "id": "c5",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "jacket",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "which",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "she",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c9",
-        "text": "found",
-        "isDistractor": false
+        "text": "card",
+        "isDistractor": false,
+        "translation": "tarjeta"
+      },
+      {
+        "id": "d3",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "charged",
+        "isDistractor": true,
+        "translation": "cobrado"
+      },
+      {
+        "id": "c4",
+        "text": "charge",
+        "isDistractor": false,
+        "translation": "cobrar"
+      },
+      {
+        "id": "d2",
+        "text": "whom",
+        "isDistractor": true,
+        "translation": "a quien"
+      },
+      {
+        "id": "c3",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "whose",
+        "isDistractor": false,
+        "translation": "cuya"
+      },
+      {
+        "id": "c2",
+        "text": "cashier",
+        "isDistractor": false,
+        "translation": "cajero"
       },
       {
         "id": "c10",
-        "text": "in",
-        "isDistractor": false
+        "text": "was",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "cashier": "cajero",
+      "didn't": "(auxiliar)",
+      "charge": "cobrar",
+      "customer": "cliente",
+      "whose": "cuya",
+      "credit": "crédito",
+      "card": "tarjeta",
+      "was": "(auxiliar)",
+      "declined": "rechazada",
+      "charged": "cobrado",
+      "whom": "a quien",
+      "did": "(auxiliar)"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: yo (pronombre)",
+      "Verbo: gustar (en negación)",
+      "Complemento: el centro comercial",
+      "Complemento: donde gasto la mayor parte de mi dinero",
+      "Complemento: en artículos innecesarios"
+    ],
+    "hintDisplay": "Sujeto: yo (pronombre) / Verbo: gustar (en negación) / Complemento: el centro comercial / Complemento: donde gasto la mayor parte de mi dinero / Complemento: en artículos innecesarios",
+    "spanishSentence": "No me gusta el centro comercial donde gasto la mayor parte de mi dinero en artículos innecesarios.",
+    "correctSentence": "I don't like the mall where I spend most of my money on unnecessary items.",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "c3",
+        "text": "like",
+        "isDistractor": false,
+        "translation": "gusta"
+      },
+      {
+        "id": "d2",
+        "text": "spending",
+        "isDistractor": true,
+        "translation": "gastando"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "his",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c15",
+        "text": "items",
+        "isDistractor": false,
+        "translation": "artículos"
+      },
+      {
+        "id": "d3",
+        "text": "spent",
+        "isDistractor": true,
+        "translation": "gasté"
+      },
+      {
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c10",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c9",
+        "text": "most",
+        "isDistractor": false,
+        "translation": "la mayor parte"
+      },
+      {
+        "id": "c2",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(negación)"
+      },
+      {
+        "id": "d1",
+        "text": "spends",
+        "isDistractor": true,
+        "translation": "gasta"
+      },
+      {
+        "id": "c5",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro comercial"
+      },
+      {
+        "id": "c14",
+        "text": "unnecessary",
+        "isDistractor": false,
+        "translation": "innecesarios"
+      },
+      {
+        "id": "c13",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c6",
+        "text": "where",
+        "isDistractor": false,
+        "translation": "donde"
+      },
+      {
+        "id": "c7",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c8",
+        "text": "spend",
+        "isDistractor": false,
+        "translation": "gasto"
+      },
+      {
+        "id": "d5",
+        "text": "enjoys",
+        "isDistractor": true,
+        "translation": "disfruta"
+      },
+      {
+        "id": "c12",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      }
+    ],
+    "translations": {
+      "i": "yo",
+      "don't": "(negación)",
+      "like": "gusta",
+      "the": "(artículo)",
+      "mall": "centro comercial",
+      "where": "donde",
+      "spend": "gasto",
+      "most": "la mayor parte",
+      "of": "de",
+      "my": "mi",
+      "money": "dinero",
+      "on": "en",
+      "unnecessary": "innecesarios",
+      "items": "artículos",
+      "spends": "gasta",
+      "spending": "gastando",
+      "spent": "gasté",
+      "his": "su",
+      "enjoys": "disfruta"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El gerente de la tienda",
+      "Verbo: organizar (negación en pasado)",
+      "Complemento: los productos",
+      "Complemento: esparcidos por todos los estantes",
+      "Estructura: cláusula relativa con pronombre relativo"
+    ],
+    "hintDisplay": "Sujeto: El gerente de la tienda / Verbo: organizar (negación en pasado) / Complemento: los productos / Complemento: esparcidos por todos los estantes / Estructura: cláusula relativa con pronombre relativo",
+    "spanishSentence": "El gerente de la tienda no organizó los productos, los cuales estaban esparcidos por todos los estantes.",
+    "correctSentence": "The store manager didn't organize the products, which were scattered all over the shelves.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
+      },
+      {
+        "id": "c7",
+        "text": "products",
+        "isDistractor": false,
+        "translation": "productos"
+      },
+      {
+        "id": "c8",
+        "text": "which",
+        "isDistractor": false,
+        "translation": "los cuales"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "d2",
+        "text": "whom",
+        "isDistractor": true,
+        "translation": "a quien"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d4",
+        "text": "shelved",
+        "isDistractor": true,
+        "translation": "colocados en estantes"
+      },
+      {
+        "id": "d1",
+        "text": "organizes",
+        "isDistractor": true,
+        "translation": "organiza"
+      },
+      {
+        "id": "c12",
+        "text": "over",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "scattered",
+        "isDistractor": false,
+        "translation": "esparcidos"
+      },
+      {
+        "id": "c11",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todos"
+      },
+      {
+        "id": "c3",
+        "text": "manager",
+        "isDistractor": false,
+        "translation": "gerente"
+      },
+      {
+        "id": "c5",
+        "text": "organize",
+        "isDistractor": false,
+        "translation": "organizó"
+      },
+      {
+        "id": "c4",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(negación pasado)"
+      },
+      {
+        "id": "c14",
+        "text": "shelves",
+        "isDistractor": false,
+        "translation": "estantes"
+      },
+      {
+        "id": "c9",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "(pasado)"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "store": "tienda",
+      "manager": "gerente",
+      "didn't": "(negación pasado)",
+      "organize": "organizó",
+      "products": "productos",
+      "which": "los cuales",
+      "were": "(pasado)",
+      "scattered": "esparcidos",
+      "all": "todos",
+      "over": "por",
+      "shelves": "estantes",
+      "organizes": "organiza",
+      "whom": "a quien",
+      "had": "había",
+      "shelved": "colocados en estantes"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El vendedor",
+      "Verbo: demostrar (negativo, pasado)",
+      "Complemento: el producto",
+      "Tiempo: durante el momento cuando la tienda estaba cerrada"
+    ],
+    "hintDisplay": "Sujeto: El vendedor / Verbo: demostrar (negativo, pasado) / Complemento: el producto / Tiempo: durante el momento cuando la tienda estaba cerrada",
+    "spanishSentence": "El vendedor no demostró el producto durante el momento cuando la tienda estaba cerrada.",
+    "correctSentence": "The salesperson didn't demonstrate the product during the time when the store was closed.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "momento"
+      },
+      {
+        "id": "c2",
+        "text": "salesperson",
+        "isDistractor": false,
+        "translation": "vendedor"
       },
       {
         "id": "c11",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "wasn't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c13",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d5",
+        "text": "opened",
+        "isDistractor": true,
+        "translation": "abierta"
+      },
+      {
+        "id": "c10",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
       },
       {
         "id": "c12",
         "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "wore",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "who",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "tienda"
       },
       {
         "id": "d4",
-        "text": "bought",
-        "isDistractor": true
+        "text": "merchandise",
+        "isDistractor": true,
+        "translation": "mercancía"
+      },
+      {
+        "id": "c6",
+        "text": "product",
+        "isDistractor": false,
+        "translation": "producto"
+      },
+      {
+        "id": "c3",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c14",
+        "text": "closed",
+        "isDistractor": false,
+        "translation": "cerrada"
+      },
+      {
+        "id": "d1",
+        "text": "demonstrated",
+        "isDistractor": true,
+        "translation": "demostró"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "demonstrate",
+        "isDistractor": false,
+        "translation": "demostrar"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
       }
     ],
     "translations": {
-      "the": "la/el",
-      "customer": "cliente",
-      "tried": "probó",
-      "on": "on (phrasal verb)",
-      "jacket": "chaqueta",
-      "which": "que",
-      "she": "ella",
-      "found": "encontró",
-      "in": "en",
-      "store": "tienda"
+      "the": "(artículo)",
+      "salesperson": "vendedor",
+      "didn't": "(auxiliar)",
+      "demonstrate": "demostrar",
+      "product": "producto",
+      "during": "durante",
+      "time": "momento",
+      "when": "cuando",
+      "store": "tienda",
+      "was": "(auxiliar)",
+      "closed": "cerrada",
+      "demonstrated": "demostró",
+      "wasn't": "(auxiliar)",
+      "will": "(futuro)",
+      "merchandise": "mercancía",
+      "opened": "abierta"
     },
     "metadata": {
       "tense": "relative clauses",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "shopping"
@@ -113,83 +587,148 @@
   },
   {
     "hints": [
-      "Sujeto: el cliente",
-      "Verbo: devolver",
-      "Complemento: la chaqueta que compró la semana pasada"
+      "Sujeto: El cliente que compra ropa en esta tienda",
+      "Verbo: estar (estado/condición)",
+      "Complemento: muy satisfecho con la calidad"
     ],
-    "hintDisplay": "Sujeto: el cliente / Verbo: devolver / Complemento: la chaqueta que compró la semana pasada",
-    "spanishSentence": "El cliente que devolvió la chaqueta estaba insatisfecho.",
-    "correctSentence": "The customer who returned the jacket was unsatisfied.",
+    "hintDisplay": "Sujeto: El cliente que compra ropa en esta tienda / Verbo: estar (estado/condición) / Complemento: muy satisfecho con la calidad",
+    "spanishSentence": "El cliente que compra ropa en esta tienda está muy satisfecho con la calidad.",
+    "correctSentence": "The customer who buys clothes at this store is very satisfied with the quality.",
     "cards": [
+      {
+        "id": "c3",
+        "text": "who",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "d4",
+        "text": "clothes's",
+        "isDistractor": true,
+        "translation": "de la ropa"
+      },
+      {
+        "id": "c9",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c5",
+        "text": "clothes",
+        "isDistractor": false,
+        "translation": "ropa"
+      },
+      {
+        "id": "d2",
+        "text": "whom",
+        "isDistractor": true,
+        "translation": "a quien"
+      },
+      {
+        "id": "d5",
+        "text": "satisfies",
+        "isDistractor": true,
+        "translation": "satisface"
+      },
+      {
+        "id": "c14",
+        "text": "quality",
+        "isDistractor": false,
+        "translation": "calidad"
+      },
+      {
+        "id": "c8",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c11",
+        "text": "satisfied",
+        "isDistractor": false,
+        "translation": "satisfecho"
+      },
+      {
+        "id": "c4",
+        "text": "buys",
+        "isDistractor": false,
+        "translation": "compra"
+      },
       {
         "id": "c1",
         "text": "The",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "buying",
+        "isDistractor": true,
+        "translation": "comprando"
       },
       {
         "id": "c2",
         "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "returned",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "jacket",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "was",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "unsatisfied",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "bought",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "cliente"
       },
       {
         "id": "d3",
-        "text": "satisfied",
-        "isDistractor": true
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
       },
       {
-        "id": "d4",
-        "text": "exchanged",
-        "isDistractor": true
+        "id": "c10",
+        "text": "very",
+        "isDistractor": false,
+        "translation": "muy"
+      },
+      {
+        "id": "c7",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "c6",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
       }
     ],
     "translations": {
-      "the": "el/la",
+      "the": "(artículo)",
       "customer": "cliente",
-      "who": "quien",
-      "returned": "devolvió",
-      "jacket": "chaqueta",
-      "was": "estaba",
-      "unsatisfied": "insatisfecho"
+      "who": "que",
+      "buys": "compra",
+      "clothes": "ropa",
+      "at": "en",
+      "this": "esta",
+      "store": "tienda",
+      "is": "(presente)",
+      "very": "muy",
+      "satisfied": "satisfecho",
+      "with": "con",
+      "quality": "calidad",
+      "buying": "comprando",
+      "whom": "a quien",
+      "were": "(pasado)",
+      "clothes's": "de la ropa",
+      "satisfies": "satisface"
     },
     "metadata": {
       "tense": "relative clauses",
@@ -201,1829 +740,2231 @@
   },
   {
     "hints": [
-      "Sujeto: mi amiga",
-      "Verbo: elegir",
-      "Complemento: la chaqueta que estaba en oferta"
+      "Sujeto: Mi amiga (con cláusula relativa sobre las bolsas de compras)",
+      "Verbo: Ayudar (pasado)",
+      "Complemento: A llevar bolsas de compras",
+      "Verbo: Coleccionar (presente)",
+      "Complemento: Ropa de diseñador de boutiques exclusivas"
     ],
-    "hintDisplay": "Sujeto: mi amiga / Verbo: elegir / Complemento: la chaqueta que estaba en oferta",
-    "spanishSentence": "Mi amiga eligió la chaqueta que estaba en oferta.",
-    "correctSentence": "My friend chose the jacket that was on sale.",
+    "hintDisplay": "Sujeto: Mi amiga (con cláusula relativa sobre las bolsas de compras) / Verbo: Ayudar (pasado) / Complemento: A llevar bolsas de compras / Verbo: Coleccionar (presente) / Complemento: Ropa de diseñador de boutiques exclusivas",
+    "spanishSentence": "Mi amiga cuyas bolsas de compras ayudé a llevar colecciona ropa de diseñador de boutiques exclusivas.",
+    "correctSentence": "My friend whose shopping bags I helped carry collects designer clothes from exclusive boutiques.",
     "cards": [
+      {
+        "id": "c6",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
       {
         "id": "c1",
         "text": "My",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "c8",
+        "text": "carry",
+        "isDistractor": false,
+        "translation": "llevar"
+      },
+      {
+        "id": "c14",
+        "text": "boutiques",
+        "isDistractor": false,
+        "translation": "boutiques"
+      },
+      {
+        "id": "c10",
+        "text": "designer",
+        "isDistractor": false,
+        "translation": "diseñador"
+      },
+      {
+        "id": "c5",
+        "text": "bags",
+        "isDistractor": false,
+        "translation": "bolsas"
+      },
+      {
+        "id": "d3",
+        "text": "his",
+        "isDistractor": true,
+        "translation": "sus"
+      },
+      {
+        "id": "c9",
+        "text": "collects",
+        "isDistractor": false,
+        "translation": "colecciona"
+      },
+      {
+        "id": "c4",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "compras"
+      },
+      {
+        "id": "c13",
+        "text": "exclusive",
+        "isDistractor": false,
+        "translation": "exclusivas"
+      },
+      {
+        "id": "c12",
+        "text": "from",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "d5",
+        "text": "wearing",
+        "isDistractor": true,
+        "translation": "llevando"
+      },
+      {
+        "id": "c11",
+        "text": "clothes",
+        "isDistractor": false,
+        "translation": "ropa"
+      },
+      {
+        "id": "d4",
+        "text": "stores",
+        "isDistractor": true,
+        "translation": "tiendas"
+      },
+      {
+        "id": "d2",
+        "text": "boutique",
+        "isDistractor": true,
+        "translation": "boutique"
+      },
+      {
+        "id": "d1",
+        "text": "carried",
+        "isDistractor": true,
+        "translation": "llevadas"
       },
       {
         "id": "c2",
         "text": "friend",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "amiga"
       },
       {
         "id": "c3",
-        "text": "chose",
-        "isDistractor": false
+        "text": "whose",
+        "isDistractor": false,
+        "translation": "cuyas"
+      },
+      {
+        "id": "c7",
+        "text": "helped",
+        "isDistractor": false,
+        "translation": "ayudé"
+      }
+    ],
+    "translations": {
+      "my": "mi",
+      "friend": "amiga",
+      "whose": "cuyas",
+      "shopping": "compras",
+      "bags": "bolsas",
+      "i": "yo",
+      "helped": "ayudé",
+      "carry": "llevar",
+      "collects": "colecciona",
+      "designer": "diseñador",
+      "clothes": "ropa",
+      "from": "de",
+      "exclusive": "exclusivas",
+      "boutiques": "boutiques",
+      "carried": "llevadas",
+      "boutique": "boutique",
+      "his": "sus",
+      "stores": "tiendas",
+      "wearing": "llevando"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El centro comercial",
+      "Verbo: ser (presente indicativo)",
+      "Complemento: un lugar",
+      "Complemento: donde ellos comparan diferentes productos",
+      "Complemento: antes de hacer una compra"
+    ],
+    "hintDisplay": "Sujeto: El centro comercial / Verbo: ser (presente indicativo) / Complemento: un lugar / Complemento: donde ellos comparan diferentes productos / Complemento: antes de hacer una compra",
+    "spanishSentence": "El centro comercial es un lugar donde ellos comparan diferentes productos antes de hacer una compra.",
+    "correctSentence": "The mall is a place where they compare different products before making a purchase.",
+    "cards": [
+      {
+        "id": "c10",
+        "text": "products",
+        "isDistractor": false,
+        "translation": "productos"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d4",
+        "text": "shops",
+        "isDistractor": true,
+        "translation": "tiendas"
+      },
+      {
+        "id": "c8",
+        "text": "compare",
+        "isDistractor": false,
+        "translation": "comparan"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "es"
+      },
+      {
+        "id": "c9",
+        "text": "different",
+        "isDistractor": false,
+        "translation": "diferentes"
+      },
+      {
+        "id": "c14",
+        "text": "purchase",
+        "isDistractor": false,
+        "translation": "compra"
+      },
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c6",
+        "text": "where",
+        "isDistractor": false,
+        "translation": "donde"
+      },
+      {
+        "id": "c5",
+        "text": "place",
+        "isDistractor": false,
+        "translation": "lugar"
+      },
+      {
+        "id": "c11",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c7",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c2",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro comercial"
+      },
+      {
+        "id": "c12",
+        "text": "making",
+        "isDistractor": false,
+        "translation": "hacer"
+      },
+      {
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c13",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "comparing",
+        "isDistractor": true,
+        "translation": "comparando"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "mall": "centro comercial",
+      "is": "es",
+      "a": "(artículo)",
+      "place": "lugar",
+      "where": "donde",
+      "they": "ellos",
+      "compare": "comparan",
+      "different": "diferentes",
+      "products": "productos",
+      "before": "antes de",
+      "making": "hacer",
+      "purchase": "compra",
+      "comparing": "comparando",
+      "he": "él",
+      "does": "(auxiliar)",
+      "shops": "tiendas"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Nosotros",
+      "Verbo: ser",
+      "Complemento: compradores",
+      "Complemento: que buscamos las mejores ofertas en el centro comercial"
+    ],
+    "hintDisplay": "Sujeto: Nosotros / Verbo: ser / Complemento: compradores / Complemento: que buscamos las mejores ofertas en el centro comercial",
+    "spanishSentence": "Somos compradores que buscamos las mejores ofertas en el centro comercial.",
+    "correctSentence": "We are shoppers who look for the best deals at the mall.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d3",
+        "text": "finest",
+        "isDistractor": true,
+        "translation": "mejores"
+      },
+      {
+        "id": "c5",
+        "text": "look",
+        "isDistractor": false,
+        "translation": "buscamos"
+      },
+      {
+        "id": "c12",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro comercial"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "shoppers",
+        "isDistractor": false,
+        "translation": "compradores"
+      },
+      {
+        "id": "c2",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c8",
+        "text": "best",
+        "isDistractor": false,
+        "translation": "mejores"
+      },
+      {
+        "id": "d2",
+        "text": "browsers",
+        "isDistractor": true,
+        "translation": "navegantes"
+      },
+      {
+        "id": "d5",
+        "text": "hunting",
+        "isDistractor": true,
+        "translation": "cazando"
+      },
+      {
+        "id": "c4",
+        "text": "who",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c9",
+        "text": "deals",
+        "isDistractor": false,
+        "translation": "ofertas"
+      },
+      {
+        "id": "d4",
+        "text": "marketplace",
+        "isDistractor": true,
+        "translation": "mercado"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c10",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c6",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "d1",
+        "text": "seeking",
+        "isDistractor": true,
+        "translation": "buscando"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "are": "(presente)",
+      "shoppers": "compradores",
+      "who": "que",
+      "look": "buscamos",
+      "for": "por",
+      "the": "(artículo)",
+      "best": "mejores",
+      "deals": "ofertas",
+      "at": "en",
+      "mall": "centro comercial",
+      "seeking": "buscando",
+      "browsers": "navegantes",
+      "finest": "mejores",
+      "marketplace": "mercado",
+      "hunting": "cazando"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el cajero",
+      "Verbo: apreciar",
+      "Complemento: que me ayudó a ahorrar dinero en mis compras",
+      "Tiempo: hoy"
+    ],
+    "hintDisplay": "Sujeto: el cajero / Verbo: apreciar / Complemento: que me ayudó a ahorrar dinero en mis compras / Tiempo: hoy",
+    "spanishSentence": "Aprecio al cajero quien me ayudó a ahorrar dinero en mis compras hoy.",
+    "correctSentence": "I appreciate the cashier who helped me save money on my purchases today.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "spending",
+        "isDistractor": true,
+        "translation": "gastando"
+      },
+      {
+        "id": "c12",
+        "text": "purchases",
+        "isDistractor": false,
+        "translation": "compras"
+      },
+      {
+        "id": "c6",
+        "text": "helped",
+        "isDistractor": false,
+        "translation": "ayudó"
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "cashier",
+        "isDistractor": false,
+        "translation": "cajero"
+      },
+      {
+        "id": "d2",
+        "text": "whom",
+        "isDistractor": true,
+        "translation": "a quien"
+      },
+      {
+        "id": "c10",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d5",
+        "text": "savings",
+        "isDistractor": true,
+        "translation": "ahorros"
+      },
+      {
+        "id": "c9",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d3",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(pretérito)"
+      },
+      {
+        "id": "c5",
+        "text": "who",
+        "isDistractor": false,
+        "translation": "quien"
+      },
+      {
+        "id": "c8",
+        "text": "save",
+        "isDistractor": false,
+        "translation": "ahorrar"
+      },
+      {
+        "id": "d1",
+        "text": "appreciated",
+        "isDistractor": true,
+        "translation": "apreciado"
+      },
+      {
+        "id": "c11",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mis"
+      },
+      {
+        "id": "c7",
+        "text": "me",
+        "isDistractor": false,
+        "translation": "me"
+      },
+      {
+        "id": "c13",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c2",
+        "text": "appreciate",
+        "isDistractor": false,
+        "translation": "aprecio"
+      }
+    ],
+    "translations": {
+      "i": "yo",
+      "appreciate": "aprecio",
+      "the": "(artículo)",
+      "cashier": "cajero",
+      "who": "quien",
+      "helped": "ayudó",
+      "me": "me",
+      "save": "ahorrar",
+      "money": "dinero",
+      "on": "en",
+      "my": "mis",
+      "purchases": "compras",
+      "today": "hoy",
+      "appreciated": "apreciado",
+      "whom": "a quien",
+      "was": "(pretérito)",
+      "spending": "gastando",
+      "savings": "ahorros"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El centro comercial (donde ellos pasan la mayor parte de su tiempo)",
+      "Verbo: estar (ubicación)",
+      "Complemento: en el centro de la ciudad"
+    ],
+    "hintDisplay": "Sujeto: El centro comercial (donde ellos pasan la mayor parte de su tiempo) / Verbo: estar (ubicación) / Complemento: en el centro de la ciudad",
+    "spanishSentence": "El centro comercial donde ellos pasan la mayor parte de su tiempo está en el centro de la ciudad.",
+    "correctSentence": "The mall where they spend most of their time is downtown.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "where",
+        "isDistractor": false,
+        "translation": "donde"
+      },
+      {
+        "id": "c11",
+        "text": "downtown",
+        "isDistractor": false,
+        "translation": "centro de la ciudad"
+      },
+      {
+        "id": "d1",
+        "text": "spends",
+        "isDistractor": true,
+        "translation": "pasa"
+      },
+      {
+        "id": "d5",
+        "text": "uptown",
+        "isDistractor": true,
+        "translation": "afueras de la ciudad"
+      },
+      {
+        "id": "c10",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "c2",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro comercial"
+      },
+      {
+        "id": "d4",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c6",
+        "text": "most",
+        "isDistractor": false,
+        "translation": "la mayor parte"
+      },
+      {
+        "id": "c9",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "tiempo"
+      },
+      {
+        "id": "c8",
+        "text": "their",
+        "isDistractor": false,
+        "translation": "su"
+      },
+      {
+        "id": "c5",
+        "text": "spend",
+        "isDistractor": false,
+        "translation": "pasan"
+      },
+      {
+        "id": "c4",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c7",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "spent",
+        "isDistractor": true,
+        "translation": "pasaron"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "mall": "centro comercial",
+      "where": "donde",
+      "they": "ellos",
+      "spend": "pasan",
+      "most": "la mayor parte",
+      "of": "de",
+      "their": "su",
+      "time": "tiempo",
+      "is": "está",
+      "downtown": "centro de la ciudad",
+      "spends": "pasa",
+      "spent": "pasaron",
+      "them": "los",
+      "does": "(auxiliar)",
+      "uptown": "afueras de la ciudad"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Nosotros (como compradores)",
+      "Verbo: Ser (presente)",
+      "Complemento: Compradores que realizan una acción",
+      "Verbo: Gastar (presente)",
+      "Complemento: Una gran cantidad de dinero",
+      "Complemento: En el centro comercial",
+      "Tiempo: Cada fin de semana"
+    ],
+    "hintDisplay": "Sujeto: Nosotros (como compradores) / Verbo: Ser (presente) / Complemento: Compradores que realizan una acción / Verbo: Gastar (presente) / Complemento: Una gran cantidad de dinero / Complemento: En el centro comercial / Tiempo: Cada fin de semana",
+    "spanishSentence": "Somos compradores que gastamos mucho dinero en el centro comercial cada fin de semana.",
+    "correctSentence": "We are shoppers who spend a lot of money at the mall every weekend.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "malls",
+        "isDistractor": true,
+        "translation": "centros comerciales"
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "who",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c9",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "d1",
+        "text": "spending",
+        "isDistractor": true,
+        "translation": "gastando"
+      },
+      {
+        "id": "c10",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d5",
+        "text": "weekends",
+        "isDistractor": true,
+        "translation": "fines de semana"
+      },
+      {
+        "id": "c5",
+        "text": "spend",
+        "isDistractor": false,
+        "translation": "gastamos"
+      },
+      {
+        "id": "c3",
+        "text": "shoppers",
+        "isDistractor": false,
+        "translation": "compradores"
+      },
+      {
+        "id": "c14",
+        "text": "weekend",
+        "isDistractor": false,
+        "translation": "fin de semana"
+      },
+      {
+        "id": "c6",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "c13",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c8",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c7",
+        "text": "lot",
+        "isDistractor": false,
+        "translation": "cantidad"
+      },
+      {
+        "id": "c2",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "d2",
+        "text": "shoppers'",
+        "isDistractor": true,
+        "translation": "de los compradores"
+      },
+      {
+        "id": "c12",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro comercial"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "are": "(presente)",
+      "shoppers": "compradores",
+      "who": "que",
+      "spend": "gastamos",
+      "a": "(artículo indefinido)",
+      "lot": "cantidad",
+      "of": "de",
+      "money": "dinero",
+      "at": "en",
+      "the": "(artículo definido)",
+      "mall": "centro comercial",
+      "every": "cada",
+      "weekend": "fin de semana",
+      "spending": "gastando",
+      "shoppers'": "de los compradores",
+      "does": "(auxiliar)",
+      "malls": "centros comerciales",
+      "weekends": "fines de semana"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: yo",
+      "Verbo: recordar",
+      "Complemento: el día",
+      "Tiempo: cuando mi amiga se probó ese hermoso vestido en el centro comercial"
+    ],
+    "hintDisplay": "Sujeto: yo / Verbo: recordar / Complemento: el día / Tiempo: cuando mi amiga se probó ese hermoso vestido en el centro comercial",
+    "spanishSentence": "Recuerdo el día cuando mi amiga se probó ese hermoso vestido en el centro comercial.",
+    "correctSentence": "I remember the day when my friend tried on that beautiful dress at the shopping mall.",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "beautiful",
+        "isDistractor": false,
+        "translation": "hermoso"
+      },
+      {
+        "id": "d2",
+        "text": "her",
+        "isDistractor": true,
+        "translation": "(posesivo)"
+      },
+      {
+        "id": "d3",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(verbo ser/estar pasado)"
+      },
+      {
+        "id": "c15",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "compras"
+      },
+      {
+        "id": "c7",
+        "text": "friend",
+        "isDistractor": false,
+        "translation": "amiga"
+      },
+      {
+        "id": "c12",
+        "text": "dress",
+        "isDistractor": false,
+        "translation": "vestido"
+      },
+      {
+        "id": "c13",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c8",
+        "text": "tried",
+        "isDistractor": false,
+        "translation": "intenté"
+      },
+      {
+        "id": "c6",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "(posesivo)"
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "shopped",
+        "isDistractor": true,
+        "translation": "compré"
+      },
+      {
+        "id": "c10",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "ese"
+      },
+      {
+        "id": "c16",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro comercial"
+      },
+      {
+        "id": "c5",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c2",
+        "text": "remember",
+        "isDistractor": false,
+        "translation": "recuerdo"
+      },
+      {
+        "id": "c4",
+        "text": "day",
+        "isDistractor": false,
+        "translation": "día"
+      },
+      {
+        "id": "c9",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d1",
+        "text": "wore",
+        "isDistractor": true,
+        "translation": "llevaba"
+      },
+      {
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      }
+    ],
+    "translations": {
+      "i": "yo",
+      "remember": "recuerdo",
+      "the": "(artículo)",
+      "day": "día",
+      "when": "cuando",
+      "my": "(posesivo)",
+      "friend": "amiga",
+      "tried": "intenté",
+      "on": "en",
+      "that": "ese",
+      "beautiful": "hermoso",
+      "dress": "vestido",
+      "at": "en",
+      "shopping": "compras",
+      "mall": "centro comercial",
+      "wore": "llevaba",
+      "her": "(posesivo)",
+      "were": "(verbo ser/estar pasado)",
+      "shopped": "compré"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El cajero",
+      "Verbo: Escanear (pasado negativo)",
+      "Complemento: Los artículos",
+      "Complemento: Cuando el cliente llegó a la caja",
+      "Tiempo: Pasado (cuando llegó)"
+    ],
+    "hintDisplay": "Sujeto: El cajero / Verbo: Escanear (pasado negativo) / Complemento: Los artículos / Complemento: Cuando el cliente llegó a la caja / Tiempo: Pasado (cuando llegó)",
+    "spanishSentence": "El cajero no escaneó los artículos cuando el cliente llegó a la caja.",
+    "correctSentence": "The cashier didn't scan the items when the customer arrived at the counter.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "items",
+        "isDistractor": false,
+        "translation": "artículos"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "scanning",
+        "isDistractor": true,
+        "translation": "escaneando"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "customer",
+        "isDistractor": false,
+        "translation": "cliente"
+      },
+      {
+        "id": "c10",
+        "text": "arrived",
+        "isDistractor": false,
+        "translation": "llegó"
+      },
+      {
+        "id": "d1",
+        "text": "scanned",
+        "isDistractor": true,
+        "translation": "escaneado"
+      },
+      {
+        "id": "d5",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c4",
+        "text": "scan",
+        "isDistractor": false,
+        "translation": "escanear"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(presente perfecto)"
+      },
+      {
+        "id": "c2",
+        "text": "cashier",
+        "isDistractor": false,
+        "translation": "cajero"
+      },
+      {
+        "id": "c7",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c11",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c3",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(negación pasado)"
+      },
+      {
+        "id": "d4",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c13",
+        "text": "counter",
+        "isDistractor": false,
+        "translation": "caja"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "cashier": "cajero",
+      "didn't": "(negación pasado)",
+      "scan": "escanear",
+      "items": "artículos",
+      "when": "cuando",
+      "customer": "cliente",
+      "arrived": "llegó",
+      "at": "en",
+      "counter": "caja",
+      "scanned": "escaneado",
+      "scanning": "escaneando",
+      "has": "(presente perfecto)",
+      "their": "su",
+      "would": "(condicional)"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El gerente de la tienda",
+      "Verbo: Organizar (futuro simple)",
+      "Complemento: Los productos",
+      "Complemento: En la sección donde los clientes generalmente compran comestibles"
+    ],
+    "hintDisplay": "Sujeto: El gerente de la tienda / Verbo: Organizar (futuro simple) / Complemento: Los productos / Complemento: En la sección donde los clientes generalmente compran comestibles",
+    "spanishSentence": "El gerente de la tienda organizará los productos en la sección donde los clientes generalmente compran comestibles.",
+    "correctSentence": "The store manager will arrange the products in the section where customers usually shop for groceries.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c4",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c10",
+        "text": "section",
+        "isDistractor": false,
+        "translation": "sección"
+      },
+      {
+        "id": "c2",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c16",
+        "text": "groceries",
+        "isDistractor": false,
+        "translation": "comestibles"
+      },
+      {
+        "id": "d2",
+        "text": "be",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c12",
+        "text": "customers",
+        "isDistractor": false,
+        "translation": "clientes"
+      },
+      {
+        "id": "c13",
+        "text": "usually",
+        "isDistractor": false,
+        "translation": "generalmente"
+      },
+      {
+        "id": "c8",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c14",
+        "text": "shop",
+        "isDistractor": false,
+        "translation": "comprar"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d5",
+        "text": "organized",
+        "isDistractor": true,
+        "translation": "organizado"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "arranges",
+        "isDistractor": true,
+        "translation": "organiza"
+      },
+      {
+        "id": "c11",
+        "text": "where",
+        "isDistractor": false,
+        "translation": "donde"
+      },
+      {
+        "id": "c7",
+        "text": "products",
+        "isDistractor": false,
+        "translation": "productos"
+      },
+      {
+        "id": "c3",
+        "text": "manager",
+        "isDistractor": false,
+        "translation": "gerente"
+      },
+      {
+        "id": "d3",
+        "text": "arranging",
+        "isDistractor": true,
+        "translation": "organizando"
+      },
+      {
+        "id": "d4",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c5",
+        "text": "arrange",
+        "isDistractor": false,
+        "translation": "organizar"
+      },
+      {
+        "id": "c15",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "store": "tienda",
+      "manager": "gerente",
+      "will": "(futuro)",
+      "arrange": "organizar",
+      "products": "productos",
+      "in": "en",
+      "section": "sección",
+      "where": "donde",
+      "customers": "clientes",
+      "usually": "generalmente",
+      "shop": "comprar",
+      "for": "para",
+      "groceries": "comestibles",
+      "arranges": "organiza",
+      "be": "(auxiliar)",
+      "arranging": "organizando",
+      "him": "él",
+      "organized": "organizado"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: recomendar (negación)",
+      "Complemento: estos zapatos",
+      "Complemento: a clientes cuya característica es tener pies sensibles"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: recomendar (negación) / Complemento: estos zapatos / Complemento: a clientes cuya característica es tener pies sensibles",
+    "spanishSentence": "No recomiendo estos zapatos a clientes cuyos pies son sensibles.",
+    "correctSentence": "I don't recommend these shoes to customers whose feet are sensitive.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "recommend",
+        "isDistractor": false,
+        "translation": "recomiendo"
+      },
+      {
+        "id": "c6",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "d3",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "tienen"
+      },
+      {
+        "id": "c9",
+        "text": "feet",
+        "isDistractor": false,
+        "translation": "pies"
+      },
+      {
+        "id": "d1",
+        "text": "recommending",
+        "isDistractor": true,
+        "translation": "recomendando"
+      },
+      {
+        "id": "c4",
+        "text": "these",
+        "isDistractor": false,
+        "translation": "estos"
+      },
+      {
+        "id": "d4",
+        "text": "tender",
+        "isDistractor": true,
+        "translation": "delicados"
+      },
+      {
+        "id": "c7",
+        "text": "customers",
+        "isDistractor": false,
+        "translation": "clientes"
+      },
+      {
+        "id": "c10",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c11",
+        "text": "sensitive",
+        "isDistractor": false,
+        "translation": "sensibles"
+      },
+      {
+        "id": "c5",
+        "text": "shoes",
+        "isDistractor": false,
+        "translation": "zapatos"
+      },
+      {
+        "id": "d2",
+        "text": "whom",
+        "isDistractor": true,
+        "translation": "a quién"
+      },
+      {
+        "id": "c2",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(negación)"
+      },
+      {
+        "id": "d5",
+        "text": "advise",
+        "isDistractor": true,
+        "translation": "aconsejo"
+      },
+      {
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c8",
+        "text": "whose",
+        "isDistractor": false,
+        "translation": "cuyos"
+      }
+    ],
+    "translations": {
+      "i": "yo",
+      "don't": "(negación)",
+      "recommend": "recomiendo",
+      "these": "estos",
+      "shoes": "zapatos",
+      "to": "a",
+      "customers": "clientes",
+      "whose": "cuyos",
+      "feet": "pies",
+      "are": "(presente)",
+      "sensitive": "sensibles",
+      "recommending": "recomendando",
+      "whom": "a quién",
+      "have": "tienen",
+      "tender": "delicados",
+      "advise": "aconsejo"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El cliente",
+      "Verbo: Estar (presente continuo)",
+      "Complemento: Explorando/Navegando a través de la ropa",
+      "Complemento: Que está expuesta en los estantes"
+    ],
+    "hintDisplay": "Sujeto: El cliente / Verbo: Estar (presente continuo) / Complemento: Explorando/Navegando a través de la ropa / Complemento: Que está expuesta en los estantes",
+    "spanishSentence": "El cliente está explorando la ropa, que está expuesta en los estantes.",
+    "correctSentence": "The customer is browsing through the clothes, which are displayed on the racks.",
+    "cards": [
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "displaying",
+        "isDistractor": true,
+        "translation": "exponiendo"
+      },
+      {
+        "id": "c11",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c9",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "through",
+        "isDistractor": false,
+        "translation": "a través de"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d1",
+        "text": "browsed",
+        "isDistractor": true,
+        "translation": "explorada"
+      },
+      {
+        "id": "c8",
+        "text": "which",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c4",
+        "text": "browsing",
+        "isDistractor": false,
+        "translation": "explorando"
+      },
+      {
+        "id": "c10",
+        "text": "displayed",
+        "isDistractor": false,
+        "translation": "expuesta"
+      },
+      {
+        "id": "c2",
+        "text": "customer",
+        "isDistractor": false,
+        "translation": "cliente"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "clothes",
+        "isDistractor": false,
+        "translation": "ropa"
+      },
+      {
+        "id": "c13",
+        "text": "racks",
+        "isDistractor": false,
+        "translation": "estantes"
+      },
+      {
+        "id": "d2",
+        "text": "whom",
+        "isDistractor": true,
+        "translation": "a quien"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "customer": "cliente",
+      "is": "(presente)",
+      "browsing": "explorando",
+      "through": "a través de",
+      "clothes": "ropa",
+      "which": "que",
+      "are": "(presente)",
+      "displayed": "expuesta",
+      "on": "en",
+      "racks": "estantes",
+      "browsed": "explorada",
+      "whom": "a quien",
+      "has": "(auxiliar)",
+      "displaying": "exponiendo"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Nosotros los compradores cuyas bolsas están llenas de comestibles",
+      "Verbo: Salir",
+      "Complemento: Del supermercado satisfechos"
+    ],
+    "hintDisplay": "Sujeto: Nosotros los compradores cuyas bolsas están llenas de comestibles / Verbo: Salir / Complemento: Del supermercado satisfechos",
+    "spanishSentence": "Nosotros los compradores cuyas bolsas están llenas de comestibles salimos del supermercado satisfechos.",
+    "correctSentence": "We shoppers whose bags are full of groceries leave the supermarket satisfied.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c11",
+        "text": "supermarket",
+        "isDistractor": false,
+        "translation": "supermercado"
+      },
+      {
+        "id": "d5",
+        "text": "that",
+        "isDistractor": true,
+        "translation": "que"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c4",
+        "text": "bags",
+        "isDistractor": false,
+        "translation": "bolsas"
+      },
+      {
+        "id": "c9",
+        "text": "leave",
+        "isDistractor": false,
+        "translation": "salimos"
+      },
+      {
+        "id": "d1",
+        "text": "leaving",
+        "isDistractor": true,
+        "translation": "saliendo"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "shoppers",
+        "isDistractor": false,
+        "translation": "compradores"
+      },
+      {
+        "id": "c6",
+        "text": "full",
+        "isDistractor": false,
+        "translation": "llenas"
+      },
+      {
+        "id": "c5",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "d4",
+        "text": "customers",
+        "isDistractor": true,
+        "translation": "clientes"
+      },
+      {
+        "id": "c3",
+        "text": "whose",
+        "isDistractor": false,
+        "translation": "cuyas"
+      },
+      {
+        "id": "c7",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "d2",
+        "text": "supermarkets",
+        "isDistractor": true,
+        "translation": "supermercados"
+      },
+      {
+        "id": "c12",
+        "text": "satisfied",
+        "isDistractor": false,
+        "translation": "satisfechos"
+      },
+      {
+        "id": "c8",
+        "text": "groceries",
+        "isDistractor": false,
+        "translation": "comestibles"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "shoppers": "compradores",
+      "whose": "cuyas",
+      "bags": "bolsas",
+      "are": "(presente)",
+      "full": "llenas",
+      "of": "de",
+      "groceries": "comestibles",
+      "leave": "salimos",
+      "the": "(artículo)",
+      "supermarket": "supermercado",
+      "satisfied": "satisfechos",
+      "leaving": "saliendo",
+      "supermarkets": "supermercados",
+      "them": "los",
+      "customers": "clientes",
+      "that": "que"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: Recordar",
+      "Complemento: El día",
+      "Tiempo: Cuando busqué",
+      "Complemento: Un vestido perfecto",
+      "Complemento: En ese centro comercial"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: Recordar / Complemento: El día / Tiempo: Cuando busqué / Complemento: Un vestido perfecto / Complemento: En ese centro comercial",
+    "spanishSentence": "Recuerdo el día cuando busqué un vestido perfecto en ese centro comercial.",
+    "correctSentence": "I remember the day when I looked for a perfect dress in that shopping mall.",
+    "cards": [
+      {
+        "id": "c13",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "ese"
+      },
+      {
+        "id": "d1",
+        "text": "seeking",
+        "isDistractor": true,
+        "translation": "buscando"
+      },
+      {
+        "id": "c12",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c11",
+        "text": "dress",
+        "isDistractor": false,
+        "translation": "vestido"
+      },
+      {
+        "id": "c8",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "c15",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro"
+      },
+      {
+        "id": "c6",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d3",
+        "text": "where",
+        "isDistractor": true,
+        "translation": "donde"
+      },
+      {
+        "id": "c10",
+        "text": "perfect",
+        "isDistractor": false,
+        "translation": "perfecto"
+      },
+      {
+        "id": "c5",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c14",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "comercial"
+      },
+      {
+        "id": "c4",
+        "text": "day",
+        "isDistractor": false,
+        "translation": "día"
+      },
+      {
+        "id": "d2",
+        "text": "find",
+        "isDistractor": true,
+        "translation": "encontrar"
+      },
+      {
+        "id": "c2",
+        "text": "remember",
+        "isDistractor": false,
+        "translation": "recuerdo"
+      },
+      {
+        "id": "c7",
+        "text": "looked",
+        "isDistractor": false,
+        "translation": "busqué"
+      },
+      {
+        "id": "c9",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      }
+    ],
+    "translations": {
+      "i": "yo",
+      "remember": "recuerdo",
+      "the": "(artículo)",
+      "day": "día",
+      "when": "cuando",
+      "looked": "busqué",
+      "for": "por",
+      "a": "(artículo)",
+      "perfect": "perfecto",
+      "dress": "vestido",
+      "in": "en",
+      "that": "ese",
+      "shopping": "comercial",
+      "mall": "centro",
+      "seeking": "buscando",
+      "find": "encontrar",
+      "where": "donde"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: El vendedor/La vendedora",
+      "Verbo: Exhibir/Mostrar",
+      "Complemento: La nueva colección de invierno",
+      "Complemento: Que incluye varios abrigos y suéteres elegantes"
+    ],
+    "hintDisplay": "Sujeto: El vendedor/La vendedora / Verbo: Exhibir/Mostrar / Complemento: La nueva colección de invierno / Complemento: Que incluye varios abrigos y suéteres elegantes",
+    "spanishSentence": "El vendedor exhibe la nueva colección de invierno, la cual incluye varios abrigos y suéteres elegantes.",
+    "correctSentence": "The salesperson displays the new winter collection, which includes several elegant coats and sweaters.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "collection",
+        "isDistractor": false,
+        "translation": "colección"
+      },
+      {
+        "id": "c10",
+        "text": "several",
+        "isDistractor": false,
+        "translation": "varios"
+      },
+      {
+        "id": "c13",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "c5",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
+      },
+      {
+        "id": "d4",
+        "text": "exposition",
+        "isDistractor": true,
+        "translation": "exposición"
+      },
+      {
+        "id": "c2",
+        "text": "salesperson",
+        "isDistractor": false,
+        "translation": "vendedor"
+      },
+      {
+        "id": "c11",
+        "text": "elegant",
+        "isDistractor": false,
+        "translation": "elegantes"
       },
       {
         "id": "c4",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c5",
-        "text": "jacket",
-        "isDistractor": false
+        "id": "c14",
+        "text": "sweaters",
+        "isDistractor": false,
+        "translation": "suéteres"
       },
       {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "was",
-        "isDistractor": false
+        "id": "c12",
+        "text": "coats",
+        "isDistractor": false,
+        "translation": "abrigos"
       },
       {
         "id": "c8",
-        "text": "on",
-        "isDistractor": false
+        "text": "which",
+        "isDistractor": false,
+        "translation": "la cual"
+      },
+      {
+        "id": "d5",
+        "text": "costumes",
+        "isDistractor": true,
+        "translation": "trajes"
       },
       {
         "id": "c9",
-        "text": "sale",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
+        "text": "includes",
+        "isDistractor": false,
+        "translation": "incluye"
       },
       {
         "id": "d2",
-        "text": "selected",
-        "isDistractor": true
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "d1",
+        "text": "displayed",
+        "isDistractor": true,
+        "translation": "exhibido"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "displays",
+        "isDistractor": false,
+        "translation": "exhibe"
       },
       {
         "id": "d3",
-        "text": "in",
-        "isDistractor": true
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c6",
+        "text": "winter",
+        "isDistractor": false,
+        "translation": "invierno"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      }
+    ],
+    "translations": {
+      "the": "(artículo)",
+      "salesperson": "vendedor",
+      "displays": "exhibe",
+      "new": "nueva",
+      "winter": "invierno",
+      "collection": "colección",
+      "which": "la cual",
+      "includes": "incluye",
+      "several": "varios",
+      "elegant": "elegantes",
+      "coats": "abrigos",
+      "and": "y",
+      "sweaters": "suéteres",
+      "displayed": "exhibido",
+      "their": "su",
+      "does": "(auxiliar)",
+      "exposition": "exposición",
+      "costumes": "trajes"
+    },
+    "metadata": {
+      "tense": "relative clauses",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Mi amiga",
+      "Verbo: elegir",
+      "Complemento: un vestido azul",
+      "Complemento: que estaba en oferta en la tienda"
+    ],
+    "hintDisplay": "Sujeto: Mi amiga / Verbo: elegir / Complemento: un vestido azul / Complemento: que estaba en oferta en la tienda",
+    "spanishSentence": "Mi amiga eligió un vestido azul, que estaba en oferta en la tienda.",
+    "correctSentence": "My friend chose a blue dress, which was on sale at the store.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "dress",
+        "isDistractor": false,
+        "translation": "vestido"
+      },
+      {
+        "id": "c9",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c8",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "d3",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      },
+      {
+        "id": "c5",
+        "text": "blue",
+        "isDistractor": false,
+        "translation": "azul"
+      },
+      {
+        "id": "c2",
+        "text": "friend",
+        "isDistractor": false,
+        "translation": "amiga"
+      },
+      {
+        "id": "d1",
+        "text": "wearing",
+        "isDistractor": true,
+        "translation": "llevando"
+      },
+      {
+        "id": "c11",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c7",
+        "text": "which",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c1",
+        "text": "My",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "c13",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c3",
+        "text": "chose",
+        "isDistractor": false,
+        "translation": "eligió"
       },
       {
         "id": "d4",
-        "text": "discount",
-        "isDistractor": true
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c10",
+        "text": "sale",
+        "isDistractor": false,
+        "translation": "oferta"
+      },
+      {
+        "id": "d2",
+        "text": "hers",
+        "isDistractor": true,
+        "translation": "el suyo"
       }
     ],
     "translations": {
       "my": "mi",
       "friend": "amiga",
       "chose": "eligió",
-      "the": "la",
-      "jacket": "chaqueta",
-      "that": "que",
-      "was": "estaba",
-      "on": "en",
-      "sale": "oferta"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Olga",
-      "Verbo: recomendar (aconsejar)",
-      "Complemento: la tienda que tiene los mejores precios"
-    ],
-    "hintDisplay": "Sujeto: Olga / Verbo: recomendar (aconsejar) / Complemento: la tienda que tiene los mejores precios",
-    "spanishSentence": "Olga recomienda la tienda que tiene los mejores precios.",
-    "correctSentence": "Olga recommends the store that has the best prices.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Olga",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "recommends",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "has",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "best",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "prices",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "suggests",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "shop",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "cheapest",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "olga": "Olga",
-      "recommends": "recomienda",
-      "the": "el/la",
-      "store": "tienda",
-      "that": "que",
-      "has": "tiene",
-      "best": "mejores",
-      "prices": "precios"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: ahorrar (no hacer)",
-      "Complemento: mucho dinero en la tienda que tiene descuentos",
-      "Estructura: oración negativa con cláusula relativa"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: ahorrar (no hacer) / Complemento: mucho dinero en la tienda que tiene descuentos",
-    "spanishSentence": "No ahorro mucho dinero en la tienda que tiene descuentos.",
-    "correctSentence": "I don't save much money in the store that has discounts.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "don't",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "save",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "much",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "has",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "discounts",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "spend",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "offers",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "i": "yo",
-      "save": "ahorrar",
-      "much": "mucho",
-      "money": "dinero",
-      "in": "en",
-      "the": "el/la",
-      "store": "tienda",
-      "that": "que",
-      "has": "tiene",
-      "discounts": "descuentos"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Anna",
-      "Verbo: assist (ayudar)",
-      "Complemento: el vendedor que no asistió a los clientes"
-    ],
-    "hintDisplay": "Sujeto: Anna / Verbo: assist (ayudar) / Complemento: el vendedor que no asistió a los clientes",
-    "spanishSentence": "Anna no confía en el vendedor que no ayudó a los clientes",
-    "correctSentence": "Anna doesn't trust the salesman who didn't assist the customers.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Anna",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "doesn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "trust",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "salesman",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "didn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "assist",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "customers",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "helped",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "likes",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "served",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "anna": "Anna",
-      "doesnt": "no",
-      "trust": "confía",
-      "the": "el",
-      "salesman": "vendedor",
-      "who": "que",
-      "didnt": "no",
-      "assist": "asistió",
-      "customers": "clientes",
-      "assisted": "ayudó"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cliente",
-      "Verbo: comparar",
-      "Complemento: los precios en dos tiendas diferentes"
-    ],
-    "hintDisplay": "Sujeto: la cliente / Verbo: comparar / Complemento: los precios en dos tiendas diferentes",
-    "spanishSentence": "La cliente que comparó los precios eligió la tienda más barata.",
-    "correctSentence": "The customer who compared the prices chose the cheaper store.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "compared",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "prices",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "chose",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "cheaper",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "evaluated",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "selected",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "better",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "customer": "cliente",
-      "who": "quien/que",
-      "compared": "comparó",
-      "prices": "precios",
-      "chose": "eligió",
-      "cheaper": "más barata",
-      "store": "tienda"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: gastar",
-      "Complemento: demasiado dinero en la tienda que tiene los mejores precios"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: gastar / Complemento: demasiado dinero en la tienda que tiene los mejores precios",
-    "spanishSentence": "Gasto demasiado dinero en la tienda que tiene los mejores precios.",
-    "correctSentence": "I spend too much money in the shop that has the best prices.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "spend",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "too",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "much",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "shop",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "has",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "best",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "prices",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "spent",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "store",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "i": "yo",
-      "spend": "gastar",
-      "too": "demasiado",
-      "much": "mucho",
-      "money": "dinero",
-      "in": "en",
-      "the": "el/la",
-      "shop": "tienda",
-      "that": "que",
-      "has": "tiene",
-      "best": "mejores",
-      "prices": "precios"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la vendedora",
-      "Verbo: vender",
-      "Complemento: chaquetas de cuero que son muy populares"
-    ],
-    "hintDisplay": "Sujeto: la vendedora / Verbo: vender / Complemento: chaquetas de cuero que son muy populares",
-    "spanishSentence": "La vendedora que vende las chaquetas de cuero es muy amable.",
-    "correctSentence": "The salesperson who sells the leather jackets is very kind.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "salesperson",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "sells",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "leather",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "jackets",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "very",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "kind",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "that",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "sells",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "rude",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "la/el",
-      "salesperson": "vendedora",
-      "who": "que",
-      "sells": "vende",
-      "leather": "cuero",
-      "jackets": "chaquetas",
-      "is": "es",
-      "very": "muy",
-      "kind": "amable"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo (I)",
-      "Verbo: comprar (buy)",
-      "Complemento: la chaqueta que encontré en la tienda (the jacket that I found in the store)",
-      "Tipo de oración: negativa con don't"
-    ],
-    "hintDisplay": "Sujeto: yo (I) / Verbo: comprar (buy) / Complemento: la chaqueta que encontré en la tienda (the jacket that I found in the store) / Tipo de oración: negativa con don't",
-    "spanishSentence": "No compro la chaqueta que encontré en la tienda.",
-    "correctSentence": "I don't buy the jacket that I found.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "don't",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "buy",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "jacket",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "found",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "selling",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "do",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "shirt",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "i": "yo",
-      "buy": "compro",
-      "the": "la",
-      "jacket": "chaqueta",
-      "that": "que",
-      "found": "encontré"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la vendedora",
-      "Verbo: recomendar",
-      "Complemento: una chaqueta de cuero que es cálida"
-    ],
-    "hintDisplay": "Sujeto: la vendedora / Verbo: recomendar / Complemento: una chaqueta de cuero que es cálida",
-    "spanishSentence": "La vendedora que trabajaba en la tienda me recomendó una chaqueta de cuero.",
-    "correctSentence": "The salesperson who worked in the store recommended me a leather jacket.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "salesperson",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "worked",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "recommended",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "me",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "leather",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "jacket",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "suggested",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "cotton",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "la/el",
-      "salesperson": "vendedora",
-      "who": "que",
-      "worked": "trabajaba",
-      "in": "en",
-      "store": "tienda",
-      "recommended": "recomendó",
-      "me": "me",
-      "a": "una",
-      "leather": "cuero",
-      "jacket": "chaqueta"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Carlos",
-      "Verbo: envolver (wrap)",
-      "Complemento: los regalos que compró en la tienda"
-    ],
-    "hintDisplay": "Sujeto: Carlos / Verbo: envolver (wrap) / Complemento: los regalos que compró en la tienda",
-    "spanishSentence": "Carlos envolvió los regalos que compró en la tienda.",
-    "correctSentence": "Carlos wrapped the gifts that he bought at the store.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Carlos",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "wrapped",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "gifts",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "unwrapped",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "sold",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "in",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "carlos": "Carlos",
-      "wrapped": "envolvió",
-      "the": "el/la/los/las",
-      "gifts": "regalos",
-      "that": "que",
-      "he": "él",
-      "bought": "compró",
-      "at": "en",
-      "store": "tienda"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la clienta",
-      "Verbo: comprar",
-      "Complemento: el abrigo que encontró en la tienda",
-      "Tiempo: ayer"
-    ],
-    "hintDisplay": "Sujeto: la clienta / Verbo: comprar / Complemento: el abrigo que encontró en la tienda / Tiempo: ayer",
-    "spanishSentence": "La clienta compró el abrigo que encontró ayer en la tienda.",
-    "correctSentence": "The customer bought the coat that she found yesterday at the store.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "coat",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "found",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "sold",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "jacket",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la/los/las",
-      "customer": "clienta",
-      "bought": "compró",
-      "coat": "abrigo",
-      "that": "que",
-      "she": "ella",
-      "found": "encontró",
-      "yesterday": "ayer",
-      "at": "en",
-      "store": "tienda"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: comprar",
-      "Complemento: la chaqueta que tiene los mejores precios"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: comprar / Complemento: la chaqueta que tiene los mejores precios",
-    "spanishSentence": "Compré la chaqueta en la tienda que tiene los mejores precios.",
-    "correctSentence": "I bought the jacket at the store which has the best prices.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "jacket",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "which",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "has",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "best",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "prices",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "that",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "had",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "cheapest",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "who",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "i": "yo",
-      "bought": "compré",
-      "the": "la/el",
-      "jacket": "chaqueta",
-      "which": "que",
-      "has": "tiene",
-      "best": "mejores",
-      "prices": "precios",
-      "at": "en",
-      "store": "tienda"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cajera",
-      "Verbo: contar",
-      "Complemento: los artículos que no escanea"
-    ],
-    "hintDisplay": "Sujeto: la cajera / Verbo: contar / Complemento: los artículos que no escanea",
-    "spanishSentence": "La cajera que no cuenta los artículos que no escanea comete errores.",
-    "correctSentence": "The cashier who doesn't count the items that don't scan makes mistakes.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "cashier",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "doesn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "count",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "items",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "don't",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "scan",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "makes",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "mistakes",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "doesn't",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "calculate",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "does",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "la",
-      "cashier": "cajera",
-      "who": "que",
-      "doesnt": "no",
-      "count": "cuenta",
-      "items": "artículos",
-      "that": "que",
-      "dont": "no",
-      "scan": "escanea",
-      "makes": "comete",
-      "mistakes": "errores"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cliente",
-      "Verbo: cambiar (no poder cambiar)",
-      "Complemento: el vestido que compró",
-      "Tiempo: después de una semana"
-    ],
-    "hintDisplay": "Sujeto: la cliente / Verbo: cambiar (no poder cambiar) / Complemento: el vestido que compró / Tiempo: después de una semana",
-    "spanishSentence": "La cliente no puede cambiar el vestido que compró después de una semana",
-    "correctSentence": "The customer cannot exchange the dress that she bought after a week.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "cannot",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "exchange",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "dress",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "after",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "return",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "sold",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "can",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "customer": "cliente",
-      "cannot": "no puede",
-      "exchange": "cambiar",
+      "a": "(artículo indefinido)",
+      "blue": "azul",
       "dress": "vestido",
-      "that": "que",
-      "she": "ella",
-      "bought": "compró",
-      "after": "después de",
-      "a": "un/una",
-      "week": "semana"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cajera",
-      "Verbo: contar",
-      "Complemento: el dinero que los clientes le dan"
-    ],
-    "hintDisplay": "Sujeto: la cajera / Verbo: contar / Complemento: el dinero que los clientes le dan",
-    "spanishSentence": "La cajera que cuenta el dinero es muy rápida",
-    "correctSentence": "The cashier who counts the money is very fast.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "cashier",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "counts",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "very",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "fast",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "counts",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "slow",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "are",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "la/el",
-      "cashier": "cajera",
-      "who": "que",
-      "counts": "cuenta",
-      "money": "dinero",
-      "is": "es",
-      "very": "muy",
-      "fast": "rápida"
+      "which": "que",
+      "was": "(pasado)",
+      "on": "en",
+      "sale": "oferta",
+      "at": "en",
+      "the": "(artículo definido)",
+      "store": "tienda",
+      "wearing": "llevando",
+      "hers": "el suyo",
+      "did": "(auxiliar)",
+      "were": "(pasado)"
     },
     "metadata": {
       "tense": "relative clauses",
       "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Carlos",
-      "Verbo: vender (sell)",
-      "Complemento: ropa que es de alta calidad (clothes that are high quality)",
-      "Estructura: oración con cláusula relativa usando 'that'"
-    ],
-    "hintDisplay": "Sujeto: Carlos / Verbo: vender (sell) / Complemento: ropa que es de alta calidad / Estructura: oración con cláusula relativa usando 'that'",
-    "spanishSentence": "Carlos vende ropa que es de alta calidad.",
-    "correctSentence": "Carlos sells clothing that is high quality.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Carlos",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "sells",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "clothing",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "high",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "quality",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "buys",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "fabrics",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "poor",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "carlos": "Carlos",
-      "sells": "vende",
-      "clothing": "ropa",
-      "that": "que",
-      "is": "es",
-      "high": "alta",
-      "quality": "calidad"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Miguel",
-      "Verbo: devolver (return)",
-      "Complemento: la chaqueta que compró",
-      "Tipo de oración: oración con cláusula relativa (which/that)"
-    ],
-    "hintDisplay": "Sujeto: Miguel / Verbo: devolver (return) / Complemento: la chaqueta que compró / Tipo de oración: oración con cláusula relativa (which/that)",
-    "spanishSentence": "Miguel devolvió la chaqueta que compró en la tienda.",
-    "correctSentence": "Miguel returned the jacket that he bought.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Miguel",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "returned",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "jacket",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "exchanged",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "who",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "sold",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "miguel": "Miguel",
-      "returned": "devolvió",
-      "the": "la",
-      "jacket": "chaqueta",
-      "that": "que",
-      "he": "él",
-      "bought": "compró"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cajera",
-      "Verbo: procesar",
-      "Complemento: las compras que no procesa rápidamente"
-    ],
-    "hintDisplay": "Sujeto: la cajera / Verbo: procesar / Complemento: las compras que no procesa rápidamente",
-    "spanishSentence": "La cajera que no procesa rápidamente las compras es ineficiente.",
-    "correctSentence": "The cashier who does not process the purchases quickly is inefficient.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "cashier",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "who",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "does",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "process",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "purchases",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "quickly",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "is",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "inefficient",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "which",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "slowly",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "processes",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "items",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "cashier": "cajera",
-      "who": "que/quien",
-      "does": "hace/hace",
-      "not": "no",
-      "process": "procesar",
-      "purchases": "compras",
-      "quickly": "rápidamente",
-      "is": "es",
-      "inefficient": "ineficiente"
-    },
-    "metadata": {
-      "tense": "relative clauses",
-      "isNegative": true,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "shopping"

@@ -1,87 +1,549 @@
 [
   {
     "hints": [
-      "Sujeto: el perro",
-      "Verbo: pasear (voz pasiva)",
-      "Complemento: después del trabajo",
-      "Tiempo: después del trabajo"
+      "Verbo: should (deber, obligación/recomendación)",
+      "Sujeto: desayuno",
+      "Verbo: prepare (preparar)",
+      "Tiempo: la noche anterior"
     ],
-    "hintDisplay": "Sujeto: el perro / Verbo: pasear (voz pasiva) / Complemento: después del trabajo / Tiempo: después del trabajo",
-    "spanishSentence": "¿No fue paseado el perro después del trabajo?",
-    "correctSentence": "Wasn't the dog walked after work?",
+    "hintDisplay": "Verbo: should (deber, obligación/recomendación) / Sujeto: desayuno / Verbo: prepare (preparar) / Tiempo: la noche anterior",
+    "spanishSentence": "¿Debería prepararse el desayuno la noche anterior?",
+    "correctSentence": "Should breakfast be prepared the night before?",
     "cards": [
       {
         "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "dog",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "walked",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "after",
-        "isDistractor": false
+        "text": "Should",
+        "isDistractor": false,
+        "translation": "debería"
       },
       {
         "id": "c6",
-        "text": "work",
-        "isDistractor": false
+        "text": "night",
+        "isDistractor": false,
+        "translation": "noche"
       },
       {
         "id": "d1",
-        "text": "been",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
+        "text": "Could",
         "isDistractor": true,
-        "translation": "el"
+        "translation": "podría"
       },
       {
-        "id": "d3",
-        "text": "cat",
-        "isDistractor": true
+        "id": "c7",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "anterior"
+      },
+      {
+        "id": "c2",
+        "text": "breakfast",
+        "isDistractor": false,
+        "translation": "desayuno"
       },
       {
         "id": "d4",
-        "text": "before",
-        "isDistractor": true
+        "text": "tomorrow",
+        "isDistractor": true,
+        "translation": "mañana"
       },
       {
-        "id": "d5",
-        "text": "running",
-        "isDistractor": true
+        "id": "d2",
+        "text": "preparing",
+        "isDistractor": true,
+        "translation": "preparando"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d6",
-        "text": "school",
-        "isDistractor": true
+        "text": "made",
+        "isDistractor": true,
+        "translation": "hecho"
+      },
+      {
+        "id": "d3",
+        "text": "Would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d5",
+        "text": "earlier",
+        "isDistractor": true,
+        "translation": "más temprano"
+      },
+      {
+        "id": "c4",
+        "text": "prepared",
+        "isDistractor": false,
+        "translation": "prepararse"
+      },
+      {
+        "id": "c3",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "(ser/estar)"
       }
     ],
     "translations": {
-      "the": "el",
-      "dog": "perro",
-      "walked": "paseado",
-      "after": "después de",
-      "work": "trabajo"
+      "should": "debería",
+      "breakfast": "desayuno",
+      "be": "(ser/estar)",
+      "prepared": "prepararse",
+      "the": "(artículo)",
+      "night": "noche",
+      "before": "anterior",
+      "could": "podría",
+      "preparing": "preparando",
+      "would": "(condicional)",
+      "tomorrow": "mañana",
+      "earlier": "más temprano",
+      "made": "hecho"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "daily routine"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: dinner (la cena)",
+      "Verbo: be served (ser servido - voz pasiva)",
+      "Verbo: will (futuro)",
+      "Complemento: at 7 PM (a las 7 PM)",
+      "Tiempo: tomorrow (mañana)",
+      "Negación: not (no)"
+    ],
+    "hintDisplay": "Sujeto: dinner (la cena) / Verbo: be served (ser servido - voz pasiva) / Verbo: will (futuro) / Complemento: at 7 PM (a las 7 PM) / Tiempo: tomorrow (mañana) / Negación: not (no)",
+    "spanishSentence": "¿No será servida la cena a las 7 PM mañana?",
+    "correctSentence": "Will dinner not be served at 7 PM tomorrow?",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "ser"
+      },
+      {
+        "id": "d5",
+        "text": "Tomorrow's",
+        "isDistractor": true,
+        "translation": "de mañana"
+      },
+      {
+        "id": "d2",
+        "text": "Won't",
+        "isDistractor": true,
+        "translation": "no"
+      },
+      {
+        "id": "d4",
+        "text": "Serving",
+        "isDistractor": true,
+        "translation": "sirviendo"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d3",
+        "text": "Has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "d6",
+        "text": "AM",
+        "isDistractor": true,
+        "translation": "soy"
+      },
+      {
+        "id": "c5",
+        "text": "served",
+        "isDistractor": false,
+        "translation": "servida"
+      },
+      {
+        "id": "d1",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "fueron"
+      },
+      {
+        "id": "c8",
+        "text": "PM",
+        "isDistractor": false,
+        "translation": "PM"
+      },
+      {
+        "id": "c9",
+        "text": "tomorrow",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c6",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "c7",
+        "text": "7",
+        "isDistractor": false,
+        "translation": "7"
+      },
+      {
+        "id": "c2",
+        "text": "dinner",
+        "isDistractor": false,
+        "translation": "cena"
+      },
+      {
+        "id": "c3",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      }
+    ],
+    "translations": {
+      "7": "7",
+      "will": "(futuro)",
+      "dinner": "cena",
+      "not": "no",
+      "be": "ser",
+      "served": "servida",
+      "at": "a",
+      "pm": "PM",
+      "tomorrow": "mañana",
+      "were": "fueron",
+      "won't": "no",
+      "has": "ha",
+      "serving": "sirviendo",
+      "tomorrow's": "de mañana",
+      "am": "soy"
     },
     "metadata": {
       "tense": "passive voice",
       "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "daily routine"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: ahora mismo, en este momento",
+      "Sujeto: la mesa",
+      "Verbo: estar (auxiliar para voz pasiva)",
+      "Verbo: limpiar (participio pasado en construcción pasiva)",
+      "Complemento: como parte de tu rutina diaria"
+    ],
+    "hintDisplay": "Tiempo: ahora mismo, en este momento / Sujeto: la mesa / Verbo: estar (auxiliar para voz pasiva) / Verbo: limpiar (participio pasado en construcción pasiva) / Complemento: como parte de tu rutina diaria",
+    "spanishSentence": "¿Está siendo limpiada la mesa ahora mismo como parte de tu rutina diaria?",
+    "correctSentence": "Is the table being wiped right now as part of your daily routine?",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "wiped",
+        "isDistractor": false,
+        "translation": "limpiada"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "d5",
+        "text": "you",
+        "isDistractor": true,
+        "translation": "tú"
+      },
+      {
+        "id": "c7",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c8",
+        "text": "as",
+        "isDistractor": false,
+        "translation": "como"
+      },
+      {
+        "id": "c6",
+        "text": "right",
+        "isDistractor": false,
+        "translation": "ahora mismo"
+      },
+      {
+        "id": "d3",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c13",
+        "text": "routine",
+        "isDistractor": false,
+        "translation": "rutina"
+      },
+      {
+        "id": "c3",
+        "text": "table",
+        "isDistractor": false,
+        "translation": "mesa"
+      },
+      {
+        "id": "c11",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c12",
+        "text": "daily",
+        "isDistractor": false,
+        "translation": "diaria"
+      },
+      {
+        "id": "d1",
+        "text": "wiping",
+        "isDistractor": true,
+        "translation": "limpieza"
+      },
+      {
+        "id": "d6",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c4",
+        "text": "being",
+        "isDistractor": false,
+        "translation": "(presente continuo)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c10",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c9",
+        "text": "part",
+        "isDistractor": false,
+        "translation": "parte"
+      },
+      {
+        "id": "d2",
+        "text": "wipes",
+        "isDistractor": true,
+        "translation": "limpia"
+      }
+    ],
+    "translations": {
+      "is": "(presente)",
+      "the": "(artículo)",
+      "table": "mesa",
+      "being": "(presente continuo)",
+      "wiped": "limpiada",
+      "right": "ahora mismo",
+      "now": "ahora",
+      "as": "como",
+      "part": "parte",
+      "of": "de",
+      "your": "tu",
+      "daily": "diaria",
+      "routine": "rutina",
+      "wiping": "limpieza",
+      "wipes": "limpia",
+      "have": "haber",
+      "were": "(pasado)",
+      "you": "tú",
+      "their": "su"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "daily routine"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: antes de que te fueras a dormir (pasado)",
+      "Verbo: ser (auxiliar para voz pasiva)",
+      "Verbo: lavar (acción principal en participio)",
+      "Sujeto: la ropa",
+      "Estructura: pregunta en pasado perfecto continuo con inversión"
+    ],
+    "hintDisplay": "Tiempo: antes de que te fueras a dormir (pasado) / Verbo: ser (auxiliar para voz pasiva) / Verbo: lavar (acción principal en participio) / Sujeto: la ropa / Estructura: pregunta en pasado perfecto continuo con inversión",
+    "spanishSentence": "¿Había sido lavada la ropa antes de que te fueras a dormir?",
+    "correctSentence": "Had the laundry been washed before you went to bed?",
+    "cards": [
+      {
+        "id": "c10",
+        "text": "bed",
+        "isDistractor": false,
+        "translation": "cama"
+      },
+      {
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "washed",
+        "isDistractor": false,
+        "translation": "lavada"
+      },
+      {
+        "id": "d5",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "fueron"
+      },
+      {
+        "id": "c3",
+        "text": "laundry",
+        "isDistractor": false,
+        "translation": "ropa"
+      },
+      {
+        "id": "c4",
+        "text": "been",
+        "isDistractor": false,
+        "translation": "sido"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c8",
+        "text": "went",
+        "isDistractor": false,
+        "translation": "fuiste"
+      },
+      {
+        "id": "c6",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c7",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c1",
+        "text": "Had",
+        "isDistractor": false,
+        "translation": "(pretérito pluscuamperfecto)"
+      },
+      {
+        "id": "d4",
+        "text": "after",
+        "isDistractor": true,
+        "translation": "después de"
+      },
+      {
+        "id": "d3",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d1",
+        "text": "washing",
+        "isDistractor": true,
+        "translation": "lavando"
+      }
+    ],
+    "translations": {
+      "had": "(pretérito pluscuamperfecto)",
+      "the": "(artículo)",
+      "laundry": "ropa",
+      "been": "sido",
+      "washed": "lavada",
+      "before": "antes de",
+      "you": "tú",
+      "went": "fuiste",
+      "to": "(marca de infinitivo)",
+      "bed": "cama",
+      "washing": "lavando",
+      "he": "él",
+      "have": "haber",
+      "after": "después de",
+      "were": "fueron"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "daily routine"
@@ -90,394 +552,100 @@
   {
     "hints": [
       "Sujeto: el coche",
-      "Verbo: lavar (voz pasiva)",
-      "Complemento: en la entrada",
-      "Tiempo: cada tarde"
+      "Verbo: ser (auxiliar para voz pasiva)",
+      "Verbo: lavar (participio pasado)",
+      "Complemento: esta mañana",
+      "Tiempo: esta mañana"
     ],
-    "hintDisplay": "Sujeto: el coche / Verbo: lavar (voz pasiva) / Complemento: en la entrada / Tiempo: cada tarde",
-    "spanishSentence": "¿No es lavado el coche cada tarde en la entrada?",
-    "correctSentence": "Isn't the car washed every evening in the driveway?",
+    "hintDisplay": "Sujeto: el coche / Verbo: ser (auxiliar para voz pasiva) / Verbo: lavar (participio pasado) / Complemento: esta mañana / Tiempo: esta mañana",
+    "spanishSentence": "¿Ha sido lavado el coche esta mañana?",
+    "correctSentence": "Has the car been washed this morning?",
     "cards": [
-      {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
       {
         "id": "c3",
         "text": "car",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "coche"
       },
       {
-        "id": "c4",
-        "text": "washed",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "evening",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "driveway",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "isn't",
+        "id": "d3",
+        "text": "have",
         "isDistractor": true,
-        "translation": "¿no es"
+        "translation": "(perfecto)"
       },
-      {
-        "id": "d2",
-        "text": "being",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "cleaned",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "every",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "morning",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "at",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el/la",
-      "car": "coche",
-      "washed": "lavado",
-      "every": "cada",
-      "evening": "tarde",
-      "in": "en",
-      "driveway": "entrada"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "daily routine"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cena",
-      "Verbo: preparar (voz pasiva)",
-      "Complemento: por un chef profesional",
-      "Tiempo: después del trabajo"
-    ],
-    "hintDisplay": "Sujeto: la cena / Verbo: preparar (voz pasiva) / Complemento: por un chef profesional / Tiempo: después del trabajo",
-    "spanishSentence": "¿Fue preparada la cena por un chef profesional después del trabajo?",
-    "correctSentence": "Was dinner prepared by a professional chef after work?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Was",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "dinner",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "prepared",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "professional",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "chef",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "after",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "work",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cooked",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "before",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "an",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "amateur",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "made",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "during",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "was": "fue",
-      "dinner": "la cena",
-      "prepared": "preparada",
-      "by": "por",
-      "a": "un/una",
-      "professional": "profesional",
-      "chef": "chef",
-      "after": "después de",
-      "work": "trabajo"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "daily routine"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el perro",
-      "Verbo: alimentar (voz pasiva)",
-      "Complemento: en la cocina",
-      "Tiempo: recientemente"
-    ],
-    "hintDisplay": "Sujeto: el perro / Verbo: alimentar (voz pasiva) / Complemento: en la cocina / Tiempo: recientemente",
-    "spanishSentence": "¿Ha sido alimentado el perro en la cocina recientemente?",
-    "correctSentence": "Has the dog been fed in the kitchen recently?",
-    "cards": [
       {
         "id": "c1",
         "text": "Has",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(perfecto)"
+      },
+      {
+        "id": "c5",
+        "text": "washed",
+        "isDistractor": false,
+        "translation": "lavado"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c3",
-        "text": "dog",
-        "isDistractor": false
+        "id": "c6",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "d1",
+        "text": "wash",
+        "isDistractor": true,
+        "translation": "lavar"
+      },
+      {
+        "id": "d4",
+        "text": "being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "d2",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "fue"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c7",
+        "text": "morning",
+        "isDistractor": false,
+        "translation": "mañana"
       },
       {
         "id": "c4",
         "text": "been",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "fed",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "kitchen",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "recently",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "given",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "ate",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "lately",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "sido"
       }
     ],
     "translations": {
-      "has": "ha",
-      "the": "el/la",
-      "dog": "perro",
+      "has": "(perfecto)",
+      "the": "(artículo)",
+      "car": "coche",
       "been": "sido",
-      "fed": "alimentado",
-      "in": "en",
-      "kitchen": "cocina",
-      "recently": "recientemente"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "daily routine"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cama",
-      "Verbo: cambiar (voz pasiva)",
-      "Complemento: sábanas limpias",
-      "Tiempo: el sábado"
-    ],
-    "hintDisplay": "Sujeto: la cama / Verbo: cambiar (voz pasiva) / Complemento: sábanas limpias / Tiempo: el sábado",
-    "spanishSentence": "¿Fueron cambiadas las sábanas de la cama el sábado?",
-    "correctSentence": "Were the bed sheets changed on Saturday?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Were",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "bed",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "sheets",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "changed",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "Saturday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Was",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "cleaned",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "Sunday",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "mattress",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "were": "fueron",
-      "the": "las",
-      "bed": "cama",
-      "sheets": "sábanas",
-      "changed": "cambiadas",
-      "on": "el",
-      "saturday": "sábado"
+      "washed": "lavado",
+      "this": "esta",
+      "morning": "mañana",
+      "wash": "lavar",
+      "was": "fue",
+      "have": "(perfecto)",
+      "being": "siendo"
     },
     "metadata": {
       "tense": "passive voice",
@@ -490,269 +658,380 @@
   {
     "hints": [
       "Sujeto: el perro",
-      "Verbo: pasear (voz pasiva)",
-      "Complemento: por el parque",
-      "Tiempo: todas las noches"
+      "Verbo: ser (voz pasiva)",
+      "Verbo: alimentar (participio pasado en construcción pasiva)",
+      "Complemento: por la mañana",
+      "Tiempo: por la mañana"
     ],
-    "hintDisplay": "Sujeto: el perro / Verbo: pasear (voz pasiva) / Complemento: por el parque / Tiempo: todas las noches",
-    "spanishSentence": "¿No es paseado el perro por el parque todas las noches?",
-    "correctSentence": "Isn't the dog walked through the park every evening?",
+    "hintDisplay": "Sujeto: el perro / Verbo: ser (voz pasiva) / Verbo: alimentar (participio pasado en construcción pasiva) / Complemento: por la mañana / Tiempo: por la mañana",
+    "spanishSentence": "¿Va a ser alimentado el perro por la mañana?",
+    "correctSentence": "Is the dog going to be fed in the morning?",
     "cards": [
-      {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
       {
         "id": "c3",
         "text": "dog",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "walked",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "through",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "park",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "every",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "perro"
       },
       {
         "id": "c9",
-        "text": "evening",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d1",
-        "text": "runs",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "the",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "park",
-        "isDistractor": true
+        "text": "been",
+        "isDistractor": true,
+        "translation": "estado"
       },
       {
         "id": "d4",
-        "text": "daily",
-        "isDistractor": true
+        "text": "evening",
+        "isDistractor": true,
+        "translation": "tarde"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(presente)"
       },
       {
         "id": "d5",
-        "text": "playing",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "el",
-      "dog": "perro",
-      "walked": "paseado",
-      "through": "por",
-      "park": "parque",
-      "every": "todas las",
-      "evening": "noches"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "daily routine"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la mesa",
-      "Verbo: limpiar (voz pasiva)",
-      "Complemento: ninguno específico",
-      "Tiempo: todas las noches"
-    ],
-    "hintDisplay": "Sujeto: la mesa / Verbo: limpiar (voz pasiva) / Complemento: ninguno específico / Tiempo: todas las noches",
-    "spanishSentence": "¿No es la mesa limpiada todas las noches?",
-    "correctSentence": "Isn't the table wiped every evening?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "table",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "wiped",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "evening",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "cleaned",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "every",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
+        "id": "c10",
         "text": "morning",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "Was",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "chair",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "the": "la",
-      "table": "mesa",
-      "wiped": "limpiada",
-      "every": "todas las",
-      "evening": "noches"
-    },
-    "metadata": {
-      "tense": "passive voice",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "daily routine"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desayuno",
-      "Verbo: preparar (voz pasiva)",
-      "Complemento: por mi madre",
-      "Tiempo: ayer por la mañana"
-    ],
-    "hintDisplay": "Sujeto: el desayuno / Verbo: preparar (voz pasiva) / Complemento: por mi madre / Tiempo: ayer por la mañana",
-    "spanishSentence": "¿Fue preparado el desayuno por mi madre ayer por la mañana?",
-    "correctSentence": "Was breakfast prepared by my mother yesterday morning?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Was",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "breakfast",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "prepared",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "my",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "mother",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "last",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "mañana"
       },
       {
         "id": "c8",
-        "text": "night",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Is",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "preparing",
-        "isDistractor": true
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
       },
       {
         "id": "d3",
-        "text": "from",
-        "isDistractor": true
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
       },
       {
-        "id": "d4",
-        "text": "sister",
-        "isDistractor": true
+        "id": "d2",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
-        "id": "d5",
-        "text": "morning",
-        "isDistractor": true
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c6",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "ser"
+      },
+      {
+        "id": "c7",
+        "text": "fed",
+        "isDistractor": false,
+        "translation": "alimentado"
+      },
+      {
+        "id": "c4",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "ir"
       }
     ],
     "translations": {
-      "was": "fue",
-      "breakfast": "desayuno",
-      "prepared": "preparado",
-      "by": "por",
-      "my": "mi",
-      "mother": "madre",
-      "morning": "mañana"
+      "is": "(presente)",
+      "the": "(artículo)",
+      "dog": "perro",
+      "going": "ir",
+      "to": "(marca de infinitivo)",
+      "be": "ser",
+      "fed": "alimentado",
+      "in": "en",
+      "morning": "mañana",
+      "been": "estado",
+      "does": "(auxiliar)",
+      "him": "lo",
+      "evening": "tarde",
+      "will": "(futuro)"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "daily routine"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el césped",
+      "Verbo: estar (pasiva con 'being')",
+      "Verbo: trimmed/cortar",
+      "Complemento: cuando llegaste a casa",
+      "Tiempo: ayer"
+    ],
+    "hintDisplay": "Sujeto: el césped / Verbo: estar (pasiva con 'being') / Verbo: trimmed/cortar / Complemento: cuando llegaste a casa / Tiempo: ayer",
+    "spanishSentence": "¿No estaba siendo cortado el césped cuando llegaste a casa ayer?",
+    "correctSentence": "Wasn't the lawn being trimmed when you got home yesterday?",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "Wasn't",
+        "isDistractor": false,
+        "translation": "(negación pasado)"
+      },
+      {
+        "id": "c3",
+        "text": "lawn",
+        "isDistractor": false,
+        "translation": "césped"
+      },
+      {
+        "id": "d1",
+        "text": "trim",
+        "isDistractor": true,
+        "translation": "cortar"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c7",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "d2",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "(pasado ser/estar)"
+      },
+      {
+        "id": "d5",
+        "text": "cutting",
+        "isDistractor": true,
+        "translation": "cortando"
+      },
+      {
+        "id": "c10",
+        "text": "yesterday",
+        "isDistractor": false,
+        "translation": "ayer"
+      },
+      {
+        "id": "c5",
+        "text": "trimmed",
+        "isDistractor": false,
+        "translation": "cortado"
+      },
+      {
+        "id": "d4",
+        "text": "yesterday's",
+        "isDistractor": true,
+        "translation": "de ayer"
+      },
+      {
+        "id": "c4",
+        "text": "being",
+        "isDistractor": false,
+        "translation": "(estar en progreso)"
+      },
+      {
+        "id": "c6",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c9",
+        "text": "home",
+        "isDistractor": false,
+        "translation": "a casa"
+      },
+      {
+        "id": "c8",
+        "text": "got",
+        "isDistractor": false,
+        "translation": "llegaste"
+      },
+      {
+        "id": "d3",
+        "text": "Is",
+        "isDistractor": true,
+        "translation": "(presente ser/estar)"
+      }
+    ],
+    "translations": {
+      "wasn't": "(negación pasado)",
+      "the": "(artículo)",
+      "lawn": "césped",
+      "being": "(estar en progreso)",
+      "trimmed": "cortado",
+      "when": "cuando",
+      "you": "tú",
+      "got": "llegaste",
+      "home": "a casa",
+      "yesterday": "ayer",
+      "trim": "cortar",
+      "were": "(pasado ser/estar)",
+      "is": "(presente ser/estar)",
+      "yesterday's": "de ayer",
+      "cutting": "cortando"
+    },
+    "metadata": {
+      "tense": "passive voice",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "daily routine"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: los platos",
+      "Verbo: lavar (voz pasiva)",
+      "Complemento: después de cada comida",
+      "Tiempo: después de cada comida"
+    ],
+    "hintDisplay": "Sujeto: los platos / Verbo: lavar (voz pasiva) / Complemento: después de cada comida / Tiempo: después de cada comida",
+    "spanishSentence": "¿Se lavan los platos después de cada comida?",
+    "correctSentence": "Are the dishes washed after every meal?",
+    "cards": [
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d4",
+        "text": "some",
+        "isDistractor": true,
+        "translation": "algunos"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "dishes",
+        "isDistractor": false,
+        "translation": "platos"
+      },
+      {
+        "id": "d1",
+        "text": "wash",
+        "isDistractor": true,
+        "translation": "lavar"
+      },
+      {
+        "id": "d3",
+        "text": "before",
+        "isDistractor": true,
+        "translation": "antes de"
+      },
+      {
+        "id": "c1",
+        "text": "Are",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "meal",
+        "isDistractor": false,
+        "translation": "comida"
+      },
+      {
+        "id": "c4",
+        "text": "washed",
+        "isDistractor": false,
+        "translation": "lavados"
+      },
+      {
+        "id": "d5",
+        "text": "Do",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d6",
+        "text": "cleaned",
+        "isDistractor": true,
+        "translation": "limpios"
+      },
+      {
+        "id": "c5",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después de"
+      },
+      {
+        "id": "c6",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "d2",
+        "text": "Is",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      }
+    ],
+    "translations": {
+      "are": "(auxiliar)",
+      "the": "(artículo)",
+      "dishes": "platos",
+      "washed": "lavados",
+      "after": "después de",
+      "every": "cada",
+      "meal": "comida",
+      "wash": "lavar",
+      "is": "(auxiliar)",
+      "before": "antes de",
+      "some": "algunos",
+      "do": "(auxiliar)",
+      "cleaned": "limpios"
     },
     "metadata": {
       "tense": "passive voice",
@@ -764,98 +1043,125 @@
   },
   {
     "hints": [
-      "Sujeto: el césped (the lawn)",
-      "Verbo: cortar (mow)",
-      "Complemento: por el jardinero (by the gardener)",
-      "Tiempo: el sábado (on Saturday)"
+      "Tiempo: esta mañana",
+      "Sujeto: la cocina",
+      "Verbo: ser (voz pasiva)",
+      "Complemento: organizada por ti"
     ],
-    "hintDisplay": "Sujeto: el césped / Verbo: cortar / Complemento: por el jardinero / Tiempo: el sábado",
-    "spanishSentence": "¿No fue cortado el césped por el jardinero el sábado?",
-    "correctSentence": "Wasn't the lawn mowed by the gardener on Saturday?",
+    "hintDisplay": "Tiempo: esta mañana / Sujeto: la cocina / Verbo: ser (voz pasiva) / Complemento: organizada por ti",
+    "spanishSentence": "¿Fue organizada la cocina por ti esta mañana?",
+    "correctSentence": "Was the kitchen organized by you this morning?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false
+        "id": "c6",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "ti"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "lawn",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c4",
-        "text": "mowed",
-        "isDistractor": false
+        "text": "organized",
+        "isDistractor": false,
+        "translation": "organizada"
+      },
+      {
+        "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c8",
+        "text": "morning",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c3",
+        "text": "kitchen",
+        "isDistractor": false,
+        "translation": "cocina"
+      },
+      {
+        "id": "c7",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "d6",
+        "text": "yesterday",
+        "isDistractor": true,
+        "translation": "ayer"
       },
       {
         "id": "c5",
         "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "gardener",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "Saturday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "mown",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "weeded",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "por"
       },
       {
         "id": "d3",
-        "text": "watered",
-        "isDistractor": true
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
       },
       {
-        "id": "d4",
-        "text": "yard",
-        "isDistractor": true
+        "id": "c1",
+        "text": "Was",
+        "isDistractor": false,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "d1",
+        "text": "organize",
+        "isDistractor": true,
+        "translation": "organizar"
       },
       {
         "id": "d5",
-        "text": "Did",
-        "isDistractor": true
+        "text": "being",
+        "isDistractor": true,
+        "translation": "siendo"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d2",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
       }
     ],
     "translations": {
-      "the": "el/la",
-      "lawn": "césped",
-      "mowed": "cortado",
+      "was": "(pasado)",
+      "the": "(artículo)",
+      "kitchen": "cocina",
+      "organized": "organizada",
       "by": "por",
-      "gardener": "jardinero",
-      "on": "el",
-      "saturday": "sábado"
+      "you": "ti",
+      "this": "esta",
+      "morning": "mañana",
+      "organize": "organizar",
+      "him": "lo",
+      "have": "haber",
+      "were": "(pasado)",
+      "being": "siendo",
+      "yesterday": "ayer"
     },
     "metadata": {
       "tense": "passive voice",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "daily routine"
@@ -863,87 +1169,147 @@
   },
   {
     "hints": [
-      "Sujeto: la ropa",
-      "Verbo: lavar (voz pasiva)",
-      "Complemento: cada miércoles",
-      "Tiempo: cada miércoles"
+      "Sujeto: los niños",
+      "Verbo: ser (auxiliar pasivo)",
+      "Verbo: recoger (participio pasado)",
+      "Complemento: de la escuela",
+      "Tiempo: todos los días a las 3 PM"
     ],
-    "hintDisplay": "Sujeto: la ropa / Verbo: lavar (voz pasiva) / Complemento: cada miércoles",
-    "spanishSentence": "¿No es la ropa lavada cada miércoles?",
-    "correctSentence": "Isn't the laundry washed every Wednesday?",
+    "hintDisplay": "Sujeto: los niños / Verbo: ser (auxiliar pasivo) / Verbo: recoger (participio pasado) / Complemento: de la escuela / Tiempo: todos los días a las 3 PM",
+    "spanishSentence": "¿Son recogidos los niños de la escuela todos los días a las 3 PM?",
+    "correctSentence": "Are the kids picked up from school every day at 3 PM?",
     "cards": [
-      {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false
-      },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "laundry",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c4",
-        "text": "washed",
-        "isDistractor": false
+        "text": "picked",
+        "isDistractor": false,
+        "translation": "recogidos"
       },
       {
-        "id": "c5",
-        "text": "every",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "Wednesday",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "washing",
-        "isDistractor": true
+        "id": "c7",
+        "text": "school",
+        "isDistractor": false,
+        "translation": "escuela"
       },
       {
         "id": "d2",
-        "text": "cleaned",
-        "isDistractor": true
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
       },
       {
-        "id": "d3",
-        "text": "being",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "each",
-        "isDistractor": true
+        "id": "c9",
+        "text": "day",
+        "isDistractor": false,
+        "translation": "días"
       },
       {
         "id": "d5",
-        "text": "the",
+        "text": "daily",
         "isDistractor": true,
-        "translation": "la"
+        "translation": "diariamente"
       },
       {
-        "id": "d6",
-        "text": "clothes",
-        "isDistractor": true
+        "id": "c3",
+        "text": "kids",
+        "isDistractor": false,
+        "translation": "niños"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d1",
+        "text": "picking",
+        "isDistractor": true,
+        "translation": "recogiendo"
+      },
+      {
+        "id": "c6",
+        "text": "from",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c12",
+        "text": "PM",
+        "isDistractor": false,
+        "translation": "PM"
+      },
+      {
+        "id": "c5",
+        "text": "up",
+        "isDistractor": false,
+        "translation": "(partícula)"
+      },
+      {
+        "id": "c8",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "todos"
+      },
+      {
+        "id": "c10",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c1",
+        "text": "Are",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c11",
+        "text": "3",
+        "isDistractor": false,
+        "translation": "3"
       }
     ],
     "translations": {
-      "the": "la",
-      "laundry": "ropa",
-      "washed": "lavada",
-      "every": "cada",
-      "wednesday": "miércoles"
+      "3": "3",
+      "are": "(auxiliar)",
+      "the": "(artículo)",
+      "kids": "niños",
+      "picked": "recogidos",
+      "up": "(partícula)",
+      "from": "de",
+      "school": "escuela",
+      "every": "todos",
+      "day": "días",
+      "at": "a",
+      "pm": "PM",
+      "picking": "recogiendo",
+      "them": "los",
+      "does": "(auxiliar)",
+      "were": "(auxiliar)",
+      "daily": "diariamente"
     },
     "metadata": {
       "tense": "passive voice",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "daily routine"

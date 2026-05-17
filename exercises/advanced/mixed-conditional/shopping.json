@@ -1,160 +1,787 @@
 [
   {
     "hints": [
-      "Sujeto: la cliente",
-      "Verbo: devolver (would have returned)",
-      "Complemento: el vestido defectuoso",
-      "Tiempo: si hubiera sabido del defecto antes"
+      "Sujeto: nosotros",
+      "Verbo: gastar (pasado perfecto en condicional negativo)",
+      "Complemento: tanto dinero en artículos innecesarios",
+      "Tiempo: ayer",
+      "Verbo: tener (condicional)",
+      "Complemento: suficiente presupuesto",
+      "Verbo: comprar (infinitivo)",
+      "Complemento: comestibles",
+      "Tiempo: hoy"
     ],
-    "hintDisplay": "Sujeto: la cliente / Verbo: devolver (would have returned) / Complemento: el vestido defectuoso / Tiempo: si hubiera sabido del defecto antes",
-    "spanishSentence": "Si la cliente hubiera sabido del defecto antes, habría devuelto el vestido defectuoso a la tienda.",
-    "correctSentence": "If the customer had known about the defect earlier, she would have returned the defective dress to the store.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: gastar (pasado perfecto en condicional negativo) / Complemento: tanto dinero en artículos innecesarios / Tiempo: ayer / Verbo: tener (condicional) / Complemento: suficiente presupuesto / Verbo: comprar (infinitivo) / Complemento: comestibles / Tiempo: hoy",
+    "spanishSentence": "Si no hubiéramos gastado tanto dinero en artículos innecesarios ayer, tendríamos suficiente presupuesto para comprar comestibles hoy.",
+    "correctSentence": "If we hadn't spent so much money on unnecessary items yesterday, we would have enough budget to buy groceries today.",
     "cards": [
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
       },
       {
         "id": "c5",
-        "text": "known",
-        "isDistractor": false
+        "text": "so",
+        "isDistractor": false,
+        "translation": "tan"
       },
       {
-        "id": "c6",
-        "text": "about",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "defect",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "earlier",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "returned",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "defective",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "dress",
-        "isDistractor": false
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
       },
       {
         "id": "c17",
         "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c18",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c19",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "knows",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
         "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c19",
+        "text": "groceries",
+        "isDistractor": false,
+        "translation": "comestibles"
+      },
+      {
+        "id": "c18",
+        "text": "buy",
+        "isDistractor": false,
+        "translation": "comprar"
+      },
+      {
+        "id": "c6",
+        "text": "much",
+        "isDistractor": false,
+        "translation": "mucho"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c13",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c12",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c4",
+        "text": "spent",
+        "isDistractor": false,
+        "translation": "gastado"
+      },
+      {
+        "id": "c7",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "d4",
+        "text": "having",
+        "isDistractor": true,
+        "translation": "teniendo"
+      },
+      {
+        "id": "c20",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c15",
+        "text": "enough",
+        "isDistractor": false,
+        "translation": "suficiente"
+      },
+      {
+        "id": "c16",
+        "text": "budget",
+        "isDistractor": false,
+        "translation": "presupuesto"
+      },
+      {
+        "id": "c9",
+        "text": "unnecessary",
+        "isDistractor": false,
+        "translation": "innecesarios"
+      },
+      {
+        "id": "d1",
+        "text": "spend",
+        "isDistractor": true,
+        "translation": "gastar"
+      },
+      {
+        "id": "c14",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "tener"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c3",
+        "text": "hadn't",
+        "isDistractor": false,
+        "translation": "no habíamos"
+      },
+      {
+        "id": "c10",
+        "text": "items",
+        "isDistractor": false,
+        "translation": "artículos"
+      },
+      {
+        "id": "c11",
+        "text": "yesterday",
+        "isDistractor": false,
+        "translation": "ayer"
+      },
+      {
+        "id": "c8",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "we": "nosotros",
+      "hadn't": "no habíamos",
+      "spent": "gastado",
+      "so": "tan",
+      "much": "mucho",
+      "money": "dinero",
+      "on": "en",
+      "unnecessary": "innecesarios",
+      "items": "artículos",
+      "yesterday": "ayer",
+      "would": "(condicional)",
+      "have": "tener",
+      "enough": "suficiente",
+      "budget": "presupuesto",
+      "to": "(marca de infinitivo)",
+      "buy": "comprar",
+      "groceries": "comestibles",
+      "today": "hoy",
+      "spend": "gastar",
+      "has": "ha",
+      "will": "(futuro)",
+      "having": "teniendo"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: Haber (condicional perfecto - acción pasada hipotética)",
+      "Verbo: Verificar (pasado participio)",
+      "Complemento: El precio",
+      "Tiempo: Antes",
+      "Verbo: Elegir (condicional simple - acción futura hipotética)",
+      "Complemento: Artículos de mejor calidad",
+      "Tiempo: Cuando vaya de compras hoy"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: Haber (condicional perfecto - acción pasada hipotética) / Verbo: Verificar (pasado participio) / Complemento: El precio / Tiempo: Antes / Verbo: Elegir (condicional simple - acción futura hipotética) / Complemento: Artículos de mejor calidad / Tiempo: Cuando vaya de compras hoy",
+    "spanishSentence": "Si hubiera verificado el precio antes, elegiría artículos de mejor calidad cuando vaya de compras hoy.",
+    "correctSentence": "If I had checked the price before, I would pick better quality items when I go shopping today.",
+    "cards": [
+      {
+        "id": "c18",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d1",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c4",
+        "text": "checked",
+        "isDistractor": false,
+        "translation": "verificado"
+      },
+      {
+        "id": "c9",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c17",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "compras"
+      },
+      {
+        "id": "c7",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes"
+      },
+      {
+        "id": "c14",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c12",
+        "text": "quality",
+        "isDistractor": false,
+        "translation": "calidad"
+      },
+      {
+        "id": "c8",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d4",
+        "text": "checking",
+        "isDistractor": true,
+        "translation": "verificando"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c10",
+        "text": "pick",
+        "isDistractor": false,
+        "translation": "elegiría"
+      },
+      {
+        "id": "c15",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c13",
+        "text": "items",
+        "isDistractor": false,
+        "translation": "artículos"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c6",
+        "text": "price",
+        "isDistractor": false,
+        "translation": "precio"
+      },
+      {
+        "id": "d5",
+        "text": "me",
+        "isDistractor": true,
+        "translation": "me"
+      },
+      {
+        "id": "d2",
+        "text": "picked",
+        "isDistractor": true,
+        "translation": "elegido"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "hubiera"
+      },
+      {
+        "id": "c16",
+        "text": "go",
+        "isDistractor": false,
+        "translation": "vaya"
+      },
+      {
+        "id": "c11",
+        "text": "better",
+        "isDistractor": false,
+        "translation": "mejor"
+      },
+      {
+        "id": "d6",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "i": "yo",
+      "had": "hubiera",
+      "checked": "verificado",
+      "the": "(artículo)",
+      "price": "precio",
+      "before": "antes",
+      "would": "(condicional)",
+      "pick": "elegiría",
+      "better": "mejor",
+      "quality": "calidad",
+      "items": "artículos",
+      "when": "cuando",
+      "go": "vaya",
+      "shopping": "compras",
+      "today": "hoy",
+      "have": "haber",
+      "picked": "elegido",
+      "will": "(futuro)",
+      "checking": "verificando",
+      "me": "me",
+      "could": "podría"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el gerente de la tienda",
+      "Verbo: manejar (condicional perfecto, pasado hipotético)",
+      "Complemento: el inventario",
+      "Complemento: mejor",
+      "Tiempo: el mes pasado",
+      "Verbo: estar (condicional, negación de resultado)",
+      "Complemento: sin existencias",
+      "Tiempo: hoy"
+    ],
+    "hintDisplay": "Sujeto: el gerente de la tienda / Verbo: manejar (condicional perfecto, pasado hipotético) / Complemento: el inventario / Complemento: mejor / Tiempo: el mes pasado / Verbo: estar (condicional, negación de resultado) / Complemento: sin existencias / Tiempo: hoy",
+    "spanishSentence": "Si el gerente de la tienda hubiera manejado mejor el inventario el mes pasado, no estaríamos sin existencias hoy.",
+    "correctSentence": "If the store manager had managed the inventory better last month, we wouldn't be running out of stock today.",
+    "cards": [
+      {
+        "id": "c14",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
+      },
+      {
+        "id": "c6",
+        "text": "managed",
+        "isDistractor": false,
+        "translation": "manejado"
+      },
+      {
+        "id": "c17",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "d5",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c13",
+        "text": "wouldn't",
+        "isDistractor": false,
+        "translation": "no estaríamos"
+      },
+      {
+        "id": "d2",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "stocked",
+        "isDistractor": true,
+        "translation": "surtido"
+      },
+      {
+        "id": "d6",
+        "text": "herself",
+        "isDistractor": true,
+        "translation": "ella misma"
+      },
+      {
+        "id": "c11",
+        "text": "month",
+        "isDistractor": false,
+        "translation": "mes"
+      },
+      {
+        "id": "c8",
+        "text": "inventory",
+        "isDistractor": false,
+        "translation": "inventario"
+      },
+      {
+        "id": "c5",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(pretérito pluscuamperfecto)"
+      },
+      {
+        "id": "c10",
+        "text": "last",
+        "isDistractor": false,
+        "translation": "pasado"
+      },
+      {
+        "id": "c4",
+        "text": "manager",
+        "isDistractor": false,
+        "translation": "gerente"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "been",
+        "isDistractor": true,
+        "translation": "estado"
+      },
+      {
+        "id": "c9",
+        "text": "better",
+        "isDistractor": false,
+        "translation": "mejor"
+      },
+      {
+        "id": "c18",
+        "text": "stock",
+        "isDistractor": false,
+        "translation": "existencias"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c16",
+        "text": "out",
+        "isDistractor": false,
+        "translation": "sin"
+      },
+      {
+        "id": "c3",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c12",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d1",
+        "text": "manages",
+        "isDistractor": true,
+        "translation": "maneja"
+      },
+      {
+        "id": "c19",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c15",
+        "text": "running",
+        "isDistractor": false,
+        "translation": "quedarnos"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "(artículo)",
+      "store": "tienda",
+      "manager": "gerente",
+      "had": "(pretérito pluscuamperfecto)",
+      "managed": "manejado",
+      "inventory": "inventario",
+      "better": "mejor",
+      "last": "pasado",
+      "month": "mes",
+      "we": "nosotros",
+      "wouldn't": "no estaríamos",
+      "be": "estar",
+      "running": "quedarnos",
+      "out": "sin",
+      "of": "de",
+      "stock": "existencias",
+      "today": "hoy",
+      "manages": "maneja",
+      "have": "haber",
+      "been": "estado",
+      "stocked": "surtido",
+      "will": "(futuro)",
+      "herself": "ella misma"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú",
+      "Verbo: llegar (condicional pasado - segundo condicional)",
+      "Complemento: antes",
+      "Sujeto: yo",
+      "Verbo: estar (condicional simple)",
+      "Verbo: envolver (gerundio)",
+      "Complemento: tu compra",
+      "Tiempo: ahora mismo",
+      "Verbo: apurarse (infinitivo)",
+      "Complemento: en lugar de"
+    ],
+    "hintDisplay": "Sujeto: tú / Verbo: llegar (condicional pasado - segundo condicional) / Complemento: antes / Sujeto: yo / Verbo: estar (condicional simple) / Verbo: envolver (gerundio) / Complemento: tu compra / Tiempo: ahora mismo / Verbo: apurarse (infinitivo) / Complemento: en lugar de",
+    "spanishSentence": "Si hubieras llegado antes, estaría envolviendo tu compra ahora mismo en lugar de apurarme.",
+    "correctSentence": "If you had arrived earlier, I would be wrapping your purchase right now instead of rushing.",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "purchase",
+        "isDistractor": false,
+        "translation": "compra"
+      },
+      {
+        "id": "c4",
+        "text": "arrived",
+        "isDistractor": false,
+        "translation": "llegado"
+      },
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(presente perfecto)"
+      },
+      {
+        "id": "c12",
+        "text": "right",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c10",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c16",
+        "text": "rushing",
+        "isDistractor": false,
+        "translation": "apurarme"
+      },
+      {
+        "id": "d2",
+        "text": "been",
+        "isDistractor": true,
+        "translation": "estado"
+      },
+      {
+        "id": "c6",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(pretérito pluscuamperfecto)"
+      },
+      {
+        "id": "c13",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "mismo"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c9",
+        "text": "wrapping",
+        "isDistractor": false,
+        "translation": "envolviendo"
+      },
+      {
+        "id": "c8",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
+      },
+      {
+        "id": "d5",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c14",
+        "text": "instead",
+        "isDistractor": false,
+        "translation": "en lugar de"
+      },
+      {
+        "id": "c15",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c7",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d1",
         "text": "have",
         "isDistractor": true,
         "translation": "haber"
       },
       {
         "id": "d4",
-        "text": "returned",
+        "text": "were",
         "isDistractor": true,
-        "translation": "devuelto"
+        "translation": "(pretérito)"
       },
       {
-        "id": "d5",
-        "text": "he",
-        "isDistractor": true
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
       },
       {
         "id": "d6",
-        "text": "later",
-        "isDistractor": true
+        "text": "should",
+        "isDistractor": true,
+        "translation": "debería"
+      },
+      {
+        "id": "c5",
+        "text": "earlier",
+        "isDistractor": false,
+        "translation": "antes"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "el/la/los/las",
-      "customer": "cliente",
-      "had": "había/hubiera",
-      "known": "sabido",
-      "about": "sobre/acerca de",
-      "defect": "defecto",
-      "earlier": "antes/anteriormente",
-      "she": "ella",
-      "would": "habría",
+      "you": "tú",
+      "had": "(pretérito pluscuamperfecto)",
+      "arrived": "llegado",
+      "earlier": "antes",
+      "i": "yo",
+      "would": "(condicional)",
+      "be": "estar",
+      "wrapping": "envolviendo",
+      "your": "tu",
+      "purchase": "compra",
+      "right": "ahora",
+      "now": "mismo",
+      "instead": "en lugar de",
+      "of": "de",
+      "rushing": "apurarme",
       "have": "haber",
-      "returned": "devuelto",
-      "defective": "defectuoso",
-      "dress": "vestido",
-      "to": "a",
-      "store": "tienda"
+      "been": "estado",
+      "has": "(presente perfecto)",
+      "were": "(pretérito)",
+      "him": "lo",
+      "should": "debería"
     },
     "metadata": {
       "tense": "mixed conditional",
@@ -166,146 +793,366 @@
   },
   {
     "hints": [
-      "Sujeto: yo",
-      "Verbo: comprar (pasado perfecto → presente)",
-      "Complemento: ese abrigo de diseñador el año pasado"
+      "Sujeto: ellos",
+      "Verbo: haber (condicional perfecto - acción pasada en condición)",
+      "Verbo: comparar",
+      "Complemento: los precios",
+      "Tiempo: antes de comprar",
+      "Verbo: estar (condicional - consecuencia)",
+      "Complemento: decepcionados",
+      "Complemento: con sus compras",
+      "Tiempo: ahora"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: comprar (pasado perfecto → presente) / Complemento: ese abrigo de diseñador el año pasado",
-    "spanishSentence": "Si no hubiera comprado ese abrigo de diseñador el año pasado, tendría más dinero ahora.",
-    "correctSentence": "If I had not bought that designer coat last year, I would have more money now.",
+    "hintDisplay": "Sujeto: ellos / Verbo: haber (condicional perfecto - acción pasada en condición) / Verbo: comparar / Complemento: los precios / Tiempo: antes de comprar / Verbo: estar (condicional - consecuencia) / Complemento: decepcionados / Complemento: con sus compras / Tiempo: ahora",
+    "spanishSentence": "Si hubieran comparado los precios antes de comprar, no estarían decepcionados con sus compras ahora.",
+    "correctSentence": "If they had compared the prices before shopping, they wouldn't be disappointed with their purchases now.",
     "cards": [
+      {
+        "id": "c10",
+        "text": "wouldn't",
+        "isDistractor": false,
+        "translation": "no (condicional)"
+      },
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
       },
       {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "designer",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "coat",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "last",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "year",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "I",
-        "isDistractor": false
+        "id": "d3",
+        "text": "being",
+        "isDistractor": true,
+        "translation": "siendo"
       },
       {
         "id": "c12",
-        "text": "would",
-        "isDistractor": false
+        "text": "disappointed",
+        "isDistractor": false,
+        "translation": "decepcionados"
       },
       {
-        "id": "c13",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "money",
-        "isDistractor": false
+        "id": "c8",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "comprar"
       },
       {
         "id": "c16",
         "text": "now",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(pluscuamperfecto)"
+      },
+      {
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c13",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d6",
+        "text": "disappointing",
+        "isDistractor": true,
+        "translation": "decepcionante"
+      },
+      {
+        "id": "c6",
+        "text": "prices",
+        "isDistractor": false,
+        "translation": "precios"
+      },
+      {
+        "id": "c4",
+        "text": "compared",
+        "isDistractor": false,
+        "translation": "comparado"
+      },
+      {
+        "id": "d5",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c11",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c15",
+        "text": "purchases",
+        "isDistractor": false,
+        "translation": "compras"
+      },
+      {
+        "id": "c14",
+        "text": "their",
+        "isDistractor": false,
+        "translation": "sus"
+      },
+      {
+        "id": "c9",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c7",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
       },
       {
         "id": "d1",
-        "text": "would",
+        "text": "compare",
         "isDistractor": true,
-        "translation": "tendría"
+        "translation": "comparar"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "they": "ellos",
+      "had": "(pluscuamperfecto)",
+      "compared": "comparado",
+      "the": "(artículo)",
+      "prices": "precios",
+      "before": "antes de",
+      "shopping": "comprar",
+      "wouldn't": "no (condicional)",
+      "be": "estar",
+      "disappointed": "decepcionados",
+      "with": "con",
+      "their": "sus",
+      "purchases": "compras",
+      "now": "ahora",
+      "compare": "comparar",
+      "would": "(condicional)",
+      "being": "siendo",
+      "him": "lo",
+      "have": "haber",
+      "disappointing": "decepcionante"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú",
+      "Verbo: traer (condicional perfecto)",
+      "Complemento: tu cupón",
+      "Tiempo: hoy",
+      "Verbo: estar (condicional simple)",
+      "Verbo: cobrar (gerundio)",
+      "Complemento: el precio completo",
+      "Complemento: por este artículo"
+    ],
+    "hintDisplay": "Sujeto: tú / Verbo: traer (condicional perfecto) / Complemento: tu cupón / Tiempo: hoy / Verbo: estar (condicional simple) / Verbo: cobrar (gerundio) / Complemento: el precio completo / Complemento: por este artículo",
+    "spanishSentence": "Si hubieras traído tu cupón hoy, no te estaría cobrando el precio completo por este artículo.",
+    "correctSentence": "If you had brought your coupon today, I wouldn't be charging you the full price for this item.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "wouldn't",
+        "isDistractor": false,
+        "translation": "(condicional negativo)"
+      },
+      {
+        "id": "c5",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c18",
+        "text": "item",
+        "isDistractor": false,
+        "translation": "artículo"
+      },
+      {
+        "id": "c17",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c15",
+        "text": "price",
+        "isDistractor": false,
+        "translation": "precio"
+      },
+      {
+        "id": "c10",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
+      },
+      {
+        "id": "c7",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c12",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c14",
+        "text": "full",
+        "isDistractor": false,
+        "translation": "completo"
+      },
+      {
+        "id": "c11",
+        "text": "charging",
+        "isDistractor": false,
+        "translation": "cobrando"
       },
       {
         "id": "d2",
         "text": "have",
         "isDistractor": true,
-        "translation": "tener"
+        "translation": "haber"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
       },
       {
         "id": "d3",
-        "text": "bought",
+        "text": "would",
         "isDistractor": true,
-        "translation": "comprado"
+        "translation": "(condicional)"
       },
       {
         "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "fueras"
+      },
+      {
+        "id": "c3",
         "text": "had",
-        "isDistractor": true,
-        "translation": "hubiera/hubiese"
+        "isDistractor": false,
+        "translation": "(pluscuamperfecto)"
       },
       {
-        "id": "d5",
-        "text": "bought",
-        "isDistractor": true,
-        "translation": "comprado"
+        "id": "c6",
+        "text": "coupon",
+        "isDistractor": false,
+        "translation": "cupón"
       },
       {
-        "id": "d6",
-        "text": "jacket",
-        "isDistractor": true
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d1",
+        "text": "bring",
+        "isDistractor": true,
+        "translation": "traer"
+      },
+      {
+        "id": "c4",
+        "text": "brought",
+        "isDistractor": false,
+        "translation": "traído"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c8",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c16",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
       }
     ],
     "translations": {
       "if": "si",
+      "you": "tú",
+      "had": "(pluscuamperfecto)",
+      "brought": "traído",
+      "your": "tu",
+      "coupon": "cupón",
+      "today": "hoy",
       "i": "yo",
-      "had": "hubiera/hubiese",
-      "not": "no",
-      "bought": "comprado",
-      "that": "ese/esa",
-      "designer": "de diseñador",
-      "coat": "abrigo",
-      "last": "pasado/último",
-      "year": "año",
-      "would": "tendría",
-      "have": "tener",
-      "more": "más",
-      "money": "dinero",
-      "now": "ahora"
+      "wouldn't": "(condicional negativo)",
+      "be": "estar",
+      "charging": "cobrando",
+      "the": "(artículo definido)",
+      "full": "completo",
+      "price": "precio",
+      "for": "por",
+      "this": "este",
+      "item": "artículo",
+      "bring": "traer",
+      "have": "haber",
+      "would": "(condicional)",
+      "were": "fueras"
     },
     "metadata": {
       "tense": "mixed conditional",
@@ -317,126 +1164,210 @@
   },
   {
     "hints": [
-      "Sujeto: mi amigo",
-      "Verbo: gastar (would have spent)",
-      "Complemento: todo su dinero en ropa",
-      "Tiempo: ahora (present result from past condition)"
+      "Sujeto: mi amiga",
+      "Verbo: recopilar (condicional perfecto en cláusula condicional)",
+      "Complemento: todos los cupones",
+      "Tiempo: la semana pasada",
+      "Verbo: estar (condicional simple)",
+      "Verbo: ahorrar (gerundio)",
+      "Complemento: más dinero",
+      "Complemento: en su compra",
+      "Tiempo: hoy"
     ],
-    "hintDisplay": "Sujeto: mi amigo / Verbo: gastar (would have spent) / Complemento: todo su dinero en ropa / Tiempo: ahora (present result from past condition)",
-    "spanishSentence": "Si mi amigo no hubiera ido de compras ayer, tendría más dinero ahora.",
-    "correctSentence": "If my friend had not gone shopping yesterday, he would have more money now.",
+    "hintDisplay": "Sujeto: mi amiga / Verbo: recopilar (condicional perfecto en cláusula condicional) / Complemento: todos los cupones / Tiempo: la semana pasada / Verbo: estar (condicional simple) / Verbo: ahorrar (gerundio) / Complemento: más dinero / Complemento: en su compra / Tiempo: hoy",
+    "spanishSentence": "Si mi amiga hubiera recopilado todos los cupones la semana pasada, estaría ahorrando más dinero en su compra hoy.",
+    "correctSentence": "If my friend had collected all the coupons last week, she would be saving more money on her shopping today.",
     "cards": [
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
+        "id": "c8",
+        "text": "coupons",
+        "isDistractor": false,
+        "translation": "cupones"
       },
       {
-        "id": "c2",
-        "text": "my",
-        "isDistractor": false
+        "id": "c6",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todos"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c5",
+        "text": "collected",
+        "isDistractor": false,
+        "translation": "recopilado"
+      },
+      {
+        "id": "c19",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "compra"
+      },
+      {
+        "id": "d4",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "d5",
+        "text": "collect",
+        "isDistractor": true,
+        "translation": "recopilar"
+      },
+      {
+        "id": "c9",
+        "text": "last",
+        "isDistractor": false,
+        "translation": "pasada"
+      },
+      {
+        "id": "c16",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "c11",
+        "text": "she",
+        "isDistractor": false,
+        "translation": "ella"
+      },
+      {
+        "id": "c15",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "d1",
+        "text": "collects",
+        "isDistractor": true,
+        "translation": "recopila"
+      },
+      {
+        "id": "c18",
+        "text": "her",
+        "isDistractor": false,
+        "translation": "su"
+      },
+      {
+        "id": "c13",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
+      },
+      {
+        "id": "c14",
+        "text": "saving",
+        "isDistractor": false,
+        "translation": "ahorrando"
+      },
+      {
+        "id": "c10",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "d2",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "d3",
+        "text": "been",
+        "isDistractor": true,
+        "translation": "estado"
+      },
+      {
+        "id": "d6",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c17",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
       },
       {
         "id": "c3",
         "text": "friend",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "amiga"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c12",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c2",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
       },
       {
         "id": "c4",
         "text": "had",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(condicional perfecto)"
       },
       {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "gone",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "shopping",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "spend",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "went",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "less",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "later",
-        "isDistractor": true
+        "id": "c20",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
       }
     ],
     "translations": {
       "if": "si",
       "my": "mi",
-      "friend": "amigo",
-      "had": "hubiera",
-      "not": "no",
-      "gone": "ido",
-      "shopping": "de compras",
-      "yesterday": "ayer",
-      "he": "él",
-      "would": "tendría",
-      "have": "tener",
+      "friend": "amiga",
+      "had": "(condicional perfecto)",
+      "collected": "recopilado",
+      "all": "todos",
+      "the": "(artículo)",
+      "coupons": "cupones",
+      "last": "pasada",
+      "week": "semana",
+      "she": "ella",
+      "would": "(condicional)",
+      "be": "estar",
+      "saving": "ahorrando",
       "more": "más",
       "money": "dinero",
-      "now": "ahora"
+      "on": "en",
+      "her": "su",
+      "shopping": "compra",
+      "today": "hoy",
+      "collects": "recopila",
+      "have": "haber",
+      "been": "estado",
+      "him": "lo",
+      "collect": "recopilar",
+      "will": "(futuro)"
     },
     "metadata": {
       "tense": "mixed conditional",
@@ -448,141 +1379,215 @@
   },
   {
     "hints": [
+      "Tiempo: ayer (pasado)",
       "Sujeto: yo",
-      "Verbo: elegir (pasado perfecto en la condición, presente como resultado)",
-      "Complemento: ropa más cara en la tienda"
+      "Verbo: estar (condicional perfecto negativo)",
+      "Complemento: tan cansado",
+      "Verbo: buscar (condicional presente negativo)",
+      "Complemento: una bebida energética nueva",
+      "Complemento: en la tienda",
+      "Tiempo: ahora mismo (presente)"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: elegir (pasado perfecto en la condición, presente como resultado) / Complemento: ropa más cara en la tienda",
-    "spanishSentence": "Si no hubiera elegido ropa más cara en la tienda, tendría más dinero ahora.",
-    "correctSentence": "If I had not picked more expensive clothing at the store, I would have more money now.",
+    "hintDisplay": "Tiempo: ayer (pasado) / Sujeto: yo / Verbo: estar (condicional perfecto negativo) / Complemento: tan cansado / Verbo: buscar (condicional presente negativo) / Complemento: una bebida energética nueva / Complemento: en la tienda / Tiempo: ahora mismo (presente)",
+    "spanishSentence": "Si no hubiera estado tan cansado ayer, no estaría buscando una bebida energética nueva en la tienda ahora mismo.",
+    "correctSentence": "If I hadn't been so tired yesterday, I wouldn't be looking for a new energy drink at the store right now.",
     "cards": [
+      {
+        "id": "c21",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "mismo"
+      },
+      {
+        "id": "c15",
+        "text": "energy",
+        "isDistractor": false,
+        "translation": "energética"
+      },
+      {
+        "id": "c20",
+        "text": "right",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c16",
+        "text": "drink",
+        "isDistractor": false,
+        "translation": "bebida"
+      },
+      {
+        "id": "d2",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "(presente de ser/estar)"
+      },
+      {
+        "id": "d1",
+        "text": "wasn't",
+        "isDistractor": true,
+        "translation": "no era"
+      },
+      {
+        "id": "d5",
+        "text": "looked",
+        "isDistractor": true,
+        "translation": "mirado"
+      },
+      {
+        "id": "c17",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c12",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "c19",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c9",
+        "text": "wouldn't",
+        "isDistractor": false,
+        "translation": "no estaría"
+      },
+      {
+        "id": "c10",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
+      },
+      {
+        "id": "c4",
+        "text": "been",
+        "isDistractor": false,
+        "translation": "estado"
+      },
+      {
+        "id": "c8",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c6",
+        "text": "tired",
+        "isDistractor": false,
+        "translation": "cansado"
+      },
+      {
+        "id": "c11",
+        "text": "looking",
+        "isDistractor": false,
+        "translation": "buscando"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d4",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c18",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo determinado)"
+      },
+      {
+        "id": "c3",
+        "text": "hadn't",
+        "isDistractor": false,
+        "translation": "no había"
+      },
+      {
+        "id": "c5",
+        "text": "so",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "c7",
+        "text": "yesterday",
+        "isDistractor": false,
+        "translation": "ayer"
+      },
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d6",
+        "text": "seeking",
+        "isDistractor": true,
+        "translation": "buscando"
       },
       {
         "id": "c2",
         "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "picked",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "clothing",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "would",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "yo"
       },
       {
         "id": "c14",
-        "text": "have",
-        "isDistractor": false
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
       },
       {
-        "id": "c15",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "bought",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "selected",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "cheaper",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "had",
-        "isDistractor": true
+        "id": "c13",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indeterminado)"
       }
     ],
     "translations": {
       "if": "si",
       "i": "yo",
-      "had": "hubiera",
-      "not": "no",
-      "picked": "elegido",
-      "more": "más",
-      "expensive": "cara",
-      "clothing": "ropa",
+      "hadn't": "no había",
+      "been": "estado",
+      "so": "tan",
+      "tired": "cansado",
+      "yesterday": "ayer",
+      "wouldn't": "no estaría",
+      "be": "estar",
+      "looking": "buscando",
+      "for": "por",
+      "a": "(artículo indeterminado)",
+      "new": "nueva",
+      "energy": "energética",
+      "drink": "bebida",
       "at": "en",
-      "the": "la",
+      "the": "(artículo determinado)",
       "store": "tienda",
-      "would": "tendría",
-      "have": "tener",
-      "money": "dinero",
-      "now": "ahora"
+      "right": "ahora",
+      "now": "mismo",
+      "wasn't": "no era",
+      "am": "(presente de ser/estar)",
+      "will": "(futuro)",
+      "have": "haber",
+      "looked": "mirado",
+      "seeking": "buscando"
     },
     "metadata": {
       "tense": "mixed conditional",
@@ -594,1038 +1599,180 @@
   },
   {
     "hints": [
-      "Sujeto: Anna",
-      "Verbo: comprar (condición pasada → resultado presente)",
-      "Complemento: esos zapatos caros en la tienda de descuentos"
+      "Sujeto: mi amiga",
+      "Verbo: ordenar (pasado perfecto negativo en condicional)",
+      "Complemento: ese artículo caro en línea",
+      "Tiempo: ayer",
+      "Verbo: estar (condicional negativo)",
+      "Complemento: teniendo dificultades con su presupuesto",
+      "Tiempo: ahora"
     ],
-    "hintDisplay": "Sujeto: Anna / Verbo: comprar (condición pasada → resultado presente) / Complemento: esos zapatos caros en la tienda de descuentos",
-    "spanishSentence": "Si Anna no hubiera comprado esos zapatos caros, tendría más dinero ahora.",
-    "correctSentence": "If Anna had not bought those expensive shoes, she would have more money now.",
+    "hintDisplay": "Sujeto: mi amiga / Verbo: ordenar (pasado perfecto negativo en condicional) / Complemento: ese artículo caro en línea / Tiempo: ayer / Verbo: estar (condicional negativo) / Complemento: teniendo dificultades con su presupuesto / Tiempo: ahora",
+    "spanishSentence": "Si mi amiga no hubiera ordenado ese artículo caro en línea ayer, no estaría teniendo dificultades con su presupuesto ahora.",
+    "correctSentence": "If my friend hadn't ordered that expensive item online yesterday, she wouldn't be struggling with her budget now.",
     "cards": [
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c12",
+        "text": "wouldn't",
+        "isDistractor": false,
+        "translation": "(condicional negativo)"
+      },
       {
         "id": "c1",
         "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "Anna",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "those",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "si"
       },
       {
         "id": "c7",
         "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "shoes",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "caro"
       },
       {
         "id": "c9",
-        "text": "she",
-        "isDistractor": false
+        "text": "online",
+        "isDistractor": false,
+        "translation": "en línea"
       },
       {
-        "id": "c10",
-        "text": "would",
-        "isDistractor": false
+        "id": "c17",
+        "text": "budget",
+        "isDistractor": false,
+        "translation": "presupuesto"
       },
       {
         "id": "c11",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "tendría"
-      },
-      {
-        "id": "d2",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "tener"
-      },
-      {
-        "id": "d3",
-        "text": "bought",
-        "isDistractor": true,
-        "translation": "comprado"
-      },
-      {
-        "id": "d4",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "había"
-      },
-      {
-        "id": "d5",
-        "text": "bought",
-        "isDistractor": true,
-        "translation": "comprado"
-      },
-      {
-        "id": "d6",
-        "text": "those",
-        "isDistractor": true,
-        "translation": "esos"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "anna": "Anna",
-      "had": "había",
-      "not": "no",
-      "bought": "comprado",
-      "those": "esos",
-      "expensive": "caros",
-      "shoes": "zapatos",
-      "she": "ella",
-      "would": "tendría",
-      "have": "tener",
-      "more": "más",
-      "money": "dinero",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Marcus",
-      "Verbo: comparar (mezcla condicional: pasado + presente)",
-      "Complemento: precios en diferentes tiendas",
-      "Tiempo: ahora (resultado presente)"
-    ],
-    "hintDisplay": "Sujeto: Marcus / Verbo: comparar (mezcla condicional: pasado + presente) / Complemento: precios en diferentes tiendas / Tiempo: ahora (resultado presente)",
-    "spanishSentence": "Si Marcus no hubiera gastado tanto dinero el mes pasado, estaría comparando precios más cuidadosamente ahora.",
-    "correctSentence": "If Marcus had not spent so much money last month, he would be comparing prices more carefully now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "Marcus",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
+        "text": "she",
+        "isDistractor": false,
+        "translation": "ella"
       },
       {
         "id": "c5",
-        "text": "spent",
-        "isDistractor": false
+        "text": "ordered",
+        "isDistractor": false,
+        "translation": "ordenado"
       },
       {
-        "id": "c6",
-        "text": "so",
-        "isDistractor": false
+        "id": "c4",
+        "text": "hadn't",
+        "isDistractor": false,
+        "translation": "(condicional perfecto)"
       },
       {
-        "id": "c7",
-        "text": "much",
-        "isDistractor": false
+        "id": "c14",
+        "text": "struggling",
+        "isDistractor": false,
+        "translation": "teniendo dificultades"
+      },
+      {
+        "id": "c3",
+        "text": "friend",
+        "isDistractor": false,
+        "translation": "amiga"
+      },
+      {
+        "id": "c15",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d2",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c16",
+        "text": "her",
+        "isDistractor": false,
+        "translation": "su"
+      },
+      {
+        "id": "c2",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "c8",
-        "text": "money",
-        "isDistractor": false
+        "text": "item",
+        "isDistractor": false,
+        "translation": "artículo"
       },
       {
-        "id": "c9",
-        "text": "last",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "month",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "would",
-        "isDistractor": false
+        "id": "d1",
+        "text": "order",
+        "isDistractor": true,
+        "translation": "ordenar"
       },
       {
         "id": "c13",
         "text": "be",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "estar"
       },
       {
-        "id": "c14",
-        "text": "comparing",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "prices",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "carefully",
-        "isDistractor": false
+        "id": "d4",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "c18",
         "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "has",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "spending",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "checking",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "today",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "could",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "marcus": "Marcus",
-      "had": "había",
-      "not": "no",
-      "spent": "gastado",
-      "so": "tanto",
-      "much": "mucho",
-      "money": "dinero",
-      "last": "pasado",
-      "month": "mes",
-      "he": "él",
-      "would": "estaría",
-      "be": "estar",
-      "comparing": "comparando",
-      "prices": "precios",
-      "more": "más",
-      "carefully": "cuidadosamente",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Olga",
-      "Verbo: empacar (en estructura condicional mixta: pasado → presente)",
-      "Complemento: demasiadas cosas en las tiendas",
-      "Tiempo: ahora (resultado presente)"
-    ],
-    "hintDisplay": "Sujeto: Olga / Verbo: empacar (en estructura condicional mixta: pasado → presente) / Complemento: demasiadas cosas en las tiendas / Tiempo: ahora (resultado presente)",
-    "spanishSentence": "Si Olga no hubiera comprado demasiadas cosas en las tiendas, no estaría empacando bolsas ahora.",
-    "correctSentence": "If Olga had not bought so many things at shops, she would not be bagging items now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "Olga",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "bought",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "ahora"
       },
       {
         "id": "c6",
-        "text": "so",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "many",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "things",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "at",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "shops",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "bagging",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "items",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "packing",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "stores",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "in",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "was",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "olga": "Olga",
-      "had": "había",
-      "not": "no",
-      "bought": "comprado",
-      "so": "tan",
-      "many": "muchas",
-      "things": "cosas",
-      "at": "en",
-      "shops": "tiendas",
-      "she": "ella",
-      "would": "estaría",
-      "be": "estar",
-      "bagging": "empacando",
-      "items": "artículos",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la vendedora",
-      "Verbo: asistir (condicional mixto)",
-      "Complemento: al cliente con paciencia"
-    ],
-    "hintDisplay": "Sujeto: la vendedora / Verbo: asistir (condicional mixto) / Complemento: al cliente con paciencia",
-    "spanishSentence": "Si la vendedora hubiera tenido más experiencia, estaría asistiendo al cliente con paciencia ahora.",
-    "correctSentence": "If the salesperson had had more experience, she would be assisting the customer with patience now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "salesperson",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "experience",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "assisting",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "patience",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "were",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "helped",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "less",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "then",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la/lo",
-      "salesperson": "vendedora",
-      "had": "había/habría",
-      "more": "más",
-      "experience": "experiencia",
-      "she": "ella",
-      "would": "estaría",
-      "be": "estar",
-      "assisting": "asistiendo",
-      "customer": "cliente",
-      "with": "con",
-      "patience": "paciencia",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: David",
-      "Verbo: empacar (bolsa)",
-      "Complemento: sus compras en bolsas de plástico reutilizables"
-    ],
-    "hintDisplay": "Sujeto: David / Verbo: empacar (bolsa) / Complemento: sus compras en bolsas de plástico reutilizables",
-    "spanishSentence": "Si David no hubiera olvidado sus bolsas reutilizables, estaría embolsando sus compras ahora.",
-    "correctSentence": "If David had not forgotten his reusable bags, he would be bagging his groceries now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "David",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "forgotten",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "his",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "reusable",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "bags",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "bagging",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "his",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "groceries",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "packing",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "plastic",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "items",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "david": "David",
-      "had": "había",
-      "not": "no",
-      "forgotten": "olvidado",
-      "his": "sus",
-      "reusable": "reutilizables",
-      "bags": "bolsas",
-      "he": "él",
-      "would": "estaría",
-      "be": "estar",
-      "bagging": "embolsando",
-      "groceries": "compras",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la clienta",
-      "Verbo: comparar",
-      "Complemento: los precios en diferentes tiendas",
-      "Tiempo: ahora"
-    ],
-    "hintDisplay": "Sujeto: la clienta / Verbo: comparar / Complemento: los precios en diferentes tiendas / Tiempo: ahora",
-    "spanishSentence": "Si la clienta no hubiera gastado tanto dinero ayer, estaría comparando los precios en diferentes tiendas ahora",
-    "correctSentence": "If the customer had not spent so much money yesterday, she would be comparing prices in different stores now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "spent",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "so",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "much",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "money",
-        "isDistractor": false
+        "text": "that",
+        "isDistractor": false,
+        "translation": "ese"
       },
       {
         "id": "c10",
         "text": "yesterday",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "comparing",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "prices",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "different",
-        "isDistractor": false
-      },
-      {
-        "id": "c18",
-        "text": "stores",
-        "isDistractor": false
-      },
-      {
-        "id": "c19",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "has",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "buying",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "at",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "few",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "tomorrow",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "ayer"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "la",
-      "customer": "clienta",
-      "had": "hubiera",
-      "not": "no",
-      "spent": "gastado",
-      "so": "tanto",
-      "much": "mucho",
-      "money": "dinero",
+      "my": "mi",
+      "friend": "amiga",
+      "hadn't": "(condicional perfecto)",
+      "ordered": "ordenado",
+      "that": "ese",
+      "expensive": "caro",
+      "item": "artículo",
+      "online": "en línea",
       "yesterday": "ayer",
       "she": "ella",
-      "would": "estaría",
+      "wouldn't": "(condicional negativo)",
       "be": "estar",
-      "comparing": "comparando",
-      "prices": "precios",
-      "in": "en",
-      "different": "diferentes",
-      "stores": "tiendas",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la cliente",
-      "Verbo: devolver (condicional mixto: pasado → presente)",
-      "Complemento: el vestido defectuoso",
-      "Tiempo: ahora (resultado presente de una acción pasada)"
-    ],
-    "hintDisplay": "Sujeto: la cliente / Verbo: devolver (condicional mixto: pasado → presente) / Complemento: el vestido defectuoso / Tiempo: ahora (resultado presente de una acción pasada)",
-    "spanishSentence": "Si la cliente no hubiera comprado el vestido defectuoso, no estaría intentando devolverlo ahora",
-    "correctSentence": "If the customer had not bought the faulty dress, she would not be trying to return it now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "faulty",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "dress",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "trying",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "return",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "it",
-        "isDistractor": false
-      },
-      {
-        "id": "c18",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "exchanging",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "damaged",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "were",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "sold",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "la",
-      "customer": "cliente",
-      "had": "hubiera",
-      "not": "no",
-      "bought": "comprado",
-      "faulty": "defectuoso",
-      "dress": "vestido",
-      "she": "ella",
-      "would": "estaría",
-      "be": "estar",
-      "trying": "intentando",
-      "to": "de",
-      "return": "devolver",
-      "it": "lo",
-      "now": "ahora"
+      "struggling": "teniendo dificultades",
+      "with": "con",
+      "her": "su",
+      "budget": "presupuesto",
+      "now": "ahora",
+      "order": "ordenar",
+      "him": "lo",
+      "has": "ha",
+      "will": "(futuro)"
     },
     "metadata": {
       "tense": "mixed conditional",
@@ -1637,120 +1784,401 @@
   },
   {
     "hints": [
-      "Sujeto: Laura",
-      "Verbo: escanear (acción en el presente, resultado de una condición pasada)",
-      "Complemento: códigos de barras en la tienda",
-      "Tiempo: ahora"
+      "Sujeto: tú (you)",
+      "Verbo: informar (conditional perfect - habrías informado)",
+      "Complemento: me sobre la escasez de inventario",
+      "Tiempo: antes (earlier)",
+      "Sujeto: yo (I)",
+      "Verbo: estar (conditional - estaría)",
+      "Verbo: organizar (gerundio - organizando)",
+      "Complemento: los estantes de manera diferente",
+      "Tiempo: hoy (today)"
     ],
-    "hintDisplay": "Sujeto: Laura / Verbo: escanear (acción en el presente, resultado de una condición pasada) / Complemento: códigos de barras en la tienda / Tiempo: ahora",
-    "spanishSentence": "Si Laura hubiera trabajado como cajera, estaría escaneando códigos de barras ahora.",
-    "correctSentence": "If Laura had worked as a cashier, she would be scanning barcodes now.",
+    "hintDisplay": "Sujeto: tú (you) / Verbo: informar (conditional perfect - habrías informado) / Complemento: me sobre la escasez de inventario / Tiempo: antes (earlier) / Sujeto: yo (I) / Verbo: estar (conditional - estaría) / Verbo: organizar (gerundio - organizando) / Complemento: los estantes de manera diferente / Tiempo: hoy (today)",
+    "spanishSentence": "Si me hubieras informado sobre la escasez de inventario antes, yo estaría organizando los estantes de manera diferente hoy.",
+    "correctSentence": "If you had informed me about the inventory shortage earlier, I would arrange the shelves differently today.",
     "cards": [
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
+        "id": "c12",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
       },
       {
-        "id": "c2",
-        "text": "Laura",
-        "isDistractor": false
+        "id": "d5",
+        "text": "notified",
+        "isDistractor": true,
+        "translation": "notificado"
       },
       {
         "id": "c3",
         "text": "had",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(pluscuamperfecto)"
       },
       {
-        "id": "c4",
-        "text": "worked",
-        "isDistractor": false
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
       },
       {
-        "id": "c5",
-        "text": "as",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "a",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "cashier",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "be",
-        "isDistractor": false
+        "id": "c17",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
       },
       {
         "id": "c11",
-        "text": "scanning",
-        "isDistractor": false
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
       },
       {
-        "id": "c12",
-        "text": "barcodes",
-        "isDistractor": false
+        "id": "c5",
+        "text": "me",
+        "isDistractor": false,
+        "translation": "me"
       },
       {
         "id": "c13",
-        "text": "now",
-        "isDistractor": false
+        "text": "arrange",
+        "isDistractor": false,
+        "translation": "organizar"
+      },
+      {
+        "id": "c4",
+        "text": "informed",
+        "isDistractor": false,
+        "translation": "informado"
+      },
+      {
+        "id": "d6",
+        "text": "reorganizing",
+        "isDistractor": true,
+        "translation": "reorganizando"
+      },
+      {
+        "id": "c10",
+        "text": "earlier",
+        "isDistractor": false,
+        "translation": "antes"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d3",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "debería"
+      },
+      {
+        "id": "c8",
+        "text": "inventory",
+        "isDistractor": false,
+        "translation": "inventario"
+      },
+      {
+        "id": "c16",
+        "text": "differently",
+        "isDistractor": false,
+        "translation": "diferentemente"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c6",
+        "text": "about",
+        "isDistractor": false,
+        "translation": "sobre"
+      },
+      {
+        "id": "c9",
+        "text": "shortage",
+        "isDistractor": false,
+        "translation": "escasez"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "d1",
         "text": "have",
-        "isDistractor": true
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "d2",
-        "text": "is",
-        "isDistractor": true
+        "text": "arranged",
+        "isDistractor": true,
+        "translation": "organizado"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d4",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c15",
+        "text": "shelves",
+        "isDistractor": false,
+        "translation": "estantes"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "you": "tú",
+      "had": "(pluscuamperfecto)",
+      "informed": "informado",
+      "me": "me",
+      "about": "sobre",
+      "the": "(artículo)",
+      "inventory": "inventario",
+      "shortage": "escasez",
+      "earlier": "antes",
+      "i": "yo",
+      "would": "(condicional)",
+      "arrange": "organizar",
+      "shelves": "estantes",
+      "differently": "diferentemente",
+      "today": "hoy",
+      "have": "(auxiliar)",
+      "arranged": "organizado",
+      "should": "debería",
+      "them": "los",
+      "notified": "notificado",
+      "reorganizing": "reorganizando"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Tú (segunda persona singular)",
+      "Verbo: Traer (condicional pasado)",
+      "Complemento: Tu tarjeta de fidelización",
+      "Tiempo: Hoy",
+      "Sujeto: Yo (primera persona singular)",
+      "Verbo: Escanear (condicional presente)",
+      "Complemento: La tarjeta",
+      "Verbo: Dar (infinitivo, propósito)",
+      "Complemento: Un descuento en la compra"
+    ],
+    "hintDisplay": "Sujeto: Tú (segunda persona singular) / Verbo: Traer (condicional pasado) / Complemento: Tu tarjeta de fidelización / Tiempo: Hoy / Sujeto: Yo (primera persona singular) / Verbo: Escanear (condicional presente) / Complemento: La tarjeta / Verbo: Dar (infinitivo, propósito) / Complemento: Un descuento en la compra",
+    "spanishSentence": "Si hubieras traído tu tarjeta de fidelización hoy, yo la escanearía ahora para darte un descuento en tu compra.",
+    "correctSentence": "If you had brought your loyalty card today, I would scan it now to give you a discount on your purchase.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "brought",
+        "isDistractor": false,
+        "translation": "traído"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(condicional perfecto)"
+      },
+      {
+        "id": "d1",
+        "text": "bring",
+        "isDistractor": true,
+        "translation": "traer"
+      },
+      {
+        "id": "c14",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c6",
+        "text": "loyalty",
+        "isDistractor": false,
+        "translation": "fidelización"
+      },
+      {
+        "id": "c8",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c16",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c20",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c5",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c17",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo indefinido)"
+      },
+      {
+        "id": "c12",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c7",
+        "text": "card",
+        "isDistractor": false,
+        "translation": "tarjeta"
+      },
+      {
+        "id": "c19",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c18",
+        "text": "discount",
+        "isDistractor": false,
+        "translation": "descuento"
+      },
+      {
+        "id": "c10",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d2",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c13",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "d5",
+        "text": "scanner",
+        "isDistractor": true,
+        "translation": "escáner"
       },
       {
         "id": "d3",
         "text": "scanned",
-        "isDistractor": true
+        "isDistractor": true,
+        "translation": "escaneado"
+      },
+      {
+        "id": "c15",
+        "text": "give",
+        "isDistractor": false,
+        "translation": "dar"
+      },
+      {
+        "id": "c11",
+        "text": "scan",
+        "isDistractor": false,
+        "translation": "escanear"
+      },
+      {
+        "id": "c9",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c21",
+        "text": "purchase",
+        "isDistractor": false,
+        "translation": "compra"
       },
       {
         "id": "d4",
-        "text": "codes",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "then",
-        "isDistractor": true
+        "text": "gives",
+        "isDistractor": true,
+        "translation": "da"
       }
     ],
     "translations": {
       "if": "si",
-      "laura": "Laura",
-      "had": "hubiera",
-      "worked": "trabajado",
-      "as": "como",
-      "a": "una",
-      "cashier": "cajera",
-      "she": "ella",
-      "would": "estaría",
-      "be": "estar",
-      "scanning": "escaneando",
-      "barcodes": "códigos de barras",
-      "now": "ahora"
+      "you": "tú",
+      "had": "(condicional perfecto)",
+      "brought": "traído",
+      "your": "tu",
+      "loyalty": "fidelización",
+      "card": "tarjeta",
+      "today": "hoy",
+      "i": "yo",
+      "would": "(condicional)",
+      "scan": "escanear",
+      "it": "la",
+      "now": "ahora",
+      "to": "(marca de infinitivo)",
+      "give": "dar",
+      "a": "(artículo indefinido)",
+      "discount": "descuento",
+      "on": "en",
+      "purchase": "compra",
+      "bring": "traer",
+      "have": "haber",
+      "scanned": "escaneado",
+      "gives": "da",
+      "scanner": "escáner"
     },
     "metadata": {
       "tense": "mixed conditional",
@@ -1762,740 +2190,372 @@
   },
   {
     "hints": [
-      "Sujeto: mi amigo",
-      "Verbo: ordenar (pedir/hacer un pedido)",
-      "Complemento: ropa cara en línea",
-      "Tiempo: ahora (resultado presente de una acción pasada)"
+      "Sujeto: nosotros (we)",
+      "Verbo: haber (auxiliary - pasado perfecto)",
+      "Verbo: buscar (to look for)",
+      "Complemento: descuentos",
+      "Tiempo: antes de venir a la tienda (before coming to the store)",
+      "Verbo: estar (auxiliary - condicional progresivo)",
+      "Verbo: ahorrar (to save)",
+      "Complemento: más dinero",
+      "Tiempo: ahora (now)"
     ],
-    "hintDisplay": "Sujeto: mi amigo / Verbo: ordenar (pedir/hacer un pedido) / Complemento: ropa cara en línea / Tiempo: ahora (resultado presente de una acción pasada)",
-    "spanishSentence": "Si mi amigo no hubiera ordenado ropa cara en línea, tendría más dinero ahora",
-    "correctSentence": "If my friend had not ordered expensive clothes online, he would have more money now.",
+    "hintDisplay": "Sujeto: nosotros (we) / Verbo: haber (auxiliary - pasado perfecto) / Verbo: buscar (to look for) / Complemento: descuentos / Tiempo: antes de venir a la tienda (before coming to the store) / Verbo: estar (auxiliary - condicional progresivo) / Verbo: ahorrar (to save) / Complemento: más dinero / Tiempo: ahora (now)",
+    "spanishSentence": "Si hubiéramos buscado descuentos antes de venir a la tienda, estaríamos ahorrando más dinero ahora.",
+    "correctSentence": "If we had looked for discounts before coming to the store, we would be saving more money now.",
     "cards": [
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "my",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "friend",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "ordered",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "clothes",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "online",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "he",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
         "id": "c13",
-        "text": "more",
-        "isDistractor": false
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
       },
       {
         "id": "c14",
-        "text": "money",
-        "isDistractor": false
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
       },
       {
         "id": "c15",
-        "text": "now",
-        "isDistractor": false
+        "text": "saving",
+        "isDistractor": false,
+        "translation": "ahorrando"
       },
       {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "tendría"
-      },
-      {
-        "id": "d2",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "tener"
-      },
-      {
-        "id": "d3",
-        "text": "ordered",
-        "isDistractor": true,
-        "translation": "ordenado"
-      },
-      {
-        "id": "d4",
-        "text": "cheaper",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "then",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "less",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "my": "mi",
-      "friend": "amigo",
-      "had": "hubiera/había",
-      "not": "no",
-      "ordered": "ordenado",
-      "expensive": "cara",
-      "clothes": "ropa",
-      "online": "en línea",
-      "he": "él",
-      "would": "tendría",
-      "have": "tener",
-      "more": "más",
-      "money": "dinero",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: ahorrar (resultado en presente con condición pasada)",
-      "Complemento: más dinero ahora en mis gastos de compras"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: ahorrar (resultado en presente con condición pasada) / Complemento: más dinero ahora en mis gastos de compras",
-    "spanishSentence": "Si no hubiera comprado esa chaqueta cara, ahorraría más dinero ahora en mis gastos de compras.",
-    "correctSentence": "If I had not bought that expensive jacket, I would save more money now in my shopping expenses.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "bought",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "expensive",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "jacket",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "would",
-        "isDistractor": false
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "c11",
-        "text": "save",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "more",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "in",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "my",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "shopping",
-        "isDistractor": false
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
       },
       {
         "id": "c18",
-        "text": "expenses",
-        "isDistractor": false
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "d6",
+        "text": "looking",
+        "isDistractor": true,
+        "translation": "buscando"
+      },
+      {
+        "id": "d5",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "c17",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(condicional perfecto)"
+      },
+      {
+        "id": "c4",
+        "text": "looked",
+        "isDistractor": false,
+        "translation": "buscado"
+      },
+      {
+        "id": "d4",
+        "text": "look",
+        "isDistractor": true,
+        "translation": "buscar"
+      },
+      {
+        "id": "d3",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "somos/estamos"
+      },
+      {
+        "id": "d1",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c12",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c7",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c8",
+        "text": "coming",
+        "isDistractor": false,
+        "translation": "venir"
+      },
+      {
+        "id": "d2",
+        "text": "been",
+        "isDistractor": true,
+        "translation": "estado"
+      },
+      {
+        "id": "c6",
+        "text": "discounts",
+        "isDistractor": false,
+        "translation": "descuentos"
+      },
+      {
+        "id": "c5",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "c16",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "we": "nosotros",
+      "had": "(condicional perfecto)",
+      "looked": "buscado",
+      "for": "por",
+      "discounts": "descuentos",
+      "before": "antes de",
+      "coming": "venir",
+      "to": "(marca de infinitivo)",
+      "the": "(artículo definido)",
+      "store": "tienda",
+      "would": "(condicional)",
+      "be": "estar",
+      "saving": "ahorrando",
+      "more": "más",
+      "money": "dinero",
+      "now": "ahora",
+      "have": "haber",
+      "been": "estado",
+      "are": "somos/estamos",
+      "look": "buscar",
+      "were": "(condicional)",
+      "looking": "buscando"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Tiempo: ayer",
+      "Verbo: saber (condicional perfecto - situación hipotética pasada)",
+      "Complemento: sobre el descuento",
+      "Verbo: comprar (condicional - consecuencia hipotética)",
+      "Complemento: tantos artículos caros",
+      "Tiempo: hoy"
+    ],
+    "hintDisplay": "Sujeto: Yo / Tiempo: ayer / Verbo: saber (condicional perfecto - situación hipotética pasada) / Complemento: sobre el descuento / Verbo: comprar (condicional - consecuencia hipotética) / Complemento: tantos artículos caros / Tiempo: hoy",
+    "spanishSentence": "Si hubiera sabido sobre el descuento ayer, no compraría tantos artículos caros hoy.",
+    "correctSentence": "If I had known about the discount yesterday, I wouldn't buy so many expensive items today.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "known",
+        "isDistractor": false,
+        "translation": "sabido"
+      },
+      {
+        "id": "c13",
+        "text": "many",
+        "isDistractor": false,
+        "translation": "muchos"
+      },
+      {
+        "id": "c10",
+        "text": "wouldn't",
+        "isDistractor": false,
+        "translation": "no (condicional)"
       },
       {
         "id": "d1",
         "text": "would",
         "isDistractor": true,
-        "translation": "ahorraría"
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c8",
+        "text": "yesterday",
+        "isDistractor": false,
+        "translation": "ayer"
       },
       {
         "id": "d2",
         "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "saved",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "have",
-        "isDistractor": true
+        "isDistractor": true,
+        "translation": "(auxiliar de perfect)"
       },
       {
         "id": "d5",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d4",
+        "text": "knew",
+        "isDistractor": true,
+        "translation": "sabía"
+      },
+      {
+        "id": "c16",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c12",
+        "text": "so",
+        "isDistractor": false,
+        "translation": "tan"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(auxiliar de perfect)"
+      },
+      {
+        "id": "d3",
         "text": "bought",
         "isDistractor": true,
         "translation": "comprado"
       },
       {
-        "id": "d6",
-        "text": "cheap",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "i": "yo",
-      "had": "hubiera",
-      "not": "no",
-      "bought": "comprado",
-      "that": "esa",
-      "expensive": "cara",
-      "jacket": "chaqueta",
-      "would": "ahorraría",
-      "save": "ahorrar",
-      "more": "más",
-      "money": "dinero",
-      "now": "ahora",
-      "in": "en",
-      "my": "mis",
-      "shopping": "compras",
-      "expenses": "gastos"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: María",
-      "Verbo: probar (try on)",
-      "Complemento: el vestido elegante en la tienda"
-    ],
-    "hintDisplay": "Sujeto: María / Verbo: probar (try on) / Complemento: el vestido elegante en la tienda",
-    "spanishSentence": "Si María hubiera ahorrado más dinero, se probaría el vestido elegante ahora.",
-    "correctSentence": "If Maria had saved more money, she would try on the elegant dress now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "Maria",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "saved",
-        "isDistractor": false
-      },
-      {
         "id": "c5",
-        "text": "more",
-        "isDistractor": false
+        "text": "about",
+        "isDistractor": false,
+        "translation": "sobre"
       },
       {
         "id": "c6",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "try",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "on",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "elegant",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "dress",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "podría/se"
-      },
-      {
-        "id": "d2",
-        "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "spent",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "tried",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "less",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "wore",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "maria": "María",
-      "had": "había/hubiese",
-      "saved": "ahorrado",
-      "more": "más",
-      "money": "dinero",
-      "she": "ella",
-      "would": "podría/se",
-      "try": "probar",
-      "on": "en/se",
-      "the": "el/la",
-      "elegant": "elegante",
-      "dress": "vestido",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: gastar (condicional mixto)",
-      "Complemento: tanto dinero en ropa el fin de semana pasado"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: gastar (condicional mixto) / Complemento: tanto dinero en ropa el fin de semana pasado",
-    "spanishSentence": "Si no hubiera visto ese descuento, no habría gastado tanto dinero en ropa.",
-    "correctSentence": "If I had not seen that discount, I would not have spent so much money on clothes.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "seen",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c7",
         "text": "discount",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "spent",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "so",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "descuento"
       },
       {
         "id": "c14",
-        "text": "much",
-        "isDistractor": false
+        "text": "expensive",
+        "isDistractor": false,
+        "translation": "caros"
       },
       {
-        "id": "c15",
-        "text": "money",
-        "isDistractor": false
+        "id": "c11",
+        "text": "buy",
+        "isDistractor": false,
+        "translation": "comprar"
       },
       {
-        "id": "c16",
-        "text": "on",
-        "isDistractor": false
+        "id": "c9",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
       },
       {
-        "id": "c17",
-        "text": "clothes",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "spend",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "did",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "looked",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "sale",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "i": "yo",
-      "had": "había",
-      "not": "no",
-      "seen": "visto",
-      "that": "ese",
-      "discount": "descuento",
-      "would": "habría",
-      "have": "haber",
-      "spent": "gastado",
-      "so": "tanto",
-      "much": "mucho",
-      "money": "dinero",
-      "on": "en",
-      "clothes": "ropa"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: examinar/mirar (browse)",
-      "Complemento: las tiendas en línea menos",
-      "Tiempo: ahora"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: examinar/mirar (browse) / Complemento: las tiendas en línea menos / Tiempo: ahora",
-    "spanishSentence": "Si no hubiera gastado tanto dinero el mes pasado, no estaría buscando en tiendas en línea ahora.",
-    "correctSentence": "If I had not spent so much money last month, I would not be browsing online stores now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "c2",
         "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "spent",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "so",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "much",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "money",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "last",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "month",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "not",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "be",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "yo"
       },
       {
         "id": "c15",
-        "text": "browsing",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "online",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "stores",
-        "isDistractor": false
-      },
-      {
-        "id": "c18",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "buying",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "could",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "shopping",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "next",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "websites",
-        "isDistractor": true
+        "text": "items",
+        "isDistractor": false,
+        "translation": "artículos"
       }
     ],
     "translations": {
       "if": "si",
       "i": "yo",
-      "had": "hubiera/hubiese",
-      "not": "no",
-      "spent": "gastado",
+      "had": "(auxiliar de perfect)",
+      "known": "sabido",
+      "about": "sobre",
+      "the": "(artículo)",
+      "discount": "descuento",
+      "yesterday": "ayer",
+      "wouldn't": "no (condicional)",
+      "buy": "comprar",
       "so": "tan",
-      "much": "mucho",
-      "money": "dinero",
-      "last": "pasado",
-      "month": "mes",
-      "would": "estaría",
-      "be": "estar",
-      "browsing": "explorando",
-      "online": "en línea",
-      "stores": "tiendas",
-      "now": "ahora"
+      "many": "muchos",
+      "expensive": "caros",
+      "items": "artículos",
+      "today": "hoy",
+      "would": "(condicional)",
+      "have": "(auxiliar de perfect)",
+      "bought": "comprado",
+      "knew": "sabía",
+      "will": "(futuro)"
     },
     "metadata": {
       "tense": "mixed conditional",
@@ -2507,457 +2567,1485 @@
   },
   {
     "hints": [
-      "Sujeto: la vendedora",
-      "Verbo: asistir (condicional mixto: pasado → presente)",
-      "Complemento: a los clientes con paciencia"
+      "Sujeto: ellos",
+      "Verbo: saber (condicional perfecto, acción pasada hipotética)",
+      "Complemento: sobre la venta",
+      "Tiempo: ayer",
+      "Verbo: comprar (condicional simple, acción presente hipotética)",
+      "Complemento: más artículos",
+      "Tiempo: hoy"
     ],
-    "hintDisplay": "Sujeto: la vendedora / Verbo: asistir (condicional mixto: pasado → presente) / Complemento: a los clientes con paciencia",
-    "spanishSentence": "Si la vendedora hubiera recibido mejor capacitación, estaría asistiendo a los clientes con paciencia ahora.",
-    "correctSentence": "If the saleswoman had received better training, she would be assisting the customers with patience now.",
+    "hintDisplay": "Sujeto: ellos / Verbo: saber (condicional perfecto, acción pasada hipotética) / Complemento: sobre la venta / Tiempo: ayer / Verbo: comprar (condicional simple, acción presente hipotética) / Complemento: más artículos / Tiempo: hoy",
+    "spanishSentence": "Si ellos hubieran sabido sobre la venta ayer, comprarían más artículos hoy.",
+    "correctSentence": "If they had known about the sale yesterday, they would buy more items today.",
     "cards": [
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "saleswoman",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false
+        "id": "c11",
+        "text": "buy",
+        "isDistractor": false,
+        "translation": "comprar"
       },
       {
         "id": "c5",
-        "text": "received",
-        "isDistractor": false
+        "text": "about",
+        "isDistractor": false,
+        "translation": "sobre"
       },
       {
-        "id": "c6",
-        "text": "better",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "training",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "would",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "assisting",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false
+        "id": "c4",
+        "text": "known",
+        "isDistractor": false,
+        "translation": "sabido"
       },
       {
         "id": "c13",
-        "text": "customers",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "with",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "patience",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "estaría"
-      },
-      {
-        "id": "d2",
-        "text": "have",
-        "isDistractor": true
-      },
-      {
-        "id": "d3",
-        "text": "receive",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "helping",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "has",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "impatience",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "la",
-      "saleswoman": "vendedora",
-      "had": "hubiera",
-      "received": "recibido",
-      "better": "mejor",
-      "training": "capacitación",
-      "she": "ella",
-      "would": "estaría",
-      "be": "estar",
-      "assisting": "asistiendo",
-      "customers": "clientes",
-      "with": "con",
-      "patience": "paciencia",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: la clienta",
-      "Verbo: devolver (mixed conditional: pasado → presente)",
-      "Complemento: el vestido defectuoso a la tienda",
-      "Tiempo: ahora (resultado presente)"
-    ],
-    "hintDisplay": "Sujeto: la clienta / Verbo: devolver (mixed conditional: pasado → presente) / Complemento: el vestido defectuoso a la tienda / Tiempo: ahora (resultado presente)",
-    "spanishSentence": "Si la clienta hubiera guardado el recibo, devolvería el vestido defectuoso a la tienda ahora.",
-    "correctSentence": "If the customer had kept the receipt, she would return the defective dress to the store now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "customer",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "kept",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "receipt",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "she",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "would",
-        "isDistractor": false
+        "text": "items",
+        "isDistractor": false,
+        "translation": "artículos"
       },
       {
         "id": "c10",
-        "text": "return",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "defective",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "dress",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "to",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "store",
-        "isDistractor": false
-      },
-      {
-        "id": "c17",
-        "text": "now",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
         "text": "would",
-        "isDistractor": true
-      },
-      {
-        "id": "d2",
-        "text": "have",
-        "isDistractor": true
+        "isDistractor": false,
+        "translation": "(condicional)"
       },
       {
         "id": "d3",
-        "text": "lost",
-        "isDistractor": true
-      },
-      {
-        "id": "d4",
-        "text": "exchange",
-        "isDistractor": true
-      },
-      {
-        "id": "d5",
-        "text": "broken",
-        "isDistractor": true
-      },
-      {
-        "id": "d6",
-        "text": "yesterday",
-        "isDistractor": true
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "el/la/los/las",
-      "customer": "clienta",
-      "had": "había/hubiese",
-      "kept": "guardado",
-      "receipt": "recibo",
-      "she": "ella",
-      "would": "estaría/sería",
-      "return": "devolver",
-      "defective": "defectuoso",
-      "dress": "vestido",
-      "to": "a",
-      "store": "tienda",
-      "now": "ahora"
-    },
-    "metadata": {
-      "tense": "mixed conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "advanced",
-      "topic": "shopping"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el vendedor",
-      "Verbo: demostrar (habría demostrado)",
-      "Complemento: el producto defectuoso a los clientes",
-      "Tiempo: ahora"
-    ],
-    "hintDisplay": "Sujeto: el vendedor / Verbo: demostrar (habría demostrado) / Complemento: el producto defectuoso a los clientes / Tiempo: ahora",
-    "spanishSentence": "Si el vendedor hubiera probado el producto primero, no estaría demostrando el artículo defectuoso a los clientes ahora",
-    "correctSentence": "If the salesperson had tested the product first, he would not be demonstrating the defective item to customers now.",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "salesperson",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "tested",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "product",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "first",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
         "text": "he",
-        "isDistractor": false
+        "isDistractor": true,
+        "translation": "él"
       },
       {
-        "id": "c10",
-        "text": "would",
-        "isDistractor": false
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(condicional perfecto)"
       },
       {
-        "id": "c11",
-        "text": "not",
-        "isDistractor": false
+        "id": "d5",
+        "text": "bought",
+        "isDistractor": true,
+        "translation": "comprado"
       },
       {
-        "id": "c12",
-        "text": "be",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "demonstrating",
-        "isDistractor": false
+        "id": "d4",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c14",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c6",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
-        "id": "c15",
-        "text": "defective",
-        "isDistractor": false
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
-        "id": "c16",
-        "text": "item",
-        "isDistractor": false
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
       },
       {
-        "id": "c17",
-        "text": "to",
-        "isDistractor": false
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c8",
+        "text": "yesterday",
+        "isDistractor": false,
+        "translation": "ayer"
+      },
+      {
+        "id": "d1",
+        "text": "knew",
+        "isDistractor": true,
+        "translation": "sabían"
+      },
+      {
+        "id": "c12",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "sale",
+        "isDistractor": false,
+        "translation": "venta"
+      },
+      {
+        "id": "c9",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "they": "ellos",
+      "had": "(condicional perfecto)",
+      "known": "sabido",
+      "about": "sobre",
+      "the": "(artículo)",
+      "sale": "venta",
+      "yesterday": "ayer",
+      "would": "(condicional)",
+      "buy": "comprar",
+      "more": "más",
+      "items": "artículos",
+      "today": "hoy",
+      "knew": "sabían",
+      "will": "(futuro)",
+      "he": "él",
+      "have": "(auxiliar)",
+      "bought": "comprado"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: Revisar (condicional perfecto)",
+      "Complemento: Los precios en línea",
+      "Complemento: Antes de ir a la tienda",
+      "Verbo: Estar (condicional)",
+      "Complemento: Ahorrando más dinero",
+      "Complemento: En mi compra",
+      "Tiempo: Hoy"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: Revisar (condicional perfecto) / Complemento: Los precios en línea / Complemento: Antes de ir a la tienda / Verbo: Estar (condicional) / Complemento: Ahorrando más dinero / Complemento: En mi compra / Tiempo: Hoy",
+    "spanishSentence": "Si hubiera revisado los precios en línea antes de ir a la tienda, estaría ahorrando más dinero en mi compra hoy.",
+    "correctSentence": "If I had checked the prices online before going to the store, I would save more money on my shopping today.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "online",
+        "isDistractor": false,
+        "translation": "en línea"
+      },
+      {
+        "id": "d4",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "(presente copulativo)"
       },
       {
         "id": "c18",
-        "text": "customers",
-        "isDistractor": false
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
       },
       {
-        "id": "c19",
-        "text": "now",
-        "isDistractor": false
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c16",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
       },
       {
         "id": "d1",
-        "text": "tested",
-        "isDistractor": true
+        "text": "have",
+        "isDistractor": true,
+        "translation": "(auxiliar perfecto)"
       },
       {
-        "id": "d2",
-        "text": "showing",
-        "isDistractor": true
+        "id": "c4",
+        "text": "checked",
+        "isDistractor": false,
+        "translation": "revisado"
       },
       {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true
+        "id": "c21",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
       },
       {
-        "id": "d4",
-        "text": "checking",
-        "isDistractor": true
+        "id": "c13",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(pluscuamperfecto)"
       },
       {
         "id": "d5",
-        "text": "examine",
-        "isDistractor": true
+        "text": "saving",
+        "isDistractor": true,
+        "translation": "ahorrando"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c20",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "compra"
+      },
+      {
+        "id": "c12",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d2",
+        "text": "saved",
+        "isDistractor": true,
+        "translation": "ahorrado"
+      },
+      {
+        "id": "c9",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "ir"
+      },
+      {
+        "id": "c6",
+        "text": "prices",
+        "isDistractor": false,
+        "translation": "precios"
+      },
+      {
+        "id": "c14",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c15",
+        "text": "save",
+        "isDistractor": false,
+        "translation": "ahorrar"
+      },
+      {
+        "id": "c8",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c10",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
         "id": "d6",
-        "text": "broken",
-        "isDistractor": true
+        "text": "could",
+        "isDistractor": true,
+        "translation": "(condicional modal)"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c19",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mi"
+      },
+      {
+        "id": "c17",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "el/la/los/las",
-      "salesperson": "vendedor",
-      "had": "había",
-      "tested": "probado",
-      "product": "producto",
-      "first": "primero",
-      "he": "él",
-      "would": "habría",
-      "not": "no",
+      "i": "yo",
+      "had": "(pluscuamperfecto)",
+      "checked": "revisado",
+      "the": "(artículo)",
+      "prices": "precios",
+      "online": "en línea",
+      "before": "antes de",
+      "going": "ir",
+      "to": "(marca de infinitivo)",
+      "store": "tienda",
+      "would": "(condicional)",
+      "save": "ahorrar",
+      "more": "más",
+      "money": "dinero",
+      "on": "en",
+      "my": "mi",
+      "shopping": "compra",
+      "today": "hoy",
+      "have": "(auxiliar perfecto)",
+      "saved": "ahorrado",
+      "will": "(futuro)",
+      "am": "(presente copulativo)",
+      "saving": "ahorrando",
+      "could": "(condicional modal)"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Tú",
+      "Verbo: Venir (pasado condicional)",
+      "Tiempo: La semana pasada",
+      "Verbo: Recomendar (condicional)",
+      "Complemento: La colección de invierno",
+      "Complemento: En oferta",
+      "Tiempo: Hoy"
+    ],
+    "hintDisplay": "Sujeto: Tú / Verbo: Venir (pasado condicional) / Tiempo: La semana pasada / Verbo: Recomendar (condicional) / Complemento: La colección de invierno / Complemento: En oferta / Tiempo: Hoy",
+    "spanishSentence": "Si hubieras venido a nuestra tienda la semana pasada, te recomendaría la colección de invierno que tenemos en oferta hoy.",
+    "correctSentence": "If you had come to our store last week, I would recommend the winter collection that we have on sale today.",
+    "cards": [
+      {
+        "id": "c17",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c12",
+        "text": "recommend",
+        "isDistractor": false,
+        "translation": "recomendaría"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(preposición)"
+      },
+      {
+        "id": "c6",
+        "text": "our",
+        "isDistractor": false,
+        "translation": "nuestro"
+      },
+      {
+        "id": "c19",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d4",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c9",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "d5",
+        "text": "suggest",
+        "isDistractor": true,
+        "translation": "sugerir"
+      },
+      {
+        "id": "d2",
+        "text": "recommended",
+        "isDistractor": true,
+        "translation": "recomendado"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(pasado perfecto)"
+      },
+      {
+        "id": "c10",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c8",
+        "text": "last",
+        "isDistractor": false,
+        "translation": "pasado"
+      },
+      {
+        "id": "c4",
+        "text": "come",
+        "isDistractor": false,
+        "translation": "venido"
+      },
+      {
+        "id": "c16",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c20",
+        "text": "sale",
+        "isDistractor": false,
+        "translation": "oferta"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c18",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "tenemos"
+      },
+      {
+        "id": "c11",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c7",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "d1",
+        "text": "comes",
+        "isDistractor": true,
+        "translation": "viene"
+      },
+      {
+        "id": "c14",
+        "text": "winter",
+        "isDistractor": false,
+        "translation": "invierno"
+      },
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "tiene"
+      },
+      {
+        "id": "c15",
+        "text": "collection",
+        "isDistractor": false,
+        "translation": "colección"
+      },
+      {
+        "id": "c21",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "d6",
+        "text": "came",
+        "isDistractor": true,
+        "translation": "vino"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "you": "tú",
+      "had": "(pasado perfecto)",
+      "come": "venido",
+      "to": "(preposición)",
+      "our": "nuestro",
+      "store": "tienda",
+      "last": "pasado",
+      "week": "semana",
+      "i": "yo",
+      "would": "(condicional)",
+      "recommend": "recomendaría",
+      "the": "(artículo)",
+      "winter": "invierno",
+      "collection": "colección",
+      "that": "que",
+      "we": "nosotros",
+      "have": "tenemos",
+      "on": "en",
+      "sale": "oferta",
+      "today": "hoy",
+      "comes": "viene",
+      "recommended": "recomendado",
+      "has": "tiene",
+      "their": "su",
+      "suggest": "sugerir",
+      "came": "vino"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Tú (you)",
+      "Verbo: Traer (pasado perfecto, condicional)",
+      "Complemento: Tu tarjeta de fidelización",
+      "Tiempo: Hoy",
+      "Sujeto: Yo (I)",
+      "Verbo: Poder (capacidad/habilidad, condicional)",
+      "Verbo: Ayudar",
+      "Complemento: A obtener un descuento",
+      "Complemento: En tu compra",
+      "Tiempo: En este momento"
+    ],
+    "hintDisplay": "Sujeto: Tú (you) / Verbo: Traer (pasado perfecto, condicional) / Complemento: Tu tarjeta de fidelización / Tiempo: Hoy / Sujeto: Yo (I) / Verbo: Poder (capacidad/habilidad, condicional) / Verbo: Ayudar / Complemento: A obtener un descuento / Complemento: En tu compra / Tiempo: En este momento",
+    "spanishSentence": "Si hubieras traído tu tarjeta de fidelización hoy, podría ayudarte a obtener un descuento en tu compra en este momento.",
+    "correctSentence": "If you had brought your loyalty card today, I would be able to assist you in getting a discount on your purchase right now.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "loyalty",
+        "isDistractor": false,
+        "translation": "fidelización"
+      },
+      {
+        "id": "c9",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c5",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c14",
+        "text": "assist",
+        "isDistractor": false,
+        "translation": "ayudar"
+      },
+      {
+        "id": "c18",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "bring",
+        "isDistractor": true,
+        "translation": "traer"
+      },
+      {
+        "id": "c12",
+        "text": "able",
+        "isDistractor": false,
+        "translation": "capaz"
+      },
+      {
+        "id": "d5",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "(potencial)"
+      },
+      {
+        "id": "d1",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c22",
+        "text": "purchase",
+        "isDistractor": false,
+        "translation": "compra"
+      },
+      {
+        "id": "c15",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c19",
+        "text": "discount",
+        "isDistractor": false,
+        "translation": "descuento"
+      },
+      {
+        "id": "c16",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c11",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "ser/estar"
+      },
+      {
+        "id": "c10",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c17",
+        "text": "getting",
+        "isDistractor": false,
+        "translation": "obtener"
+      },
+      {
+        "id": "c21",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c23",
+        "text": "right",
+        "isDistractor": false,
+        "translation": "ahora mismo"
+      },
+      {
+        "id": "c20",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c4",
+        "text": "brought",
+        "isDistractor": false,
+        "translation": "traído"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c24",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c7",
+        "text": "card",
+        "isDistractor": false,
+        "translation": "tarjeta"
+      },
+      {
+        "id": "c13",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c8",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(condicional pasado)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "you": "tú",
+      "had": "(auxiliar)",
+      "brought": "traído",
+      "your": "tu",
+      "loyalty": "fidelización",
+      "card": "tarjeta",
+      "today": "hoy",
+      "i": "yo",
+      "would": "(condicional)",
+      "be": "ser/estar",
+      "able": "capaz",
+      "to": "(marca de infinitivo)",
+      "assist": "ayudar",
+      "in": "en",
+      "getting": "obtener",
+      "a": "(artículo)",
+      "discount": "descuento",
+      "on": "en",
+      "purchase": "compra",
+      "right": "ahora mismo",
+      "now": "ahora",
+      "will": "(futuro)",
+      "bring": "traer",
+      "him": "lo",
+      "were": "(condicional pasado)",
+      "could": "(potencial)"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú (en contexto de segunda persona)",
+      "Verbo: visitar (pasado perfecto condicional)",
+      "Complemento: nuestra tienda",
+      "Tiempo: antes (earlier)",
+      "Sujeto: nosotros",
+      "Verbo: estar (condicional continuo)",
+      "Complemento: exhibiendo/mostrando estos artículos con descuento",
+      "Tiempo: ahora (now)",
+      "Verbo: ser (condicional perfecto)",
+      "Complemento: porque ya habrían estado agotados"
+    ],
+    "hintDisplay": "Sujeto: tú (en contexto de segunda persona) / Verbo: visitar (pasado perfecto condicional) / Complemento: nuestra tienda / Tiempo: antes (earlier) / Sujeto: nosotros / Verbo: estar (condicional continuo) / Complemento: exhibiendo/mostrando estos artículos con descuento / Tiempo: ahora (now) / Verbo: ser (condicional perfecto) / Complemento: porque ya habrían estado agotados",
+    "spanishSentence": "Si hubieras visitado nuestra tienda antes, no estaríamos exhibiendo estos artículos con descuento ahora porque ya habrían estado agotados.",
+    "correctSentence": "If you had visited our store earlier, we wouldn't be displaying these discounted items now because they would have already been sold out.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "visit",
+        "isDistractor": true,
+        "translation": "visitar"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c14",
+        "text": "items",
+        "isDistractor": false,
+        "translation": "artículos"
+      },
+      {
+        "id": "c19",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c12",
+        "text": "these",
+        "isDistractor": false,
+        "translation": "estos"
+      },
+      {
+        "id": "c21",
+        "text": "been",
+        "isDistractor": false,
+        "translation": "estado"
+      },
+      {
+        "id": "c23",
+        "text": "out",
+        "isDistractor": false,
+        "translation": "agotado"
+      },
+      {
+        "id": "c9",
+        "text": "wouldn't",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "(pluscuamperfecto)"
+      },
+      {
+        "id": "c20",
+        "text": "already",
+        "isDistractor": false,
+        "translation": "ya"
+      },
+      {
+        "id": "c8",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c22",
+        "text": "sold",
+        "isDistractor": false,
+        "translation": "vendido"
+      },
+      {
+        "id": "c11",
+        "text": "displaying",
+        "isDistractor": false,
+        "translation": "exhibiendo"
+      },
+      {
+        "id": "c13",
+        "text": "discounted",
+        "isDistractor": false,
+        "translation": "con descuento"
+      },
+      {
+        "id": "c17",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c6",
+        "text": "store",
+        "isDistractor": false,
+        "translation": "tienda"
+      },
+      {
+        "id": "c10",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
+      },
+      {
+        "id": "c15",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c4",
+        "text": "visited",
+        "isDistractor": false,
+        "translation": "visitado"
+      },
+      {
+        "id": "c7",
+        "text": "earlier",
+        "isDistractor": false,
+        "translation": "antes"
+      },
+      {
+        "id": "c16",
+        "text": "because",
+        "isDistractor": false,
+        "translation": "porque"
+      },
+      {
+        "id": "d4",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c18",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d3",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "fueron"
+      },
+      {
+        "id": "c5",
+        "text": "our",
+        "isDistractor": false,
+        "translation": "nuestro"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "you": "tú",
+      "had": "(pluscuamperfecto)",
+      "visited": "visitado",
+      "our": "nuestro",
+      "store": "tienda",
+      "earlier": "antes",
+      "we": "nosotros",
+      "wouldn't": "no",
       "be": "estar",
-      "demonstrating": "demostrando",
-      "defective": "defectuoso",
-      "item": "artículo",
-      "to": "a",
-      "customers": "clientes",
-      "now": "ahora"
+      "displaying": "exhibiendo",
+      "these": "estos",
+      "discounted": "con descuento",
+      "items": "artículos",
+      "now": "ahora",
+      "because": "porque",
+      "they": "ellos",
+      "would": "(condicional)",
+      "have": "(auxiliar)",
+      "already": "ya",
+      "been": "estado",
+      "sold": "vendido",
+      "out": "agotado",
+      "visit": "visitar",
+      "will": "(futuro)",
+      "were": "fueron",
+      "them": "los"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: Yo",
+      "Verbo: Saber (condicional perfecto)",
+      "Complemento: acerca de la venta",
+      "Tiempo: ayer",
+      "Verbo: Estar (condicional)",
+      "Complemento: navegando por la sección de ropa",
+      "Tiempo: en este momento",
+      "Verbo: Perder (gerundio)",
+      "Complemento: los descuentos"
+    ],
+    "hintDisplay": "Sujeto: Yo / Verbo: Saber (condicional perfecto) / Complemento: acerca de la venta / Tiempo: ayer / Verbo: Estar (condicional) / Complemento: navegando por la sección de ropa / Tiempo: en este momento / Verbo: Perder (gerundio) / Complemento: los descuentos",
+    "spanishSentence": "Si hubiera sabido sobre la venta ayer, estaría navegando por la sección de ropa en este momento en lugar de perderme los descuentos.",
+    "correctSentence": "If I had known about the sale yesterday, I would be browsing through the clothes section right now instead of missing out on the discounts.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "me",
+        "isDistractor": true,
+        "translation": "me"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c19",
+        "text": "instead",
+        "isDistractor": false,
+        "translation": "en lugar"
+      },
+      {
+        "id": "c8",
+        "text": "yesterday",
+        "isDistractor": false,
+        "translation": "ayer"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c18",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c7",
+        "text": "sale",
+        "isDistractor": false,
+        "translation": "venta"
+      },
+      {
+        "id": "c23",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c22",
+        "text": "out",
+        "isDistractor": false,
+        "translation": "fuera"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c10",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c5",
+        "text": "about",
+        "isDistractor": false,
+        "translation": "sobre"
+      },
+      {
+        "id": "c25",
+        "text": "discounts",
+        "isDistractor": false,
+        "translation": "descuentos"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d2",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "(presente de ser/estar)"
+      },
+      {
+        "id": "c24",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d1",
+        "text": "know",
+        "isDistractor": true,
+        "translation": "saber"
+      },
+      {
+        "id": "d6",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c11",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
+      },
+      {
+        "id": "c15",
+        "text": "clothes",
+        "isDistractor": false,
+        "translation": "ropa"
+      },
+      {
+        "id": "c20",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c21",
+        "text": "missing",
+        "isDistractor": false,
+        "translation": "perderme"
+      },
+      {
+        "id": "c17",
+        "text": "right",
+        "isDistractor": false,
+        "translation": "ahora mismo"
+      },
+      {
+        "id": "c12",
+        "text": "browsing",
+        "isDistractor": false,
+        "translation": "navegando"
+      },
+      {
+        "id": "d5",
+        "text": "been",
+        "isDistractor": true,
+        "translation": "estado"
+      },
+      {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "había"
+      },
+      {
+        "id": "c16",
+        "text": "section",
+        "isDistractor": false,
+        "translation": "sección"
+      },
+      {
+        "id": "c9",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c13",
+        "text": "through",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "c4",
+        "text": "known",
+        "isDistractor": false,
+        "translation": "sabido"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "i": "yo",
+      "had": "había",
+      "known": "sabido",
+      "about": "sobre",
+      "the": "(artículo)",
+      "sale": "venta",
+      "yesterday": "ayer",
+      "would": "(condicional)",
+      "be": "estar",
+      "browsing": "navegando",
+      "through": "por",
+      "clothes": "ropa",
+      "section": "sección",
+      "right": "ahora mismo",
+      "now": "ahora",
+      "instead": "en lugar",
+      "of": "de",
+      "missing": "perderme",
+      "out": "fuera",
+      "on": "en",
+      "discounts": "descuentos",
+      "know": "saber",
+      "am": "(presente de ser/estar)",
+      "will": "(futuro)",
+      "me": "me",
+      "been": "estado",
+      "have": "haber"
+    },
+    "metadata": {
+      "tense": "mixed conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "advanced",
+      "topic": "shopping"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: ver (condicional perfecto - acción pasada que no ocurrió)",
+      "Complemento: el anuncio de venta",
+      "Verbo: estar (condicional - estado actual hipotético)",
+      "Complemento: gastando tanto dinero en ropa",
+      "Tiempo: hoy"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: ver (condicional perfecto - acción pasada que no ocurrió) / Complemento: el anuncio de venta / Verbo: estar (condicional - estado actual hipotético) / Complemento: gastando tanto dinero en ropa / Tiempo: hoy",
+    "spanishSentence": "Si ellos no hubieran visto el anuncio de venta, no estarían gastando tanto dinero en ropa hoy.",
+    "correctSentence": "If they hadn't seen the sale advertisement, they wouldn't be spending so much money on clothes today.",
+    "cards": [
+      {
+        "id": "c17",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado subjuntivo)"
+      },
+      {
+        "id": "c13",
+        "text": "much",
+        "isDistractor": false,
+        "translation": "mucho"
+      },
+      {
+        "id": "c11",
+        "text": "spending",
+        "isDistractor": false,
+        "translation": "gastando"
+      },
+      {
+        "id": "c9",
+        "text": "wouldn't",
+        "isDistractor": false,
+        "translation": "(condicional negativo)"
+      },
+      {
+        "id": "d4",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c7",
+        "text": "advertisement",
+        "isDistractor": false,
+        "translation": "anuncio"
+      },
+      {
+        "id": "c3",
+        "text": "hadn't",
+        "isDistractor": false,
+        "translation": "(condicional pasado negativo)"
+      },
+      {
+        "id": "d5",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d1",
+        "text": "spend",
+        "isDistractor": true,
+        "translation": "gastar"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c14",
+        "text": "money",
+        "isDistractor": false,
+        "translation": "dinero"
+      },
+      {
+        "id": "c4",
+        "text": "seen",
+        "isDistractor": false,
+        "translation": "visto"
+      },
+      {
+        "id": "c6",
+        "text": "sale",
+        "isDistractor": false,
+        "translation": "venta"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c15",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c10",
+        "text": "be",
+        "isDistractor": false,
+        "translation": "estar"
+      },
+      {
+        "id": "c16",
+        "text": "clothes",
+        "isDistractor": false,
+        "translation": "ropa"
+      },
+      {
+        "id": "c8",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(presente perfecto)"
+      },
+      {
+        "id": "c12",
+        "text": "so",
+        "isDistractor": false,
+        "translation": "tan"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "they": "ellos",
+      "hadn't": "(condicional pasado negativo)",
+      "seen": "visto",
+      "the": "(artículo)",
+      "sale": "venta",
+      "advertisement": "anuncio",
+      "wouldn't": "(condicional negativo)",
+      "be": "estar",
+      "spending": "gastando",
+      "so": "tan",
+      "much": "mucho",
+      "money": "dinero",
+      "on": "en",
+      "clothes": "ropa",
+      "today": "hoy",
+      "spend": "gastar",
+      "were": "(pasado subjuntivo)",
+      "has": "(presente perfecto)",
+      "their": "su",
+      "would": "(condicional)"
     },
     "metadata": {
       "tense": "mixed conditional",
