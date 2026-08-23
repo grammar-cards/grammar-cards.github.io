@@ -1,20 +1,99 @@
 [
   {
     "hints": [
-      "Sujeto: El gerente",
-      "Verbo: usar (pasado habitual con 'used to')",
-      "Complemento: en el departamento de marketing",
-      "Tiempo: en el pasado (antes, ya no lo hace)"
+      "Sujeto: ellos",
+      "Verbo: asistir (negación en pasado, costumbre)",
+      "Complemento: a las reuniones semanales",
+      "Tiempo: antes de que comenzara el proyecto",
+      "Cláusula: antes de que el proyecto comenzara"
     ],
-    "hintDisplay": "Sujeto: El gerente / Verbo: usar (pasado habitual con 'used to') / Complemento: en el departamento de marketing / Tiempo: en el pasado (antes, ya no lo hace)",
-    "spanishSentence": "¿El gerente solía trabajar en el departamento de marketing?",
-    "correctSentence": "Did the manager use to work in the marketing department?",
+    "hintDisplay": "Sujeto: ellos / Verbo: asistir (negación en pasado, costumbre) / Complemento: a las reuniones semanales / Tiempo: antes de que comenzara el proyecto / Cláusula: antes de que el proyecto comenzara",
+    "spanishSentence": "¿No solían ellos asistir a las reuniones semanales antes de que comenzara el proyecto?",
+    "correctSentence": "Didn't they use to attend the weekly meetings before the project started?",
     "cards": [
       {
         "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c8",
+        "text": "meetings",
+        "isDistractor": false,
+        "translation": "reuniones"
+      },
+      {
+        "id": "d3",
+        "text": "attending",
+        "isDistractor": true,
+        "translation": "asistiendo"
+      },
+      {
+        "id": "c10",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "attended",
+        "isDistractor": true,
+        "translation": "asistieron"
+      },
+      {
+        "id": "c12",
+        "text": "started",
+        "isDistractor": false,
+        "translation": "comenzara"
+      },
+      {
+        "id": "d5",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "eran"
+      },
+      {
+        "id": "c11",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyecto"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d4",
+        "text": "they're",
+        "isDistractor": true,
+        "translation": "ellos son"
+      },
+      {
+        "id": "d1",
+        "text": "Did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "weekly",
+        "isDistractor": false,
+        "translation": "semanales"
+      },
+      {
+        "id": "c1",
+        "text": "Didn't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c5",
+        "text": "attend",
+        "isDistractor": false,
+        "translation": "asistir"
       },
       {
         "id": "qm",
@@ -23,22 +102,72 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "c8",
-        "text": "the",
+        "id": "c3",
+        "text": "use",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "soler"
       },
       {
         "id": "c9",
-        "text": "marketing",
+        "text": "before",
         "isDistractor": false,
-        "translation": "marketing"
+        "translation": "antes de que"
       },
       {
-        "id": "d3",
-        "text": "Works",
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "didn't": "(auxiliar)",
+      "they": "ellos",
+      "use": "soler",
+      "to": "(marca de infinitivo)",
+      "attend": "asistir",
+      "the": "el",
+      "weekly": "semanales",
+      "meetings": "reuniones",
+      "before": "antes de que",
+      "project": "proyecto",
+      "started": "comenzara",
+      "did": "(auxiliar)",
+      "attended": "asistieron",
+      "attending": "asistiendo",
+      "they're": "ellos son",
+      "were": "eran"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el jefe",
+      "Verbo: aprobar (uso habitual en el pasado, pregunta)",
+      "Complemento: cada factura",
+      "Tiempo: en el pasado (hábito) — la pregunta indaga si era una costumbre previa"
+    ],
+    "hintDisplay": "Sujeto: el jefe / Verbo: aprobar (uso habitual en el pasado, pregunta) / Complemento: cada factura / Tiempo: en el pasado (hábito) — la pregunta indaga si era una costumbre previa",
+    "spanishSentence": "¿Solía el jefe aprobar cada factura?",
+    "correctSentence": "Did the boss use to approve every invoice?",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "approve",
+        "isDistractor": false,
+        "translation": "aprobar"
+      },
+      {
+        "id": "d2",
+        "text": "approved",
         "isDistractor": true,
-        "translation": "trabaja"
+        "translation": "aprobado"
       },
       {
         "id": "c4",
@@ -47,10 +176,34 @@
         "translation": "solía"
       },
       {
-        "id": "c10",
-        "text": "department",
+        "id": "c5",
+        "text": "to",
         "isDistractor": false,
-        "translation": "departamento"
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "invoice",
+        "isDistractor": false,
+        "translation": "factura"
+      },
+      {
+        "id": "c3",
+        "text": "boss",
+        "isDistractor": false,
+        "translation": "jefe"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
         "id": "c1",
@@ -59,69 +212,168 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "c6",
-        "text": "work",
-        "isDistractor": false,
-        "translation": "trabajar"
+        "id": "d3",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "él"
       },
       {
         "id": "c7",
-        "text": "in",
+        "text": "every",
         "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c3",
-        "text": "manager",
-        "isDistractor": false,
-        "translation": "gerente"
+        "translation": "cada"
       },
       {
         "id": "d1",
-        "text": "Does",
+        "text": "does",
         "isDistractor": true,
         "translation": "(auxiliar)"
+      }
+    ],
+    "translations": {
+      "did": "(auxiliar)",
+      "the": "el",
+      "boss": "jefe",
+      "use": "solía",
+      "to": "(marca de infinitivo)",
+      "approve": "aprobar",
+      "every": "cada",
+      "invoice": "factura",
+      "does": "(auxiliar)",
+      "approved": "aprobado",
+      "him": "él"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: usted",
+      "Verbo: soler (hábito en el pasado)",
+      "Complemento: organizar los archivos alfabéticamente",
+      "Cláusula: cuando trabajaba aquí"
+    ],
+    "hintDisplay": "Sujeto: usted / Verbo: soler (hábito en el pasado) / Complemento: organizar los archivos alfabéticamente / Cláusula: cuando trabajaba aquí",
+    "spanishSentence": "¿Usted solía organizar los archivos alfabéticamente cuando trabajaba aquí?",
+    "correctSentence": "Did you use to organize the files alphabetically when you worked here?",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "work",
+        "isDistractor": true,
+        "translation": "trabajar"
       },
       {
-        "id": "c5",
+        "id": "c3",
+        "text": "use",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "c4",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "d4",
-        "text": "Him",
+        "id": "d1",
+        "text": "used",
         "isDistractor": true,
-        "translation": "lo"
+        "translation": "solía"
       },
       {
-        "id": "d5",
-        "text": "Used",
-        "isDistractor": true,
-        "translation": "acostumbrado"
+        "id": "c5",
+        "text": "organize",
+        "isDistractor": false,
+        "translation": "organizar"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "los"
+      },
+      {
+        "id": "c1",
+        "text": "Did",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "usted"
+      },
+      {
+        "id": "c11",
+        "text": "worked",
+        "isDistractor": false,
+        "translation": "trabajaba"
+      },
+      {
+        "id": "c8",
+        "text": "alphabetically",
+        "isDistractor": false,
+        "translation": "alfabéticamente"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c10",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "usted"
+      },
+      {
+        "id": "c12",
+        "text": "here",
+        "isDistractor": false,
+        "translation": "aquí"
+      },
+      {
+        "id": "c9",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
       },
       {
         "id": "d2",
-        "text": "Will",
+        "text": "were",
         "isDistractor": true,
-        "translation": "(futuro)"
+        "translation": "(imperfecto)"
+      },
+      {
+        "id": "c7",
+        "text": "files",
+        "isDistractor": false,
+        "translation": "archivos"
       }
     ],
     "translations": {
       "did": "(auxiliar)",
-      "the": "(artículo)",
-      "manager": "gerente",
+      "you": "usted",
       "use": "solía",
       "to": "(marca de infinitivo)",
-      "work": "trabajar",
-      "in": "en",
-      "marketing": "marketing",
-      "department": "departamento",
-      "does": "(auxiliar)",
-      "will": "(futuro)",
-      "works": "trabaja",
-      "him": "lo",
-      "used": "acostumbrado"
+      "organize": "organizar",
+      "the": "los",
+      "files": "archivos",
+      "alphabetically": "alfabéticamente",
+      "when": "cuando",
+      "worked": "trabajaba",
+      "here": "aquí",
+      "used": "solía",
+      "were": "(imperfecto)",
+      "work": "trabajar"
     },
     "metadata": {
       "tense": "used to",
@@ -134,33 +386,19 @@
   {
     "hints": [
       "Sujeto: el pasante",
-      "Verbo: usar (auxiliar modal para hábitos pasados)",
-      "Verbo: aprender",
-      "Complemento: rápidamente",
-      "Complemento: durante el programa de capacitación",
-      "Tiempo: durante el programa de capacitación"
+      "Verbo: soler (habitual en el pasado, con negación)",
+      "Complemento: a los desarrolladores senior",
+      "Cláusula: durante el trabajo"
     ],
-    "hintDisplay": "Sujeto: el pasante / Verbo: usar (auxiliar modal para hábitos pasados) / Verbo: aprender / Complemento: rápidamente / Complemento: durante el programa de capacitación / Tiempo: durante el programa de capacitación",
-    "spanishSentence": "¿Solía el pasante aprender rápidamente durante el programa de capacitación?",
-    "correctSentence": "Did the intern use to learn quickly during the training program?",
+    "hintDisplay": "Sujeto: el pasante / Verbo: soler (habitual en el pasado, con negación) / Complemento: a los desarrolladores senior / Cláusula: durante el trabajo",
+    "spanishSentence": "¿No solía el pasante observar a los desarrolladores senior durante el trabajo?",
+    "correctSentence": "Didn't the intern use to observe the senior developers during work?",
     "cards": [
       {
-        "id": "c9",
-        "text": "the",
+        "id": "c5",
+        "text": "to",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c6",
-        "text": "learn",
-        "isDistractor": false,
-        "translation": "aprender"
+        "translation": "(marca de infinitivo)"
       },
       {
         "id": "qm",
@@ -169,10 +407,46 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "c7",
-        "text": "quickly",
+        "id": "c1",
+        "text": "Didn't",
         "isDistractor": false,
-        "translation": "rápidamente"
+        "translation": "(auxiliar negación pasado)"
+      },
+      {
+        "id": "c10",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c6",
+        "text": "observe",
+        "isDistractor": false,
+        "translation": "observar"
+      },
+      {
+        "id": "d3",
+        "text": "interns",
+        "isDistractor": true,
+        "translation": "pasantes"
+      },
+      {
+        "id": "d1",
+        "text": "used",
+        "isDistractor": true,
+        "translation": "solía"
+      },
+      {
+        "id": "c9",
+        "text": "developers",
+        "isDistractor": false,
+        "translation": "desarrolladores"
+      },
+      {
+        "id": "c8",
+        "text": "senior",
+        "isDistractor": false,
+        "translation": "senior"
       },
       {
         "id": "c4",
@@ -181,92 +455,54 @@
         "translation": "solía"
       },
       {
-        "id": "d3",
-        "text": "Have",
+        "id": "d2",
+        "text": "doesn't",
         "isDistractor": true,
-        "translation": "tener"
+        "translation": "(auxiliar negación presente)"
       },
       {
-        "id": "c1",
-        "text": "Did",
+        "id": "c7",
+        "text": "the",
         "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "el"
       },
       {
-        "id": "d4",
-        "text": "Them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c10",
-        "text": "training",
+        "id": "c11",
+        "text": "work",
         "isDistractor": false,
-        "translation": "capacitación"
+        "translation": "trabajo"
       },
       {
         "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d2",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d5",
-        "text": "Slowly",
-        "isDistractor": true,
-        "translation": "lentamente"
-      },
-      {
-        "id": "d1",
-        "text": "Does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "el"
       },
       {
         "id": "c3",
         "text": "intern",
         "isDistractor": false,
         "translation": "pasante"
-      },
-      {
-        "id": "c11",
-        "text": "program",
-        "isDistractor": false,
-        "translation": "programa"
       }
     ],
     "translations": {
-      "did": "(auxiliar)",
-      "the": "(artículo)",
+      "didn't": "(auxiliar negación pasado)",
+      "the": "el",
       "intern": "pasante",
       "use": "solía",
       "to": "(marca de infinitivo)",
-      "learn": "aprender",
-      "quickly": "rápidamente",
+      "observe": "observar",
+      "senior": "senior",
+      "developers": "desarrolladores",
       "during": "durante",
-      "training": "capacitación",
-      "program": "programa",
-      "does": "(auxiliar)",
-      "will": "(futuro)",
-      "have": "tener",
-      "them": "los",
-      "slowly": "lentamente"
+      "work": "trabajo",
+      "used": "solía",
+      "doesn't": "(auxiliar negación presente)",
+      "interns": "pasantes"
     },
     "metadata": {
       "tense": "used to",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "intermediate",
       "topic": "work"
@@ -274,27 +510,26 @@
   },
   {
     "hints": [
-      "Sujeto: la secretaria",
-      "Verbo: soler (hábito pasado)",
-      "Verbo: programar",
-      "Complemento: las reuniones",
-      "Estructura: pregunta negativa con inversión"
+      "Sujeto: el secretario (femenino: la secretaria)",
+      "Verbo: agendar (pasado, usado para hábitos)",
+      "Complemento: reuniones para el gerente",
+      "Tiempo: solía (expresa hábito en el pasado)"
     ],
-    "hintDisplay": "Sujeto: la secretaria / Verbo: soler (hábito pasado) / Verbo: programar / Complemento: las reuniones / Estructura: pregunta negativa con inversión",
-    "spanishSentence": "¿No solía la secretaria programar las reuniones?",
-    "correctSentence": "Didn't the secretary use to schedule the meetings?",
+    "hintDisplay": "Sujeto: el secretario (femenino: la secretaria) / Verbo: agendar (pasado, usado para hábitos) / Complemento: reuniones para el gerente / Tiempo: solía (expresa hábito en el pasado)",
+    "spanishSentence": "¿La secretaria solía agendar reuniones para el gerente?",
+    "correctSentence": "Did the secretary use to schedule meetings for the manager?",
     "cards": [
       {
-        "id": "d5",
-        "text": "scheduled",
-        "isDistractor": true,
-        "translation": "programadas"
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
-        "id": "c6",
-        "text": "schedule",
+        "id": "c2",
+        "text": "the",
         "isDistractor": false,
-        "translation": "programar"
+        "translation": "el"
       },
       {
         "id": "d3",
@@ -303,133 +538,52 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "c7",
-        "text": "the",
+        "id": "c10",
+        "text": "manager",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "gerente"
+      },
+      {
+        "id": "c1",
+        "text": "Did",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "meetings",
+        "isDistractor": false,
+        "translation": "reuniones"
+      },
+      {
+        "id": "d2",
+        "text": "agendas",
+        "isDistractor": true,
+        "translation": "agendas"
       },
       {
         "id": "c4",
         "text": "use",
         "isDistractor": false,
         "translation": "solía"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c8",
-        "text": "meetings",
-        "isDistractor": false,
-        "translation": "reuniones"
-      },
-      {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
-      },
-      {
-        "id": "d4",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d2",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c1",
-        "text": "Didn't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
       },
       {
         "id": "c3",
         "text": "secretary",
         "isDistractor": false,
         "translation": "secretaria"
-      }
-    ],
-    "translations": {
-      "didn't": "(auxiliar)",
-      "the": "(artículo)",
-      "secretary": "secretaria",
-      "use": "solía",
-      "to": "(marca de infinitivo)",
-      "schedule": "programar",
-      "meetings": "reuniones",
-      "uses": "usa",
-      "him": "él",
-      "does": "(auxiliar)",
-      "would": "(condicional)",
-      "scheduled": "programadas"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: usar (pasado habitual con 'used to')",
-      "Complemento: colaborar en proyectos juntos"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: usar (pasado habitual con 'used to') / Complemento: colaborar en proyectos juntos",
-    "spanishSentence": "¿Solía el equipo colaborar en proyectos juntos?",
-    "correctSentence": "Did the team use to collaborate on projects together?",
-    "cards": [
-      {
-        "id": "c8",
-        "text": "projects",
-        "isDistractor": false,
-        "translation": "proyectos"
-      },
-      {
-        "id": "d4",
-        "text": "Used",
-        "isDistractor": true,
-        "translation": "acostumbraban"
-      },
-      {
-        "id": "d1",
-        "text": "Does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
       },
       {
         "id": "d5",
-        "text": "Collaborated",
+        "text": "arrange",
         "isDistractor": true,
-        "translation": "colaboraron"
+        "translation": "organizar"
       },
       {
-        "id": "d2",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
+        "id": "c8",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
       },
       {
         "id": "c5",
@@ -438,16 +592,70 @@
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "c2",
-        "text": "the",
+        "id": "d4",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
+      },
+      {
+        "id": "qm",
+        "text": "?",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "schedules",
+        "isDistractor": true,
+        "translation": "horarios"
       },
       {
         "id": "c6",
-        "text": "collaborate",
+        "text": "schedule",
         "isDistractor": false,
-        "translation": "colaborar"
+        "translation": "agendar"
+      }
+    ],
+    "translations": {
+      "did": "(auxiliar)",
+      "the": "el",
+      "secretary": "secretaria",
+      "use": "solía",
+      "to": "(marca de infinitivo)",
+      "schedule": "agendar",
+      "meetings": "reuniones",
+      "for": "para",
+      "manager": "gerente",
+      "schedules": "horarios",
+      "agendas": "agendas",
+      "does": "(auxiliar)",
+      "she": "ella",
+      "arrange": "organizar"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el gerente",
+      "Verbo: programar (acción de agendar o fijar una cita)",
+      "Complemento: reuniones",
+      "Tiempo: todos los lunes"
+    ],
+    "hintDisplay": "Sujeto: el gerente / Verbo: programar (acción de agendar o fijar una cita) / Complemento: reuniones / Tiempo: todos los lunes",
+    "spanishSentence": "¿El gerente solía programar reuniones todos los lunes?",
+    "correctSentence": "Did the manager use to schedule meetings every Monday?",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "Monday",
+        "isDistractor": false,
+        "translation": "lunes"
       },
       {
         "id": "c4",
@@ -456,28 +664,10 @@
         "translation": "solía"
       },
       {
-        "id": "c7",
-        "text": "on",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
         "id": "qm",
         "text": "?",
         "isDistractor": false,
         "translation": "signo de interrogación"
-      },
-      {
-        "id": "d3",
-        "text": "They",
-        "isDistractor": true,
-        "translation": "ellos"
       },
       {
         "id": "c1",
@@ -486,307 +676,77 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "c9",
-        "text": "together",
-        "isDistractor": false,
-        "translation": "juntos"
-      }
-    ],
-    "translations": {
-      "did": "(auxiliar)",
-      "the": "(artículo)",
-      "team": "equipo",
-      "use": "solía",
-      "to": "(marca de infinitivo)",
-      "collaborate": "colaborar",
-      "on": "en",
-      "projects": "proyectos",
-      "together": "juntos",
-      "does": "(auxiliar)",
-      "will": "(futuro)",
-      "they": "ellos",
-      "used": "acostumbraban",
-      "collaborated": "colaboraron"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: ellos",
-      "Verbo: soler (auxiliar de pasado habitual)",
-      "Verbo: enviar (infinitivo)",
-      "Complemento: sus informes",
-      "Complemento: a tiempo"
-    ],
-    "hintDisplay": "Sujeto: ellos / Verbo: soler (auxiliar de pasado habitual) / Verbo: enviar (infinitivo) / Complemento: sus informes / Complemento: a tiempo",
-    "spanishSentence": "¿Solían ellos enviar sus informes a tiempo?",
-    "correctSentence": "Did they use to submit their reports on time?",
-    "cards": [
-      {
-        "id": "d2",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "d1",
-        "text": "Do",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d5",
-        "text": "Used",
-        "isDistractor": true,
-        "translation": "acostumbrado"
-      },
-      {
-        "id": "c9",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c7",
-        "text": "reports",
-        "isDistractor": false,
-        "translation": "informes"
-      },
-      {
-        "id": "c3",
-        "text": "use",
-        "isDistractor": false,
-        "translation": "solían"
-      },
-      {
-        "id": "c1",
-        "text": "Did",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c8",
-        "text": "on",
-        "isDistractor": false,
-        "translation": "a"
-      },
-      {
-        "id": "c5",
-        "text": "submit",
-        "isDistractor": false,
-        "translation": "enviar"
-      },
-      {
-        "id": "d3",
-        "text": "Does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c6",
-        "text": "their",
-        "isDistractor": false,
-        "translation": "sus"
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d4",
-        "text": "Them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
         "id": "c2",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos"
-      }
-    ],
-    "translations": {
-      "did": "(auxiliar)",
-      "they": "ellos",
-      "use": "solían",
-      "to": "(marca de infinitivo)",
-      "submit": "enviar",
-      "their": "sus",
-      "reports": "informes",
-      "on": "a",
-      "time": "tiempo",
-      "do": "(auxiliar)",
-      "will": "(futuro)",
-      "does": "(auxiliar)",
-      "them": "los",
-      "used": "acostumbrado"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: tú",
-      "Verbo: soler (auxiliar; indica acciones pasadas habituales)",
-      "Verbo: colaborar",
-      "Complemento: con los miembros de tu equipo",
-      "Complemento: en la empresa anterior",
-      "Tiempo: antiguo, pasado"
-    ],
-    "hintDisplay": "Sujeto: tú / Verbo: soler (auxiliar; indica acciones pasadas habituales) / Verbo: colaborar / Complemento: con los miembros de tu equipo / Complemento: en la empresa anterior / Tiempo: antiguo, pasado",
-    "spanishSentence": "¿No solías colaborar con los miembros de tu equipo en la empresa anterior?",
-    "correctSentence": "Didn't you use to collaborate with your team members at the old company?",
-    "cards": [
-      {
-        "id": "c13",
-        "text": "company",
-        "isDistractor": false,
-        "translation": "empresa"
-      },
-      {
-        "id": "c5",
-        "text": "collaborate",
-        "isDistractor": false,
-        "translation": "colaborar"
-      },
-      {
-        "id": "c2",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "c12",
-        "text": "old",
-        "isDistractor": false,
-        "translation": "anterior"
-      },
-      {
-        "id": "d2",
-        "text": "collaborating",
-        "isDistractor": true,
-        "translation": "colaborando"
-      },
-      {
-        "id": "c3",
-        "text": "use",
-        "isDistractor": false,
-        "translation": "solías"
-      },
-      {
-        "id": "c11",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "c7",
-        "text": "your",
-        "isDistractor": false,
-        "translation": "tu"
-      },
-      {
-        "id": "c1",
-        "text": "Didn't",
-        "isDistractor": false,
+        "id": "d1",
+        "text": "does",
+        "isDistractor": true,
         "translation": "(auxiliar)"
       },
       {
-        "id": "d4",
+        "id": "d3",
+        "text": "on",
+        "isDistractor": true,
+        "translation": "en"
+      },
+      {
+        "id": "c7",
+        "text": "meetings",
+        "isDistractor": false,
+        "translation": "reuniones"
+      },
+      {
+        "id": "d2",
         "text": "used",
         "isDistractor": true,
-        "translation": "acostumbraba"
+        "translation": "solía"
       },
       {
-        "id": "c6",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "c4",
+        "id": "c5",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
       },
       {
+        "id": "c3",
+        "text": "manager",
+        "isDistractor": false,
+        "translation": "gerente"
+      },
+      {
         "id": "c8",
-        "text": "team",
+        "text": "every",
         "isDistractor": false,
-        "translation": "equipo"
+        "translation": "todos"
       },
       {
-        "id": "d3",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "qm",
-        "text": "?",
+        "id": "c6",
+        "text": "schedule",
         "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "d1",
-        "text": "Does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c10",
-        "text": "at",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c9",
-        "text": "members",
-        "isDistractor": false,
-        "translation": "miembros"
+        "translation": "programar"
       }
     ],
     "translations": {
-      "didn't": "(auxiliar)",
-      "you": "tú",
-      "use": "solías",
+      "did": "(auxiliar)",
+      "the": "el",
+      "manager": "gerente",
+      "use": "solía",
       "to": "(marca de infinitivo)",
-      "collaborate": "colaborar",
-      "with": "con",
-      "your": "tu",
-      "team": "equipo",
-      "members": "miembros",
-      "at": "en",
-      "the": "(artículo)",
-      "old": "anterior",
-      "company": "empresa",
+      "schedule": "programar",
+      "meetings": "reuniones",
+      "every": "todos",
+      "monday": "lunes",
       "does": "(auxiliar)",
-      "collaborating": "colaborando",
-      "him": "lo",
-      "used": "acostumbraba"
+      "used": "solía",
+      "on": "en"
     },
     "metadata": {
       "tense": "used to",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "intermediate",
       "topic": "work"
@@ -795,21 +755,31 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: usar (pasado, acción habitual)",
-      "Verbo: planificar",
-      "Complemento: nuestros proyectos",
-      "Complemento: juntos",
-      "Tiempo: cada lunes"
+      "Verbo: soler (acostumbrar, en pasado)",
+      "Complemento: planear nuestro trabajo en papel",
+      "Cláusula: antes de que usáramos computadoras"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: usar (pasado, acción habitual) / Verbo: planificar / Complemento: nuestros proyectos / Complemento: juntos / Tiempo: cada lunes",
-    "spanishSentence": "¿Solíamos planificar nuestros proyectos juntos cada lunes?",
-    "correctSentence": "Did we use to plan our projects together every Monday?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: soler (acostumbrar, en pasado) / Complemento: planear nuestro trabajo en papel / Cláusula: antes de que usáramos computadoras",
+    "spanishSentence": "¿Solíamos planear nuestro trabajo en papel antes de usar computadoras?",
+    "correctSentence": "Did we use to plan our work on paper before using computers?",
     "cards": [
       {
         "id": "c8",
-        "text": "together",
+        "text": "on",
         "isDistractor": false,
-        "translation": "juntos"
+        "translation": "en"
+      },
+      {
+        "id": "d2",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "eran"
+      },
+      {
+        "id": "c5",
+        "text": "plan",
+        "isDistractor": false,
+        "translation": "planear"
       },
       {
         "id": "c2",
@@ -818,46 +788,22 @@
         "translation": "nosotros"
       },
       {
-        "id": "c5",
-        "text": "plan",
-        "isDistractor": false,
-        "translation": "planificar"
-      },
-      {
         "id": "d3",
-        "text": "Were",
+        "text": "Have",
         "isDistractor": true,
-        "translation": "fueron"
+        "translation": "haber"
       },
       {
-        "id": "c7",
-        "text": "projects",
+        "id": "c9",
+        "text": "paper",
         "isDistractor": false,
-        "translation": "proyectos"
+        "translation": "papel"
       },
       {
-        "id": "c3",
-        "text": "use",
+        "id": "c12",
+        "text": "computers",
         "isDistractor": false,
-        "translation": "solíamos"
-      },
-      {
-        "id": "d2",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c10",
-        "text": "Monday",
-        "isDistractor": false,
-        "translation": "lunes"
-      },
-      {
-        "id": "d1",
-        "text": "Do",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "computadoras"
       },
       {
         "id": "c4",
@@ -866,22 +812,16 @@
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "c6",
-        "text": "our",
-        "isDistractor": false,
-        "translation": "nuestro"
-      },
-      {
-        "id": "c1",
-        "text": "Did",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
         "id": "d4",
-        "text": "Us",
+        "text": "planned",
         "isDistractor": true,
-        "translation": "nos"
+        "translation": "planeado"
+      },
+      {
+        "id": "d1",
+        "text": "Do",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "qm",
@@ -890,27 +830,66 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "c9",
-        "text": "every",
+        "id": "c3",
+        "text": "use",
         "isDistractor": false,
-        "translation": "cada"
+        "translation": "solíamos"
+      },
+      {
+        "id": "c7",
+        "text": "work",
+        "isDistractor": false,
+        "translation": "trabajo"
+      },
+      {
+        "id": "c11",
+        "text": "using",
+        "isDistractor": false,
+        "translation": "usar"
+      },
+      {
+        "id": "c6",
+        "text": "our",
+        "isDistractor": false,
+        "translation": "nuestro"
+      },
+      {
+        "id": "c10",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c1",
+        "text": "Did",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d5",
+        "text": "used",
+        "isDistractor": true,
+        "translation": "solíamos"
       }
     ],
     "translations": {
       "did": "(auxiliar)",
       "we": "nosotros",
-      "use": "solíamos",
+      "used": "solíamos",
       "to": "(marca de infinitivo)",
-      "plan": "planificar",
+      "plan": "planear",
       "our": "nuestro",
-      "projects": "proyectos",
-      "together": "juntos",
-      "every": "cada",
-      "monday": "lunes",
+      "work": "trabajo",
+      "on": "en",
+      "paper": "papel",
+      "before": "antes de",
+      "using": "usar",
+      "computers": "computadoras",
       "do": "(auxiliar)",
-      "will": "(futuro)",
-      "were": "fueron",
-      "us": "nos"
+      "were": "eran",
+      "have": "haber",
+      "planned": "planeado",
+      "use": "solíamos"
     },
     "metadata": {
       "tense": "used to",
@@ -922,45 +901,62 @@
   },
   {
     "hints": [
-      "Sujeto: el jefe",
-      "Verbo: usar (pasado, hábito)",
-      "Verbo: aprobar (infinitivo)",
-      "Complemento: esos documentos",
-      "Complemento: sin revisar primero"
+      "Sujeto: el equipo",
+      "Verbo: terminar",
+      "Complemento: el trabajo",
+      "Tiempo: a tiempo"
     ],
-    "hintDisplay": "Sujeto: el jefe / Verbo: usar (pasado, hábito) / Verbo: aprobar (infinitivo) / Complemento: esos documentos / Complemento: sin revisar primero",
-    "spanishSentence": "¿El jefe no solía aprobar esos documentos sin revisarlos primero?",
-    "correctSentence": "Didn't the boss use to approve those documents without reviewing them first?",
+    "hintDisplay": "Sujeto: el equipo / Verbo: terminar / Complemento: el trabajo / Tiempo: a tiempo",
+    "spanishSentence": "¿El equipo solía terminar el trabajo a tiempo?",
+    "correctSentence": "Did the team use to finish the work on time?",
     "cards": [
       {
-        "id": "d1",
-        "text": "Uses",
+        "id": "d2",
+        "text": "used",
         "isDistractor": true,
-        "translation": "usa"
+        "translation": "solía"
       },
       {
-        "id": "c9",
-        "text": "without",
+        "id": "d5",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "era"
+      },
+      {
+        "id": "c5",
+        "text": "to",
         "isDistractor": false,
-        "translation": "sin"
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c8",
+        "text": "work",
+        "isDistractor": false,
+        "translation": "trabajo"
       },
       {
         "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "c7",
-        "text": "those",
+        "id": "c3",
+        "text": "team",
         "isDistractor": false,
-        "translation": "esos"
+        "translation": "equipo"
       },
       {
-        "id": "d3",
-        "text": "Will",
+        "id": "d1",
+        "text": "Does",
         "isDistractor": true,
-        "translation": "(futuro)"
+        "translation": "(auxiliar)"
       },
       {
         "id": "c4",
@@ -969,34 +965,279 @@
         "translation": "solía"
       },
       {
-        "id": "c8",
-        "text": "documents",
+        "id": "c1",
+        "text": "Did",
         "isDistractor": false,
-        "translation": "documentos"
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c6",
+        "text": "finish",
+        "isDistractor": false,
+        "translation": "terminar"
+      },
+      {
+        "id": "d4",
+        "text": "finished",
+        "isDistractor": true,
+        "translation": "terminó"
+      },
+      {
+        "id": "c9",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "c10",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "tiempo"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      }
+    ],
+    "translations": {
+      "did": "(auxiliar)",
+      "the": "el",
+      "team": "equipo",
+      "use": "solía",
+      "to": "(marca de infinitivo)",
+      "finish": "terminar",
+      "work": "trabajo",
+      "on": "a",
+      "time": "tiempo",
+      "does": "(auxiliar)",
+      "used": "solía",
+      "they": "ellos",
+      "finished": "terminó",
+      "was": "era"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ustedes",
+      "Verbo: soler (hábito en el pasado)",
+      "Complemento: evaluar a sus empleados personalmente",
+      "Tiempo: pretérito imperfecto de indicativo (soler en pasado)"
+    ],
+    "hintDisplay": "Sujeto: ustedes / Verbo: soler (hábito en el pasado) / Complemento: evaluar a sus empleados personalmente / Tiempo: pretérito imperfecto de indicativo (soler en pasado)",
+    "spanishSentence": "¿Ustedes solían evaluar a sus empleados personalmente?",
+    "correctSentence": "Did you use to evaluate your employees personally?",
+    "cards": [
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c6",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "sus"
+      },
+      {
+        "id": "d4",
+        "text": "himself",
+        "isDistractor": true,
+        "translation": "él mismo"
+      },
+      {
+        "id": "c3",
+        "text": "use",
+        "isDistractor": false,
+        "translation": "solían"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "ustedes"
+      },
+      {
+        "id": "c8",
+        "text": "personally",
+        "isDistractor": false,
+        "translation": "personalmente"
+      },
+      {
+        "id": "c5",
+        "text": "evaluate",
+        "isDistractor": false,
+        "translation": "evaluar"
+      },
+      {
+        "id": "c1",
+        "text": "Did",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "d2",
-        "text": "Does",
+        "text": "assess",
+        "isDistractor": true,
+        "translation": "evaluar"
+      },
+      {
+        "id": "d1",
+        "text": "used",
+        "isDistractor": true,
+        "translation": "solían"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c7",
+        "text": "employees",
+        "isDistractor": false,
+        "translation": "empleados"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "d5",
+        "text": "utilize",
+        "isDistractor": true,
+        "translation": "utilizar"
+      }
+    ],
+    "translations": {
+      "did": "(auxiliar)",
+      "you": "ustedes",
+      "use": "solían",
+      "to": "(marca de infinitivo)",
+      "evaluate": "evaluar",
+      "your": "sus",
+      "employees": "empleados",
+      "personally": "personalmente",
+      "used": "solían",
+      "assess": "evaluar",
+      "they": "ellos",
+      "himself": "él mismo",
+      "utilize": "utilizar"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "work"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: soler (en negativo, pretérito imperfecto)",
+      "Complemento: colaborar en todos los proyectos",
+      "Tiempo: en el pasado (expresado por el verbo \"soler\" en imperfecto)"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: soler (en negativo, pretérito imperfecto) / Complemento: colaborar en todos los proyectos / Tiempo: en el pasado (expresado por el verbo \"soler\" en imperfecto)",
+    "spanishSentence": "¿No solía el equipo colaborar en todos los proyectos?",
+    "correctSentence": "Didn't the team used to collaborate on every project?",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "those",
+        "isDistractor": true,
+        "translation": "esos"
+      },
+      {
+        "id": "d3",
+        "text": "collaborating",
+        "isDistractor": true,
+        "translation": "colaborando"
+      },
+      {
+        "id": "d1",
+        "text": "Doesn't",
         "isDistractor": true,
         "translation": "(auxiliar)"
       },
       {
-        "id": "c11",
-        "text": "them",
-        "isDistractor": false,
-        "translation": "los"
+        "id": "d5",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
       },
       {
-        "id": "c6",
-        "text": "approve",
+        "id": "c3",
+        "text": "team",
         "isDistractor": false,
-        "translation": "aprobar"
+        "translation": "equipo"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c4",
+        "text": "used",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "c8",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "todos"
       },
       {
         "id": "qm",
         "text": "?",
         "isDistractor": false,
         "translation": "signo de interrogación"
+      },
+      {
+        "id": "c6",
+        "text": "collaborate",
+        "isDistractor": false,
+        "translation": "colaborar"
+      },
+      {
+        "id": "c9",
+        "text": "project",
+        "isDistractor": false,
+        "translation": "proyectos"
+      },
+      {
+        "id": "d2",
+        "text": "use",
+        "isDistractor": true,
+        "translation": "usar"
       },
       {
         "id": "c5",
@@ -1009,367 +1250,27 @@
         "text": "Didn't",
         "isDistractor": false,
         "translation": "(auxiliar)"
-      },
-      {
-        "id": "d4",
-        "text": "Approves",
-        "isDistractor": true,
-        "translation": "aprueba"
-      },
-      {
-        "id": "c10",
-        "text": "reviewing",
-        "isDistractor": false,
-        "translation": "revisar"
-      },
-      {
-        "id": "c12",
-        "text": "first",
-        "isDistractor": false,
-        "translation": "primero"
-      },
-      {
-        "id": "c3",
-        "text": "boss",
-        "isDistractor": false,
-        "translation": "jefe"
       }
     ],
     "translations": {
       "didn't": "(auxiliar)",
-      "the": "(artículo)",
-      "boss": "jefe",
-      "use": "solía",
+      "the": "el",
+      "team": "equipo",
+      "used": "solía",
       "to": "(marca de infinitivo)",
-      "approve": "aprobar",
+      "collaborate": "colaborar",
+      "on": "en",
+      "every": "todos",
+      "project": "proyectos",
+      "doesn't": "(auxiliar)",
+      "use": "usar",
+      "collaborating": "colaborando",
       "those": "esos",
-      "documents": "documentos",
-      "without": "sin",
-      "reviewing": "revisar",
-      "them": "los",
-      "first": "primero",
-      "uses": "usa",
-      "does": "(auxiliar)",
-      "will": "(futuro)",
-      "approves": "aprueba"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Verbo: do (auxiliar para preguntas en pasado)",
-      "Sujeto: the intern (el pasante)",
-      "Verbo: use to (solía, acción habitual en el pasado)",
-      "Verbo: organize (organizar)",
-      "Complemento: the files in the office (los archivos en la oficina)"
-    ],
-    "hintDisplay": "Verbo: do (auxiliar para preguntas en pasado) / Sujeto: the intern (el pasante) / Verbo: use to (solía, acción habitual en el pasado) / Verbo: organize (organizar) / Complemento: the files in the office (los archivos en la oficina)",
-    "spanishSentence": "¿Solía el pasante organizar los archivos en la oficina?",
-    "correctSentence": "Did the intern use to organize the files in the office?",
-    "cards": [
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "d2",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "d4",
-        "text": "organized",
-        "isDistractor": true,
-        "translation": "organizados"
-      },
-      {
-        "id": "c4",
-        "text": "use",
-        "isDistractor": false,
-        "translation": "solía"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "organize",
-        "isDistractor": false,
-        "translation": "organizar"
-      },
-      {
-        "id": "d1",
-        "text": "Does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c1",
-        "text": "Did",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c8",
-        "text": "files",
-        "isDistractor": false,
-        "translation": "archivos"
-      },
-      {
-        "id": "c11",
-        "text": "office",
-        "isDistractor": false,
-        "translation": "oficina"
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c3",
-        "text": "intern",
-        "isDistractor": false,
-        "translation": "pasante"
-      },
-      {
-        "id": "d5",
-        "text": "Would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      }
-    ],
-    "translations": {
-      "did": "(auxiliar)",
-      "the": "(artículo)",
-      "intern": "pasante",
-      "use": "solía",
-      "to": "(marca de infinitivo)",
-      "organize": "organizar",
-      "files": "archivos",
-      "in": "en",
-      "office": "oficina",
-      "does": "(auxiliar)",
-      "will": "(futuro)",
-      "them": "los",
-      "organized": "organizados",
       "would": "(condicional)"
     },
     "metadata": {
       "tense": "used to",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "work"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: tú",
-      "Verbo: usar (pasado habitual)",
-      "Verbo: enviar",
-      "Complemento: reportes",
-      "Complemento: a tiempo",
-      "Tiempo: cuando trabajabas en tu trabajo anterior"
-    ],
-    "hintDisplay": "Sujeto: tú / Verbo: usar (pasado habitual) / Verbo: enviar / Complemento: reportes / Complemento: a tiempo / Tiempo: cuando trabajabas en tu trabajo anterior",
-    "spanishSentence": "¿Solías enviar tus reportes a tiempo cuando trabajabas en tu trabajo anterior?",
-    "correctSentence": "Did you use to submit your reports on time when you worked at your previous job?",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
-      },
-      {
-        "id": "c16",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "trabajo"
-      },
-      {
-        "id": "c13",
-        "text": "at",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c12",
-        "text": "worked",
-        "isDistractor": false,
-        "translation": "trabajabas"
-      },
-      {
-        "id": "c15",
-        "text": "previous",
-        "isDistractor": false,
-        "translation": "anterior"
-      },
-      {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c10",
-        "text": "when",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "d5",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d4",
-        "text": "submitting",
-        "isDistractor": true,
-        "translation": "enviando"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c3",
-        "text": "use",
-        "isDistractor": false,
-        "translation": "solías"
-      },
-      {
-        "id": "c2",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "c8",
-        "text": "on",
-        "isDistractor": false,
-        "translation": "a"
-      },
-      {
-        "id": "c1",
-        "text": "Did",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c11",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "d2",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "c6",
-        "text": "your",
-        "isDistractor": false,
-        "translation": "tus"
-      },
-      {
-        "id": "c7",
-        "text": "reports",
-        "isDistractor": false,
-        "translation": "reportes"
-      },
-      {
-        "id": "c5",
-        "text": "submit",
-        "isDistractor": false,
-        "translation": "enviar"
-      },
-      {
-        "id": "c14",
-        "text": "your",
-        "isDistractor": false,
-        "translation": "tus"
-      },
-      {
-        "id": "c9",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      }
-    ],
-    "translations": {
-      "did": "(auxiliar)",
-      "you": "tú",
-      "use": "solías",
-      "to": "(marca de infinitivo)",
-      "submit": "enviar",
-      "your": "tus",
-      "reports": "reportes",
-      "on": "a",
-      "time": "tiempo",
-      "when": "cuando",
-      "worked": "trabajabas",
-      "at": "en",
-      "previous": "anterior",
-      "job": "trabajo",
-      "uses": "usa",
-      "him": "lo",
-      "will": "(futuro)",
-      "submitting": "enviando",
-      "does": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "intermediate",
       "topic": "work"

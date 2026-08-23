@@ -1,1145 +1,298 @@
 [
   {
     "hints": [
-      "Sujeto: el equipo",
-      "Verbo: tener (condicional, expresando una situación hipotética)",
-      "Complemento: mejores herramientas de monitoreo",
-      "Verbo: poder (modal, indicando capacidad/posibilidad)",
-      "Verbo: pasar por alto (no hacer, omitir)",
-      "Complemento: fallos críticos del sistema"
+      "Sujeto: nosotros",
+      "Verbo: refactorizar (condicional)",
+      "Complemento: el código heredado",
+      "Cláusula: primero escribir pruebas exhaustivas"
     ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: tener (condicional, expresando una situación hipotética) / Complemento: mejores herramientas de monitoreo / Verbo: poder (modal, indicando capacidad/posibilidad) / Verbo: pasar por alto (no hacer, omitir) / Complemento: fallos críticos del sistema",
-    "spanishSentence": "Si el equipo tuviera mejores herramientas de monitoreo, no podrían pasar por alto fallos críticos del sistema.",
-    "correctSentence": "If the team had better monitoring tools, they could not miss critical system failures.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: refactorizar (condicional) / Complemento: el código heredado / Cláusula: primero escribir pruebas exhaustivas",
+    "spanishSentence": "Si refactorizáramos el código heredado, deberíamos primero escribir pruebas exhaustivas.",
+    "correctSentence": "If we refactored the legacy codebase, we should first write comprehensive tests.",
     "cards": [
       {
-        "id": "d5",
-        "text": "missed",
+        "id": "d3",
+        "text": "refactoring",
         "isDistractor": true,
-        "translation": "pasado por alto"
+        "translation": "refactorizando"
       },
       {
-        "id": "d4",
-        "text": "having",
-        "isDistractor": true,
-        "translation": "teniendo"
+        "id": "c5",
+        "text": "legacy",
+        "isDistractor": false,
+        "translation": "heredado"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c6",
+        "text": "codebase",
+        "isDistractor": false,
+        "translation": "código base"
+      },
+      {
+        "id": "c7",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "deberíamos"
+      },
+      {
+        "id": "c11",
+        "text": "comprehensive",
+        "isDistractor": false,
+        "translation": "pruebas exhaustivas"
+      },
+      {
+        "id": "c3",
+        "text": "refactored",
+        "isDistractor": false,
+        "translation": "refactorizáramos"
+      },
+      {
+        "id": "c9",
+        "text": "first",
+        "isDistractor": false,
+        "translation": "primero"
+      },
+      {
+        "id": "c12",
+        "text": "tests",
+        "isDistractor": false,
+        "translation": "pruebas"
       },
       {
         "id": "d1",
+        "text": "refactor",
+        "isDistractor": true,
+        "translation": "refactorizar"
+      },
+      {
+        "id": "d4",
         "text": "would",
         "isDistractor": true,
         "translation": "(condicional)"
       },
       {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false,
-        "translation": "tuviera"
-      },
-      {
-        "id": "c8",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
         "id": "d2",
-        "text": "might",
+        "text": "refactors",
         "isDistractor": true,
-        "translation": "podrían"
+        "translation": "refactoriza"
       },
       {
-        "id": "c6",
-        "text": "monitoring",
+        "id": "c10",
+        "text": "write",
         "isDistractor": false,
-        "translation": "monitoreo"
+        "translation": "escribir"
       },
       {
-        "id": "c13",
-        "text": "system",
+        "id": "d5",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "we": "nosotros",
+      "refactored": "refactorizáramos",
+      "the": "el",
+      "legacy": "heredado",
+      "codebase": "código base",
+      "should": "deberíamos",
+      "first": "primero",
+      "write": "escribir",
+      "comprehensive": "pruebas exhaustivas",
+      "tests": "pruebas",
+      "refactor": "refactorizar",
+      "refactors": "refactoriza",
+      "refactoring": "refactorizando",
+      "would": "(condicional)",
+      "had": "había"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: poder (habilidad)",
+      "Verbo: monitorear",
+      "Complemento: el rendimiento del sistema",
+      "Complemento: de manera más efectiva",
+      "Tiempo: si tuvieran",
+      "Cláusula: si ellos tuvieran paneles en tiempo real"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: poder (habilidad) / Verbo: monitorear / Complemento: el rendimiento del sistema / Complemento: de manera más efectiva / Tiempo: si tuvieran / Cláusula: si ellos tuvieran paneles en tiempo real",
+    "spanishSentence": "El equipo podría monitorear el rendimiento del sistema de manera más efectiva si tuvieran paneles en tiempo real.",
+    "correctSentence": "The team could monitor the system’s performance more effectively if they had real-time dashboards.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "monitor",
         "isDistractor": false,
-        "translation": "sistema"
+        "translation": "monitorear"
       },
       {
-        "id": "c5",
-        "text": "better",
+        "id": "c9",
+        "text": "effectively",
         "isDistractor": false,
-        "translation": "mejores"
+        "translation": "efectivamente"
       },
       {
-        "id": "c7",
-        "text": "tools",
-        "isDistractor": false,
-        "translation": "herramientas"
-      },
-      {
-        "id": "c3",
+        "id": "c2",
         "text": "team",
         "isDistractor": false,
         "translation": "equipo"
       },
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c11",
-        "text": "miss",
-        "isDistractor": false,
-        "translation": "pasar por alto"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "can",
-        "isDistractor": true,
-        "translation": "pueden"
-      },
-      {
-        "id": "c10",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c12",
-        "text": "critical",
-        "isDistractor": false,
-        "translation": "críticos"
-      },
-      {
-        "id": "c9",
+        "id": "c3",
         "text": "could",
         "isDistractor": false,
-        "translation": "podrían"
+        "translation": "podría"
       },
       {
-        "id": "c14",
-        "text": "failures",
-        "isDistractor": false,
-        "translation": "fallos"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "team": "equipo",
-      "had": "tuviera",
-      "better": "mejores",
-      "monitoring": "monitoreo",
-      "tools": "herramientas",
-      "they": "ellos",
-      "could": "podrían",
-      "not": "no",
-      "miss": "pasar por alto",
-      "critical": "críticos",
-      "system": "sistema",
-      "failures": "fallos",
-      "would": "(condicional)",
-      "might": "podrían",
-      "can": "pueden",
-      "having": "teniendo",
-      "missed": "pasado por alto"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: implementar (condicional)",
-      "Complemento: la contenerización",
-      "Sujeto: yo",
-      "Verbo: poder (habilidad, condicional)",
-      "Verbo: escalar (infinitivo)",
-      "Complemento: la infraestructura de la aplicación",
-      "Complemento: de manera más eficiente"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: implementar (condicional) / Complemento: la contenerización / Sujeto: yo / Verbo: poder (habilidad, condicional) / Verbo: escalar (infinitivo) / Complemento: la infraestructura de la aplicación / Complemento: de manera más eficiente",
-    "spanishSentence": "Si implementáramos la contenerización, podría escalar la infraestructura de la aplicación de manera más eficiente.",
-    "correctSentence": "If we implemented containerization, I could scale the application infrastructure more efficiently.",
-    "cards": [
-      {
-        "id": "c9",
-        "text": "application",
-        "isDistractor": false,
-        "translation": "aplicación"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c3",
-        "text": "implemented",
-        "isDistractor": false,
-        "translation": "implementáramos"
+        "id": "d4",
+        "text": "boards",
+        "isDistractor": true,
+        "translation": "tableros"
       },
       {
         "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c10",
-        "text": "infrastructure",
-        "isDistractor": false,
-        "translation": "infraestructura"
-      },
-      {
-        "id": "c7",
-        "text": "scale",
-        "isDistractor": false,
-        "translation": "escalar"
-      },
-      {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c11",
         "text": "more",
         "isDistractor": false,
         "translation": "más"
       },
       {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c4",
-        "text": "containerization",
-        "isDistractor": false,
-        "translation": "contenerización"
-      },
-      {
-        "id": "d4",
-        "text": "us",
-        "isDistractor": true,
-        "translation": "nos"
-      },
-      {
-        "id": "c5",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "d1",
-        "text": "implementing",
-        "isDistractor": true,
-        "translation": "implementando"
-      },
-      {
-        "id": "c12",
-        "text": "efficiently",
-        "isDistractor": false,
-        "translation": "eficientemente"
-      },
-      {
-        "id": "c6",
-        "text": "could",
-        "isDistractor": false,
-        "translation": "podría"
-      },
-      {
-        "id": "d5",
-        "text": "effective",
-        "isDistractor": true,
-        "translation": "efectivo"
-      },
-      {
-        "id": "d2",
-        "text": "scales",
-        "isDistractor": true,
-        "translation": "escala"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "implemented": "implementáramos",
-      "containerization": "contenerización",
-      "i": "yo",
-      "could": "podría",
-      "scale": "escalar",
-      "the": "(artículo)",
-      "application": "aplicación",
-      "infrastructure": "infraestructura",
-      "more": "más",
-      "efficiently": "eficientemente",
-      "implementing": "implementando",
-      "scales": "escala",
-      "would": "(condicional)",
-      "us": "nos",
-      "effective": "efectivo"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Yo",
-      "Tiempo: Condicional (si tuviera)",
-      "Verbo: Poder (habilidad/posibilidad)",
-      "Verbo: Estilizar",
-      "Complemento: Toda la interfaz de usuario",
-      "Complemento: Con un sistema de diseño moderno"
-    ],
-    "hintDisplay": "Sujeto: Yo / Tiempo: Condicional (si tuviera) / Verbo: Poder (habilidad/posibilidad) / Verbo: Estilizar / Complemento: Toda la interfaz de usuario / Complemento: Con un sistema de diseño moderno",
-    "spanishSentence": "Si tuviera más tiempo, podría estilizar toda la interfaz de usuario con un sistema de diseño moderno.",
-    "correctSentence": "If I had more time, I could style the entire user interface with a modern design system.",
-    "cards": [
-      {
-        "id": "c7",
-        "text": "could",
-        "isDistractor": false,
-        "translation": "podría"
-      },
-      {
-        "id": "c1",
-        "text": "If",
+        "id": "c10",
+        "text": "if",
         "isDistractor": false,
         "translation": "si"
       },
       {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "sería"
+        "id": "c14",
+        "text": "dashboards",
+        "isDistractor": false,
+        "translation": "paneles"
       },
       {
-        "id": "c3",
+        "id": "c12",
         "text": "had",
         "isDistractor": false,
-        "translation": "tuviera"
-      },
-      {
-        "id": "d2",
-        "text": "might",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "c4",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d3",
-        "text": "styled",
-        "isDistractor": true,
-        "translation": "estilizado"
-      },
-      {
-        "id": "c13",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "c10",
-        "text": "entire",
-        "isDistractor": false,
-        "translation": "toda"
+        "translation": "tuvieran"
       },
       {
         "id": "c11",
-        "text": "user",
-        "isDistractor": false,
-        "translation": "usuario"
-      },
-      {
-        "id": "c16",
-        "text": "design",
-        "isDistractor": false,
-        "translation": "diseño"
-      },
-      {
-        "id": "c8",
-        "text": "style",
-        "isDistractor": false,
-        "translation": "estilizar"
-      },
-      {
-        "id": "c14",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c17",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c5",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c12",
-        "text": "interface",
-        "isDistractor": false,
-        "translation": "interfaz"
-      },
-      {
-        "id": "c15",
-        "text": "modern",
-        "isDistractor": false,
-        "translation": "moderno"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "i": "yo",
-      "had": "tuviera",
-      "more": "más",
-      "time": "tiempo",
-      "could": "podría",
-      "style": "estilizar",
-      "the": "(artículo)",
-      "entire": "toda",
-      "user": "usuario",
-      "interface": "interfaz",
-      "with": "con",
-      "a": "(artículo)",
-      "modern": "moderno",
-      "design": "diseño",
-      "system": "sistema",
-      "would": "sería",
-      "might": "podría",
-      "styled": "estilizado"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Tiempo: condicional (si tuviéramos)",
-      "Verbo: tener",
-      "Complemento: más tiempo",
-      "Verbo: construir",
-      "Complemento: una arquitectura más escalable para nuestra aplicación"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Tiempo: condicional (si tuviéramos) / Verbo: tener / Complemento: más tiempo / Verbo: construir / Complemento: una arquitectura más escalable para nuestra aplicación",
-    "spanishSentence": "Si tuviéramos más tiempo, construiríamos una arquitectura más escalable para nuestra aplicación.",
-    "correctSentence": "If we had more time, we would build a more scalable architecture for our application.",
-    "cards": [
-      {
-        "id": "c10",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false,
-        "translation": "tuviéramos"
-      },
-      {
-        "id": "c14",
-        "text": "our",
-        "isDistractor": false,
-        "translation": "nuestro"
-      },
-      {
-        "id": "c6",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c8",
-        "text": "build",
-        "isDistractor": false,
-        "translation": "construir"
-      },
-      {
-        "id": "c12",
-        "text": "architecture",
-        "isDistractor": false,
-        "translation": "arquitectura"
-      },
-      {
-        "id": "c4",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      },
-      {
-        "id": "c9",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d1",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "haber"
-      },
-      {
-        "id": "d2",
-        "text": "built",
-        "isDistractor": true,
-        "translation": "construido"
-      },
-      {
-        "id": "d4",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c5",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c15",
-        "text": "application",
-        "isDistractor": false,
-        "translation": "aplicación"
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c13",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c11",
-        "text": "scalable",
-        "isDistractor": false,
-        "translation": "escalable"
-      },
-      {
-        "id": "d5",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "pudiera"
-      },
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "had": "tuviéramos",
-      "more": "más",
-      "time": "tiempo",
-      "would": "(condicional)",
-      "build": "construir",
-      "a": "(artículo)",
-      "scalable": "escalable",
-      "architecture": "arquitectura",
-      "for": "para",
-      "our": "nuestro",
-      "application": "aplicación",
-      "have": "haber",
-      "built": "construido",
-      "will": "(futuro)",
-      "they": "ellos",
-      "could": "pudiera"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: evaluar (condicional negativo - pasado)",
-      "Complemento: los requisitos del sistema",
-      "Verbo: deber (modal - condicional negativo)",
-      "Complemento: proceder con la implementación"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: evaluar (condicional negativo - pasado) / Complemento: los requisitos del sistema / Verbo: deber (modal - condicional negativo) / Complemento: proceder con la implementación",
-    "spanishSentence": "Si el arquitecto no evaluara los requisitos del sistema, no deberías proceder con la implementación.",
-    "correctSentence": "If the architect didn't evaluate the system requirements, you should not proceed with the implementation.",
-    "cards": [
-      {
-        "id": "c13",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c11",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c7",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
-      },
-      {
-        "id": "c8",
-        "text": "requirements",
-        "isDistractor": false,
-        "translation": "requisitos"
-      },
-      {
-        "id": "c5",
-        "text": "evaluate",
-        "isDistractor": false,
-        "translation": "evaluar"
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "d1",
-        "text": "evaluates",
-        "isDistractor": true,
-        "translation": "evalúa"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d4",
-        "text": "commence",
-        "isDistractor": true,
-        "translation": "comenzar"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c10",
-        "text": "should",
-        "isDistractor": false,
-        "translation": "deberías"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "proceed",
-        "isDistractor": false,
-        "translation": "proceder"
-      },
-      {
-        "id": "c15",
-        "text": "implementation",
-        "isDistractor": false,
-        "translation": "implementación"
-      },
-      {
-        "id": "c4",
-        "text": "didn't",
-        "isDistractor": false,
-        "translation": "(negación pasado)"
-      },
-      {
-        "id": "c3",
-        "text": "architect",
-        "isDistractor": false,
-        "translation": "arquitecto"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "architect": "arquitecto",
-      "didn't": "(negación pasado)",
-      "evaluate": "evaluar",
-      "system": "sistema",
-      "requirements": "requisitos",
-      "you": "tú",
-      "should": "deberías",
-      "not": "no",
-      "proceed": "proceder",
-      "with": "con",
-      "implementation": "implementación",
-      "evaluates": "evalúa",
-      "them": "los",
-      "would": "(condicional)",
-      "commence": "comenzar"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador backend",
-      "Verbo: optimizar (condicional)",
-      "Complemento: las consultas de base de datos",
-      "Verbo: poder (modal, condicional)",
-      "Complemento: más solicitudes concurrentes",
-      "Verbo: manejar (infinitivo después de modal)"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: optimizar (condicional) / Complemento: las consultas de base de datos / Verbo: poder (modal, condicional) / Complemento: más solicitudes concurrentes / Verbo: manejar (infinitivo después de modal)",
-    "spanishSentence": "Si el desarrollador backend optimizara las consultas de base de datos, la aplicación podría manejar más solicitudes concurrentes.",
-    "correctSentence": "If the backend developer optimized the database queries, the application might handle more concurrent requests.",
-    "cards": [
-      {
-        "id": "d5",
-        "text": "manages",
-        "isDistractor": true,
-        "translation": "gestiona"
-      },
-      {
-        "id": "d3",
-        "text": "handled",
-        "isDistractor": true,
-        "translation": "manejadas"
-      },
-      {
-        "id": "d4",
-        "text": "could've",
-        "isDistractor": true,
-        "translation": "hubiera podido"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c13",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      },
-      {
-        "id": "c7",
-        "text": "database",
-        "isDistractor": false,
-        "translation": "base de datos"
-      },
-      {
-        "id": "c5",
-        "text": "optimized",
-        "isDistractor": false,
-        "translation": "optimizara"
-      },
-      {
-        "id": "c12",
-        "text": "handle",
-        "isDistractor": false,
-        "translation": "manejar"
-      },
-      {
-        "id": "c11",
-        "text": "might",
-        "isDistractor": false,
-        "translation": "podría"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c15",
-        "text": "requests",
-        "isDistractor": false,
-        "translation": "solicitudes"
-      },
-      {
-        "id": "d1",
-        "text": "optimizes",
-        "isDistractor": true,
-        "translation": "optimiza"
-      },
-      {
-        "id": "c10",
-        "text": "application",
-        "isDistractor": false,
-        "translation": "aplicación"
-      },
-      {
-        "id": "c3",
-        "text": "backend",
-        "isDistractor": false,
-        "translation": "backend"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c14",
-        "text": "concurrent",
-        "isDistractor": false,
-        "translation": "concurrentes"
-      },
-      {
-        "id": "c8",
-        "text": "queries",
-        "isDistractor": false,
-        "translation": "consultas"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "backend": "backend",
-      "developer": "desarrollador",
-      "optimized": "optimizara",
-      "database": "base de datos",
-      "queries": "consultas",
-      "application": "aplicación",
-      "might": "podría",
-      "handle": "manejar",
-      "more": "más",
-      "concurrent": "concurrentes",
-      "requests": "solicitudes",
-      "optimizes": "optimiza",
-      "would": "(condicional)",
-      "handled": "manejadas",
-      "could've": "hubiera podido",
-      "manages": "gestiona"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: tener (condicional)",
-      "Complemento: más tiempo",
-      "Verbo: poder (condicional, habilidad)",
-      "Verbo: optimizar",
-      "Complemento: el algoritmo",
-      "Verbo: mejorar",
-      "Complemento: el rendimiento significativamente"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: tener (condicional) / Complemento: más tiempo / Verbo: poder (condicional, habilidad) / Verbo: optimizar / Complemento: el algoritmo / Verbo: mejorar / Complemento: el rendimiento significativamente",
-    "spanishSentence": "Si el desarrollador tuviera más tiempo, podría optimizar el algoritmo para mejorar el rendimiento significativamente.",
-    "correctSentence": "If the developer had more time, they could optimize the algorithm to improve performance significantly.",
-    "cards": [
-      {
-        "id": "c5",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      },
-      {
-        "id": "c4",
-        "text": "had",
-        "isDistractor": false,
-        "translation": "tuviera"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d3",
-        "text": "can",
-        "isDistractor": true,
-        "translation": "puede"
-      },
-      {
-        "id": "c6",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c12",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "d4",
-        "text": "optimizing",
-        "isDistractor": true,
-        "translation": "optimizando"
-      },
-      {
-        "id": "c7",
         "text": "they",
         "isDistractor": false,
         "translation": "ellos"
       },
       {
-        "id": "c15",
-        "text": "significantly",
-        "isDistractor": false,
-        "translation": "significativamente"
-      },
-      {
-        "id": "c10",
+        "id": "c5",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "c14",
+        "id": "c6",
+        "text": "system’s",
+        "isDistractor": false,
+        "translation": "del sistema"
+      },
+      {
+        "id": "d1",
+        "text": "watched",
+        "isDistractor": true,
+        "translation": "observaron"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d5",
+        "text": "couldn't",
+        "isDistractor": true,
+        "translation": "no podía"
+      },
+      {
+        "id": "d2",
+        "text": "observe",
+        "isDistractor": true,
+        "translation": "observar"
+      },
+      {
+        "id": "c13",
+        "text": "real-time",
+        "isDistractor": false,
+        "translation": "en tiempo real"
+      },
+      {
+        "id": "c7",
         "text": "performance",
         "isDistractor": false,
         "translation": "rendimiento"
-      },
-      {
-        "id": "c9",
-        "text": "optimize",
-        "isDistractor": false,
-        "translation": "optimizar"
-      },
-      {
-        "id": "c11",
-        "text": "algorithm",
-        "isDistractor": false,
-        "translation": "algoritmo"
-      },
-      {
-        "id": "c8",
-        "text": "could",
-        "isDistractor": false,
-        "translation": "podría"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d5",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c13",
-        "text": "improve",
-        "isDistractor": false,
-        "translation": "mejorar"
-      },
-      {
-        "id": "d1",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "tiene"
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
       }
     ],
     "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "developer": "desarrollador",
-      "had": "tuviera",
-      "more": "más",
-      "time": "tiempo",
-      "they": "ellos",
+      "the": "el",
+      "team": "equipo",
       "could": "podría",
-      "optimize": "optimizar",
-      "algorithm": "algoritmo",
-      "to": "(marca de infinitivo)",
-      "improve": "mejorar",
+      "monitor": "monitorear",
+      "system’s": "del sistema",
       "performance": "rendimiento",
-      "significantly": "significativamente",
-      "has": "tiene",
+      "more": "más",
+      "effectively": "efectivamente",
+      "if": "si",
+      "they": "ellos",
+      "had": "tuvieran",
+      "real-time": "en tiempo real",
+      "dashboards": "paneles",
+      "watched": "observaron",
+      "observe": "observar",
       "would": "(condicional)",
-      "can": "puede",
-      "optimizing": "optimizando",
-      "them": "los"
+      "boards": "tableros",
+      "couldn't": "no podía"
     },
     "metadata": {
       "tense": "second conditional",
@@ -1152,15 +305,56 @@
   {
     "hints": [
       "Sujeto: los desarrolladores",
-      "Verbo: tener (negación en condicional)",
-      "Complemento: plazos ajustados",
-      "Verbo: optimizar (condicional negado)",
-      "Complemento: el código para el rendimiento"
+      "Verbo: refactorizar (condicional simple)",
+      "Complemento: todo el código base",
+      "Cláusula: si los desarrolladores tuvieran más tiempo"
     ],
-    "hintDisplay": "Sujeto: los desarrolladores / Verbo: tener (negación en condicional) / Complemento: plazos ajustados / Verbo: optimizar (condicional negado) / Complemento: el código para el rendimiento",
-    "spanishSentence": "Si los desarrolladores no tuvieran plazos ajustados, no optimizarían el código para el rendimiento.",
-    "correctSentence": "If the developers didn't have tight deadlines, they would not optimize the code for performance.",
+    "hintDisplay": "Sujeto: los desarrolladores / Verbo: refactorizar (condicional simple) / Complemento: todo el código base / Cláusula: si los desarrolladores tuvieran más tiempo",
+    "spanishSentence": "Si los desarrolladores tuvieran más tiempo, ellos refactorizarían todo el código base.",
+    "correctSentence": "If the developers had more time, they would refactor the entire codebase.",
     "cards": [
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/los"
+      },
+      {
+        "id": "c5",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c11",
+        "text": "entire",
+        "isDistractor": false,
+        "translation": "todo"
+      },
+      {
+        "id": "c7",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "d2",
+        "text": "refactorized",
+        "isDistractor": true,
+        "translation": "refactorizado"
+      },
+      {
+        "id": "d3",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podrían"
+      },
       {
         "id": "c3",
         "text": "developers",
@@ -1168,477 +362,10 @@
         "translation": "desarrolladores"
       },
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "d2",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "hubieran tenido"
-      },
-      {
-        "id": "c8",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
-        "id": "d3",
-        "text": "optimized",
-        "isDistractor": true,
-        "translation": "optimizado"
-      },
-      {
         "id": "c12",
-        "text": "the",
+        "text": "codebase",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d1",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c5",
-        "text": "have",
-        "isDistractor": false,
-        "translation": "tener"
-      },
-      {
-        "id": "c10",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c15",
-        "text": "performance",
-        "isDistractor": false,
-        "translation": "rendimiento"
-      },
-      {
-        "id": "c6",
-        "text": "tight",
-        "isDistractor": false,
-        "translation": "ajustados"
-      },
-      {
-        "id": "c4",
-        "text": "didn't",
-        "isDistractor": false,
-        "translation": "(auxiliar negación)"
-      },
-      {
-        "id": "c9",
-        "text": "would",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c11",
-        "text": "optimize",
-        "isDistractor": false,
-        "translation": "optimizar"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c13",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "c7",
-        "text": "deadlines",
-        "isDistractor": false,
-        "translation": "plazos"
-      },
-      {
-        "id": "d5",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "podrían"
-      },
-      {
-        "id": "c14",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "d4",
-        "text": "you",
-        "isDistractor": true,
-        "translation": "tú"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "developers": "desarrolladores",
-      "didn't": "(auxiliar negación)",
-      "have": "tener",
-      "tight": "ajustados",
-      "deadlines": "plazos",
-      "they": "ellos",
-      "would": "(condicional)",
-      "not": "no",
-      "optimize": "optimizar",
-      "code": "código",
-      "for": "para",
-      "performance": "rendimiento",
-      "will": "(futuro)",
-      "had": "hubieran tenido",
-      "optimized": "optimizado",
-      "you": "tú",
-      "could": "podrían"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: tú (en situación hipotética)",
-      "Verbo: ser (en condicional)",
-      "Complemento: el desarrollador",
-      "Verbo: desplegar (en condicional)",
-      "Complemento: la aplicación",
-      "Verbo: ejecutar (después de una preposición)",
-      "Complemento: todas las pruebas unitarias"
-    ],
-    "hintDisplay": "Sujeto: tú (en situación hipotética) / Verbo: ser (en condicional) / Complemento: el desarrollador / Verbo: desplegar (en condicional) / Complemento: la aplicación / Verbo: ejecutar (después de una preposición) / Complemento: todas las pruebas unitarias",
-    "spanishSentence": "Si fueras el desarrollador, deberías desplegar la aplicación solo después de ejecutar todas las pruebas unitarias.",
-    "correctSentence": "If you were the developer, you should deploy the application only after running all the unit tests.",
-    "cards": [
-      {
-        "id": "c11",
-        "text": "only",
-        "isDistractor": false,
-        "translation": "solo"
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d3",
-        "text": "execute",
-        "isDistractor": true,
-        "translation": "ejecutar"
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d4",
-        "text": "modules",
-        "isDistractor": true,
-        "translation": "módulos"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c16",
-        "text": "unit",
-        "isDistractor": false,
-        "translation": "unitarias"
-      },
-      {
-        "id": "d5",
-        "text": "deployment",
-        "isDistractor": true,
-        "translation": "despliegue"
-      },
-      {
-        "id": "c17",
-        "text": "tests",
-        "isDistractor": false,
-        "translation": "pruebas"
-      },
-      {
-        "id": "c10",
-        "text": "application",
-        "isDistractor": false,
-        "translation": "aplicación"
-      },
-      {
-        "id": "c6",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "c8",
-        "text": "deploy",
-        "isDistractor": false,
-        "translation": "desplegar"
-      },
-      {
-        "id": "c12",
-        "text": "after",
-        "isDistractor": false,
-        "translation": "después de"
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c7",
-        "text": "should",
-        "isDistractor": false,
-        "translation": "deberías"
-      },
-      {
-        "id": "d1",
-        "text": "deploying",
-        "isDistractor": true,
-        "translation": "desplegando"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c2",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "d2",
-        "text": "ran",
-        "isDistractor": true,
-        "translation": "ejecutaron"
-      },
-      {
-        "id": "c5",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "c14",
-        "text": "all",
-        "isDistractor": false,
-        "translation": "todas"
-      },
-      {
-        "id": "c13",
-        "text": "running",
-        "isDistractor": false,
-        "translation": "ejecutar"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "you": "tú",
-      "were": "(condicional)",
-      "the": "(artículo)",
-      "developer": "desarrollador",
-      "should": "deberías",
-      "deploy": "desplegar",
-      "application": "aplicación",
-      "only": "solo",
-      "after": "después de",
-      "running": "ejecutar",
-      "all": "todas",
-      "unit": "unitarias",
-      "tests": "pruebas",
-      "deploying": "desplegando",
-      "ran": "ejecutaron",
-      "execute": "ejecutar",
-      "modules": "módulos",
-      "deployment": "despliegue"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: tú (en forma condicional)",
-      "Verbo: ser (condicional)",
-      "Complemento: el arquitecto",
-      "Verbo: deber (condicional)",
-      "Verbo: documentar (infinitivo)",
-      "Complemento: todas las decisiones de diseño del sistema",
-      "Verbo: garantizar (para indicar propósito)",
-      "Complemento: que el equipo entienda la justificación técnica"
-    ],
-    "hintDisplay": "Sujeto: tú (en forma condicional) / Verbo: ser (condicional) / Complemento: el arquitecto / Verbo: deber (condicional) / Verbo: documentar (infinitivo) / Complemento: todas las decisiones de diseño del sistema / Verbo: garantizar (para indicar propósito) / Complemento: que el equipo entienda la justificación técnica",
-    "spanishSentence": "Si fueras el arquitecto, deberías documentar todas las decisiones de diseño del sistema para garantizar que el equipo entienda la justificación técnica.",
-    "correctSentence": "If you were the architect, you should document all system design decisions to ensure the team understands the technical rationale.",
-    "cards": [
-      {
-        "id": "d4",
-        "text": "documenting",
-        "isDistractor": true,
-        "translation": "documentando"
-      },
-      {
-        "id": "c19",
-        "text": "technical",
-        "isDistractor": false,
-        "translation": "técnica"
-      },
-      {
-        "id": "c20",
-        "text": "rationale",
-        "isDistractor": false,
-        "translation": "justificación"
-      },
-      {
-        "id": "c12",
-        "text": "decisions",
-        "isDistractor": false,
-        "translation": "decisiones"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c6",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "c3",
-        "text": "were",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c18",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c5",
-        "text": "architect",
-        "isDistractor": false,
-        "translation": "arquitecto"
-      },
-      {
-        "id": "c14",
-        "text": "ensure",
-        "isDistractor": false,
-        "translation": "garantizar"
-      },
-      {
-        "id": "c11",
-        "text": "design",
-        "isDistractor": false,
-        "translation": "diseño"
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c13",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "d1",
-        "text": "am",
-        "isDistractor": true,
-        "translation": "soy"
-      },
-      {
-        "id": "c8",
-        "text": "document",
-        "isDistractor": false,
-        "translation": "documentar"
-      },
-      {
-        "id": "c7",
-        "text": "should",
-        "isDistractor": false,
-        "translation": "deberías"
-      },
-      {
-        "id": "c9",
-        "text": "all",
-        "isDistractor": false,
-        "translation": "todas"
-      },
-      {
-        "id": "d3",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "ha"
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "código base"
       },
       {
         "id": "c1",
@@ -1647,117 +374,720 @@
         "translation": "si"
       },
       {
-        "id": "c17",
-        "text": "understands",
-        "isDistractor": false,
-        "translation": "entienda"
-      },
-      {
-        "id": "c10",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
-      },
-      {
-        "id": "c16",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "you": "tú",
-      "were": "(condicional)",
-      "the": "(artículo)",
-      "architect": "arquitecto",
-      "should": "deberías",
-      "document": "documentar",
-      "all": "todas",
-      "system": "sistema",
-      "design": "diseño",
-      "decisions": "decisiones",
-      "to": "(marca de infinitivo)",
-      "ensure": "garantizar",
-      "team": "equipo",
-      "understands": "entienda",
-      "technical": "técnica",
-      "rationale": "justificación",
-      "am": "soy",
-      "would": "(condicional)",
-      "has": "ha",
-      "documenting": "documentando"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: Si (expresión condicional)",
-      "Sujeto: Nosotros",
-      "Verbo: Tener (pasado subjuntivo)",
-      "Complemento: más tiempo",
-      "Verbo: Refactorizar (condicional)",
-      "Complemento: toda la base de código",
-      "Verbo: Mejorar (infinitivo, propósito)",
-      "Complemento: su mantenibilidad"
-    ],
-    "hintDisplay": "Tiempo: Si (expresión condicional) / Sujeto: Nosotros / Verbo: Tener (pasado subjuntivo) / Complemento: más tiempo / Verbo: Refactorizar (condicional) / Complemento: toda la base de código / Verbo: Mejorar (infinitivo, propósito) / Complemento: su mantenibilidad",
-    "spanishSentence": "Si tuviéramos más tiempo, refactorizaríamos toda la base de código para mejorar su mantenibilidad.",
-    "correctSentence": "If we had more time, we would refactor the entire codebase to improve its maintainability.",
-    "cards": [
-      {
-        "id": "c13",
-        "text": "improve",
-        "isDistractor": false,
-        "translation": "mejorar"
-      },
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c8",
-        "text": "refactor",
-        "isDistractor": false,
-        "translation": "refactorizar"
-      },
-      {
-        "id": "c10",
-        "text": "entire",
-        "isDistractor": false,
-        "translation": "completa"
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c5",
+        "id": "c6",
         "text": "time",
         "isDistractor": false,
         "translation": "tiempo"
       },
       {
+        "id": "d1",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
         "id": "d5",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c8",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/los"
+      },
+      {
+        "id": "c9",
+        "text": "refactor",
+        "isDistractor": false,
+        "translation": "refactorizarían"
+      },
+      {
+        "id": "c4",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "tuvieran"
+      },
+      {
+        "id": "d4",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "podrían"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/los",
+      "developers": "desarrolladores",
+      "had": "tuvieran",
+      "more": "más",
+      "time": "tiempo",
+      "they": "ellos",
+      "would": "(condicional)",
+      "refactor": "refactorizarían",
+      "entire": "todo",
+      "codebase": "código base",
+      "have": "haber",
+      "refactorized": "refactorizado",
+      "could": "podrían",
+      "might": "podrían",
+      "will": "(futuro)"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: tener (en pasado, hipotético)",
+      "Complemento: más servidores",
+      "Cláusula: podría escalar la aplicación horizontalmente",
+      "Tiempo: (no hay marcador temporal explícito)"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: tener (en pasado, hipotético) / Complemento: más servidores / Cláusula: podría escalar la aplicación horizontalmente / Tiempo: (no hay marcador temporal explícito)",
+    "spanishSentence": "Si el ingeniero de DevOps tuviera más servidores, podría escalar la aplicación horizontalmente.",
+    "correctSentence": "If the DevOps engineer had more servers, he could scale the application horizontally.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c10",
+        "text": "scale",
+        "isDistractor": false,
+        "translation": "escalar"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c13",
+        "text": "horizontally",
+        "isDistractor": false,
+        "translation": "horizontalmente"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "poder"
+      },
+      {
+        "id": "c9",
         "text": "could",
+        "isDistractor": false,
+        "translation": "podría"
+      },
+      {
+        "id": "d1",
+        "text": "would",
         "isDistractor": true,
         "translation": "(condicional)"
       },
       {
+        "id": "c8",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "c12",
+        "text": "application",
+        "isDistractor": false,
+        "translation": "aplicación"
+      },
+      {
+        "id": "c3",
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "devops"
+      },
+      {
+        "id": "c6",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "c7",
+        "text": "servers",
+        "isDistractor": false,
+        "translation": "servidores"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
         "id": "d3",
-        "text": "refactored",
+        "text": "will",
         "isDistractor": true,
-        "translation": "refactorizado"
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c5",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "tuviera"
+      },
+      {
+        "id": "d4",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "(posibilidad)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "devops": "devops",
+      "engineer": "ingeniero",
+      "had": "tuviera",
+      "more": "más",
+      "servers": "servidores",
+      "he": "él",
+      "could": "podría",
+      "scale": "escalar",
+      "application": "aplicación",
+      "horizontally": "horizontalmente",
+      "would": "(condicional)",
+      "can": "poder",
+      "will": "(futuro)",
+      "might": "(posibilidad)"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto",
+      "Verbo: proponer (condicional simple, hipótesis)",
+      "Complemento: una solución monolítica",
+      "Cláusula: ustedes deberían pedir una revisión detallada de escalabilidad"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: proponer (condicional simple, hipótesis) / Complemento: una solución monolítica / Cláusula: ustedes deberían pedir una revisión detallada de escalabilidad",
+    "spanishSentence": "Si el arquitecto propusiera una solución monolítica, ustedes deberían pedir una revisión detallada de escalabilidad.",
+    "correctSentence": "If the architect proposed a monolithic solution, you should ask for a detailed scalability review.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "ustedes"
+      },
+      {
+        "id": "d1",
+        "text": "proposes",
+        "isDistractor": true,
+        "translation": "propone"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c5",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "una"
+      },
+      {
+        "id": "c6",
+        "text": "monolithic",
+        "isDistractor": false,
+        "translation": "monolítica"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c10",
+        "text": "ask",
+        "isDistractor": false,
+        "translation": "pedir"
+      },
+      {
+        "id": "c9",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "deberían"
+      },
+      {
+        "id": "c11",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d4",
+        "text": "scalable",
+        "isDistractor": true,
+        "translation": "escalable"
+      },
+      {
+        "id": "c4",
+        "text": "proposed",
+        "isDistractor": false,
+        "translation": "propusiera"
+      },
+      {
+        "id": "c3",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c12",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "una"
+      },
+      {
+        "id": "c15",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisión"
+      },
+      {
+        "id": "c14",
+        "text": "scalability",
+        "isDistractor": false,
+        "translation": "escalabilidad"
+      },
+      {
+        "id": "c7",
+        "text": "solution",
+        "isDistractor": false,
+        "translation": "solución"
+      },
+      {
+        "id": "d3",
+        "text": "request",
+        "isDistractor": true,
+        "translation": "solicitar"
+      },
+      {
+        "id": "c13",
+        "text": "detailed",
+        "isDistractor": false,
+        "translation": "detallada"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "architect": "arquitecto",
+      "proposed": "propusiera",
+      "a": "una",
+      "monolithic": "monolítica",
+      "solution": "solución",
+      "you": "ustedes",
+      "should": "deberían",
+      "ask": "pedir",
+      "for": "por",
+      "detailed": "detallada",
+      "scalability": "escalabilidad",
+      "review": "revisión",
+      "proposes": "propone",
+      "would": "(condicional)",
+      "request": "solicitar",
+      "scalable": "escalable"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: yo",
+      "Verbo: ser (condicional simple)",
+      "Complemento: desarrollador frontend",
+      "Cláusula: si yo fuera el desarrollador frontend",
+      "Complemento: con un degradado",
+      "Tiempo: (no hay marcador temporal)"
+    ],
+    "hintDisplay": "Sujeto: yo / Verbo: ser (condicional simple) / Complemento: desarrollador frontend / Cláusula: si yo fuera el desarrollador frontend / Complemento: con un degradado / Tiempo: (no hay marcador temporal)",
+    "spanishSentence": "Si yo fuera el desarrollador frontend, le daría estilo al botón con un degradado.",
+    "correctSentence": "If I were a frontend developer, I would style the button with a gradient.",
+    "cards": [
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d4",
+        "text": "styled",
+        "isDistractor": true,
+        "translation": "estilizado"
+      },
+      {
+        "id": "c13",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c8",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c3",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "fuera"
+      },
+      {
+        "id": "c11",
+        "text": "button",
+        "isDistractor": false,
+        "translation": "botón"
+      },
+      {
+        "id": "c5",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "c14",
+        "text": "gradient",
+        "isDistractor": false,
+        "translation": "degradado"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c12",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c7",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c6",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d1",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "era"
+      },
+      {
+        "id": "d3",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "debería"
+      },
+      {
+        "id": "c9",
+        "text": "style",
+        "isDistractor": false,
+        "translation": "estilizar"
+      },
+      {
+        "id": "d5",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "i": "yo",
+      "were": "fuera",
+      "a": "un",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "would": "(condicional)",
+      "style": "estilizar",
+      "the": "el",
+      "button": "botón",
+      "with": "con",
+      "gradient": "degradado",
+      "was": "era",
+      "will": "(futuro)",
+      "should": "debería",
+      "styled": "estilizado",
+      "they": "ellos"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador de backend",
+      "Verbo: optimizar",
+      "Complemento: las consultas de la base de datos",
+      "Tiempo: (condicional, no hay marcador temporal)",
+      "Cláusula: él podría reducir los tiempos de respuesta significativamente"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador de backend / Verbo: optimizar / Complemento: las consultas de la base de datos / Tiempo: (condicional, no hay marcador temporal) / Cláusula: él podría reducir los tiempos de respuesta significativamente",
+    "spanishSentence": "Si el desarrollador de backend optimizara las consultas de la base de datos, él podría reducir los tiempos de respuesta significativamente.",
+    "correctSentence": "If the backend developer optimized the database queries, he could reduce response times significantly.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "queries",
+        "isDistractor": false,
+        "translation": "consultas"
+      },
+      {
+        "id": "c5",
+        "text": "optimized",
+        "isDistractor": false,
+        "translation": "optimizara"
+      },
+      {
+        "id": "c14",
+        "text": "significantly",
+        "isDistractor": false,
+        "translation": "significativamente"
+      },
+      {
+        "id": "c9",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c3",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "c4",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d2",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c11",
+        "text": "reduce",
+        "isDistractor": false,
+        "translation": "reducir"
+      },
+      {
+        "id": "c10",
+        "text": "could",
+        "isDistractor": false,
+        "translation": "podría"
+      },
+      {
+        "id": "c7",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "d3",
+        "text": "reduces",
+        "isDistractor": true,
+        "translation": "reduce"
+      },
+      {
+        "id": "c12",
+        "text": "response",
+        "isDistractor": false,
+        "translation": "respuesta"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c13",
+        "text": "times",
+        "isDistractor": false,
+        "translation": "tiempos"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "optimized": "optimizara",
+      "database": "base de datos",
+      "queries": "consultas",
+      "he": "él",
+      "could": "podría",
+      "reduce": "reducir",
+      "response": "respuesta",
+      "times": "tiempos",
+      "significantly": "significativamente",
+      "would": "(condicional)",
+      "she": "ella",
+      "reduces": "reduce"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: yo",
+      "Verbo: compilar (condicional simple)",
+      "Complemento: el código",
+      "Tiempo: más seguido",
+      "Verbo: poder (habilidad)",
+      "Complemento: detectar los errores antes",
+      "Cláusula: si yo compilara el código más seguido"
+    ],
+    "hintDisplay": "Sujeto: yo / Verbo: compilar (condicional simple) / Complemento: el código / Tiempo: más seguido / Verbo: poder (habilidad) / Complemento: detectar los errores antes / Cláusula: si yo compilara el código más seguido",
+    "spanishSentence": "Si compilara el código más seguido, podría detectar los errores antes.",
+    "correctSentence": "If I compiled the code more often, I could catch errors earlier.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c5",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
       },
       {
         "id": "c1",
@@ -1767,15 +1097,33 @@
       },
       {
         "id": "d4",
-        "text": "us",
+        "text": "identify",
         "isDistractor": true,
-        "translation": "nos"
+        "translation": "identificar"
       },
       {
-        "id": "c14",
-        "text": "its",
+        "id": "c12",
+        "text": "earlier",
         "isDistractor": false,
-        "translation": "su"
+        "translation": "antes"
+      },
+      {
+        "id": "c10",
+        "text": "catch",
+        "isDistractor": false,
+        "translation": "detectar"
+      },
+      {
+        "id": "c11",
+        "text": "errors",
+        "isDistractor": false,
+        "translation": "errores"
+      },
+      {
+        "id": "c3",
+        "text": "compiled",
+        "isDistractor": false,
+        "translation": "compilaba"
       },
       {
         "id": "cm1",
@@ -1784,80 +1132,77 @@
         "translation": "coma"
       },
       {
-        "id": "d1",
-        "text": "will",
+        "id": "c7",
+        "text": "often",
+        "isDistractor": false,
+        "translation": "seguido"
+      },
+      {
+        "id": "d5",
+        "text": "find",
         "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "d2",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "haber"
-      },
-      {
-        "id": "c15",
-        "text": "maintainability",
-        "isDistractor": false,
-        "translation": "mantenibilidad"
+        "translation": "encontrar"
       },
       {
         "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c9",
+        "text": "could",
+        "isDistractor": false,
+        "translation": "podría"
+      },
+      {
+        "id": "d2",
+        "text": "compile",
+        "isDistractor": true,
+        "translation": "compilar"
+      },
+      {
+        "id": "d1",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "d3",
+        "text": "detect",
+        "isDistractor": true,
+        "translation": "detectar"
+      },
+      {
+        "id": "c8",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c6",
         "text": "more",
         "isDistractor": false,
         "translation": "más"
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false,
-        "translation": "tuviéramos"
-      },
-      {
-        "id": "c12",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c11",
-        "text": "codebase",
-        "isDistractor": false,
-        "translation": "base de código"
       }
     ],
     "translations": {
       "if": "si",
-      "we": "nosotros",
-      "had": "tuviéramos",
+      "i": "yo",
+      "compiled": "compilaba",
+      "the": "el",
+      "code": "código",
       "more": "más",
-      "time": "tiempo",
-      "would": "(condicional)",
-      "refactor": "refactorizar",
-      "the": "(artículo)",
-      "entire": "completa",
-      "codebase": "base de código",
-      "to": "(marca de infinitivo)",
-      "improve": "mejorar",
-      "its": "su",
-      "maintainability": "mantenibilidad",
-      "will": "(futuro)",
-      "have": "haber",
-      "refactored": "refactorizado",
-      "us": "nos",
-      "could": "(condicional)"
+      "often": "seguido",
+      "could": "podría",
+      "catch": "detectar",
+      "errors": "errores",
+      "earlier": "antes",
+      "would": "podría",
+      "compile": "compilar",
+      "detect": "detectar",
+      "identify": "identificar",
+      "find": "encontrar"
     },
     "metadata": {
       "tense": "second conditional",
@@ -1870,93 +1215,65 @@
   {
     "hints": [
       "Sujeto: el desarrollador frontend",
-      "Verbo: no mostrar (condicional negativo)",
-      "Complemento: los mensajes de error",
-      "Complemento: correctamente",
-      "Verbo: no deber (modal de obligación negativa)",
-      "Complemento: ignorar la retroalimentación del usuario"
+      "Verbo: recibir (en pasado, condicional negativo)",
+      "Complemento: los datos actualizados de la API",
+      "Cláusula: si el desarrollador no recibiera los datos",
+      "Verbo: poder (condicional, posibilidad)",
+      "Complemento: el componente",
+      "Verbo: renderizarse (infinitivo en condicional, con 'no' entre auxiliar y verbo principal)",
+      "Complemento: correctamente (adverbio de modo)"
     ],
-    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: no mostrar (condicional negativo) / Complemento: los mensajes de error / Complemento: correctamente / Verbo: no deber (modal de obligación negativa) / Complemento: ignorar la retroalimentación del usuario",
-    "spanishSentence": "Si el desarrollador frontend no mostrara los mensajes de error correctamente, no deberías ignorar la retroalimentación del usuario.",
-    "correctSentence": "If the frontend developer didn't display the error messages properly, you should not ignore the user feedback.",
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: recibir (en pasado, condicional negativo) / Complemento: los datos actualizados de la API / Cláusula: si el desarrollador no recibiera los datos / Verbo: poder (condicional, posibilidad) / Complemento: el componente / Verbo: renderizarse (infinitivo en condicional, con 'no' entre auxiliar y verbo principal) / Complemento: correctamente (adverbio de modo)",
+    "spanishSentence": "Si el desarrollador frontend no recibiera los datos actualizados de la API, el componente podría no renderizarse correctamente.",
+    "correctSentence": "If the frontend developer didn't receive the updated data from the API, the component might not render correctly.",
     "cards": [
       {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c10",
-        "text": "properly",
-        "isDistractor": false,
-        "translation": "correctamente"
-      },
-      {
-        "id": "c11",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
         "id": "c8",
-        "text": "error",
+        "text": "updated",
         "isDistractor": false,
-        "translation": "error"
+        "translation": "actualizados"
       },
       {
-        "id": "c9",
-        "text": "messages",
+        "id": "c6",
+        "text": "receive",
         "isDistractor": false,
-        "translation": "mensajes"
+        "translation": "recibir"
       },
       {
         "id": "d1",
-        "text": "does",
+        "text": "receives",
         "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c14",
-        "text": "ignore",
-        "isDistractor": false,
-        "translation": "ignorar"
+        "translation": "recibe"
       },
       {
         "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c16",
         "text": "not",
         "isDistractor": false,
         "translation": "no"
       },
       {
-        "id": "c15",
+        "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "c4",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
+        "id": "d2",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
-        "id": "c12",
-        "text": "should",
+        "id": "c1",
+        "text": "If",
         "isDistractor": false,
-        "translation": "deberías"
-      },
-      {
-        "id": "c5",
-        "text": "didn't",
-        "isDistractor": false,
-        "translation": "(negación pasada)"
-      },
-      {
-        "id": "c17",
-        "text": "feedback",
-        "isDistractor": false,
-        "translation": "retroalimentación"
+        "translation": "si"
       },
       {
         "id": "c3",
@@ -1971,179 +1288,58 @@
         "translation": "coma"
       },
       {
-        "id": "c16",
-        "text": "user",
-        "isDistractor": false,
-        "translation": "usuario"
-      },
-      {
-        "id": "c6",
-        "text": "display",
-        "isDistractor": false,
-        "translation": "mostrar"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "frontend": "frontend",
-      "developer": "desarrollador",
-      "didn't": "(negación pasada)",
-      "display": "mostrar",
-      "error": "error",
-      "messages": "mensajes",
-      "properly": "correctamente",
-      "you": "tú",
-      "should": "deberías",
-      "not": "no",
-      "ignore": "ignorar",
-      "user": "usuario",
-      "feedback": "retroalimentación",
-      "does": "(auxiliar)",
-      "would": "(condicional)",
-      "them": "los"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador backend",
-      "Verbo: optimizar (condicional, en contexto de 'si no lo hiciera')",
-      "Complemento: la consulta",
-      "Verbo: poder (modal, indicando posibilidad)",
-      "Verbo: devolver (infinitivo después de modal)",
-      "Complemento: resultados eficientemente",
-      "Complemento: la base de datos (sujeto de la segunda cláusula)"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: optimizar (condicional, en contexto de 'si no lo hiciera') / Complemento: la consulta / Verbo: poder (modal, indicando posibilidad) / Verbo: devolver (infinitivo después de modal) / Complemento: resultados eficientemente / Complemento: la base de datos (sujeto de la segunda cláusula)",
-    "spanishSentence": "Si el desarrollador backend no optimizara la consulta, la base de datos podría no devolver resultados eficientemente.",
-    "correctSentence": "If the backend developer didn't optimize the query, the database might not return results efficiently.",
-    "cards": [
-      {
         "id": "c5",
         "text": "didn't",
         "isDistractor": false,
-        "translation": "(negación pasada)"
+        "translation": "(auxiliar negativo)"
       },
       {
         "id": "d4",
-        "text": "him",
+        "text": "updates",
         "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c3",
-        "text": "backend",
-        "isDistractor": false,
-        "translation": "backend"
+        "translation": "actualizaciones"
       },
       {
         "id": "c7",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "c8",
-        "text": "query",
+        "id": "c11",
+        "text": "the",
         "isDistractor": false,
-        "translation": "consulta"
-      },
-      {
-        "id": "c12",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d1",
-        "text": "optimizes",
-        "isDistractor": true,
-        "translation": "optimiza"
+        "translation": "el"
       },
       {
         "id": "c14",
-        "text": "results",
+        "text": "component",
         "isDistractor": false,
-        "translation": "resultados"
-      },
-      {
-        "id": "c15",
-        "text": "efficiently",
-        "isDistractor": false,
-        "translation": "eficientemente"
-      },
-      {
-        "id": "c13",
-        "text": "return",
-        "isDistractor": false,
-        "translation": "devolver"
-      },
-      {
-        "id": "c6",
-        "text": "optimize",
-        "isDistractor": false,
-        "translation": "optimizar"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "componente"
       },
       {
         "id": "c10",
-        "text": "database",
+        "text": "from",
         "isDistractor": false,
-        "translation": "base de datos"
+        "translation": "de"
+      },
+      {
+        "id": "c15",
+        "text": "might",
+        "isDistractor": false,
+        "translation": "podría"
+      },
+      {
+        "id": "c9",
+        "text": "data",
+        "isDistractor": false,
+        "translation": "datos"
+      },
+      {
+        "id": "c12",
+        "text": "API",
+        "isDistractor": false,
+        "translation": "API"
       },
       {
         "id": "c4",
@@ -2152,49 +1348,44 @@
         "translation": "desarrollador"
       },
       {
-        "id": "d5",
-        "text": "efficiency",
-        "isDistractor": true,
-        "translation": "eficiencia"
+        "id": "c17",
+        "text": "render",
+        "isDistractor": false,
+        "translation": "renderizarse"
       },
       {
-        "id": "c11",
-        "text": "might",
+        "id": "c18",
+        "text": "correctly",
         "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "correctamente"
       },
       {
         "id": "d3",
-        "text": "returns",
+        "text": "renders",
         "isDistractor": true,
-        "translation": "devuelve"
+        "translation": "renderiza"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "(artículo)",
-      "backend": "backend",
+      "the": "el",
+      "frontend": "frontend",
       "developer": "desarrollador",
-      "didn't": "(negación pasada)",
-      "optimize": "optimizar",
-      "query": "consulta",
-      "database": "base de datos",
-      "might": "(condicional)",
+      "didn't": "(auxiliar negativo)",
+      "receive": "recibir",
+      "updated": "actualizados",
+      "data": "datos",
+      "from": "de",
+      "api": "API",
+      "component": "componente",
+      "might": "podría",
       "not": "no",
-      "return": "devolver",
-      "results": "resultados",
-      "efficiently": "eficientemente",
-      "optimizes": "optimiza",
-      "would": "(condicional)",
-      "returns": "devuelve",
-      "him": "él",
-      "efficiency": "eficiencia"
+      "render": "renderizarse",
+      "correctly": "correctamente",
+      "receives": "recibe",
+      "did": "(auxiliar)",
+      "renders": "renderiza",
+      "updates": "actualizaciones"
     },
     "metadata": {
       "tense": "second conditional",
@@ -2206,34 +1397,15 @@
   },
   {
     "hints": [
-      "Sujeto: ellos",
-      "Verbo: tener (condicional)",
-      "Complemento: más tiempo",
-      "Verbo: construir (condicional)",
-      "Complemento: una arquitectura de software más robusta"
+      "Sujeto: el equipo",
+      "Verbo: configurar (en tiempo condicional compuesto, modo subjuntivo, tercera persona del singular)",
+      "Complemento: correctamente el pipeline de CI",
+      "Cláusula: el despliegue podría tener éxito sin intervención manual"
     ],
-    "hintDisplay": "Sujeto: ellos / Verbo: tener (condicional) / Complemento: más tiempo / Verbo: construir (condicional) / Complemento: una arquitectura de software más robusta",
-    "spanishSentence": "Si tuvieran más tiempo, construirían una arquitectura de software más robusta.",
-    "correctSentence": "If they had more time, they would build a more robust software architecture.",
+    "hintDisplay": "Sujeto: el equipo / Verbo: configurar (en tiempo condicional compuesto, modo subjuntivo, tercera persona del singular) / Complemento: correctamente el pipeline de CI / Cláusula: el despliegue podría tener éxito sin intervención manual",
+    "spanishSentence": "Si el equipo configurara correctamente el pipeline de CI, el despliegue podría tener éxito sin intervención manual.",
+    "correctSentence": "If the team configured the CI pipeline correctly, the deployment might succeed without manual intervention.",
     "cards": [
-      {
-        "id": "c7",
-        "text": "would",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d2",
-        "text": "builds",
-        "isDistractor": true,
-        "translation": "construye"
-      },
-      {
-        "id": "c13",
-        "text": "architecture",
-        "isDistractor": false,
-        "translation": "arquitectura"
-      },
       {
         "id": "c1",
         "text": "If",
@@ -2241,329 +1413,46 @@
         "translation": "si"
       },
       {
-        "id": "c4",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false,
-        "translation": "tuvieran"
-      },
-      {
-        "id": "c2",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos/ellas"
-      },
-      {
-        "id": "d5",
-        "text": "construct",
-        "isDistractor": true,
-        "translation": "construir"
-      },
-      {
-        "id": "c11",
-        "text": "robust",
-        "isDistractor": false,
-        "translation": "robusta"
-      },
-      {
-        "id": "c5",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "d3",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo/le"
-      },
-      {
-        "id": "c9",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
         "id": "c6",
-        "text": "they",
+        "text": "CI",
         "isDistractor": false,
-        "translation": "ellos/ellas"
+        "translation": "integración continua"
       },
       {
-        "id": "d4",
-        "text": "having",
-        "isDistractor": true,
-        "translation": "teniendo"
+        "id": "c4",
+        "text": "configured",
+        "isDistractor": false,
+        "translation": "configurara"
       },
       {
         "id": "c8",
-        "text": "build",
+        "text": "correctly",
         "isDistractor": false,
-        "translation": "construir"
-      },
-      {
-        "id": "c12",
-        "text": "software",
-        "isDistractor": false,
-        "translation": "software"
+        "translation": "correctamente"
       },
       {
         "id": "d1",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c10",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "they": "ellos/ellas",
-      "had": "tuvieran",
-      "more": "más",
-      "time": "tiempo",
-      "would": "(condicional)",
-      "build": "construir",
-      "a": "(artículo)",
-      "robust": "robusta",
-      "software": "software",
-      "architecture": "arquitectura",
-      "will": "(futuro)",
-      "builds": "construye",
-      "him": "lo/le",
-      "having": "teniendo",
-      "construct": "construir"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero de DevOps",
-      "Verbo: automatizar (condicional)",
-      "Complemento: el pipeline de despliegue",
-      "Verbo: poder (capacidad/posibilidad)",
-      "Verbo: reducir (infinitivo)",
-      "Complemento: el tiempo necesario para lanzar nuevas versiones de software"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: automatizar (condicional) / Complemento: el pipeline de despliegue / Verbo: poder (capacidad/posibilidad) / Verbo: reducir (infinitivo) / Complemento: el tiempo necesario para lanzar nuevas versiones de software",
-    "spanishSentence": "Si el ingeniero de DevOps automatizara el pipeline de despliegue, podría reducir el tiempo necesario para lanzar nuevas versiones de software.",
-    "correctSentence": "If the DevOps engineer automated the deployment pipeline, it might reduce the time needed to release new software versions.",
-    "cards": [
-      {
-        "id": "c17",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nuevas"
-      },
-      {
-        "id": "c7",
-        "text": "deployment",
-        "isDistractor": false,
-        "translation": "despliegue"
-      },
-      {
-        "id": "c8",
-        "text": "pipeline",
-        "isDistractor": false,
-        "translation": "pipeline"
-      },
-      {
-        "id": "c9",
-        "text": "it",
-        "isDistractor": false,
-        "translation": "ello"
-      },
-      {
-        "id": "c14",
-        "text": "needed",
-        "isDistractor": false,
-        "translation": "necesario"
-      },
-      {
-        "id": "d1",
-        "text": "automates",
-        "isDistractor": true,
-        "translation": "automatiza"
-      },
-      {
-        "id": "c19",
-        "text": "versions",
-        "isDistractor": false,
-        "translation": "versiones"
-      },
-      {
-        "id": "d3",
         "text": "would",
         "isDistractor": true,
-        "translation": "(condicional)"
+        "translation": "condicional"
       },
       {
-        "id": "c12",
+        "id": "c9",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "DevOps",
-        "isDistractor": false,
-        "translation": "DevOps"
-      },
-      {
-        "id": "c11",
-        "text": "reduce",
-        "isDistractor": false,
-        "translation": "reducir"
-      },
-      {
-        "id": "d4",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "d2",
-        "text": "he",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c15",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c4",
-        "text": "engineer",
-        "isDistractor": false,
-        "translation": "ingeniero"
-      },
-      {
-        "id": "c18",
-        "text": "software",
-        "isDistractor": false,
-        "translation": "software"
+        "translation": "el"
       },
       {
         "id": "c5",
-        "text": "automated",
+        "text": "the",
         "isDistractor": false,
-        "translation": "automatizara"
+        "translation": "el"
       },
       {
-        "id": "c13",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c10",
+        "id": "c11",
         "text": "might",
         "isDistractor": false,
         "translation": "podría"
-      },
-      {
-        "id": "c16",
-        "text": "release",
-        "isDistractor": false,
-        "translation": "lanzar"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "devops": "DevOps",
-      "engineer": "ingeniero",
-      "automated": "automatizara",
-      "deployment": "despliegue",
-      "pipeline": "pipeline",
-      "it": "ello",
-      "might": "podría",
-      "reduce": "reducir",
-      "time": "tiempo",
-      "needed": "necesario",
-      "to": "(marca de infinitivo)",
-      "release": "lanzar",
-      "new": "nuevas",
-      "software": "software",
-      "versions": "versiones",
-      "automates": "automatiza",
-      "he": "él",
-      "would": "(condicional)",
-      "could": "podría"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: integrar (condicional con si)",
-      "Complemento: la nueva tubería de CI/CD",
-      "Verbo: reducir (condicional)",
-      "Complemento: el tiempo de implementación",
-      "Complemento: de manera significativa"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: integrar (condicional con si) / Complemento: la nueva tubería de CI/CD / Verbo: reducir (condicional) / Complemento: el tiempo de implementación / Complemento: de manera significativa",
-    "spanishSentence": "Si el equipo integrara la nueva tubería de CI/CD, reduciríamos el tiempo de implementación de manera significativa.",
-    "correctSentence": "If the team integrated the new CI/CD pipeline, we would reduce deployment time significantly.",
-    "cards": [
-      {
-        "id": "c14",
-        "text": "significantly",
-        "isDistractor": false,
-        "translation": "significativamente"
       },
       {
         "id": "c3",
@@ -2572,22 +1461,116 @@
         "translation": "equipo"
       },
       {
-        "id": "c12",
-        "text": "deployment",
+        "id": "cm1",
+        "text": ",",
         "isDistractor": false,
-        "translation": "implementación"
+        "translation": "coma"
+      },
+      {
+        "id": "c14",
+        "text": "manual",
+        "isDistractor": false,
+        "translation": "manual"
+      },
+      {
+        "id": "c15",
+        "text": "intervention",
+        "isDistractor": false,
+        "translation": "intervención"
+      },
+      {
+        "id": "c7",
+        "text": "pipeline",
+        "isDistractor": false,
+        "translation": "pipeline"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d4",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "c13",
-        "text": "time",
+        "text": "without",
         "isDistractor": false,
-        "translation": "tiempo"
+        "translation": "sin"
       },
       {
-        "id": "c4",
-        "text": "integrated",
+        "id": "c10",
+        "text": "deployment",
         "isDistractor": false,
-        "translation": "integrara"
+        "translation": "despliegue"
+      },
+      {
+        "id": "d2",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "poder"
+      },
+      {
+        "id": "c12",
+        "text": "succeed",
+        "isDistractor": false,
+        "translation": "tener éxito"
+      },
+      {
+        "id": "d3",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "team": "equipo",
+      "configured": "configurara",
+      "ci": "integración continua",
+      "pipeline": "pipeline",
+      "correctly": "correctamente",
+      "deployment": "despliegue",
+      "might": "podría",
+      "succeed": "tener éxito",
+      "without": "sin",
+      "manual": "manual",
+      "intervention": "intervención",
+      "would": "condicional",
+      "can": "poder",
+      "does": "(auxiliar)",
+      "will": "(futuro)"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador de backend",
+      "Verbo: invalidar (negación en pasado simple)",
+      "Complemento: la caché",
+      "Cláusula: el sistema podría servir datos obsoletos a los usuarios",
+      "Tiempo: (no hay marcador temporal específico)"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador de backend / Verbo: invalidar (negación en pasado simple) / Complemento: la caché / Cláusula: el sistema podría servir datos obsoletos a los usuarios / Tiempo: (no hay marcador temporal específico)",
+    "spanishSentence": "Si el desarrollador de backend no invalidara la caché, el sistema podría servir datos obsoletos a los usuarios.",
+    "correctSentence": "If the backend developer didn't invalidate the cache, the system might serve stale data to users.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
       },
       {
         "id": "cm1",
@@ -2596,40 +1579,237 @@
         "translation": "coma"
       },
       {
-        "id": "c9",
-        "text": "we",
+        "id": "c1",
+        "text": "If",
         "isDistractor": false,
-        "translation": "nosotros"
+        "translation": "si"
+      },
+      {
+        "id": "c16",
+        "text": "users",
+        "isDistractor": false,
+        "translation": "usuarios"
+      },
+      {
+        "id": "d4",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c7",
-        "text": "CI/CD",
+        "text": "the",
         "isDistractor": false,
-        "translation": "CI/CD"
+        "translation": "el/la (artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "mightn't",
+        "isDistractor": true,
+        "translation": "(posibilidad negativa)"
+      },
+      {
+        "id": "c8",
+        "text": "cache",
+        "isDistractor": false,
+        "translation": "caché"
       },
       {
         "id": "c6",
-        "text": "new",
+        "text": "invalidate",
         "isDistractor": false,
-        "translation": "nueva"
+        "translation": "invalidara"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "tiene"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la (artículo)"
+      },
+      {
+        "id": "d5",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro de obligación)"
+      },
+      {
+        "id": "c12",
+        "text": "serve",
+        "isDistractor": false,
+        "translation": "servir"
+      },
+      {
+        "id": "c5",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(negación)"
       },
       {
         "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el/la (artículo)"
       },
       {
-        "id": "d2",
-        "text": "reducing",
+        "id": "c15",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "c11",
+        "text": "might",
+        "isDistractor": false,
+        "translation": "(posibilidad)"
+      },
+      {
+        "id": "c10",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c3",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "c13",
+        "text": "stale",
+        "isDistractor": false,
+        "translation": "obsoletos"
+      },
+      {
+        "id": "c14",
+        "text": "data",
+        "isDistractor": false,
+        "translation": "datos"
+      },
+      {
+        "id": "d1",
+        "text": "would",
         "isDistractor": true,
-        "translation": "reduciendo"
+        "translation": "(condicional)"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la (artículo)",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "didn't": "(negación)",
+      "invalidate": "invalidara",
+      "cache": "caché",
+      "system": "sistema",
+      "might": "(posibilidad)",
+      "serve": "servir",
+      "stale": "obsoletos",
+      "data": "datos",
+      "to": "a",
+      "users": "usuarios",
+      "would": "(condicional)",
+      "has": "tiene",
+      "mightn't": "(posibilidad negativa)",
+      "did": "(auxiliar)",
+      "shall": "(futuro de obligación)"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: desplegar (condicional)",
+      "Complemento: el nuevo servicio",
+      "Cláusula: no deberíamos esperar que el sistema maneje el tráfico"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: desplegar (condicional) / Complemento: el nuevo servicio / Cláusula: no deberíamos esperar que el sistema maneje el tráfico",
+    "spanishSentence": "Si no desplegáramos el nuevo servicio, no deberíamos esperar que el sistema maneje el tráfico.",
+    "correctSentence": "If we didn't deploy the new service, we shouldn't expect the system to handle the traffic.",
+    "cards": [
+      {
+        "id": "c13",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c15",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "expect",
+        "isDistractor": false,
+        "translation": "esperar"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c4",
+        "text": "deploy",
+        "isDistractor": false,
+        "translation": "desplegar"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c8",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c9",
+        "text": "shouldn't",
+        "isDistractor": false,
+        "translation": "no deberíamos"
       },
       {
         "id": "c5",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
+      },
+      {
+        "id": "c12",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c16",
+        "text": "traffic",
+        "isDistractor": false,
+        "translation": "tráfico"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c1",
@@ -2638,53 +1818,413 @@
         "translation": "si"
       },
       {
-        "id": "c11",
-        "text": "reduce",
+        "id": "c3",
+        "text": "didn't",
         "isDistractor": false,
-        "translation": "reducir"
+        "translation": "(auxiliar negativo pasado)"
       },
       {
-        "id": "c8",
-        "text": "pipeline",
+        "id": "d4",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "deberíamos"
+      },
+      {
+        "id": "c7",
+        "text": "service",
         "isDistractor": false,
-        "translation": "tubería"
+        "translation": "servicio"
+      },
+      {
+        "id": "c6",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevo"
+      },
+      {
+        "id": "d2",
+        "text": "expected",
+        "isDistractor": true,
+        "translation": "esperado"
+      },
+      {
+        "id": "c14",
+        "text": "handle",
+        "isDistractor": false,
+        "translation": "manejar"
       },
       {
         "id": "d3",
-        "text": "us",
+        "text": "managed",
         "isDistractor": true,
-        "translation": "nos"
-      },
-      {
-        "id": "c10",
-        "text": "would",
-        "isDistractor": false,
-        "translation": "(condicional)"
+        "translation": "manejado"
       },
       {
         "id": "d1",
-        "text": "integrates",
+        "text": "wouldn't",
         "isDistractor": true,
-        "translation": "integra"
+        "translation": "no"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "(artículo)",
-      "team": "equipo",
-      "integrated": "integrara",
-      "new": "nueva",
-      "ci/cd": "CI/CD",
-      "pipeline": "tubería",
       "we": "nosotros",
-      "would": "(condicional)",
-      "reduce": "reducir",
-      "deployment": "implementación",
-      "time": "tiempo",
-      "significantly": "significativamente",
-      "integrates": "integra",
-      "reducing": "reduciendo",
-      "us": "nos"
+      "didn't": "(auxiliar negativo pasado)",
+      "deploy": "desplegar",
+      "the": "el",
+      "new": "nuevo",
+      "service": "servicio",
+      "shouldn't": "no deberíamos",
+      "expect": "esperar",
+      "system": "sistema",
+      "to": "(marca de infinitivo)",
+      "handle": "manejar",
+      "traffic": "tráfico",
+      "wouldn't": "no",
+      "expected": "esperado",
+      "managed": "manejado",
+      "should": "deberíamos"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto",
+      "Verbo: diseñar (condicional simple)",
+      "Complemento: el sistema para la escalabilidad",
+      "Cláusula: si no fallara bajo carga pesada"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: diseñar (condicional simple) / Complemento: el sistema para la escalabilidad / Cláusula: si no fallara bajo carga pesada",
+    "spanishSentence": "Si el arquitecto diseñara el sistema para la escalabilidad, podría no fallar bajo carga pesada.",
+    "correctSentence": "If the architect designed the system for scalability, it might not fail under heavy load.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "designedly",
+        "isDistractor": true,
+        "translation": "a propósito"
+      },
+      {
+        "id": "c6",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c12",
+        "text": "fail",
+        "isDistractor": false,
+        "translation": "fallar"
+      },
+      {
+        "id": "c8",
+        "text": "scalability",
+        "isDistractor": false,
+        "translation": "escalabilidad"
+      },
+      {
+        "id": "d5",
+        "text": "failures",
+        "isDistractor": true,
+        "translation": "fallos"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c7",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c4",
+        "text": "designed",
+        "isDistractor": false,
+        "translation": "diseñara"
+      },
+      {
+        "id": "c10",
+        "text": "might",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c15",
+        "text": "load",
+        "isDistractor": false,
+        "translation": "carga"
+      },
+      {
+        "id": "c14",
+        "text": "heavy",
+        "isDistractor": false,
+        "translation": "pesada"
+      },
+      {
+        "id": "c9",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "podría"
+      },
+      {
+        "id": "d3",
+        "text": "mustn't",
+        "isDistractor": true,
+        "translation": "no debe"
+      },
+      {
+        "id": "c3",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "c11",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d2",
+        "text": "scaling",
+        "isDistractor": true,
+        "translation": "escalado"
+      },
+      {
+        "id": "d4",
+        "text": "loads",
+        "isDistractor": true,
+        "translation": "cargas"
+      },
+      {
+        "id": "c13",
+        "text": "under",
+        "isDistractor": false,
+        "translation": "bajo"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "architect": "arquitecto",
+      "designed": "diseñara",
+      "system": "sistema",
+      "for": "para",
+      "scalability": "escalabilidad",
+      "it": "podría",
+      "might": "(condicional)",
+      "not": "no",
+      "fail": "fallar",
+      "under": "bajo",
+      "heavy": "pesada",
+      "load": "carga",
+      "designedly": "a propósito",
+      "scaling": "escalado",
+      "mustn't": "no debe",
+      "loads": "cargas",
+      "failures": "fallos"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: monitorear (pretérito imperfecto de subjuntivo)",
+      "Complemento: el sistema continuamente",
+      "Tiempo: antes de que se agravara",
+      "Cláusula: si el ingeniero monitoreara el sistema continuamente"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: monitorear (pretérito imperfecto de subjuntivo) / Complemento: el sistema continuamente / Tiempo: antes de que se agravara / Cláusula: si el ingeniero monitoreara el sistema continuamente",
+    "spanishSentence": "Si el ingeniero de DevOps monitoreara el sistema continuamente, él debería notar el problema antes de que se agravara.",
+    "correctSentence": "If the DevOps engineer monitored the system continuously, he should notice the issue before it escalated.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "continuously",
+        "isDistractor": false,
+        "translation": "continuamente"
+      },
+      {
+        "id": "c13",
+        "text": "issue",
+        "isDistractor": false,
+        "translation": "problema"
+      },
+      {
+        "id": "c7",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c14",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de que"
+      },
+      {
+        "id": "d3",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
+      },
+      {
+        "id": "d5",
+        "text": "escalates",
+        "isDistractor": true,
+        "translation": "agrava"
+      },
+      {
+        "id": "c10",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "debería"
+      },
+      {
+        "id": "c5",
+        "text": "monitored",
+        "isDistractor": false,
+        "translation": "monitoreara"
+      },
+      {
+        "id": "d1",
+        "text": "monitors",
+        "isDistractor": true,
+        "translation": "monitorea"
+      },
+      {
+        "id": "c9",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "c16",
+        "text": "escalated",
+        "isDistractor": false,
+        "translation": "agravara"
+      },
+      {
+        "id": "c15",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "c11",
+        "text": "notice",
+        "isDistractor": false,
+        "translation": "notar"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d4",
+        "text": "observed",
+        "isDistractor": true,
+        "translation": "observara"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c3",
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "devops"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "devops": "devops",
+      "engineer": "ingeniero",
+      "monitored": "monitoreara",
+      "system": "sistema",
+      "continuously": "continuamente",
+      "he": "él",
+      "should": "debería",
+      "notice": "notar",
+      "issue": "problema",
+      "before": "antes de que",
+      "it": "él",
+      "escalated": "agravara",
+      "monitors": "monitorea",
+      "will": "(futuro)",
+      "she": "ella",
+      "observed": "observara",
+      "escalates": "agrava"
     },
     "metadata": {
       "tense": "second conditional",
@@ -2697,62 +2237,67 @@
   {
     "hints": [
       "Sujeto: los desarrolladores",
-      "Verbo: desplegar (condicional)",
-      "Complemento: el código sin pruebas adecuadas",
-      "Verbo: poder (posibilidad)",
-      "Complemento: errores críticos en producción"
+      "Verbo: depurar (pasado simple, hipótesis)",
+      "Complemento: el código más a fondo",
+      "Cláusula: ellos podrían encontrar la causa raíz más rápido"
     ],
-    "hintDisplay": "Sujeto: los desarrolladores / Verbo: desplegar (condicional) / Complemento: el código sin pruebas adecuadas / Verbo: poder (posibilidad) / Complemento: errores críticos en producción",
-    "spanishSentence": "Si los desarrolladores desplegaran el código sin pruebas adecuadas, podría causar errores críticos en producción.",
-    "correctSentence": "If the developers deployed the code without proper testing, it might cause critical bugs in production.",
+    "hintDisplay": "Sujeto: los desarrolladores / Verbo: depurar (pasado simple, hipótesis) / Complemento: el código más a fondo / Cláusula: ellos podrían encontrar la causa raíz más rápido",
+    "spanishSentence": "Si los desarrolladores depuraran el código más a fondo, ellos podrían encontrar la causa raíz más rápido.",
+    "correctSentence": "If the developers debugged the code more thoroughly, they might find the root cause faster.",
     "cards": [
       {
-        "id": "c15",
-        "text": "in",
+        "id": "cm1",
+        "text": ",",
         "isDistractor": false,
-        "translation": "en"
+        "translation": "coma"
+      },
+      {
+        "id": "c14",
+        "text": "cause",
+        "isDistractor": false,
+        "translation": "causa"
       },
       {
         "id": "c5",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el/los"
       },
       {
-        "id": "d5",
-        "text": "implementation",
-        "isDistractor": true,
-        "translation": "implementación"
-      },
-      {
-        "id": "d4",
-        "text": "defects",
-        "isDistractor": true,
-        "translation": "defectos"
-      },
-      {
-        "id": "c3",
-        "text": "developers",
+        "id": "c11",
+        "text": "find",
         "isDistractor": false,
-        "translation": "desarrolladores"
+        "translation": "encontrar"
       },
       {
-        "id": "c4",
-        "text": "deployed",
+        "id": "c2",
+        "text": "the",
         "isDistractor": false,
-        "translation": "desplegaron"
+        "translation": "el/los"
+      },
+      {
+        "id": "c10",
+        "text": "might",
+        "isDistractor": false,
+        "translation": "podrían"
+      },
+      {
+        "id": "c15",
+        "text": "faster",
+        "isDistractor": false,
+        "translation": "más rápido"
+      },
+      {
+        "id": "c8",
+        "text": "thoroughly",
+        "isDistractor": false,
+        "translation": "a fondo"
       },
       {
         "id": "d2",
-        "text": "causing",
+        "text": "would",
         "isDistractor": true,
-        "translation": "causando"
-      },
-      {
-        "id": "c9",
-        "text": "testing",
-        "isDistractor": false,
-        "translation": "pruebas"
+        "translation": "haría"
       },
       {
         "id": "c6",
@@ -2761,64 +2306,22 @@
         "translation": "código"
       },
       {
-        "id": "c2",
+        "id": "c12",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el/los"
       },
       {
-        "id": "c11",
-        "text": "might",
+        "id": "c9",
+        "text": "they",
         "isDistractor": false,
-        "translation": "(condicional)"
+        "translation": "ellos"
       },
       {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c7",
-        "text": "without",
+        "id": "c3",
+        "text": "developers",
         "isDistractor": false,
-        "translation": "sin"
-      },
-      {
-        "id": "c12",
-        "text": "cause",
-        "isDistractor": false,
-        "translation": "causar"
-      },
-      {
-        "id": "d1",
-        "text": "deploy",
-        "isDistractor": true,
-        "translation": "desplegar"
-      },
-      {
-        "id": "c14",
-        "text": "bugs",
-        "isDistractor": false,
-        "translation": "errores"
-      },
-      {
-        "id": "c13",
-        "text": "critical",
-        "isDistractor": false,
-        "translation": "críticos"
-      },
-      {
-        "id": "c16",
-        "text": "production",
-        "isDistractor": false,
-        "translation": "producción"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
+        "translation": "desarrolladores"
       },
       {
         "id": "c1",
@@ -2827,39 +2330,53 @@
         "translation": "si"
       },
       {
-        "id": "c8",
-        "text": "proper",
+        "id": "c4",
+        "text": "debugged",
         "isDistractor": false,
-        "translation": "adecuadas"
+        "translation": "depuraran"
       },
       {
-        "id": "c10",
-        "text": "it",
+        "id": "c13",
+        "text": "root",
         "isDistractor": false,
-        "translation": "(pronombre)"
+        "translation": "raíz"
+      },
+      {
+        "id": "c7",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "d1",
+        "text": "debug",
+        "isDistractor": true,
+        "translation": "depurar"
+      },
+      {
+        "id": "d3",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "(artículo)",
+      "the": "el/los",
       "developers": "desarrolladores",
-      "deployed": "desplegaron",
+      "debugged": "depuraran",
       "code": "código",
-      "without": "sin",
-      "proper": "adecuadas",
-      "testing": "pruebas",
-      "it": "(pronombre)",
-      "might": "(condicional)",
-      "cause": "causar",
-      "critical": "críticos",
-      "bugs": "errores",
-      "in": "en",
-      "production": "producción",
-      "deploy": "desplegar",
-      "causing": "causando",
-      "would": "(condicional)",
-      "defects": "defectos",
-      "implementation": "implementación"
+      "more": "más",
+      "thoroughly": "a fondo",
+      "they": "ellos",
+      "might": "podrían",
+      "find": "encontrar",
+      "root": "raíz",
+      "cause": "causa",
+      "faster": "más rápido",
+      "debug": "depurar",
+      "would": "haría",
+      "could": "podría"
     },
     "metadata": {
       "tense": "second conditional",
@@ -2872,76 +2389,25 @@
   {
     "hints": [
       "Sujeto: el desarrollador",
-      "Verbo: necesitar (condicional)",
-      "Complemento: depurar la aplicación de manera más eficiente",
-      "Sujeto: tú",
-      "Verbo: deber (condicional, obligación)",
-      "Verbo: pedir (infinitivo)",
-      "Complemento: ayuda de programación en pareja"
+      "Verbo: refactorizar (en modo subjuntivo, pretérito imperfecto)",
+      "Complemento: el código",
+      "Cláusula: si el desarrollador no refactorizara el código"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: necesitar (condicional) / Complemento: depurar la aplicación de manera más eficiente / Sujeto: tú / Verbo: deber (condicional, obligación) / Verbo: pedir (infinitivo) / Complemento: ayuda de programación en pareja",
-    "spanishSentence": "Si el desarrollador necesitara depurar la aplicación de manera más eficiente, deberías pedir ayuda de programación en pareja.",
-    "correctSentence": "If the developer needed to debug the application more efficiently, you should ask for pair programming assistance.",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: refactorizar (en modo subjuntivo, pretérito imperfecto) / Complemento: el código / Cláusula: si el desarrollador no refactorizara el código",
+    "spanishSentence": "Si el desarrollador no refactorizara el código, no debería ignorar la deuda técnica acumulada.",
+    "correctSentence": "If the developer did not refactor the code, he should not ignore the accumulated technical debt.",
     "cards": [
       {
-        "id": "c1",
-        "text": "If",
+        "id": "c11",
+        "text": "not",
         "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c4",
-        "text": "needed",
-        "isDistractor": false,
-        "translation": "necesitara"
-      },
-      {
-        "id": "c13",
-        "text": "ask",
-        "isDistractor": false,
-        "translation": "pedir"
+        "translation": "no"
       },
       {
         "id": "c10",
-        "text": "efficiently",
+        "text": "should",
         "isDistractor": false,
-        "translation": "eficientemente"
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c6",
-        "text": "debug",
-        "isDistractor": false,
-        "translation": "depurar"
-      },
-      {
-        "id": "d4",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c9",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
+        "translation": "debería"
       },
       {
         "id": "c3",
@@ -2950,126 +2416,58 @@
         "translation": "desarrollador"
       },
       {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d5",
-        "text": "requesting",
-        "isDistractor": true,
-        "translation": "solicitando"
-      },
-      {
-        "id": "c8",
-        "text": "application",
-        "isDistractor": false,
-        "translation": "aplicación"
-      },
-      {
-        "id": "d1",
-        "text": "needs",
-        "isDistractor": true,
-        "translation": "necesita"
-      },
-      {
         "id": "c5",
-        "text": "to",
+        "text": "not",
         "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c12",
-        "text": "should",
-        "isDistractor": false,
-        "translation": "deberías"
-      },
-      {
-        "id": "c11",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "d3",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "c17",
-        "text": "assistance",
-        "isDistractor": false,
-        "translation": "ayuda"
-      },
-      {
-        "id": "c15",
-        "text": "pair",
-        "isDistractor": false,
-        "translation": "pareja"
+        "translation": "no"
       },
       {
         "id": "c14",
-        "text": "for",
+        "text": "accumulated",
         "isDistractor": false,
-        "translation": "para"
+        "translation": "acumulada"
       },
       {
-        "id": "c16",
-        "text": "programming",
+        "id": "c12",
+        "text": "ignore",
         "isDistractor": false,
-        "translation": "programación"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "developer": "desarrollador",
-      "needed": "necesitara",
-      "to": "(marca de infinitivo)",
-      "debug": "depurar",
-      "application": "aplicación",
-      "more": "más",
-      "efficiently": "eficientemente",
-      "you": "tú",
-      "should": "deberías",
-      "ask": "pedir",
-      "for": "para",
-      "pair": "pareja",
-      "programming": "programación",
-      "assistance": "ayuda",
-      "needs": "necesita",
-      "would": "(condicional)",
-      "could": "podría",
-      "him": "él",
-      "requesting": "solicitando"
-    },
-    "metadata": {
-      "tense": "second conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: planificar (condicional)",
-      "Complemento: la arquitectura de microservicios de manera adecuada",
-      "Verbo: poder (posibilidad/condicional)",
-      "Complemento: el sistema no escalar de manera eficiente en producción"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: planificar (condicional) / Complemento: la arquitectura de microservicios de manera adecuada / Verbo: poder (posibilidad/condicional) / Complemento: el sistema no escalar de manera eficiente en producción",
-    "spanishSentence": "Si el arquitecto no planificara adecuadamente la arquitectura de microservicios, el sistema podría no escalar de manera eficiente en producción.",
-    "correctSentence": "If the architect didn't plan the microservices architecture properly, the system might not scale efficiently in production.",
-    "cards": [
+        "translation": "ignorar"
+      },
       {
-        "id": "c11",
-        "text": "system",
+        "id": "c15",
+        "text": "technical",
         "isDistractor": false,
-        "translation": "sistema"
+        "translation": "técnica"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "forget",
+        "isDistractor": true,
+        "translation": "olvidar"
+      },
+      {
+        "id": "d1",
+        "text": "refactors",
+        "isDistractor": true,
+        "translation": "refactoriza"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "shouldn't",
+        "isDistractor": true,
+        "translation": "no debería"
       },
       {
         "id": "cm1",
@@ -3078,153 +2476,65 @@
         "translation": "coma"
       },
       {
+        "id": "c8",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
         "id": "c1",
         "text": "If",
         "isDistractor": false,
         "translation": "si"
       },
       {
-        "id": "d2",
-        "text": "wouldn't",
-        "isDistractor": true,
-        "translation": "(negación condicional)"
-      },
-      {
-        "id": "c15",
-        "text": "efficiently",
+        "id": "c9",
+        "text": "he",
         "isDistractor": false,
-        "translation": "eficientemente"
+        "translation": "él"
       },
       {
         "id": "c4",
-        "text": "didn't",
+        "text": "did",
         "isDistractor": false,
-        "translation": "(negación pasado)"
+        "translation": "(auxiliar)"
       },
       {
         "id": "c6",
-        "text": "the",
+        "text": "refactor",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "refactorizar"
       },
       {
         "id": "c7",
-        "text": "microservices",
+        "text": "the",
         "isDistractor": false,
-        "translation": "microservicios"
-      },
-      {
-        "id": "c9",
-        "text": "properly",
-        "isDistractor": false,
-        "translation": "adecuadamente"
-      },
-      {
-        "id": "c14",
-        "text": "scale",
-        "isDistractor": false,
-        "translation": "escalar"
+        "translation": "el"
       },
       {
         "id": "c16",
-        "text": "in",
+        "text": "debt",
         "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c17",
-        "text": "production",
-        "isDistractor": false,
-        "translation": "producción"
-      },
-      {
-        "id": "c13",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "might",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d3",
-        "text": "scaling",
-        "isDistractor": true,
-        "translation": "escalado"
-      },
-      {
-        "id": "d1",
-        "text": "plans",
-        "isDistractor": true,
-        "translation": "planifica"
-      },
-      {
-        "id": "d5",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c5",
-        "text": "plan",
-        "isDistractor": false,
-        "translation": "planificar"
-      },
-      {
-        "id": "c8",
-        "text": "architecture",
-        "isDistractor": false,
-        "translation": "arquitectura"
-      },
-      {
-        "id": "d4",
-        "text": "effectively",
-        "isDistractor": true,
-        "translation": "efectivamente"
-      },
-      {
-        "id": "c3",
-        "text": "architect",
-        "isDistractor": false,
-        "translation": "arquitecto"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "deuda"
       }
     ],
     "translations": {
       "if": "si",
-      "the": "(artículo)",
-      "architect": "arquitecto",
-      "didn't": "(negación pasado)",
-      "plan": "planificar",
-      "microservices": "microservicios",
-      "architecture": "arquitectura",
-      "properly": "adecuadamente",
-      "system": "sistema",
-      "might": "(condicional)",
+      "the": "el",
+      "developer": "desarrollador",
+      "did": "(auxiliar)",
       "not": "no",
-      "scale": "escalar",
-      "efficiently": "eficientemente",
-      "in": "en",
-      "production": "producción",
-      "plans": "planifica",
-      "wouldn't": "(negación condicional)",
-      "scaling": "escalado",
-      "effectively": "efectivamente",
-      "could": "(condicional)"
+      "refactor": "refactorizar",
+      "code": "código",
+      "he": "él",
+      "should": "debería",
+      "ignore": "ignorar",
+      "accumulated": "acumulada",
+      "technical": "técnica",
+      "debt": "deuda",
+      "refactors": "refactoriza",
+      "shouldn't": "no debería",
+      "forget": "olvidar"
     },
     "metadata": {
       "tense": "second conditional",
@@ -3236,36 +2546,263 @@
   },
   {
     "hints": [
-      "Tiempo: condicional (si... entonces...)",
-      "Sujeto: yo",
-      "Verbo: tener (condicional, en cláusula 'si')",
-      "Complemento: una mejor comprensión del sistema de diseño",
-      "Verbo: poder (habilidad/capacidad, condicional)",
-      "Verbo: renderizar (infinitivo, después de poder)",
-      "Complemento: los componentes",
-      "Complemento: de manera más eficiente"
+      "Sujeto: el desarrollador de backend",
+      "Verbo: refactorizar (condicional, forma negativa)",
+      "Complemento: la consulta",
+      "Cláusula: mientras el esquema de la base de datos permaneciera estable"
     ],
-    "hintDisplay": "Tiempo: condicional (si... entonces...) / Sujeto: yo / Verbo: tener (condicional, en cláusula 'si') / Complemento: una mejor comprensión del sistema de diseño / Verbo: poder (habilidad/capacidad, condicional) / Verbo: renderizar (infinitivo, después de poder) / Complemento: los componentes / Complemento: de manera más eficiente",
-    "spanishSentence": "Si tuviera una mejor comprensión del sistema de diseño, podría renderizar los componentes de manera más eficiente.",
-    "correctSentence": "If I had better understanding of the design system, I could render the components more efficiently.",
+    "hintDisplay": "Sujeto: el desarrollador de backend / Verbo: refactorizar (condicional, forma negativa) / Complemento: la consulta / Cláusula: mientras el esquema de la base de datos permaneciera estable",
+    "spanishSentence": "El desarrollador de backend no refactorizaría la consulta si el esquema de la base de datos permaneciera estable.",
+    "correctSentence": "The backend developer would not refactor the query if the database schema remained stable.",
     "cards": [
       {
-        "id": "c15",
-        "text": "more",
+        "id": "c13",
+        "text": "remained",
         "isDistractor": false,
-        "translation": "más"
+        "translation": "permaneciera"
+      },
+      {
+        "id": "d1",
+        "text": "wouldn't",
+        "isDistractor": true,
+        "translation": "(condicional negativo)"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d5",
+        "text": "stablely",
+        "isDistractor": true,
+        "translation": "establemente"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d3",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "c6",
+        "text": "refactor",
+        "isDistractor": false,
+        "translation": "refactorizar"
+      },
+      {
+        "id": "c4",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c9",
+        "text": "if",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c2",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "c14",
+        "text": "stable",
+        "isDistractor": false,
+        "translation": "estable"
+      },
+      {
+        "id": "c12",
+        "text": "schema",
+        "isDistractor": false,
+        "translation": "esquema"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "refactors",
+        "isDistractor": true,
+        "translation": "refactoriza"
+      },
+      {
+        "id": "d4",
+        "text": "stayed",
+        "isDistractor": true,
+        "translation": "permaneciera"
+      },
+      {
+        "id": "c11",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c8",
+        "text": "query",
+        "isDistractor": false,
+        "translation": "consulta"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "would": "(condicional)",
+      "not": "no",
+      "refactor": "refactorizar",
+      "query": "consulta",
+      "if": "si",
+      "database": "base de datos",
+      "schema": "esquema",
+      "remained": "permaneciera",
+      "stable": "estable",
+      "wouldn't": "(condicional negativo)",
+      "refactors": "refactoriza",
+      "shall": "(futuro)",
+      "stayed": "permaneciera",
+      "stablely": "establemente"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto",
+      "Verbo: reducir (condicional simple)",
+      "Complemento: el riesgo de fallas futuras",
+      "Cláusula: si el arquitecto planificara el sistema con componentes modulares"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: reducir (condicional simple) / Complemento: el riesgo de fallas futuras / Cláusula: si el arquitecto planificara el sistema con componentes modulares",
+    "spanishSentence": "Si el arquitecto planificara el sistema con componentes modulares, él reduciría el riesgo de fallas futuras.",
+    "correctSentence": "If the architect planned the system with modular components, he would reduce the risk of future failures.",
+    "cards": [
+      {
+        "id": "c14",
+        "text": "risk",
+        "isDistractor": false,
+        "translation": "riesgo"
+      },
+      {
+        "id": "c8",
+        "text": "modular",
+        "isDistractor": false,
+        "translation": "modulares"
+      },
+      {
+        "id": "c6",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c11",
+        "text": "would",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d5",
+        "text": "modulated",
+        "isDistractor": true,
+        "translation": "modulado"
+      },
+      {
+        "id": "c15",
         "text": "of",
         "isDistractor": false,
         "translation": "de"
       },
       {
+        "id": "d3",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
+      },
+      {
+        "id": "d4",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "(posibilidad)"
+      },
+      {
         "id": "c9",
-        "text": "system",
+        "text": "components",
         "isDistractor": false,
-        "translation": "sistema"
+        "translation": "componentes"
+      },
+      {
+        "id": "d1",
+        "text": "plans",
+        "isDistractor": true,
+        "translation": "planifica"
+      },
+      {
+        "id": "c17",
+        "text": "failures",
+        "isDistractor": false,
+        "translation": "fallas"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c3",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
       },
       {
         "id": "c1",
@@ -3274,16 +2811,28 @@
         "translation": "si"
       },
       {
-        "id": "c11",
-        "text": "could",
+        "id": "c16",
+        "text": "future",
         "isDistractor": false,
-        "translation": "podría"
+        "translation": "futuras"
       },
       {
-        "id": "d2",
-        "text": "having",
-        "isDistractor": true,
-        "translation": "teniendo"
+        "id": "c12",
+        "text": "reduce",
+        "isDistractor": false,
+        "translation": "reduciría"
+      },
+      {
+        "id": "c7",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "cm1",
@@ -3292,109 +2841,325 @@
         "translation": "coma"
       },
       {
-        "id": "c10",
-        "text": "I",
+        "id": "c4",
+        "text": "planned",
         "isDistractor": false,
-        "translation": "yo"
-      },
+        "translation": "planificara"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "architect": "arquitecto",
+      "planned": "planificara",
+      "system": "sistema",
+      "with": "con",
+      "modular": "modulares",
+      "components": "componentes",
+      "he": "él",
+      "would": "(condicional)",
+      "reduce": "reduciría",
+      "risk": "riesgo",
+      "of": "de",
+      "future": "futuras",
+      "failures": "fallas",
+      "plans": "planifica",
+      "will": "(futuro)",
+      "she": "ella",
+      "might": "(posibilidad)",
+      "modulated": "modulado"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: construir (condicional simple)",
+      "Complemento: un sistema más robusto",
+      "Cláusula: si el equipo tuviera más tiempo"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: construir (condicional simple) / Complemento: un sistema más robusto / Cláusula: si el equipo tuviera más tiempo",
+    "spanishSentence": "Si el equipo tuviera más tiempo, construirían un sistema más robusto.",
+    "correctSentence": "If the team had more time, they would build a more robust system.",
+    "cards": [
       {
         "id": "c4",
-        "text": "better",
-        "isDistractor": false,
-        "translation": "mejor"
-      },
-      {
-        "id": "d4",
-        "text": "understood",
-        "isDistractor": true,
-        "translation": "entendido"
-      },
-      {
-        "id": "d3",
-        "text": "rendering",
-        "isDistractor": true,
-        "translation": "renderizar"
-      },
-      {
-        "id": "c16",
-        "text": "efficiently",
-        "isDistractor": false,
-        "translation": "eficientemente"
-      },
-      {
-        "id": "c12",
-        "text": "render",
-        "isDistractor": false,
-        "translation": "renderizar"
-      },
-      {
-        "id": "c5",
-        "text": "understanding",
-        "isDistractor": false,
-        "translation": "comprensión"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c14",
-        "text": "components",
-        "isDistractor": false,
-        "translation": "componentes"
-      },
-      {
-        "id": "c3",
         "text": "had",
         "isDistractor": false,
         "translation": "tuviera"
       },
       {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "id": "d1",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "tiene"
       },
       {
-        "id": "c8",
-        "text": "design",
+        "id": "c1",
+        "text": "If",
         "isDistractor": false,
-        "translation": "diseño"
+        "translation": "si"
+      },
+      {
+        "id": "c12",
+        "text": "robust",
+        "isDistractor": false,
+        "translation": "robusto"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c3",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c13",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "c6",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "tiempo"
+      },
+      {
+        "id": "c9",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "construirían"
+      },
+      {
+        "id": "c11",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "d3",
+        "text": "built",
+        "isDistractor": true,
+        "translation": "construido"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c10",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c7",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
       },
       {
         "id": "c2",
-        "text": "I",
+        "text": "the",
         "isDistractor": false,
-        "translation": "yo"
+        "translation": "el"
       },
       {
-        "id": "d1",
+        "id": "c8",
         "text": "would",
-        "isDistractor": true,
-        "translation": "sería"
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c5",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
       }
     ],
     "translations": {
       "if": "si",
-      "i": "yo",
+      "the": "el",
+      "team": "equipo",
       "had": "tuviera",
-      "better": "mejor",
-      "understanding": "comprensión",
-      "of": "de",
-      "the": "(artículo)",
-      "design": "diseño",
-      "system": "sistema",
-      "could": "podría",
-      "render": "renderizar",
-      "components": "componentes",
       "more": "más",
-      "efficiently": "eficientemente",
-      "would": "sería",
-      "having": "teniendo",
-      "rendering": "renderizar",
-      "understood": "entendido"
+      "time": "tiempo",
+      "they": "ellos",
+      "would": "(condicional)",
+      "build": "construirían",
+      "a": "un",
+      "robust": "robusto",
+      "system": "sistema",
+      "has": "tiene",
+      "will": "(futuro)",
+      "built": "construido"
+    },
+    "metadata": {
+      "tense": "second conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Cláusula: si el desarrollador frontend optimizara las solicitudes de fetch",
+      "Sujeto: la aplicación",
+      "Verbo: poder (capacidad)",
+      "Complemento: cargar más rápido",
+      "Tiempo: (sin marcador temporal explícito)"
+    ],
+    "hintDisplay": "Cláusula: si el desarrollador frontend optimizara las solicitudes de fetch / Sujeto: la aplicación / Verbo: poder (capacidad) / Complemento: cargar más rápido / Tiempo: (sin marcador temporal explícito)",
+    "spanishSentence": "Si el desarrollador frontend optimizara las solicitudes de fetch, la aplicación podría cargar más rápido.",
+    "correctSentence": "If the frontend developer optimized the fetch requests, the app could load faster.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c12",
+        "text": "load",
+        "isDistractor": false,
+        "translation": "cargar"
+      },
+      {
+        "id": "d3",
+        "text": "optimizedly",
+        "isDistractor": true,
+        "translation": "de manera optimizada"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "optimizes",
+        "isDistractor": true,
+        "translation": "optimiza"
+      },
+      {
+        "id": "c3",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "c8",
+        "text": "requests",
+        "isDistractor": false,
+        "translation": "solicitudes"
+      },
+      {
+        "id": "c7",
+        "text": "fetch",
+        "isDistractor": false,
+        "translation": "fetch"
+      },
+      {
+        "id": "c11",
+        "text": "could",
+        "isDistractor": false,
+        "translation": "podría"
+      },
+      {
+        "id": "d4",
+        "text": "optimization",
+        "isDistractor": true,
+        "translation": "optimización"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c13",
+        "text": "faster",
+        "isDistractor": false,
+        "translation": "más rápido"
+      },
+      {
+        "id": "d5",
+        "text": "fetching",
+        "isDistractor": true,
+        "translation": "obtención"
+      },
+      {
+        "id": "c5",
+        "text": "optimized",
+        "isDistractor": false,
+        "translation": "optimizara"
+      },
+      {
+        "id": "c10",
+        "text": "app",
+        "isDistractor": false,
+        "translation": "aplicación"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "optimized": "optimizara",
+      "fetch": "fetch",
+      "requests": "solicitudes",
+      "app": "aplicación",
+      "could": "podría",
+      "load": "cargar",
+      "faster": "más rápido",
+      "optimizes": "optimiza",
+      "would": "(condicional)",
+      "optimizedly": "de manera optimizada",
+      "optimization": "optimización",
+      "fetching": "obtención"
     },
     "metadata": {
       "tense": "second conditional",

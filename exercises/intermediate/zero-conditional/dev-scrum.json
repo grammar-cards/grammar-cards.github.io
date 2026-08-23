@@ -1,1262 +1,57 @@
 [
   {
     "hints": [
-      "Sujeto: un desarrollador",
-      "Verbo: presentar",
-      "Complemento: una solicitud de extracción",
-      "Complemento: con código limpio y pruebas aprobadas",
-      "Verbo: aprobar",
-      "Sujeto: el líder técnico",
-      "Complemento: la solicitud",
-      "Tiempo: inmediatamente"
+      "Sujeto: el equipo",
+      "Verbo: discutir (presente simple)",
+      "Complemento: la retroalimentación",
+      "Complemento: en la siguiente reunión de scrum",
+      "Cláusula: cuando el product owner rechaza una historia de usuario"
     ],
-    "hintDisplay": "Sujeto: un desarrollador / Verbo: presentar / Complemento: una solicitud de extracción / Complemento: con código limpio y pruebas aprobadas / Verbo: aprobar / Sujeto: el líder técnico / Complemento: la solicitud / Tiempo: inmediatamente",
-    "spanishSentence": "Si un desarrollador presenta una solicitud de extracción con código limpio y pruebas aprobadas, el líder técnico la aprueba inmediatamente.",
-    "correctSentence": "If a developer submits a pull request with clean code and passing tests, the tech lead approves it immediately.",
+    "hintDisplay": "Sujeto: el equipo / Verbo: discutir (presente simple) / Complemento: la retroalimentación / Complemento: en la siguiente reunión de scrum / Cláusula: cuando el product owner rechaza una historia de usuario",
+    "spanishSentence": "Cuando el product owner rechaza una historia de usuario, el equipo discute la retroalimentación en la siguiente reunión de scrum.",
+    "correctSentence": "When the product owner rejects a user story, the team discusses the feedback in the next scrum meeting.",
     "cards": [
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d1",
-        "text": "submitting",
-        "isDistractor": true,
-        "translation": "presentando"
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo indeterminado)"
-      },
       {
         "id": "c14",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo determinado)"
-      },
-      {
-        "id": "c13",
-        "text": "tests",
-        "isDistractor": false,
-        "translation": "pruebas"
-      },
-      {
-        "id": "c9",
-        "text": "clean",
-        "isDistractor": false,
-        "translation": "limpio"
-      },
-      {
-        "id": "c7",
-        "text": "request",
-        "isDistractor": false,
-        "translation": "solicitud"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "d3",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c18",
-        "text": "it",
-        "isDistractor": false,
-        "translation": "la"
-      },
-      {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "c10",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "c6",
-        "text": "pull",
-        "isDistractor": false,
-        "translation": "de extracción"
-      },
-      {
-        "id": "c12",
-        "text": "passing",
-        "isDistractor": false,
-        "translation": "aprobadas"
-      },
-      {
-        "id": "c8",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "c4",
-        "text": "submits",
-        "isDistractor": false,
-        "translation": "presenta"
-      },
-      {
-        "id": "c11",
-        "text": "and",
-        "isDistractor": false,
-        "translation": "y"
-      },
-      {
-        "id": "c2",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo indeterminado)"
-      },
-      {
-        "id": "c19",
-        "text": "immediately",
-        "isDistractor": false,
-        "translation": "inmediatamente"
-      },
-      {
-        "id": "c16",
-        "text": "lead",
-        "isDistractor": false,
-        "translation": "líder"
-      },
-      {
-        "id": "c15",
-        "text": "tech",
-        "isDistractor": false,
-        "translation": "técnico"
-      },
-      {
-        "id": "d2",
-        "text": "rejecting",
-        "isDistractor": true,
-        "translation": "rechazando"
-      },
-      {
-        "id": "c17",
-        "text": "approves",
-        "isDistractor": false,
-        "translation": "aprueba"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "a": "(artículo indeterminado)",
-      "developer": "desarrollador",
-      "submits": "presenta",
-      "pull": "de extracción",
-      "request": "solicitud",
-      "with": "con",
-      "clean": "limpio",
-      "code": "código",
-      "and": "y",
-      "passing": "aprobadas",
-      "tests": "pruebas",
-      "the": "(artículo determinado)",
-      "tech": "técnico",
-      "lead": "líder",
-      "approves": "aprueba",
-      "it": "la",
-      "immediately": "inmediatamente",
-      "submitting": "presentando",
-      "rejecting": "rechazando",
-      "him": "él"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: desplegar (condicional - acción que podría ocurrir)",
-      "Complemento: el código sin pruebas",
-      "Verbo: romper (resultado de la acción anterior)",
-      "Complemento: la compilación en producción"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: desplegar (condicional - acción que podría ocurrir) / Complemento: el código sin pruebas / Verbo: romper (resultado de la acción anterior) / Complemento: la compilación en producción",
-    "spanishSentence": "Si el desarrollador despliega el código sin pruebas, la compilación se rompe en producción.",
-    "correctSentence": "If the developer deploys the code without testing, the build breaks in production.",
-    "cards": [
-      {
-        "id": "d3",
-        "text": "productions",
-        "isDistractor": true,
-        "translation": "producciones"
-      },
-      {
-        "id": "c7",
-        "text": "without",
-        "isDistractor": false,
-        "translation": "sin"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "deploys",
-        "isDistractor": false,
-        "translation": "despliega"
-      },
-      {
-        "id": "d2",
-        "text": "compiles",
-        "isDistractor": true,
-        "translation": "compila"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "testing",
-        "isDistractor": false,
-        "translation": "pruebas"
-      },
-      {
-        "id": "d1",
-        "text": "broken",
-        "isDistractor": true,
-        "translation": "roto"
-      },
-      {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
         "text": "in",
         "isDistractor": false,
         "translation": "en"
       },
       {
-        "id": "c11",
-        "text": "breaks",
+        "id": "c7",
+        "text": "user",
         "isDistractor": false,
-        "translation": "se rompe"
-      },
-      {
-        "id": "c10",
-        "text": "build",
-        "isDistractor": false,
-        "translation": "compilación"
-      },
-      {
-        "id": "c13",
-        "text": "production",
-        "isDistractor": false,
-        "translation": "producción"
-      },
-      {
-        "id": "c6",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "developer": "desarrollador",
-      "deploys": "despliega",
-      "code": "código",
-      "without": "sin",
-      "testing": "pruebas",
-      "build": "compilación",
-      "breaks": "se rompe",
-      "in": "en",
-      "production": "producción",
-      "broken": "roto",
-      "compiles": "compila",
-      "productions": "producciones"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: discutir",
-      "Complemento: los objetivos del sprint",
-      "Complemento: en nuestras reuniones de desarrollo",
-      "Verbo: entender (en negación, resultado de la condición)",
-      "Complemento: los requisitos del proyecto",
-      "Estructura: condicional (Si... no... entonces... no...)"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: discutir / Complemento: los objetivos del sprint / Complemento: en nuestras reuniones de desarrollo / Verbo: entender (en negación, resultado de la condición) / Complemento: los requisitos del proyecto / Estructura: condicional (Si... no... entonces... no...)",
-    "spanishSentence": "Si no discutimos los objetivos del sprint en nuestras reuniones de desarrollo, no entendemos los requisitos del proyecto.",
-    "correctSentence": "If we don't discuss the sprint goals in our dev meetings, we don't understand the project requirements.",
-    "cards": [
-      {
-        "id": "d3",
-        "text": "understood",
-        "isDistractor": true,
-        "translation": "entendido"
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
+        "translation": "usuario"
       },
       {
         "id": "c17",
-        "text": "requirements",
+        "text": "scrum",
         "isDistractor": false,
-        "translation": "requisitos"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "scrum"
       },
       {
         "id": "c16",
-        "text": "project",
+        "text": "next",
         "isDistractor": false,
-        "translation": "proyecto"
+        "translation": "siguiente"
       },
       {
-        "id": "c9",
-        "text": "our",
-        "isDistractor": false,
-        "translation": "nuestras"
-      },
-      {
-        "id": "c7",
-        "text": "goals",
-        "isDistractor": false,
-        "translation": "objetivos"
-      },
-      {
-        "id": "c4",
+        "id": "d2",
         "text": "discuss",
-        "isDistractor": false,
-        "translation": "discutimos"
-      },
-      {
-        "id": "c3",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c10",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c6",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c8",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "d1",
-        "text": "discussing",
         "isDistractor": true,
-        "translation": "discutiendo"
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c14",
-        "text": "understand",
-        "isDistractor": false,
-        "translation": "entendemos"
+        "translation": "discutir"
       },
       {
         "id": "c11",
-        "text": "meetings",
+        "text": "discusses",
         "isDistractor": false,
-        "translation": "reuniones"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c13",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d2",
-        "text": "doesn't",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "don't": "(auxiliar)",
-      "discuss": "discutimos",
-      "the": "(artículo)",
-      "sprint": "sprint",
-      "goals": "objetivos",
-      "in": "en",
-      "our": "nuestras",
-      "dev": "desarrollo",
-      "meetings": "reuniones",
-      "understand": "entendemos",
-      "project": "proyecto",
-      "requirements": "requisitos",
-      "discussing": "discutiendo",
-      "doesn't": "(auxiliar)",
-      "understood": "entendido"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: cuando (con verbo en presente)",
-      "Sujeto: los desarrolladores",
-      "Verbo: depurar",
-      "Complemento: el código",
-      "Verbo: asistir (negación con auxiliar)",
-      "Complemento: a la reunión de scrum"
-    ],
-    "hintDisplay": "Tiempo: cuando (con verbo en presente) / Sujeto: los desarrolladores / Verbo: depurar / Complemento: el código / Verbo: asistir (negación con auxiliar) / Complemento: a la reunión de scrum",
-    "spanishSentence": "Cuando los desarrolladores depuran el código, no asisten a la reunión de scrum.",
-    "correctSentence": "When the developers debug the code, they don't attend the scrum meeting.",
-    "cards": [
-      {
-        "id": "c4",
-        "text": "debug",
-        "isDistractor": false,
-        "translation": "depuran"
-      },
-      {
-        "id": "c8",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(negación)"
-      },
-      {
-        "id": "d1",
-        "text": "debugging",
-        "isDistractor": true,
-        "translation": "depuración"
-      },
-      {
-        "id": "c7",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "attend",
-        "isDistractor": false,
-        "translation": "asisten"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "discute"
       },
       {
         "id": "c1",
         "text": "When",
         "isDistractor": false,
         "translation": "cuando"
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d5",
-        "text": "meetings",
-        "isDistractor": true,
-        "translation": "reuniones"
-      },
-      {
-        "id": "c11",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "d2",
-        "text": "attends",
-        "isDistractor": true,
-        "translation": "asiste"
-      },
-      {
-        "id": "c3",
-        "text": "developers",
-        "isDistractor": false,
-        "translation": "desarrolladores"
-      },
-      {
-        "id": "c12",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "d4",
-        "text": "developers'",
-        "isDistractor": true,
-        "translation": "de los desarrolladores"
-      },
-      {
-        "id": "c6",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "the": "(artículo)",
-      "developers": "desarrolladores",
-      "debug": "depuran",
-      "code": "código",
-      "they": "ellos",
-      "don't": "(negación)",
-      "attend": "asisten",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "debugging": "depuración",
-      "attends": "asiste",
-      "does": "(auxiliar)",
-      "developers'": "de los desarrolladores",
-      "meetings": "reuniones"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el scrum master",
-      "Verbo: rastrear (seguimiento)",
-      "Complemento: el progreso del sprint",
-      "Sujeto: el equipo",
-      "Verbo: identificar",
-      "Complemento: los impedimentos",
-      "Tiempo: a tiempo"
-    ],
-    "hintDisplay": "Sujeto: el scrum master / Verbo: rastrear (seguimiento) / Complemento: el progreso del sprint / Sujeto: el equipo / Verbo: identificar / Complemento: los impedimentos / Tiempo: a tiempo",
-    "spanishSentence": "Si el scrum master no rastrea el progreso del sprint, el equipo no identifica los impedimentos a tiempo.",
-    "correctSentence": "If the scrum master doesn't track the sprint progress, the team doesn't identify impediments on time.",
-    "cards": [
-      {
-        "id": "c9",
-        "text": "progress",
-        "isDistractor": false,
-        "translation": "progreso"
-      },
-      {
-        "id": "c14",
-        "text": "impediments",
-        "isDistractor": false,
-        "translation": "impedimentos"
-      },
-      {
-        "id": "c5",
-        "text": "doesn't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d2",
-        "text": "identifies",
-        "isDistractor": true,
-        "translation": "identifica"
-      },
-      {
-        "id": "d1",
-        "text": "tracking",
-        "isDistractor": true,
-        "translation": "seguimiento"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c8",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c3",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c6",
-        "text": "track",
-        "isDistractor": false,
-        "translation": "rastrea"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c13",
-        "text": "identify",
-        "isDistractor": false,
-        "translation": "identifica"
-      },
-      {
-        "id": "c16",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "d3",
-        "text": "impediment",
-        "isDistractor": true,
-        "translation": "impedimento"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "d4",
-        "text": "timely",
-        "isDistractor": true,
-        "translation": "oportuno"
-      },
-      {
-        "id": "c11",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c15",
-        "text": "on",
-        "isDistractor": false,
-        "translation": "a"
-      },
-      {
-        "id": "c12",
-        "text": "doesn't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c4",
-        "text": "master",
-        "isDistractor": false,
-        "translation": "master"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "scrum": "scrum",
-      "master": "master",
-      "doesn't": "(auxiliar)",
-      "track": "rastrea",
-      "sprint": "sprint",
-      "progress": "progreso",
-      "team": "equipo",
-      "identify": "identifica",
-      "impediments": "impedimentos",
-      "on": "a",
-      "time": "tiempo",
-      "tracking": "seguimiento",
-      "identifies": "identifica",
-      "impediment": "impedimento",
-      "timely": "oportuno"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: cuando (conjunción temporal)",
-      "Sujeto: el pasante",
-      "Verbo: hacer (presente)",
-      "Complemento: una pregunta",
-      "Complemento: durante la reunión de scrum",
-      "Sujeto: el equipo",
-      "Verbo: escuchar (presente)",
-      "Complemento: atentamente (adverbio de modo)"
-    ],
-    "hintDisplay": "Tiempo: cuando (conjunción temporal) / Sujeto: el pasante / Verbo: hacer (presente) / Complemento: una pregunta / Complemento: durante la reunión de scrum / Sujeto: el equipo / Verbo: escuchar (presente) / Complemento: atentamente (adverbio de modo)",
-    "spanishSentence": "Cuando el pasante hace una pregunta durante la reunión de scrum, el equipo escucha atentamente.",
-    "correctSentence": "When the intern asks a question during the scrum meeting, the team listens carefully.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "asked",
-        "isDistractor": true,
-        "translation": "preguntado"
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c14",
-        "text": "carefully",
-        "isDistractor": false,
-        "translation": "atentamente"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c1",
-        "text": "When",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "d3",
-        "text": "hears",
-        "isDistractor": true,
-        "translation": "oye"
-      },
-      {
-        "id": "c3",
-        "text": "intern",
-        "isDistractor": false,
-        "translation": "pasante"
-      },
-      {
-        "id": "c4",
-        "text": "asks",
-        "isDistractor": false,
-        "translation": "hace"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "d2",
-        "text": "asking",
-        "isDistractor": true,
-        "translation": "haciendo"
-      },
-      {
-        "id": "c7",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c13",
-        "text": "listens",
-        "isDistractor": false,
-        "translation": "escucha"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "question",
-        "isDistractor": false,
-        "translation": "pregunta"
-      },
-      {
-        "id": "c10",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "d4",
-        "text": "answered",
-        "isDistractor": true,
-        "translation": "respondido"
-      },
-      {
-        "id": "c12",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "the": "(artículo)",
-      "intern": "pasante",
-      "asks": "hace",
-      "a": "(artículo)",
-      "question": "pregunta",
-      "during": "durante",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "team": "equipo",
-      "listens": "escucha",
-      "carefully": "atentamente",
-      "asked": "preguntado",
-      "asking": "haciendo",
-      "hears": "oye",
-      "answered": "respondido"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: los stakeholders",
-      "Verbo: patrocinar",
-      "Complemento: el proyecto",
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: recibir",
-      "Complemento: los recursos necesarios",
-      "Estructura: oración condicional con 'si' (condición negativa en la primera parte)"
-    ],
-    "hintDisplay": "Sujeto: los stakeholders / Verbo: patrocinar / Complemento: el proyecto / Sujeto: el equipo de desarrollo / Verbo: recibir / Complemento: los recursos necesarios / Estructura: oración condicional con 'si' (condición negativa en la primera parte)",
-    "spanishSentence": "Si los stakeholders no patrocinan el proyecto, el equipo de desarrollo no recibe los recursos necesarios.",
-    "correctSentence": "If stakeholders don't sponsor the project, the development team doesn't receive the necessary resources.",
-    "cards": [
-      {
-        "id": "d4",
-        "text": "receives",
-        "isDistractor": true,
-        "translation": "recibe"
-      },
-      {
-        "id": "d1",
-        "text": "sponsors",
-        "isDistractor": true,
-        "translation": "patrocina"
-      },
-      {
-        "id": "c2",
-        "text": "stakeholders",
-        "isDistractor": false,
-        "translation": "stakeholders"
-      },
-      {
-        "id": "c10",
-        "text": "doesn't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c6",
-        "text": "project",
-        "isDistractor": false,
-        "translation": "proyecto"
-      },
-      {
-        "id": "c11",
-        "text": "receive",
-        "isDistractor": false,
-        "translation": "recibir"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "d5",
-        "text": "won't",
-        "isDistractor": true,
-        "translation": "(futuro negativo)"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c8",
-        "text": "development",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c14",
-        "text": "resources",
-        "isDistractor": false,
-        "translation": "recursos"
-      },
-      {
-        "id": "c4",
-        "text": "sponsor",
-        "isDistractor": false,
-        "translation": "patrocinar"
-      },
-      {
-        "id": "c9",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "d3",
-        "text": "receiving",
-        "isDistractor": true,
-        "translation": "recibiendo"
-      },
-      {
-        "id": "c13",
-        "text": "necessary",
-        "isDistractor": false,
-        "translation": "necesarios"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d2",
-        "text": "received",
-        "isDistractor": true,
-        "translation": "recibido"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "stakeholders": "stakeholders",
-      "don't": "(auxiliar)",
-      "sponsor": "patrocinar",
-      "the": "(artículo)",
-      "project": "proyecto",
-      "development": "desarrollo",
-      "team": "equipo",
-      "doesn't": "(auxiliar)",
-      "receive": "recibir",
-      "necessary": "necesarios",
-      "resources": "recursos",
-      "sponsors": "patrocina",
-      "received": "recibido",
-      "receiving": "recibiendo",
-      "receives": "recibe",
-      "won't": "(futuro negativo)"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: cuando (marcador temporal de condición)",
-      "Sujeto: el propietario del producto",
-      "Verbo: priorizar (acción principal en presente)",
-      "Complemento: los elementos del backlog en la reunión de planificación del sprint",
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: entender (acción que resulta de la condición)",
-      "Complemento: los objetivos del proyecto"
-    ],
-    "hintDisplay": "Tiempo: cuando (marcador temporal de condición) / Sujeto: el propietario del producto / Verbo: priorizar (acción principal en presente) / Complemento: los elementos del backlog en la reunión de planificación del sprint / Sujeto: el equipo de desarrollo / Verbo: entender (acción que resulta de la condición) / Complemento: los objetivos del proyecto",
-    "spanishSentence": "Cuando el propietario del producto prioriza los elementos del backlog en la reunión de planificación del sprint, el equipo de desarrollo entiende los objetivos del proyecto.",
-    "correctSentence": "When the product owner prioritizes the backlog items in the sprint planning meeting, the development team understands the project goals.",
-    "cards": [
-      {
-        "id": "c11",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c19",
-        "text": "project",
-        "isDistractor": false,
-        "translation": "proyecto"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "items",
-        "isDistractor": false,
-        "translation": "elementos"
-      },
-      {
-        "id": "d4",
-        "text": "objectives",
-        "isDistractor": true,
-        "translation": "objetivos"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c15",
-        "text": "development",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "prioritizing",
-        "isDistractor": true,
-        "translation": "priorizando"
-      },
-      {
-        "id": "d5",
-        "text": "schedules",
-        "isDistractor": true,
-        "translation": "cronogramas"
-      },
-      {
-        "id": "d1",
-        "text": "prioritized",
-        "isDistractor": true,
-        "translation": "priorizado"
-      },
-      {
-        "id": "c16",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c5",
-        "text": "prioritizes",
-        "isDistractor": false,
-        "translation": "prioriza"
-      },
-      {
-        "id": "c18",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c20",
-        "text": "goals",
-        "isDistractor": false,
-        "translation": "objetivos"
-      },
-      {
-        "id": "c17",
-        "text": "understands",
-        "isDistractor": false,
-        "translation": "entiende"
-      },
-      {
-        "id": "d2",
-        "text": "understood",
-        "isDistractor": true,
-        "translation": "entendido"
-      },
-      {
-        "id": "c12",
-        "text": "planning",
-        "isDistractor": false,
-        "translation": "planificación"
       },
       {
         "id": "c4",
@@ -1265,16 +60,52 @@
         "translation": "propietario"
       },
       {
-        "id": "c13",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
+        "id": "d4",
+        "text": "rejecting",
+        "isDistractor": true,
+        "translation": "rechazando"
       },
       {
-        "id": "c1",
-        "text": "When",
+        "id": "c12",
+        "text": "the",
         "isDistractor": false,
-        "translation": "cuando"
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "rejected",
+        "isDistractor": true,
+        "translation": "rechazado"
+      },
+      {
+        "id": "c5",
+        "text": "rejects",
+        "isDistractor": false,
+        "translation": "rechaza"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "discussed",
+        "isDistractor": true,
+        "translation": "discutió"
+      },
+      {
+        "id": "c13",
+        "text": "feedback",
+        "isDistractor": false,
+        "translation": "retroalimentación"
       },
       {
         "id": "c3",
@@ -1283,72 +114,16 @@
         "translation": "producto"
       },
       {
-        "id": "c10",
-        "text": "the",
+        "id": "c6",
+        "text": "a",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "una"
       },
       {
-        "id": "c7",
-        "text": "backlog",
+        "id": "c8",
+        "text": "story",
         "isDistractor": false,
-        "translation": "backlog"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "the": "(artículo)",
-      "product": "producto",
-      "owner": "propietario",
-      "prioritizes": "prioriza",
-      "backlog": "backlog",
-      "items": "elementos",
-      "in": "en",
-      "sprint": "sprint",
-      "planning": "planificación",
-      "meeting": "reunión",
-      "development": "desarrollo",
-      "team": "equipo",
-      "understands": "entiende",
-      "project": "proyecto",
-      "goals": "objetivos",
-      "prioritized": "priorizado",
-      "understood": "entendido",
-      "prioritizing": "priorizando",
-      "objectives": "objetivos",
-      "schedules": "cronogramas"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: discutir",
-      "Complemento: los obstáculos en la planificación del sprint",
-      "Verbo: resolver (resultado/consecuencia)",
-      "Complemento: los problemas más rápido"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: discutir / Complemento: los obstáculos en la planificación del sprint / Verbo: resolver (resultado/consecuencia) / Complemento: los problemas más rápido",
-    "spanishSentence": "Si el equipo discute los obstáculos en la planificación del sprint, resolvemos los problemas más rápido.",
-    "correctSentence": "If the team discusses blockers in sprint planning, we resolve issues faster.",
-    "cards": [
-      {
-        "id": "c5",
-        "text": "blockers",
-        "isDistractor": false,
-        "translation": "obstáculos"
-      },
-      {
-        "id": "c4",
-        "text": "discusses",
-        "isDistractor": false,
-        "translation": "discute"
+        "translation": "historia"
       },
       {
         "id": "cm1",
@@ -1357,282 +132,112 @@
         "translation": "coma"
       },
       {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c10",
-        "text": "resolve",
-        "isDistractor": false,
-        "translation": "resolvemos"
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "d1",
-        "text": "discussed",
-        "isDistractor": true,
-        "translation": "discutidos"
-      },
-      {
-        "id": "d2",
-        "text": "resolves",
-        "isDistractor": true,
-        "translation": "resuelve"
-      },
-      {
-        "id": "c8",
-        "text": "planning",
-        "isDistractor": false,
-        "translation": "planificación"
-      },
-      {
-        "id": "c9",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "d4",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c11",
-        "text": "issues",
-        "isDistractor": false,
-        "translation": "problemas"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "faster",
-        "isDistractor": false,
-        "translation": "más rápido"
-      },
-      {
-        "id": "c7",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "d3",
-        "text": "discussing",
-        "isDistractor": true,
-        "translation": "discutiendo"
-      },
-      {
         "id": "d5",
-        "text": "obstacles",
+        "text": "meetings",
         "isDistractor": true,
-        "translation": "obstáculos"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "team": "equipo",
-      "discusses": "discute",
-      "blockers": "obstáculos",
-      "in": "en",
-      "sprint": "sprint",
-      "planning": "planificación",
-      "we": "nosotros",
-      "resolve": "resolvemos",
-      "issues": "problemas",
-      "faster": "más rápido",
-      "discussed": "discutidos",
-      "resolves": "resuelve",
-      "discussing": "discutiendo",
-      "them": "los",
-      "obstacles": "obstáculos"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: cuando (subordinada temporal)",
-      "Sujeto: el ingeniero de QA",
-      "Verbo: documentar (presente simple)",
-      "Complemento: los resultados de las pruebas",
-      "Complemento: en la reunión del sprint",
-      "Sujeto: el equipo de desarrollo",
-      "Verbo: entender (presente simple)",
-      "Complemento: los bugs",
-      "Complemento: más claramente"
-    ],
-    "hintDisplay": "Tiempo: cuando (subordinada temporal) / Sujeto: el ingeniero de QA / Verbo: documentar (presente simple) / Complemento: los resultados de las pruebas / Complemento: en la reunión del sprint / Sujeto: el equipo de desarrollo / Verbo: entender (presente simple) / Complemento: los bugs / Complemento: más claramente",
-    "spanishSentence": "Cuando el ingeniero de QA documenta los resultados de las pruebas en la reunión del sprint, el equipo de desarrollo entiende los bugs más claramente.",
-    "correctSentence": "When the QA engineer documents the test results in the sprint meeting, the development team understands the bugs more clearly.",
-    "cards": [
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "reuniones"
       },
       {
         "id": "c18",
-        "text": "bugs",
-        "isDistractor": false,
-        "translation": "bugs"
-      },
-      {
-        "id": "d4",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c5",
-        "text": "documents",
-        "isDistractor": false,
-        "translation": "documenta"
-      },
-      {
-        "id": "d3",
-        "text": "understand",
-        "isDistractor": true,
-        "translation": "entienden"
-      },
-      {
-        "id": "d2",
-        "text": "documented",
-        "isDistractor": true,
-        "translation": "documentado"
-      },
-      {
-        "id": "c17",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c19",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      },
-      {
-        "id": "c14",
-        "text": "development",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c16",
-        "text": "understands",
-        "isDistractor": false,
-        "translation": "entiende"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d1",
-        "text": "documenting",
-        "isDistractor": true,
-        "translation": "documentando"
-      },
-      {
-        "id": "c15",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c20",
-        "text": "clearly",
-        "isDistractor": false,
-        "translation": "claramente"
-      },
-      {
-        "id": "c3",
-        "text": "QA",
-        "isDistractor": false,
-        "translation": "QA"
-      },
-      {
-        "id": "c7",
-        "text": "test",
-        "isDistractor": false,
-        "translation": "pruebas"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d5",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c8",
-        "text": "results",
-        "isDistractor": false,
-        "translation": "resultados"
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
         "text": "meeting",
         "isDistractor": false,
         "translation": "reunión"
       },
       {
-        "id": "c4",
-        "text": "engineer",
+        "id": "c15",
+        "text": "the",
         "isDistractor": false,
-        "translation": "ingeniero"
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "the": "el",
+      "product": "producto",
+      "owner": "propietario",
+      "rejects": "rechaza",
+      "a": "una",
+      "user": "usuario",
+      "story": "historia",
+      "team": "equipo",
+      "discusses": "discute",
+      "feedback": "retroalimentación",
+      "in": "en",
+      "next": "siguiente",
+      "scrum": "scrum",
+      "meeting": "reunión",
+      "discussed": "discutió",
+      "discuss": "discutir",
+      "rejected": "rechazado",
+      "rejecting": "rechazando",
+      "meetings": "reuniones"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la parte interesada",
+      "Verbo: solicitar (pedir formalmente)",
+      "Complemento: un cambio",
+      "Cláusula: cuando la parte interesada solicita un cambio"
+    ],
+    "hintDisplay": "Sujeto: la parte interesada / Verbo: solicitar (pedir formalmente) / Complemento: un cambio / Cláusula: cuando la parte interesada solicita un cambio",
+    "spanishSentence": "Cuando la parte interesada solicita un cambio, el equipo lo discute en la siguiente reunión de planificación.",
+    "correctSentence": "When the stakeholder requests a change, the team discusses it in the next planning meeting.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "stakeholder",
+        "isDistractor": false,
+        "translation": "parte interesada"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c13",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "siguiente"
+      },
+      {
+        "id": "c10",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "lo"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "plans",
+        "isDistractor": true,
+        "translation": "planes"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "c1",
@@ -1641,32 +246,94 @@
         "translation": "cuando"
       },
       {
-        "id": "c11",
-        "text": "sprint",
+        "id": "c12",
+        "text": "the",
         "isDistractor": false,
-        "translation": "sprint"
+        "translation": "el"
+      },
+      {
+        "id": "c11",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c14",
+        "text": "planning",
+        "isDistractor": false,
+        "translation": "planificación"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c8",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c9",
+        "text": "discusses",
+        "isDistractor": false,
+        "translation": "discute"
+      },
+      {
+        "id": "d1",
+        "text": "discussed",
+        "isDistractor": true,
+        "translation": "discutió"
+      },
+      {
+        "id": "d4",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c6",
+        "text": "change",
+        "isDistractor": false,
+        "translation": "cambio"
+      },
+      {
+        "id": "c5",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c4",
+        "text": "requests",
+        "isDistractor": false,
+        "translation": "solicita"
+      },
+      {
+        "id": "c15",
+        "text": "meeting",
+        "isDistractor": false,
+        "translation": "reunión"
       }
     ],
     "translations": {
       "when": "cuando",
-      "the": "(artículo)",
-      "qa": "QA",
-      "engineer": "ingeniero",
-      "documents": "documenta",
-      "test": "pruebas",
-      "results": "resultados",
-      "in": "en",
-      "sprint": "sprint",
-      "meeting": "reunión",
-      "development": "desarrollo",
+      "the": "el",
+      "stakeholder": "parte interesada",
+      "requests": "solicita",
+      "a": "un",
+      "change": "cambio",
       "team": "equipo",
-      "understands": "entiende",
-      "bugs": "bugs",
-      "more": "más",
-      "clearly": "claramente",
-      "documenting": "documentando",
-      "documented": "documentado",
-      "understand": "entienden",
+      "discusses": "discute",
+      "it": "lo",
+      "in": "en",
+      "next": "siguiente",
+      "planning": "planificación",
+      "meeting": "reunión",
+      "discussed": "discutió",
+      "plans": "planes",
       "they": "ellos",
       "will": "(futuro)"
     },
@@ -1680,47 +347,208 @@
   },
   {
     "hints": [
-      "Tiempo: cuando (indicando una condición temporal)",
-      "Sujeto: el propietario del producto",
-      "Verbo: delegar",
-      "Complemento: tareas en la planificación del sprint",
-      "Sujeto: el equipo",
-      "Verbo: entender",
-      "Complemento: sus responsabilidades de manera clara"
+      "Sujeto: el scrum master",
+      "Verbo: liderar (negación en presente simple)",
+      "Complemento: la reunión diaria",
+      "Cláusula: si el scrum master no lidera la reunión diaria"
     ],
-    "hintDisplay": "Tiempo: cuando (indicando una condición temporal) / Sujeto: el propietario del producto / Verbo: delegar / Complemento: tareas en la planificación del sprint / Sujeto: el equipo / Verbo: entender / Complemento: sus responsabilidades de manera clara",
-    "spanishSentence": "Cuando el propietario del producto delega tareas en la planificación del sprint, el equipo entiende claramente sus responsabilidades.",
-    "correctSentence": "When the product owner delegates tasks in sprint planning, the team understands their responsibilities clearly.",
+    "hintDisplay": "Sujeto: el scrum master / Verbo: liderar (negación en presente simple) / Complemento: la reunión diaria / Cláusula: si el scrum master no lidera la reunión diaria",
+    "spanishSentence": "Si el scrum master no lidera la reunión diaria, el equipo pierde el enfoque.",
+    "correctSentence": "If the scrum master does not lead the daily stand-up, the team loses focus.",
     "cards": [
       {
-        "id": "c14",
-        "text": "responsibilities",
+        "id": "c11",
+        "text": "the",
         "isDistractor": false,
-        "translation": "responsabilidades"
+        "translation": "el"
       },
       {
-        "id": "c3",
-        "text": "product",
+        "id": "c14",
+        "text": "focus",
         "isDistractor": false,
-        "translation": "producto"
+        "translation": "enfoque"
       },
       {
         "id": "d2",
-        "text": "assigns",
+        "text": "leadership",
         "isDistractor": true,
-        "translation": "asigna"
+        "translation": "liderazgo"
+      },
+      {
+        "id": "c6",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c13",
+        "text": "loses",
+        "isDistractor": false,
+        "translation": "pierde"
+      },
+      {
+        "id": "d3",
+        "text": "focuses",
+        "isDistractor": true,
+        "translation": "enfoca"
+      },
+      {
+        "id": "c4",
+        "text": "master",
+        "isDistractor": false,
+        "translation": "master"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c9",
+        "text": "daily",
+        "isDistractor": false,
+        "translation": "diaria"
+      },
+      {
+        "id": "c7",
+        "text": "lead",
+        "isDistractor": false,
+        "translation": "lidera"
+      },
+      {
+        "id": "c3",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
       },
       {
         "id": "c10",
-        "text": "the",
+        "text": "stand-up",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "reunión diaria"
       },
       {
-        "id": "c11",
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c12",
         "text": "team",
         "isDistractor": false,
         "translation": "equipo"
+      },
+      {
+        "id": "c5",
+        "text": "does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d1",
+        "text": "led",
+        "isDistractor": true,
+        "translation": "liderado"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "scrum": "scrum",
+      "master": "master",
+      "does": "(auxiliar)",
+      "not": "no",
+      "lead": "lidera",
+      "daily": "diaria",
+      "stand-up": "reunión diaria",
+      "team": "equipo",
+      "loses": "pierde",
+      "focus": "enfoque",
+      "led": "liderado",
+      "leadership": "liderazgo",
+      "focuses": "enfoca"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: identificar",
+      "Complemento: posibles obstáculos",
+      "Tiempo: cuando (en oraciones temporales, pero no es un marcador temporal concreto; se usa para indicar simultaneidad)",
+      "Cláusula: cuando el equipo discute el progreso del sprint en el scrum diario"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: identificar / Complemento: posibles obstáculos / Tiempo: cuando (en oraciones temporales, pero no es un marcador temporal concreto; se usa para indicar simultaneidad) / Cláusula: cuando el equipo discute el progreso del sprint en el scrum diario",
+    "spanishSentence": "Cuando el equipo discute el progreso del sprint en el scrum diario, ellos identifican posibles obstáculos.",
+    "correctSentence": "When the team discusses the sprint progress in the daily scrum, they identify potential blockers.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "discusses",
+        "isDistractor": false,
+        "translation": "discute"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c12",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c3",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c11",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "d2",
+        "text": "hinderers",
+        "isDistractor": true,
+        "translation": "obstaculizadores"
+      },
+      {
+        "id": "c15",
+        "text": "blockers",
+        "isDistractor": false,
+        "translation": "obstáculos"
       },
       {
         "id": "c1",
@@ -1729,52 +557,1594 @@
         "translation": "cuando"
       },
       {
-        "id": "c6",
-        "text": "tasks",
+        "id": "c2",
+        "text": "the",
         "isDistractor": false,
-        "translation": "tareas"
+        "translation": "el"
       },
       {
-        "id": "c7",
+        "id": "c8",
         "text": "in",
         "isDistractor": false,
         "translation": "en"
       },
       {
-        "id": "c15",
-        "text": "clearly",
+        "id": "c10",
+        "text": "daily",
         "isDistractor": false,
-        "translation": "claramente"
+        "translation": "diario"
       },
       {
-        "id": "c13",
-        "text": "their",
+        "id": "c6",
+        "text": "sprint",
         "isDistractor": false,
-        "translation": "(pronombre posesivo)"
+        "translation": "sprint"
       },
       {
-        "id": "c4",
-        "text": "owner",
-        "isDistractor": false,
-        "translation": "propietario"
-      },
-      {
-        "id": "d4",
+        "id": "d1",
         "text": "will",
         "isDistractor": true,
         "translation": "(futuro)"
       },
       {
-        "id": "d1",
-        "text": "understood",
+        "id": "c13",
+        "text": "identify",
+        "isDistractor": false,
+        "translation": "identifican"
+      },
+      {
+        "id": "c14",
+        "text": "potential",
+        "isDistractor": false,
+        "translation": "posibles"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "impediments",
         "isDistractor": true,
-        "translation": "entendido"
+        "translation": "impedimentos"
+      },
+      {
+        "id": "c7",
+        "text": "progress",
+        "isDistractor": false,
+        "translation": "progreso"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "the": "el",
+      "team": "equipo",
+      "discusses": "discute",
+      "sprint": "sprint",
+      "progress": "progreso",
+      "in": "en",
+      "daily": "diario",
+      "scrum": "scrum",
+      "they": "ellos",
+      "identify": "identifican",
+      "potential": "posibles",
+      "blockers": "obstáculos",
+      "will": "(futuro)",
+      "hinderers": "obstaculizadores",
+      "impediments": "impedimentos"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: subir (presente de subjuntivo)",
+      "Complemento: el código",
+      "Cláusula: antes del scrum diario",
+      "Sujeto: la compilación",
+      "Verbo: fallar (presente de indicativo, negación)"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: subir (presente de subjuntivo) / Complemento: el código / Cláusula: antes del scrum diario / Sujeto: la compilación / Verbo: fallar (presente de indicativo, negación)",
+    "spanishSentence": "Si el desarrollador sube el código antes del scrum diario, la compilación no falla.",
+    "correctSentence": "If the developer pushes code before the daily scrum, the build does not fail.",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "compilación"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c4",
+        "text": "pushes",
+        "isDistractor": false,
+        "translation": "sube"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c12",
+        "text": "does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c14",
+        "text": "fail",
+        "isDistractor": false,
+        "translation": "falla"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c6",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c9",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "d1",
+        "text": "fails",
+        "isDistractor": true,
+        "translation": "falla"
+      },
+      {
+        "id": "c5",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "d2",
+        "text": "push",
+        "isDistractor": true,
+        "translation": "subir"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d5",
+        "text": "building",
+        "isDistractor": true,
+        "translation": "compilación"
+      },
+      {
+        "id": "d4",
+        "text": "pushed",
+        "isDistractor": true,
+        "translation": "subió"
+      },
+      {
+        "id": "c13",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d3",
+        "text": "pusher",
+        "isDistractor": true,
+        "translation": "persona que sube"
       },
       {
         "id": "c8",
+        "text": "daily",
+        "isDistractor": false,
+        "translation": "diario"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "developer": "desarrollador",
+      "pushes": "sube",
+      "code": "código",
+      "before": "antes de",
+      "daily": "diario",
+      "scrum": "scrum",
+      "build": "compilación",
+      "does": "(auxiliar)",
+      "not": "no",
+      "fail": "falla",
+      "fails": "falla",
+      "push": "subir",
+      "pusher": "persona que sube",
+      "pushed": "subió",
+      "building": "compilación"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: los desarrolladores",
+      "Verbo: revisar",
+      "Complemento: su código",
+      "Cláusula: en el scrum diario",
+      "Verbo: detectar",
+      "Complemento: errores temprano"
+    ],
+    "hintDisplay": "Sujeto: los desarrolladores / Verbo: revisar / Complemento: su código / Cláusula: en el scrum diario / Verbo: detectar / Complemento: errores temprano",
+    "spanishSentence": "Si los desarrolladores no revisan su código en el scrum diario, no detectan errores temprano.",
+    "correctSentence": "If developers do not review their code in the daily scrum, they do not catch bugs early.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "do",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c12",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c7",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c10",
+        "text": "daily",
+        "isDistractor": false,
+        "translation": "diario"
+      },
+      {
+        "id": "c16",
+        "text": "bugs",
+        "isDistractor": false,
+        "translation": "errores"
+      },
+      {
+        "id": "d2",
+        "text": "catches",
+        "isDistractor": true,
+        "translation": "detecta"
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c11",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c2",
+        "text": "developers",
+        "isDistractor": false,
+        "translation": "desarrolladores"
+      },
+      {
+        "id": "c6",
+        "text": "their",
+        "isDistractor": false,
+        "translation": "su"
+      },
+      {
+        "id": "c13",
+        "text": "do",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d4",
+        "text": "develop",
+        "isDistractor": true,
+        "translation": "desarrollar"
+      },
+      {
+        "id": "c15",
+        "text": "catch",
+        "isDistractor": false,
+        "translation": "detectan"
+      },
+      {
+        "id": "d1",
+        "text": "reviewed",
+        "isDistractor": true,
+        "translation": "revisado"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c5",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisar"
+      },
+      {
+        "id": "c14",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c17",
+        "text": "early",
+        "isDistractor": false,
+        "translation": "temprano"
+      },
+      {
+        "id": "d5",
+        "text": "earlier",
+        "isDistractor": true,
+        "translation": "más temprano"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c8",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "developers": "desarrolladores",
+      "do": "(auxiliar)",
+      "not": "no",
+      "review": "revisar",
+      "their": "su",
+      "code": "código",
+      "in": "en",
+      "the": "el",
+      "daily": "diario",
+      "scrum": "scrum",
+      "they": "ellos",
+      "catch": "detectan",
+      "bugs": "errores",
+      "early": "temprano",
+      "reviewed": "revisado",
+      "catches": "detecta",
+      "would": "(condicional)",
+      "develop": "desarrollar",
+      "earlier": "más temprano"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de calidad",
+      "Verbo: reportar (presente simple, tercera persona singular)",
+      "Complemento: un error en la revisión del sprint",
+      "Cláusula: el equipo lo discute de inmediato"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de calidad / Verbo: reportar (presente simple, tercera persona singular) / Complemento: un error en la revisión del sprint / Cláusula: el equipo lo discute de inmediato",
+    "spanishSentence": "Si el ingeniero de calidad reporta un error en la revisión del sprint, el equipo lo discute de inmediato.",
+    "correctSentence": "If the QA engineer reports a bug in the sprint review, the team discusses it immediately.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c7",
+        "text": "bug",
+        "isDistractor": false,
+        "translation": "error"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d1",
+        "text": "discuss",
+        "isDistractor": true,
+        "translation": "discute"
+      },
+      {
+        "id": "c3",
+        "text": "QA",
+        "isDistractor": false,
+        "translation": "control de calidad"
+      },
+      {
+        "id": "c13",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c11",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisión"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c14",
+        "text": "discusses",
+        "isDistractor": false,
+        "translation": "discute"
+      },
+      {
+        "id": "c8",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c15",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "lo"
+      },
+      {
+        "id": "c10",
         "text": "sprint",
         "isDistractor": false,
         "translation": "sprint"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c16",
+        "text": "immediately",
+        "isDistractor": false,
+        "translation": "inmediatamente"
+      },
+      {
+        "id": "c5",
+        "text": "reports",
+        "isDistractor": false,
+        "translation": "reporta"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c6",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "qa": "control de calidad",
+      "engineer": "ingeniero",
+      "reports": "reporta",
+      "a": "un",
+      "bug": "error",
+      "in": "en",
+      "sprint": "sprint",
+      "review": "revisión",
+      "team": "equipo",
+      "discusses": "discute",
+      "it": "lo",
+      "immediately": "inmediatamente",
+      "discuss": "discute",
+      "would": "(condicional)",
+      "he": "él"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el pasante",
+      "Verbo: hacer (pregunta)",
+      "Complemento: una pregunta",
+      "Tiempo: durante el scrum diario",
+      "Cláusula: si el pasante hace una pregunta"
+    ],
+    "hintDisplay": "Sujeto: el pasante / Verbo: hacer (pregunta) / Complemento: una pregunta / Tiempo: durante el scrum diario / Cláusula: si el pasante hace una pregunta",
+    "spanishSentence": "Si el pasante hace una pregunta durante el scrum diario, el equipo pausa la discusión.",
+    "correctSentence": "If the intern asks a question during the daily scrum, the team pauses the discussion.",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "pause",
+        "isDistractor": true,
+        "translation": "pausar"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c5",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "una"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c13",
+        "text": "pauses",
+        "isDistractor": false,
+        "translation": "pausa"
+      },
+      {
+        "id": "c3",
+        "text": "intern",
+        "isDistractor": false,
+        "translation": "pasante"
+      },
+      {
+        "id": "c9",
+        "text": "daily",
+        "isDistractor": false,
+        "translation": "diario"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "asks",
+        "isDistractor": false,
+        "translation": "hace"
+      },
+      {
+        "id": "c6",
+        "text": "question",
+        "isDistractor": false,
+        "translation": "pregunta"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c12",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d4",
+        "text": "asked",
+        "isDistractor": true,
+        "translation": "preguntó"
+      },
+      {
+        "id": "c15",
+        "text": "discussion",
+        "isDistractor": false,
+        "translation": "discusión"
+      },
+      {
+        "id": "d1",
+        "text": "paused",
+        "isDistractor": true,
+        "translation": "pausó"
+      },
+      {
+        "id": "c7",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "d2",
+        "text": "pausing",
+        "isDistractor": true,
+        "translation": "pausando"
+      },
+      {
+        "id": "c10",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "intern": "pasante",
+      "asks": "hace",
+      "a": "una",
+      "question": "pregunta",
+      "during": "durante",
+      "daily": "diario",
+      "scrum": "scrum",
+      "team": "equipo",
+      "pauses": "pausa",
+      "discussion": "discusión",
+      "paused": "pausó",
+      "pausing": "pausando",
+      "pause": "pausar",
+      "asked": "preguntó"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el líder técnico",
+      "Verbo: asesorar (presente simple)",
+      "Complemento: a un desarrollador junior",
+      "Cláusula: el equipo entrega mejores resultados en el sprint"
+    ],
+    "hintDisplay": "Sujeto: el líder técnico / Verbo: asesorar (presente simple) / Complemento: a un desarrollador junior / Cláusula: el equipo entrega mejores resultados en el sprint",
+    "spanishSentence": "Si el líder técnico asesora a un desarrollador junior, el equipo entrega mejores resultados en el sprint.",
+    "correctSentence": "If the tech lead mentors a junior developer, the team delivers better results in the sprint.",
+    "cards": [
+      {
+        "id": "d2",
+        "text": "sprint's",
+        "isDistractor": true,
+        "translation": "del sprint"
+      },
+      {
+        "id": "c12",
+        "text": "better",
+        "isDistractor": false,
+        "translation": "mejores"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c4",
+        "text": "lead",
+        "isDistractor": false,
+        "translation": "líder"
+      },
+      {
+        "id": "c8",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d1",
+        "text": "delivering",
+        "isDistractor": true,
+        "translation": "(gerundio)"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "junior",
+        "isDistractor": false,
+        "translation": "junior"
+      },
+      {
+        "id": "c5",
+        "text": "mentors",
+        "isDistractor": false,
+        "translation": "asesora"
+      },
+      {
+        "id": "c10",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d3",
+        "text": "juniors",
+        "isDistractor": true,
+        "translation": "junior"
+      },
+      {
+        "id": "c6",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "a un"
+      },
+      {
+        "id": "c15",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "tech",
+        "isDistractor": false,
+        "translation": "técnico"
+      },
+      {
+        "id": "c11",
+        "text": "delivers",
+        "isDistractor": false,
+        "translation": "entrega"
+      },
+      {
+        "id": "c16",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c13",
+        "text": "results",
+        "isDistractor": false,
+        "translation": "resultados"
+      },
+      {
+        "id": "c14",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "tech": "técnico",
+      "lead": "líder",
+      "mentors": "asesora",
+      "a": "a un",
+      "junior": "junior",
+      "developer": "desarrollador",
+      "team": "equipo",
+      "delivers": "entrega",
+      "better": "mejores",
+      "results": "resultados",
+      "in": "en",
+      "sprint": "sprint",
+      "delivering": "(gerundio)",
+      "sprint's": "del sprint",
+      "juniors": "junior"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo de desarrollo",
+      "Verbo: perder",
+      "Complemento: los objetivos del sprint",
+      "Tiempo: no (negación, presente simple)",
+      "Cláusula: cuando el equipo de desarrollo colabora"
+    ],
+    "hintDisplay": "Sujeto: el equipo de desarrollo / Verbo: perder / Complemento: los objetivos del sprint / Tiempo: no (negación, presente simple) / Cláusula: cuando el equipo de desarrollo colabora",
+    "spanishSentence": "Cuando el equipo de desarrollo colabora, no nos perdemos los objetivos del sprint.",
+    "correctSentence": "When the dev team collaborates, we don't miss the sprint goals.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c3",
+        "text": "dev",
+        "isDistractor": false,
+        "translation": "de desarrollo"
+      },
+      {
+        "id": "c11",
+        "text": "goals",
+        "isDistractor": false,
+        "translation": "objetivos"
+      },
+      {
+        "id": "c7",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(auxiliar negativo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "d3",
+        "text": "sprint's",
+        "isDistractor": true,
+        "translation": "del sprint"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c4",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d1",
+        "text": "collaborated",
+        "isDistractor": true,
+        "translation": "colaboró"
+      },
+      {
+        "id": "d2",
+        "text": "we're",
+        "isDistractor": true,
+        "translation": "estamos"
+      },
+      {
+        "id": "c5",
+        "text": "collaborates",
+        "isDistractor": false,
+        "translation": "colabora"
+      },
+      {
+        "id": "c8",
+        "text": "miss",
+        "isDistractor": false,
+        "translation": "perdemos"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "the": "el",
+      "dev": "de desarrollo",
+      "team": "equipo",
+      "collaborates": "colabora",
+      "we": "nosotros",
+      "don't": "(auxiliar negativo)",
+      "miss": "perdemos",
+      "sprint": "sprint",
+      "goals": "objetivos",
+      "collaborated": "colaboró",
+      "we're": "estamos",
+      "sprint's": "del sprint"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el scrum master",
+      "Verbo: organizar",
+      "Complemento: la reunión diaria",
+      "Cláusula: mientras el equipo comparte el progreso y los obstáculos"
+    ],
+    "hintDisplay": "Sujeto: el scrum master / Verbo: organizar / Complemento: la reunión diaria / Cláusula: mientras el equipo comparte el progreso y los obstáculos",
+    "spanishSentence": "Si el scrum master organiza la reunión diaria, el equipo comparte el progreso y los obstáculos.",
+    "correctSentence": "If the scrum master organizes the daily stand-up, the team shares progress and blockers.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d4",
+        "text": "updates",
+        "isDistractor": true,
+        "translation": "actualizaciones"
+      },
+      {
+        "id": "c10",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c12",
+        "text": "progress",
+        "isDistractor": false,
+        "translation": "progreso"
+      },
+      {
+        "id": "c7",
+        "text": "daily",
+        "isDistractor": false,
+        "translation": "diaria"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c3",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "c4",
+        "text": "master",
+        "isDistractor": false,
+        "translation": "master"
+      },
+      {
+        "id": "c14",
+        "text": "blockers",
+        "isDistractor": false,
+        "translation": "obstáculos"
+      },
+      {
+        "id": "c5",
+        "text": "organizes",
+        "isDistractor": false,
+        "translation": "organiza"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c8",
+        "text": "stand-up",
+        "isDistractor": false,
+        "translation": "reunión de pie"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "hold",
+        "isDistractor": true,
+        "translation": "mantener"
+      },
+      {
+        "id": "c11",
+        "text": "shares",
+        "isDistractor": false,
+        "translation": "comparte"
+      },
+      {
+        "id": "c13",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "d1",
+        "text": "arranges",
+        "isDistractor": true,
+        "translation": "organiza"
+      },
+      {
+        "id": "d2",
+        "text": "discusses",
+        "isDistractor": true,
+        "translation": "discute"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "scrum": "scrum",
+      "master": "master",
+      "organizes": "organiza",
+      "daily": "diaria",
+      "stand-up": "reunión de pie",
+      "team": "equipo",
+      "shares": "comparte",
+      "progress": "progreso",
+      "and": "y",
+      "blockers": "obstáculos",
+      "arranges": "organiza",
+      "discusses": "discute",
+      "hold": "mantener",
+      "updates": "actualizaciones"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: los desarrolladores",
+      "Verbo: implementar (en el sentido de desplegar)",
+      "Complemento: la compilación",
+      "Cláusula: cuando los desarrolladores no despliegan la compilación",
+      "Sujeto: ellos (los desarrolladores)",
+      "Verbo: actualizar",
+      "Complemento: el entorno de staging"
+    ],
+    "hintDisplay": "Sujeto: los desarrolladores / Verbo: implementar (en el sentido de desplegar) / Complemento: la compilación / Cláusula: cuando los desarrolladores no despliegan la compilación / Sujeto: ellos (los desarrolladores) / Verbo: actualizar / Complemento: el entorno de staging",
+    "spanishSentence": "Cuando los desarrolladores no despliegan la compilación, ellos no actualizan el entorno de staging.",
+    "correctSentence": "When the developers don't deploy the build, they don't update the staging environment.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(auxiliar negativo)"
+      },
+      {
+        "id": "c10",
+        "text": "update",
+        "isDistractor": false,
+        "translation": "actualizar"
+      },
+      {
+        "id": "c5",
+        "text": "deploy",
+        "isDistractor": false,
+        "translation": "desplegar"
+      },
+      {
+        "id": "d3",
+        "text": "updates",
+        "isDistractor": true,
+        "translation": "actualizaciones"
+      },
+      {
+        "id": "c12",
+        "text": "staging",
+        "isDistractor": false,
+        "translation": "staging"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "developers",
+        "isDistractor": false,
+        "translation": "desarrolladores"
+      },
+      {
+        "id": "c13",
+        "text": "environment",
+        "isDistractor": false,
+        "translation": "entorno"
+      },
+      {
+        "id": "d2",
+        "text": "deploying",
+        "isDistractor": true,
+        "translation": "desplegando"
+      },
+      {
+        "id": "c8",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "d1",
+        "text": "deploys",
+        "isDistractor": true,
+        "translation": "despliega"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "compilación"
+      },
+      {
+        "id": "d4",
+        "text": "environments",
+        "isDistractor": true,
+        "translation": "entornos"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "(auxiliar negativo)"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "the": "el",
+      "developers": "desarrolladores",
+      "don't": "(auxiliar negativo)",
+      "deploy": "desplegar",
+      "build": "compilación",
+      "they": "ellos",
+      "update": "actualizar",
+      "staging": "staging",
+      "environment": "entorno",
+      "deploys": "despliega",
+      "deploying": "desplegando",
+      "updates": "actualizaciones",
+      "environments": "entornos"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: refactorizar (presente simple)",
+      "Complemento: el código",
+      "Cláusula: cuando el equipo lo revisa en el siguiente sprint"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: refactorizar (presente simple) / Complemento: el código / Cláusula: cuando el equipo lo revisa en el siguiente sprint",
+    "spanishSentence": "Cuando el desarrollador refactoriza el código, el equipo lo revisa en el siguiente sprint.",
+    "correctSentence": "When the developer refactors the code, the team reviews it in the next sprint.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "d4",
+        "text": "sprinting",
+        "isDistractor": true,
+        "translation": "corriendo"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "refactors",
+        "isDistractor": false,
+        "translation": "refactoriza"
+      },
+      {
+        "id": "c10",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "lo"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "d1",
+        "text": "revises",
+        "isDistractor": true,
+        "translation": "revisa"
+      },
+      {
+        "id": "c11",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c9",
+        "text": "reviews",
+        "isDistractor": false,
+        "translation": "revisa"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c6",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c14",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c13",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "siguiente"
+      },
+      {
+        "id": "d3",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "ellos"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "the": "el",
+      "developer": "desarrollador",
+      "refactors": "refactoriza",
+      "code": "código",
+      "team": "equipo",
+      "reviews": "revisa",
+      "it": "lo",
+      "in": "en",
+      "next": "siguiente",
+      "sprint": "sprint",
+      "revises": "revisa",
+      "will": "(futuro)",
+      "them": "ellos",
+      "sprinting": "corriendo"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el dueño de producto",
+      "Verbo: delegar (presente de indicativo)",
+      "Complemento: las tareas con claridad",
+      "Cláusula: el equipo completa el backlog del sprint de manera eficiente"
+    ],
+    "hintDisplay": "Sujeto: el dueño de producto / Verbo: delegar (presente de indicativo) / Complemento: las tareas con claridad / Cláusula: el equipo completa el backlog del sprint de manera eficiente",
+    "spanishSentence": "Si el dueño de producto delega las tareas con claridad, el equipo completa el backlog del sprint de manera eficiente.",
+    "correctSentence": "If the product owner delegates tasks clearly, the team completes the sprint backlog efficiently.",
+    "cards": [
+      {
+        "id": "c13",
+        "text": "backlog",
+        "isDistractor": false,
+        "translation": "backlog"
+      },
+      {
+        "id": "d2",
+        "text": "completing",
+        "isDistractor": true,
+        "translation": "completando"
+      },
+      {
+        "id": "c12",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d3",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c10",
+        "text": "completes",
+        "isDistractor": false,
+        "translation": "completa"
+      },
+      {
+        "id": "c9",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "complete",
+        "isDistractor": true,
+        "translation": "completar"
+      },
+      {
+        "id": "c4",
+        "text": "owner",
+        "isDistractor": false,
+        "translation": "dueño"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d5",
+        "text": "productly",
+        "isDistractor": true,
+        "translation": "(no existe, sin traducción)"
+      },
+      {
+        "id": "d4",
+        "text": "does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c3",
+        "text": "product",
+        "isDistractor": false,
+        "translation": "producto"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c14",
+        "text": "efficiently",
+        "isDistractor": false,
+        "translation": "eficientemente"
       },
       {
         "id": "c5",
@@ -1789,391 +2159,36 @@
         "translation": "coma"
       },
       {
-        "id": "c9",
-        "text": "planning",
-        "isDistractor": false,
-        "translation": "planificación"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "us",
-        "isDistractor": true,
-        "translation": "(pronombre objeto)"
-      },
-      {
-        "id": "c12",
-        "text": "understands",
-        "isDistractor": false,
-        "translation": "entiende"
-      },
-      {
-        "id": "d5",
-        "text": "objectives",
-        "isDistractor": true,
-        "translation": "objetivos"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "the": "(artículo)",
-      "product": "producto",
-      "owner": "propietario",
-      "delegates": "delega",
-      "tasks": "tareas",
-      "in": "en",
-      "sprint": "sprint",
-      "planning": "planificación",
-      "team": "equipo",
-      "understands": "entiende",
-      "their": "(pronombre posesivo)",
-      "responsibilities": "responsabilidades",
-      "clearly": "claramente",
-      "understood": "entendido",
-      "assigns": "asigna",
-      "us": "(pronombre objeto)",
-      "will": "(futuro)",
-      "objectives": "objetivos"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero de QA",
-      "Verbo: verificar",
-      "Complemento: los cambios de código en el sprint",
-      "Verbo: detectar",
-      "Complemento: los errores antes del lanzamiento",
-      "Estructura: utiliza una oración condicional con 'cuando' para expresar causa y efecto"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero de QA / Verbo: verificar / Complemento: los cambios de código en el sprint / Verbo: detectar / Complemento: los errores antes del lanzamiento / Estructura: utiliza una oración condicional con 'cuando' para expresar causa y efecto",
-    "spanishSentence": "Cuando el ingeniero de QA no verifica los cambios de código en el sprint, los errores no se detectan antes del lanzamiento.",
-    "correctSentence": "When the QA engineer doesn't verify the code changes in the sprint, the bugs don't get caught before release.",
-    "cards": [
-      {
-        "id": "c6",
-        "text": "verify",
-        "isDistractor": false,
-        "translation": "verificar"
-      },
-      {
-        "id": "c16",
-        "text": "get",
-        "isDistractor": false,
-        "translation": "se"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "d3",
-        "text": "detecting",
-        "isDistractor": true,
-        "translation": "detectar"
-      },
-      {
-        "id": "c17",
-        "text": "caught",
-        "isDistractor": false,
-        "translation": "detectan"
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
         "id": "c7",
-        "text": "the",
+        "text": "clearly",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c14",
-        "text": "bugs",
-        "isDistractor": false,
-        "translation": "errores"
-      },
-      {
-        "id": "c19",
-        "text": "release",
-        "isDistractor": false,
-        "translation": "lanzamiento"
-      },
-      {
-        "id": "d2",
-        "text": "released",
-        "isDistractor": true,
-        "translation": "lanzado"
-      },
-      {
-        "id": "c4",
-        "text": "engineer",
-        "isDistractor": false,
-        "translation": "ingeniero"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c18",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      },
-      {
-        "id": "c8",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "c3",
-        "text": "QA",
-        "isDistractor": false,
-        "translation": "QA"
-      },
-      {
-        "id": "c9",
-        "text": "changes",
-        "isDistractor": false,
-        "translation": "cambios"
-      },
-      {
-        "id": "d1",
-        "text": "verifies",
-        "isDistractor": true,
-        "translation": "verifica"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c1",
-        "text": "When",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "c15",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(negación)"
-      },
-      {
-        "id": "c5",
-        "text": "doesn't",
-        "isDistractor": false,
-        "translation": "(negación)"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "the": "(artículo)",
-      "qa": "QA",
-      "engineer": "ingeniero",
-      "doesn't": "(negación)",
-      "verify": "verificar",
-      "code": "código",
-      "changes": "cambios",
-      "in": "en",
-      "sprint": "sprint",
-      "bugs": "errores",
-      "don't": "(negación)",
-      "get": "se",
-      "caught": "detectan",
-      "before": "antes de",
-      "release": "lanzamiento",
-      "verifies": "verifica",
-      "released": "lanzado",
-      "detecting": "detectar"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: planear (condicional)",
-      "Complemento: nuestros sprints cuidadosamente",
-      "Verbo: entregar (condicional)",
-      "Complemento: mejores resultados en las reuniones de desarrollo"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: planear (condicional) / Complemento: nuestros sprints cuidadosamente / Verbo: entregar (condicional) / Complemento: mejores resultados en las reuniones de desarrollo",
-    "spanishSentence": "Si planeamos nuestros sprints cuidadosamente, entregamos mejores resultados en las reuniones de desarrollo.",
-    "correctSentence": "If we plan our sprints carefully, we deliver better results in dev meetings.",
-    "cards": [
-      {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c7",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c4",
-        "text": "our",
-        "isDistractor": false,
-        "translation": "nuestros"
-      },
-      {
-        "id": "c12",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "d4",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "habría"
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c9",
-        "text": "better",
-        "isDistractor": false,
-        "translation": "mejores"
-      },
-      {
-        "id": "d2",
-        "text": "delivers",
-        "isDistractor": true,
-        "translation": "entrega"
-      },
-      {
-        "id": "d1",
-        "text": "planning",
-        "isDistractor": true,
-        "translation": "planificación"
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c10",
-        "text": "results",
-        "isDistractor": false,
-        "translation": "resultados"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
+        "translation": "claramente"
       },
       {
         "id": "c6",
-        "text": "carefully",
+        "text": "tasks",
         "isDistractor": false,
-        "translation": "cuidadosamente"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c13",
-        "text": "meetings",
-        "isDistractor": false,
-        "translation": "reuniones"
-      },
-      {
-        "id": "c5",
-        "text": "sprints",
-        "isDistractor": false,
-        "translation": "sprints"
-      },
-      {
-        "id": "d5",
-        "text": "careful",
-        "isDistractor": true,
-        "translation": "cuidadoso"
-      },
-      {
-        "id": "c8",
-        "text": "deliver",
-        "isDistractor": false,
-        "translation": "entregamos"
-      },
-      {
-        "id": "c3",
-        "text": "plan",
-        "isDistractor": false,
-        "translation": "planeamos"
+        "translation": "tareas"
       }
     ],
     "translations": {
       "if": "si",
-      "we": "nosotros",
-      "plan": "planeamos",
-      "our": "nuestros",
-      "sprints": "sprints",
-      "carefully": "cuidadosamente",
-      "deliver": "entregamos",
-      "better": "mejores",
-      "results": "resultados",
-      "in": "en",
-      "dev": "desarrollo",
-      "meetings": "reuniones",
-      "planning": "planificación",
-      "delivers": "entrega",
-      "them": "los",
-      "would": "habría",
-      "careful": "cuidadoso"
+      "the": "el",
+      "product": "producto",
+      "owner": "dueño",
+      "delegates": "delega",
+      "tasks": "tareas",
+      "clearly": "claramente",
+      "team": "equipo",
+      "completes": "completa",
+      "sprint": "sprint",
+      "backlog": "backlog",
+      "efficiently": "eficientemente",
+      "complete": "completar",
+      "completing": "completando",
+      "their": "su",
+      "does": "(auxiliar)",
+      "productly": "(no existe, sin traducción)"
     },
     "metadata": {
       "tense": "zero conditional",
@@ -2185,107 +2200,80 @@
   },
   {
     "hints": [
-      "Tiempo: cuando (introduce una condición temporal)",
-      "Sujeto: los desarrolladores",
-      "Verbo: desplegar (acción principal en presente)",
-      "Complemento: el código",
-      "Sujeto: el equipo de QA",
-      "Verbo: probar (acción que ocurre inmediatamente después)",
-      "Complemento: lo (pronombre que refiere al código)"
+      "Sujeto: el equipo",
+      "Verbo: estimar",
+      "Complemento: el backlog del sprint",
+      "Cláusula: mientras el scrum master planifica el próximo sprint con confianza"
     ],
-    "hintDisplay": "Tiempo: cuando (introduce una condición temporal) / Sujeto: los desarrolladores / Verbo: desplegar (acción principal en presente) / Complemento: el código / Sujeto: el equipo de QA / Verbo: probar (acción que ocurre inmediatamente después) / Complemento: lo (pronombre que refiere al código)",
-    "spanishSentence": "Cuando los desarrolladores despliegan el código, el equipo de QA lo prueba inmediatamente.",
-    "correctSentence": "When the developers deploy the code, the QA team tests it immediately.",
+    "hintDisplay": "Sujeto: el equipo / Verbo: estimar / Complemento: el backlog del sprint / Cláusula: mientras el scrum master planifica el próximo sprint con confianza",
+    "spanishSentence": "Si el equipo estima el backlog del sprint con precisión, el scrum master planifica el próximo sprint con confianza.",
+    "correctSentence": "If the team estimates the sprint backlog accurately, the scrum master plans the next sprint with confidence.",
     "cards": [
       {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
+        "id": "c6",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
       },
       {
-        "id": "c5",
+        "id": "c9",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "d1",
-        "text": "deployed",
+        "id": "d3",
+        "text": "backlogs",
         "isDistractor": true,
-        "translation": "desplegado"
+        "translation": "backlogs"
       },
       {
-        "id": "d2",
-        "text": "testing",
-        "isDistractor": true,
-        "translation": "prueba"
-      },
-      {
-        "id": "c8",
-        "text": "QA",
+        "id": "c14",
+        "text": "next",
         "isDistractor": false,
-        "translation": "QA"
+        "translation": "próximo"
       },
       {
-        "id": "c10",
-        "text": "tests",
+        "id": "c15",
+        "text": "sprint",
         "isDistractor": false,
-        "translation": "prueba"
+        "translation": "sprint"
       },
       {
-        "id": "c6",
-        "text": "code",
+        "id": "c12",
+        "text": "plans",
         "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "c4",
-        "text": "deploy",
-        "isDistractor": false,
-        "translation": "despliegan"
-      },
-      {
-        "id": "c11",
-        "text": "it",
-        "isDistractor": false,
-        "translation": "lo"
-      },
-      {
-        "id": "d5",
-        "text": "instant",
-        "isDistractor": true,
-        "translation": "instantáneo"
+        "translation": "planifica"
       },
       {
         "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "immediately",
-        "isDistractor": false,
-        "translation": "inmediatamente"
-      },
-      {
-        "id": "c3",
-        "text": "developers",
-        "isDistractor": false,
-        "translation": "desarrolladores"
+        "translation": "el"
       },
       {
         "id": "c7",
-        "text": "the",
+        "text": "backlog",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "backlog"
       },
       {
-        "id": "c9",
-        "text": "team",
+        "id": "c8",
+        "text": "accurately",
         "isDistractor": false,
-        "translation": "equipo"
+        "translation": "con precisión"
+      },
+      {
+        "id": "d1",
+        "text": "estimated",
+        "isDistractor": true,
+        "translation": "estimado"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
       },
       {
         "id": "cm1",
@@ -2294,10 +2282,181 @@
         "translation": "coma"
       },
       {
-        "id": "d4",
-        "text": "does",
+        "id": "c16",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c17",
+        "text": "confidence",
+        "isDistractor": false,
+        "translation": "confianza"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c11",
+        "text": "master",
+        "isDistractor": false,
+        "translation": "master"
+      },
+      {
+        "id": "c10",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "c4",
+        "text": "estimates",
+        "isDistractor": false,
+        "translation": "estima"
+      },
+      {
+        "id": "d2",
+        "text": "planifies",
         "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "planifica"
+      },
+      {
+        "id": "c3",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "team": "equipo",
+      "estimates": "estima",
+      "sprint": "sprint",
+      "backlog": "backlog",
+      "accurately": "con precisión",
+      "scrum": "scrum",
+      "master": "master",
+      "plans": "planifica",
+      "next": "próximo",
+      "with": "con",
+      "confidence": "confianza",
+      "estimated": "estimado",
+      "planifies": "planifica",
+      "backlogs": "backlogs"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el pasante",
+      "Verbo: presentar",
+      "Complemento: la revisión del sprint",
+      "Tiempo: presente simple (acción habitual)",
+      "Cláusula: cuando el pasante presenta la revisión del sprint"
+    ],
+    "hintDisplay": "Sujeto: el pasante / Verbo: presentar / Complemento: la revisión del sprint / Tiempo: presente simple (acción habitual) / Cláusula: cuando el pasante presenta la revisión del sprint",
+    "spanishSentence": "Cuando el pasante presenta la revisión del sprint, el equipo da retroalimentación.",
+    "correctSentence": "When the intern presents the sprint review, the team gives feedback.",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "presented",
+        "isDistractor": true,
+        "translation": "presentó"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c11",
+        "text": "feedback",
+        "isDistractor": false,
+        "translation": "retroalimentación"
+      },
+      {
+        "id": "d2",
+        "text": "presenting",
+        "isDistractor": true,
+        "translation": "presentando"
+      },
+      {
+        "id": "d3",
+        "text": "gave",
+        "isDistractor": true,
+        "translation": "dio"
+      },
+      {
+        "id": "c10",
+        "text": "gives",
+        "isDistractor": false,
+        "translation": "da"
+      },
+      {
+        "id": "c6",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c7",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisión"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c9",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c3",
+        "text": "intern",
+        "isDistractor": false,
+        "translation": "pasante"
+      },
+      {
+        "id": "c4",
+        "text": "presents",
+        "isDistractor": false,
+        "translation": "presenta"
       },
       {
         "id": "c1",
@@ -2308,20 +2467,17 @@
     ],
     "translations": {
       "when": "cuando",
-      "the": "(artículo)",
-      "developers": "desarrolladores",
-      "deploy": "despliegan",
-      "code": "código",
-      "qa": "QA",
+      "the": "el",
+      "intern": "pasante",
+      "presents": "presenta",
+      "sprint": "sprint",
+      "review": "revisión",
       "team": "equipo",
-      "tests": "prueba",
-      "it": "lo",
-      "immediately": "inmediatamente",
-      "deployed": "desplegado",
-      "testing": "prueba",
-      "them": "los",
-      "does": "(auxiliar)",
-      "instant": "instantáneo"
+      "gives": "da",
+      "feedback": "retroalimentación",
+      "presented": "presentó",
+      "presenting": "presentando",
+      "gave": "dio"
     },
     "metadata": {
       "tense": "zero conditional",
@@ -2333,366 +2489,47 @@
   },
   {
     "hints": [
-      "Sujeto: el stakeholder",
-      "Verbo: evaluar",
-      "Complemento: los entregables del sprint",
-      "Complemento: durante la reunión de desarrollo",
+      "Sujeto: la parte interesada",
+      "Verbo: aprobar (presente simple)",
+      "Complemento: el alcance del sprint",
+      "Cláusula: cuando la parte interesada aprueba el alcance del sprint",
       "Sujeto: el equipo",
-      "Verbo: entender",
-      "Complemento: las prioridades del proyecto",
-      "Tiempo: condición presente (si...)"
+      "Verbo: comenzar (presente simple)",
+      "Complemento: las tareas de desarrollo"
     ],
-    "hintDisplay": "Sujeto: el stakeholder / Verbo: evaluar / Complemento: los entregables del sprint / Complemento: durante la reunión de desarrollo / Sujeto: el equipo / Verbo: entender / Complemento: las prioridades del proyecto / Tiempo: condición presente (si...)",
-    "spanishSentence": "Si el stakeholder evalúa los entregables del sprint durante la reunión de desarrollo, el equipo entiende las prioridades del proyecto.",
-    "correctSentence": "If the stakeholder evaluates the sprint deliverables during the dev meeting, the team understands the project priorities.",
+    "hintDisplay": "Sujeto: la parte interesada / Verbo: aprobar (presente simple) / Complemento: el alcance del sprint / Cláusula: cuando la parte interesada aprueba el alcance del sprint / Sujeto: el equipo / Verbo: comenzar (presente simple) / Complemento: las tareas de desarrollo",
+    "spanishSentence": "Cuando el interesado aprueba el alcance del sprint, el equipo comienza las tareas de desarrollo.",
+    "correctSentence": "When the stakeholder approves the sprint scope, the team starts the development tasks.",
     "cards": [
       {
         "id": "c13",
-        "text": "team",
+        "text": "tasks",
         "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "d4",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "sus"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c14",
-        "text": "understands",
-        "isDistractor": false,
-        "translation": "entiende"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "evaluates",
-        "isDistractor": false,
-        "translation": "evalúa"
-      },
-      {
-        "id": "c8",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d5",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "ha"
-      },
-      {
-        "id": "c16",
-        "text": "project",
-        "isDistractor": false,
-        "translation": "proyecto"
-      },
-      {
-        "id": "c11",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c7",
-        "text": "deliverables",
-        "isDistractor": false,
-        "translation": "entregables"
-      },
-      {
-        "id": "c6",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "d1",
-        "text": "evaluated",
-        "isDistractor": true,
-        "translation": "evaluado"
+        "translation": "tareas"
       },
       {
         "id": "c3",
         "text": "stakeholder",
         "isDistractor": false,
-        "translation": "stakeholder"
+        "translation": "interesado"
       },
       {
-        "id": "c10",
-        "text": "dev",
+        "id": "c12",
+        "text": "development",
         "isDistractor": false,
         "translation": "desarrollo"
       },
       {
-        "id": "c17",
-        "text": "priorities",
-        "isDistractor": false,
-        "translation": "prioridades"
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "evaluate",
-        "isDistractor": true,
-        "translation": "evaluar"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "stakeholder": "stakeholder",
-      "evaluates": "evalúa",
-      "sprint": "sprint",
-      "deliverables": "entregables",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "team": "equipo",
-      "understands": "entiende",
-      "project": "proyecto",
-      "priorities": "prioridades",
-      "evaluated": "evaluado",
-      "would": "(condicional)",
-      "evaluate": "evaluar",
-      "their": "sus",
-      "has": "ha"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: completar",
-      "Complemento: un sprint exitosamente",
-      "Verbo: celebrar",
-      "Complemento: junto"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: completar / Complemento: un sprint exitosamente / Verbo: celebrar / Complemento: junto",
-    "spanishSentence": "Si el equipo completa un sprint exitosamente, el equipo celebra junto.",
-    "correctSentence": "If the team completes a sprint successfully, the team celebrates together.",
-    "cards": [
-      {
-        "id": "c7",
-        "text": "successfully",
-        "isDistractor": false,
-        "translation": "exitosamente"
-      },
-      {
-        "id": "d4",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d2",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "d3",
-        "text": "celebrate",
-        "isDistractor": true,
-        "translation": "celebrar"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c9",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "d1",
-        "text": "completed",
-        "isDistractor": true,
-        "translation": "completado"
-      },
-      {
         "id": "c11",
-        "text": "together",
+        "text": "the",
         "isDistractor": false,
-        "translation": "junto"
-      },
-      {
-        "id": "c4",
-        "text": "completes",
-        "isDistractor": false,
-        "translation": "completa"
-      },
-      {
-        "id": "c10",
-        "text": "celebrates",
-        "isDistractor": false,
-        "translation": "celebra"
-      },
-      {
-        "id": "c5",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "team": "equipo",
-      "completes": "completa",
-      "a": "(artículo)",
-      "sprint": "sprint",
-      "successfully": "exitosamente",
-      "celebrates": "celebra",
-      "together": "junto",
-      "completed": "completado",
-      "him": "lo",
-      "celebrate": "celebrar",
-      "does": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: hacer (en presente, cuando ocurre una acción)",
-      "Complemento: commit del código al repositorio",
-      "Verbo: ejecutarse (en presente, acción que ocurre como resultado)",
-      "Complemento: la tubería de CI",
-      "Complemento: automáticamente (describe cómo ocurre la acción)"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: hacer (en presente, cuando ocurre una acción) / Complemento: commit del código al repositorio / Verbo: ejecutarse (en presente, acción que ocurre como resultado) / Complemento: la tubería de CI / Complemento: automáticamente (describe cómo ocurre la acción)",
-    "spanishSentence": "Cuando el desarrollador hace commit del código al repositorio, la tubería de CI se ejecuta automáticamente.",
-    "correctSentence": "When the developer commits code to the repository, the CI pipeline runs automatically.",
-    "cards": [
-      {
-        "id": "d5",
-        "text": "pushes",
-        "isDistractor": true,
-        "translation": "envía"
-      },
-      {
-        "id": "d4",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c4",
-        "text": "commits",
-        "isDistractor": false,
-        "translation": "hace commit"
+        "translation": "el"
       },
       {
         "id": "d2",
-        "text": "he",
+        "text": "accepts",
         "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "acepta"
       },
       {
         "id": "c1",
@@ -2701,95 +2538,238 @@
         "translation": "cuando"
       },
       {
-        "id": "c8",
-        "text": "repository",
-        "isDistractor": false,
-        "translation": "repositorio"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
         "id": "c10",
-        "text": "CI",
+        "text": "starts",
         "isDistractor": false,
-        "translation": "CI"
-      },
-      {
-        "id": "c5",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
+        "translation": "comienza"
       },
       {
         "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c11",
-        "text": "pipeline",
-        "isDistractor": false,
-        "translation": "tubería"
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "el"
       },
       {
         "id": "c6",
-        "text": "to",
+        "text": "sprint",
         "isDistractor": false,
-        "translation": "(preposición)"
+        "translation": "sprint"
       },
       {
-        "id": "c13",
-        "text": "automatically",
+        "id": "cm1",
+        "text": ",",
         "isDistractor": false,
-        "translation": "automáticamente"
+        "translation": "coma"
       },
       {
-        "id": "c12",
-        "text": "runs",
+        "id": "d3",
+        "text": "initiates",
+        "isDistractor": true,
+        "translation": "inicia"
+      },
+      {
+        "id": "c5",
+        "text": "the",
         "isDistractor": false,
-        "translation": "se ejecuta"
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "approves",
+        "isDistractor": false,
+        "translation": "aprueba"
+      },
+      {
+        "id": "c9",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "d1",
-        "text": "committed",
+        "text": "begins",
         "isDistractor": true,
-        "translation": "comprometido"
+        "translation": "comienza"
+      },
+      {
+        "id": "c7",
+        "text": "scope",
+        "isDistractor": false,
+        "translation": "alcance"
       }
     ],
     "translations": {
       "when": "cuando",
-      "the": "(artículo)",
+      "the": "el",
+      "stakeholder": "interesado",
+      "approves": "aprueba",
+      "sprint": "sprint",
+      "scope": "alcance",
+      "team": "equipo",
+      "starts": "comienza",
+      "development": "desarrollo",
+      "tasks": "tareas",
+      "begins": "comienza",
+      "accepts": "acepta",
+      "initiates": "inicia"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la ingeniera de QA",
+      "Verbo: reproducir",
+      "Complemento: el error",
+      "Tiempo: cuando",
+      "Cláusula: mientras los desarrolladores investigan la causa raíz"
+    ],
+    "hintDisplay": "Sujeto: la ingeniera de QA / Verbo: reproducir / Complemento: el error / Tiempo: cuando / Cláusula: mientras los desarrolladores investigan la causa raíz",
+    "spanishSentence": "Cuando la ingeniera de QA reproduce el error, los desarrolladores investigan la causa raíz.",
+    "correctSentence": "When the QA engineer reproduces the bug, the developers investigate the root cause.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "bug",
+        "isDistractor": false,
+        "translation": "error"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la (artículo definido)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c13",
+        "text": "cause",
+        "isDistractor": false,
+        "translation": "causa"
+      },
+      {
+        "id": "d5",
+        "text": "defect",
+        "isDistractor": true,
+        "translation": "defecto"
+      },
+      {
+        "id": "d3",
+        "text": "replicated",
+        "isDistractor": true,
+        "translation": "replicado"
+      },
+      {
+        "id": "c5",
+        "text": "reproduces",
+        "isDistractor": false,
+        "translation": "reproduce"
+      },
+      {
+        "id": "d2",
+        "text": "reproduce",
+        "isDistractor": true,
+        "translation": "reproducir"
+      },
+      {
+        "id": "c4",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniera"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la (artículo definido)"
+      },
+      {
+        "id": "d4",
+        "text": "developer",
+        "isDistractor": true,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d1",
+        "text": "investigates",
+        "isDistractor": true,
+        "translation": "investiga"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la (artículo definido)"
+      },
+      {
+        "id": "c10",
+        "text": "investigate",
+        "isDistractor": false,
+        "translation": "investigan"
+      },
+      {
+        "id": "c9",
+        "text": "developers",
+        "isDistractor": false,
+        "translation": "desarrolladores"
+      },
+      {
+        "id": "c3",
+        "text": "QA",
+        "isDistractor": false,
+        "translation": "control de calidad (QA)"
+      },
+      {
+        "id": "c12",
+        "text": "root",
+        "isDistractor": false,
+        "translation": "raíz"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la (artículo definido)"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "the": "el/la (artículo definido)",
+      "qa": "control de calidad (QA)",
+      "engineer": "ingeniera",
+      "reproduces": "reproduce",
+      "bug": "error",
+      "developers": "desarrolladores",
+      "investigate": "investigan",
+      "root": "raíz",
+      "cause": "causa",
+      "investigates": "investiga",
+      "reproduce": "reproducir",
+      "replicated": "replicado",
       "developer": "desarrollador",
-      "commits": "hace commit",
-      "code": "código",
-      "to": "(preposición)",
-      "repository": "repositorio",
-      "ci": "CI",
-      "pipeline": "tubería",
-      "runs": "se ejecuta",
-      "automatically": "automáticamente",
-      "committed": "comprometido",
-      "he": "él",
-      "does": "(auxiliar)",
-      "will": "(futuro)",
-      "pushes": "envía"
+      "defect": "defecto"
     },
     "metadata": {
       "tense": "zero conditional",
@@ -2802,106 +2782,20 @@
   {
     "hints": [
       "Sujeto: el líder técnico",
-      "Verbo: revisar",
-      "Complemento: el código",
-      "Tiempo: antes de la reunión del sprint",
-      "Sujeto: el equipo",
-      "Verbo: detectar",
-      "Complemento: errores temprano"
+      "Verbo: aprobar",
+      "Complemento: el backlog del sprint",
+      "Tiempo: presente simple (usa el presente para indicar una condición general)",
+      "Cláusula: si el líder técnico no aprueba el backlog del sprint"
     ],
-    "hintDisplay": "Sujeto: el líder técnico / Verbo: revisar / Complemento: el código / Tiempo: antes de la reunión del sprint / Sujeto: el equipo / Verbo: detectar / Complemento: errores temprano",
-    "spanishSentence": "Si el tech lead revisa el código antes de la reunión del sprint, el equipo detecta errores temprano.",
-    "correctSentence": "If the tech lead reviews the code before the sprint meeting, the team catches bugs early.",
+    "hintDisplay": "Sujeto: el líder técnico / Verbo: aprobar / Complemento: el backlog del sprint / Tiempo: presente simple (usa el presente para indicar una condición general) / Cláusula: si el líder técnico no aprueba el backlog del sprint",
+    "spanishSentence": "Si el líder técnico no aprueba el backlog del sprint, el equipo no puede comenzar el desarrollo.",
+    "correctSentence": "If the tech lead does not approve the sprint backlog, the team cannot start development.",
     "cards": [
       {
         "id": "cm1",
         "text": ",",
         "isDistractor": false,
         "translation": "coma"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d4",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d2",
-        "text": "detecting",
-        "isDistractor": true,
-        "translation": "detectando"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c11",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c5",
-        "text": "reviews",
-        "isDistractor": false,
-        "translation": "revisa"
-      },
-      {
-        "id": "c7",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c15",
-        "text": "bugs",
-        "isDistractor": false,
-        "translation": "errores"
-      },
-      {
-        "id": "c3",
-        "text": "tech",
-        "isDistractor": false,
-        "translation": "técnico"
-      },
-      {
-        "id": "c16",
-        "text": "early",
-        "isDistractor": false,
-        "translation": "temprano"
-      },
-      {
-        "id": "c14",
-        "text": "catches",
-        "isDistractor": false,
-        "translation": "detecta"
       },
       {
         "id": "c1",
@@ -2910,212 +2804,143 @@
         "translation": "si"
       },
       {
+        "id": "c6",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d5",
+        "text": "team's",
+        "isDistractor": true,
+        "translation": "del equipo"
+      },
+      {
+        "id": "c14",
+        "text": "start",
+        "isDistractor": false,
+        "translation": "comenzar"
+      },
+      {
+        "id": "c7",
+        "text": "approve",
+        "isDistractor": false,
+        "translation": "aprobar"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c5",
+        "text": "does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d2",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "begin",
+        "isDistractor": true,
+        "translation": "comenzar"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c13",
+        "text": "cannot",
+        "isDistractor": false,
+        "translation": "no puede"
+      },
+      {
+        "id": "c10",
+        "text": "backlog",
+        "isDistractor": false,
+        "translation": "backlog"
+      },
+      {
         "id": "c4",
         "text": "lead",
         "isDistractor": false,
         "translation": "líder"
       },
       {
-        "id": "d1",
-        "text": "reviewed",
-        "isDistractor": true,
-        "translation": "revisado"
-      },
-      {
-        "id": "c13",
-        "text": "team",
+        "id": "c3",
+        "text": "tech",
         "isDistractor": false,
-        "translation": "equipo"
+        "translation": "técnico"
       },
       {
-        "id": "c10",
-        "text": "sprint",
+        "id": "c15",
+        "text": "development",
         "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c8",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "the": "(artículo)",
-      "tech": "técnico",
-      "lead": "líder",
-      "reviews": "revisa",
-      "code": "código",
-      "before": "antes de",
-      "sprint": "sprint",
-      "meeting": "reunión",
-      "team": "equipo",
-      "catches": "detecta",
-      "bugs": "errores",
-      "early": "temprano",
-      "reviewed": "revisado",
-      "detecting": "detectando",
-      "will": "(futuro)",
-      "their": "su"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: cuando (introducción temporal)",
-      "Sujeto: el scrum master",
-      "Verbo: actualizar (presente)",
-      "Complemento: el tablero del sprint",
-      "Sujeto: el equipo",
-      "Verbo: revisar (presente)",
-      "Complemento: el progreso"
-    ],
-    "hintDisplay": "Tiempo: cuando (introducción temporal) / Sujeto: el scrum master / Verbo: actualizar (presente) / Complemento: el tablero del sprint / Sujeto: el equipo / Verbo: revisar (presente) / Complemento: el progreso",
-    "spanishSentence": "Cuando el scrum master actualiza el tablero del sprint, el equipo revisa el progreso.",
-    "correctSentence": "When the scrum master updates the sprint board, the team reviews the progress.",
-    "cards": [
-      {
-        "id": "c8",
-        "text": "board",
-        "isDistractor": false,
-        "translation": "tablero"
-      },
-      {
-        "id": "c10",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c5",
-        "text": "updates",
-        "isDistractor": false,
-        "translation": "actualiza"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d5",
-        "text": "boards",
-        "isDistractor": true,
-        "translation": "tableros"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d2",
-        "text": "reviewing",
-        "isDistractor": true,
-        "translation": "revisando"
+        "translation": "desarrollo"
       },
       {
         "id": "c12",
-        "text": "the",
+        "text": "team",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "equipo"
       },
       {
-        "id": "d3",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c11",
-        "text": "reviews",
-        "isDistractor": false,
-        "translation": "revisa"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c7",
+        "id": "c9",
         "text": "sprint",
         "isDistractor": false,
         "translation": "sprint"
       },
       {
         "id": "d4",
-        "text": "does",
+        "text": "shall",
         "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c1",
-        "text": "When",
-        "isDistractor": false,
-        "translation": "cuando"
+        "translation": "(futuro)"
       },
       {
         "id": "d1",
-        "text": "updated",
+        "text": "approves",
         "isDistractor": true,
-        "translation": "actualizado"
-      },
-      {
-        "id": "c4",
-        "text": "master",
-        "isDistractor": false,
-        "translation": "master"
-      },
-      {
-        "id": "c13",
-        "text": "progress",
-        "isDistractor": false,
-        "translation": "progreso"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
+        "translation": "aprueba"
       }
     ],
     "translations": {
-      "when": "cuando",
-      "the": "(artículo)",
-      "scrum": "scrum",
-      "master": "master",
-      "updates": "actualiza",
-      "sprint": "sprint",
-      "board": "tablero",
-      "team": "equipo",
-      "reviews": "revisa",
-      "progress": "progreso",
-      "updated": "actualizado",
-      "reviewing": "revisando",
-      "him": "él",
+      "if": "si",
+      "the": "el",
+      "tech": "técnico",
+      "lead": "líder",
       "does": "(auxiliar)",
-      "boards": "tableros"
+      "not": "no",
+      "approve": "aprobar",
+      "sprint": "sprint",
+      "backlog": "backlog",
+      "team": "equipo",
+      "cannot": "no puede",
+      "start": "comenzar",
+      "development": "desarrollo",
+      "approves": "aprueba",
+      "could": "podría",
+      "begin": "comenzar",
+      "shall": "(futuro)",
+      "team's": "del equipo"
     },
     "metadata": {
       "tense": "zero conditional",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "dev meetings & scrum"
@@ -3123,112 +2948,104 @@
   },
   {
     "hints": [
-      "Sujeto: el becario",
-      "Verbo: observar (presente, negación)",
-      "Complemento: las reuniones de desarrollo",
-      "Verbo: entender (presente, negación)",
-      "Complemento: los objetivos del sprint",
-      "Tiempo: cuando (condicional)"
+      "Sujeto: nosotros",
+      "Verbo: enfocarse",
+      "Tiempo: cuando discutimos el backlog del sprint en las reuniones de desarrollo",
+      "Complemento: en las tareas más críticas primero"
     ],
-    "hintDisplay": "Sujeto: el becario / Verbo: observar (presente, negación) / Complemento: las reuniones de desarrollo / Verbo: entender (presente, negación) / Complemento: los objetivos del sprint / Tiempo: cuando (condicional)",
-    "spanishSentence": "Cuando el becario no observa las reuniones de desarrollo, no entiende los objetivos del sprint.",
-    "correctSentence": "When the intern doesn't shadow the dev meetings, they don't understand the sprint goals.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: enfocarse / Tiempo: cuando discutimos el backlog del sprint en las reuniones de desarrollo / Complemento: en las tareas más críticas primero",
+    "spanishSentence": "Cuando discutimos el backlog del sprint en las reuniones de desarrollo, nos enfocamos en las tareas más críticas primero.",
+    "correctSentence": "When we discuss the sprint backlog in dev meetings, we focus on the most critical tasks first.",
     "cards": [
       {
-        "id": "d1",
-        "text": "follows",
-        "isDistractor": true,
-        "translation": "sigue"
+        "id": "c10",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
       },
       {
         "id": "c3",
-        "text": "intern",
+        "text": "discuss",
         "isDistractor": false,
-        "translation": "becario"
+        "translation": "discutimos"
       },
       {
-        "id": "c10",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
+        "id": "d1",
+        "text": "discussed",
+        "isDistractor": true,
+        "translation": "discutido"
       },
       {
-        "id": "c7",
-        "text": "dev",
+        "id": "c15",
+        "text": "critical",
         "isDistractor": false,
-        "translation": "desarrollo"
+        "translation": "críticas"
       },
       {
         "id": "c12",
-        "text": "the",
+        "text": "on",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c13",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
+        "translation": "en"
       },
       {
         "id": "c4",
-        "text": "doesn't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "d3",
+        "text": "firstly",
+        "isDistractor": true,
+        "translation": "en primer lugar"
       },
       {
         "id": "c6",
-        "text": "the",
+        "text": "backlog",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "backlog"
       },
       {
-        "id": "c8",
+        "id": "d2",
+        "text": "we'll",
+        "isDistractor": true,
+        "translation": "(futuro) nosotros"
+      },
+      {
+        "id": "c17",
+        "text": "first",
+        "isDistractor": false,
+        "translation": "primero"
+      },
+      {
+        "id": "c16",
+        "text": "tasks",
+        "isDistractor": false,
+        "translation": "tareas"
+      },
+      {
+        "id": "c9",
         "text": "meetings",
         "isDistractor": false,
         "translation": "reuniones"
       },
       {
         "id": "c14",
-        "text": "goals",
+        "text": "most",
         "isDistractor": false,
-        "translation": "objetivos"
+        "translation": "más"
       },
       {
-        "id": "cm1",
-        "text": ",",
+        "id": "c2",
+        "text": "we",
         "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c9",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "(pronombre)"
-      },
-      {
-        "id": "d3",
-        "text": "realizes",
-        "isDistractor": true,
-        "translation": "se da cuenta"
-      },
-      {
-        "id": "d2",
-        "text": "attending",
-        "isDistractor": true,
-        "translation": "asistiendo"
-      },
-      {
-        "id": "c5",
-        "text": "shadow",
-        "isDistractor": false,
-        "translation": "observar"
+        "translation": "nosotros"
       },
       {
         "id": "c1",
@@ -3237,46 +3054,59 @@
         "translation": "cuando"
       },
       {
-        "id": "d5",
-        "text": "targets",
-        "isDistractor": true,
-        "translation": "objetivos"
+        "id": "c5",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
       },
       {
-        "id": "d4",
-        "text": "comprehend",
-        "isDistractor": true,
-        "translation": "comprenden"
+        "id": "c8",
+        "text": "dev",
+        "isDistractor": false,
+        "translation": "de desarrollo"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "c11",
-        "text": "understand",
+        "text": "focus",
         "isDistractor": false,
-        "translation": "entienden"
+        "translation": "nos enfocamos"
       }
     ],
     "translations": {
       "when": "cuando",
-      "the": "(artículo)",
-      "intern": "becario",
-      "doesn't": "(auxiliar)",
-      "shadow": "observar",
-      "dev": "desarrollo",
-      "meetings": "reuniones",
-      "they": "(pronombre)",
-      "don't": "(auxiliar)",
-      "understand": "entienden",
+      "we": "nosotros",
+      "discuss": "discutimos",
+      "the": "el",
       "sprint": "sprint",
-      "goals": "objetivos",
-      "follows": "sigue",
-      "attending": "asistiendo",
-      "realizes": "se da cuenta",
-      "comprehend": "comprenden",
-      "targets": "objetivos"
+      "backlog": "backlog",
+      "in": "en",
+      "dev": "de desarrollo",
+      "meetings": "reuniones",
+      "focus": "nos enfocamos",
+      "on": "en",
+      "most": "más",
+      "critical": "críticas",
+      "tasks": "tareas",
+      "first": "primero",
+      "discussed": "discutido",
+      "we'll": "(futuro) nosotros",
+      "firstly": "en primer lugar"
     },
     "metadata": {
       "tense": "zero conditional",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "dev meetings & scrum"

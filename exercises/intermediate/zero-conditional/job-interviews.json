@@ -1,23 +1,80 @@
 [
   {
     "hints": [
-      "Tiempo: cuando (indica simultaneidad de dos acciones)",
-      "Sujeto: la empresa",
-      "Verbo: contratar (acción principal)",
-      "Complemento: a un candidato",
-      "Sujeto: ellos/la empresa (mismo sujeto, se repite)",
-      "Verbo: realizar/conducir (segunda acción)",
-      "Complemento: una verificación de antecedentes"
+      "Sujeto: el candidato",
+      "Verbo: responder",
+      "Complemento: las preguntas con confianza",
+      "Cláusula: si el candidato se prepara para la entrevista"
     ],
-    "hintDisplay": "Tiempo: cuando (indica simultaneidad de dos acciones) / Sujeto: la empresa / Verbo: contratar (acción principal) / Complemento: a un candidato / Sujeto: ellos/la empresa (mismo sujeto, se repite) / Verbo: realizar/conducir (segunda acción) / Complemento: una verificación de antecedentes",
-    "spanishSentence": "Cuando la empresa contrata a un candidato, realiza una verificación de antecedentes.",
-    "correctSentence": "When the company hires a candidate, they conduct a background check.",
+    "hintDisplay": "Sujeto: el candidato / Verbo: responder / Complemento: las preguntas con confianza / Cláusula: si el candidato se prepara para la entrevista",
+    "spanishSentence": "Si el candidato se prepara para la entrevista, responde las preguntas con confianza.",
+    "correctSentence": "If the candidate prepares for the interview, he answers the questions with confidence.",
     "cards": [
       {
         "id": "c11",
-        "text": "check",
+        "text": "questions",
         "isDistractor": false,
-        "translation": "verificación"
+        "translation": "preguntas"
+      },
+      {
+        "id": "d1",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c9",
+        "text": "answers",
+        "isDistractor": false,
+        "translation": "responde"
+      },
+      {
+        "id": "d5",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c13",
+        "text": "confidence",
+        "isDistractor": false,
+        "translation": "confianza"
+      },
+      {
+        "id": "c12",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c5",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "d4",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
       },
       {
         "id": "cm1",
@@ -26,112 +83,65 @@
         "translation": "coma"
       },
       {
-        "id": "c7",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos/ellas"
-      },
-      {
-        "id": "d5",
-        "text": "inspection",
-        "isDistractor": true,
-        "translation": "inspección"
-      },
-      {
-        "id": "c10",
-        "text": "background",
-        "isDistractor": false,
-        "translation": "antecedentes"
-      },
-      {
-        "id": "d4",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c1",
-        "text": "When",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "d2",
-        "text": "conducting",
-        "isDistractor": true,
-        "translation": "realizando"
-      },
-      {
-        "id": "c2",
+        "id": "c6",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d1",
-        "text": "hired",
-        "isDistractor": true,
-        "translation": "contratado"
-      },
-      {
-        "id": "c9",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "conduct",
-        "isDistractor": false,
-        "translation": "realizan"
+        "translation": "el"
       },
       {
         "id": "d3",
-        "text": "him",
+        "text": "answered",
         "isDistractor": true,
-        "translation": "lo/le"
+        "translation": "respondió"
       },
       {
-        "id": "c5",
-        "text": "a",
+        "id": "c8",
+        "text": "he",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "hires",
-        "isDistractor": false,
-        "translation": "contrata"
+        "translation": "él"
       },
       {
         "id": "c3",
-        "text": "company",
-        "isDistractor": false,
-        "translation": "empresa"
-      },
-      {
-        "id": "c6",
         "text": "candidate",
         "isDistractor": false,
         "translation": "candidato"
+      },
+      {
+        "id": "c4",
+        "text": "prepares",
+        "isDistractor": false,
+        "translation": "prepara"
+      },
+      {
+        "id": "d2",
+        "text": "answer",
+        "isDistractor": true,
+        "translation": "responder"
+      },
+      {
+        "id": "c7",
+        "text": "interview",
+        "isDistractor": false,
+        "translation": "entrevista"
       }
     ],
     "translations": {
-      "when": "cuando",
-      "the": "(artículo)",
-      "company": "empresa",
-      "hires": "contrata",
-      "a": "(artículo)",
+      "if": "si",
+      "the": "el",
       "candidate": "candidato",
-      "they": "ellos/ellas",
-      "conduct": "realizan",
-      "background": "antecedentes",
-      "check": "verificación",
-      "hired": "contratado",
-      "conducting": "realizando",
-      "him": "lo/le",
-      "does": "(auxiliar)",
-      "inspection": "inspección"
+      "prepares": "prepara",
+      "for": "para",
+      "interview": "entrevista",
+      "he": "él",
+      "answers": "responde",
+      "questions": "preguntas",
+      "with": "con",
+      "confidence": "confianza",
+      "will": "(futuro)",
+      "answer": "responder",
+      "answered": "respondió",
+      "she": "ella",
+      "shall": "(futuro)"
     },
     "metadata": {
       "tense": "zero conditional",
@@ -143,83 +153,69 @@
   },
   {
     "hints": [
-      "Sujeto: un candidato",
-      "Tiempo: cuando (condicional temporal)",
-      "Verbo: preparar (reflexivo, con 'se')",
-      "Complemento: a fondo / thoroughly",
-      "Complemento: para una entrevista de trabajo",
-      "Verbo: sentir (reflexivo, con 'se')",
-      "Complemento: más seguro / más confiado"
+      "Sujeto: usted",
+      "Verbo: presentar (en presente, segunda persona formal)",
+      "Complemento: sus logros",
+      "Complemento: con claridad",
+      "Cláusula: cuando negocia el salario"
     ],
-    "hintDisplay": "Sujeto: un candidato / Tiempo: cuando (condicional temporal) / Verbo: preparar (reflexivo, con 'se') / Complemento: a fondo / thoroughly / Complemento: para una entrevista de trabajo / Verbo: sentir (reflexivo, con 'se') / Complemento: más seguro / más confiado",
-    "spanishSentence": "Cuando un candidato se prepara a fondo para una entrevista de trabajo, se siente más seguro.",
-    "correctSentence": "When a candidate prepares thoroughly for a job interview, they feel more confident.",
+    "hintDisplay": "Sujeto: usted / Verbo: presentar (en presente, segunda persona formal) / Complemento: sus logros / Complemento: con claridad / Cláusula: cuando negocia el salario",
+    "spanishSentence": "Cuando negocia el salario, usted presenta sus logros con claridad.",
+    "correctSentence": "When you negotiate salary, you present your achievements clearly.",
     "cards": [
       {
-        "id": "c7",
-        "text": "a",
+        "id": "c8",
+        "text": "achievements",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "logros"
       },
       {
-        "id": "c11",
-        "text": "feel",
+        "id": "c3",
+        "text": "negotiate",
         "isDistractor": false,
-        "translation": "sienten"
-      },
-      {
-        "id": "c5",
-        "text": "thoroughly",
-        "isDistractor": false,
-        "translation": "a fondo"
-      },
-      {
-        "id": "c13",
-        "text": "confident",
-        "isDistractor": false,
-        "translation": "seguro"
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d1",
-        "text": "prepared",
-        "isDistractor": true,
-        "translation": "preparado"
-      },
-      {
-        "id": "c10",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos/ellas"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c9",
-        "text": "interview",
-        "isDistractor": false,
-        "translation": "entrevista"
-      },
-      {
-        "id": "c12",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
+        "translation": "negocia"
       },
       {
         "id": "d2",
-        "text": "he",
+        "text": "will",
         "isDistractor": true,
-        "translation": "él"
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c4",
+        "text": "salary",
+        "isDistractor": false,
+        "translation": "salario"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "usted"
+      },
+      {
+        "id": "d5",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
+      },
+      {
+        "id": "c5",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "usted"
+      },
+      {
+        "id": "d1",
+        "text": "discuss",
+        "isDistractor": true,
+        "translation": "discutir"
+      },
+      {
+        "id": "c9",
+        "text": "clearly",
+        "isDistractor": false,
+        "translation": "con claridad"
       },
       {
         "id": "c1",
@@ -228,66 +224,749 @@
         "translation": "cuando"
       },
       {
-        "id": "c2",
-        "text": "a",
+        "id": "c6",
+        "text": "present",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "presenta"
       },
       {
-        "id": "c3",
-        "text": "candidate",
+        "id": "d4",
+        "text": "presents",
+        "isDistractor": true,
+        "translation": "presenta"
+      },
+      {
+        "id": "c7",
+        "text": "your",
         "isDistractor": false,
-        "translation": "candidato"
+        "translation": "su"
+      },
+      {
+        "id": "d3",
+        "text": "negotiating",
+        "isDistractor": true,
+        "translation": "negociando"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "you": "usted",
+      "negotiate": "negocia",
+      "salary": "salario",
+      "present": "presenta",
+      "your": "su",
+      "achievements": "logros",
+      "clearly": "con claridad",
+      "discuss": "discutir",
+      "will": "(futuro)",
+      "negotiating": "negociando",
+      "presents": "presenta",
+      "she": "ella"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la empresa",
+      "Verbo: ofrecer",
+      "Complemento: el puesto",
+      "Tiempo: cuando (cláusula subordinada temporal)",
+      "Cláusula: tú recibes el contrato por correo electrónico"
+    ],
+    "hintDisplay": "Sujeto: la empresa / Verbo: ofrecer / Complemento: el puesto / Tiempo: cuando (cláusula subordinada temporal) / Cláusula: tú recibes el contrato por correo electrónico",
+    "spanishSentence": "Cuando la empresa te ofrece el puesto, recibes el contrato por correo electrónico.",
+    "correctSentence": "When the company offers you the position, you receive the contract by email.",
+    "cards": [
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "offers",
+        "isDistractor": false,
+        "translation": "ofrece"
       },
       {
         "id": "c8",
-        "text": "job",
+        "text": "you",
         "isDistractor": false,
-        "translation": "trabajo"
+        "translation": "te"
+      },
+      {
+        "id": "d2",
+        "text": "contracts",
+        "isDistractor": true,
+        "translation": "contratos"
+      },
+      {
+        "id": "c11",
+        "text": "contract",
+        "isDistractor": false,
+        "translation": "contrato"
+      },
+      {
+        "id": "c13",
+        "text": "email",
+        "isDistractor": false,
+        "translation": "correo electrónico"
+      },
+      {
+        "id": "c5",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "te"
+      },
+      {
+        "id": "c12",
+        "text": "by",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "d3",
+        "text": "emailing",
+        "isDistractor": true,
+        "translation": "enviando por correo electrónico"
       },
       {
         "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "company",
+        "isDistractor": false,
+        "translation": "empresa"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c9",
+        "text": "receive",
+        "isDistractor": false,
+        "translation": "recibes"
+      },
+      {
+        "id": "c7",
+        "text": "position",
+        "isDistractor": false,
+        "translation": "puesto"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "the": "el",
+      "company": "empresa",
+      "offers": "ofrece",
+      "you": "te",
+      "position": "puesto",
+      "receive": "recibes",
+      "contract": "contrato",
+      "by": "por",
+      "email": "correo electrónico",
+      "will": "(futuro)",
+      "contracts": "contratos",
+      "emailing": "enviando por correo electrónico"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ustedes",
+      "Verbo: revisar (presente de indicativo)",
+      "Complemento: el portafolio del candidato",
+      "Cláusula: cuando revisan el portafolio del candidato",
+      "Verbo: evaluar (presente de indicativo)",
+      "Complemento: sus habilidades prácticas"
+    ],
+    "hintDisplay": "Sujeto: ustedes / Verbo: revisar (presente de indicativo) / Complemento: el portafolio del candidato / Cláusula: cuando revisan el portafolio del candidato / Verbo: evaluar (presente de indicativo) / Complemento: sus habilidades prácticas",
+    "spanishSentence": "Cuando ustedes revisan el portafolio del candidato, evalúan sus habilidades prácticas.",
+    "correctSentence": "When you review the candidate's portfolio, you assess their practical skills.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisan"
+      },
+      {
+        "id": "d3",
+        "text": "assesses",
+        "isDistractor": true,
+        "translation": "evalúa"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d5",
+        "text": "examine",
+        "isDistractor": true,
+        "translation": "examinan"
+      },
+      {
+        "id": "d1",
+        "text": "reviews",
+        "isDistractor": true,
+        "translation": "revisa"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c8",
+        "text": "assess",
+        "isDistractor": false,
+        "translation": "evalúan"
+      },
+      {
+        "id": "c6",
+        "text": "portfolio",
+        "isDistractor": false,
+        "translation": "portafolio"
+      },
+      {
+        "id": "c9",
+        "text": "their",
+        "isDistractor": false,
+        "translation": "sus"
+      },
+      {
+        "id": "d4",
+        "text": "your",
+        "isDistractor": true,
+        "translation": "tus"
+      },
+      {
+        "id": "c11",
+        "text": "skills",
+        "isDistractor": false,
+        "translation": "habilidades"
+      },
+      {
+        "id": "c5",
+        "text": "candidate's",
+        "isDistractor": false,
+        "translation": "del candidato"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "ustedes"
+      },
+      {
+        "id": "c10",
+        "text": "practical",
+        "isDistractor": false,
+        "translation": "prácticas"
+      },
+      {
+        "id": "c7",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "ustedes"
+      },
+      {
+        "id": "d2",
+        "text": "evaluates",
+        "isDistractor": true,
+        "translation": "evalúa"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "you": "ustedes",
+      "review": "revisan",
+      "the": "el",
+      "candidate's": "del candidato",
+      "portfolio": "portafolio",
+      "assess": "evalúan",
+      "their": "sus",
+      "practical": "prácticas",
+      "skills": "habilidades",
+      "reviews": "revisa",
+      "evaluates": "evalúa",
+      "assesses": "evalúa",
+      "your": "tus",
+      "examine": "examinan"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: hacer seguimiento (presente simple)",
+      "Complemento: después de la entrevista",
+      "Tiempo: presente (hábito o acción general)",
+      "Cláusula: si muestran interés en el puesto"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: hacer seguimiento (presente simple) / Complemento: después de la entrevista / Tiempo: presente (hábito o acción general) / Cláusula: si muestran interés en el puesto",
+    "spanishSentence": "Si ellos hacen seguimiento después de la entrevista, muestran interés en el puesto.",
+    "correctSentence": "If they follow up after the interview, they show interest in the position.",
+    "cards": [
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "interview",
+        "isDistractor": false,
+        "translation": "entrevista"
+      },
+      {
+        "id": "c3",
+        "text": "follow",
+        "isDistractor": false,
+        "translation": "hacen seguimiento"
+      },
+      {
+        "id": "d2",
+        "text": "they're",
+        "isDistractor": true,
+        "translation": "ellos son/están"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      },
+      {
+        "id": "d1",
+        "text": "follows",
+        "isDistractor": true,
+        "translation": "sigue"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d3",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c5",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después de"
+      },
+      {
+        "id": "d5",
+        "text": "positioning",
+        "isDistractor": true,
+        "translation": "posicionamiento"
+      },
+      {
+        "id": "c8",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c11",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c9",
+        "text": "show",
+        "isDistractor": false,
+        "translation": "muestran"
+      },
+      {
+        "id": "c10",
+        "text": "interest",
+        "isDistractor": false,
+        "translation": "interés"
+      },
+      {
+        "id": "d4",
+        "text": "interestingly",
+        "isDistractor": true,
+        "translation": "curiosamente"
+      },
+      {
+        "id": "c13",
+        "text": "position",
+        "isDistractor": false,
+        "translation": "puesto"
+      },
+      {
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c4",
+        "text": "up",
+        "isDistractor": false,
+        "translation": "(continuación)"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "they": "ellos",
+      "follow": "hacen seguimiento",
+      "up": "(continuación)",
+      "after": "después de",
+      "the": "el/la",
+      "interview": "entrevista",
+      "show": "muestran",
+      "interest": "interés",
+      "in": "en",
+      "position": "puesto",
+      "follows": "sigue",
+      "they're": "ellos son/están",
+      "did": "(auxiliar)",
+      "interestingly": "curiosamente",
+      "positioning": "posicionamiento"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ustedes",
+      "Verbo: aplicar (solicitar un puesto)",
+      "Complemento: para un trabajo",
+      "Tiempo: (no hay marcador temporal concreto)",
+      "Verbo: preparar (en la cláusula principal)",
+      "Complemento: la entrevista",
+      "Cláusula: si ustedes aplican para un trabajo"
+    ],
+    "hintDisplay": "Sujeto: ustedes / Verbo: aplicar (solicitar un puesto) / Complemento: para un trabajo / Tiempo: (no hay marcador temporal concreto) / Verbo: preparar (en la cláusula principal) / Complemento: la entrevista / Cláusula: si ustedes aplican para un trabajo",
+    "spanishSentence": "Si ustedes aplican para un trabajo, preparan la entrevista.",
+    "correctSentence": "If you apply for a job, you prepare for the interview.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "ustedes"
+      },
+      {
+        "id": "d2",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c11",
+        "text": "interview",
+        "isDistractor": false,
+        "translation": "entrevista"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "prepare",
+        "isDistractor": false,
+        "translation": "preparan"
+      },
+      {
+        "id": "c4",
         "text": "for",
         "isDistractor": false,
         "translation": "para"
       },
       {
-        "id": "c4",
-        "text": "prepares",
+        "id": "c5",
+        "text": "a",
         "isDistractor": false,
-        "translation": "se prepara"
+        "translation": "un"
+      },
+      {
+        "id": "c9",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c6",
+        "text": "job",
+        "isDistractor": false,
+        "translation": "trabajo"
+      },
+      {
+        "id": "c7",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "ustedes"
       },
       {
         "id": "d4",
-        "text": "thorough",
+        "text": "application",
         "isDistractor": true,
-        "translation": "exhaustivo"
+        "translation": "solicitud"
       },
       {
-        "id": "d5",
-        "text": "confidents",
+        "id": "d1",
+        "text": "prepares",
         "isDistractor": true,
-        "translation": "seguros"
+        "translation": "preparas"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c3",
+        "text": "apply",
+        "isDistractor": false,
+        "translation": "aplican"
       }
     ],
     "translations": {
-      "when": "cuando",
-      "a": "(artículo)",
-      "candidate": "candidato",
-      "prepares": "se prepara",
-      "thoroughly": "a fondo",
+      "if": "si",
+      "you": "ustedes",
+      "apply": "aplican",
       "for": "para",
+      "a": "un",
       "job": "trabajo",
+      "prepare": "preparan",
+      "the": "el",
       "interview": "entrevista",
-      "they": "ellos/ellas",
-      "feel": "sienten",
-      "more": "más",
-      "confident": "seguro",
-      "prepared": "preparado",
-      "he": "él",
-      "does": "(auxiliar)",
-      "thorough": "exhaustivo",
-      "confidents": "seguros"
+      "prepares": "preparas",
+      "they": "ellos",
+      "will": "(futuro)",
+      "application": "solicitud"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo de contratación",
+      "Verbo: verificar (presente simple)",
+      "Complemento: sus referencias",
+      "Cláusula: si el equipo de contratación entrevista a un candidato"
+    ],
+    "hintDisplay": "Sujeto: el equipo de contratación / Verbo: verificar (presente simple) / Complemento: sus referencias / Cláusula: si el equipo de contratación entrevista a un candidato",
+    "spanishSentence": "Si el equipo de contratación entrevista a un candidato, verificamos sus referencias.",
+    "correctSentence": "If the hiring team interviews a candidate, we check their references.",
+    "cards": [
+      {
+        "id": "d4",
+        "text": "candidate's",
+        "isDistractor": true,
+        "translation": "del candidato"
+      },
+      {
+        "id": "c7",
+        "text": "candidate",
+        "isDistractor": false,
+        "translation": "candidato"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c10",
+        "text": "their",
+        "isDistractor": false,
+        "translation": "sus"
+      },
+      {
+        "id": "c11",
+        "text": "references",
+        "isDistractor": false,
+        "translation": "referencias"
+      },
+      {
+        "id": "c5",
+        "text": "interviews",
+        "isDistractor": false,
+        "translation": "entrevista"
+      },
+      {
+        "id": "c9",
+        "text": "check",
+        "isDistractor": false,
+        "translation": "verificamos"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c6",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "checked",
+        "isDistractor": true,
+        "translation": "verificado"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c4",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c3",
+        "text": "hiring",
+        "isDistractor": false,
+        "translation": "de contratación"
+      },
+      {
+        "id": "d2",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c8",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "hiring": "de contratación",
+      "team": "equipo",
+      "interviews": "entrevista",
+      "a": "un",
+      "candidate": "candidato",
+      "we": "nosotros",
+      "check": "verificamos",
+      "their": "sus",
+      "references": "referencias",
+      "checked": "verificado",
+      "they": "ellos",
+      "will": "(futuro)",
+      "candidate's": "del candidato"
     },
     "metadata": {
       "tense": "zero conditional",
@@ -300,564 +979,43 @@
   {
     "hints": [
       "Sujeto: los candidatos",
-      "Verbo: prepararse (reflexivo)",
-      "Complemento: bien para las entrevistas de trabajo",
-      "Verbo: desempeñarse (reflexivo)",
-      "Complemento: mejor durante la conversación",
-      "Estructura: condicional (si... entonces...)"
+      "Verbo: impresionar",
+      "Complemento: al gerente de contratación",
+      "Cláusula: cuando los candidatos investigan la empresa antes de la entrevista"
     ],
-    "hintDisplay": "Sujeto: los candidatos / Verbo: prepararse (reflexivo) / Complemento: bien para las entrevistas de trabajo / Verbo: desempeñarse (reflexivo) / Complemento: mejor durante la conversación / Estructura: condicional (si... entonces...)",
-    "spanishSentence": "Si los candidatos se preparan bien para las entrevistas de trabajo, ellos se desempeñan mejor durante la conversación.",
-    "correctSentence": "If candidates prepare well for job interviews, they perform better during the conversation.",
+    "hintDisplay": "Sujeto: los candidatos / Verbo: impresionar / Complemento: al gerente de contratación / Cláusula: cuando los candidatos investigan la empresa antes de la entrevista",
+    "spanishSentence": "Cuando los candidatos investigan la empresa antes de la entrevista, impresionan al gerente de contratación.",
+    "correctSentence": "When candidates research the company before the interview, they impress the hiring manager.",
     "cards": [
       {
-        "id": "c8",
+        "id": "c9",
         "text": "they",
         "isDistractor": false,
         "translation": "ellos"
       },
       {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c9",
-        "text": "perform",
-        "isDistractor": false,
-        "translation": "se desempeñan"
-      },
-      {
-        "id": "d5",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c6",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "trabajo"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d1",
-        "text": "prepared",
-        "isDistractor": true,
-        "translation": "preparados"
-      },
-      {
-        "id": "c13",
-        "text": "conversation",
-        "isDistractor": false,
-        "translation": "conversación"
-      },
-      {
-        "id": "c4",
-        "text": "well",
-        "isDistractor": false,
-        "translation": "bien"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c3",
-        "text": "prepare",
-        "isDistractor": false,
-        "translation": "preparan"
-      },
-      {
         "id": "c10",
-        "text": "better",
+        "text": "impress",
         "isDistractor": false,
-        "translation": "mejor"
-      },
-      {
-        "id": "d4",
-        "text": "he",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c2",
-        "text": "candidates",
-        "isDistractor": false,
-        "translation": "candidatos"
-      },
-      {
-        "id": "c7",
-        "text": "interviews",
-        "isDistractor": false,
-        "translation": "entrevistas"
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
+        "translation": "impresionan"
       },
       {
         "id": "d2",
-        "text": "performs",
+        "text": "researches",
         "isDistractor": true,
-        "translation": "se desempeña"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "candidates": "candidatos",
-      "prepare": "preparan",
-      "well": "bien",
-      "for": "para",
-      "job": "trabajo",
-      "interviews": "entrevistas",
-      "they": "ellos",
-      "perform": "se desempeñan",
-      "better": "mejor",
-      "during": "durante",
-      "the": "(artículo)",
-      "conversation": "conversación",
-      "prepared": "preparados",
-      "performs": "se desempeña",
-      "will": "(futuro)",
-      "he": "él",
-      "does": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros (we)",
-      "Verbo: entrevistar",
-      "Complemento: un candidato que demuestra fuertes habilidades de comunicación",
-      "Verbo: reconocer",
-      "Complemento: su potencial para el puesto"
-    ],
-    "hintDisplay": "Sujeto: nosotros (we) / Verbo: entrevistar / Complemento: un candidato que demuestra fuertes habilidades de comunicación / Verbo: reconocer / Complemento: su potencial para el puesto",
-    "spanishSentence": "Si entrevistamos a un candidato que demuestra fuertes habilidades de comunicación, reconocemos su potencial para el puesto.",
-    "correctSentence": "If we interview a candidate who demonstrates strong communication skills, we recognize their potential for the role.",
-    "cards": [
-      {
-        "id": "c6",
-        "text": "who",
-        "isDistractor": false,
-        "translation": "que"
-      },
-      {
-        "id": "c17",
-        "text": "role",
-        "isDistractor": false,
-        "translation": "puesto"
-      },
-      {
-        "id": "d3",
-        "text": "recognizing",
-        "isDistractor": true,
-        "translation": "reconociendo"
+        "translation": "investiga"
       },
       {
         "id": "c13",
-        "text": "their",
+        "text": "manager",
         "isDistractor": false,
-        "translation": "su"
-      },
-      {
-        "id": "c14",
-        "text": "potential",
-        "isDistractor": false,
-        "translation": "potencial"
-      },
-      {
-        "id": "c9",
-        "text": "communication",
-        "isDistractor": false,
-        "translation": "comunicación"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c5",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
-      },
-      {
-        "id": "c12",
-        "text": "recognize",
-        "isDistractor": false,
-        "translation": "reconocemos"
-      },
-      {
-        "id": "d1",
-        "text": "interviewed",
-        "isDistractor": true,
-        "translation": "entrevistado"
-      },
-      {
-        "id": "c11",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c10",
-        "text": "skills",
-        "isDistractor": false,
-        "translation": "habilidades"
-      },
-      {
-        "id": "c3",
-        "text": "interview",
-        "isDistractor": false,
-        "translation": "entrevistamos"
-      },
-      {
-        "id": "d2",
-        "text": "demonstrating",
-        "isDistractor": true,
-        "translation": "demostrando"
-      },
-      {
-        "id": "c16",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo definido)"
-      },
-      {
-        "id": "c7",
-        "text": "demonstrates",
-        "isDistractor": false,
-        "translation": "demuestra"
-      },
-      {
-        "id": "c15",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c8",
-        "text": "strong",
-        "isDistractor": false,
-        "translation": "fuertes"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d4",
-        "text": "whose",
-        "isDistractor": true,
-        "translation": "cuyo"
+        "translation": "gerente"
       },
       {
         "id": "c4",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo indefinido)"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "we": "nosotros",
-      "interview": "entrevistamos",
-      "a": "(artículo indefinido)",
-      "candidate": "candidato",
-      "who": "que",
-      "demonstrates": "demuestra",
-      "strong": "fuertes",
-      "communication": "comunicación",
-      "skills": "habilidades",
-      "recognize": "reconocemos",
-      "their": "su",
-      "potential": "potencial",
-      "for": "para",
-      "the": "(artículo definido)",
-      "role": "puesto",
-      "interviewed": "entrevistado",
-      "demonstrating": "demostrando",
-      "recognizing": "reconociendo",
-      "whose": "cuyo"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: un candidato",
-      "Verbo: demostrar",
-      "Complemento: habilidades sólidas de comunicación",
-      "Verbo: recomendar",
-      "Sujeto: el reclutador",
-      "Complemento: para el puesto"
-    ],
-    "hintDisplay": "Sujeto: un candidato / Verbo: demostrar / Complemento: habilidades sólidas de comunicación / Verbo: recomendar / Sujeto: el reclutador / Complemento: para el puesto",
-    "spanishSentence": "Si un candidato demuestra habilidades sólidas de comunicación, el reclutador lo recomienda para el puesto.",
-    "correctSentence": "If a candidate demonstrates strong communication skills, the recruiter recommends them for the position.",
-    "cards": [
-      {
-        "id": "c12",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c11",
-        "text": "them",
-        "isDistractor": false,
-        "translation": "lo"
-      },
-      {
-        "id": "d5",
-        "text": "applicant",
-        "isDistractor": true,
-        "translation": "solicitante"
-      },
-      {
-        "id": "c2",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c10",
-        "text": "recommends",
-        "isDistractor": false,
-        "translation": "recomienda"
-      },
-      {
-        "id": "c4",
-        "text": "demonstrates",
-        "isDistractor": false,
-        "translation": "demuestra"
-      },
-      {
-        "id": "c9",
-        "text": "recruiter",
-        "isDistractor": false,
-        "translation": "reclutador"
-      },
-      {
-        "id": "c7",
-        "text": "skills",
-        "isDistractor": false,
-        "translation": "habilidades"
-      },
-      {
-        "id": "c3",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
-      },
-      {
-        "id": "d4",
-        "text": "positions",
-        "isDistractor": true,
-        "translation": "puestos"
-      },
-      {
-        "id": "c6",
-        "text": "communication",
-        "isDistractor": false,
-        "translation": "comunicación"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d3",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "c13",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c5",
-        "text": "strong",
-        "isDistractor": false,
-        "translation": "sólidas"
-      },
-      {
-        "id": "d2",
-        "text": "recommending",
-        "isDistractor": true,
-        "translation": "recomendando"
-      },
-      {
-        "id": "d1",
-        "text": "recruits",
-        "isDistractor": true,
-        "translation": "recluta"
-      },
-      {
-        "id": "c14",
-        "text": "position",
-        "isDistractor": false,
-        "translation": "puesto"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "a": "(artículo)",
-      "candidate": "candidato",
-      "demonstrates": "demuestra",
-      "strong": "sólidas",
-      "communication": "comunicación",
-      "skills": "habilidades",
-      "the": "(artículo)",
-      "recruiter": "reclutador",
-      "recommends": "recomienda",
-      "them": "lo",
-      "for": "para",
-      "position": "puesto",
-      "recruits": "recluta",
-      "recommending": "recomendando",
-      "their": "su",
-      "positions": "puestos",
-      "applicant": "solicitante"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: cuando (marca el momento de la acción)",
-      "Sujeto: yo",
-      "Verbo: investigar",
-      "Complemento: una empresa",
-      "Complemento: antes de una entrevista de trabajo",
-      "Verbo: sentir",
-      "Complemento: más seguro/confiado",
-      "Complemento: durante la conversación"
-    ],
-    "hintDisplay": "Tiempo: cuando (marca el momento de la acción) / Sujeto: yo / Verbo: investigar / Complemento: una empresa / Complemento: antes de una entrevista de trabajo / Verbo: sentir / Complemento: más seguro/confiado / Complemento: durante la conversación",
-    "spanishSentence": "Cuando investigo una empresa antes de una entrevista de trabajo, me siento más seguro durante la conversación.",
-    "correctSentence": "When I research a company before a job interview, I feel more confident during the conversation.",
-    "cards": [
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c13",
-        "text": "confident",
-        "isDistractor": false,
-        "translation": "seguro"
-      },
-      {
-        "id": "c5",
-        "text": "company",
-        "isDistractor": false,
-        "translation": "empresa"
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c8",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "trabajo"
-      },
-      {
-        "id": "c3",
-        "text": "research",
-        "isDistractor": false,
-        "translation": "investigo"
-      },
-      {
-        "id": "c1",
-        "text": "When",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo definido)"
-      },
-      {
-        "id": "c7",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo indefinido)"
+        "translation": "el/la/los/las"
       },
       {
         "id": "c6",
@@ -866,289 +1024,6 @@
         "translation": "antes de"
       },
       {
-        "id": "c11",
-        "text": "feel",
-        "isDistractor": false,
-        "translation": "siento"
-      },
-      {
-        "id": "d1",
-        "text": "researched",
-        "isDistractor": true,
-        "translation": "investigado"
-      },
-      {
-        "id": "c10",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c9",
-        "text": "interview",
-        "isDistractor": false,
-        "translation": "entrevista"
-      },
-      {
-        "id": "c12",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      },
-      {
-        "id": "c16",
-        "text": "conversation",
-        "isDistractor": false,
-        "translation": "conversación"
-      },
-      {
-        "id": "d2",
-        "text": "me",
-        "isDistractor": true,
-        "translation": "me"
-      },
-      {
-        "id": "c14",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo indefinido)"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "i": "yo",
-      "research": "investigo",
-      "a": "(artículo indefinido)",
-      "company": "empresa",
-      "before": "antes de",
-      "job": "trabajo",
-      "interview": "entrevista",
-      "feel": "siento",
-      "more": "más",
-      "confident": "seguro",
-      "during": "durante",
-      "the": "(artículo definido)",
-      "conversation": "conversación",
-      "researched": "investigado",
-      "me": "me",
-      "does": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: cuando (indica una acción que ocurre en cierto momento)",
-      "Sujeto: yo",
-      "Verbo: programar",
-      "Complemento: una entrevista de trabajo",
-      "Verbo: enviar",
-      "Complemento: al candidato un correo de confirmación con todos los detalles",
-      "Tiempo: siempre (indica frecuencia)"
-    ],
-    "hintDisplay": "Tiempo: cuando (indica una acción que ocurre en cierto momento) / Sujeto: yo / Verbo: programar / Complemento: una entrevista de trabajo / Verbo: enviar / Complemento: al candidato un correo de confirmación con todos los detalles / Tiempo: siempre (indica frecuencia)",
-    "spanishSentence": "Cuando programo una entrevista de trabajo, siempre envío al candidato un correo de confirmación con todos los detalles.",
-    "correctSentence": "When I schedule a job interview, I always send the candidate a confirmation email with all the details.",
-    "cards": [
-      {
-        "id": "c16",
-        "text": "all",
-        "isDistractor": false,
-        "translation": "todos"
-      },
-      {
-        "id": "c4",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "When",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "c11",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
-      },
-      {
-        "id": "c9",
-        "text": "send",
-        "isDistractor": false,
-        "translation": "envío"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c17",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "interview",
-        "isDistractor": false,
-        "translation": "entrevista"
-      },
-      {
-        "id": "d4",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "tener"
-      },
-      {
-        "id": "d3",
-        "text": "candidate's",
-        "isDistractor": true,
-        "translation": "del candidato"
-      },
-      {
-        "id": "d2",
-        "text": "sends",
-        "isDistractor": true,
-        "translation": "envía"
-      },
-      {
-        "id": "c8",
-        "text": "always",
-        "isDistractor": false,
-        "translation": "siempre"
-      },
-      {
-        "id": "c12",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d1",
-        "text": "scheduled",
-        "isDistractor": true,
-        "translation": "programada"
-      },
-      {
-        "id": "c3",
-        "text": "schedule",
-        "isDistractor": false,
-        "translation": "programo"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c14",
-        "text": "email",
-        "isDistractor": false,
-        "translation": "correo"
-      },
-      {
-        "id": "c18",
-        "text": "details",
-        "isDistractor": false,
-        "translation": "detalles"
-      },
-      {
-        "id": "c13",
-        "text": "confirmation",
-        "isDistractor": false,
-        "translation": "confirmación"
-      },
-      {
-        "id": "c15",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c7",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c5",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "trabajo"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "i": "yo",
-      "schedule": "programo",
-      "a": "(artículo)",
-      "job": "trabajo",
-      "interview": "entrevista",
-      "always": "siempre",
-      "send": "envío",
-      "the": "(artículo)",
-      "candidate": "candidato",
-      "confirmation": "confirmación",
-      "email": "correo",
-      "with": "con",
-      "all": "todos",
-      "details": "detalles",
-      "scheduled": "programada",
-      "sends": "envía",
-      "candidate's": "del candidato",
-      "have": "tener"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: cuando (marcador temporal de presente habitual)",
-      "Sujeto: nosotros",
-      "Verbo: entrevistar (acción principal)",
-      "Complemento: a candidatos (objeto directo)",
-      "Verbo: decidir (segunda acción principal)",
-      "Complemento: basarse en su experiencia y habilidades de comunicación (criterios de decisión)"
-    ],
-    "hintDisplay": "Tiempo: cuando (marcador temporal de presente habitual) / Sujeto: nosotros / Verbo: entrevistar (acción principal) / Complemento: a candidatos (objeto directo) / Verbo: decidir (segunda acción principal) / Complemento: basarse en su experiencia y habilidades de comunicación (criterios de decisión)",
-    "spanishSentence": "Cuando entrevistamos a candidatos, decidimos basándonos en su experiencia y habilidades de comunicación.",
-    "correctSentence": "When we interview candidates, we decide based on their experience and communication skills.",
-    "cards": [
-      {
         "id": "c1",
         "text": "When",
         "isDistractor": false,
@@ -1156,842 +1031,195 @@
       },
       {
         "id": "c3",
-        "text": "interview",
-        "isDistractor": false,
-        "translation": "entrevistamos"
-      },
-      {
-        "id": "c7",
-        "text": "based",
-        "isDistractor": false,
-        "translation": "basándonos"
-      },
-      {
-        "id": "d2",
-        "text": "candidates'",
-        "isDistractor": true,
-        "translation": "de los candidatos"
-      },
-      {
-        "id": "c13",
-        "text": "skills",
-        "isDistractor": false,
-        "translation": "habilidades"
-      },
-      {
-        "id": "c6",
-        "text": "decide",
-        "isDistractor": false,
-        "translation": "decidimos"
-      },
-      {
-        "id": "c8",
-        "text": "on",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c4",
-        "text": "candidates",
-        "isDistractor": false,
-        "translation": "candidatos"
-      },
-      {
-        "id": "c5",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "d3",
-        "text": "decides",
-        "isDistractor": true,
-        "translation": "decide"
-      },
-      {
-        "id": "c9",
-        "text": "their",
-        "isDistractor": false,
-        "translation": "su"
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c11",
-        "text": "and",
-        "isDistractor": false,
-        "translation": "y"
-      },
-      {
-        "id": "d1",
-        "text": "interviewed",
-        "isDistractor": true,
-        "translation": "entrevistados"
-      },
-      {
-        "id": "c10",
-        "text": "experience",
-        "isDistractor": false,
-        "translation": "experiencia"
-      },
-      {
-        "id": "c12",
-        "text": "communication",
-        "isDistractor": false,
-        "translation": "comunicación"
-      },
-      {
-        "id": "d4",
-        "text": "communicative",
-        "isDistractor": true,
-        "translation": "comunicativo"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "we": "nosotros",
-      "interview": "entrevistamos",
-      "candidates": "candidatos",
-      "decide": "decidimos",
-      "based": "basándonos",
-      "on": "en",
-      "their": "su",
-      "experience": "experiencia",
-      "and": "y",
-      "communication": "comunicación",
-      "skills": "habilidades",
-      "interviewed": "entrevistados",
-      "candidates'": "de los candidatos",
-      "decides": "decide",
-      "communicative": "comunicativo"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: tú (you)",
-      "Verbo: aprobar (pass)",
-      "Complemento: la entrevista",
-      "Sujeto: la empresa (the company)",
-      "Verbo: capacitar (train)",
-      "Complemento: te (you - objeto indirecto) para el puesto"
-    ],
-    "hintDisplay": "Sujeto: tú (you) / Verbo: aprobar (pass) / Complemento: la entrevista / Sujeto: la empresa (the company) / Verbo: capacitar (train) / Complemento: te (you - objeto indirecto) para el puesto",
-    "spanishSentence": "Si apruebas la entrevista, la empresa te capacita para el puesto.",
-    "correctSentence": "If you pass the interview, the company trains you for the position.",
-    "cards": [
-      {
-        "id": "c3",
-        "text": "pass",
-        "isDistractor": false,
-        "translation": "apruebas"
-      },
-      {
-        "id": "c8",
-        "text": "trains",
-        "isDistractor": false,
-        "translation": "capacita"
-      },
-      {
-        "id": "d2",
-        "text": "you'll",
-        "isDistractor": true,
-        "translation": "tú (futuro)"
-      },
-      {
-        "id": "c12",
-        "text": "position",
-        "isDistractor": false,
-        "translation": "puesto"
-      },
-      {
-        "id": "d4",
-        "text": "trained",
-        "isDistractor": true,
-        "translation": "capacitado"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c5",
-        "text": "interview",
-        "isDistractor": false,
-        "translation": "entrevista"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c10",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "position's",
-        "isDistractor": true,
-        "translation": "del puesto"
-      },
-      {
-        "id": "c9",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "c2",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "d1",
-        "text": "passed",
-        "isDistractor": true,
-        "translation": "aprobado"
-      },
-      {
-        "id": "c7",
-        "text": "company",
-        "isDistractor": false,
-        "translation": "empresa"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "you": "tú",
-      "pass": "apruebas",
-      "the": "(artículo)",
-      "interview": "entrevista",
-      "company": "empresa",
-      "trains": "capacita",
-      "for": "para",
-      "position": "puesto",
-      "passed": "aprobado",
-      "you'll": "tú (futuro)",
-      "position's": "del puesto",
-      "trained": "capacitado"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: un candidato",
-      "Verbo: presentar",
-      "Complemento: ejemplos claros",
-      "Tiempo: durante una entrevista de trabajo",
-      "Verbo: no comprender (negación)",
-      "Sujeto: el entrevistador",
-      "Complemento: las cualificaciones del candidato"
-    ],
-    "hintDisplay": "Sujeto: un candidato / Verbo: presentar / Complemento: ejemplos claros / Tiempo: durante una entrevista de trabajo / Verbo: no comprender (negación) / Sujeto: el entrevistador / Complemento: las cualificaciones del candidato",
-    "spanishSentence": "Cuando un candidato no presenta ejemplos claros durante una entrevista de trabajo, el entrevistador no comprende sus cualificaciones.",
-    "correctSentence": "When a candidate doesn't present clear examples during a job interview, the interviewer doesn't understand their qualifications.",
-    "cards": [
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c9",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "doesn't",
-        "isDistractor": false,
-        "translation": "(negación)"
-      },
-      {
-        "id": "c15",
-        "text": "understand",
-        "isDistractor": false,
-        "translation": "comprende"
-      },
-      {
-        "id": "d4",
-        "text": "qualification",
-        "isDistractor": true,
-        "translation": "cualificación"
-      },
-      {
-        "id": "c16",
-        "text": "their",
-        "isDistractor": false,
-        "translation": "sus"
-      },
-      {
-        "id": "c2",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c13",
-        "text": "interviewer",
-        "isDistractor": false,
-        "translation": "entrevistador"
-      },
-      {
-        "id": "c3",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
-      },
-      {
-        "id": "c11",
-        "text": "interview",
-        "isDistractor": false,
-        "translation": "entrevista"
-      },
-      {
-        "id": "c17",
-        "text": "qualifications",
-        "isDistractor": false,
-        "translation": "cualificaciones"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "When",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "c5",
-        "text": "present",
-        "isDistractor": false,
-        "translation": "presenta"
-      },
-      {
-        "id": "d2",
-        "text": "interviewing",
-        "isDistractor": true,
-        "translation": "entrevistando"
-      },
-      {
-        "id": "c14",
-        "text": "doesn't",
-        "isDistractor": false,
-        "translation": "(negación)"
-      },
-      {
-        "id": "d3",
-        "text": "clarify",
-        "isDistractor": true,
-        "translation": "aclarar"
-      },
-      {
-        "id": "d1",
-        "text": "presents",
-        "isDistractor": true,
-        "translation": "presenta"
-      },
-      {
-        "id": "c10",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "trabajo"
-      },
-      {
-        "id": "c6",
-        "text": "clear",
-        "isDistractor": false,
-        "translation": "claros"
-      },
-      {
-        "id": "c8",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c7",
-        "text": "examples",
-        "isDistractor": false,
-        "translation": "ejemplos"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "a": "(artículo)",
-      "candidate": "candidato",
-      "doesn't": "(negación)",
-      "present": "presenta",
-      "clear": "claros",
-      "examples": "ejemplos",
-      "during": "durante",
-      "job": "trabajo",
-      "interview": "entrevista",
-      "the": "(artículo)",
-      "interviewer": "entrevistador",
-      "understand": "comprende",
-      "their": "sus",
-      "qualifications": "cualificaciones",
-      "presents": "presenta",
-      "interviewing": "entrevistando",
-      "clarify": "aclarar",
-      "qualification": "cualificación"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: los candidatos",
-      "Verbo: investigar (en negativo, condicional)",
-      "Complemento: la empresa",
-      "Verbo: causar/hacer (en negativo, condicional)",
-      "Complemento: una buena impresión",
-      "Complemento: durante las entrevistas de trabajo"
-    ],
-    "hintDisplay": "Sujeto: los candidatos / Verbo: investigar (en negativo, condicional) / Complemento: la empresa / Verbo: causar/hacer (en negativo, condicional) / Complemento: una buena impresión / Complemento: durante las entrevistas de trabajo",
-    "spanishSentence": "Si los candidatos no investigan la empresa, no causan una buena impresión durante las entrevistas de trabajo.",
-    "correctSentence": "If candidates don't research the company, they don't make a good impression during job interviews.",
-    "cards": [
-      {
-        "id": "c7",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "(pronombre)"
-      },
-      {
-        "id": "c14",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "trabajo"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "(pronombre)"
-      },
-      {
-        "id": "d2",
-        "text": "makes",
-        "isDistractor": true,
-        "translation": "hace"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c2",
-        "text": "candidates",
-        "isDistractor": false,
-        "translation": "candidatos"
-      },
-      {
-        "id": "d1",
-        "text": "researching",
-        "isDistractor": true,
-        "translation": "investigar"
-      },
-      {
-        "id": "c10",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
         "text": "research",
         "isDistractor": false,
         "translation": "investigan"
       },
       {
         "id": "c8",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(negación)"
-      },
-      {
-        "id": "c15",
-        "text": "interviews",
-        "isDistractor": false,
-        "translation": "entrevistas"
-      },
-      {
-        "id": "c3",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(negación)"
-      },
-      {
-        "id": "d4",
-        "text": "doesn't",
-        "isDistractor": true,
-        "translation": "(negación)"
-      },
-      {
-        "id": "c12",
-        "text": "impression",
-        "isDistractor": false,
-        "translation": "impresión"
-      },
-      {
-        "id": "c6",
-        "text": "company",
-        "isDistractor": false,
-        "translation": "empresa"
-      },
-      {
-        "id": "d5",
-        "text": "impressions",
-        "isDistractor": true,
-        "translation": "impresiones"
-      },
-      {
-        "id": "c11",
-        "text": "good",
-        "isDistractor": false,
-        "translation": "buena"
-      },
-      {
-        "id": "c9",
-        "text": "make",
-        "isDistractor": false,
-        "translation": "causan"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c13",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "candidates": "candidatos",
-      "don't": "(negación)",
-      "research": "investigan",
-      "the": "(artículo)",
-      "company": "empresa",
-      "they": "(pronombre)",
-      "make": "causan",
-      "a": "(artículo)",
-      "good": "buena",
-      "impression": "impresión",
-      "during": "durante",
-      "job": "trabajo",
-      "interviews": "entrevistas",
-      "researching": "investigar",
-      "makes": "hace",
-      "them": "(pronombre)",
-      "doesn't": "(negación)",
-      "impressions": "impresiones"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: cuando (introducción de una condición temporal)",
-      "Sujeto: yo",
-      "Verbo: presentarse (reflexivo, acciones en presente)",
-      "Complemento: a entrevistas de trabajo",
-      "Complemento: sin prepararme (modo negativo de preparación)",
-      "Verbo: desempeñarse (reflexivo, presente negativo)",
-      "Complemento: bien (adverbio de calidad)"
-    ],
-    "hintDisplay": "Tiempo: cuando (introducción de una condición temporal) / Sujeto: yo / Verbo: presentarse (reflexivo, acciones en presente) / Complemento: a entrevistas de trabajo / Complemento: sin prepararme (modo negativo de preparación) / Verbo: desempeñarse (reflexivo, presente negativo) / Complemento: bien (adverbio de calidad)",
-    "spanishSentence": "Cuando me presento a entrevistas de trabajo sin prepararme, no me desempeño bien.",
-    "correctSentence": "When I apply for job interviews without preparing, I don't perform well.",
-    "cards": [
-      {
-        "id": "d4",
-        "text": "presenting",
-        "isDistractor": true,
-        "translation": "presentándome"
-      },
-      {
-        "id": "d2",
-        "text": "performs",
-        "isDistractor": true,
-        "translation": "se desempeña"
-      },
-      {
-        "id": "c7",
-        "text": "without",
-        "isDistractor": false,
-        "translation": "sin"
-      },
-      {
-        "id": "c10",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(negación)"
-      },
-      {
-        "id": "c8",
-        "text": "preparing",
-        "isDistractor": false,
-        "translation": "prepararme"
-      },
-      {
-        "id": "c11",
-        "text": "perform",
-        "isDistractor": false,
-        "translation": "desempeño"
-      },
-      {
-        "id": "c5",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "trabajo"
-      },
-      {
-        "id": "c3",
-        "text": "apply",
-        "isDistractor": false,
-        "translation": "me presento"
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d3",
-        "text": "prepared",
-        "isDistractor": true,
-        "translation": "preparado"
-      },
-      {
-        "id": "c6",
-        "text": "interviews",
-        "isDistractor": false,
-        "translation": "entrevistas"
-      },
-      {
-        "id": "c4",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c9",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "d1",
-        "text": "applying",
-        "isDistractor": true,
-        "translation": "presentándome"
-      },
-      {
-        "id": "c1",
-        "text": "When",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "c12",
-        "text": "well",
-        "isDistractor": false,
-        "translation": "bien"
-      }
-    ],
-    "translations": {
-      "when": "cuando",
-      "i": "yo",
-      "apply": "me presento",
-      "for": "para",
-      "job": "trabajo",
-      "interviews": "entrevistas",
-      "without": "sin",
-      "preparing": "prepararme",
-      "don't": "(negación)",
-      "perform": "desempeño",
-      "well": "bien",
-      "applying": "presentándome",
-      "performs": "se desempeña",
-      "prepared": "preparado",
-      "presenting": "presentándome"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: revisar",
-      "Complemento: materiales de solicitud de manera cuidadosa",
-      "Verbo: realizar (en negación condicional)",
-      "Complemento: una entrevista de trabajo adecuada"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: revisar / Complemento: materiales de solicitud de manera cuidadosa / Verbo: realizar (en negación condicional) / Complemento: una entrevista de trabajo adecuada",
-    "spanishSentence": "Si no reviso cuidadosamente tus materiales de solicitud, no realizo una entrevista de trabajo adecuada.",
-    "correctSentence": "If I do not review your application materials carefully, I do not conduct a proper job interview.",
-    "cards": [
-      {
-        "id": "d2",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c9",
-        "text": "carefully",
-        "isDistractor": false,
-        "translation": "cuidadosamente"
-      },
-      {
-        "id": "c15",
-        "text": "proper",
-        "isDistractor": false,
-        "translation": "adecuada"
-      },
-      {
-        "id": "c10",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c16",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "de trabajo"
-      },
-      {
-        "id": "d3",
-        "text": "interviews",
-        "isDistractor": true,
-        "translation": "entrevistas"
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c12",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c8",
-        "text": "materials",
-        "isDistractor": false,
-        "translation": "materiales"
-      },
-      {
-        "id": "c17",
         "text": "interview",
         "isDistractor": false,
         "translation": "entrevista"
       },
       {
-        "id": "c7",
-        "text": "application",
+        "id": "c12",
+        "text": "hiring",
         "isDistractor": false,
-        "translation": "solicitud"
+        "translation": "de contratación"
+      },
+      {
+        "id": "c5",
+        "text": "company",
+        "isDistractor": false,
+        "translation": "empresa"
+      },
+      {
+        "id": "c2",
+        "text": "candidates",
+        "isDistractor": false,
+        "translation": "candidatos"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la/los/las"
       },
       {
         "id": "cm1",
         "text": ",",
         "isDistractor": false,
         "translation": "coma"
+      },
+      {
+        "id": "d1",
+        "text": "investigate",
+        "isDistractor": true,
+        "translation": "investigan"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la/los/las"
+      },
+      {
+        "id": "d3",
+        "text": "impresses",
+        "isDistractor": true,
+        "translation": "impresiona"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "candidates": "candidatos",
+      "research": "investigan",
+      "the": "el/la/los/las",
+      "company": "empresa",
+      "before": "antes de",
+      "interview": "entrevista",
+      "they": "ellos",
+      "impress": "impresionan",
+      "hiring": "de contratación",
+      "manager": "gerente",
+      "investigate": "investigan",
+      "researches": "investiga",
+      "impresses": "impresiona"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la entrevistadora",
+      "Verbo: reprogramar (presente de indicativo)",
+      "Complemento: la entrevista",
+      "Cláusula: si la entrevistadora no recibe tu solicitud"
+    ],
+    "hintDisplay": "Sujeto: la entrevistadora / Verbo: reprogramar (presente de indicativo) / Complemento: la entrevista / Cláusula: si la entrevistadora no recibe tu solicitud",
+    "spanishSentence": "Si la entrevistadora no recibe tu solicitud, ella reprograma la entrevista.",
+    "correctSentence": "If the interviewer does not receive your application, she reschedules the interview.",
+    "cards": [
+      {
+        "id": "d5",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      },
+      {
+        "id": "d2",
+        "text": "rescheduled",
+        "isDistractor": true,
+        "translation": "reprogramado"
+      },
+      {
+        "id": "c7",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tu"
+      },
+      {
+        "id": "c9",
+        "text": "she",
+        "isDistractor": false,
+        "translation": "ella"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      },
+      {
+        "id": "d3",
+        "text": "reschedule",
+        "isDistractor": true,
+        "translation": "reprogramar"
+      },
+      {
+        "id": "c10",
+        "text": "reschedules",
+        "isDistractor": false,
+        "translation": "reprograma"
+      },
+      {
+        "id": "d4",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c4",
+        "text": "does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d1",
+        "text": "receives",
+        "isDistractor": true,
+        "translation": "recibe"
+      },
+      {
+        "id": "c3",
+        "text": "interviewer",
+        "isDistractor": false,
+        "translation": "entrevistador"
+      },
+      {
+        "id": "c12",
+        "text": "interview",
+        "isDistractor": false,
+        "translation": "entrevista"
+      },
+      {
+        "id": "c6",
+        "text": "receive",
+        "isDistractor": false,
+        "translation": "recibir"
+      },
+      {
+        "id": "c8",
+        "text": "application",
+        "isDistractor": false,
+        "translation": "solicitud"
       },
       {
         "id": "c1",
@@ -2000,10 +1228,377 @@
         "translation": "si"
       },
       {
-        "id": "c6",
-        "text": "your",
+        "id": "cm1",
+        "text": ",",
         "isDistractor": false,
-        "translation": "tu"
+        "translation": "coma"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el/la",
+      "interviewer": "entrevistador",
+      "does": "(auxiliar)",
+      "not": "no",
+      "receive": "recibir",
+      "your": "tu",
+      "application": "solicitud",
+      "she": "ella",
+      "reschedules": "reprograma",
+      "interview": "entrevista",
+      "receives": "recibe",
+      "rescheduled": "reprogramado",
+      "reschedule": "reprogramar",
+      "he": "él",
+      "will": "(futuro)"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la empresa",
+      "Verbo: dudar (en negativo)",
+      "Complemento: contratarlo",
+      "Cláusula: si un candidato tiene las habilidades adecuadas"
+    ],
+    "hintDisplay": "Sujeto: la empresa / Verbo: dudar (en negativo) / Complemento: contratarlo / Cláusula: si un candidato tiene las habilidades adecuadas",
+    "spanishSentence": "si un candidato tiene las habilidades adecuadas, la empresa no duda en contratarlo.",
+    "correctSentence": "if a candidate has the right skills, the company does not hesitate to hire them.",
+    "cards": [
+      {
+        "id": "c13",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c11",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c3",
+        "text": "candidate",
+        "isDistractor": false,
+        "translation": "candidato"
+      },
+      {
+        "id": "c4",
+        "text": "has",
+        "isDistractor": false,
+        "translation": "tiene"
+      },
+      {
+        "id": "d1",
+        "text": "hesitates",
+        "isDistractor": true,
+        "translation": "duda"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c15",
+        "text": "them",
+        "isDistractor": false,
+        "translation": "lo"
+      },
+      {
+        "id": "d2",
+        "text": "hiring",
+        "isDistractor": true,
+        "translation": "contratación"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c14",
+        "text": "hire",
+        "isDistractor": false,
+        "translation": "contratar"
+      },
+      {
+        "id": "c12",
+        "text": "hesitate",
+        "isDistractor": false,
+        "translation": "duda"
+      },
+      {
+        "id": "c10",
+        "text": "does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c9",
+        "text": "company",
+        "isDistractor": false,
+        "translation": "empresa"
+      },
+      {
+        "id": "c1",
+        "text": "if",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c2",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c6",
+        "text": "right",
+        "isDistractor": false,
+        "translation": "adecuadas"
+      },
+      {
+        "id": "c7",
+        "text": "skills",
+        "isDistractor": false,
+        "translation": "habilidades"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "a": "un",
+      "candidate": "candidato",
+      "has": "tiene",
+      "the": "el",
+      "right": "adecuadas",
+      "skills": "habilidades",
+      "company": "empresa",
+      "does": "(auxiliar)",
+      "not": "no",
+      "hesitate": "duda",
+      "to": "(marca de infinitivo)",
+      "hire": "contratar",
+      "them": "lo",
+      "hesitates": "duda",
+      "hiring": "contratación",
+      "would": "(condicional)"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: yo",
+      "Verbo: mostrar (demostrar)",
+      "Complemento: mis habilidades en una entrevista de trabajo",
+      "Cláusula: cuando demuestro mis habilidades en una entrevista de trabajo",
+      "Verbo: mostrar (en la cláusula principal)",
+      "Complemento: ejemplos concretos de mi trabajo"
+    ],
+    "hintDisplay": "Sujeto: yo / Verbo: mostrar (demostrar) / Complemento: mis habilidades en una entrevista de trabajo / Cláusula: cuando demuestro mis habilidades en una entrevista de trabajo / Verbo: mostrar (en la cláusula principal) / Complemento: ejemplos concretos de mi trabajo",
+    "spanishSentence": "Cuando demuestro mis habilidades en una entrevista de trabajo, muestro ejemplos concretos de mi trabajo.",
+    "correctSentence": "When I demonstrate my skills in a job interview, I show concrete examples of my work.",
+    "cards": [
+      {
+        "id": "c10",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c9",
+        "text": "interview",
+        "isDistractor": false,
+        "translation": "entrevista"
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c14",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c15",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mis"
+      },
+      {
+        "id": "d1",
+        "text": "demonstrates",
+        "isDistractor": true,
+        "translation": "demuestra"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c13",
+        "text": "examples",
+        "isDistractor": false,
+        "translation": "ejemplos"
+      },
+      {
+        "id": "c12",
+        "text": "concrete",
+        "isDistractor": false,
+        "translation": "concretos"
+      },
+      {
+        "id": "d2",
+        "text": "showed",
+        "isDistractor": true,
+        "translation": "mostró"
+      },
+      {
+        "id": "c11",
+        "text": "show",
+        "isDistractor": false,
+        "translation": "muestro"
+      },
+      {
+        "id": "c4",
+        "text": "my",
+        "isDistractor": false,
+        "translation": "mis"
+      },
+      {
+        "id": "d3",
+        "text": "interviewing",
+        "isDistractor": true,
+        "translation": "entrevistando"
+      },
+      {
+        "id": "c8",
+        "text": "job",
+        "isDistractor": false,
+        "translation": "de trabajo"
+      },
+      {
+        "id": "c7",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "una"
+      },
+      {
+        "id": "c3",
+        "text": "demonstrate",
+        "isDistractor": false,
+        "translation": "demuestro"
+      },
+      {
+        "id": "c5",
+        "text": "skills",
+        "isDistractor": false,
+        "translation": "habilidades"
+      },
+      {
+        "id": "c16",
+        "text": "work",
+        "isDistractor": false,
+        "translation": "trabajo"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "i": "yo",
+      "demonstrate": "demuestro",
+      "my": "mis",
+      "skills": "habilidades",
+      "in": "en",
+      "a": "una",
+      "job": "de trabajo",
+      "interview": "entrevista",
+      "show": "muestro",
+      "concrete": "concretos",
+      "examples": "ejemplos",
+      "of": "de",
+      "work": "trabajo",
+      "demonstrates": "demuestra",
+      "showed": "mostró",
+      "interviewing": "entrevistando"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: revisar",
+      "Complemento: el portafolio del candidato",
+      "Tiempo: presente simple (para indicar una acción habitual o general)",
+      "Cláusula: si no revisamos el portafolio del candidato",
+      "Verbo: invitar",
+      "Complemento: a ellos (a la siguiente ronda)"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: revisar / Complemento: el portafolio del candidato / Tiempo: presente simple (para indicar una acción habitual o general) / Cláusula: si no revisamos el portafolio del candidato / Verbo: invitar / Complemento: a ellos (a la siguiente ronda)",
+    "spanishSentence": "Si nosotros no revisamos el portafolio del candidato, no los invitamos a la siguiente ronda.",
+    "correctSentence": "If we do not review the candidate's portfolio, we do not invite them to the next round.",
+    "cards": [
+      {
+        "id": "c14",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "d1",
+        "text": "reviewed",
+        "isDistractor": true,
+        "translation": "revisado"
       },
       {
         "id": "c3",
@@ -2012,16 +1607,40 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "d1",
-        "text": "reviewing",
-        "isDistractor": true,
-        "translation": "revisando"
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
-        "id": "c11",
-        "text": "do",
+        "id": "c17",
+        "text": "round",
         "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "ronda"
+      },
+      {
+        "id": "c15",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c13",
+        "text": "them",
+        "isDistractor": false,
+        "translation": "los"
+      },
+      {
+        "id": "c12",
+        "text": "invite",
+        "isDistractor": false,
+        "translation": "invitar"
+      },
+      {
+        "id": "d2",
+        "text": "invites",
+        "isDistractor": true,
+        "translation": "invita"
       },
       {
         "id": "c5",
@@ -2030,10 +1649,16 @@
         "translation": "revisar"
       },
       {
-        "id": "c14",
-        "text": "a",
+        "id": "c7",
+        "text": "candidate's",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "del candidato"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "c4",
@@ -2042,346 +1667,71 @@
         "translation": "no"
       },
       {
-        "id": "c13",
-        "text": "conduct",
-        "isDistractor": false,
-        "translation": "realizar"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "i": "yo",
-      "do": "(auxiliar)",
-      "not": "no",
-      "review": "revisar",
-      "your": "tu",
-      "application": "solicitud",
-      "materials": "materiales",
-      "carefully": "cuidadosamente",
-      "conduct": "realizar",
-      "a": "(artículo)",
-      "proper": "adecuada",
-      "job": "de trabajo",
-      "interview": "entrevista",
-      "reviewing": "revisando",
-      "does": "(auxiliar)",
-      "interviews": "entrevistas"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: un candidato",
-      "Verbo: cumplir",
-      "Complemento: con todos los requisitos del trabajo",
-      "Sujeto: el reclutador",
-      "Verbo: incluir",
-      "Complemento: al candidato en la lista corta para la siguiente ronda"
-    ],
-    "hintDisplay": "Sujeto: un candidato / Verbo: cumplir / Complemento: con todos los requisitos del trabajo / Sujeto: el reclutador / Verbo: incluir / Complemento: al candidato en la lista corta para la siguiente ronda",
-    "spanishSentence": "Si un candidato cumple con todos los requisitos del trabajo, el reclutador lo incluye en la lista corta para la siguiente ronda.",
-    "correctSentence": "If a candidate meets all the job requirements, the recruiter shortlists them for the next round.",
-    "cards": [
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo definido)"
-      },
-      {
-        "id": "c5",
-        "text": "all",
-        "isDistractor": false,
-        "translation": "todos"
-      },
-      {
-        "id": "d1",
-        "text": "shortlist",
-        "isDistractor": true,
-        "translation": "lista corta"
-      },
-      {
-        "id": "c7",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "trabajo"
-      },
-      {
         "id": "c9",
-        "text": "the",
+        "text": "we",
         "isDistractor": false,
-        "translation": "(artículo definido)"
-      },
-      {
-        "id": "c16",
-        "text": "round",
-        "isDistractor": false,
-        "translation": "ronda"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c4",
-        "text": "meets",
-        "isDistractor": false,
-        "translation": "cumple"
-      },
-      {
-        "id": "c8",
-        "text": "requirements",
-        "isDistractor": false,
-        "translation": "requisitos"
-      },
-      {
-        "id": "c12",
-        "text": "them",
-        "isDistractor": false,
-        "translation": "lo"
-      },
-      {
-        "id": "c13",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "d3",
-        "text": "recruited",
-        "isDistractor": true,
-        "translation": "reclutado"
+        "translation": "nosotros"
       },
       {
         "id": "c11",
-        "text": "shortlists",
+        "text": "not",
         "isDistractor": false,
-        "translation": "incluye en la lista corta"
+        "translation": "no"
       },
       {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c15",
+        "id": "c16",
         "text": "next",
         "isDistractor": false,
         "translation": "siguiente"
       },
       {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo definido)"
-      },
-      {
-        "id": "d2",
-        "text": "rounds",
-        "isDistractor": true,
-        "translation": "rondas"
-      },
-      {
-        "id": "c3",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
-      },
-      {
         "id": "c10",
-        "text": "recruiter",
+        "text": "do",
         "isDistractor": false,
-        "translation": "reclutador"
-      },
-      {
-        "id": "c2",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo indefinido)"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "a": "(artículo indefinido)",
-      "candidate": "candidato",
-      "meets": "cumple",
-      "all": "todos",
-      "the": "(artículo definido)",
-      "job": "trabajo",
-      "requirements": "requisitos",
-      "recruiter": "reclutador",
-      "shortlists": "incluye en la lista corta",
-      "them": "lo",
-      "for": "para",
-      "next": "siguiente",
-      "round": "ronda",
-      "shortlist": "lista corta",
-      "rounds": "rondas",
-      "recruited": "reclutado"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: un candidato",
-      "Verbo: prepararse (reflexivo)",
-      "Complemento: para la entrevista",
-      "Verbo: rechazar",
-      "Sujeto: la empresa",
-      "Estructura: oración condicional con 'si' (if)"
-    ],
-    "hintDisplay": "Sujeto: un candidato / Verbo: prepararse (reflexivo) / Complemento: para la entrevista / Verbo: rechazar / Sujeto: la empresa / Estructura: oración condicional con 'si' (if)",
-    "spanishSentence": "Si un candidato no se prepara para la entrevista, la empresa lo rechaza.",
-    "correctSentence": "If a candidate does not prepare for the interview, the company rejects them.",
-    "cards": [
-      {
-        "id": "c2",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "(auxiliar)"
       },
       {
         "id": "c6",
-        "text": "prepare",
+        "text": "the",
         "isDistractor": false,
-        "translation": "prepararse"
+        "translation": "el"
       },
       {
-        "id": "d5",
-        "text": "reject",
-        "isDistractor": true,
-        "translation": "rechazar"
-      },
-      {
-        "id": "d3",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "d1",
-        "text": "prepares",
-        "isDistractor": true,
-        "translation": "se prepara"
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
       },
       {
         "id": "c8",
-        "text": "the",
+        "text": "portfolio",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "portafolio"
       },
       {
         "id": "c1",
         "text": "If",
         "isDistractor": false,
         "translation": "si"
-      },
-      {
-        "id": "d2",
-        "text": "rejecting",
-        "isDistractor": true,
-        "translation": "rechazando"
-      },
-      {
-        "id": "c4",
-        "text": "does",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c9",
-        "text": "interview",
-        "isDistractor": false,
-        "translation": "entrevista"
-      },
-      {
-        "id": "c7",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c12",
-        "text": "rejects",
-        "isDistractor": false,
-        "translation": "rechaza"
-      },
-      {
-        "id": "c13",
-        "text": "them",
-        "isDistractor": false,
-        "translation": "lo"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c11",
-        "text": "company",
-        "isDistractor": false,
-        "translation": "empresa"
-      },
-      {
-        "id": "d4",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
       }
     ],
     "translations": {
       "if": "si",
-      "a": "(artículo)",
-      "candidate": "candidato",
-      "does": "(auxiliar)",
+      "we": "nosotros",
+      "do": "(auxiliar)",
       "not": "no",
-      "prepare": "prepararse",
-      "for": "para",
-      "the": "(artículo)",
-      "interview": "entrevista",
-      "company": "empresa",
-      "rejects": "rechaza",
-      "them": "lo",
-      "prepares": "se prepara",
-      "rejecting": "rechazando",
-      "him": "lo",
-      "will": "(futuro)",
-      "reject": "rechazar"
+      "review": "revisar",
+      "the": "el",
+      "candidate's": "del candidato",
+      "portfolio": "portafolio",
+      "invite": "invitar",
+      "them": "los",
+      "to": "a",
+      "next": "siguiente",
+      "round": "ronda",
+      "reviewed": "revisado",
+      "invites": "invita",
+      "will": "(futuro)"
     },
     "metadata": {
       "tense": "zero conditional",
@@ -2393,59 +1743,27 @@
   },
   {
     "hints": [
-      "Tiempo: cuando; durante el proceso de",
-      "Sujeto: un reclutador",
-      "Verbo: negociar",
-      "Complemento: el salario con un candidato",
-      "Verbo: intentar",
-      "Complemento: encontrar un acuerdo justo para ambas partes",
-      "Adverbio: siempre"
+      "Sujeto: yo",
+      "Verbo: sentir",
+      "Complemento: más seguro",
+      "Tiempo: cuando",
+      "Cláusula: investigo la empresa antes de una entrevista"
     ],
-    "hintDisplay": "Tiempo: cuando; durante el proceso de / Sujeto: un reclutador / Verbo: negociar / Complemento: el salario con un candidato / Verbo: intentar / Complemento: encontrar un acuerdo justo para ambas partes / Adverbio: siempre",
-    "spanishSentence": "Cuando un reclutador negocia el salario con un candidato, siempre intenta encontrar un acuerdo justo para ambas partes.",
-    "correctSentence": "When a recruiter negotiates salary with a candidate, they always try to find a fair agreement for both parties.",
+    "hintDisplay": "Sujeto: yo / Verbo: sentir / Complemento: más seguro / Tiempo: cuando / Cláusula: investigo la empresa antes de una entrevista",
+    "spanishSentence": "Cuando investigo la empresa antes de una entrevista, me siento más seguro.",
+    "correctSentence": "When I research the company before an interview, I feel more confident.",
     "cards": [
       {
-        "id": "c19",
-        "text": "parties",
-        "isDistractor": false,
-        "translation": "partes"
-      },
-      {
-        "id": "c18",
-        "text": "both",
-        "isDistractor": false,
-        "translation": "ambas"
-      },
-      {
-        "id": "d2",
-        "text": "negotiating",
-        "isDistractor": true,
-        "translation": "negociando"
-      },
-      {
-        "id": "c10",
-        "text": "always",
-        "isDistractor": false,
-        "translation": "siempre"
-      },
-      {
-        "id": "c16",
-        "text": "agreement",
-        "isDistractor": false,
-        "translation": "acuerdo"
-      },
-      {
-        "id": "d1",
-        "text": "tries",
-        "isDistractor": true,
-        "translation": "intenta"
-      },
-      {
         "id": "c12",
-        "text": "to",
+        "text": "confident",
         "isDistractor": false,
-        "translation": "(marca de infinitivo)"
+        "translation": "seguro"
+      },
+      {
+        "id": "c7",
+        "text": "an",
+        "isDistractor": false,
+        "translation": "una"
       },
       {
         "id": "cm1",
@@ -2454,52 +1772,70 @@
         "translation": "coma"
       },
       {
-        "id": "c17",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "d4",
-        "text": "agrees",
+        "id": "d2",
+        "text": "myself",
         "isDistractor": true,
-        "translation": "está de acuerdo"
+        "translation": "mí mismo"
       },
       {
-        "id": "c9",
-        "text": "they",
+        "id": "c10",
+        "text": "feel",
         "isDistractor": false,
-        "translation": "(pronombre)"
+        "translation": "siento"
       },
       {
-        "id": "c11",
-        "text": "try",
+        "id": "c4",
+        "text": "the",
         "isDistractor": false,
-        "translation": "intentan"
-      },
-      {
-        "id": "c15",
-        "text": "fair",
-        "isDistractor": false,
-        "translation": "justo"
-      },
-      {
-        "id": "c5",
-        "text": "salary",
-        "isDistractor": false,
-        "translation": "salario"
-      },
-      {
-        "id": "c13",
-        "text": "find",
-        "isDistractor": false,
-        "translation": "encontrar"
+        "translation": "la"
       },
       {
         "id": "c2",
-        "text": "a",
+        "text": "I",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "yo"
+      },
+      {
+        "id": "c9",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "d4",
+        "text": "confidentially",
+        "isDistractor": true,
+        "translation": "confidencialmente"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d1",
+        "text": "researches",
+        "isDistractor": true,
+        "translation": "investiga"
+      },
+      {
+        "id": "c5",
+        "text": "company",
+        "isDistractor": false,
+        "translation": "empresa"
+      },
+      {
+        "id": "c3",
+        "text": "research",
+        "isDistractor": false,
+        "translation": "investigo"
+      },
+      {
+        "id": "c11",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
       },
       {
         "id": "c1",
@@ -2508,70 +1844,41 @@
         "translation": "cuando"
       },
       {
-        "id": "c8",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
-      },
-      {
-        "id": "c14",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "negotiates",
-        "isDistractor": false,
-        "translation": "negocia"
-      },
-      {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "(pronombre)"
-      },
-      {
-        "id": "c3",
-        "text": "recruiter",
-        "isDistractor": false,
-        "translation": "reclutador"
-      },
-      {
         "id": "c6",
-        "text": "with",
+        "text": "before",
         "isDistractor": false,
-        "translation": "con"
+        "translation": "antes de"
       },
       {
-        "id": "c7",
-        "text": "a",
+        "id": "c8",
+        "text": "interview",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "entrevista"
+      },
+      {
+        "id": "d5",
+        "text": "interviewer",
+        "isDistractor": true,
+        "translation": "entrevistador"
       }
     ],
     "translations": {
       "when": "cuando",
-      "a": "(artículo)",
-      "recruiter": "reclutador",
-      "negotiates": "negocia",
-      "salary": "salario",
-      "with": "con",
-      "candidate": "candidato",
-      "they": "(pronombre)",
-      "always": "siempre",
-      "try": "intentan",
-      "to": "(marca de infinitivo)",
-      "find": "encontrar",
-      "fair": "justo",
-      "agreement": "acuerdo",
-      "for": "para",
-      "both": "ambas",
-      "parties": "partes",
-      "tries": "intenta",
-      "negotiating": "negociando",
-      "them": "(pronombre)",
-      "agrees": "está de acuerdo"
+      "i": "yo",
+      "research": "investigo",
+      "the": "la",
+      "company": "empresa",
+      "before": "antes de",
+      "an": "una",
+      "interview": "entrevista",
+      "feel": "siento",
+      "more": "más",
+      "confident": "seguro",
+      "researches": "investiga",
+      "myself": "mí mismo",
+      "will": "(futuro)",
+      "confidentially": "confidencialmente",
+      "interviewer": "entrevistador"
     },
     "metadata": {
       "tense": "zero conditional",
@@ -2584,95 +1891,34 @@
   {
     "hints": [
       "Sujeto: un candidato",
-      "Verbo: responder",
-      "Complemento: todas las preguntas",
-      "Complemento: con confianza",
-      "Verbo: decidir (en estructura condicional)",
-      "Sujeto: el entrevistador",
-      "Verbo: avanzar",
-      "Complemento: con el proceso de contratación"
+      "Verbo: tener (carencia)",
+      "Complemento: la experiencia requerida",
+      "Cláusula: si un candidato carece de la experiencia requerida",
+      "Sujeto: nosotros",
+      "Verbo: preseleccionar (negación)",
+      "Complemento: los (a ellos) para la entrevista"
     ],
-    "hintDisplay": "Sujeto: un candidato / Verbo: responder / Complemento: todas las preguntas / Complemento: con confianza / Verbo: decidir (en estructura condicional) / Sujeto: el entrevistador / Verbo: avanzar / Complemento: con el proceso de contratación",
-    "spanishSentence": "Si un candidato responde todas las preguntas con confianza, el entrevistador decide avanzar con el proceso de contratación.",
-    "correctSentence": "If a candidate answers all questions confidently, the interviewer decides to move forward with the hiring process.",
+    "hintDisplay": "Sujeto: un candidato / Verbo: tener (carencia) / Complemento: la experiencia requerida / Cláusula: si un candidato carece de la experiencia requerida / Sujeto: nosotros / Verbo: preseleccionar (negación) / Complemento: los (a ellos) para la entrevista",
+    "spanishSentence": "Si un candidato no tiene la experiencia requerida, no lo preseleccionamos para la entrevista.",
+    "correctSentence": "If a candidate lacks the required experience, we do not shortlist them for the interview.",
     "cards": [
       {
-        "id": "c13",
-        "text": "forward",
-        "isDistractor": false,
-        "translation": "adelante"
+        "id": "d4",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "tiene"
       },
       {
         "id": "c2",
         "text": "a",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "un"
       },
       {
-        "id": "d2",
-        "text": "will",
+        "id": "d1",
+        "text": "lacking",
         "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d4",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c4",
-        "text": "answers",
-        "isDistractor": false,
-        "translation": "responde"
-      },
-      {
-        "id": "c16",
-        "text": "hiring",
-        "isDistractor": false,
-        "translation": "contratación"
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "questions",
-        "isDistractor": false,
-        "translation": "preguntas"
-      },
-      {
-        "id": "d3",
-        "text": "decide",
-        "isDistractor": true,
-        "translation": "decide"
-      },
-      {
-        "id": "c11",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d5",
-        "text": "moving",
-        "isDistractor": true,
-        "translation": "avanzando"
-      },
-      {
-        "id": "c14",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
+        "translation": "carente de"
       },
       {
         "id": "c3",
@@ -2681,210 +1927,64 @@
         "translation": "candidato"
       },
       {
-        "id": "c10",
-        "text": "decides",
-        "isDistractor": false,
-        "translation": "decide"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
         "id": "c9",
-        "text": "interviewer",
+        "text": "do",
         "isDistractor": false,
-        "translation": "entrevistador"
+        "translation": "(auxiliar)"
       },
-      {
-        "id": "c17",
-        "text": "process",
-        "isDistractor": false,
-        "translation": "proceso"
-      },
-      {
-        "id": "c12",
-        "text": "move",
-        "isDistractor": false,
-        "translation": "avanzar"
-      },
-      {
-        "id": "c5",
-        "text": "all",
-        "isDistractor": false,
-        "translation": "todas"
-      },
-      {
-        "id": "d1",
-        "text": "answering",
-        "isDistractor": true,
-        "translation": "respondiendo"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c7",
-        "text": "confidently",
-        "isDistractor": false,
-        "translation": "con confianza"
-      }
-    ],
-    "translations": {
-      "if": "si",
-      "a": "(artículo)",
-      "candidate": "candidato",
-      "answers": "responde",
-      "all": "todas",
-      "questions": "preguntas",
-      "confidently": "con confianza",
-      "the": "(artículo)",
-      "interviewer": "entrevistador",
-      "decides": "decide",
-      "to": "(marca de infinitivo)",
-      "move": "avanzar",
-      "forward": "adelante",
-      "with": "con",
-      "hiring": "contratación",
-      "process": "proceso",
-      "answering": "respondiendo",
-      "will": "(futuro)",
-      "decide": "decide",
-      "him": "él",
-      "moving": "avanzando"
-    },
-    "metadata": {
-      "tense": "zero conditional",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "job interviews"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: un candidato",
-      "Verbo: demostrar",
-      "Complemento: habilidades sólidas para resolver problemas",
-      "Verbo: evaluar",
-      "Complemento: como un ajuste potencial para el equipo"
-    ],
-    "hintDisplay": "Sujeto: un candidato / Verbo: demostrar / Complemento: habilidades sólidas para resolver problemas / Verbo: evaluar / Complemento: como un ajuste potencial para el equipo",
-    "spanishSentence": "Si un candidato demuestra habilidades sólidas para resolver problemas, nosotros lo evaluamos como un ajuste potencial para el equipo.",
-    "correctSentence": "If a candidate demonstrates strong problem-solving skills, we evaluate them as a potential fit for the team.",
-    "cards": [
       {
         "id": "c10",
-        "text": "them",
+        "text": "not",
         "isDistractor": false,
-        "translation": "lo"
-      },
-      {
-        "id": "c7",
-        "text": "skills",
-        "isDistractor": false,
-        "translation": "habilidades"
-      },
-      {
-        "id": "c11",
-        "text": "as",
-        "isDistractor": false,
-        "translation": "como"
+        "translation": "no"
       },
       {
         "id": "c4",
-        "text": "demonstrates",
+        "text": "lacks",
         "isDistractor": false,
-        "translation": "demuestra"
+        "translation": "carece de"
       },
       {
-        "id": "d4",
-        "text": "potentials",
-        "isDistractor": true,
-        "translation": "potenciales"
-      },
-      {
-        "id": "c17",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c1",
-        "text": "If",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "d1",
-        "text": "demonstrated",
-        "isDistractor": true,
-        "translation": "demostrado"
-      },
-      {
-        "id": "c16",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "evaluate",
-        "isDistractor": false,
-        "translation": "evaluamos"
-      },
-      {
-        "id": "d2",
-        "text": "evaluates",
-        "isDistractor": true,
-        "translation": "evalúa"
-      },
-      {
-        "id": "c6",
-        "text": "problem-solving",
-        "isDistractor": false,
-        "translation": "para resolver problemas"
-      },
-      {
-        "id": "d3",
-        "text": "fitting",
-        "isDistractor": true,
-        "translation": "ajustado"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c5",
-        "text": "strong",
-        "isDistractor": false,
-        "translation": "sólidas"
-      },
-      {
-        "id": "c15",
+        "id": "c13",
         "text": "for",
         "isDistractor": false,
         "translation": "para"
       },
       {
-        "id": "c13",
-        "text": "potential",
+        "id": "c11",
+        "text": "shortlist",
         "isDistractor": false,
-        "translation": "potencial"
+        "translation": "preseleccionar"
+      },
+      {
+        "id": "c6",
+        "text": "required",
+        "isDistractor": false,
+        "translation": "requerida"
+      },
+      {
+        "id": "c12",
+        "text": "them",
+        "isDistractor": false,
+        "translation": "lo"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
       },
       {
         "id": "c8",
@@ -2893,45 +1993,175 @@
         "translation": "nosotros"
       },
       {
-        "id": "c3",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
+        "id": "d2",
+        "text": "shortlisted",
+        "isDistractor": true,
+        "translation": "preseleccionado"
       },
       {
-        "id": "c14",
-        "text": "fit",
+        "id": "c1",
+        "text": "If",
         "isDistractor": false,
-        "translation": "ajuste"
+        "translation": "si"
       },
       {
-        "id": "c2",
-        "text": "a",
+        "id": "c15",
+        "text": "interview",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "entrevista"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c7",
+        "text": "experience",
+        "isDistractor": false,
+        "translation": "experiencia"
       }
     ],
     "translations": {
       "if": "si",
-      "a": "(artículo)",
+      "a": "un",
       "candidate": "candidato",
-      "demonstrates": "demuestra",
-      "strong": "sólidas",
-      "problem-solving": "para resolver problemas",
-      "skills": "habilidades",
+      "lacks": "carece de",
+      "the": "el/la",
+      "required": "requerida",
+      "experience": "experiencia",
       "we": "nosotros",
-      "evaluate": "evaluamos",
+      "do": "(auxiliar)",
+      "not": "no",
+      "shortlist": "preseleccionar",
       "them": "lo",
-      "as": "como",
-      "potential": "potencial",
-      "fit": "ajuste",
       "for": "para",
-      "the": "(artículo)",
-      "team": "equipo",
-      "demonstrated": "demostrado",
+      "interview": "entrevista",
+      "lacking": "carente de",
+      "shortlisted": "preseleccionado",
+      "they": "ellos",
+      "has": "tiene"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el entrevistador",
+      "Verbo: evaluar",
+      "Complemento: tus respuestas",
+      "Tiempo: (sin marcador temporal)",
+      "Cláusula: cuando tú te sientes nervioso"
+    ],
+    "hintDisplay": "Sujeto: el entrevistador / Verbo: evaluar / Complemento: tus respuestas / Tiempo: (sin marcador temporal) / Cláusula: cuando tú te sientes nervioso",
+    "spanishSentence": "Cuando el entrevistador evalúa tus respuestas, te sientes nervioso.",
+    "correctSentence": "When the interviewer evaluates your answers, you feel nervous.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "evaluates",
+        "isDistractor": false,
+        "translation": "evalúa"
+      },
+      {
+        "id": "c3",
+        "text": "interviewer",
+        "isDistractor": false,
+        "translation": "entrevistador"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c9",
+        "text": "nervous",
+        "isDistractor": false,
+        "translation": "nervioso"
+      },
+      {
+        "id": "d3",
+        "text": "answer",
+        "isDistractor": true,
+        "translation": "respuesta"
+      },
+      {
+        "id": "d4",
+        "text": "feels",
+        "isDistractor": true,
+        "translation": "siente"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c6",
+        "text": "answers",
+        "isDistractor": false,
+        "translation": "respuestas"
+      },
+      {
+        "id": "c5",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "tus"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "evaluated",
+        "isDistractor": true,
+        "translation": "evaluado"
+      },
+      {
+        "id": "c8",
+        "text": "feel",
+        "isDistractor": false,
+        "translation": "sientes"
+      },
+      {
+        "id": "d2",
+        "text": "evaluating",
+        "isDistractor": true,
+        "translation": "evaluando"
+      },
+      {
+        "id": "c7",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "te"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "the": "el",
+      "interviewer": "entrevistador",
       "evaluates": "evalúa",
-      "fitting": "ajustado",
-      "potentials": "potenciales"
+      "your": "tus",
+      "answers": "respuestas",
+      "you": "te",
+      "feel": "sientes",
+      "nervous": "nervioso",
+      "evaluated": "evaluado",
+      "evaluating": "evaluando",
+      "answer": "respuesta",
+      "feels": "siente"
     },
     "metadata": {
       "tense": "zero conditional",
@@ -2943,35 +2173,430 @@
   },
   {
     "hints": [
-      "Sujeto: Un candidato",
-      "Verbo: Demostrar",
-      "Complemento: Confianza",
-      "Complemento: Durante una entrevista de trabajo",
-      "Sujeto: El entrevistador",
-      "Verbo: Tomar",
-      "Complemento: Al candidato más en serio"
+      "Sujeto: la empresa",
+      "Verbo: incorporar",
+      "Complemento: a nuevos empleados",
+      "Cláusula: cuando la empresa no incorpora a nuevos empleados",
+      "Sujeto: ellos",
+      "Verbo: recibir",
+      "Complemento: la capacitación necesaria"
     ],
-    "hintDisplay": "Sujeto: Un candidato / Verbo: Demostrar / Complemento: Confianza / Complemento: Durante una entrevista de trabajo / Sujeto: El entrevistador / Verbo: Tomar / Complemento: Al candidato más en serio",
-    "spanishSentence": "Cuando un candidato demuestra confianza durante una entrevista de trabajo, el entrevistador toma al candidato más en serio.",
-    "correctSentence": "When a candidate demonstrates confidence during a job interview, the interviewer takes the candidate more seriously.",
+    "hintDisplay": "Sujeto: la empresa / Verbo: incorporar / Complemento: a nuevos empleados / Cláusula: cuando la empresa no incorpora a nuevos empleados / Sujeto: ellos / Verbo: recibir / Complemento: la capacitación necesaria",
+    "spanishSentence": "Cuando la empresa no incorpora a nuevos empleados, ellos no reciben la capacitación necesaria.",
+    "correctSentence": "When the company does not onboard new employees, they do not receive the necessary training.",
     "cards": [
       {
-        "id": "c8",
-        "text": "job",
+        "id": "c6",
+        "text": "onboard",
         "isDistractor": false,
-        "translation": "trabajo"
+        "translation": "incorpora"
       },
       {
-        "id": "d3",
-        "text": "candidates",
+        "id": "d2",
+        "text": "hires",
         "isDistractor": true,
-        "translation": "candidatos"
+        "translation": "contrata"
+      },
+      {
+        "id": "c12",
+        "text": "receive",
+        "isDistractor": false,
+        "translation": "reciben"
+      },
+      {
+        "id": "c4",
+        "text": "does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c3",
+        "text": "company",
+        "isDistractor": false,
+        "translation": "empresa"
+      },
+      {
+        "id": "c7",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevos"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c8",
+        "text": "employees",
+        "isDistractor": false,
+        "translation": "empleados"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c14",
+        "text": "necessary",
+        "isDistractor": false,
+        "translation": "necesaria"
+      },
+      {
+        "id": "c9",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c15",
+        "text": "training",
+        "isDistractor": false,
+        "translation": "capacitación"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c11",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "d1",
-        "text": "demonstrated",
+        "text": "onboards",
         "isDistractor": true,
-        "translation": "demostrado"
+        "translation": "incorpora"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c10",
+        "text": "do",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d4",
+        "text": "they're",
+        "isDistractor": true,
+        "translation": "ellos son"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "the": "el",
+      "company": "empresa",
+      "does": "(auxiliar)",
+      "not": "no",
+      "onboard": "incorpora",
+      "new": "nuevos",
+      "employees": "empleados",
+      "they": "ellos",
+      "do": "(auxiliar)",
+      "receive": "reciben",
+      "necessary": "necesaria",
+      "training": "capacitación",
+      "onboards": "incorpora",
+      "hires": "contrata",
+      "will": "(futuro)",
+      "they're": "ellos son"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: usted",
+      "Verbo: demostrar (presente de indicativo)",
+      "Complemento: su interés en el puesto",
+      "Cláusula: cuando usted hace seguimiento después de la entrevista"
+    ],
+    "hintDisplay": "Sujeto: usted / Verbo: demostrar (presente de indicativo) / Complemento: su interés en el puesto / Cláusula: cuando usted hace seguimiento después de la entrevista",
+    "spanishSentence": "Cuando usted hace seguimiento después de la entrevista, demuestra su interés en el puesto.",
+    "correctSentence": "When you follow up after the interview, you show your interest in the position.",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después de"
+      },
+      {
+        "id": "c3",
+        "text": "follow",
+        "isDistractor": false,
+        "translation": "hace seguimiento"
+      },
+      {
+        "id": "d2",
+        "text": "follows",
+        "isDistractor": true,
+        "translation": "sigue"
+      },
+      {
+        "id": "c9",
+        "text": "show",
+        "isDistractor": false,
+        "translation": "demuestra"
+      },
+      {
+        "id": "c7",
+        "text": "interview",
+        "isDistractor": false,
+        "translation": "entrevista"
+      },
+      {
+        "id": "d3",
+        "text": "followed",
+        "isDistractor": true,
+        "translation": "seguido"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "usted"
+      },
+      {
+        "id": "d1",
+        "text": "following",
+        "isDistractor": true,
+        "translation": "siguiente"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c10",
+        "text": "your",
+        "isDistractor": false,
+        "translation": "su"
+      },
+      {
+        "id": "c11",
+        "text": "interest",
+        "isDistractor": false,
+        "translation": "interés"
+      },
+      {
+        "id": "c14",
+        "text": "position",
+        "isDistractor": false,
+        "translation": "puesto"
+      },
+      {
+        "id": "c1",
+        "text": "When",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c8",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "usted"
+      },
+      {
+        "id": "c12",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c4",
+        "text": "up",
+        "isDistractor": false,
+        "translation": "(complemento de verbo)"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      }
+    ],
+    "translations": {
+      "when": "cuando",
+      "you": "usted",
+      "follow": "hace seguimiento",
+      "up": "(complemento de verbo)",
+      "after": "después de",
+      "the": "(artículo definido)",
+      "interview": "entrevista",
+      "show": "demuestra",
+      "your": "su",
+      "interest": "interés",
+      "in": "en",
+      "position": "puesto",
+      "following": "siguiente",
+      "follows": "sigue",
+      "followed": "seguido"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: invitar",
+      "Complemento: a una segunda ronda",
+      "Tiempo: presente (hábito)",
+      "Cláusula: si preseleccionamos a un candidato después de la primera entrevista"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: invitar / Complemento: a una segunda ronda / Tiempo: presente (hábito) / Cláusula: si preseleccionamos a un candidato después de la primera entrevista",
+    "spanishSentence": "Si preseleccionamos a un candidato después de la primera entrevista, lo invitamos a una segunda ronda.",
+    "correctSentence": "If we shortlist a candidate after the first interview, we invite them for a second round.",
+    "cards": [
+      {
+        "id": "c12",
+        "text": "them",
+        "isDistractor": false,
+        "translation": "lo"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d3",
+        "text": "preselect",
+        "isDistractor": true,
+        "translation": "preseleccionar"
+      },
+      {
+        "id": "d4",
+        "text": "second-round",
+        "isDistractor": true,
+        "translation": "segunda ronda"
+      },
+      {
+        "id": "c15",
+        "text": "second",
+        "isDistractor": false,
+        "translation": "segunda"
+      },
+      {
+        "id": "c8",
+        "text": "first",
+        "isDistractor": false,
+        "translation": "primera"
+      },
+      {
+        "id": "c14",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c16",
+        "text": "round",
+        "isDistractor": false,
+        "translation": "ronda"
+      },
+      {
+        "id": "c3",
+        "text": "shortlist",
+        "isDistractor": false,
+        "translation": "preseleccionar"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d1",
+        "text": "shortlisted",
+        "isDistractor": true,
+        "translation": "preseleccionado"
+      },
+      {
+        "id": "c4",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c6",
+        "text": "after",
+        "isDistractor": false,
+        "translation": "después de"
+      },
+      {
+        "id": "c13",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "d2",
+        "text": "invites",
+        "isDistractor": true,
+        "translation": "invita"
       },
       {
         "id": "c9",
@@ -2980,119 +2605,37 @@
         "translation": "entrevista"
       },
       {
-        "id": "c2",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
         "id": "c5",
-        "text": "confidence",
+        "text": "candidate",
         "isDistractor": false,
-        "translation": "confianza"
-      },
-      {
-        "id": "c7",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "demonstrates",
-        "isDistractor": false,
-        "translation": "demuestra"
+        "translation": "candidato"
       },
       {
         "id": "c11",
-        "text": "interviewer",
+        "text": "invite",
         "isDistractor": false,
-        "translation": "entrevistador"
-      },
-      {
-        "id": "d2",
-        "text": "interviewer's",
-        "isDistractor": true,
-        "translation": "del entrevistador"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "When",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "c15",
-        "text": "more",
-        "isDistractor": false,
-        "translation": "más"
-      },
-      {
-        "id": "c3",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
-      },
-      {
-        "id": "c14",
-        "text": "candidate",
-        "isDistractor": false,
-        "translation": "candidato"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c16",
-        "text": "seriously",
-        "isDistractor": false,
-        "translation": "en serio"
-      },
-      {
-        "id": "c12",
-        "text": "takes",
-        "isDistractor": false,
-        "translation": "toma"
-      },
-      {
-        "id": "c6",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
+        "translation": "invitamos"
       }
     ],
     "translations": {
-      "when": "cuando",
-      "a": "(artículo)",
+      "if": "si",
+      "we": "nosotros",
+      "shortlist": "preseleccionar",
+      "a": "un",
       "candidate": "candidato",
-      "demonstrates": "demuestra",
-      "confidence": "confianza",
-      "during": "durante",
-      "job": "trabajo",
+      "after": "después de",
+      "the": "el",
+      "first": "primera",
       "interview": "entrevista",
-      "the": "(artículo)",
-      "interviewer": "entrevistador",
-      "takes": "toma",
-      "more": "más",
-      "seriously": "en serio",
-      "demonstrated": "demostrado",
-      "interviewer's": "del entrevistador",
-      "candidates": "candidatos"
+      "invite": "invitamos",
+      "them": "lo",
+      "for": "para",
+      "second": "segunda",
+      "round": "ronda",
+      "shortlisted": "preseleccionado",
+      "invites": "invita",
+      "preselect": "preseleccionar",
+      "second-round": "segunda ronda"
     },
     "metadata": {
       "tense": "zero conditional",
@@ -3104,83 +2647,117 @@
   },
   {
     "hints": [
-      "Sujeto: Yo",
-      "Tiempo: Cuando (condicional)",
-      "Verbo: Negociar (negación)",
-      "Complemento: Mi salario",
-      "Complemento: En entrevistas de trabajo",
-      "Verbo: Obtener (negación)",
-      "Complemento: Mejores paquetes de compensación"
+      "Sujeto: el reclutador",
+      "Verbo: contactar (negación en presente simple, tercera persona singular)",
+      "Complemento: a ti (implícito)",
+      "Tiempo: dentro de una semana",
+      "Cláusula: si el reclutador no te contacta dentro de una semana, tú haces un seguimiento con un correo educado."
     ],
-    "hintDisplay": "Sujeto: Yo / Tiempo: Cuando (condicional) / Verbo: Negociar (negación) / Complemento: Mi salario / Complemento: En entrevistas de trabajo / Verbo: Obtener (negación) / Complemento: Mejores paquetes de compensación",
-    "spanishSentence": "Cuando no negoció mi salario en entrevistas de trabajo, no obtengo mejores paquetes de compensación.",
-    "correctSentence": "When I don't negotiate my salary in job interviews, I don't get better compensation packages.",
+    "hintDisplay": "Sujeto: el reclutador / Verbo: contactar (negación en presente simple, tercera persona singular) / Complemento: a ti (implícito) / Tiempo: dentro de una semana / Cláusula: si el reclutador no te contacta dentro de una semana, tú haces un seguimiento con un correo educado.",
+    "spanishSentence": "Si el reclutador no te contacta dentro de una semana, haces un seguimiento con un correo educado.",
+    "correctSentence": "If the recruiter does not contact you within a week, you follow up with a polite email.",
     "cards": [
       {
-        "id": "c9",
-        "text": "interviews",
+        "id": "c17",
+        "text": "email",
         "isDistractor": false,
-        "translation": "entrevistas"
-      },
-      {
-        "id": "c10",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c8",
-        "text": "job",
-        "isDistractor": false,
-        "translation": "trabajo"
-      },
-      {
-        "id": "d2",
-        "text": "he",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c3",
-        "text": "don't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c14",
-        "text": "compensation",
-        "isDistractor": false,
-        "translation": "compensación"
-      },
-      {
-        "id": "c4",
-        "text": "negotiate",
-        "isDistractor": false,
-        "translation": "negocio"
-      },
-      {
-        "id": "c12",
-        "text": "get",
-        "isDistractor": false,
-        "translation": "obtengo"
+        "translation": "correo"
       },
       {
         "id": "c6",
-        "text": "salary",
+        "text": "contact",
         "isDistractor": false,
-        "translation": "salario"
+        "translation": "contacta"
       },
       {
-        "id": "c2",
-        "text": "I",
+        "id": "c9",
+        "text": "a",
         "isDistractor": false,
-        "translation": "yo"
+        "translation": "una"
+      },
+      {
+        "id": "c14",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d1",
+        "text": "contacts",
+        "isDistractor": true,
+        "translation": "contacta"
+      },
+      {
+        "id": "c7",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "te"
+      },
+      {
+        "id": "c4",
+        "text": "does",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d3",
+        "text": "follows",
+        "isDistractor": true,
+        "translation": "sigue"
       },
       {
         "id": "c11",
-        "text": "don't",
+        "text": "you",
         "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "te"
+      },
+      {
+        "id": "c10",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "c3",
+        "text": "recruiter",
+        "isDistractor": false,
+        "translation": "reclutador"
+      },
+      {
+        "id": "c13",
+        "text": "up",
+        "isDistractor": false,
+        "translation": "seguimiento"
+      },
+      {
+        "id": "c1",
+        "text": "If",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c15",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "una"
       },
       {
         "id": "cm1",
@@ -3189,16 +2766,68 @@
         "translation": "coma"
       },
       {
-        "id": "c7",
-        "text": "in",
+        "id": "c12",
+        "text": "follow",
         "isDistractor": false,
-        "translation": "en"
+        "translation": "haces"
       },
       {
-        "id": "c15",
-        "text": "packages",
+        "id": "c16",
+        "text": "polite",
         "isDistractor": false,
-        "translation": "paquetes"
+        "translation": "educado"
+      },
+      {
+        "id": "c8",
+        "text": "within",
+        "isDistractor": false,
+        "translation": "dentro de"
+      }
+    ],
+    "translations": {
+      "if": "si",
+      "the": "el",
+      "recruiter": "reclutador",
+      "does": "(auxiliar)",
+      "not": "no",
+      "contact": "contacta",
+      "you": "te",
+      "within": "dentro de",
+      "a": "una",
+      "week": "semana",
+      "follow": "haces",
+      "up": "seguimiento",
+      "with": "con",
+      "polite": "educado",
+      "email": "correo",
+      "contacts": "contacta",
+      "will": "(futuro)",
+      "follows": "sigue"
+    },
+    "metadata": {
+      "tense": "zero conditional",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "job interviews"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: sentirse",
+      "Complemento: más seguros",
+      "Cláusula: cuando practican sus respuestas antes de una entrevista de trabajo"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: sentirse / Complemento: más seguros / Cláusula: cuando practican sus respuestas antes de una entrevista de trabajo",
+    "spanishSentence": "Cuando ellos practican sus respuestas antes de una entrevista de trabajo, se sienten más seguros.",
+    "correctSentence": "When they practice their answers before a job interview, they feel more confident.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "practiced",
+        "isDistractor": true,
+        "translation": "practicaron"
       },
       {
         "id": "c1",
@@ -3207,51 +2836,130 @@
         "translation": "cuando"
       },
       {
-        "id": "d3",
-        "text": "does",
+        "id": "d4",
+        "text": "rehearse",
         "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "ensayar"
       },
       {
-        "id": "c5",
-        "text": "my",
+        "id": "d2",
+        "text": "practicing",
+        "isDistractor": true,
+        "translation": "practicando"
+      },
+      {
+        "id": "c12",
+        "text": "more",
         "isDistractor": false,
-        "translation": "mi"
+        "translation": "más"
       },
       {
-        "id": "d1",
-        "text": "negotiates",
-        "isDistractor": true,
-        "translation": "negocia"
+        "id": "c11",
+        "text": "feel",
+        "isDistractor": false,
+        "translation": "se sienten"
       },
       {
         "id": "c13",
-        "text": "better",
+        "text": "confident",
         "isDistractor": false,
-        "translation": "mejores"
+        "translation": "seguros"
+      },
+      {
+        "id": "c8",
+        "text": "job",
+        "isDistractor": false,
+        "translation": "de trabajo"
+      },
+      {
+        "id": "c5",
+        "text": "answers",
+        "isDistractor": false,
+        "translation": "respuestas"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c4",
+        "text": "their",
+        "isDistractor": false,
+        "translation": "sus"
+      },
+      {
+        "id": "c10",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c6",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c2",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c9",
+        "text": "interview",
+        "isDistractor": false,
+        "translation": "entrevista"
+      },
+      {
+        "id": "d3",
+        "text": "prepared",
+        "isDistractor": true,
+        "translation": "preparados"
+      },
+      {
+        "id": "c3",
+        "text": "practice",
+        "isDistractor": false,
+        "translation": "practican"
+      },
+      {
+        "id": "d5",
+        "text": "she",
+        "isDistractor": true,
+        "translation": "ella"
+      },
+      {
+        "id": "c7",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "una"
       }
     ],
     "translations": {
       "when": "cuando",
-      "i": "yo",
-      "don't": "(auxiliar)",
-      "negotiate": "negocio",
-      "my": "mi",
-      "salary": "salario",
-      "in": "en",
-      "job": "trabajo",
-      "interviews": "entrevistas",
-      "get": "obtengo",
-      "better": "mejores",
-      "compensation": "compensación",
-      "packages": "paquetes",
-      "negotiates": "negocia",
-      "he": "él",
-      "does": "(auxiliar)"
+      "they": "ellos",
+      "practice": "practican",
+      "their": "sus",
+      "answers": "respuestas",
+      "before": "antes de",
+      "a": "una",
+      "job": "de trabajo",
+      "interview": "entrevista",
+      "feel": "se sienten",
+      "more": "más",
+      "confident": "seguros",
+      "practiced": "practicaron",
+      "practicing": "practicando",
+      "prepared": "preparados",
+      "rehearse": "ensayar",
+      "she": "ella"
     },
     "metadata": {
       "tense": "zero conditional",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "job interviews"

@@ -1,119 +1,687 @@
 [
   {
     "hints": [
-      "Sujeto: la audiencia/el público",
-      "Verbo: haber (auxiliar para perfecto)",
-      "Verbo: revisar/evaluar",
-      "Complemento: la película",
-      "Tiempo: para la próxima semana"
+      "Tiempo: para cuando lleguen los jueces",
+      "Verbo: interpretar (futuro perfecto, en negativa interrogativa)",
+      "Sujeto: los artistas",
+      "Complemento: su número completo",
+      "Cláusula: cuando lleguen los jueces"
     ],
-    "hintDisplay": "Sujeto: la audiencia/el público / Verbo: haber (auxiliar para perfecto) / Verbo: revisar/evaluar / Complemento: la película / Tiempo: para la próxima semana",
-    "spanishSentence": "¿No habrá revisado/evaluado el público la película para la próxima semana?",
-    "correctSentence": "Won't the audience have reviewed the movie by next week?",
+    "hintDisplay": "Tiempo: para cuando lleguen los jueces / Verbo: interpretar (futuro perfecto, en negativa interrogativa) / Sujeto: los artistas / Complemento: su número completo / Cláusula: cuando lleguen los jueces",
+    "spanishSentence": "¿Para cuando lleguen los jueces, no habrán interpretado los artistas su número completo?",
+    "correctSentence": "By the time the judges arrive, won't the performers have performed their entire act?",
     "cards": [
       {
+        "id": "c3",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "tiempo"
+      },
+      {
         "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
+        "text": "By",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c14",
+        "text": "act",
+        "isDistractor": false,
+        "translation": "número"
+      },
+      {
+        "id": "c10",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "haber"
+      },
+      {
+        "id": "c6",
+        "text": "arrive",
+        "isDistractor": false,
+        "translation": "lleguen"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d4",
+        "text": "performs",
+        "isDistractor": true,
+        "translation": "interpreta"
+      },
+      {
+        "id": "c11",
+        "text": "performed",
+        "isDistractor": false,
+        "translation": "interpretado"
+      },
+      {
+        "id": "c9",
+        "text": "performers",
+        "isDistractor": false,
+        "translation": "artistas"
+      },
+      {
+        "id": "d1",
+        "text": "arrived",
+        "isDistractor": true,
+        "translation": "llegado"
+      },
+      {
+        "id": "c12",
+        "text": "their",
+        "isDistractor": false,
+        "translation": "su"
+      },
+      {
+        "id": "c5",
+        "text": "judges",
+        "isDistractor": false,
+        "translation": "jueces"
       },
       {
         "id": "c2",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "audience",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "reviewed",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c7",
-        "text": "movie",
-        "isDistractor": false
+        "text": "won't",
+        "isDistractor": false,
+        "translation": "(negación futuro)"
       },
       {
-        "id": "c8",
-        "text": "by",
-        "isDistractor": false
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
-        "id": "c9",
-        "text": "next",
-        "isDistractor": false
+        "id": "c13",
+        "text": "entire",
+        "isDistractor": false,
+        "translation": "completo"
       },
       {
-        "id": "c10",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "d2",
-        "text": "reviewing",
-        "isDistractor": true,
-        "translation": "revisando"
-      },
-      {
-        "id": "d3",
-        "text": "isn't",
-        "isDistractor": true,
-        "translation": "no es"
-      },
-      {
-        "id": "d4",
-        "text": "seen",
-        "isDistractor": true,
-        "translation": "visto"
-      },
-      {
-        "id": "d5",
-        "text": "should",
-        "isDistractor": true,
-        "translation": "debería"
-      },
-      {
-        "id": "d6",
-        "text": "completed",
-        "isDistractor": true,
-        "translation": "completado"
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       }
     ],
     "translations": {
-      "won't": "(negación futura)",
-      "the": "(artículo)",
-      "audience": "público",
-      "have": "(auxiliar)",
-      "reviewed": "revisado",
-      "movie": "película",
       "by": "para",
-      "next": "próximo",
-      "week": "semana",
-      "reviewing": "revisando",
+      "the": "el",
+      "time": "tiempo",
+      "judges": "jueces",
+      "arrive": "lleguen",
+      "won't": "(negación futuro)",
+      "performers": "artistas",
+      "have": "haber",
+      "performed": "interpretado",
       "their": "su",
-      "should": "debería",
-      "seen": "visto",
-      "isn't": "no es",
-      "completed": "completado"
+      "entire": "completo",
+      "act": "número",
+      "arrived": "llegado",
+      "will": "(futuro)",
+      "they": "ellos",
+      "performs": "interpreta"
+    },
+    "metadata": {
+      "tense": "future perfect",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "entertainment"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú",
+      "Verbo: elegir (futuro perfecto)",
+      "Complemento: actores",
+      "Tiempo: durante tres meses completos",
+      "Cláusula: cuando llegue el estreno"
+    ],
+    "hintDisplay": "Sujeto: tú / Verbo: elegir (futuro perfecto) / Complemento: actores / Tiempo: durante tres meses completos / Cláusula: cuando llegue el estreno",
+    "spanishSentence": "Para cuando llegue el estreno, ¿habrás estado eligiendo actores durante tres meses completos?",
+    "correctSentence": "By the time the premiere arrives, will you have cast actors for a full three months?",
+    "cards": [
+      {
+        "id": "c15",
+        "text": "three",
+        "isDistractor": false,
+        "translation": "tres"
+      },
+      {
+        "id": "c8",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c6",
+        "text": "arrives",
+        "isDistractor": false,
+        "translation": "llegue"
+      },
+      {
+        "id": "d2",
+        "text": "choosing",
+        "isDistractor": true,
+        "translation": "eligiendo"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "momento"
+      },
+      {
+        "id": "c13",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c12",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c11",
+        "text": "actors",
+        "isDistractor": false,
+        "translation": "actores"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c7",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c5",
+        "text": "premiere",
+        "isDistractor": false,
+        "translation": "estreno"
+      },
+      {
+        "id": "c1",
+        "text": "By",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c10",
+        "text": "cast",
+        "isDistractor": false,
+        "translation": "elegido"
+      },
+      {
+        "id": "c9",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "haber"
+      },
+      {
+        "id": "d4",
+        "text": "selecting",
+        "isDistractor": true,
+        "translation": "seleccionando"
+      },
+      {
+        "id": "d5",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "d1",
+        "text": "casted",
+        "isDistractor": true,
+        "translation": "elegido (incorrecto, no se usa)"
+      },
+      {
+        "id": "c16",
+        "text": "months",
+        "isDistractor": false,
+        "translation": "meses"
+      },
+      {
+        "id": "d6",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
+      },
+      {
+        "id": "d3",
+        "text": "chosen",
+        "isDistractor": true,
+        "translation": "elegido"
+      },
+      {
+        "id": "c14",
+        "text": "full",
+        "isDistractor": false,
+        "translation": "completos"
+      }
+    ],
+    "translations": {
+      "by": "para",
+      "the": "el",
+      "time": "momento",
+      "premiere": "estreno",
+      "arrives": "llegue",
+      "will": "(futuro)",
+      "you": "tú",
+      "have": "haber",
+      "cast": "elegido",
+      "actors": "actores",
+      "for": "durante",
+      "a": "un",
+      "full": "completos",
+      "three": "tres",
+      "months": "meses",
+      "casted": "elegido (incorrecto, no se usa)",
+      "choosing": "eligiendo",
+      "chosen": "elegido",
+      "selecting": "seleccionando",
+      "they": "ellos",
+      "had": "había"
+    },
+    "metadata": {
+      "tense": "future perfect",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "entertainment"
+    }
+  },
+  {
+    "hints": [
+      "Cláusula: para cuando termine la película",
+      "Sujeto: nosotros",
+      "Verbo: recomendar (futuro perfecto)",
+      "Complemento: a todos nuestros amigos",
+      "Complemento: la película (a ellos)"
+    ],
+    "hintDisplay": "Cláusula: para cuando termine la película / Sujeto: nosotros / Verbo: recomendar (futuro perfecto) / Complemento: a todos nuestros amigos / Complemento: la película (a ellos)",
+    "spanishSentence": "¿Para cuando termine la película, les habremos recomendado a todos nuestros amigos?",
+    "correctSentence": "By the time the movie ends, will we have recommended it to all our friends?",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "momento"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "ended",
+        "isDistractor": true,
+        "translation": "terminado"
+      },
+      {
+        "id": "d4",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "d6",
+        "text": "finishes",
+        "isDistractor": true,
+        "translation": "termine"
+      },
+      {
+        "id": "d3",
+        "text": "recommend",
+        "isDistractor": true,
+        "translation": "recomendar"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c5",
+        "text": "movie",
+        "isDistractor": false,
+        "translation": "película"
+      },
+      {
+        "id": "c10",
+        "text": "recommended",
+        "isDistractor": false,
+        "translation": "recomendado"
+      },
+      {
+        "id": "c1",
+        "text": "By",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "d1",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
+      },
+      {
+        "id": "c6",
+        "text": "ends",
+        "isDistractor": false,
+        "translation": "termine"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d5",
+        "text": "them",
+        "isDistractor": true,
+        "translation": "les"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c11",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c7",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c15",
+        "text": "friends",
+        "isDistractor": false,
+        "translation": "amigos"
+      },
+      {
+        "id": "c9",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "haber"
+      },
+      {
+        "id": "c8",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c14",
+        "text": "our",
+        "isDistractor": false,
+        "translation": "nuestros"
+      },
+      {
+        "id": "c13",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "todos"
+      }
+    ],
+    "translations": {
+      "by": "para",
+      "the": "el",
+      "time": "momento",
+      "movie": "película",
+      "ends": "termine",
+      "will": "(futuro)",
+      "we": "nosotros",
+      "have": "haber",
+      "recommended": "recomendado",
+      "it": "la",
+      "to": "a",
+      "all": "todos",
+      "our": "nuestros",
+      "friends": "amigos",
+      "had": "había",
+      "ended": "terminado",
+      "recommend": "recomendar",
+      "has": "ha",
+      "them": "les",
+      "finishes": "termine"
+    },
+    "metadata": {
+      "tense": "future perfect",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "entertainment"
+    }
+  },
+  {
+    "hints": [
+      "Tiempo: para fin de mes",
+      "Sujeto: el público",
+      "Verbo: reseñar (futuro perfecto, en forma negativa interrogativa)",
+      "Complemento: toda la temporada"
+    ],
+    "hintDisplay": "Tiempo: para fin de mes / Sujeto: el público / Verbo: reseñar (futuro perfecto, en forma negativa interrogativa) / Complemento: toda la temporada",
+    "spanishSentence": "¿Para fin de mes, no habrá el público reseñado toda la temporada?",
+    "correctSentence": "By the end of the month, won't the audience have reviewed the entire season?",
+    "cards": [
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "(auxiliar perfecto)"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(auxiliar perfecto)"
+      },
+      {
+        "id": "c3",
+        "text": "end",
+        "isDistractor": false,
+        "translation": "fin"
+      },
+      {
+        "id": "d5",
+        "text": "review",
+        "isDistractor": true,
+        "translation": "reseñar"
+      },
+      {
+        "id": "c4",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c7",
+        "text": "won't",
+        "isDistractor": false,
+        "translation": "no + (futuro)"
+      },
+      {
+        "id": "c1",
+        "text": "By",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c11",
+        "text": "reviewed",
+        "isDistractor": false,
+        "translation": "reseñado"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d4",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "(auxiliar perfecto)"
+      },
+      {
+        "id": "c13",
+        "text": "entire",
+        "isDistractor": false,
+        "translation": "toda"
+      },
+      {
+        "id": "c6",
+        "text": "month",
+        "isDistractor": false,
+        "translation": "mes"
+      },
+      {
+        "id": "c14",
+        "text": "season",
+        "isDistractor": false,
+        "translation": "temporada"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c9",
+        "text": "audience",
+        "isDistractor": false,
+        "translation": "público"
+      }
+    ],
+    "translations": {
+      "by": "para",
+      "the": "el",
+      "end": "fin",
+      "of": "de",
+      "month": "mes",
+      "won't": "no + (futuro)",
+      "audience": "público",
+      "have": "(auxiliar perfecto)",
+      "reviewed": "reseñado",
+      "entire": "toda",
+      "season": "temporada",
+      "will": "(futuro)",
+      "has": "(auxiliar perfecto)",
+      "they": "ellos",
+      "had": "(auxiliar perfecto)",
+      "review": "reseñar"
     },
     "metadata": {
       "tense": "future perfect",
@@ -126,118 +694,185 @@
   {
     "hints": [
       "Sujeto: yo",
-      "Verbo: will (futuro simple)",
-      "Verbo: have (auxiliar para perfecto)",
-      "Verbo: download (descargar, en participio)",
-      "Complemento: la película",
-      "Tiempo: para mañana por la noche"
+      "Verbo: haber (futuro perfecto)",
+      "Complemento: recomendado esta película",
+      "Complemento: a todos los que conozco",
+      "Tiempo: para fin de mes"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: will (futuro simple) / Verbo: have (auxiliar para perfecto) / Verbo: download (descargar, en participio) / Complemento: la película / Tiempo: para mañana por la noche",
-    "spanishSentence": "¿No habré descargado la película para mañana por la noche?",
-    "correctSentence": "Won't I have downloaded the movie by tomorrow evening?",
+    "hintDisplay": "Sujeto: yo / Verbo: haber (futuro perfecto) / Complemento: recomendado esta película / Complemento: a todos los que conozco / Tiempo: para fin de mes",
+    "spanishSentence": "¿Para fin de mes, habré recomendado esta película a todos los que conozco?",
+    "correctSentence": "By the end of the month, will I have recommended this movie to everyone I know?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
+        "id": "c9",
         "text": "have",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "haber"
       },
       {
-        "id": "c4",
-        "text": "downloaded",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
+        "id": "c12",
         "text": "movie",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "película"
       },
       {
         "id": "c7",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "tomorrow",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "evening",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "you",
-        "isDistractor": true,
-        "translation": "tú"
-      },
-      {
-        "id": "d2",
         "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d5",
+        "text": "shall",
         "isDistractor": true,
         "translation": "(futuro)"
       },
       {
+        "id": "c6",
+        "text": "month",
+        "isDistractor": false,
+        "translation": "mes"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "recommend",
+        "isDistractor": true,
+        "translation": "recomendar"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c11",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "d2",
+        "text": "recommendeded",
+        "isDistractor": true,
+        "translation": "(no válida)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
         "id": "d3",
-        "text": "downloading",
+        "text": "had",
         "isDistractor": true,
-        "translation": "descargando"
+        "translation": "había"
       },
       {
-        "id": "d4",
-        "text": "download",
-        "isDistractor": true,
-        "translation": "descargar"
+        "id": "c14",
+        "text": "everyone",
+        "isDistractor": false,
+        "translation": "todos"
       },
       {
-        "id": "d5",
-        "text": "downloads",
-        "isDistractor": true,
-        "translation": "descargas"
+        "id": "c1",
+        "text": "By",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c13",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "c15",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c8",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c3",
+        "text": "end",
+        "isDistractor": false,
+        "translation": "fin"
       },
       {
         "id": "d6",
-        "text": "haven't",
+        "text": "suggested",
         "isDistractor": true,
-        "translation": "no he"
+        "translation": "sugerido"
+      },
+      {
+        "id": "c4",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c16",
+        "text": "know",
+        "isDistractor": false,
+        "translation": "conozco"
+      },
+      {
+        "id": "c10",
+        "text": "recommended",
+        "isDistractor": false,
+        "translation": "recomendado"
+      },
+      {
+        "id": "d4",
+        "text": "recommending",
+        "isDistractor": true,
+        "translation": "recomendando"
       }
     ],
     "translations": {
-      "won't": "(negación futuro)",
-      "i": "yo",
-      "have": "(auxiliar perfecto)",
-      "downloaded": "descargado",
-      "the": "(artículo definido)",
-      "movie": "película",
       "by": "para",
-      "tomorrow": "mañana",
-      "evening": "noche",
-      "you": "tú",
-      "downloading": "descargando",
+      "the": "el",
+      "end": "fin",
+      "of": "de",
+      "month": "mes",
       "will": "(futuro)",
-      "download": "descargar",
-      "haven't": "no he",
-      "downloads": "descargas"
+      "i": "yo",
+      "have": "haber",
+      "recommended": "recomendado",
+      "this": "esta",
+      "movie": "película",
+      "to": "a",
+      "everyone": "todos",
+      "know": "conozco",
+      "recommend": "recomendar",
+      "recommendeded": "(no válida)",
+      "had": "había",
+      "recommending": "recomendando",
+      "shall": "(futuro)",
+      "suggested": "sugerido"
     },
     "metadata": {
       "tense": "future perfect",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "entertainment"
@@ -246,86 +881,43 @@
   {
     "hints": [
       "Sujeto: el actor",
-      "Verbo: haber (auxiliar para futuro perfecto)",
-      "Verbo: auditar/hacer audiciones",
-      "Complemento: para el papel principal",
-      "Tiempo: para la próxima semana"
+      "Verbo: ensayar (futuro perfecto)",
+      "Complemento: cada escena",
+      "Tiempo: antes de la noche de estreno"
     ],
-    "hintDisplay": "Sujeto: el actor / Verbo: haber (auxiliar para futuro perfecto) / Verbo: auditar/hacer audiciones / Complemento: para el papel principal / Tiempo: para la próxima semana",
-    "spanishSentence": "¿Habrá hecho audiciones el actor para el papel principal para la próxima semana?",
-    "correctSentence": "Will the actor have auditioned for the lead role by next week?",
+    "hintDisplay": "Sujeto: el actor / Verbo: ensayar (futuro perfecto) / Complemento: cada escena / Tiempo: antes de la noche de estreno",
+    "spanishSentence": "¿Habrá ensayado el actor cada escena antes de la noche de estreno?",
+    "correctSentence": "Will the actor have rehearsed every scene before the opening night?",
     "cards": [
+      {
+        "id": "c10",
+        "text": "opening",
+        "isDistractor": false,
+        "translation": "estreno"
+      },
       {
         "id": "c1",
         "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "actor",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "auditioned",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "for",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "lead",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "role",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "by",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "(futuro)"
       },
       {
         "id": "c11",
-        "text": "next",
-        "isDistractor": false
+        "text": "night",
+        "isDistractor": false,
+        "translation": "noche"
       },
       {
-        "id": "c12",
-        "text": "week",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "audition",
+        "id": "d6",
+        "text": "play",
         "isDistractor": true,
-        "translation": "audición"
+        "translation": "obra"
       },
       {
-        "id": "d2",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
         "id": "d3",
@@ -334,310 +926,95 @@
         "translation": "ha"
       },
       {
-        "id": "d4",
-        "text": "did",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      }
-    ],
-    "translations": {
-      "will": "(futuro)",
-      "the": "(artículo)",
-      "actor": "actor",
-      "have": "(auxiliar)",
-      "auditioned": "hecho audiciones",
-      "for": "para",
-      "lead": "principal",
-      "role": "papel",
-      "by": "para",
-      "next": "próxima",
-      "week": "semana",
-      "audition": "audición",
-      "has": "ha",
-      "did": "(auxiliar)",
-      "him": "lo"
-    },
-    "metadata": {
-      "tense": "future perfect",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "entertainment"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: tú",
-      "Verbo: haber (auxiliar para future perfect)",
-      "Verbo: elegir/seleccionar (en participio pasado)",
-      "Complemento: todos los papeles principales",
-      "Tiempo: el próximo mes"
-    ],
-    "hintDisplay": "Sujeto: tú / Verbo: haber (auxiliar para future perfect) / Verbo: elegir/seleccionar (en participio pasado) / Complemento: todos los papeles principales / Tiempo: el próximo mes",
-    "spanishSentence": "¿Habrás elegido todos los papeles principales para cuando comencemos a filmar el próximo mes?",
-    "correctSentence": "Will you have cast all the main roles by the time we start filming next month?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
         "id": "c2",
-        "text": "you",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "cast",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "all",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "main",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "roles",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "time",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c13",
-        "text": "start",
-        "isDistractor": false
-      },
-      {
-        "id": "c14",
-        "text": "filming",
-        "isDistractor": false
-      },
-      {
-        "id": "c15",
-        "text": "next",
-        "isDistractor": false
-      },
-      {
-        "id": "c16",
-        "text": "month",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "casting",
-        "isDistractor": true,
-        "translation": "elegir"
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "d2",
-        "text": "casted",
-        "isDistractor": true,
-        "translation": "elegido"
-      },
-      {
-        "id": "d3",
-        "text": "you've",
-        "isDistractor": true,
-        "translation": "has/has"
-      },
-      {
-        "id": "d4",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d5",
-        "text": "been",
-        "isDistractor": true,
-        "translation": "estado"
-      },
-      {
-        "id": "d6",
         "text": "had",
         "isDistractor": true,
         "translation": "había"
-      }
-    ],
-    "translations": {
-      "will": "(futuro)",
-      "you": "tú/ustedes",
-      "have": "(auxiliar)",
-      "cast": "elegir",
-      "all": "todos",
-      "the": "(artículo)",
-      "main": "principales",
-      "roles": "papeles",
-      "by": "para",
-      "time": "momento",
-      "we": "nosotros",
-      "start": "comencemos",
-      "filming": "filmar",
-      "next": "próximo",
-      "month": "mes",
-      "had": "había",
-      "casted": "elegido",
-      "would": "(condicional)",
-      "you've": "has/has",
-      "been": "estado",
-      "casting": "elegir"
-    },
-    "metadata": {
-      "tense": "future perfect",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "entertainment"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: haber (auxiliar para futuro perfecto)",
-      "Verbo: aplaudir",
-      "Complemento: para cuando cae el telón final"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: haber (auxiliar para futuro perfecto) / Verbo: aplaudir / Complemento: para cuando cae el telón final",
-    "spanishSentence": "¿Habremos aplaudido para cuando cae el telón final?",
-    "correctSentence": "Will we have applauded by the time the final curtain falls?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "applauded",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
       },
       {
         "id": "c6",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "time",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "final",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "curtain",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "falls",
-        "isDistractor": false
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
       },
       {
         "id": "d1",
-        "text": "would",
+        "text": "rehearse",
         "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d2",
-        "text": "applaud",
-        "isDistractor": true,
-        "translation": "aplaudir"
-      },
-      {
-        "id": "d3",
-        "text": "fallen",
-        "isDistractor": true,
-        "translation": "caído"
-      },
-      {
-        "id": "d4",
-        "text": "curtains",
-        "isDistractor": true,
-        "translation": "telones"
+        "translation": "ensayar"
       },
       {
         "id": "d5",
-        "text": "they",
+        "text": "director",
         "isDistractor": true,
-        "translation": "ellos"
+        "translation": "director"
+      },
+      {
+        "id": "c4",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "haber"
+      },
+      {
+        "id": "c8",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d4",
+        "text": "performance",
+        "isDistractor": true,
+        "translation": "actuación"
+      },
+      {
+        "id": "c7",
+        "text": "scene",
+        "isDistractor": false,
+        "translation": "escena"
+      },
+      {
+        "id": "c5",
+        "text": "rehearsed",
+        "isDistractor": false,
+        "translation": "ensayado"
+      },
+      {
+        "id": "c3",
+        "text": "actor",
+        "isDistractor": false,
+        "translation": "actor"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       }
     ],
     "translations": {
       "will": "(futuro)",
-      "we": "nosotros",
-      "have": "(auxiliar)",
-      "applauded": "aplaudido",
-      "by": "para",
-      "the": "(artículo)",
-      "time": "tiempo",
-      "final": "final",
-      "curtain": "telón",
-      "falls": "cae",
-      "applaud": "aplaudir",
-      "would": "(condicional)",
-      "they": "ellos",
-      "fallen": "caído",
-      "curtains": "telones"
+      "the": "el",
+      "actor": "actor",
+      "have": "haber",
+      "rehearsed": "ensayado",
+      "every": "cada",
+      "scene": "escena",
+      "before": "antes de",
+      "opening": "estreno",
+      "night": "noche",
+      "rehearse": "ensayar",
+      "had": "había",
+      "has": "ha",
+      "performance": "actuación",
+      "director": "director",
+      "play": "obra"
     },
     "metadata": {
       "tense": "future perfect",
@@ -650,125 +1027,140 @@
   {
     "hints": [
       "Sujeto: la cantante",
-      "Verbo: haber (auxiliar para futuro perfecto)",
-      "Verbo: lanzar",
-      "Complemento: su nuevo álbum",
-      "Tiempo: para el próximo mes"
+      "Verbo: lanzar (futuro perfecto)",
+      "Complemento: el álbum",
+      "Tiempo: antes de que termine la gira",
+      "Cláusula: mientras la gira termina"
     ],
-    "hintDisplay": "Sujeto: la cantante / Verbo: haber (auxiliar para futuro perfecto) / Verbo: lanzar / Complemento: su nuevo álbum / Tiempo: para el próximo mes",
-    "spanishSentence": "¿Habrá lanzado la cantante su nuevo álbum para el próximo mes?",
-    "correctSentence": "Will the singer have released her new album by next month?",
+    "hintDisplay": "Sujeto: la cantante / Verbo: lanzar (futuro perfecto) / Complemento: el álbum / Tiempo: antes de que termine la gira / Cláusula: mientras la gira termina",
+    "spanishSentence": "¿Habrá lanzado la cantante el álbum antes de que termine la gira?",
+    "correctSentence": "Will the singer have released the album before the tour ends?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
+        "id": "c10",
+        "text": "tour",
+        "isDistractor": false,
+        "translation": "gira"
       },
       {
-        "id": "c2",
+        "id": "d1",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
+      },
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c6",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "el"
       },
       {
-        "id": "c3",
-        "text": "singer",
-        "isDistractor": false
+        "id": "c8",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de que"
       },
       {
-        "id": "c4",
-        "text": "have",
-        "isDistractor": false
+        "id": "d6",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "puede"
+      },
+      {
+        "id": "d2",
+        "text": "finishes",
+        "isDistractor": true,
+        "translation": "termine"
       },
       {
         "id": "c5",
         "text": "released",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "lanzado"
       },
       {
-        "id": "c6",
-        "text": "her",
-        "isDistractor": false
+        "id": "c4",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "haber"
       },
       {
-        "id": "c7",
-        "text": "new",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "album",
-        "isDistractor": false
+        "id": "d5",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "podría"
       },
       {
         "id": "c9",
-        "text": "by",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
-        "id": "c10",
-        "text": "next",
-        "isDistractor": false
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c11",
-        "text": "month",
-        "isDistractor": false
+        "text": "ends",
+        "isDistractor": false,
+        "translation": "termine"
       },
       {
-        "id": "d1",
-        "text": "releasing",
-        "isDistractor": true,
-        "translation": "lanzando"
+        "id": "c1",
+        "text": "Will",
+        "isDistractor": false,
+        "translation": "(futuro)"
       },
       {
-        "id": "d2",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d3",
+        "id": "d4",
         "text": "does",
         "isDistractor": true,
         "translation": "(auxiliar)"
       },
       {
-        "id": "d4",
-        "text": "releases",
-        "isDistractor": true,
-        "translation": "lanza"
+        "id": "c3",
+        "text": "singer",
+        "isDistractor": false,
+        "translation": "cantante"
       },
       {
-        "id": "d5",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "d6",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
+        "id": "c7",
+        "text": "album",
+        "isDistractor": false,
+        "translation": "álbum"
       }
     ],
     "translations": {
       "will": "(futuro)",
-      "the": "(artículo)",
+      "the": "el",
       "singer": "cantante",
-      "have": "(auxiliar)",
+      "have": "haber",
       "released": "lanzado",
-      "her": "su",
-      "new": "nuevo",
       "album": "álbum",
-      "by": "para",
-      "next": "próximo",
-      "month": "mes",
-      "releases": "lanza",
-      "him": "lo",
-      "has": "(auxiliar)",
+      "before": "antes de que",
+      "tour": "gira",
+      "ends": "termine",
+      "had": "había",
+      "finishes": "termine",
+      "has": "ha",
       "does": "(auxiliar)",
-      "releasing": "lanzando",
-      "would": "(condicional)"
+      "might": "podría",
+      "can": "puede"
     },
     "metadata": {
       "tense": "future perfect",
@@ -780,65 +1172,80 @@
   },
   {
     "hints": [
-      "Sujeto: they (ellos)",
-      "Verbo: have (auxiliar para el present perfect)",
-      "Verbo: perform (actuar)",
-      "Complemento: by the time the concert ends (antes de que termine el concierto)",
-      "Tiempo: future perfect (futuro perfecto, indica una acción que será completada antes de otro momento futuro)"
+      "Tiempo: para fin de año",
+      "Sujeto: el director",
+      "Verbo: filmar (futuro perfecto)",
+      "Complemento: toda la secuela"
     ],
-    "hintDisplay": "Sujeto: they (ellos) / Verbo: have (auxiliar para el present perfect) / Verbo: perform (actuar) / Complemento: by the time the concert ends (antes de que termine el concierto) / Tiempo: future perfect (futuro perfecto, indica una acción que será completada antes de otro momento futuro)",
-    "spanishSentence": "¿Habrán actuado ellos antes de que termine el concierto?",
-    "correctSentence": "Will they have performed by the time the concert ends?",
+    "hintDisplay": "Tiempo: para fin de año / Sujeto: el director / Verbo: filmar (futuro perfecto) / Complemento: toda la secuela",
+    "spanishSentence": "¿Para fin de año, habrá filmado el director toda la secuela?",
+    "correctSentence": "By the end of the year, will the director have filmed the entire sequel?",
     "cards": [
       {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
-        "id": "c2",
-        "text": "they",
-        "isDistractor": false
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
-        "id": "c3",
-        "text": "have",
-        "isDistractor": false
+        "id": "c14",
+        "text": "sequel",
+        "isDistractor": false,
+        "translation": "secuela"
       },
       {
         "id": "c4",
-        "text": "performed",
-        "isDistractor": false
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
       },
       {
-        "id": "c5",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
+        "id": "c2",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "el"
       },
       {
-        "id": "c7",
-        "text": "time",
-        "isDistractor": false
+        "id": "c13",
+        "text": "entire",
+        "isDistractor": false,
+        "translation": "toda"
       },
       {
-        "id": "c8",
+        "id": "c12",
         "text": "the",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "end",
+        "isDistractor": false,
+        "translation": "fin"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       },
       {
         "id": "c9",
-        "text": "concert",
-        "isDistractor": false
+        "text": "director",
+        "isDistractor": false,
+        "translation": "director"
       },
       {
-        "id": "c10",
-        "text": "ends",
-        "isDistractor": false
+        "id": "d4",
+        "text": "filming",
+        "isDistractor": true,
+        "translation": "filmación"
       },
       {
         "id": "d1",
@@ -847,180 +1254,77 @@
         "translation": "ha"
       },
       {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "d3",
-        "text": "perform",
-        "isDistractor": true,
-        "translation": "actuar"
-      },
-      {
-        "id": "d4",
-        "text": "Would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d5",
-        "text": "ending",
-        "isDistractor": true,
-        "translation": "terminación"
-      }
-    ],
-    "translations": {
-      "will": "(futuro)",
-      "they": "ellos",
-      "have": "(auxiliar)",
-      "performed": "actuado",
-      "by": "antes de",
-      "the": "(artículo)",
-      "time": "momento",
-      "concert": "concierto",
-      "ends": "termina",
-      "perform": "actuar",
-      "would": "(condicional)",
-      "them": "los",
-      "has": "ha",
-      "ending": "terminación"
-    },
-    "metadata": {
-      "tense": "future perfect",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "entertainment"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: haber (auxiliar para futuro perfecto)",
-      "Verbo: disfrutar (en participio pasado)",
-      "Complemento: la película",
-      "Tiempo: para cuando terminen los créditos"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: haber (auxiliar para futuro perfecto) / Verbo: disfrutar (en participio pasado) / Complemento: la película / Tiempo: para cuando terminen los créditos",
-    "spanishSentence": "¿Habremos disfrutado la película para cuando terminen los créditos?",
-    "correctSentence": "Will we have enjoyed the movie by the time the credits roll?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "enjoyed",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
+        "id": "c8",
         "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "movie",
-        "isDistractor": false
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c7",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "time",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "credits",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "roll",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "Them",
-        "isDistractor": true,
-        "translation": "los"
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
       },
       {
         "id": "d2",
-        "text": "Enjoying",
+        "text": "had",
         "isDistractor": true,
-        "translation": "disfrutando"
+        "translation": "había"
       },
       {
         "id": "d3",
-        "text": "Having",
+        "text": "shoots",
         "isDistractor": true,
-        "translation": "habiendo"
+        "translation": "disparos"
       },
       {
-        "id": "d4",
-        "text": "Did",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
+        "id": "c1",
+        "text": "By",
+        "isDistractor": false,
+        "translation": "para"
       },
       {
         "id": "d5",
-        "text": "Has",
+        "text": "director's",
         "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "del director"
       },
       {
-        "id": "d6",
-        "text": "Would",
-        "isDistractor": true,
-        "translation": "(condicional)"
+        "id": "c11",
+        "text": "filmed",
+        "isDistractor": false,
+        "translation": "filmado"
+      },
+      {
+        "id": "c6",
+        "text": "year",
+        "isDistractor": false,
+        "translation": "año"
+      },
+      {
+        "id": "c10",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "haber"
       }
     ],
     "translations": {
-      "will": "(futuro)",
-      "we": "nosotros",
-      "have": "(auxiliar)",
-      "enjoyed": "disfrutado",
-      "the": "(artículo)",
-      "movie": "película",
       "by": "para",
-      "time": "tiempo",
-      "credits": "créditos",
-      "roll": "terminen",
-      "would": "(condicional)",
-      "having": "habiendo",
-      "has": "(auxiliar)",
-      "them": "los",
-      "did": "(auxiliar)",
-      "enjoying": "disfrutando"
+      "the": "el",
+      "end": "fin",
+      "of": "de",
+      "year": "año",
+      "will": "(futuro)",
+      "director": "director",
+      "have": "haber",
+      "filmed": "filmado",
+      "entire": "toda",
+      "sequel": "secuela",
+      "has": "ha",
+      "had": "había",
+      "shoots": "disparos",
+      "filming": "filmación",
+      "director's": "del director"
     },
     "metadata": {
       "tense": "future perfect",
@@ -1032,215 +1336,104 @@
   },
   {
     "hints": [
-      "Sujeto: el actor",
-      "Verbo: haber (auxiliar para futuro perfecto)",
-      "Verbo: memorizar (acción principal)",
-      "Complemento: sus líneas",
-      "Tiempo: para cuando comience el espectáculo"
+      "Sujeto: tú",
+      "Verbo: actuar (futuro perfecto)",
+      "Complemento: en cada ciudad importante",
+      "Cláusula: para cuando la gira termine"
     ],
-    "hintDisplay": "Sujeto: el actor / Verbo: haber (auxiliar para futuro perfecto) / Verbo: memorizar (acción principal) / Complemento: sus líneas / Tiempo: para cuando comience el espectáculo",
-    "spanishSentence": "¿No habrá memorizado el actor sus líneas para cuando comience el espectáculo?",
-    "correctSentence": "Won't the actor have memorized his lines by the time the show starts?",
+    "hintDisplay": "Sujeto: tú / Verbo: actuar (futuro perfecto) / Complemento: en cada ciudad importante / Cláusula: para cuando la gira termine",
+    "spanishSentence": "Para cuando termine la gira, ¿habrás actuado en cada ciudad importante?",
+    "correctSentence": "By the time the tour ends, will you have performed in every major city?",
     "cards": [
-      {
-        "id": "c1",
-        "text": "Won't",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "actor",
-        "isDistractor": false
-      },
-      {
-        "id": "c4",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
-        "id": "c5",
-        "text": "memorized",
-        "isDistractor": false
-      },
-      {
-        "id": "c6",
-        "text": "his",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "lines",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "by",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "time",
-        "isDistractor": false
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c12",
-        "text": "show",
-        "isDistractor": false
-      },
       {
         "id": "c13",
-        "text": "starts",
-        "isDistractor": false
+        "text": "major",
+        "isDistractor": false,
+        "translation": "importante"
       },
       {
-        "id": "d1",
-        "text": "starting",
-        "isDistractor": true,
-        "translation": "comenzando"
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
       },
       {
-        "id": "d2",
+        "id": "c10",
         "text": "performed",
-        "isDistractor": true,
+        "isDistractor": false,
         "translation": "actuado"
       },
       {
-        "id": "d3",
-        "text": "memorize",
-        "isDistractor": true,
-        "translation": "memorizar"
-      },
-      {
-        "id": "d4",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d5",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "actor": "actor",
-      "have": "(auxiliar)",
-      "memorized": "memorizado",
-      "his": "sus",
-      "lines": "líneas",
-      "by": "para",
-      "time": "momento",
-      "show": "espectáculo",
-      "starts": "comience",
-      "memorize": "memorizar",
-      "him": "lo",
-      "does": "(auxiliar)",
-      "starting": "comenzando",
-      "performed": "actuado",
-      "won't": "(no haber - futuro negativo)"
-    },
-    "metadata": {
-      "tense": "future perfect",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "advanced",
-      "topic": "entertainment"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: ellos",
-      "Verbo: will have practiced (futuro perfecto)",
-      "Complemento: su rutina de baile",
-      "Tiempo: antes de que comience el concierto"
-    ],
-    "hintDisplay": "Sujeto: ellos / Verbo: will have practiced (futuro perfecto) / Complemento: su rutina de baile / Tiempo: antes de que comience el concierto",
-    "spanishSentence": "¿Habrán practicado su rutina de baile antes de que comience el concierto?",
-    "correctSentence": "Will they have practiced their dance routine before the concert starts?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Will",
-        "isDistractor": false
-      },
-      {
-        "id": "c2",
-        "text": "they",
-        "isDistractor": false
-      },
-      {
-        "id": "c3",
-        "text": "have",
-        "isDistractor": false
-      },
-      {
         "id": "c4",
-        "text": "practiced",
-        "isDistractor": false
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
       },
       {
-        "id": "c5",
-        "text": "their",
-        "isDistractor": false
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c14",
+        "text": "city",
+        "isDistractor": false,
+        "translation": "ciudad"
       },
       {
         "id": "c6",
-        "text": "dance",
-        "isDistractor": false
-      },
-      {
-        "id": "c7",
-        "text": "routine",
-        "isDistractor": false
-      },
-      {
-        "id": "c8",
-        "text": "before",
-        "isDistractor": false
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false
-      },
-      {
-        "id": "c10",
-        "text": "concert",
-        "isDistractor": false
+        "text": "ends",
+        "isDistractor": false,
+        "translation": "termine"
       },
       {
         "id": "c11",
-        "text": "starts",
-        "isDistractor": false
-      },
-      {
-        "id": "d1",
-        "text": "perform",
-        "isDistractor": true,
-        "translation": "actuar/realizar"
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
       },
       {
         "id": "d2",
-        "text": "rehearsed",
+        "text": "completed",
         "isDistractor": true,
-        "translation": "ensayado/practicado"
+        "translation": "completado"
+      },
+      {
+        "id": "d4",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c7",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "d5",
+        "text": "visited",
+        "isDistractor": true,
+        "translation": "visitado"
+      },
+      {
+        "id": "c3",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c12",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
       },
       {
         "id": "d3",
@@ -1249,46 +1442,231 @@
         "translation": "(futuro)"
       },
       {
-        "id": "d4",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d5",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
+        "id": "c5",
+        "text": "tour",
+        "isDistractor": false,
+        "translation": "gira"
       },
       {
         "id": "d6",
-        "text": "has",
+        "text": "finish",
         "isDistractor": true,
-        "translation": "(auxiliar de perfecto)"
+        "translation": "terminar"
+      },
+      {
+        "id": "c8",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú/usted"
+      },
+      {
+        "id": "c1",
+        "text": "By",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c9",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "haber"
+      },
+      {
+        "id": "d1",
+        "text": "visit",
+        "isDistractor": true,
+        "translation": "visitar"
       }
     ],
     "translations": {
+      "by": "para",
+      "the": "el/la",
+      "time": "cuando",
+      "tour": "gira",
+      "ends": "termine",
       "will": "(futuro)",
-      "they": "ellos/ellas",
-      "have": "(auxiliar de perfecto)",
-      "practiced": "practicado",
-      "their": "su/sus",
-      "dance": "baile/danza",
-      "routine": "rutina",
-      "before": "antes de",
-      "the": "(artículo)",
-      "concert": "concierto",
-      "starts": "comienza/empieza",
+      "you": "tú/usted",
+      "have": "haber",
+      "performed": "actuado",
+      "in": "en",
+      "every": "cada",
+      "major": "importante",
+      "city": "ciudad",
+      "visit": "visitar",
+      "completed": "completado",
       "shall": "(futuro)",
-      "would": "(condicional)",
-      "does": "(auxiliar)",
-      "has": "(auxiliar de perfecto)",
-      "perform": "actuar/realizar",
-      "rehearsed": "ensayado/practicado"
+      "they": "ellos",
+      "visited": "visitado",
+      "finish": "terminar"
     },
     "metadata": {
       "tense": "future perfect",
       "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "advanced",
+      "topic": "entertainment"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el público",
+      "Verbo: disfrutar (futuro perfecto)",
+      "Complemento: del espectáculo durante tres horas",
+      "Cláusula: para cuando caiga el telón"
+    ],
+    "hintDisplay": "Sujeto: el público / Verbo: disfrutar (futuro perfecto) / Complemento: del espectáculo durante tres horas / Cláusula: para cuando caiga el telón",
+    "spanishSentence": "¿No habrá disfrutado el público del espectáculo durante tres horas para cuando caiga el telón?",
+    "correctSentence": "Won't the audience have enjoyed the show for three hours by the time the curtain falls?",
+    "cards": [
+      {
+        "id": "c16",
+        "text": "falls",
+        "isDistractor": false,
+        "translation": "caiga"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el, la"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d4",
+        "text": "fall",
+        "isDistractor": true,
+        "translation": "caer"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el, la"
+      },
+      {
+        "id": "d1",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "c3",
+        "text": "audience",
+        "isDistractor": false,
+        "translation": "público"
+      },
+      {
+        "id": "c11",
+        "text": "by",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c13",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "el momento"
+      },
+      {
+        "id": "c7",
+        "text": "show",
+        "isDistractor": false,
+        "translation": "espectáculo"
+      },
+      {
+        "id": "c9",
+        "text": "three",
+        "isDistractor": false,
+        "translation": "tres"
+      },
+      {
+        "id": "c15",
+        "text": "curtain",
+        "isDistractor": false,
+        "translation": "telón"
+      },
+      {
+        "id": "c8",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c4",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "haber"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el, la"
+      },
+      {
+        "id": "c5",
+        "text": "enjoyed",
+        "isDistractor": false,
+        "translation": "disfrutado"
+      },
+      {
+        "id": "c10",
+        "text": "hours",
+        "isDistractor": false,
+        "translation": "horas"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el, la"
+      },
+      {
+        "id": "c1",
+        "text": "Won't",
+        "isDistractor": false,
+        "translation": "(auxiliar negativo futuro)"
+      },
+      {
+        "id": "d2",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "su"
+      }
+    ],
+    "translations": {
+      "won't": "(auxiliar negativo futuro)",
+      "the": "el, la",
+      "audience": "público",
+      "have": "haber",
+      "enjoyed": "disfrutado",
+      "show": "espectáculo",
+      "for": "durante",
+      "three": "tres",
+      "hours": "horas",
+      "by": "para",
+      "time": "el momento",
+      "curtain": "telón",
+      "falls": "caiga",
+      "has": "haber",
+      "their": "su",
+      "will": "(futuro)",
+      "fall": "caer"
+    },
+    "metadata": {
+      "tense": "future perfect",
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "advanced",
       "topic": "entertainment"

@@ -1,28 +1,44 @@
 [
   {
     "hints": [
-      "Sujeto: El arquitecto",
-      "Verbo: soler (hábito pasado)",
-      "Verbo: planificar",
-      "Complemento: la arquitectura del sistema",
-      "Complemento: en detalle",
-      "Tiempo: antes de comenzar el proyecto"
+      "Sujeto: el arquitecto",
+      "Verbo: soler (negación en pasado, hábito)",
+      "Complemento: proponer usar microservicios para cada proyecto",
+      "Tiempo: (no hay marcador temporal explícito, pero el verbo indica pasado)"
     ],
-    "hintDisplay": "Sujeto: El arquitecto / Verbo: soler (hábito pasado) / Verbo: planificar / Complemento: la arquitectura del sistema / Complemento: en detalle / Tiempo: antes de comenzar el proyecto",
-    "spanishSentence": "El arquitecto no solía planificar la arquitectura del sistema en detalle antes de comenzar el proyecto.",
-    "correctSentence": "The architect didn't use to plan the system architecture in detail before starting the project.",
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: soler (negación en pasado, hábito) / Complemento: proponer usar microservicios para cada proyecto / Tiempo: (no hay marcador temporal explícito, pero el verbo indica pasado)",
+    "spanishSentence": "El arquitecto no solía proponer usar microservicios para cada proyecto.",
+    "correctSentence": "The architect didn't use to propose using microservices for every project.",
     "cards": [
       {
-        "id": "c8",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
+        "id": "d1",
+        "text": "architecture",
+        "isDistractor": true,
+        "translation": "arquitectura"
       },
       {
-        "id": "c1",
-        "text": "The",
+        "id": "c7",
+        "text": "using",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "usar"
+      },
+      {
+        "id": "c9",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c8",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      },
+      {
+        "id": "c3",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(auxiliar negativo pasado)"
       },
       {
         "id": "c2",
@@ -31,52 +47,16 @@
         "translation": "arquitecto"
       },
       {
-        "id": "c10",
-        "text": "in",
+        "id": "c1",
+        "text": "The",
         "isDistractor": false,
-        "translation": "en"
+        "translation": "el"
       },
       {
-        "id": "d5",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c13",
-        "text": "starting",
+        "id": "c11",
+        "text": "project",
         "isDistractor": false,
-        "translation": "comenzar"
-      },
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c9",
-        "text": "architecture",
-        "isDistractor": false,
-        "translation": "arquitectura"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "plan",
-        "isDistractor": false,
-        "translation": "planificar"
-      },
-      {
-        "id": "d4",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos/ellas"
+        "translation": "proyecto"
       },
       {
         "id": "d2",
@@ -85,34 +65,16 @@
         "translation": "solía"
       },
       {
-        "id": "c14",
-        "text": "the",
+        "id": "c6",
+        "text": "propose",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      },
-      {
-        "id": "c3",
-        "text": "didn't",
-        "isDistractor": false,
-        "translation": "(negación pasado)"
-      },
-      {
-        "id": "c11",
-        "text": "detail",
-        "isDistractor": false,
-        "translation": "detalle"
+        "translation": "proponer"
       },
       {
         "id": "d3",
-        "text": "would",
+        "text": "proposing",
         "isDistractor": true,
-        "translation": "(condicional)"
+        "translation": "proponiendo"
       },
       {
         "id": "c4",
@@ -121,37 +83,33 @@
         "translation": "solía"
       },
       {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
+        "id": "c10",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
       },
       {
-        "id": "c15",
-        "text": "project",
+        "id": "c5",
+        "text": "to",
         "isDistractor": false,
-        "translation": "proyecto"
+        "translation": "(marca de infinitivo)"
       }
     ],
     "translations": {
-      "the": "(artículo)",
+      "the": "el",
       "architect": "arquitecto",
-      "didn't": "(negación pasado)",
+      "didn't": "(auxiliar negativo pasado)",
       "use": "solía",
       "to": "(marca de infinitivo)",
-      "plan": "planificar",
-      "system": "sistema",
-      "architecture": "arquitectura",
-      "in": "en",
-      "detail": "detalle",
-      "before": "antes de",
-      "starting": "comenzar",
+      "propose": "proponer",
+      "using": "usar",
+      "microservices": "microservicios",
+      "for": "para",
+      "every": "cada",
       "project": "proyecto",
-      "uses": "usa",
       "used": "solía",
-      "would": "(condicional)",
-      "they": "ellos/ellas",
-      "does": "(auxiliar)"
+      "proposing": "proponiendo",
+      "architecture": "arquitectura"
     },
     "metadata": {
       "tense": "used to",
@@ -163,16 +121,268 @@
   },
   {
     "hints": [
-      "Sujeto: El desarrollador backend",
-      "Verbo: soler (acción habitual en el pasado)",
-      "Verbo: consultar",
-      "Complemento: la base de datos",
-      "Complemento: directamente",
-      "Complemento: sin usar un ORM"
+      "Sujeto: los desarrolladores",
+      "Verbo: soler (hábito en el pasado)",
+      "Complemento: refactorizar el código base",
+      "Tiempo: cada viernes",
+      "Cláusula: antes de que ocurriera el lanzamiento"
     ],
-    "hintDisplay": "Sujeto: El desarrollador backend / Verbo: soler (acción habitual en el pasado) / Verbo: consultar / Complemento: la base de datos / Complemento: directamente / Complemento: sin usar un ORM",
-    "spanishSentence": "El desarrollador backend solía consultar la base de datos directamente sin usar un ORM.",
-    "correctSentence": "The backend developer used to query the database directly without using an ORM.",
+    "hintDisplay": "Sujeto: los desarrolladores / Verbo: soler (hábito en el pasado) / Complemento: refactorizar el código base / Tiempo: cada viernes / Cláusula: antes de que ocurriera el lanzamiento",
+    "spanishSentence": "Los desarrolladores solían refactorizar el código base cada viernes antes del lanzamiento.",
+    "correctSentence": "The developers used to refactor the codebase every Friday before the release.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "Friday",
+        "isDistractor": false,
+        "translation": "viernes"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c12",
+        "text": "release",
+        "isDistractor": false,
+        "translation": "lanzamiento"
+      },
+      {
+        "id": "c8",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "used",
+        "isDistractor": false,
+        "translation": "solían"
+      },
+      {
+        "id": "d1",
+        "text": "refactors",
+        "isDistractor": true,
+        "translation": "refactorizaciones"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "codebase",
+        "isDistractor": false,
+        "translation": "código base"
+      },
+      {
+        "id": "c10",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d2",
+        "text": "use",
+        "isDistractor": true,
+        "translation": "usar"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "solían"
+      },
+      {
+        "id": "c2",
+        "text": "developers",
+        "isDistractor": false,
+        "translation": "los desarrolladores"
+      },
+      {
+        "id": "c5",
+        "text": "refactor",
+        "isDistractor": false,
+        "translation": "refactorizar"
+      },
+      {
+        "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "eran"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "developers": "los desarrolladores",
+      "used": "solían",
+      "to": "(marca de infinitivo)",
+      "refactor": "refactorizar",
+      "codebase": "código base",
+      "every": "cada",
+      "friday": "viernes",
+      "before": "antes de",
+      "release": "lanzamiento",
+      "would": "solían",
+      "were": "eran",
+      "refactors": "refactorizaciones",
+      "use": "usar"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: monitorear (negación en pasado, hábito que ya no ocurre)",
+      "Complemento: cada microservicio manualmente",
+      "Tiempo: no se menciona un marcador temporal concreto"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: monitorear (negación en pasado, hábito que ya no ocurre) / Complemento: cada microservicio manualmente / Tiempo: no se menciona un marcador temporal concreto",
+    "spanishSentence": "El ingeniero de DevOps no solía monitorear cada microservicio manualmente.",
+    "correctSentence": "The DevOps engineer didn't use to monitor every microservice manually.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c9",
+        "text": "microservice",
+        "isDistractor": false,
+        "translation": "microservicio"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c5",
+        "text": "use",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "d1",
+        "text": "wasn't",
+        "isDistractor": true,
+        "translation": "(auxiliar negativo pasado)"
+      },
+      {
+        "id": "d2",
+        "text": "hasn't",
+        "isDistractor": true,
+        "translation": "(auxiliar negativo presente perfecto)"
+      },
+      {
+        "id": "d3",
+        "text": "wouldn't",
+        "isDistractor": true,
+        "translation": "(condicional negativo)"
+      },
+      {
+        "id": "c10",
+        "text": "manually",
+        "isDistractor": false,
+        "translation": "manualmente"
+      },
+      {
+        "id": "c7",
+        "text": "monitor",
+        "isDistractor": false,
+        "translation": "monitorear"
+      },
+      {
+        "id": "c6",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c2",
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "devops"
+      },
+      {
+        "id": "d4",
+        "text": "doesn't",
+        "isDistractor": true,
+        "translation": "(auxiliar negativo presente)"
+      },
+      {
+        "id": "c8",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c4",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(auxiliar negativo pasado)"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "devops": "devops",
+      "engineer": "ingeniero",
+      "didn't": "(auxiliar negativo pasado)",
+      "use": "solía",
+      "to": "(marca de infinitivo)",
+      "monitor": "monitorear",
+      "every": "cada",
+      "microservice": "microservicio",
+      "manually": "manualmente",
+      "wasn't": "(auxiliar negativo pasado)",
+      "wouldn't": "(condicional negativo)",
+      "hasn't": "(auxiliar negativo presente perfecto)",
+      "doesn't": "(auxiliar negativo presente)"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador backend",
+      "Verbo: migrar (pasado simple)",
+      "Complemento: la base de datos",
+      "Tiempo: manualmente",
+      "Cláusula: pero ahora usa scripts automatizados"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: migrar (pasado simple) / Complemento: la base de datos / Tiempo: manualmente / Cláusula: pero ahora usa scripts automatizados",
+    "spanishSentence": "El desarrollador backend solía migrar la base de datos manualmente, pero ahora usa scripts automatizados.",
+    "correctSentence": "The backend developer used to manually migrate the database, but now he uses automated scripts.",
     "cards": [
       {
         "id": "c5",
@@ -181,16 +391,46 @@
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "c13",
-        "text": "ORM",
+        "id": "c7",
+        "text": "migrate",
         "isDistractor": false,
-        "translation": "ORM"
+        "translation": "migrar"
+      },
+      {
+        "id": "c11",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
       },
       {
         "id": "d1",
-        "text": "uses",
+        "text": "they",
         "isDistractor": true,
-        "translation": "usa"
+        "translation": "ellos"
+      },
+      {
+        "id": "d2",
+        "text": "automates",
+        "isDistractor": true,
+        "translation": "automatiza"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c9",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
       },
       {
         "id": "c4",
@@ -199,16 +439,46 @@
         "translation": "solía"
       },
       {
-        "id": "c1",
-        "text": "The",
+        "id": "c6",
+        "text": "manually",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "manualmente"
       },
       {
-        "id": "c8",
-        "text": "database",
+        "id": "c14",
+        "text": "automated",
         "isDistractor": false,
-        "translation": "base de datos"
+        "translation": "automatizados"
+      },
+      {
+        "id": "c12",
+        "text": "he",
+        "isDistractor": false,
+        "translation": "él"
+      },
+      {
+        "id": "d3",
+        "text": "migrates",
+        "isDistractor": true,
+        "translation": "migra"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c10",
+        "text": "but",
+        "isDistractor": false,
+        "translation": "pero"
+      },
+      {
+        "id": "c3",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
       },
       {
         "id": "c2",
@@ -217,515 +487,50 @@
         "translation": "backend"
       },
       {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "d4",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "d3",
-        "text": "were",
-        "isDistractor": true,
-        "translation": "(pasado de ser/estar)"
-      },
-      {
-        "id": "d2",
-        "text": "queried",
-        "isDistractor": true,
-        "translation": "consultó"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "query",
-        "isDistractor": false,
-        "translation": "consultar"
-      },
-      {
-        "id": "d5",
-        "text": "utilizing",
-        "isDistractor": true,
-        "translation": "utilizando"
-      },
-      {
-        "id": "c10",
-        "text": "without",
-        "isDistractor": false,
-        "translation": "sin"
-      },
-      {
-        "id": "c12",
-        "text": "an",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "directly",
-        "isDistractor": false,
-        "translation": "directamente"
-      },
-      {
-        "id": "c11",
-        "text": "using",
-        "isDistractor": false,
-        "translation": "usar"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "backend": "backend",
-      "developer": "desarrollador",
-      "used": "solía",
-      "to": "(marca de infinitivo)",
-      "query": "consultar",
-      "database": "base de datos",
-      "directly": "directamente",
-      "without": "sin",
-      "using": "usar",
-      "an": "(artículo)",
-      "orm": "ORM",
-      "uses": "usa",
-      "queried": "consultó",
-      "were": "(pasado de ser/estar)",
-      "would": "(condicional)",
-      "utilizing": "utilizando"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El ingeniero de DevOps",
-      "Verbo: soler (acción habitual en el pasado)",
-      "Verbo: monitorear",
-      "Complemento: los servidores",
-      "Complemento: manualmente",
-      "Tiempo: antes de implementar herramientas de monitoreo automatizado"
-    ],
-    "hintDisplay": "Sujeto: El ingeniero de DevOps / Verbo: soler (acción habitual en el pasado) / Verbo: monitorear / Complemento: los servidores / Complemento: manualmente / Tiempo: antes de implementar herramientas de monitoreo automatizado",
-    "spanishSentence": "El ingeniero de DevOps solía monitorear los servidores manualmente antes de implementar herramientas de monitoreo automatizado.",
-    "correctSentence": "The DevOps engineer used to monitor the servers manually before implementing automated monitoring tools.",
-    "cards": [
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c9",
-        "text": "manually",
-        "isDistractor": false,
-        "translation": "manualmente"
-      },
-      {
         "id": "c13",
-        "text": "monitoring",
-        "isDistractor": false,
-        "translation": "monitoreo"
-      },
-      {
-        "id": "c11",
-        "text": "implementing",
-        "isDistractor": false,
-        "translation": "implementar"
-      },
-      {
-        "id": "c6",
-        "text": "monitor",
-        "isDistractor": false,
-        "translation": "monitorear"
-      },
-      {
-        "id": "c12",
-        "text": "automated",
-        "isDistractor": false,
-        "translation": "automatizado"
-      },
-      {
-        "id": "c14",
-        "text": "tools",
-        "isDistractor": false,
-        "translation": "herramientas"
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false,
-        "translation": "ingeniero"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d2",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "había"
-      },
-      {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "d1",
         "text": "uses",
-        "isDistractor": true,
-        "translation": "utiliza"
-      },
-      {
-        "id": "c4",
-        "text": "used",
         "isDistractor": false,
-        "translation": "solía"
-      },
-      {
-        "id": "d4",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "habría"
-      },
-      {
-        "id": "c2",
-        "text": "DevOps",
-        "isDistractor": false,
-        "translation": "DevOps"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "servers",
-        "isDistractor": false,
-        "translation": "servidores"
-      },
-      {
-        "id": "d5",
-        "text": "being",
-        "isDistractor": true,
-        "translation": "siendo"
-      },
-      {
-        "id": "c10",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "devops": "DevOps",
-      "engineer": "ingeniero",
-      "used": "solía",
-      "to": "(marca de infinitivo)",
-      "monitor": "monitorear",
-      "servers": "servidores",
-      "manually": "manualmente",
-      "before": "antes de",
-      "implementing": "implementar",
-      "automated": "automatizado",
-      "monitoring": "monitoreo",
-      "tools": "herramientas",
-      "uses": "utiliza",
-      "had": "había",
-      "will": "(futuro)",
-      "would": "habría",
-      "being": "siendo"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El desarrollador",
-      "Verbo: Soler (acción habitual en el pasado)",
-      "Complemento: depurar código manualmente",
-      "Tiempo: antes de que las herramientas de pruebas automatizadas estuvieran disponibles"
-    ],
-    "hintDisplay": "Sujeto: El desarrollador / Verbo: Soler (acción habitual en el pasado) / Complemento: depurar código manualmente / Tiempo: antes de que las herramientas de pruebas automatizadas estuvieran disponibles",
-    "spanishSentence": "El desarrollador solía depurar código manualmente antes de que las herramientas de pruebas automatizadas estuvieran disponibles.",
-    "correctSentence": "The developer used to debug code manually before automated testing tools became available.",
-    "cards": [
-      {
-        "id": "c11",
-        "text": "tools",
-        "isDistractor": false,
-        "translation": "herramientas"
-      },
-      {
-        "id": "c10",
-        "text": "testing",
-        "isDistractor": false,
-        "translation": "pruebas"
-      },
-      {
-        "id": "c7",
-        "text": "manually",
-        "isDistractor": false,
-        "translation": "manualmente"
-      },
-      {
-        "id": "d2",
-        "text": "debugging",
-        "isDistractor": true,
-        "translation": "depuración"
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "c6",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "c3",
-        "text": "used",
-        "isDistractor": false,
-        "translation": "solía"
-      },
-      {
-        "id": "c13",
-        "text": "available",
-        "isDistractor": false,
-        "translation": "disponibles"
-      },
-      {
-        "id": "c8",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      },
-      {
-        "id": "c5",
-        "text": "debug",
-        "isDistractor": false,
-        "translation": "depurar"
-      },
-      {
-        "id": "c12",
-        "text": "became",
-        "isDistractor": false,
-        "translation": "estuvieran"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "were",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c9",
-        "text": "automated",
-        "isDistractor": false,
-        "translation": "automatizadas"
-      },
-      {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
         "translation": "usa"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "developer": "desarrollador",
-      "used": "solía",
-      "to": "(marca de infinitivo)",
-      "debug": "depurar",
-      "code": "código",
-      "manually": "manualmente",
-      "before": "antes de",
-      "automated": "automatizadas",
-      "testing": "pruebas",
-      "tools": "herramientas",
-      "became": "estuvieran",
-      "available": "disponibles",
-      "uses": "usa",
-      "debugging": "depuración",
-      "were": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El equipo",
-      "Verbo: soler (acción habitual en el pasado)",
-      "Verbo: monitorear",
-      "Complemento: el rendimiento de la aplicación",
-      "Complemento: manualmente",
-      "Tiempo: cada mañana"
-    ],
-    "hintDisplay": "Sujeto: El equipo / Verbo: soler (acción habitual en el pasado) / Verbo: monitorear / Complemento: el rendimiento de la aplicación / Complemento: manualmente / Tiempo: cada mañana",
-    "spanishSentence": "El equipo solía monitorear el rendimiento de la aplicación manualmente cada mañana.",
-    "correctSentence": "The team used to monitor the application performance manually every morning.",
-    "cards": [
-      {
-        "id": "c11",
-        "text": "morning",
-        "isDistractor": false,
-        "translation": "mañana"
-      },
-      {
-        "id": "c2",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "d5",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "solería"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c7",
-        "text": "application",
-        "isDistractor": false,
-        "translation": "aplicación"
-      },
-      {
-        "id": "c3",
-        "text": "used",
-        "isDistractor": false,
-        "translation": "solía"
-      },
-      {
-        "id": "c8",
-        "text": "performance",
-        "isDistractor": false,
-        "translation": "rendimiento"
       },
       {
         "id": "d4",
-        "text": "monitoring",
-        "isDistractor": true,
-        "translation": "monitoreo"
-      },
-      {
-        "id": "d2",
         "text": "was",
         "isDistractor": true,
         "translation": "era"
       },
       {
-        "id": "d1",
-        "text": "uses",
+        "id": "c15",
+        "text": "scripts",
+        "isDistractor": false,
+        "translation": "scripts"
+      },
+      {
+        "id": "d5",
+        "text": "migrated",
         "isDistractor": true,
-        "translation": "usa"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d3",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "había"
-      },
-      {
-        "id": "c5",
-        "text": "monitor",
-        "isDistractor": false,
-        "translation": "monitorear"
-      },
-      {
-        "id": "c9",
-        "text": "manually",
-        "isDistractor": false,
-        "translation": "manualmente"
-      },
-      {
-        "id": "c10",
-        "text": "every",
-        "isDistractor": false,
-        "translation": "cada"
+        "translation": "migró"
       }
     ],
     "translations": {
-      "the": "(artículo)",
-      "team": "equipo",
+      "the": "el",
+      "backend": "backend",
+      "developer": "desarrollador",
       "used": "solía",
       "to": "(marca de infinitivo)",
-      "monitor": "monitorear",
-      "application": "aplicación",
-      "performance": "rendimiento",
       "manually": "manualmente",
-      "every": "cada",
-      "morning": "mañana",
+      "migrate": "migrar",
+      "database": "base de datos",
+      "but": "pero",
+      "now": "ahora",
+      "he": "él",
       "uses": "usa",
+      "automated": "automatizados",
+      "scripts": "scripts",
+      "migrates": "migra",
       "was": "era",
-      "had": "había",
-      "monitoring": "monitoreo",
-      "would": "solería"
+      "automates": "automatiza",
+      "they": "ellos",
+      "migrated": "migró"
     },
     "metadata": {
       "tense": "used to",
@@ -738,447 +543,26 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: soler (acción habitual en el pasado)",
-      "Verbo: refactorizar",
-      "Complemento: nuestro código",
-      "Complemento: manualmente",
-      "Tiempo: antes de implementar herramientas de pruebas automatizadas"
+      "Verbo: soler (hábito en el pasado)",
+      "Complemento: monitorear el rendimiento del sistema manualmente",
+      "Tiempo: antes de adoptar los paneles automáticos",
+      "Cláusula: antes de que adoptáramos los paneles automáticos"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: soler (acción habitual en el pasado) / Verbo: refactorizar / Complemento: nuestro código / Complemento: manualmente / Tiempo: antes de implementar herramientas de pruebas automatizadas",
-    "spanishSentence": "Solíamos refactorizar nuestro código manualmente antes de implementar herramientas de pruebas automatizadas.",
-    "correctSentence": "We used to refactor our code manually before implementing automated testing tools.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: soler (hábito en el pasado) / Complemento: monitorear el rendimiento del sistema manualmente / Tiempo: antes de adoptar los paneles automáticos / Cláusula: antes de que adoptáramos los paneles automáticos",
+    "spanishSentence": "Solíamos monitorear el rendimiento del sistema manualmente antes de adoptar los paneles automáticos.",
+    "correctSentence": "We used to monitor system performance manually before we adopted automated dashboards.",
     "cards": [
       {
-        "id": "c2",
-        "text": "used",
-        "isDistractor": false,
-        "translation": "solíamos"
-      },
-      {
-        "id": "c6",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "c1",
-        "text": "We",
+        "id": "c9",
+        "text": "we",
         "isDistractor": false,
         "translation": "nosotros"
       },
       {
         "id": "d1",
-        "text": "use",
+        "text": "proceeded",
         "isDistractor": true,
-        "translation": "uso"
-      },
-      {
-        "id": "c8",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      },
-      {
-        "id": "c11",
-        "text": "testing",
-        "isDistractor": false,
-        "translation": "pruebas"
-      },
-      {
-        "id": "c7",
-        "text": "manually",
-        "isDistractor": false,
-        "translation": "manualmente"
-      },
-      {
-        "id": "d4",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "habíamos"
-      },
-      {
-        "id": "c3",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c5",
-        "text": "our",
-        "isDistractor": false,
-        "translation": "nuestro"
-      },
-      {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c12",
-        "text": "tools",
-        "isDistractor": false,
-        "translation": "herramientas"
-      },
-      {
-        "id": "c4",
-        "text": "refactor",
-        "isDistractor": false,
-        "translation": "refactorizar"
-      },
-      {
-        "id": "c10",
-        "text": "automated",
-        "isDistractor": false,
-        "translation": "automatizadas"
-      },
-      {
-        "id": "c9",
-        "text": "implementing",
-        "isDistractor": false,
-        "translation": "implementar"
-      },
-      {
-        "id": "d2",
-        "text": "refactored",
-        "isDistractor": true,
-        "translation": "refactorizado"
-      }
-    ],
-    "translations": {
-      "we": "nosotros",
-      "used": "solíamos",
-      "to": "(marca de infinitivo)",
-      "refactor": "refactorizar",
-      "our": "nuestro",
-      "code": "código",
-      "manually": "manualmente",
-      "before": "antes de",
-      "implementing": "implementar",
-      "automated": "automatizadas",
-      "testing": "pruebas",
-      "tools": "herramientas",
-      "use": "uso",
-      "refactored": "refactorizado",
-      "them": "los",
-      "had": "habíamos"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El desarrollador frontend",
-      "Verbo: soler (acción habitual en el pasado)",
-      "Complemento: renderizar componentes manualmente",
-      "Tiempo: antes de implementar el nuevo framework"
-    ],
-    "hintDisplay": "Sujeto: El desarrollador frontend / Verbo: soler (acción habitual en el pasado) / Complemento: renderizar componentes manualmente / Tiempo: antes de implementar el nuevo framework",
-    "spanishSentence": "El desarrollador frontend solía renderizar componentes manualmente antes de implementar el nuevo framework.",
-    "correctSentence": "The frontend developer used to render components manually before implementing the new framework.",
-    "cards": [
-      {
-        "id": "c2",
-        "text": "frontend",
-        "isDistractor": false,
-        "translation": "frontend"
-      },
-      {
-        "id": "c12",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nuevo"
-      },
-      {
-        "id": "d2",
-        "text": "rendering",
-        "isDistractor": true,
-        "translation": "renderizado"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c10",
-        "text": "implementing",
-        "isDistractor": false,
-        "translation": "implementar"
-      },
-      {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "c7",
-        "text": "components",
-        "isDistractor": false,
-        "translation": "componentes"
-      },
-      {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
-      },
-      {
-        "id": "c8",
-        "text": "manually",
-        "isDistractor": false,
-        "translation": "manualmente"
-      },
-      {
-        "id": "c4",
-        "text": "used",
-        "isDistractor": false,
-        "translation": "solía"
-      },
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c13",
-        "text": "framework",
-        "isDistractor": false,
-        "translation": "framework"
-      },
-      {
-        "id": "c6",
-        "text": "render",
-        "isDistractor": false,
-        "translation": "renderizar"
-      },
-      {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c9",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "frontend": "frontend",
-      "developer": "desarrollador",
-      "used": "solía",
-      "to": "(marca de infinitivo)",
-      "render": "renderizar",
-      "components": "componentes",
-      "manually": "manualmente",
-      "before": "antes",
-      "implementing": "implementar",
-      "new": "nuevo",
-      "framework": "framework",
-      "uses": "usa",
-      "rendering": "renderizado",
-      "would": "(condicional)"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Ellos",
-      "Verbo: soler (hábito pasado)",
-      "Verbo: construir",
-      "Complemento: aplicaciones monolíticas",
-      "Tiempo: antes de que los microservicios se volvieran populares"
-    ],
-    "hintDisplay": "Sujeto: Ellos / Verbo: soler (hábito pasado) / Verbo: construir / Complemento: aplicaciones monolíticas / Tiempo: antes de que los microservicios se volvieran populares",
-    "spanishSentence": "Solían construir aplicaciones monolíticas antes de que los microservicios se volvieran populares.",
-    "correctSentence": "They used to build monolithic applications before microservices became popular.",
-    "cards": [
-      {
-        "id": "d4",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo/le"
-      },
-      {
-        "id": "c9",
-        "text": "became",
-        "isDistractor": false,
-        "translation": "se volvieron"
-      },
-      {
-        "id": "c6",
-        "text": "applications",
-        "isDistractor": false,
-        "translation": "aplicaciones"
-      },
-      {
-        "id": "d1",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "había/habían"
-      },
-      {
-        "id": "d3",
-        "text": "construct",
-        "isDistractor": true,
-        "translation": "construir"
-      },
-      {
-        "id": "c2",
-        "text": "used",
-        "isDistractor": false,
-        "translation": "solían"
-      },
-      {
-        "id": "c3",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c8",
-        "text": "microservices",
-        "isDistractor": false,
-        "translation": "microservicios"
-      },
-      {
-        "id": "d2",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c5",
-        "text": "monolithic",
-        "isDistractor": false,
-        "translation": "monolíticas"
-      },
-      {
-        "id": "c10",
-        "text": "popular",
-        "isDistractor": false,
-        "translation": "populares"
-      },
-      {
-        "id": "c7",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      },
-      {
-        "id": "c1",
-        "text": "They",
-        "isDistractor": false,
-        "translation": "ellos/ellas"
-      },
-      {
-        "id": "c4",
-        "text": "build",
-        "isDistractor": false,
-        "translation": "construir"
-      }
-    ],
-    "translations": {
-      "they": "ellos/ellas",
-      "used": "solían",
-      "to": "(marca de infinitivo)",
-      "build": "construir",
-      "monolithic": "monolíticas",
-      "applications": "aplicaciones",
-      "before": "antes de",
-      "microservices": "microservicios",
-      "became": "se volvieron",
-      "popular": "populares",
-      "had": "había/habían",
-      "will": "(futuro)",
-      "construct": "construir",
-      "him": "lo/le"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Nosotros",
-      "Verbo: soler (acción habitual en el pasado)",
-      "Verbo: desplegar",
-      "Complemento: software",
-      "Complemento: manualmente",
-      "Tiempo: antes de implementar tuberías CI/CD"
-    ],
-    "hintDisplay": "Sujeto: Nosotros / Verbo: soler (acción habitual en el pasado) / Verbo: desplegar / Complemento: software / Complemento: manualmente / Tiempo: antes de implementar tuberías CI/CD",
-    "spanishSentence": "Solíamos desplegar software manualmente antes de implementar tuberías CI/CD.",
-    "correctSentence": "We used to deploy software manually before implementing CI/CD pipelines.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "use",
-        "isDistractor": true,
-        "translation": "usar"
-      },
-      {
-        "id": "d4",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "había"
-      },
-      {
-        "id": "c1",
-        "text": "We",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c7",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes"
-      },
-      {
-        "id": "d2",
-        "text": "deploys",
-        "isDistractor": true,
-        "translation": "despliega"
-      },
-      {
-        "id": "c10",
-        "text": "pipelines",
-        "isDistractor": false,
-        "translation": "tuberías"
-      },
-      {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellas"
+        "translation": "procedimos"
       },
       {
         "id": "c2",
@@ -1187,942 +571,71 @@
         "translation": "solíamos"
       },
       {
-        "id": "c9",
-        "text": "CI/CD",
-        "isDistractor": false,
-        "translation": "CI/CD"
-      },
-      {
-        "id": "c3",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c5",
-        "text": "software",
-        "isDistractor": false,
-        "translation": "software"
-      },
-      {
-        "id": "c8",
-        "text": "implementing",
-        "isDistractor": false,
-        "translation": "implementar"
-      },
-      {
-        "id": "c4",
-        "text": "deploy",
-        "isDistractor": false,
-        "translation": "desplegar"
-      },
-      {
-        "id": "c6",
-        "text": "manually",
-        "isDistractor": false,
-        "translation": "manualmente"
-      }
-    ],
-    "translations": {
-      "we": "nosotros",
-      "used": "solíamos",
-      "to": "(marca de infinitivo)",
-      "deploy": "desplegar",
-      "software": "software",
-      "manually": "manualmente",
-      "before": "antes",
-      "implementing": "implementar",
-      "ci/cd": "CI/CD",
-      "pipelines": "tuberías",
-      "use": "usar",
-      "deploys": "despliega",
-      "them": "ellas",
-      "had": "había"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Ellos",
-      "Verbo: soler (acción repetida en el pasado)",
-      "Verbo: desplegar (acción principal)",
-      "Complemento: código",
-      "Complemento: directamente a producción",
-      "Complemento: sin pruebas"
-    ],
-    "hintDisplay": "Sujeto: Ellos / Verbo: soler (acción repetida en el pasado) / Verbo: desplegar (acción principal) / Complemento: código / Complemento: directamente a producción / Complemento: sin pruebas",
-    "spanishSentence": "Ellos solían desplegar código directamente a producción sin pruebas.",
-    "correctSentence": "They used to deploy code directly to production without testing.",
-    "cards": [
-      {
-        "id": "d2",
-        "text": "deploys",
-        "isDistractor": true,
-        "translation": "despliega"
-      },
-      {
-        "id": "d4",
-        "text": "were",
-        "isDistractor": true,
-        "translation": "eran"
-      },
-      {
-        "id": "c3",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c1",
-        "text": "They",
-        "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
-        "id": "c9",
-        "text": "without",
-        "isDistractor": false,
-        "translation": "sin"
-      },
-      {
-        "id": "c8",
-        "text": "production",
-        "isDistractor": false,
-        "translation": "producción"
-      },
-      {
-        "id": "d1",
-        "text": "use",
-        "isDistractor": true,
-        "translation": "usar"
-      },
-      {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c6",
-        "text": "directly",
-        "isDistractor": false,
-        "translation": "directamente"
-      },
-      {
         "id": "c10",
-        "text": "testing",
+        "text": "adopted",
         "isDistractor": false,
-        "translation": "pruebas"
-      },
-      {
-        "id": "c4",
-        "text": "deploy",
-        "isDistractor": false,
-        "translation": "desplegar"
-      },
-      {
-        "id": "c2",
-        "text": "used",
-        "isDistractor": false,
-        "translation": "solían"
+        "translation": "adoptar"
       },
       {
         "id": "c5",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      }
-    ],
-    "translations": {
-      "they": "ellos",
-      "used": "solían",
-      "to": "(marca de infinitivo)",
-      "deploy": "desplegar",
-      "code": "código",
-      "directly": "directamente",
-      "production": "producción",
-      "without": "sin",
-      "testing": "pruebas",
-      "use": "usar",
-      "deploys": "despliega",
-      "them": "ellos",
-      "were": "eran"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El desarrollador",
-      "Verbo: Soler (acción habitual en el pasado)",
-      "Complemento: Compilar el código manualmente",
-      "Tiempo: Antes de que se implementaran sistemas de compilación automatizados"
-    ],
-    "hintDisplay": "Sujeto: El desarrollador / Verbo: Soler (acción habitual en el pasado) / Complemento: Compilar el código manualmente / Tiempo: Antes de que se implementaran sistemas de compilación automatizados",
-    "spanishSentence": "El desarrollador solía compilar el código manualmente antes de que se implementaran sistemas de compilación automatizados.",
-    "correctSentence": "The developer used to compile the code manually before automated build systems were implemented.",
-    "cards": [
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "manually",
-        "isDistractor": false,
-        "translation": "manualmente"
-      },
-      {
-        "id": "c14",
-        "text": "implemented",
-        "isDistractor": false,
-        "translation": "implementaran"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "compiles",
-        "isDistractor": true,
-        "translation": "compila"
-      },
-      {
-        "id": "d4",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c2",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "c10",
-        "text": "automated",
-        "isDistractor": false,
-        "translation": "automatizados"
-      },
-      {
-        "id": "c11",
-        "text": "build",
-        "isDistractor": false,
-        "translation": "compilación"
-      },
-      {
-        "id": "c12",
-        "text": "systems",
-        "isDistractor": false,
-        "translation": "sistemas"
-      },
-      {
-        "id": "c3",
-        "text": "used",
-        "isDistractor": false,
-        "translation": "solía"
-      },
-      {
-        "id": "d5",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c9",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de que"
-      },
-      {
-        "id": "c5",
-        "text": "compile",
-        "isDistractor": false,
-        "translation": "compilar"
-      },
-      {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
-      },
-      {
-        "id": "c13",
-        "text": "were",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c7",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "developer": "desarrollador",
-      "used": "solía",
-      "to": "(marca de infinitivo)",
-      "compile": "compilar",
-      "code": "código",
-      "manually": "manualmente",
-      "before": "antes de que",
-      "automated": "automatizados",
-      "build": "compilación",
-      "systems": "sistemas",
-      "were": "(auxiliar)",
-      "implemented": "implementaran",
-      "uses": "usa",
-      "would": "(condicional)",
-      "compiles": "compila",
-      "him": "lo",
-      "was": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El ingeniero de DevOps",
-      "Verbo: usar (hábito pasado negativo)",
-      "Complemento: configurar servidores manualmente",
-      "Complemento: antes de implementar infraestructura como código",
-      "Tiempo: antes de un evento pasado"
-    ],
-    "hintDisplay": "Sujeto: El ingeniero de DevOps / Verbo: usar (hábito pasado negativo) / Complemento: configurar servidores manualmente / Complemento: antes de implementar infraestructura como código / Tiempo: antes de un evento pasado",
-    "spanishSentence": "El ingeniero de DevOps no solía configurar servidores manualmente antes de implementar infraestructura como código.",
-    "correctSentence": "The DevOps engineer didn't use to configure servers manually before implementing infrastructure as code.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
-      },
-      {
-        "id": "d4",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d5",
-        "text": "being",
-        "isDistractor": true,
-        "translation": "siendo"
-      },
-      {
-        "id": "c14",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "c6",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c5",
-        "text": "use",
-        "isDistractor": false,
-        "translation": "solía"
-      },
-      {
-        "id": "c12",
-        "text": "infrastructure",
-        "isDistractor": false,
-        "translation": "infraestructura"
-      },
-      {
-        "id": "d2",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "había"
-      },
-      {
-        "id": "c10",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes"
-      },
-      {
-        "id": "c4",
-        "text": "didn't",
-        "isDistractor": false,
-        "translation": "(negación pasado)"
-      },
-      {
-        "id": "c11",
-        "text": "implementing",
-        "isDistractor": false,
-        "translation": "implementar"
-      },
-      {
-        "id": "c9",
-        "text": "manually",
-        "isDistractor": false,
-        "translation": "manualmente"
-      },
-      {
-        "id": "c2",
-        "text": "DevOps",
-        "isDistractor": false,
-        "translation": "DevOps"
-      },
-      {
-        "id": "c7",
-        "text": "configure",
-        "isDistractor": false,
-        "translation": "configurar"
-      },
-      {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c8",
-        "text": "servers",
-        "isDistractor": false,
-        "translation": "servidores"
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false,
-        "translation": "ingeniero"
-      },
-      {
-        "id": "c13",
-        "text": "as",
-        "isDistractor": false,
-        "translation": "como"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "devops": "DevOps",
-      "engineer": "ingeniero",
-      "didn't": "(negación pasado)",
-      "use": "solía",
-      "to": "(marca de infinitivo)",
-      "configure": "configurar",
-      "servers": "servidores",
-      "manually": "manualmente",
-      "before": "antes",
-      "implementing": "implementar",
-      "infrastructure": "infraestructura",
-      "as": "como",
-      "code": "código",
-      "uses": "usa",
-      "had": "había",
-      "would": "(condicional)",
-      "does": "(auxiliar)",
-      "being": "siendo"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El desarrollador backend",
-      "Verbo: usar (negación en pasado habitual)",
-      "Complemento: autenticar a los usuarios con OAuth 2.0",
-      "Tiempo: en la versión anterior de la aplicación"
-    ],
-    "hintDisplay": "Sujeto: El desarrollador backend / Verbo: usar (negación en pasado habitual) / Complemento: autenticar a los usuarios con OAuth 2.0 / Tiempo: en la versión anterior de la aplicación",
-    "spanishSentence": "El desarrollador backend no solía autenticar a los usuarios con OAuth 2.0 en la versión anterior de la aplicación.",
-    "correctSentence": "The backend developer didn't use to authenticate users with OAuth 20 in the previous version of the application.",
-    "cards": [
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c5",
-        "text": "use",
-        "isDistractor": false,
-        "translation": "solía"
-      },
-      {
-        "id": "d3",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c17",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c7",
-        "text": "authenticate",
-        "isDistractor": false,
-        "translation": "autenticar"
-      },
-      {
-        "id": "c18",
-        "text": "application",
-        "isDistractor": false,
-        "translation": "aplicación"
-      },
-      {
-        "id": "d4",
-        "text": "authenticating",
-        "isDistractor": true,
-        "translation": "autenticando"
-      },
-      {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "c14",
-        "text": "previous",
-        "isDistractor": false,
-        "translation": "anterior"
-      },
-      {
-        "id": "c9",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "c8",
-        "text": "users",
-        "isDistractor": false,
-        "translation": "usuarios"
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c11",
-        "text": "20",
-        "isDistractor": false,
-        "translation": "2.0"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c15",
-        "text": "version",
-        "isDistractor": false,
-        "translation": "versión"
-      },
-      {
-        "id": "c10",
-        "text": "OAuth",
-        "isDistractor": false,
-        "translation": "OAuth"
-      },
-      {
-        "id": "d2",
-        "text": "used",
-        "isDistractor": true,
-        "translation": "usaba"
-      },
-      {
-        "id": "c4",
-        "text": "didn't",
-        "isDistractor": false,
-        "translation": "(negación pasado)"
-      },
-      {
-        "id": "c16",
-        "text": "of",
-        "isDistractor": false,
-        "translation": "de"
-      },
-      {
-        "id": "c6",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c2",
-        "text": "backend",
-        "isDistractor": false,
-        "translation": "backend"
-      },
-      {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
-      }
-    ],
-    "translations": {
-      "20": "2.0",
-      "the": "(artículo)",
-      "backend": "backend",
-      "developer": "desarrollador",
-      "didn't": "(negación pasado)",
-      "use": "solía",
-      "to": "(marca de infinitivo)",
-      "authenticate": "autenticar",
-      "users": "usuarios",
-      "with": "con",
-      "oauth": "OAuth",
-      "in": "en",
-      "previous": "anterior",
-      "version": "versión",
-      "of": "de",
-      "application": "aplicación",
-      "uses": "usa",
-      "used": "usaba",
-      "would": "(condicional)",
-      "authenticating": "autenticando"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El arquitecto",
-      "Verbo: usar (hábito pasado)",
-      "Verbo: documentar (infinitivo)",
-      "Complemento: el diseño del sistema",
-      "Complemento: en detalle"
-    ],
-    "hintDisplay": "Sujeto: El arquitecto / Verbo: usar (hábito pasado) / Verbo: documentar (infinitivo) / Complemento: el diseño del sistema / Complemento: en detalle",
-    "spanishSentence": "El arquitecto no solía documentar el diseño del sistema en detalle.",
-    "correctSentence": "The architect didn't use to document the system design in detail.",
-    "cards": [
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c11",
-        "text": "detail",
-        "isDistractor": false,
-        "translation": "detalle"
-      },
-      {
-        "id": "c3",
-        "text": "didn't",
-        "isDistractor": false,
-        "translation": "(auxiliar negación)"
-      },
-      {
-        "id": "d2",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c6",
-        "text": "document",
-        "isDistractor": false,
-        "translation": "documentar"
-      },
-      {
-        "id": "d4",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c4",
-        "text": "use",
-        "isDistractor": false,
-        "translation": "solía"
-      },
-      {
-        "id": "d3",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "había"
-      },
-      {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
-      },
-      {
-        "id": "c8",
         "text": "system",
         "isDistractor": false,
         "translation": "sistema"
       },
       {
-        "id": "c10",
-        "text": "in",
+        "id": "c11",
+        "text": "automated",
         "isDistractor": false,
-        "translation": "en"
+        "translation": "automáticos"
       },
-      {
-        "id": "c2",
-        "text": "architect",
-        "isDistractor": false,
-        "translation": "arquitecto"
-      },
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c9",
-        "text": "design",
-        "isDistractor": false,
-        "translation": "diseño"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "architect": "arquitecto",
-      "didn't": "(auxiliar negación)",
-      "use": "solía",
-      "to": "(marca de infinitivo)",
-      "document": "documentar",
-      "system": "sistema",
-      "design": "diseño",
-      "in": "en",
-      "detail": "detalle",
-      "uses": "usa",
-      "would": "(condicional)",
-      "had": "había",
-      "does": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El desarrollador frontend",
-      "Verbo: usar (pasado habitual negativo)",
-      "Complemento: estilizar componentes con librerías CSS-in-JS"
-    ],
-    "hintDisplay": "Sujeto: El desarrollador frontend / Verbo: usar (pasado habitual negativo) / Complemento: estilizar componentes con librerías CSS-in-JS",
-    "spanishSentence": "El desarrollador frontend no solía estilizar componentes con librerías CSS-in-JS.",
-    "correctSentence": "The frontend developer didn't use to style components with CSS-in-JS libraries.",
-    "cards": [
       {
         "id": "d2",
-        "text": "him",
+        "text": "were",
         "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "c10",
-        "text": "CSS-in-JS",
-        "isDistractor": false,
-        "translation": "CSS-in-JS"
+        "translation": "(pasado continuo)"
       },
       {
         "id": "d3",
-        "text": "does",
+        "text": "automate",
         "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c7",
-        "text": "style",
-        "isDistractor": false,
-        "translation": "estilizar"
-      },
-      {
-        "id": "c11",
-        "text": "libraries",
-        "isDistractor": false,
-        "translation": "librerías"
-      },
-      {
-        "id": "c4",
-        "text": "didn't",
-        "isDistractor": false,
-        "translation": "(negación pasada)"
+        "translation": "automatizar"
       },
       {
         "id": "c3",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "c2",
-        "text": "frontend",
-        "isDistractor": false,
-        "translation": "frontend"
-      },
-      {
-        "id": "c9",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "d5",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "utiliza"
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
       },
       {
-        "id": "c8",
-        "text": "components",
+        "id": "c4",
+        "text": "monitor",
         "isDistractor": false,
-        "translation": "componentes"
+        "translation": "monitorear"
       },
       {
-        "id": "c5",
-        "text": "use",
+        "id": "c12",
+        "text": "dashboards",
         "isDistractor": false,
-        "translation": "solía"
+        "translation": "paneles"
       },
       {
         "id": "d4",
-        "text": "styling",
+        "text": "monitored",
         "isDistractor": true,
-        "translation": "estilización"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "frontend": "frontend",
-      "developer": "desarrollador",
-      "didn't": "(negación pasada)",
-      "use": "solía",
-      "to": "(marca de infinitivo)",
-      "style": "estilizar",
-      "components": "componentes",
-      "with": "con",
-      "css-in-js": "CSS-in-JS",
-      "libraries": "librerías",
-      "uses": "utiliza",
-      "him": "lo",
-      "does": "(auxiliar)",
-      "styling": "estilización",
-      "would": "(condicional)"
-    },
-    "metadata": {
-      "tense": "used to",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El equipo",
-      "Verbo: soler (acción habitual en el pasado)",
-      "Complemento: integrar el código manualmente",
-      "Tiempo: antes de implementar canalizaciones de CI/CD automatizadas"
-    ],
-    "hintDisplay": "Sujeto: El equipo / Verbo: soler (acción habitual en el pasado) / Complemento: integrar el código manualmente / Tiempo: antes de implementar canalizaciones de CI/CD automatizadas",
-    "spanishSentence": "El equipo solía integrar el código manualmente antes de implementar canalizaciones de CI/CD automatizadas.",
-    "correctSentence": "The team used to integrate code manually before implementing automated CI/CD pipelines.",
-    "cards": [
+        "translation": "monitoreábamos"
+      },
+      {
+        "id": "c8",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
       {
         "id": "c7",
         "text": "manually",
@@ -2131,45 +644,124 @@
       },
       {
         "id": "c6",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "used": "solíamos",
+      "to": "(marca de infinitivo)",
+      "monitor": "monitorear",
+      "system": "sistema",
+      "performance": "rendimiento",
+      "manually": "manualmente",
+      "before": "antes de",
+      "adopted": "adoptar",
+      "automated": "automáticos",
+      "dashboards": "paneles",
+      "monitored": "monitoreábamos",
+      "were": "(pasado continuo)",
+      "automate": "automatizar",
+      "proceeded": "procedimos"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: probar (negativo, hábito en el pasado)",
+      "Complemento: el código",
+      "Cláusula: antes de implementarlo"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: probar (negativo, hábito en el pasado) / Complemento: el código / Cláusula: antes de implementarlo",
+    "spanishSentence": "El equipo no solía probar el código antes de implementarlo.",
+    "correctSentence": "The team didn't use to test the code before deploying it.",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c8",
         "text": "code",
         "isDistractor": false,
         "translation": "código"
       },
       {
-        "id": "d4",
-        "text": "integrating",
-        "isDistractor": true,
-        "translation": "integrando"
+        "id": "c11",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "ello"
+      },
+      {
+        "id": "c3",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
-      },
-      {
-        "id": "d5",
-        "text": "deploy",
-        "isDistractor": true,
-        "translation": "desplegar"
-      },
-      {
-        "id": "d3",
-        "text": "were",
+        "text": "wasn't",
         "isDistractor": true,
         "translation": "(auxiliar)"
       },
       {
-        "id": "c3",
-        "text": "used",
+        "id": "c9",
+        "text": "before",
         "isDistractor": false,
-        "translation": "solía"
+        "translation": "antes de"
       },
       {
-        "id": "c12",
-        "text": "pipelines",
+        "id": "c1",
+        "text": "The",
         "isDistractor": false,
-        "translation": "canalizaciones"
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "doesn't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c10",
+        "text": "deploying",
+        "isDistractor": false,
+        "translation": "implementar"
+      },
+      {
+        "id": "c4",
+        "text": "use",
+        "isDistractor": false,
+        "translation": "usar"
+      },
+      {
+        "id": "c6",
+        "text": "test",
+        "isDistractor": false,
+        "translation": "probar"
+      },
+      {
+        "id": "d3",
+        "text": "weren't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c2",
@@ -2178,72 +770,186 @@
         "translation": "equipo"
       },
       {
-        "id": "c11",
-        "text": "CI/CD",
+        "id": "d4",
+        "text": "used",
+        "isDistractor": true,
+        "translation": "solía"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "team": "equipo",
+      "didn't": "(auxiliar)",
+      "used": "solía",
+      "to": "(marca de infinitivo)",
+      "test": "probar",
+      "code": "código",
+      "before": "antes de",
+      "deploying": "implementar",
+      "it": "ello",
+      "doesn't": "(auxiliar)",
+      "weren't": "(auxiliar)",
+      "wasn't": "(auxiliar)",
+      "use": "usar"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la desarrolladora frontend",
+      "Verbo: animar (pretérito imperfecto, hábito en el pasado)",
+      "Complemento: los cargadores de página con CSS puro"
+    ],
+    "hintDisplay": "Sujeto: la desarrolladora frontend / Verbo: animar (pretérito imperfecto, hábito en el pasado) / Complemento: los cargadores de página con CSS puro",
+    "spanishSentence": "Como la desarrolladora frontend, yo solía animar los cargadores de página con CSS puro.",
+    "correctSentence": "As the frontend developer, I used to animate the page loaders with pure CSS.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "used",
         "isDistractor": false,
-        "translation": "CI/CD"
+        "translation": "solía"
       },
       {
-        "id": "c10",
-        "text": "automated",
-        "isDistractor": false,
-        "translation": "automatizadas"
+        "id": "d1",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "era"
       },
       {
-        "id": "c5",
-        "text": "integrate",
+        "id": "c12",
+        "text": "with",
         "isDistractor": false,
-        "translation": "integrar"
+        "translation": "con"
       },
       {
-        "id": "c8",
-        "text": "before",
+        "id": "d2",
+        "text": "animated",
+        "isDistractor": true,
+        "translation": "animado"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
         "isDistractor": false,
-        "translation": "antes de"
+        "translation": "coma"
       },
       {
         "id": "c4",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrolladora"
+      },
+      {
+        "id": "c5",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "solía"
+      },
+      {
+        "id": "c7",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "c9",
-        "text": "implementing",
+        "id": "c3",
+        "text": "frontend",
         "isDistractor": false,
-        "translation": "implementar"
+        "translation": "frontend"
       },
       {
-        "id": "d2",
-        "text": "had",
+        "id": "c14",
+        "text": "CSS",
+        "isDistractor": false,
+        "translation": "CSS"
+      },
+      {
+        "id": "d4",
+        "text": "did",
         "isDistractor": true,
-        "translation": "había"
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c10",
+        "text": "page",
+        "isDistractor": false,
+        "translation": "de página"
+      },
+      {
+        "id": "c8",
+        "text": "animate",
+        "isDistractor": false,
+        "translation": "animar"
+      },
+      {
+        "id": "c11",
+        "text": "loaders",
+        "isDistractor": false,
+        "translation": "cargadores"
       },
       {
         "id": "c1",
-        "text": "The",
+        "text": "As",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "como"
+      },
+      {
+        "id": "d5",
+        "text": "animates",
+        "isDistractor": true,
+        "translation": "anima"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c13",
+        "text": "pure",
+        "isDistractor": false,
+        "translation": "puro"
       }
     ],
     "translations": {
-      "the": "(artículo)",
-      "team": "equipo",
+      "as": "como",
+      "the": "el",
+      "frontend": "frontend",
+      "developer": "desarrolladora",
+      "i": "yo",
       "used": "solía",
       "to": "(marca de infinitivo)",
-      "integrate": "integrar",
-      "code": "código",
-      "manually": "manualmente",
-      "before": "antes de",
-      "implementing": "implementar",
-      "automated": "automatizadas",
-      "ci/cd": "CI/CD",
-      "pipelines": "canalizaciones",
-      "uses": "usa",
-      "had": "había",
-      "were": "(auxiliar)",
-      "integrating": "integrando",
-      "deploy": "desplegar"
+      "animate": "animar",
+      "page": "de página",
+      "loaders": "cargadores",
+      "with": "con",
+      "pure": "puro",
+      "css": "CSS",
+      "would": "solía",
+      "animated": "animado",
+      "animates": "anima",
+      "was": "era",
+      "did": "(auxiliar)"
     },
     "metadata": {
       "tense": "used to",
@@ -2255,75 +961,32 @@
   },
   {
     "hints": [
-      "Sujeto: El arquitecto",
-      "Verbo: Soler (acción habitual en pasado)",
-      "Verbo: Evaluar",
-      "Complemento: Todos los diseños del sistema",
-      "Complemento: Antes de la implementación"
+      "Sujeto: el desarrollador",
+      "Verbo: optimizar (pretérito imperfecto, hábito)",
+      "Complemento: las consultas de la base de datos manualmente",
+      "Cláusula: antes de que el equipo adoptara herramientas automatizadas"
     ],
-    "hintDisplay": "Sujeto: El arquitecto / Verbo: Soler (acción habitual en pasado) / Verbo: Evaluar / Complemento: Todos los diseños del sistema / Complemento: Antes de la implementación",
-    "spanishSentence": "El arquitecto solía evaluar todos los diseños del sistema antes de la implementación.",
-    "correctSentence": "The architect used to evaluate all system designs before implementation.",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: optimizar (pretérito imperfecto, hábito) / Complemento: las consultas de la base de datos manualmente / Cláusula: antes de que el equipo adoptara herramientas automatizadas",
+    "spanishSentence": "El desarrollador solía optimizar las consultas de la base de datos manualmente antes de que el equipo adoptara herramientas automatizadas.",
+    "correctSentence": "The developer used to optimize the database queries manually before the team adopted automated tools.",
     "cards": [
       {
         "id": "c7",
-        "text": "system",
+        "text": "database",
         "isDistractor": false,
-        "translation": "sistema"
-      },
-      {
-        "id": "d5",
-        "text": "designer",
-        "isDistractor": true,
-        "translation": "diseñador"
+        "translation": "base de datos"
       },
       {
         "id": "c10",
-        "text": "implementation",
+        "text": "before",
         "isDistractor": false,
-        "translation": "implementación"
+        "translation": "antes de que"
       },
       {
-        "id": "c6",
-        "text": "all",
-        "isDistractor": false,
-        "translation": "todos"
-      },
-      {
-        "id": "c2",
-        "text": "architect",
-        "isDistractor": false,
-        "translation": "arquitecto"
-      },
-      {
-        "id": "d2",
-        "text": "will",
+        "id": "d1",
+        "text": "was",
         "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "d4",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "había"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "designs",
-        "isDistractor": false,
-        "translation": "diseños"
-      },
-      {
-        "id": "d3",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
+        "translation": "era"
       },
       {
         "id": "c4",
@@ -2332,16 +995,58 @@
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "d1",
-        "text": "uses",
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d2",
+        "text": "did",
         "isDistractor": true,
-        "translation": "usa"
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c14",
+        "text": "automated",
+        "isDistractor": false,
+        "translation": "automatizadas"
+      },
+      {
+        "id": "c5",
+        "text": "optimize",
+        "isDistractor": false,
+        "translation": "optimizar"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c9",
-        "text": "before",
+        "text": "manually",
         "isDistractor": false,
-        "translation": "antes de"
+        "translation": "manualmente"
+      },
+      {
+        "id": "c12",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c8",
+        "text": "queries",
+        "isDistractor": false,
+        "translation": "consultas"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c3",
@@ -2350,28 +1055,54 @@
         "translation": "solía"
       },
       {
-        "id": "c5",
-        "text": "evaluate",
+        "id": "c13",
+        "text": "adopted",
         "isDistractor": false,
-        "translation": "evaluar"
+        "translation": "adoptara"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c15",
+        "text": "tools",
+        "isDistractor": false,
+        "translation": "herramientas"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "solía"
+      },
+      {
+        "id": "d4",
+        "text": "optimized",
+        "isDistractor": true,
+        "translation": "optimizaba"
       }
     ],
     "translations": {
-      "the": "(artículo)",
-      "architect": "arquitecto",
+      "the": "el",
+      "developer": "desarrollador",
       "used": "solía",
       "to": "(marca de infinitivo)",
-      "evaluate": "evaluar",
-      "all": "todos",
-      "system": "sistema",
-      "designs": "diseños",
-      "before": "antes de",
-      "implementation": "implementación",
-      "uses": "usa",
-      "will": "(futuro)",
-      "him": "lo",
-      "had": "había",
-      "designer": "diseñador"
+      "optimize": "optimizar",
+      "database": "base de datos",
+      "queries": "consultas",
+      "manually": "manualmente",
+      "before": "antes de que",
+      "team": "equipo",
+      "adopted": "adoptara",
+      "automated": "automatizadas",
+      "tools": "herramientas",
+      "would": "solía",
+      "was": "era",
+      "did": "(auxiliar)",
+      "optimized": "optimizaba"
     },
     "metadata": {
       "tense": "used to",
@@ -2383,90 +1114,141 @@
   },
   {
     "hints": [
-      "Sujeto: Ellos",
-      "Verbo: Soler (hábito pasado)",
-      "Verbo: Revisar",
-      "Complemento: El código",
-      "Complemento: Manualmente",
-      "Verbo: Implementar",
-      "Complemento: Herramientas de pruebas automatizadas",
-      "Tiempo: Antes de (relación temporal entre dos acciones)"
+      "Sujeto: nosotros",
+      "Verbo: acostumbrar (pretérito imperfecto de indicativo)",
+      "Complemento: el código",
+      "Tiempo: solo al final del sprint",
+      "Cláusula: ahora lo hacemos a diario"
     ],
-    "hintDisplay": "Sujeto: Ellos / Verbo: Soler (hábito pasado) / Verbo: Revisar / Complemento: El código / Complemento: Manualmente / Verbo: Implementar / Complemento: Herramientas de pruebas automatizadas / Tiempo: Antes de (relación temporal entre dos acciones)",
-    "spanishSentence": "Ellos solían revisar el código manualmente antes de implementar herramientas de pruebas automatizadas.",
-    "correctSentence": "They used to review the code manually before implementing automated testing tools.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: acostumbrar (pretérito imperfecto de indicativo) / Complemento: el código / Tiempo: solo al final del sprint / Cláusula: ahora lo hacemos a diario",
+    "spanishSentence": "Solíamos revisar el código solo al final del sprint, pero ahora lo hacemos a diario.",
+    "correctSentence": "We used to review code only at the end of the sprint, but now we do it daily.",
     "cards": [
       {
-        "id": "d3",
-        "text": "reviewing",
-        "isDistractor": true,
-        "translation": "revisando"
-      },
-      {
-        "id": "d2",
-        "text": "were",
-        "isDistractor": true,
-        "translation": "(pretérito de ser/estar)"
-      },
-      {
-        "id": "c6",
+        "id": "c5",
         "text": "code",
         "isDistractor": false,
         "translation": "código"
       },
       {
-        "id": "c8",
-        "text": "before",
+        "id": "cm1",
+        "text": ",",
         "isDistractor": false,
-        "translation": "antes de"
+        "translation": "coma"
+      },
+      {
+        "id": "d1",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "podrían"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c14",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c12",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c13",
+        "text": "but",
+        "isDistractor": false,
+        "translation": "pero"
+      },
+      {
+        "id": "d2",
+        "text": "reviewed",
+        "isDistractor": true,
+        "translation": "revisado"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c3",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       },
       {
         "id": "c7",
-        "text": "manually",
+        "text": "at",
         "isDistractor": false,
-        "translation": "manualmente"
-      },
-      {
-        "id": "d5",
-        "text": "had",
-        "isDistractor": true,
-        "translation": "había"
+        "translation": "al"
       },
       {
         "id": "c2",
         "text": "used",
         "isDistractor": false,
-        "translation": "solían"
+        "translation": "solíamos"
+      },
+      {
+        "id": "c10",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c15",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
       },
       {
         "id": "d4",
-        "text": "him",
+        "text": "they",
         "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "c1",
-        "text": "They",
-        "isDistractor": false,
         "translation": "ellos"
       },
       {
+        "id": "c16",
+        "text": "do",
+        "isDistractor": false,
+        "translation": "hacemos"
+      },
+      {
+        "id": "c6",
+        "text": "only",
+        "isDistractor": false,
+        "translation": "solo"
+      },
+      {
+        "id": "c17",
+        "text": "it",
+        "isDistractor": false,
+        "translation": "lo"
+      },
+      {
         "id": "c9",
-        "text": "implementing",
+        "text": "end",
         "isDistractor": false,
-        "translation": "implementar"
-      },
-      {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
-      },
-      {
-        "id": "c11",
-        "text": "testing",
-        "isDistractor": false,
-        "translation": "pruebas"
+        "translation": "final"
       },
       {
         "id": "c4",
@@ -2475,48 +1257,40 @@
         "translation": "revisar"
       },
       {
-        "id": "c10",
-        "text": "automated",
-        "isDistractor": false,
-        "translation": "automatizadas"
+        "id": "d5",
+        "text": "mostly",
+        "isDistractor": true,
+        "translation": "mayormente"
       },
       {
-        "id": "c5",
-        "text": "the",
+        "id": "c18",
+        "text": "daily",
         "isDistractor": false,
-        "translation": "(artículo definido)"
-      },
-      {
-        "id": "c3",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c12",
-        "text": "tools",
-        "isDistractor": false,
-        "translation": "herramientas"
+        "translation": "a diario"
       }
     ],
     "translations": {
-      "they": "ellos",
-      "used": "solían",
+      "we": "nosotros",
+      "used": "solíamos",
       "to": "(marca de infinitivo)",
       "review": "revisar",
-      "the": "(artículo definido)",
       "code": "código",
-      "manually": "manualmente",
-      "before": "antes de",
-      "implementing": "implementar",
-      "automated": "automatizadas",
-      "testing": "pruebas",
-      "tools": "herramientas",
-      "uses": "usa",
-      "were": "(pretérito de ser/estar)",
-      "reviewing": "revisando",
-      "him": "lo",
-      "had": "había"
+      "only": "solo",
+      "at": "al",
+      "the": "el",
+      "end": "final",
+      "of": "de",
+      "sprint": "sprint",
+      "but": "pero",
+      "now": "ahora",
+      "do": "hacemos",
+      "it": "lo",
+      "daily": "a diario",
+      "reviewed": "revisado",
+      "will": "(futuro)",
+      "they": "ellos",
+      "might": "podrían",
+      "mostly": "mayormente"
     },
     "metadata": {
       "tense": "used to",
@@ -2528,18 +1302,27 @@
   },
   {
     "hints": [
-      "Sujeto: El equipo",
-      "Verbo: soler (acción habitual en el pasado)",
-      "Verbo: configurar",
-      "Complemento: los servidores",
-      "Complemento: manualmente",
-      "Tiempo: antes de implementar",
-      "Complemento: canalizaciones de implementación automatizadas"
+      "Sujeto: el equipo",
+      "Verbo: soler (en pasado, indicaba hábito)",
+      "Complemento: monitorear el rendimiento de la aplicación manualmente",
+      "Cláusula: antes de que cambiara a herramientas automatizadas"
     ],
-    "hintDisplay": "Sujeto: El equipo / Verbo: soler (acción habitual en el pasado) / Verbo: configurar / Complemento: los servidores / Complemento: manualmente / Tiempo: antes de implementar / Complemento: canalizaciones de implementación automatizadas",
-    "spanishSentence": "El equipo solía configurar los servidores manualmente antes de implementar canalizaciones de implementación automatizadas.",
-    "correctSentence": "The team used to configure the servers manually before implementing automated deployment pipelines.",
+    "hintDisplay": "Sujeto: el equipo / Verbo: soler (en pasado, indicaba hábito) / Complemento: monitorear el rendimiento de la aplicación manualmente / Cláusula: antes de que cambiara a herramientas automatizadas",
+    "spanishSentence": "El equipo solía monitorear el rendimiento de la aplicación manualmente antes de cambiar a herramientas automatizadas.",
+    "correctSentence": "The team used to monitor the application's performance manually before switching to automated tools.",
     "cards": [
+      {
+        "id": "c14",
+        "text": "tools",
+        "isDistractor": false,
+        "translation": "herramientas"
+      },
+      {
+        "id": "d1",
+        "text": "monitored",
+        "isDistractor": true,
+        "translation": "monitoreado"
+      },
       {
         "id": "c4",
         "text": "to",
@@ -2547,22 +1330,34 @@
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "d3",
-        "text": "would",
+        "id": "d2",
+        "text": "was",
         "isDistractor": true,
-        "translation": "solía"
+        "translation": "fue"
       },
       {
-        "id": "d2",
-        "text": "had",
+        "id": "d3",
+        "text": "switch",
         "isDistractor": true,
-        "translation": "había"
+        "translation": "cambio"
+      },
+      {
+        "id": "d4",
+        "text": "it",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "c8",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
       },
       {
         "id": "c7",
-        "text": "servers",
+        "text": "application's",
         "isDistractor": false,
-        "translation": "servidores"
+        "translation": "de la aplicación"
       },
       {
         "id": "c3",
@@ -2571,34 +1366,28 @@
         "translation": "solía"
       },
       {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
         "id": "c9",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      },
-      {
-        "id": "c13",
-        "text": "pipelines",
-        "isDistractor": false,
-        "translation": "canalizaciones"
-      },
-      {
-        "id": "c11",
-        "text": "automated",
-        "isDistractor": false,
-        "translation": "automatizadas"
-      },
-      {
-        "id": "c8",
         "text": "manually",
         "isDistractor": false,
         "translation": "manualmente"
       },
       {
-        "id": "c6",
-        "text": "the",
+        "id": "c13",
+        "text": "automated",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "automatizadas"
       },
       {
         "id": "c2",
@@ -2607,52 +1396,47 @@
         "translation": "equipo"
       },
       {
-        "id": "c12",
-        "text": "deployment",
-        "isDistractor": false,
-        "translation": "implementación"
-      },
-      {
         "id": "c5",
-        "text": "configure",
+        "text": "monitor",
         "isDistractor": false,
-        "translation": "configurar"
+        "translation": "monitorear"
       },
       {
-        "id": "d1",
-        "text": "uses",
-        "isDistractor": true,
-        "translation": "usa"
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c11",
+        "text": "switching",
+        "isDistractor": false,
+        "translation": "cambiar"
       },
       {
         "id": "c10",
-        "text": "implementing",
+        "text": "before",
         "isDistractor": false,
-        "translation": "implementar"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "antes de"
       }
     ],
     "translations": {
-      "the": "(artículo)",
+      "the": "el",
       "team": "equipo",
       "used": "solía",
       "to": "(marca de infinitivo)",
-      "configure": "configurar",
-      "servers": "servidores",
+      "monitor": "monitorear",
+      "application's": "de la aplicación",
+      "performance": "rendimiento",
       "manually": "manualmente",
       "before": "antes de",
-      "implementing": "implementar",
+      "switching": "cambiar",
       "automated": "automatizadas",
-      "deployment": "implementación",
-      "pipelines": "canalizaciones",
-      "uses": "usa",
-      "had": "había",
-      "would": "solía"
+      "tools": "herramientas",
+      "was": "fue",
+      "it": "lo",
+      "monitored": "monitoreado",
+      "switch": "cambio"
     },
     "metadata": {
       "tense": "used to",
@@ -2664,100 +1448,320 @@
   },
   {
     "hints": [
-      "Sujeto: El desarrollador",
-      "Verbo: soler (acción habitual en el pasado)",
-      "Verbo: refactorizar",
-      "Complemento: el código",
-      "Tiempo: en cada sprint",
-      "Complemento: para mejorar su mantenibilidad"
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: escalar",
+      "Complemento: los servidores manualmente",
+      "Tiempo: antes de que la empresa adoptara el autoescalado",
+      "Cláusula: (sin cláusula adicional)"
     ],
-    "hintDisplay": "Sujeto: El desarrollador / Verbo: soler (acción habitual en el pasado) / Verbo: refactorizar / Complemento: el código / Tiempo: en cada sprint / Complemento: para mejorar su mantenibilidad",
-    "spanishSentence": "El desarrollador solía refactorizar el código en cada sprint para mejorar su mantenibilidad.",
-    "correctSentence": "The developer used to refactor the code every sprint to improve its maintainability.",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: escalar / Complemento: los servidores manualmente / Tiempo: antes de que la empresa adoptara el autoescalado / Cláusula: (sin cláusula adicional)",
+    "spanishSentence": "El ingeniero de DevOps solía escalar los servidores manualmente antes de que la empresa adoptara el autoescalado.",
+    "correctSentence": "The DevOps engineer used to scale the servers manually before the company adopted auto-scaling.",
     "cards": [
       {
-        "id": "c7",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "c5",
-        "text": "refactor",
-        "isDistractor": false,
-        "translation": "refactorizar"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "improving",
+        "id": "d1",
+        "text": "scaling",
         "isDistractor": true,
-        "translation": "mejorando"
+        "translation": "escalado"
       },
       {
-        "id": "c9",
-        "text": "sprint",
+        "id": "c6",
+        "text": "scale",
         "isDistractor": false,
-        "translation": "sprint"
+        "translation": "escalar"
+      },
+      {
+        "id": "c8",
+        "text": "servers",
+        "isDistractor": false,
+        "translation": "servidores"
+      },
+      {
+        "id": "d2",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
+      },
+      {
+        "id": "c2",
+        "text": "DevOps",
+        "isDistractor": false,
+        "translation": "devops"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c11",
-        "text": "improve",
+        "text": "the",
         "isDistractor": false,
-        "translation": "mejorar"
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "d3",
+        "text": "uses",
+        "isDistractor": true,
+        "translation": "usa"
+      },
+      {
+        "id": "c14",
+        "text": "auto-scaling",
+        "isDistractor": false,
+        "translation": "autoescalado"
+      },
+      {
+        "id": "c13",
+        "text": "adopted",
+        "isDistractor": false,
+        "translation": "adoptó"
+      },
+      {
+        "id": "d4",
+        "text": "autoscaling",
+        "isDistractor": true,
+        "translation": "autoescalado"
       },
       {
         "id": "c4",
+        "text": "used",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "d5",
+        "text": "scaled",
+        "isDistractor": true,
+        "translation": "escalado"
+      },
+      {
+        "id": "c9",
+        "text": "manually",
+        "isDistractor": false,
+        "translation": "manualmente"
+      },
+      {
+        "id": "c5",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "c8",
-        "text": "every",
+        "id": "c1",
+        "text": "The",
         "isDistractor": false,
-        "translation": "cada"
+        "translation": "el"
       },
       {
         "id": "c12",
-        "text": "its",
+        "text": "company",
         "isDistractor": false,
-        "translation": "su"
-      },
-      {
-        "id": "c13",
-        "text": "maintainability",
-        "isDistractor": false,
-        "translation": "mantenibilidad"
-      },
-      {
-        "id": "d2",
-        "text": "refactored",
-        "isDistractor": true,
-        "translation": "refactorizado"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "empresa"
       },
       {
         "id": "c10",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de que"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "devops": "devops",
+      "engineer": "ingeniero",
+      "used": "solía",
+      "to": "(marca de infinitivo)",
+      "scale": "escalar",
+      "servers": "servidores",
+      "manually": "manualmente",
+      "before": "antes de que",
+      "company": "empresa",
+      "adopted": "adoptó",
+      "auto-scaling": "autoescalado",
+      "uses": "usa",
+      "scaling": "escalado",
+      "scaled": "escalado",
+      "had": "había",
+      "autoscaling": "autoescalado"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador frontend",
+      "Verbo: obtener (acostumbraba a)",
+      "Complemento: datos con XMLHttpRequest",
+      "Cláusula: antes de que adoptaran la API fetch"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: obtener (acostumbraba a) / Complemento: datos con XMLHttpRequest / Cláusula: antes de que adoptaran la API fetch",
+    "spanishSentence": "El desarrollador frontend solía obtener datos con XMLHttpRequest antes de que adoptaran la API fetch.",
+    "correctSentence": "The frontend developer used to fetch data with XMLHttpRequest before they adopted fetch API.",
+    "cards": [
+      {
+        "id": "c10",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d1",
+        "text": "retrieved",
+        "isDistractor": true,
+        "translation": "obtenía"
+      },
+      {
+        "id": "c11",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "d2",
+        "text": "fetching",
+        "isDistractor": true,
+        "translation": "obtención"
+      },
+      {
+        "id": "c14",
+        "text": "API",
+        "isDistractor": false,
+        "translation": "API"
+      },
+      {
+        "id": "c2",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c6",
+        "text": "fetch",
+        "isDistractor": false,
+        "translation": "obtener"
+      },
+      {
+        "id": "c13",
+        "text": "fetch",
+        "isDistractor": false,
+        "translation": "obtener"
+      },
+      {
+        "id": "c4",
+        "text": "used",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "c7",
+        "text": "data",
+        "isDistractor": false,
+        "translation": "datos"
+      },
+      {
+        "id": "c5",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
       },
       {
         "id": "c3",
-        "text": "used",
+        "text": "developer",
         "isDistractor": false,
-        "translation": "solía"
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c12",
+        "text": "adopted",
+        "isDistractor": false,
+        "translation": "adoptaron"
+      },
+      {
+        "id": "c9",
+        "text": "XMLHttpRequest",
+        "isDistractor": false,
+        "translation": "XMLHttpRequest"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "frontend": "frontend",
+      "developer": "desarrollador",
+      "used": "solía",
+      "to": "(marca de infinitivo)",
+      "fetch": "obtener",
+      "data": "datos",
+      "with": "con",
+      "xmlhttprequest": "XMLHttpRequest",
+      "before": "antes de",
+      "they": "ellos",
+      "adopted": "adoptaron",
+      "api": "API",
+      "retrieved": "obtenía",
+      "would": "(condicional)",
+      "fetching": "obtención"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: construir (pasado simple, hábito)",
+      "Complemento: aplicaciones monolíticas",
+      "Cláusula: antes de que pasara a microservicios"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: construir (pasado simple, hábito) / Complemento: aplicaciones monolíticas / Cláusula: antes de que pasara a microservicios",
+    "spanishSentence": "El desarrollador solía construir aplicaciones monolíticas antes de pasar a microservicios.",
+    "correctSentence": "The developer used to build monolithic applications before moving to microservices.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "applications",
+        "isDistractor": false,
+        "translation": "aplicaciones"
+      },
+      {
+        "id": "d1",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
       },
       {
         "id": "c2",
@@ -2766,31 +1770,1124 @@
         "translation": "desarrollador"
       },
       {
-        "id": "d1",
-        "text": "uses",
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c10",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c11",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      },
+      {
+        "id": "d2",
+        "text": "would",
         "isDistractor": true,
-        "translation": "usa"
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c3",
+        "text": "used",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "c6",
+        "text": "monolithic",
+        "isDistractor": false,
+        "translation": "monolíticas"
+      },
+      {
+        "id": "d3",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "era"
+      },
+      {
+        "id": "c9",
+        "text": "moving",
+        "isDistractor": false,
+        "translation": "pasar"
+      },
+      {
+        "id": "c8",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d4",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c5",
+        "text": "build",
+        "isDistractor": false,
+        "translation": "construir"
       }
     ],
     "translations": {
-      "the": "(artículo)",
+      "the": "el",
       "developer": "desarrollador",
       "used": "solía",
       "to": "(marca de infinitivo)",
-      "refactor": "refactorizar",
-      "code": "código",
-      "every": "cada",
-      "sprint": "sprint",
-      "improve": "mejorar",
-      "its": "su",
-      "maintainability": "mantenibilidad",
-      "uses": "usa",
-      "refactored": "refactorizado",
-      "improving": "mejorando"
+      "build": "construir",
+      "monolithic": "monolíticas",
+      "applications": "aplicaciones",
+      "before": "antes de",
+      "moving": "pasar",
+      "microservices": "microservicios",
+      "would": "(condicional)",
+      "was": "era",
+      "had": "había",
+      "did": "(auxiliar)"
     },
     "metadata": {
       "tense": "used to",
       "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: soler (negación en pasado)",
+      "Complemento: optimizar el código",
+      "Cláusula: antes de que (cada lanzamiento)"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: soler (negación en pasado) / Complemento: optimizar el código / Cláusula: antes de que (cada lanzamiento)",
+    "spanishSentence": "Ellos no solían optimizar el código antes de cada lanzamiento.",
+    "correctSentence": "They didn't use to optimize the codebase before every release.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "use",
+        "isDistractor": false,
+        "translation": "solían"
+      },
+      {
+        "id": "d1",
+        "text": "used",
+        "isDistractor": true,
+        "translation": "usado"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c2",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(auxiliar negativo)"
+      },
+      {
+        "id": "c1",
+        "text": "They",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "d2",
+        "text": "weren't",
+        "isDistractor": true,
+        "translation": "(auxiliar negativo pasado)"
+      },
+      {
+        "id": "c9",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c10",
+        "text": "release",
+        "isDistractor": false,
+        "translation": "lanzamiento"
+      },
+      {
+        "id": "c8",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d3",
+        "text": "optimized",
+        "isDistractor": true,
+        "translation": "optimizado"
+      },
+      {
+        "id": "c5",
+        "text": "optimize",
+        "isDistractor": false,
+        "translation": "optimizar"
+      },
+      {
+        "id": "c7",
+        "text": "codebase",
+        "isDistractor": false,
+        "translation": "código base"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "they": "ellos",
+      "didn't": "(auxiliar negativo)",
+      "use": "solían",
+      "to": "(marca de infinitivo)",
+      "optimize": "optimizar",
+      "the": "el",
+      "codebase": "código base",
+      "before": "antes de",
+      "every": "cada",
+      "release": "lanzamiento",
+      "weren't": "(auxiliar negativo pasado)",
+      "used": "usado",
+      "optimized": "optimizado"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador de backend",
+      "Verbo: consultar (pasado simple)",
+      "Complemento: la base de datos con escaneos completos de tabla",
+      "Cláusula: antes de que nosotros introdujéramos los índices"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador de backend / Verbo: consultar (pasado simple) / Complemento: la base de datos con escaneos completos de tabla / Cláusula: antes de que nosotros introdujéramos los índices",
+    "spanishSentence": "Antes de que introdujéramos los índices, el desarrollador de backend solía consultar la base de datos con escaneos completos de tabla.",
+    "correctSentence": "Before we introduced indexes, the backend developer used to query the database with full table scans.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "indexes",
+        "isDistractor": false,
+        "translation": "índices"
+      },
+      {
+        "id": "c7",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c16",
+        "text": "scans",
+        "isDistractor": false,
+        "translation": "escaneos"
+      },
+      {
+        "id": "d1",
+        "text": "queries",
+        "isDistractor": true,
+        "translation": "consultas"
+      },
+      {
+        "id": "c10",
+        "text": "query",
+        "isDistractor": false,
+        "translation": "consultar"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c12",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "c8",
+        "text": "used",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "d2",
+        "text": "developers",
+        "isDistractor": true,
+        "translation": "desarrolladores"
+      },
+      {
+        "id": "c6",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "d3",
+        "text": "searches",
+        "isDistractor": true,
+        "translation": "búsquedas"
+      },
+      {
+        "id": "c13",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c15",
+        "text": "table",
+        "isDistractor": false,
+        "translation": "tabla"
+      },
+      {
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c1",
+        "text": "Before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "d4",
+        "text": "scan",
+        "isDistractor": true,
+        "translation": "escaneo"
+      },
+      {
+        "id": "c3",
+        "text": "introduced",
+        "isDistractor": false,
+        "translation": "introdujimos"
+      },
+      {
+        "id": "c14",
+        "text": "full",
+        "isDistractor": false,
+        "translation": "completos"
+      },
+      {
+        "id": "d5",
+        "text": "tables",
+        "isDistractor": true,
+        "translation": "tablas"
+      }
+    ],
+    "translations": {
+      "before": "antes de",
+      "we": "nosotros",
+      "introduced": "introdujimos",
+      "indexes": "índices",
+      "the": "el",
+      "backend": "backend",
+      "developer": "desarrollador",
+      "used": "solía",
+      "to": "(marca de infinitivo)",
+      "query": "consultar",
+      "database": "base de datos",
+      "with": "con",
+      "full": "completos",
+      "table": "tabla",
+      "scans": "escaneos",
+      "queries": "consultas",
+      "searches": "búsquedas",
+      "tables": "tablas",
+      "developers": "desarrolladores",
+      "scan": "escaneo"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto",
+      "Verbo: soler (en negativo)",
+      "Complemento: planear el esquema de la base de datos",
+      "Tiempo: antes de escribir el código",
+      "Cláusula: antes de que escribiera el código"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: soler (en negativo) / Complemento: planear el esquema de la base de datos / Tiempo: antes de escribir el código / Cláusula: antes de que escribiera el código",
+    "spanishSentence": "El arquitecto no solía planear el esquema de la base de datos antes de escribir el código.",
+    "correctSentence": "The architect didn't use to plan the database schema before writing the code.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "doesn't",
+        "isDistractor": true,
+        "translation": "(auxiliar negativo)"
+      },
+      {
+        "id": "d2",
+        "text": "schemae",
+        "isDistractor": true,
+        "translation": "esquemas"
+      },
+      {
+        "id": "c9",
+        "text": "schema",
+        "isDistractor": false,
+        "translation": "esquema"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c11",
+        "text": "writing",
+        "isDistractor": false,
+        "translation": "escribir"
+      },
+      {
+        "id": "c3",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(auxiliar negativo)"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c6",
+        "text": "plan",
+        "isDistractor": false,
+        "translation": "planear"
+      },
+      {
+        "id": "d3",
+        "text": "architectress",
+        "isDistractor": true,
+        "translation": "arquitecta"
+      },
+      {
+        "id": "d4",
+        "text": "used",
+        "isDistractor": true,
+        "translation": "solía"
+      },
+      {
+        "id": "c4",
+        "text": "use",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "d5",
+        "text": "won't",
+        "isDistractor": true,
+        "translation": "(futuro negativo)"
+      },
+      {
+        "id": "c10",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c8",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "c13",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c2",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "architect": "arquitecto",
+      "didn't": "(auxiliar negativo)",
+      "use": "solía",
+      "to": "(marca de infinitivo)",
+      "plan": "planear",
+      "database": "base de datos",
+      "schema": "esquema",
+      "before": "antes de",
+      "writing": "escribir",
+      "code": "código",
+      "used": "solía",
+      "doesn't": "(auxiliar negativo)",
+      "won't": "(futuro negativo)",
+      "architectress": "arquitecta",
+      "schemae": "esquemas"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: soler (hábito en el pasado)",
+      "Complemento: refactorizar el código legado",
+      "Tiempo: cada viernes por la tarde"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: soler (hábito en el pasado) / Complemento: refactorizar el código legado / Tiempo: cada viernes por la tarde",
+    "spanishSentence": "El desarrollador solía refactorizar el código legado cada viernes por la tarde.",
+    "correctSentence": "The developer used to refactor the legacy code every Friday afternoon.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c5",
+        "text": "refactor",
+        "isDistractor": false,
+        "translation": "refactorizar"
+      },
+      {
+        "id": "c3",
+        "text": "used",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "d1",
+        "text": "refactors",
+        "isDistractor": true,
+        "translation": "refactoriza"
+      },
+      {
+        "id": "c9",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "d3",
+        "text": "morning",
+        "isDistractor": true,
+        "translation": "mañana"
+      },
+      {
+        "id": "c10",
+        "text": "Friday",
+        "isDistractor": false,
+        "translation": "viernes"
+      },
+      {
+        "id": "d4",
+        "text": "refactored",
+        "isDistractor": true,
+        "translation": "refactorizó"
+      },
+      {
+        "id": "c11",
+        "text": "afternoon",
+        "isDistractor": false,
+        "translation": "tarde"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "legacy",
+        "isDistractor": false,
+        "translation": "legado"
+      },
+      {
+        "id": "d5",
+        "text": "coded",
+        "isDistractor": true,
+        "translation": "codificado"
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c8",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "developer": "desarrollador",
+      "used": "solía",
+      "to": "(marca de infinitivo)",
+      "refactor": "refactorizar",
+      "legacy": "legado",
+      "code": "código",
+      "every": "cada",
+      "friday": "viernes",
+      "afternoon": "tarde",
+      "refactors": "refactoriza",
+      "would": "(condicional)",
+      "refactored": "refactorizó",
+      "coded": "codificado",
+      "morning": "mañana"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto",
+      "Verbo: diseñar (pretérito imperfecto, hábito en el pasado)",
+      "Complemento: sistemas monolíticos",
+      "Cláusula: antes de que los microservicios se volvieran populares"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: diseñar (pretérito imperfecto, hábito en el pasado) / Complemento: sistemas monolíticos / Cláusula: antes de que los microservicios se volvieran populares",
+    "spanishSentence": "El arquitecto solía diseñar sistemas monolíticos antes de que los microservicios se volvieran populares.",
+    "correctSentence": "The architect used to design monolithic systems before microservices became popular.",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "popular",
+        "isDistractor": false,
+        "translation": "populares"
+      },
+      {
+        "id": "d1",
+        "text": "architected",
+        "isDistractor": true,
+        "translation": "arquitecturó"
+      },
+      {
+        "id": "c8",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de que"
+      },
+      {
+        "id": "c7",
+        "text": "systems",
+        "isDistractor": false,
+        "translation": "sistemas"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c2",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "c6",
+        "text": "monolithic",
+        "isDistractor": false,
+        "translation": "monolíticos"
+      },
+      {
+        "id": "c9",
+        "text": "microservices",
+        "isDistractor": false,
+        "translation": "microservicios"
+      },
+      {
+        "id": "d2",
+        "text": "constructed",
+        "isDistractor": true,
+        "translation": "construyó"
+      },
+      {
+        "id": "d3",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c3",
+        "text": "used",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "c10",
+        "text": "became",
+        "isDistractor": false,
+        "translation": "se volvieran"
+      },
+      {
+        "id": "c5",
+        "text": "design",
+        "isDistractor": false,
+        "translation": "diseñar"
+      },
+      {
+        "id": "d4",
+        "text": "designed",
+        "isDistractor": true,
+        "translation": "diseñó"
+      },
+      {
+        "id": "d5",
+        "text": "developed",
+        "isDistractor": true,
+        "translation": "desarrolló"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "architect": "arquitecto",
+      "used": "solía",
+      "to": "(marca de infinitivo)",
+      "design": "diseñar",
+      "monolithic": "monolíticos",
+      "systems": "sistemas",
+      "before": "antes de que",
+      "microservices": "microservicios",
+      "became": "se volvieran",
+      "popular": "populares",
+      "would": "(condicional)",
+      "designed": "diseñó",
+      "developed": "desarrolló",
+      "constructed": "construyó",
+      "architected": "arquitecturó"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: la desarrolladora frontend",
+      "Verbo: soler (hábito en el pasado)",
+      "Complemento: estilar la interfaz de usuario con CSS en línea",
+      "Cláusula: pero ahora dependo de una biblioteca de componentes"
+    ],
+    "hintDisplay": "Sujeto: la desarrolladora frontend / Verbo: soler (hábito en el pasado) / Complemento: estilar la interfaz de usuario con CSS en línea / Cláusula: pero ahora dependo de una biblioteca de componentes",
+    "spanishSentence": "Como la desarrolladora frontend, solía estilar la interfaz de usuario con CSS en línea, pero ahora dependo de una biblioteca de componentes.",
+    "correctSentence": "As the frontend developer, I used to style the user interface with inline CSS, but now I rely on a component library.",
+    "cards": [
+      {
+        "id": "cm2",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c11",
+        "text": "interface",
+        "isDistractor": false,
+        "translation": "interfaz"
+      },
+      {
+        "id": "c1",
+        "text": "As",
+        "isDistractor": false,
+        "translation": "como"
+      },
+      {
+        "id": "d1",
+        "text": "depending",
+        "isDistractor": true,
+        "translation": "dependiendo"
+      },
+      {
+        "id": "c17",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c14",
+        "text": "CSS",
+        "isDistractor": false,
+        "translation": "CSS"
+      },
+      {
+        "id": "c21",
+        "text": "component",
+        "isDistractor": false,
+        "translation": "componentes"
+      },
+      {
+        "id": "c15",
+        "text": "but",
+        "isDistractor": false,
+        "translation": "pero"
+      },
+      {
+        "id": "d2",
+        "text": "relied",
+        "isDistractor": true,
+        "translation": "dependido"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c8",
+        "text": "style",
+        "isDistractor": false,
+        "translation": "estilar"
+      },
+      {
+        "id": "c5",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c16",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c10",
+        "text": "user",
+        "isDistractor": false,
+        "translation": "usuario"
+      },
+      {
+        "id": "c20",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "una"
+      },
+      {
+        "id": "c22",
+        "text": "library",
+        "isDistractor": false,
+        "translation": "biblioteca"
+      },
+      {
+        "id": "c4",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrolladora"
+      },
+      {
+        "id": "c19",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c3",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "c12",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d3",
+        "text": "styling",
+        "isDistractor": true,
+        "translation": "estilado"
+      },
+      {
+        "id": "c7",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c18",
+        "text": "rely",
+        "isDistractor": false,
+        "translation": "dependo"
+      },
+      {
+        "id": "c13",
+        "text": "inline",
+        "isDistractor": false,
+        "translation": "en línea"
+      },
+      {
+        "id": "c6",
+        "text": "used",
+        "isDistractor": false,
+        "translation": "solía"
+      },
+      {
+        "id": "d4",
+        "text": "styled",
+        "isDistractor": true,
+        "translation": "estilado"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      }
+    ],
+    "translations": {
+      "as": "como",
+      "the": "la",
+      "frontend": "frontend",
+      "developer": "desarrolladora",
+      "i": "yo",
+      "used": "solía",
+      "to": "(marca de infinitivo)",
+      "style": "estilar",
+      "user": "usuario",
+      "interface": "interfaz",
+      "with": "con",
+      "inline": "en línea",
+      "css": "CSS",
+      "but": "pero",
+      "now": "ahora",
+      "rely": "dependo",
+      "on": "de",
+      "a": "una",
+      "component": "componentes",
+      "library": "biblioteca",
+      "styling": "estilado",
+      "styled": "estilado",
+      "relied": "dependido",
+      "depending": "dependiendo"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: los desarrolladores",
+      "Verbo: depurar (negación en pasado, hábito que ya no ocurre)",
+      "Complemento: el sistema manualmente",
+      "Tiempo: no aplica (la frase no tiene marcador temporal concreto)"
+    ],
+    "hintDisplay": "Sujeto: los desarrolladores / Verbo: depurar (negación en pasado, hábito que ya no ocurre) / Complemento: el sistema manualmente / Tiempo: no aplica (la frase no tiene marcador temporal concreto)",
+    "spanishSentence": "Los desarrolladores no solían depurar el sistema manualmente.",
+    "correctSentence": "The developers didn't use to debug the system manually.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "los"
+      },
+      {
+        "id": "c2",
+        "text": "developers",
+        "isDistractor": false,
+        "translation": "desarrolladores"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "los"
+      },
+      {
+        "id": "d1",
+        "text": "debugged",
+        "isDistractor": true,
+        "translation": "depurado"
+      },
+      {
+        "id": "c3",
+        "text": "didn't",
+        "isDistractor": false,
+        "translation": "(auxiliar negación)"
+      },
+      {
+        "id": "c4",
+        "text": "use",
+        "isDistractor": false,
+        "translation": "uso"
+      },
+      {
+        "id": "d2",
+        "text": "using",
+        "isDistractor": true,
+        "translation": "usando"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d3",
+        "text": "don't",
+        "isDistractor": true,
+        "translation": "(auxiliar negación)"
+      },
+      {
+        "id": "c6",
+        "text": "debug",
+        "isDistractor": false,
+        "translation": "depurar"
+      },
+      {
+        "id": "c9",
+        "text": "manually",
+        "isDistractor": false,
+        "translation": "manualmente"
+      },
+      {
+        "id": "c8",
+        "text": "system",
+        "isDistractor": false,
+        "translation": "sistema"
+      },
+      {
+        "id": "d4",
+        "text": "used",
+        "isDistractor": true,
+        "translation": "solían"
+      }
+    ],
+    "translations": {
+      "the": "los",
+      "developers": "desarrolladores",
+      "didn't": "(auxiliar negación)",
+      "used": "solían",
+      "to": "(marca de infinitivo)",
+      "debug": "depurar",
+      "system": "sistema",
+      "manually": "manualmente",
+      "use": "uso",
+      "debugged": "depurado",
+      "don't": "(auxiliar negación)",
+      "using": "usando"
+    },
+    "metadata": {
+      "tense": "used to",
+      "isNegative": true,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "software engineering"
