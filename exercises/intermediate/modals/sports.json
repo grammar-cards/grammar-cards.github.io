@@ -1,21 +1,155 @@
 [
   {
     "hints": [
-      "Sujeto: el árbitro",
-      "Verbo: poder (habilidad/permiso)",
-      "Verbo: advertir",
-      "Complemento: al jugador",
-      "Complemento: por conducta antideportiva"
+      "Sujeto: el capitán",
+      "Verbo: poder (no poder / incapacidad)",
+      "Complemento: organizar al equipo para el partido",
+      "Tiempo: no hay marcador temporal explícito"
     ],
-    "hintDisplay": "Sujeto: el árbitro / Verbo: poder (habilidad/permiso) / Verbo: advertir / Complemento: al jugador / Complemento: por conducta antideportiva",
-    "spanishSentence": "El árbitro podría advertir al jugador por conducta antideportiva.",
-    "correctSentence": "The referee could warn the player for unsportsmanlike conduct.",
+    "hintDisplay": "Sujeto: el capitán / Verbo: poder (no poder / incapacidad) / Complemento: organizar al equipo para el partido / Tiempo: no hay marcador temporal explícito",
+    "spanishSentence": "El capitán no puede organizar al equipo para el partido.",
+    "correctSentence": "The captain cannot organize the team for the match.",
     "cards": [
+      {
+        "id": "c4",
+        "text": "organize",
+        "isDistractor": false,
+        "translation": "organizar"
+      },
+      {
+        "id": "d2",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "poder"
+      },
+      {
+        "id": "c6",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "d1",
+        "text": "couldn't",
+        "isDistractor": true,
+        "translation": "(pasado de no poder)"
+      },
+      {
+        "id": "c9",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
+      },
+      {
+        "id": "c7",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c3",
+        "text": "cannot",
+        "isDistractor": false,
+        "translation": "no puede"
+      },
       {
         "id": "c5",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
+      },
+      {
+        "id": "c2",
+        "text": "captain",
+        "isDistractor": false,
+        "translation": "capitán"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d4",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "captain": "capitán",
+      "cannot": "no puede",
+      "organize": "organizar",
+      "team": "equipo",
+      "for": "para",
+      "match": "partido",
+      "couldn't": "(pasado de no poder)",
+      "can": "poder",
+      "will": "(futuro)",
+      "they": "ellos"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú",
+      "Verbo: poder (posibilidad)",
+      "Complemento: el campeonato",
+      "Cláusula: si sigues entrenando duro"
+    ],
+    "hintDisplay": "Sujeto: tú / Verbo: poder (posibilidad) / Complemento: el campeonato / Cláusula: si sigues entrenando duro",
+    "spanishSentence": "Podrías ganar el campeonato si sigues entrenando duro.",
+    "correctSentence": "You could win the championship if you keep training hard.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "You",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c5",
+        "text": "championship",
+        "isDistractor": false,
+        "translation": "campeonato"
+      },
+      {
+        "id": "c3",
+        "text": "win",
+        "isDistractor": false,
+        "translation": "ganar"
+      },
+      {
+        "id": "c8",
+        "text": "keep",
+        "isDistractor": false,
+        "translation": "sigues"
       },
       {
         "id": "d1",
@@ -24,92 +158,68 @@
         "translation": "(posibilidad)"
       },
       {
-        "id": "d5",
-        "text": "dismissed",
-        "isDistractor": true,
-        "translation": "expulsado"
-      },
-      {
         "id": "d3",
-        "text": "behavior",
+        "text": "would",
         "isDistractor": true,
-        "translation": "comportamiento"
-      },
-      {
-        "id": "c9",
-        "text": "conduct",
-        "isDistractor": false,
-        "translation": "conducta"
-      },
-      {
-        "id": "c7",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "por"
-      },
-      {
-        "id": "d4",
-        "text": "punishment",
-        "isDistractor": true,
-        "translation": "castigo"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "could",
-        "isDistractor": false,
         "translation": "(condicional)"
       },
       {
-        "id": "c8",
-        "text": "unsportsmanlike",
-        "isDistractor": false,
-        "translation": "antideportiva"
-      },
-      {
-        "id": "c6",
-        "text": "player",
-        "isDistractor": false,
-        "translation": "jugador"
+        "id": "d2",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "c2",
-        "text": "referee",
+        "text": "could",
         "isDistractor": false,
-        "translation": "árbitro"
+        "translation": "podrías"
       },
       {
-        "id": "d2",
-        "text": "reprimand",
+        "id": "c9",
+        "text": "training",
+        "isDistractor": false,
+        "translation": "entrenando"
+      },
+      {
+        "id": "c6",
+        "text": "if",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "c10",
+        "text": "hard",
+        "isDistractor": false,
+        "translation": "duro"
+      },
+      {
+        "id": "d4",
+        "text": "may",
         "isDistractor": true,
-        "translation": "reprender"
+        "translation": "(posibilidad)"
       },
       {
-        "id": "c4",
-        "text": "warn",
+        "id": "c7",
+        "text": "you",
         "isDistractor": false,
-        "translation": "advertir"
+        "translation": "tú"
       }
     ],
     "translations": {
-      "the": "(artículo)",
-      "referee": "árbitro",
-      "could": "(condicional)",
-      "warn": "advertir",
-      "player": "jugador",
-      "for": "por",
-      "unsportsmanlike": "antideportiva",
-      "conduct": "conducta",
+      "you": "tú",
+      "could": "podrías",
+      "win": "ganar",
+      "the": "el",
+      "championship": "campeonato",
+      "if": "si",
+      "keep": "sigues",
+      "training": "entrenando",
+      "hard": "duro",
       "might": "(posibilidad)",
-      "reprimand": "reprender",
-      "behavior": "comportamiento",
-      "punishment": "castigo",
-      "dismissed": "expulsado"
+      "shall": "(futuro)",
+      "would": "(condicional)",
+      "may": "(posibilidad)"
     },
     "metadata": {
       "tense": "modals",
@@ -121,103 +231,316 @@
   },
   {
     "hints": [
-      "Sujeto: tú",
-      "Verbo: deber (obligación/recomendación)",
-      "Verbo: competir",
-      "Complemento: con confianza",
-      "Verbo: confiar",
-      "Complemento: en tu entrenamiento"
+      "Sujeto: el jugador",
+      "Verbo: poder (habilidad)",
+      "Complemento: defender el arco"
     ],
-    "hintDisplay": "Sujeto: tú / Verbo: deber (obligación/recomendación) / Verbo: competir / Complemento: con confianza / Verbo: confiar / Complemento: en tu entrenamiento",
-    "spanishSentence": "Deberías competir con confianza y confiar en tu entrenamiento.",
-    "correctSentence": "You should compete with confidence and trust your training.",
+    "hintDisplay": "Sujeto: el jugador / Verbo: poder (habilidad) / Complemento: defender el arco",
+    "spanishSentence": "El jugador no puede defender el arco.",
+    "correctSentence": "The player cannot defend the goal.",
     "cards": [
       {
-        "id": "c6",
-        "text": "confidence",
-        "isDistractor": false,
-        "translation": "confianza"
-      },
-      {
-        "id": "c10",
-        "text": "training",
-        "isDistractor": false,
-        "translation": "entrenamiento"
-      },
-      {
-        "id": "d2",
-        "text": "believing",
-        "isDistractor": true,
-        "translation": "creyendo"
-      },
-      {
         "id": "c5",
-        "text": "with",
+        "text": "the",
         "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "d3",
-        "text": "instruction",
-        "isDistractor": true,
-        "translation": "instrucción"
-      },
-      {
-        "id": "c9",
-        "text": "your",
-        "isDistractor": false,
-        "translation": "tu"
-      },
-      {
-        "id": "d1",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "c1",
-        "text": "You",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "c7",
-        "text": "and",
-        "isDistractor": false,
-        "translation": "y"
+        "translation": "el"
       },
       {
         "id": "c4",
-        "text": "compete",
+        "text": "defend",
         "isDistractor": false,
-        "translation": "competir"
+        "translation": "defender"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "his",
+        "isDistractor": true,
+        "translation": "su"
+      },
+      {
+        "id": "c2",
+        "text": "player",
+        "isDistractor": false,
+        "translation": "jugador"
+      },
+      {
+        "id": "c6",
+        "text": "goal",
+        "isDistractor": false,
+        "translation": "arco"
+      },
+      {
+        "id": "d4",
+        "text": "net",
+        "isDistractor": true,
+        "translation": "red"
+      },
+      {
+        "id": "d1",
+        "text": "defends",
+        "isDistractor": true,
+        "translation": "defiende"
+      },
+      {
+        "id": "c3",
+        "text": "cannot",
+        "isDistractor": false,
+        "translation": "no puede"
+      },
+      {
+        "id": "d2",
+        "text": "protect",
+        "isDistractor": true,
+        "translation": "proteger"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "player": "jugador",
+      "cannot": "no puede",
+      "defend": "defender",
+      "goal": "arco",
+      "defends": "defiende",
+      "protect": "proteger",
+      "his": "su",
+      "net": "red"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el árbitro",
+      "Verbo: deber (obligación moral)",
+      "Complemento: revisar la jugada",
+      "Cláusula: sin consultar al asistente"
+    ],
+    "hintDisplay": "Sujeto: el árbitro / Verbo: deber (obligación moral) / Complemento: revisar la jugada / Cláusula: sin consultar al asistente",
+    "spanishSentence": "El árbitro no debería revisar la jugada sin consultar al asistente.",
+    "correctSentence": "The referee should not review the play without consulting the assistant.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "play",
+        "isDistractor": false,
+        "translation": "jugada"
+      },
+      {
+        "id": "d3",
+        "text": "check",
+        "isDistractor": true,
+        "translation": "revisar"
+      },
+      {
+        "id": "c9",
+        "text": "consulting",
+        "isDistractor": false,
+        "translation": "consultar"
+      },
+      {
+        "id": "d4",
+        "text": "assist",
+        "isDistractor": true,
+        "translation": "asistir"
+      },
+      {
+        "id": "c5",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisar"
+      },
+      {
+        "id": "d1",
+        "text": "shouldn't",
+        "isDistractor": true,
+        "translation": "no debería"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "debería"
       },
       {
         "id": "c8",
-        "text": "trust",
+        "text": "without",
         "isDistractor": false,
-        "translation": "confiar"
+        "translation": "sin"
+      },
+      {
+        "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c11",
+        "text": "assistant",
+        "isDistractor": false,
+        "translation": "asistente"
+      },
+      {
+        "id": "c2",
+        "text": "referee",
+        "isDistractor": false,
+        "translation": "árbitro"
+      },
+      {
+        "id": "d2",
+        "text": "would",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "referee": "árbitro",
+      "should": "debería",
+      "not": "no",
+      "review": "revisar",
+      "play": "jugada",
+      "without": "sin",
+      "consulting": "consultar",
+      "assistant": "asistente",
+      "shouldn't": "no debería",
+      "would": "(condicional)",
+      "check": "revisar",
+      "assist": "asistir"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: competir (deber, obligación)",
+      "Complemento: en el torneo regional",
+      "Tiempo: (sin marcador temporal específico)"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: competir (deber, obligación) / Complemento: en el torneo regional / Tiempo: (sin marcador temporal específico)",
+    "spanishSentence": "Ellos deberían competir en el torneo regional.",
+    "correctSentence": "They should compete in the regional tournament.",
+    "cards": [
+      {
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c6",
+        "text": "regional",
+        "isDistractor": false,
+        "translation": "regional"
       },
       {
         "id": "c2",
         "text": "should",
         "isDistractor": false,
-        "translation": "debería"
+        "translation": "(deberían)"
+      },
+      {
+        "id": "d5",
+        "text": "championship",
+        "isDistractor": true,
+        "translation": "campeonato"
+      },
+      {
+        "id": "c7",
+        "text": "tournament",
+        "isDistractor": false,
+        "translation": "torneo"
+      },
+      {
+        "id": "c1",
+        "text": "They",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c3",
+        "text": "compete",
+        "isDistractor": false,
+        "translation": "competir"
+      },
+      {
+        "id": "d3",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "d4",
+        "text": "local",
+        "isDistractor": true,
+        "translation": "local"
+      },
+      {
+        "id": "d1",
+        "text": "participate",
+        "isDistractor": true,
+        "translation": "participar"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
       }
     ],
     "translations": {
-      "confidence": "confianza",
-      "training": "entrenamiento",
-      "believing": "creyendo",
-      "with": "con",
-      "instruction": "instrucción",
-      "your": "tu",
-      "could": "podría",
-      "you": "tú",
-      "and": "y",
+      "they": "ellos",
+      "should": "(deberían)",
       "compete": "competir",
-      "trust": "confiar",
-      "should": "debería"
+      "in": "en",
+      "the": "el",
+      "regional": "regional",
+      "tournament": "torneo",
+      "participate": "participar",
+      "he": "él",
+      "might": "podría",
+      "local": "local",
+      "championship": "campeonato"
     },
     "metadata": {
       "tense": "modals",
@@ -230,44 +553,61 @@
   {
     "hints": [
       "Sujeto: el equipo",
-      "Verbo: poder (posibilidad/permiso)",
-      "Verbo: jugar (infinitivo)",
-      "Complemento: en la final del campeonato",
-      "Complemento: debido a su bajo rendimiento"
+      "Verbo: tener (obligación)",
+      "Complemento: ganar cada partido",
+      "Cláusula: para clasificar"
     ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: poder (posibilidad/permiso) / Verbo: jugar (infinitivo) / Complemento: en la final del campeonato / Complemento: debido a su bajo rendimiento",
-    "spanishSentence": "El equipo puede que no juegue en la final del campeonato debido a su bajo rendimiento.",
-    "correctSentence": "The team may not play in the championship final due to their poor performance.",
+    "hintDisplay": "Sujeto: el equipo / Verbo: tener (obligación) / Complemento: ganar cada partido / Cláusula: para clasificar",
+    "spanishSentence": "El equipo no tiene que ganar cada partido para clasificar.",
+    "correctSentence": "The team doesn't have to win every game to qualify.",
     "cards": [
       {
         "id": "d1",
-        "text": "might",
+        "text": "mustn't",
         "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "c6",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c10",
-        "text": "due",
-        "isDistractor": false,
-        "translation": "debido"
+        "translation": "no debe"
       },
       {
         "id": "c8",
-        "text": "championship",
+        "text": "game",
         "isDistractor": false,
-        "translation": "campeonato"
+        "translation": "partido"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c6",
+        "text": "win",
+        "isDistractor": false,
+        "translation": "ganar"
+      },
+      {
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c7",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c4",
+        "text": "have",
+        "isDistractor": false,
+        "translation": "tener"
+      },
+      {
+        "id": "c10",
+        "text": "qualify",
+        "isDistractor": false,
+        "translation": "clasificar"
       },
       {
         "id": "c2",
@@ -276,100 +616,54 @@
         "translation": "equipo"
       },
       {
-        "id": "d4",
-        "text": "perform",
+        "id": "d2",
+        "text": "shouldn't",
         "isDistractor": true,
-        "translation": "rendimiento"
+        "translation": "no debería"
+      },
+      {
+        "id": "c3",
+        "text": "doesn't",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c1",
         "text": "The",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "d2",
-        "text": "plays",
+        "id": "d4",
+        "text": "hasn't",
         "isDistractor": true,
-        "translation": "juega"
+        "translation": "no ha"
       },
       {
         "id": "d3",
-        "text": "because",
+        "text": "needn't",
         "isDistractor": true,
-        "translation": "porque"
-      },
-      {
-        "id": "c9",
-        "text": "final",
-        "isDistractor": false,
-        "translation": "final"
-      },
-      {
-        "id": "c14",
-        "text": "performance",
-        "isDistractor": false,
-        "translation": "rendimiento"
-      },
-      {
-        "id": "c5",
-        "text": "play",
-        "isDistractor": false,
-        "translation": "jugar"
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c12",
-        "text": "their",
-        "isDistractor": false,
-        "translation": "su"
-      },
-      {
-        "id": "c11",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "a"
-      },
-      {
-        "id": "c3",
-        "text": "may",
-        "isDistractor": false,
-        "translation": "puede"
-      },
-      {
-        "id": "c13",
-        "text": "poor",
-        "isDistractor": false,
-        "translation": "bajo"
+        "translation": "no necesita"
       }
     ],
     "translations": {
-      "the": "(artículo)",
+      "the": "el",
       "team": "equipo",
-      "may": "puede",
-      "not": "no",
-      "play": "jugar",
-      "in": "en",
-      "championship": "campeonato",
-      "final": "final",
-      "due": "debido",
-      "to": "a",
-      "their": "su",
-      "poor": "bajo",
-      "performance": "rendimiento",
-      "might": "podría",
-      "plays": "juega",
-      "because": "porque",
-      "perform": "rendimiento"
+      "doesn't": "(auxiliar)",
+      "have": "tener",
+      "to": "(marca de infinitivo)",
+      "win": "ganar",
+      "every": "cada",
+      "game": "partido",
+      "qualify": "clasificar",
+      "mustn't": "no debe",
+      "shouldn't": "no debería",
+      "needn't": "no necesita",
+      "hasn't": "no ha"
     },
     "metadata": {
       "tense": "modals",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "sports"
@@ -377,14 +671,147 @@
   },
   {
     "hints": [
-      "Sujeto: Ellos",
-      "Verbo: tener (obligación/necesidad)",
-      "Complemento: competir de manera justa en el torneo"
+      "Sujeto: nosotros",
+      "Verbo: practicar",
+      "Complemento: todos los días",
+      "Cláusula: para mejorar nuestras habilidades"
     ],
-    "hintDisplay": "Sujeto: Ellos / Verbo: tener (obligación/necesidad) / Complemento: competir de manera justa en el torneo",
-    "spanishSentence": "Ellos tienen que competir de manera justa en el torneo.",
-    "correctSentence": "They have to compete fairly in the tournament.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: practicar / Complemento: todos los días / Cláusula: para mejorar nuestras habilidades",
+    "spanishSentence": "Deberíamos practicar todos los días para mejorar nuestras habilidades.",
+    "correctSentence": "We should practice every day to improve our skills.",
     "cards": [
+      {
+        "id": "d4",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c7",
+        "text": "improve",
+        "isDistractor": false,
+        "translation": "mejorar"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d1",
+        "text": "must",
+        "isDistractor": true,
+        "translation": "deber"
+      },
+      {
+        "id": "c4",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "todos"
+      },
+      {
+        "id": "c8",
+        "text": "our",
+        "isDistractor": false,
+        "translation": "nuestras"
+      },
+      {
+        "id": "c3",
+        "text": "practice",
+        "isDistractor": false,
+        "translation": "practicar"
+      },
+      {
+        "id": "c9",
+        "text": "skills",
+        "isDistractor": false,
+        "translation": "habilidades"
+      },
+      {
+        "id": "d2",
+        "text": "practicing",
+        "isDistractor": true,
+        "translation": "practicando"
+      },
+      {
+        "id": "d3",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "sus"
+      },
+      {
+        "id": "c5",
+        "text": "day",
+        "isDistractor": false,
+        "translation": "días"
+      },
+      {
+        "id": "d5",
+        "text": "abilities",
+        "isDistractor": true,
+        "translation": "capacidades"
+      },
+      {
+        "id": "c2",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c6",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "should": "(condicional)",
+      "practice": "practicar",
+      "every": "todos",
+      "day": "días",
+      "to": "(marca de infinitivo)",
+      "improve": "mejorar",
+      "our": "nuestras",
+      "skills": "habilidades",
+      "must": "deber",
+      "practicing": "practicando",
+      "their": "sus",
+      "could": "(condicional)",
+      "abilities": "capacidades"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el atleta",
+      "Verbo: poder (posibilidad)",
+      "Complemento: competir en el campeonato la próxima semana",
+      "Tiempo: la próxima semana"
+    ],
+    "hintDisplay": "Sujeto: el atleta / Verbo: poder (posibilidad) / Complemento: competir en el campeonato la próxima semana / Tiempo: la próxima semana",
+    "spanishSentence": "El atleta podría competir en el campeonato la próxima semana.",
+    "correctSentence": "The athlete might compete in the championship next week.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "competes",
+        "isDistractor": true,
+        "translation": "compite"
+      },
+      {
+        "id": "c5",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
       {
         "id": "c4",
         "text": "compete",
@@ -393,27 +820,116 @@
       },
       {
         "id": "d1",
-        "text": "has",
+        "text": "mighted",
         "isDistractor": true,
-        "translation": "tiene"
+        "translation": "(no válida, no se usa)"
+      },
+      {
+        "id": "c7",
+        "text": "championship",
+        "isDistractor": false,
+        "translation": "campeonato"
+      },
+      {
+        "id": "c8",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próxima"
+      },
+      {
+        "id": "d5",
+        "text": "nextly",
+        "isDistractor": true,
+        "translation": "(no válida, no se usa)"
+      },
+      {
+        "id": "c9",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
       },
       {
         "id": "c1",
-        "text": "They",
+        "text": "The",
         "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
-        "id": "d4",
-        "text": "should",
-        "isDistractor": true,
-        "translation": "deberían"
+        "translation": "el"
       },
       {
         "id": "c3",
-        "text": "to",
+        "text": "might",
         "isDistractor": false,
-        "translation": "(marca de infinitivo)"
+        "translation": "(posibilidad)"
+      },
+      {
+        "id": "d2",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c2",
+        "text": "athlete",
+        "isDistractor": false,
+        "translation": "atleta"
+      },
+      {
+        "id": "d4",
+        "text": "himself",
+        "isDistractor": true,
+        "translation": "sí mismo"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "athlete": "atleta",
+      "might": "(posibilidad)",
+      "compete": "competir",
+      "in": "en",
+      "championship": "campeonato",
+      "next": "próxima",
+      "week": "semana",
+      "mighted": "(no válida, no se usa)",
+      "could": "podría",
+      "competes": "compite",
+      "himself": "sí mismo",
+      "nextly": "(no válida, no se usa)"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: deber (obligación)",
+      "Complemento: competir en cada partido",
+      "Cláusula: para ganar el campeonato"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: deber (obligación) / Complemento: competir en cada partido / Cláusula: para ganar el campeonato",
+    "spanishSentence": "El equipo debe competir en cada partido para ganar el campeonato.",
+    "correctSentence": "The team must compete in every match to win the championship.",
+    "cards": [
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "competes",
+        "isDistractor": true,
+        "translation": "compite"
       },
       {
         "id": "d2",
@@ -422,562 +938,58 @@
         "translation": "compitiendo"
       },
       {
-        "id": "c7",
-        "text": "the",
+        "id": "c3",
+        "text": "must",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "debe"
       },
       {
-        "id": "c2",
-        "text": "have",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
+        "id": "d5",
+        "text": "should",
+        "isDistractor": true,
+        "translation": "debería"
       },
       {
-        "id": "c8",
+        "id": "d4",
         "text": "tournament",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "torneo"
       },
       {
-        "id": "c6",
+        "id": "c7",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
+      },
+      {
+        "id": "c5",
         "text": "in",
         "isDistractor": false,
         "translation": "en"
       },
       {
+        "id": "c6",
+        "text": "every",
+        "isDistractor": false,
+        "translation": "cada"
+      },
+      {
+        "id": "c2",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
         "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c5",
-        "text": "fairly",
-        "isDistractor": false,
-        "translation": "de manera justa"
-      }
-    ],
-    "translations": {
-      "they": "ellos",
-      "have": "(auxiliar)",
-      "to": "(marca de infinitivo)",
-      "compete": "competir",
-      "fairly": "de manera justa",
-      "in": "en",
-      "the": "(artículo)",
-      "tournament": "torneo",
-      "has": "tiene",
-      "competing": "compitiendo",
-      "them": "los",
-      "should": "deberían"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Yo (como capitán)",
-      "Verbo: poder (habilidad/posibilidad)",
-      "Complemento: jugar en el partido final",
-      "Complemento: si el entrenador decide darme la oportunidad"
-    ],
-    "hintDisplay": "Sujeto: Yo (como capitán) / Verbo: poder (habilidad/posibilidad) / Complemento: jugar en el partido final / Complemento: si el entrenador decide darme la oportunidad",
-    "spanishSentence": "Como capitán, podría jugar en el partido final si el entrenador decide darme la oportunidad.",
-    "correctSentence": "As the captain, I could play in the final match if the coach decides to give me the opportunity.",
-    "cards": [
-      {
-        "id": "d5",
-        "text": "gave",
-        "isDistractor": true,
-        "translation": "dio"
-      },
-      {
-        "id": "c14",
-        "text": "decides",
-        "isDistractor": false,
-        "translation": "decide"
-      },
-      {
-        "id": "c1",
-        "text": "As",
-        "isDistractor": false,
-        "translation": "como"
-      },
-      {
-        "id": "c16",
-        "text": "give",
-        "isDistractor": false,
-        "translation": "dar"
-      },
-      {
-        "id": "d1",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "haber"
-      },
-      {
-        "id": "c13",
-        "text": "coach",
-        "isDistractor": false,
-        "translation": "entrenador"
-      },
-      {
-        "id": "d2",
         "text": "played",
         "isDistractor": true,
         "translation": "jugado"
       },
       {
-        "id": "c4",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c9",
-        "text": "final",
-        "isDistractor": false,
-        "translation": "final"
-      },
-      {
-        "id": "c6",
-        "text": "play",
-        "isDistractor": false,
-        "translation": "jugar"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "captain",
-        "isDistractor": false,
-        "translation": "capitán"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c11",
-        "text": "if",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c19",
-        "text": "opportunity",
-        "isDistractor": false,
-        "translation": "oportunidad"
-      },
-      {
-        "id": "c5",
-        "text": "could",
-        "isDistractor": false,
-        "translation": "podría"
-      },
-      {
-        "id": "c18",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "might",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "c15",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c7",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c10",
-        "text": "match",
-        "isDistractor": false,
-        "translation": "partido"
-      },
-      {
-        "id": "c17",
-        "text": "me",
-        "isDistractor": false,
-        "translation": "me"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "d4",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "le"
-      }
-    ],
-    "translations": {
-      "as": "como",
-      "the": "(artículo)",
-      "captain": "capitán",
-      "i": "yo",
-      "could": "podría",
-      "play": "jugar",
-      "in": "en",
-      "final": "final",
-      "match": "partido",
-      "if": "si",
-      "coach": "entrenador",
-      "decides": "decide",
-      "to": "(marca de infinitivo)",
-      "give": "dar",
-      "me": "me",
-      "opportunity": "oportunidad",
-      "have": "haber",
-      "played": "jugado",
-      "might": "podría",
-      "him": "le",
-      "gave": "dio"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Tú",
-      "Verbo: poder (habilidad/permiso)",
-      "Complemento: hacer un cambio del portero",
-      "Complemento: durante el partido",
-      "Complemento: a menos que se lesione",
-      "Verbo: lesionarse"
-    ],
-    "hintDisplay": "Sujeto: Tú / Verbo: poder (habilidad/permiso) / Complemento: hacer un cambio del portero / Complemento: durante el partido / Complemento: a menos que se lesione / Verbo: lesionarse",
-    "spanishSentence": "No puedes hacer un cambio del portero durante el partido a menos que se lesione.",
-    "correctSentence": "You may not substitute the goalkeeper during the match unless he gets injured.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "replace",
-        "isDistractor": true,
-        "translation": "reemplazar"
-      },
-      {
-        "id": "c3",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c7",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "d3",
-        "text": "must",
-        "isDistractor": true,
-        "translation": "deber"
-      },
-      {
-        "id": "c6",
-        "text": "goalkeeper",
-        "isDistractor": false,
-        "translation": "portero"
-      },
-      {
-        "id": "c10",
-        "text": "unless",
-        "isDistractor": false,
-        "translation": "a menos que"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "may",
-        "isDistractor": false,
-        "translation": "(permiso/posibilidad)"
-      },
-      {
-        "id": "d2",
-        "text": "can",
-        "isDistractor": true,
-        "translation": "poder"
-      },
-      {
-        "id": "c4",
-        "text": "substitute",
-        "isDistractor": false,
-        "translation": "cambiar"
-      },
-      {
-        "id": "c9",
-        "text": "match",
-        "isDistractor": false,
-        "translation": "partido"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c13",
-        "text": "injured",
-        "isDistractor": false,
-        "translation": "lesiona"
-      },
-      {
-        "id": "c12",
-        "text": "gets",
-        "isDistractor": false,
-        "translation": "se"
-      },
-      {
-        "id": "c11",
-        "text": "he",
-        "isDistractor": false,
-        "translation": "él"
-      },
-      {
-        "id": "c1",
-        "text": "You",
-        "isDistractor": false,
-        "translation": "tú/usted"
-      }
-    ],
-    "translations": {
-      "you": "tú/usted",
-      "may": "(permiso/posibilidad)",
-      "not": "no",
-      "substitute": "cambiar",
-      "the": "(artículo)",
-      "goalkeeper": "portero",
-      "during": "durante",
-      "match": "partido",
-      "unless": "a menos que",
-      "he": "él",
-      "gets": "se",
-      "injured": "lesiona",
-      "replace": "reemplazar",
-      "can": "poder",
-      "must": "deber"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El jugador",
-      "Verbo: poder (posibilidad/capacidad)",
-      "Verbo: pasar (infinitivo)",
-      "Complemento: el balón",
-      "Complemento: a su compañero de equipo"
-    ],
-    "hintDisplay": "Sujeto: El jugador / Verbo: poder (posibilidad/capacidad) / Verbo: pasar (infinitivo) / Complemento: el balón / Complemento: a su compañero de equipo",
-    "spanishSentence": "El jugador podría pasar el balón a su compañero de equipo.",
-    "correctSentence": "The player might pass the ball to his teammate.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c4",
-        "text": "pass",
-        "isDistractor": false,
-        "translation": "pasar"
-      },
-      {
-        "id": "c8",
-        "text": "his",
-        "isDistractor": false,
-        "translation": "su"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "teammate",
-        "isDistractor": false,
-        "translation": "compañero de equipo"
-      },
-      {
         "id": "c1",
         "text": "The",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "might",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c6",
-        "text": "ball",
-        "isDistractor": false,
-        "translation": "balón"
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(preposición)"
-      },
-      {
-        "id": "d3",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "c2",
-        "text": "player",
-        "isDistractor": false,
-        "translation": "jugador"
-      },
-      {
-        "id": "d2",
-        "text": "passes",
-        "isDistractor": true,
-        "translation": "pasa"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "player": "jugador",
-      "might": "(condicional)",
-      "pass": "pasar",
-      "ball": "balón",
-      "to": "(preposición)",
-      "his": "su",
-      "teammate": "compañero de equipo",
-      "could": "(condicional)",
-      "passes": "pasa",
-      "their": "su"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nosotros",
-      "Verbo: deber (obligación/recomendación)",
-      "Verbo: competir",
-      "Complemento: sin entrenamiento adecuado"
-    ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: deber (obligación/recomendación) / Verbo: competir / Complemento: sin entrenamiento adecuado",
-    "spanishSentence": "No deberíamos competir sin entrenamiento adecuado.",
-    "correctSentence": "We should not compete without proper training.",
-    "cards": [
-      {
-        "id": "d4",
-        "text": "adequate",
-        "isDistractor": true,
-        "translation": "adecuado"
-      },
-      {
-        "id": "c5",
-        "text": "without",
-        "isDistractor": false,
-        "translation": "sin"
-      },
-      {
-        "id": "c3",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c7",
-        "text": "training",
-        "isDistractor": false,
-        "translation": "entrenamiento"
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c1",
-        "text": "We",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c2",
-        "text": "should",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c6",
-        "text": "proper",
-        "isDistractor": false,
-        "translation": "adecuado"
-      },
-      {
-        "id": "d2",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
+        "translation": "el"
       },
       {
         "id": "c4",
@@ -986,312 +998,40 @@
         "translation": "competir"
       },
       {
-        "id": "d1",
-        "text": "competed",
-        "isDistractor": true,
-        "translation": "competieron"
-      }
-    ],
-    "translations": {
-      "we": "nosotros",
-      "should": "(condicional)",
-      "not": "no",
-      "compete": "competir",
-      "without": "sin",
-      "proper": "adecuado",
-      "training": "entrenamiento",
-      "competed": "competieron",
-      "their": "su",
-      "does": "(auxiliar)",
-      "adequate": "adecuado"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Yo (como capitán)",
-      "Verbo: Poder (habilidad/capacidad)",
-      "Verbo: Comunicarse",
-      "Complemento: Con mis compañeros de equipo",
-      "Tiempo: Durante el partido"
-    ],
-    "hintDisplay": "Sujeto: Yo (como capitán) / Verbo: Poder (habilidad/capacidad) / Verbo: Comunicarse / Complemento: Con mis compañeros de equipo / Tiempo: Durante el partido",
-    "spanishSentence": "Como capitán, puedo comunicarme con mis compañeros de equipo durante el partido.",
-    "correctSentence": "As the captain, I am able to communicate with my teammates during the match.",
-    "cards": [
-      {
-        "id": "d3",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c13",
-        "text": "the",
+        "id": "c9",
+        "text": "win",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "able",
-        "isDistractor": false,
-        "translation": "capaz"
-      },
-      {
-        "id": "c1",
-        "text": "As",
-        "isDistractor": false,
-        "translation": "como"
-      },
-      {
-        "id": "c8",
-        "text": "communicate",
-        "isDistractor": false,
-        "translation": "comunicarme"
-      },
-      {
-        "id": "c10",
-        "text": "my",
-        "isDistractor": false,
-        "translation": "mis"
-      },
-      {
-        "id": "c5",
-        "text": "am",
-        "isDistractor": false,
-        "translation": "(presente)"
+        "translation": "ganar"
       },
       {
         "id": "c11",
-        "text": "teammates",
+        "text": "championship",
         "isDistractor": false,
-        "translation": "compañeros de equipo"
+        "translation": "campeonato"
       },
       {
-        "id": "c14",
-        "text": "match",
-        "isDistractor": false,
-        "translation": "partido"
-      },
-      {
-        "id": "d2",
-        "text": "communicating",
-        "isDistractor": true,
-        "translation": "comunicándose"
-      },
-      {
-        "id": "c12",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c3",
-        "text": "captain",
-        "isDistractor": false,
-        "translation": "capitán"
-      },
-      {
-        "id": "c9",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "c7",
+        "id": "c8",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d4",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "sus"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d1",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "c4",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
       }
     ],
     "translations": {
-      "as": "como",
-      "the": "(artículo)",
-      "captain": "capitán",
-      "i": "yo",
-      "am": "(presente)",
-      "able": "capaz",
-      "to": "(marca de infinitivo)",
-      "communicate": "comunicarme",
-      "with": "con",
-      "my": "mis",
-      "teammates": "compañeros de equipo",
-      "during": "durante",
-      "match": "partido",
-      "could": "podría",
-      "communicating": "comunicándose",
-      "was": "(pasado)",
-      "their": "sus"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El árbitro",
-      "Verbo: deber (obligación/necesidad)",
-      "Verbo: sancionar",
-      "Complemento: al jugador",
-      "Complemento: por cometer una falta",
-      "Tiempo: durante el partido"
-    ],
-    "hintDisplay": "Sujeto: El árbitro / Verbo: deber (obligación/necesidad) / Verbo: sancionar / Complemento: al jugador / Complemento: por cometer una falta / Tiempo: durante el partido",
-    "spanishSentence": "El árbitro debe sancionar al jugador por cometer una falta durante el partido.",
-    "correctSentence": "The referee must penalize the player for committing a foul during the match.",
-    "cards": [
-      {
-        "id": "c3",
-        "text": "must",
-        "isDistractor": false,
-        "translation": "debe"
-      },
-      {
-        "id": "d2",
-        "text": "sanctions",
-        "isDistractor": true,
-        "translation": "sanciones"
-      },
-      {
-        "id": "c9",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c13",
-        "text": "match",
-        "isDistractor": false,
-        "translation": "partido"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d1",
-        "text": "penalized",
-        "isDistractor": true,
-        "translation": "sancionado"
-      },
-      {
-        "id": "c6",
-        "text": "player",
-        "isDistractor": false,
-        "translation": "jugador"
-      },
-      {
-        "id": "d3",
-        "text": "matches",
-        "isDistractor": true,
-        "translation": "partidos"
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c8",
-        "text": "committing",
-        "isDistractor": false,
-        "translation": "cometer"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "referee",
-        "isDistractor": false,
-        "translation": "árbitro"
-      },
-      {
-        "id": "c10",
-        "text": "foul",
-        "isDistractor": false,
-        "translation": "falta"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "penalize",
-        "isDistractor": false,
-        "translation": "sancionar"
-      },
-      {
-        "id": "c7",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "por"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "referee": "árbitro",
+      "the": "el",
+      "team": "equipo",
       "must": "debe",
-      "penalize": "sancionar",
-      "player": "jugador",
-      "for": "por",
-      "committing": "cometer",
-      "a": "(artículo)",
-      "foul": "falta",
-      "during": "durante",
+      "compete": "competir",
+      "in": "en",
+      "every": "cada",
       "match": "partido",
-      "penalized": "sancionado",
-      "sanctions": "sanciones",
-      "matches": "partidos"
+      "to": "(marca de infinitivo)",
+      "win": "ganar",
+      "championship": "campeonato",
+      "competes": "compite",
+      "competing": "compitiendo",
+      "played": "jugado",
+      "tournament": "torneo",
+      "should": "debería"
     },
     "metadata": {
       "tense": "modals",
@@ -1304,62 +1044,49 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: deber (obligación/recomendación negativa)",
-      "Verbo: entrenar (infinitivo)",
-      "Complemento: demasiado",
-      "Tiempo: antes del partido"
+      "Verbo: poder (habilidad)",
+      "Complemento: competir en el partido final",
+      "Tiempo: (no hay marcador temporal explícito)"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: deber (obligación/recomendación negativa) / Verbo: entrenar (infinitivo) / Complemento: demasiado / Tiempo: antes del partido",
-    "spanishSentence": "No deberíamos entrenar demasiado antes del partido.",
-    "correctSentence": "We should not train too hard before the match.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: poder (habilidad) / Complemento: competir en el partido final / Tiempo: (no hay marcador temporal explícito)",
+    "spanishSentence": "No pudimos competir en el partido final.",
+    "correctSentence": "We could not compete in the final match.",
     "cards": [
       {
-        "id": "c7",
-        "text": "hard",
-        "isDistractor": false,
-        "translation": "intensamente"
-      },
-      {
-        "id": "d5",
-        "text": "hardly",
+        "id": "d2",
+        "text": "cannot",
         "isDistractor": true,
-        "translation": "apenas"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "no poder"
       },
       {
         "id": "c5",
-        "text": "train",
+        "text": "in",
         "isDistractor": false,
-        "translation": "entrenar"
+        "translation": "en"
       },
       {
-        "id": "c1",
-        "text": "We",
+        "id": "c7",
+        "text": "final",
         "isDistractor": false,
-        "translation": "nosotros"
+        "translation": "final"
       },
       {
-        "id": "d4",
-        "text": "trained",
-        "isDistractor": true,
-        "translation": "entrenaron"
+        "id": "c2",
+        "text": "could",
+        "isDistractor": false,
+        "translation": "(pasado de poder)"
       },
       {
         "id": "d1",
-        "text": "must",
+        "text": "couldn't",
         "isDistractor": true,
-        "translation": "debe"
+        "translation": "(no pudimos)"
       },
       {
         "id": "c8",
-        "text": "before",
+        "text": "match",
         "isDistractor": false,
-        "translation": "antes de"
+        "translation": "partido"
       },
       {
         "id": "c3",
@@ -1368,44 +1095,42 @@
         "translation": "no"
       },
       {
-        "id": "c6",
-        "text": "too",
+        "id": "c4",
+        "text": "compete",
         "isDistractor": false,
-        "translation": "demasiado"
+        "translation": "competir"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "d3",
-        "text": "they",
+        "text": "competed",
         "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c2",
-        "text": "should",
-        "isDistractor": false,
-        "translation": "debería"
-      },
-      {
-        "id": "c10",
-        "text": "match",
-        "isDistractor": false,
-        "translation": "partido"
+        "translation": "compitió"
       }
     ],
     "translations": {
-      "hard": "intensamente",
-      "hardly": "apenas",
-      "the": "(artículo)",
-      "train": "entrenar",
       "we": "nosotros",
-      "trained": "entrenaron",
-      "must": "debe",
-      "before": "antes de",
+      "could": "(pasado de poder)",
       "not": "no",
-      "too": "demasiado",
-      "they": "ellos",
-      "should": "debería",
-      "match": "partido"
+      "compete": "competir",
+      "in": "en",
+      "the": "el",
+      "final": "final",
+      "match": "partido",
+      "couldn't": "(no pudimos)",
+      "cannot": "no poder",
+      "competed": "compitió"
     },
     "metadata": {
       "tense": "modals",
@@ -1417,76 +1142,480 @@
   },
   {
     "hints": [
-      "Sujeto: El entrenador",
-      "Verbo: Tener (modal de obligación)",
-      "Verbo: Entrenar (infinitivo)",
-      "Complemento: al equipo",
-      "Tiempo: cada mañana",
-      "Complemento: antes del partido"
+      "Sujeto: ellos",
+      "Verbo: deberían defender (obligación o recomendación)",
+      "Complemento: más agresivamente",
+      "Cláusula: durante el partido"
     ],
-    "hintDisplay": "Sujeto: El entrenador / Verbo: Tener (modal de obligación) / Verbo: Entrenar (infinitivo) / Complemento: al equipo / Tiempo: cada mañana / Complemento: antes del partido",
-    "spanishSentence": "El entrenador tiene que entrenar al equipo cada mañana antes del partido.",
-    "correctSentence": "The coach has to train the team every morning before the match.",
+    "hintDisplay": "Sujeto: ellos / Verbo: deberían defender (obligación o recomendación) / Complemento: más agresivamente / Cláusula: durante el partido",
+    "spanishSentence": "Ellos deberían defender más agresivamente durante el partido.",
+    "correctSentence": "They should defend more aggressively during the match.",
     "cards": [
       {
-        "id": "d2",
-        "text": "trained",
-        "isDistractor": true,
-        "translation": "entrenado"
-      },
-      {
-        "id": "c10",
-        "text": "before",
+        "id": "c6",
+        "text": "during",
         "isDistractor": false,
-        "translation": "antes"
+        "translation": "durante"
       },
       {
-        "id": "d5",
-        "text": "afternoon",
-        "isDistractor": true,
-        "translation": "tarde"
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
-        "id": "d1",
-        "text": "trains",
-        "isDistractor": true,
-        "translation": "entrena"
+        "id": "c3",
+        "text": "defend",
+        "isDistractor": false,
+        "translation": "defender"
       },
       {
         "id": "d3",
-        "text": "their",
+        "text": "aggressive",
         "isDistractor": true,
-        "translation": "su"
+        "translation": "agresivo"
       },
       {
-        "id": "c12",
+        "id": "c8",
         "text": "match",
         "isDistractor": false,
         "translation": "partido"
       },
       {
+        "id": "d5",
+        "text": "matchs",
+        "isDistractor": true,
+        "translation": "partidos"
+      },
+      {
         "id": "c4",
+        "text": "more",
+        "isDistractor": false,
+        "translation": "más"
+      },
+      {
+        "id": "d4",
+        "text": "duringly",
+        "isDistractor": true,
+        "translation": "durante"
+      },
+      {
+        "id": "c5",
+        "text": "aggressively",
+        "isDistractor": false,
+        "translation": "agresivamente"
+      },
+      {
+        "id": "d2",
+        "text": "shouldn't",
+        "isDistractor": true,
+        "translation": "(negación de condicional)"
+      },
+      {
+        "id": "d1",
+        "text": "defends",
+        "isDistractor": true,
+        "translation": "defiende"
+      },
+      {
+        "id": "c2",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "(condicional)"
+      },
+      {
+        "id": "c1",
+        "text": "They",
+        "isDistractor": false,
+        "translation": "ellos"
+      }
+    ],
+    "translations": {
+      "they": "ellos",
+      "should": "(condicional)",
+      "defend": "defender",
+      "more": "más",
+      "aggressively": "agresivamente",
+      "during": "durante",
+      "the": "el",
+      "match": "partido",
+      "defends": "defiende",
+      "shouldn't": "(negación de condicional)",
+      "aggressive": "agresivo",
+      "duringly": "durante",
+      "matchs": "partidos"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el árbitro",
+      "Verbo: señalar (posibilidad)",
+      "Complemento: una falta",
+      "Cláusula: si el jugador comete una infracción"
+    ],
+    "hintDisplay": "Sujeto: el árbitro / Verbo: señalar (posibilidad) / Complemento: una falta / Cláusula: si el jugador comete una infracción",
+    "spanishSentence": "El árbitro puede señalar una falta si el jugador comete una infracción.",
+    "correctSentence": "The referee may signal a foul if the player commits an infringement.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "commits",
+        "isDistractor": false,
+        "translation": "comete"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "infraction",
+        "isDistractor": true,
+        "translation": "infracción"
+      },
+      {
+        "id": "c7",
+        "text": "if",
+        "isDistractor": false,
+        "translation": "si"
+      },
+      {
+        "id": "d2",
+        "text": "fault",
+        "isDistractor": true,
+        "translation": "falta"
+      },
+      {
+        "id": "c3",
+        "text": "may",
+        "isDistractor": false,
+        "translation": "puede"
+      },
+      {
+        "id": "c4",
+        "text": "signal",
+        "isDistractor": false,
+        "translation": "señalar"
+      },
+      {
+        "id": "c9",
+        "text": "player",
+        "isDistractor": false,
+        "translation": "jugador"
+      },
+      {
+        "id": "c5",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c11",
+        "text": "an",
+        "isDistractor": false,
+        "translation": "una"
+      },
+      {
+        "id": "c6",
+        "text": "foul",
+        "isDistractor": false,
+        "translation": "falta"
+      },
+      {
+        "id": "c12",
+        "text": "infringement",
+        "isDistractor": false,
+        "translation": "infracción"
+      },
+      {
+        "id": "c2",
+        "text": "referee",
+        "isDistractor": false,
+        "translation": "árbitro"
+      },
+      {
+        "id": "d1",
+        "text": "signalizes",
+        "isDistractor": true,
+        "translation": "señala"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "referee": "árbitro",
+      "may": "puede",
+      "signal": "señalar",
+      "a": "un",
+      "foul": "falta",
+      "if": "si",
+      "player": "jugador",
+      "commits": "comete",
+      "an": "una",
+      "infringement": "infracción",
+      "signalizes": "señala",
+      "fault": "falta",
+      "infraction": "infracción"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el jugador",
+      "Verbo: poder (habilidad)",
+      "Complemento: correr muy rápido",
+      "Cláusula: durante los metros finales de la carrera"
+    ],
+    "hintDisplay": "Sujeto: el jugador / Verbo: poder (habilidad) / Complemento: correr muy rápido / Cláusula: durante los metros finales de la carrera",
+    "spanishSentence": "El jugador es capaz de correr muy rápido durante los metros finales de la carrera.",
+    "correctSentence": "The player is able to sprint very fast during the final meters of the race.",
+    "cards": [
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "es"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "very",
+        "isDistractor": false,
+        "translation": "muy"
+      },
+      {
+        "id": "c12",
+        "text": "meters",
+        "isDistractor": false,
+        "translation": "metros"
+      },
+      {
+        "id": "c6",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "correr a toda velocidad"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d3",
+        "text": "rapidly",
+        "isDistractor": true,
+        "translation": "rápidamente"
+      },
+      {
+        "id": "d4",
+        "text": "finish",
+        "isDistractor": true,
+        "translation": "terminar"
+      },
+      {
+        "id": "d5",
+        "text": "races",
+        "isDistractor": true,
+        "translation": "carreras"
+      },
+      {
+        "id": "c11",
+        "text": "final",
+        "isDistractor": false,
+        "translation": "finales"
+      },
+      {
+        "id": "c13",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "able",
+        "isDistractor": false,
+        "translation": "capaz"
+      },
+      {
+        "id": "d1",
+        "text": "running",
+        "isDistractor": true,
+        "translation": "corriendo"
+      },
+      {
+        "id": "c8",
+        "text": "fast",
+        "isDistractor": false,
+        "translation": "rápido"
+      },
+      {
+        "id": "d2",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "puede"
+      },
+      {
+        "id": "c2",
+        "text": "player",
+        "isDistractor": false,
+        "translation": "jugador"
+      },
+      {
+        "id": "c15",
+        "text": "race",
+        "isDistractor": false,
+        "translation": "carrera"
+      },
+      {
+        "id": "c9",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "player": "jugador",
+      "is": "es",
+      "able": "capaz",
+      "to": "(marca de infinitivo)",
+      "sprint": "correr a toda velocidad",
+      "very": "muy",
+      "fast": "rápido",
+      "during": "durante",
+      "final": "finales",
+      "meters": "metros",
+      "of": "de",
+      "race": "carrera",
+      "running": "corriendo",
+      "can": "puede",
+      "rapidly": "rápidamente",
+      "finish": "terminar",
+      "races": "carreras"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el atleta",
+      "Verbo: necesitar (negación)",
+      "Complemento: estirar",
+      "Tiempo: antes de cada sprint",
+      "Cláusula: antes de que (cada sprint)"
+    ],
+    "hintDisplay": "Sujeto: el atleta / Verbo: necesitar (negación) / Complemento: estirar / Tiempo: antes de cada sprint / Cláusula: antes de que (cada sprint)",
+    "spanishSentence": "El atleta no necesita estirar antes de cada sprint.",
+    "correctSentence": "The athlete doesn't need to stretch before every sprint.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "athlete",
+        "isDistractor": false,
+        "translation": "atleta"
+      },
+      {
+        "id": "d2",
+        "text": "stretches",
+        "isDistractor": true,
+        "translation": "estira"
+      },
+      {
+        "id": "c4",
+        "text": "need",
+        "isDistractor": false,
+        "translation": "necesitar"
+      },
+      {
+        "id": "d1",
+        "text": "needn't",
+        "isDistractor": true,
+        "translation": "no es necesario que"
+      },
+      {
+        "id": "c5",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
       },
       {
         "id": "c6",
-        "text": "the",
+        "text": "stretch",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "estirar"
       },
       {
-        "id": "c5",
-        "text": "train",
+        "id": "c1",
+        "text": "The",
         "isDistractor": false,
-        "translation": "entrenar"
+        "translation": "el"
       },
       {
-        "id": "c11",
-        "text": "the",
+        "id": "c7",
+        "text": "before",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "antes de"
+      },
+      {
+        "id": "d3",
+        "text": "needs",
+        "isDistractor": true,
+        "translation": "necesita"
+      },
+      {
+        "id": "c9",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "d4",
+        "text": "athletes",
+        "isDistractor": true,
+        "translation": "atletas"
       },
       {
         "id": "c8",
@@ -1496,27 +1625,63 @@
       },
       {
         "id": "c3",
-        "text": "has",
+        "text": "doesn't",
         "isDistractor": false,
-        "translation": "(presente perfecto)"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "morning",
-        "isDistractor": false,
-        "translation": "mañana"
-      },
+        "translation": "(auxiliar)"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "athlete": "atleta",
+      "doesn't": "(auxiliar)",
+      "need": "necesitar",
+      "to": "(marca de infinitivo)",
+      "stretch": "estirar",
+      "before": "antes de",
+      "every": "cada",
+      "sprint": "sprint",
+      "needn't": "no es necesario que",
+      "stretches": "estira",
+      "needs": "necesita",
+      "athletes": "atletas"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el entrenador",
+      "Verbo: ser capaz de (habilidad)",
+      "Complemento: entrenar al equipo",
+      "Tiempo: presente",
+      "Cláusula: a pesar del clima lluvioso"
+    ],
+    "hintDisplay": "Sujeto: el entrenador / Verbo: ser capaz de (habilidad) / Complemento: entrenar al equipo / Tiempo: presente / Cláusula: a pesar del clima lluvioso",
+    "spanishSentence": "El entrenador es capaz de entrenar al equipo a pesar del clima lluvioso.",
+    "correctSentence": "The coach is able to train the team despite the rainy weather.",
+    "cards": [
       {
         "id": "d4",
-        "text": "would",
+        "text": "manages",
         "isDistractor": true,
-        "translation": "(condicional)"
+        "translation": "logra"
+      },
+      {
+        "id": "c8",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c12",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "clima"
       },
       {
         "id": "c2",
@@ -1525,155 +1690,100 @@
         "translation": "entrenador"
       },
       {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "coach": "entrenador",
-      "has": "(presente perfecto)",
-      "to": "(marca de infinitivo)",
-      "train": "entrenar",
-      "team": "equipo",
-      "every": "cada",
-      "morning": "mañana",
-      "before": "antes",
-      "match": "partido",
-      "trains": "entrena",
-      "trained": "entrenado",
-      "their": "su",
-      "would": "(condicional)",
-      "afternoon": "tarde"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El jugador",
-      "Verbo: poder (posibilidad/capacidad)",
-      "Verbo: defender",
-      "Complemento: la portería",
-      "Verbo: lesionarse",
-      "Sujeto: el portero"
-    ],
-    "hintDisplay": "Sujeto: El jugador / Verbo: poder (posibilidad/capacidad) / Verbo: defender / Complemento: la portería / Verbo: lesionarse / Sujeto: el portero",
-    "spanishSentence": "El jugador podría defender la portería si el portero se lesiona.",
-    "correctSentence": "The player might defend the goal if the goalkeeper gets injured.",
-    "cards": [
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
         "id": "d2",
-        "text": "protecting",
+        "text": "can",
         "isDistractor": true,
-        "translation": "protegiendo"
-      },
-      {
-        "id": "d1",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c3",
-        "text": "might",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c10",
-        "text": "gets",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "puede"
       },
       {
         "id": "c11",
-        "text": "injured",
+        "text": "rainy",
         "isDistractor": false,
-        "translation": "lesionado"
+        "translation": "lluvioso"
       },
       {
-        "id": "d3",
-        "text": "unless",
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d5",
+        "text": "although",
         "isDistractor": true,
-        "translation": "a menos que"
+        "translation": "aunque"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c9",
-        "text": "goalkeeper",
+        "text": "despite",
         "isDistractor": false,
-        "translation": "portero"
+        "translation": "a pesar de"
       },
       {
-        "id": "d4",
-        "text": "himself",
+        "id": "d1",
+        "text": "could",
         "isDistractor": true,
-        "translation": "él mismo"
+        "translation": "podía"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c6",
+        "text": "train",
+        "isDistractor": false,
+        "translation": "entrenar"
       },
       {
         "id": "c1",
         "text": "The",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "es"
+      },
+      {
+        "id": "d3",
+        "text": "might",
+        "isDistractor": true,
+        "translation": "podría"
       },
       {
         "id": "c4",
-        "text": "defend",
+        "text": "able",
         "isDistractor": false,
-        "translation": "defender"
-      },
-      {
-        "id": "c6",
-        "text": "goal",
-        "isDistractor": false,
-        "translation": "portería"
-      },
-      {
-        "id": "c2",
-        "text": "player",
-        "isDistractor": false,
-        "translation": "jugador"
-      },
-      {
-        "id": "c7",
-        "text": "if",
-        "isDistractor": false,
-        "translation": "si"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "capaz"
       }
     ],
     "translations": {
-      "the": "(artículo)",
-      "player": "jugador",
-      "might": "(condicional)",
-      "defend": "defender",
-      "goal": "portería",
-      "if": "si",
-      "goalkeeper": "portero",
-      "gets": "(auxiliar)",
-      "injured": "lesionado",
-      "would": "(condicional)",
-      "protecting": "protegiendo",
-      "unless": "a menos que",
-      "himself": "él mismo"
+      "the": "el",
+      "coach": "entrenador",
+      "is": "es",
+      "able": "capaz",
+      "to": "(marca de infinitivo)",
+      "train": "entrenar",
+      "team": "equipo",
+      "despite": "a pesar de",
+      "rainy": "lluvioso",
+      "weather": "clima",
+      "could": "podía",
+      "can": "puede",
+      "might": "podría",
+      "manages": "logra",
+      "although": "aunque"
     },
     "metadata": {
       "tense": "modals",
@@ -1685,76 +1795,563 @@
   },
   {
     "hints": [
-      "Sujeto: Ellos",
-      "Verbo: poder (habilidad/capacidad)",
-      "Verbo: practicar",
-      "Complemento: juntos",
-      "Tiempo: cada mañana",
-      "Complemento: en el estadio"
+      "Sujeto: el capitán",
+      "Verbo: comunicar (modal de obligación negativa)",
+      "Complemento: el plan de juego",
+      "Cláusula: a los oponentes"
     ],
-    "hintDisplay": "Sujeto: Ellos / Verbo: poder (habilidad/capacidad) / Verbo: practicar / Complemento: juntos / Tiempo: cada mañana / Complemento: en el estadio",
-    "spanishSentence": "Ellos pueden practicar juntos cada mañana en el estadio.",
-    "correctSentence": "They are able to practice together every morning at the stadium.",
+    "hintDisplay": "Sujeto: el capitán / Verbo: comunicar (modal de obligación negativa) / Complemento: el plan de juego / Cláusula: a los oponentes",
+    "spanishSentence": "El capitán no debería comunicar el plan de juego a los oponentes.",
+    "correctSentence": "The captain should not communicate the game plan to the opponents.",
     "cards": [
       {
-        "id": "d2",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
-        "id": "c9",
-        "text": "at",
+        "id": "c3",
+        "text": "should",
         "isDistractor": false,
-        "translation": "en"
+        "translation": "debería"
       },
       {
         "id": "c4",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "d5",
+        "text": "planning",
+        "isDistractor": true,
+        "translation": "planificación"
+      },
+      {
+        "id": "c2",
+        "text": "captain",
+        "isDistractor": false,
+        "translation": "capitán"
+      },
+      {
+        "id": "d4",
+        "text": "tell",
+        "isDistractor": true,
+        "translation": "decir"
+      },
+      {
+        "id": "c11",
+        "text": "opponents",
+        "isDistractor": false,
+        "translation": "oponentes"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c5",
+        "text": "communicate",
+        "isDistractor": false,
+        "translation": "comunicar"
+      },
+      {
+        "id": "c9",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
       },
       {
         "id": "c6",
-        "text": "together",
+        "text": "the",
         "isDistractor": false,
-        "translation": "juntos"
+        "translation": "el"
       },
       {
-        "id": "c5",
-        "text": "practice",
+        "id": "c8",
+        "text": "plan",
         "isDistractor": false,
-        "translation": "practicar"
+        "translation": "plan"
       },
       {
-        "id": "c3",
-        "text": "able",
+        "id": "c7",
+        "text": "game",
         "isDistractor": false,
-        "translation": "capaces"
+        "translation": "juego"
       },
       {
         "id": "d1",
-        "text": "were",
+        "text": "shouldn't",
         "isDistractor": true,
-        "translation": "(pasado)"
+        "translation": "no debería"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "must",
+        "isDistractor": true,
+        "translation": "debe"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "captain": "capitán",
+      "should": "debería",
+      "not": "no",
+      "communicate": "comunicar",
+      "game": "juego",
+      "plan": "plan",
+      "to": "(marca de infinitivo)",
+      "opponents": "oponentes",
+      "shouldn't": "no debería",
+      "will": "(futuro)",
+      "must": "debe",
+      "tell": "decir",
+      "planning": "planificación"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: necesitar (negación)",
+      "Complemento: jugar el domingo",
+      "Tiempo: el domingo"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: necesitar (negación) / Complemento: jugar el domingo / Tiempo: el domingo",
+    "spanishSentence": "El equipo no necesita jugar el domingo.",
+    "correctSentence": "The team doesn't need to play on Sunday.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "d2",
+        "text": "plays",
+        "isDistractor": true,
+        "translation": "juega"
+      },
+      {
+        "id": "c6",
+        "text": "play",
+        "isDistractor": false,
+        "translation": "jugar"
+      },
+      {
+        "id": "c3",
+        "text": "doesn't",
+        "isDistractor": false,
+        "translation": "(auxiliar de negación)"
+      },
+      {
+        "id": "d1",
+        "text": "needs",
+        "isDistractor": true,
+        "translation": "necesita"
+      },
+      {
+        "id": "d4",
+        "text": "must",
+        "isDistractor": true,
+        "translation": "debe"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c4",
+        "text": "need",
+        "isDistractor": false,
+        "translation": "necesita"
+      },
+      {
+        "id": "c5",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d5",
+        "text": "during",
+        "isDistractor": true,
+        "translation": "durante"
+      },
+      {
+        "id": "c7",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "Sunday",
+        "isDistractor": false,
+        "translation": "domingo"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "team": "equipo",
+      "doesn't": "(auxiliar de negación)",
+      "need": "necesita",
+      "to": "(marca de infinitivo)",
+      "play": "jugar",
+      "on": "el",
+      "sunday": "domingo",
+      "needs": "necesita",
+      "plays": "juega",
+      "they": "ellos",
+      "must": "debe",
+      "during": "durante"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el árbitro",
+      "Verbo: poder (permitido por las reglas)",
+      "Complemento: al jugador",
+      "Complemento: por una entrada peligrosa"
+    ],
+    "hintDisplay": "Sujeto: el árbitro / Verbo: poder (permitido por las reglas) / Complemento: al jugador / Complemento: por una entrada peligrosa",
+    "spanishSentence": "El árbitro puede sancionar al jugador por una entrada peligrosa.",
+    "correctSentence": "The referee may penalize the player for a dangerous tackle.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "referee",
+        "isDistractor": false,
+        "translation": "árbitro"
+      },
+      {
+        "id": "c6",
+        "text": "player",
+        "isDistractor": false,
+        "translation": "jugador"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "penalized",
+        "isDistractor": true,
+        "translation": "sancionado"
+      },
+      {
+        "id": "d3",
+        "text": "sanction",
+        "isDistractor": true,
+        "translation": "sanción"
+      },
+      {
+        "id": "c4",
+        "text": "penalize",
+        "isDistractor": false,
+        "translation": "sancionar"
+      },
+      {
+        "id": "d1",
+        "text": "penalizes",
+        "isDistractor": true,
+        "translation": "sanciona"
+      },
+      {
+        "id": "d4",
+        "text": "dangerousness",
+        "isDistractor": true,
+        "translation": "peligrosidad"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "c9",
+        "text": "dangerous",
+        "isDistractor": false,
+        "translation": "peligrosa"
+      },
+      {
+        "id": "d5",
+        "text": "tackler",
+        "isDistractor": true,
+        "translation": "entrador"
+      },
+      {
+        "id": "c3",
+        "text": "may",
+        "isDistractor": false,
+        "translation": "(posibilidad)"
       },
       {
         "id": "c10",
-        "text": "the",
+        "text": "tackle",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "entrada"
       },
       {
-        "id": "c2",
-        "text": "are",
+        "id": "c8",
+        "text": "a",
         "isDistractor": false,
-        "translation": "(presente)"
+        "translation": "una"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "referee": "árbitro",
+      "may": "(posibilidad)",
+      "penalize": "sancionar",
+      "player": "jugador",
+      "for": "por",
+      "a": "una",
+      "dangerous": "peligrosa",
+      "tackle": "entrada",
+      "penalizes": "sanciona",
+      "penalized": "sancionado",
+      "sanction": "sanción",
+      "dangerousness": "peligrosidad",
+      "tackler": "entrador"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el jugador",
+      "Verbo: deber (obligación)",
+      "Complemento: al menos un gol",
+      "Cláusula: para ganar el partido"
+    ],
+    "hintDisplay": "Sujeto: el jugador / Verbo: deber (obligación) / Complemento: al menos un gol / Cláusula: para ganar el partido",
+    "spanishSentence": "Como el jugador, debes anotar al menos un gol para ganar el partido.",
+    "correctSentence": "As the player, you must score at least one goal to win the match.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "player",
+        "isDistractor": false,
+        "translation": "jugador"
+      },
+      {
+        "id": "d5",
+        "text": "mustn't",
+        "isDistractor": true,
+        "translation": "no debes"
       },
       {
         "id": "c11",
-        "text": "stadium",
+        "text": "to",
         "isDistractor": false,
-        "translation": "estadio"
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d1",
+        "text": "scoring",
+        "isDistractor": true,
+        "translation": "anotando"
+      },
+      {
+        "id": "c7",
+        "text": "at",
+        "isDistractor": false,
+        "translation": "al"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c5",
+        "text": "must",
+        "isDistractor": false,
+        "translation": "debes"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c12",
+        "text": "win",
+        "isDistractor": false,
+        "translation": "ganar"
+      },
+      {
+        "id": "c8",
+        "text": "least",
+        "isDistractor": false,
+        "translation": "menos"
+      },
+      {
+        "id": "d2",
+        "text": "scorest",
+        "isDistractor": true,
+        "translation": "(arcaico) anotas"
+      },
+      {
+        "id": "d4",
+        "text": "shall",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c6",
+        "text": "score",
+        "isDistractor": false,
+        "translation": "anotar"
+      },
+      {
+        "id": "c14",
+        "text": "match",
+        "isDistractor": false,
+        "translation": "partido"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "scores",
+        "isDistractor": true,
+        "translation": "anota"
+      },
+      {
+        "id": "c10",
+        "text": "goal",
+        "isDistractor": false,
+        "translation": "gol"
+      },
+      {
+        "id": "c4",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c1",
+        "text": "As",
+        "isDistractor": false,
+        "translation": "como"
+      },
+      {
+        "id": "c9",
+        "text": "one",
+        "isDistractor": false,
+        "translation": "un"
+      }
+    ],
+    "translations": {
+      "as": "como",
+      "the": "el",
+      "player": "jugador",
+      "you": "tú",
+      "must": "debes",
+      "score": "anotar",
+      "at": "al",
+      "least": "menos",
+      "one": "un",
+      "goal": "gol",
+      "to": "(marca de infinitivo)",
+      "win": "ganar",
+      "match": "partido",
+      "scoring": "anotando",
+      "scorest": "(arcaico) anotas",
+      "scores": "anota",
+      "shall": "(futuro)",
+      "mustn't": "no debes"
+    },
+    "metadata": {
+      "tense": "modals",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "intermediate",
+      "topic": "sports"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: poder (capacidad)",
+      "Complemento: entrenar temprano en la mañana",
+      "Cláusula: para evitar el calor"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: poder (capacidad) / Complemento: entrenar temprano en la mañana / Cláusula: para evitar el calor",
+    "spanishSentence": "Ellos podrían entrenar temprano en la mañana para evitar el calor.",
+    "correctSentence": "They could train early in the morning to avoid the heat.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "c9",
+        "text": "avoid",
+        "isDistractor": false,
+        "translation": "evitar"
+      },
+      {
+        "id": "c2",
+        "text": "could",
+        "isDistractor": false,
+        "translation": "(pasado de can / condicional)"
       },
       {
         "id": "c1",
@@ -1764,830 +2361,86 @@
       },
       {
         "id": "c7",
-        "text": "every",
-        "isDistractor": false,
-        "translation": "cada"
-      },
-      {
-        "id": "d3",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "c8",
         "text": "morning",
         "isDistractor": false,
         "translation": "mañana"
-      }
-    ],
-    "translations": {
-      "they": "ellos",
-      "are": "(presente)",
-      "able": "capaces",
-      "to": "(marca de infinitivo)",
-      "practice": "practicar",
-      "together": "juntos",
-      "every": "cada",
-      "morning": "mañana",
-      "at": "en",
-      "the": "(artículo)",
-      "stadium": "estadio",
-      "were": "(pasado)",
-      "him": "lo",
-      "could": "podría"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El equipo",
-      "Verbo: poder (habilidad/posibilidad)",
-      "Verbo: ganar",
-      "Complemento: el campeonato",
-      "Tiempo: esta temporada"
-    ],
-    "hintDisplay": "Sujeto: El equipo / Verbo: poder (habilidad/posibilidad) / Verbo: ganar / Complemento: el campeonato / Tiempo: esta temporada",
-    "spanishSentence": "El equipo puede ganar el campeonato esta temporada.",
-    "correctSentence": "The team can win the championship this season.",
-    "cards": [
-      {
-        "id": "c8",
-        "text": "season",
-        "isDistractor": false,
-        "translation": "temporada"
-      },
-      {
-        "id": "d2",
-        "text": "won",
-        "isDistractor": true,
-        "translation": "ganó"
-      },
-      {
-        "id": "c6",
-        "text": "championship",
-        "isDistractor": false,
-        "translation": "campeonato"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "championships",
-        "isDistractor": true,
-        "translation": "campeonatos"
-      },
-      {
-        "id": "c4",
-        "text": "win",
-        "isDistractor": false,
-        "translation": "ganar"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c3",
-        "text": "can",
-        "isDistractor": false,
-        "translation": "puede"
-      },
-      {
-        "id": "c7",
-        "text": "this",
-        "isDistractor": false,
-        "translation": "esta"
-      },
-      {
-        "id": "d4",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "d5",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "d1",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "podría"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "team": "equipo",
-      "can": "puede",
-      "win": "ganar",
-      "championship": "campeonato",
-      "this": "esta",
-      "season": "temporada",
-      "could": "podría",
-      "won": "ganó",
-      "championships": "campeonatos",
-      "their": "su",
-      "will": "(futuro)"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Los atletas",
-      "Verbo: deber (obligación/recomendación)",
-      "Verbo: saltar (en negativo)",
-      "Complemento: sus sesiones de recuperación",
-      "Complemento: después del entrenamiento intenso"
-    ],
-    "hintDisplay": "Sujeto: Los atletas / Verbo: deber (obligación/recomendación) / Verbo: saltar (en negativo) / Complemento: sus sesiones de recuperación / Complemento: después del entrenamiento intenso",
-    "spanishSentence": "Los atletas no deberían saltarse sus sesiones de recuperación después del entrenamiento intenso.",
-    "correctSentence": "Athletes should not skip their recovery sessions after intense training.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "skipped",
-        "isDistractor": true,
-        "translation": "saltado"
-      },
-      {
-        "id": "c8",
-        "text": "after",
-        "isDistractor": false,
-        "translation": "después de"
-      },
-      {
-        "id": "d3",
-        "text": "must",
-        "isDistractor": true,
-        "translation": "debe"
-      },
-      {
-        "id": "c9",
-        "text": "intense",
-        "isDistractor": false,
-        "translation": "intenso"
       },
       {
         "id": "c10",
-        "text": "training",
+        "text": "the",
         "isDistractor": false,
-        "translation": "entrenamiento"
+        "translation": "(artículo definido)"
       },
       {
-        "id": "c6",
-        "text": "recovery",
+        "id": "c4",
+        "text": "early",
         "isDistractor": false,
-        "translation": "recuperación"
-      },
-      {
-        "id": "c2",
-        "text": "should",
-        "isDistractor": false,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c1",
-        "text": "Athletes",
-        "isDistractor": false,
-        "translation": "atletas"
+        "translation": "temprano"
       },
       {
         "id": "d2",
-        "text": "could",
+        "text": "might",
         "isDistractor": true,
-        "translation": "(condicional)"
+        "translation": "podría"
       },
       {
-        "id": "c4",
-        "text": "skip",
-        "isDistractor": false,
-        "translation": "saltarse"
+        "id": "d1",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "poder"
       },
       {
-        "id": "c5",
-        "text": "their",
-        "isDistractor": false,
-        "translation": "sus"
+        "id": "d4",
+        "text": "practice",
+        "isDistractor": true,
+        "translation": "practicar"
       },
       {
-        "id": "c7",
-        "text": "sessions",
+        "id": "c11",
+        "text": "heat",
         "isDistractor": false,
-        "translation": "sesiones"
+        "translation": "calor"
       },
       {
         "id": "c3",
-        "text": "not",
+        "text": "train",
         "isDistractor": false,
-        "translation": "no"
-      }
-    ],
-    "translations": {
-      "athletes": "atletas",
-      "should": "(condicional)",
-      "not": "no",
-      "skip": "saltarse",
-      "their": "sus",
-      "recovery": "recuperación",
-      "sessions": "sesiones",
-      "after": "después de",
-      "intense": "intenso",
-      "training": "entrenamiento",
-      "skipped": "saltado",
-      "could": "(condicional)",
-      "must": "debe"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo (como capitán)",
-      "Verbo: deber (obligación/necesidad)",
-      "Complemento: inspirar a mis compañeros de equipo",
-      "Complemento: para que den su mejor desempeño en el campo"
-    ],
-    "hintDisplay": "Sujeto: yo (como capitán) / Verbo: deber (obligación/necesidad) / Complemento: inspirar a mis compañeros de equipo / Complemento: para que den su mejor desempeño en el campo",
-    "spanishSentence": "Como capitán, debo inspirar a mis compañeros de equipo para que den su mejor desempeño en el campo.",
-    "correctSentence": "As the captain, I must inspire my teammates to give their best performance on the field.",
-    "cards": [
-      {
-        "id": "d5",
-        "text": "performances",
-        "isDistractor": true,
-        "translation": "desempeños"
+        "translation": "entrenar"
       },
       {
-        "id": "c16",
-        "text": "field",
+        "id": "c8",
+        "text": "to",
         "isDistractor": false,
-        "translation": "campo"
+        "translation": "(preposición / marca de infinitivo)"
       },
       {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c4",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c14",
-        "text": "on",
+        "id": "c5",
+        "text": "in",
         "isDistractor": false,
         "translation": "en"
       },
       {
-        "id": "c1",
-        "text": "As",
-        "isDistractor": false,
-        "translation": "como"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d4",
-        "text": "gave",
-        "isDistractor": true,
-        "translation": "dio"
-      },
-      {
         "id": "d3",
-        "text": "does",
+        "text": "couldn't",
         "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c6",
-        "text": "inspire",
-        "isDistractor": false,
-        "translation": "inspirar"
-      },
-      {
-        "id": "c12",
-        "text": "best",
-        "isDistractor": false,
-        "translation": "mejor"
-      },
-      {
-        "id": "c3",
-        "text": "captain",
-        "isDistractor": false,
-        "translation": "capitán"
-      },
-      {
-        "id": "d1",
-        "text": "inspiring",
-        "isDistractor": true,
-        "translation": "inspirando"
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c13",
-        "text": "performance",
-        "isDistractor": false,
-        "translation": "desempeño"
-      },
-      {
-        "id": "c11",
-        "text": "their",
-        "isDistractor": false,
-        "translation": "su"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      },
-      {
-        "id": "c10",
-        "text": "give",
-        "isDistractor": false,
-        "translation": "dar"
-      },
-      {
-        "id": "c8",
-        "text": "teammates",
-        "isDistractor": false,
-        "translation": "compañeros de equipo"
-      },
-      {
-        "id": "c5",
-        "text": "must",
-        "isDistractor": false,
-        "translation": "debo"
-      },
-      {
-        "id": "c7",
-        "text": "my",
-        "isDistractor": false,
-        "translation": "mi"
+        "translation": "no podía / no podría"
       }
     ],
     "translations": {
-      "as": "como",
-      "the": "(artículo)",
-      "captain": "capitán",
-      "i": "yo",
-      "must": "debo",
-      "inspire": "inspirar",
-      "my": "mi",
-      "teammates": "compañeros de equipo",
-      "to": "(marca de infinitivo)",
-      "give": "dar",
-      "their": "su",
-      "best": "mejor",
-      "performance": "desempeño",
-      "on": "en",
-      "field": "campo",
-      "inspiring": "inspirando",
-      "them": "los",
-      "does": "(auxiliar)",
-      "gave": "dio",
-      "performances": "desempeños"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El equipo",
-      "Verbo: deber (obligación/recomendación, forma negativa)",
-      "Complemento: saltarse las sesiones de práctica",
-      "Tiempo: antes del campeonato"
-    ],
-    "hintDisplay": "Sujeto: El equipo / Verbo: deber (obligación/recomendación, forma negativa) / Complemento: saltarse las sesiones de práctica / Tiempo: antes del campeonato",
-    "spanishSentence": "El equipo no debería saltarse las sesiones de práctica antes del campeonato.",
-    "correctSentence": "The team should not skip practice sessions before the championship.",
-    "cards": [
-      {
-        "id": "c6",
-        "text": "skip",
-        "isDistractor": false,
-        "translation": "saltarse"
-      },
-      {
-        "id": "c11",
-        "text": "championship",
-        "isDistractor": false,
-        "translation": "campeonato"
-      },
-      {
-        "id": "c2",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "d2",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "d3",
-        "text": "shall",
-        "isDistractor": true,
-        "translation": "(futuro/obligación)"
-      },
-      {
-        "id": "d4",
-        "text": "would",
-        "isDistractor": true,
-        "translation": "(condicional)"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d5",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los/las"
-      },
-      {
-        "id": "d1",
-        "text": "might",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c7",
-        "text": "practice",
-        "isDistractor": false,
-        "translation": "práctica"
-      },
-      {
-        "id": "c8",
-        "text": "sessions",
-        "isDistractor": false,
-        "translation": "sesiones"
-      },
-      {
-        "id": "c3",
-        "text": "should",
-        "isDistractor": false,
-        "translation": "debería"
-      }
-    ],
-    "translations": {
-      "skip": "saltarse",
-      "championship": "campeonato",
-      "team": "equipo",
-      "could": "podría",
-      "shall": "(futuro/obligación)",
-      "would": "(condicional)",
-      "the": "(artículo)",
-      "before": "antes de",
-      "them": "los/las",
+      "they": "ellos",
+      "could": "(pasado de can / condicional)",
+      "train": "entrenar",
+      "early": "temprano",
+      "in": "en",
+      "the": "(artículo definido)",
+      "morning": "mañana",
+      "to": "(preposición / marca de infinitivo)",
+      "avoid": "evitar",
+      "heat": "calor",
+      "can": "poder",
       "might": "podría",
-      "not": "no",
-      "practice": "práctica",
-      "sessions": "sesiones",
-      "should": "debería"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El árbitro",
-      "Verbo: Poder (habilidad/permiso)",
-      "Verbo: Revisar",
-      "Complemento: la jugada",
-      "Complemento: usando el sistema de repetición de video"
-    ],
-    "hintDisplay": "Sujeto: El árbitro / Verbo: Poder (habilidad/permiso) / Verbo: Revisar / Complemento: la jugada / Complemento: usando el sistema de repetición de video",
-    "spanishSentence": "El árbitro puede revisar la jugada usando el sistema de repetición de video.",
-    "correctSentence": "The referee can review the play using the video replay system.",
-    "cards": [
-      {
-        "id": "c9",
-        "text": "video",
-        "isDistractor": false,
-        "translation": "video"
-      },
-      {
-        "id": "d2",
-        "text": "rewatching",
-        "isDistractor": true,
-        "translation": "reviendo"
-      },
-      {
-        "id": "d3",
-        "text": "might",
-        "isDistractor": true,
-        "translation": "(modal)"
-      },
-      {
-        "id": "c11",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
-      },
-      {
-        "id": "c10",
-        "text": "replay",
-        "isDistractor": false,
-        "translation": "repetición"
-      },
-      {
-        "id": "d4",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellas"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c7",
-        "text": "using",
-        "isDistractor": false,
-        "translation": "usando"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "referee",
-        "isDistractor": false,
-        "translation": "árbitro"
-      },
-      {
-        "id": "d1",
-        "text": "reviewed",
-        "isDistractor": true,
-        "translation": "revisado"
-      },
-      {
-        "id": "c4",
-        "text": "review",
-        "isDistractor": false,
-        "translation": "revisar"
-      },
-      {
-        "id": "c6",
-        "text": "play",
-        "isDistractor": false,
-        "translation": "jugada"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d5",
-        "text": "replaying",
-        "isDistractor": true,
-        "translation": "repitiendo"
-      },
-      {
-        "id": "c3",
-        "text": "can",
-        "isDistractor": false,
-        "translation": "(modal)"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "referee": "árbitro",
-      "can": "(modal)",
-      "review": "revisar",
-      "play": "jugada",
-      "using": "usando",
-      "video": "video",
-      "replay": "repetición",
-      "system": "sistema",
-      "reviewed": "revisado",
-      "rewatching": "reviendo",
-      "might": "(modal)",
-      "them": "ellas",
-      "replaying": "repitiendo"
-    },
-    "metadata": {
-      "tense": "modals",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "intermediate",
-      "topic": "sports"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El jugador",
-      "Verbo: Necesitar (obligación/necesidad)",
-      "Complemento: disparar el balón con precisión",
-      "Complemento: para marcar un gol"
-    ],
-    "hintDisplay": "Sujeto: El jugador / Verbo: Necesitar (obligación/necesidad) / Complemento: disparar el balón con precisión / Complemento: para marcar un gol",
-    "spanishSentence": "El jugador necesita disparar el balón con precisión para marcar un gol.",
-    "correctSentence": "The player needs to shoot the ball accurately to score a goal.",
-    "cards": [
-      {
-        "id": "d4",
-        "text": "kicked",
-        "isDistractor": true,
-        "translation": "pateó"
-      },
-      {
-        "id": "c3",
-        "text": "needs",
-        "isDistractor": false,
-        "translation": "necesita"
-      },
-      {
-        "id": "d1",
-        "text": "shoots",
-        "isDistractor": true,
-        "translation": "dispara"
-      },
-      {
-        "id": "c10",
-        "text": "score",
-        "isDistractor": false,
-        "translation": "marcar"
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d2",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "le"
-      },
-      {
-        "id": "c7",
-        "text": "ball",
-        "isDistractor": false,
-        "translation": "balón"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c5",
-        "text": "shoot",
-        "isDistractor": false,
-        "translation": "disparar"
-      },
-      {
-        "id": "c2",
-        "text": "player",
-        "isDistractor": false,
-        "translation": "jugador"
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c8",
-        "text": "accurately",
-        "isDistractor": false,
-        "translation": "con precisión"
-      },
-      {
-        "id": "d3",
-        "text": "scoring",
-        "isDistractor": true,
-        "translation": "marcando"
-      },
-      {
-        "id": "c11",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "goal",
-        "isDistractor": false,
-        "translation": "gol"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "player": "jugador",
-      "needs": "necesita",
-      "to": "(marca de infinitivo)",
-      "shoot": "disparar",
-      "ball": "balón",
-      "accurately": "con precisión",
-      "score": "marcar",
-      "a": "(artículo)",
-      "goal": "gol",
-      "shoots": "dispara",
-      "him": "le",
-      "scoring": "marcando",
-      "kicked": "pateó"
+      "couldn't": "no podía / no podría",
+      "practice": "practicar"
     },
     "metadata": {
       "tense": "modals",
