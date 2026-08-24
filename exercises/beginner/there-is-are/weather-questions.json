@@ -1,111 +1,170 @@
 [
   {
     "hints": [
-      "Sujeto: muchos paraguas",
-      "Verbo: haber (existencia)",
-      "Complemento: que deba llevar",
-      "Verbo: deber (obligación/necesidad)",
-      "Complemento: porque hay nubes oscuras en el cielo"
+      "Sujeto: el meteorólogo",
+      "Verbo: deber (obligación)",
+      "Complemento: emitir una alerta de tormenta",
+      "Cláusula: pregunta negativa sobre la existencia de esa alerta"
     ],
-    "hintDisplay": "Sujeto: muchos paraguas / Verbo: haber (existencia) / Complemento: que deba llevar / Verbo: deber (obligación/necesidad) / Complemento: porque hay nubes oscuras en el cielo",
-    "spanishSentence": "¿Hay muchos paraguas que deba llevar porque hay nubes oscuras en el cielo?",
-    "correctSentence": "Are there many umbrellas I should carry because there are dark clouds in the sky?",
+    "hintDisplay": "Sujeto: el meteorólogo / Verbo: deber (obligación) / Complemento: emitir una alerta de tormenta / Cláusula: pregunta negativa sobre la existencia de esa alerta",
+    "spanishSentence": "¿No hay una alerta de tormenta que el meteorólogo debería emitir?",
+    "correctSentence": "Isn't there a storm warning that the meteorologist should issue?",
     "cards": [
       {
-        "id": "d2",
-        "text": "do",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
+        "id": "c1",
+        "text": "Isn't",
+        "isDistractor": false,
+        "translation": "(negación)"
       },
       {
-        "id": "c6",
-        "text": "should",
+        "id": "c2",
+        "text": "there",
         "isDistractor": false,
-        "translation": "deba"
-      },
-      {
-        "id": "c13",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c4",
-        "text": "umbrellas",
-        "isDistractor": false,
-        "translation": "paraguas"
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "many",
-        "isDistractor": false,
-        "translation": "muchos"
-      },
-      {
-        "id": "c15",
-        "text": "sky",
-        "isDistractor": false,
-        "translation": "cielo"
-      },
-      {
-        "id": "c11",
-        "text": "dark",
-        "isDistractor": false,
-        "translation": "oscuras"
+        "translation": "(existencia)"
       },
       {
         "id": "c10",
-        "text": "are",
+        "text": "issue",
         "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "emitir"
       },
       {
-        "id": "c12",
+        "id": "d4",
+        "text": "issued",
+        "isDistractor": true,
+        "translation": "emitidas"
+      },
+      {
+        "id": "d2",
+        "text": "could",
+        "isDistractor": true,
+        "translation": "podría"
+      },
+      {
+        "id": "c5",
+        "text": "warning",
+        "isDistractor": false,
+        "translation": "alerta"
+      },
+      {
+        "id": "c9",
+        "text": "should",
+        "isDistractor": false,
+        "translation": "debería"
+      },
+      {
+        "id": "d1",
+        "text": "forecast",
+        "isDistractor": true,
+        "translation": "pronóstico"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c3",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c6",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
+      },
+      {
+        "id": "c8",
+        "text": "meteorologist",
+        "isDistractor": false,
+        "translation": "meteorólogo"
+      },
+      {
+        "id": "c4",
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "alerts",
+        "isDistractor": true,
+        "translation": "alertas"
+      }
+    ],
+    "translations": {
+      "isn't": "(negación)",
+      "there": "(existencia)",
+      "a": "un",
+      "storm": "tormenta",
+      "warning": "alerta",
+      "that": "que",
+      "the": "el",
+      "meteorologist": "meteorólogo",
+      "should": "debería",
+      "issue": "emitir",
+      "forecast": "pronóstico",
+      "could": "podría",
+      "alerts": "alertas",
+      "issued": "emitidas"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: hay",
+      "Verbo: haber",
+      "Complemento: algunas nubes",
+      "Cláusula: antes de que el clima se despeje"
+    ],
+    "hintDisplay": "Sujeto: hay / Verbo: haber / Complemento: algunas nubes / Cláusula: antes de que el clima se despeje",
+    "spanishSentence": "¿Hay algunas nubes antes de que el clima se despeje?",
+    "correctSentence": "Are there any clouds before the weather clears up?",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de que"
+      },
+      {
+        "id": "d1",
+        "text": "Is",
+        "isDistractor": true,
+        "translation": "está"
+      },
+      {
+        "id": "d3",
+        "text": "cleared",
+        "isDistractor": true,
+        "translation": "despejado"
+      },
+      {
+        "id": "c4",
         "text": "clouds",
         "isDistractor": false,
         "translation": "nubes"
       },
       {
-        "id": "c5",
-        "text": "I",
+        "id": "c3",
+        "text": "any",
         "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c8",
-        "text": "because",
-        "isDistractor": false,
-        "translation": "porque"
-      },
-      {
-        "id": "d4",
-        "text": "light",
-        "isDistractor": true,
-        "translation": "ligeras"
-      },
-      {
-        "id": "c9",
-        "text": "there",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "d1",
-        "text": "Is",
-        "isDistractor": true,
-        "translation": "es"
-      },
-      {
-        "id": "c7",
-        "text": "carry",
-        "isDistractor": false,
-        "translation": "llevar"
+        "translation": "alguna"
       },
       {
         "id": "qm",
@@ -114,42 +173,68 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "d3",
-        "text": "some",
-        "isDistractor": true,
-        "translation": "algunos"
+        "id": "c8",
+        "text": "clears",
+        "isDistractor": false,
+        "translation": "se despeje"
       },
       {
-        "id": "c2",
-        "text": "there",
+        "id": "c9",
+        "text": "up",
         "isDistractor": false,
-        "translation": "hay"
+        "translation": "(parte de \"despejarse\")"
       },
       {
         "id": "c1",
         "text": "Are",
         "isDistractor": false,
+        "translation": "(verbo estar)"
+      },
+      {
+        "id": "d2",
+        "text": "cloudy",
+        "isDistractor": true,
+        "translation": "nublado"
+      },
+      {
+        "id": "d4",
+        "text": "does",
+        "isDistractor": true,
         "translation": "(auxiliar)"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "clima"
+      },
+      {
+        "id": "c2",
+        "text": "there",
+        "isDistractor": false,
+        "translation": "(existencia)"
       }
     ],
     "translations": {
-      "are": "(auxiliar)",
-      "there": "hay",
-      "many": "muchos",
-      "umbrellas": "paraguas",
-      "i": "yo",
-      "should": "deba",
-      "carry": "llevar",
-      "because": "porque",
-      "dark": "oscuras",
+      "are": "(verbo estar)",
+      "there": "(existencia)",
+      "any": "alguna",
       "clouds": "nubes",
-      "in": "en",
-      "the": "(artículo)",
-      "sky": "cielo",
-      "is": "es",
-      "do": "(auxiliar)",
-      "some": "algunos",
-      "light": "ligeras"
+      "before": "antes de que",
+      "the": "el",
+      "weather": "clima",
+      "clears": "se despeje",
+      "up": "(parte de \"despejarse\")",
+      "is": "está",
+      "cloudy": "nublado",
+      "cleared": "despejado",
+      "does": "(auxiliar)"
     },
     "metadata": {
       "tense": "there is/are",
@@ -161,62 +246,61 @@
   },
   {
     "hints": [
-      "Sujeto: lluvia (suficiente)",
+      "Sujeto: informes del clima",
       "Verbo: haber (existencia)",
-      "Complemento: para que los residentes se protejan",
-      "Verbo: proteger (en infinitivo, propósito)"
+      "Complemento: que ellos preparan"
     ],
-    "hintDisplay": "Sujeto: lluvia (suficiente) / Verbo: haber (existencia) / Complemento: para que los residentes se protejan / Verbo: proteger (en infinitivo, propósito)",
-    "spanishSentence": "¿Hay suficiente lluvia para que los residentes se protejan?",
-    "correctSentence": "Is there enough rain for the residents to shelter from?",
+    "hintDisplay": "Sujeto: informes del clima / Verbo: haber (existencia) / Complemento: que ellos preparan",
+    "spanishSentence": "¿Hay informes del clima que ellos preparan?",
+    "correctSentence": "Are there weather reports that they prepare?",
     "cards": [
       {
-        "id": "c7",
-        "text": "residents",
+        "id": "qm",
+        "text": "?",
         "isDistractor": false,
-        "translation": "residentes"
-      },
-      {
-        "id": "c3",
-        "text": "enough",
-        "isDistractor": false,
-        "translation": "suficiente"
+        "translation": "signo de interrogación"
       },
       {
         "id": "d4",
-        "text": "sufficient",
+        "text": "whether",
         "isDistractor": true,
-        "translation": "suficiente"
+        "translation": "si"
       },
       {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c5",
-        "text": "for",
+        "id": "c6",
+        "text": "they",
         "isDistractor": false,
-        "translation": "para"
+        "translation": "ellos"
       },
       {
-        "id": "c8",
-        "text": "to",
+        "id": "c1",
+        "text": "Are",
         "isDistractor": false,
-        "translation": "(marca de infinitivo)"
+        "translation": "(verbo ser/estar)"
       },
       {
-        "id": "d3",
-        "text": "Does",
+        "id": "c7",
+        "text": "prepare",
+        "isDistractor": false,
+        "translation": "preparan"
+      },
+      {
+        "id": "d1",
+        "text": "does",
         "isDistractor": true,
         "translation": "(auxiliar)"
       },
       {
-        "id": "d1",
-        "text": "sheltering",
+        "id": "d3",
+        "text": "prepares",
         "isDistractor": true,
-        "translation": "protegerse"
+        "translation": "prepara"
+      },
+      {
+        "id": "c5",
+        "text": "that",
+        "isDistractor": false,
+        "translation": "que"
       },
       {
         "id": "c2",
@@ -225,57 +309,36 @@
         "translation": "hay"
       },
       {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
         "id": "c4",
-        "text": "rain",
+        "text": "reports",
         "isDistractor": false,
-        "translation": "lluvia"
+        "translation": "informes"
       },
       {
-        "id": "c1",
-        "text": "Is",
-        "isDistractor": false,
-        "translation": "(ser/estar)"
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
       },
       {
-        "id": "c10",
-        "text": "from",
+        "id": "c3",
+        "text": "weather",
         "isDistractor": false,
-        "translation": "de"
-      },
-      {
-        "id": "c9",
-        "text": "shelter",
-        "isDistractor": false,
-        "translation": "protegerse"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "clima"
       }
     ],
     "translations": {
-      "is": "(ser/estar)",
+      "are": "(verbo ser/estar)",
       "there": "hay",
-      "enough": "suficiente",
-      "rain": "lluvia",
-      "for": "para",
-      "the": "(artículo)",
-      "residents": "residentes",
-      "to": "(marca de infinitivo)",
-      "shelter": "protegerse",
-      "from": "de",
-      "sheltering": "protegerse",
-      "them": "los",
+      "weather": "clima",
+      "reports": "informes",
+      "that": "que",
+      "they": "ellos",
+      "prepare": "preparan",
       "does": "(auxiliar)",
-      "sufficient": "suficiente"
+      "he": "él",
+      "prepares": "prepara",
+      "whether": "si"
     },
     "metadata": {
       "tense": "there is/are",
@@ -287,86 +350,454 @@
   },
   {
     "hints": [
-      "Sujeto: luz solar (suficiente)",
-      "Verbo: haber (existencia)",
-      "Complemento: para que el granjero prepare las cosechas",
-      "Verbo: preparar (propósito/intención)"
+      "Sujeto: el granjero",
+      "Verbo: cosechar",
+      "Complemento: manzanas maduras",
+      "Cláusula: para que haya manzanas maduras"
     ],
-    "hintDisplay": "Sujeto: luz solar (suficiente) / Verbo: haber (existencia) / Complemento: para que el granjero prepare las cosechas / Verbo: preparar (propósito/intención)",
-    "spanishSentence": "¿Hay suficiente luz solar para que el granjero prepare las cosechas?",
-    "correctSentence": "Is there enough sunshine for the farmer to prepare the crops?",
+    "hintDisplay": "Sujeto: el granjero / Verbo: cosechar / Complemento: manzanas maduras / Cláusula: para que haya manzanas maduras",
+    "spanishSentence": "¿Hay manzanas maduras para que el granjero las coseche con este clima?",
+    "correctSentence": "Are there any ripe apples for the farmer to harvest in this weather?",
     "cards": [
       {
-        "id": "c10",
-        "text": "the",
+        "id": "c13",
+        "text": "weather",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "clima"
       },
       {
         "id": "d1",
-        "text": "Were",
+        "text": "is",
         "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "(verbo ser/estar)"
       },
       {
-        "id": "c8",
+        "id": "c3",
+        "text": "any",
+        "isDistractor": false,
+        "translation": "alguna"
+      },
+      {
+        "id": "c1",
+        "text": "Are",
+        "isDistractor": false,
+        "translation": "(verbo ser/estar)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c11",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "d4",
+        "text": "weathered",
+        "isDistractor": true,
+        "translation": "resistió"
+      },
+      {
+        "id": "c12",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c6",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c2",
+        "text": "there",
+        "isDistractor": false,
+        "translation": "(existencia)"
+      },
+      {
+        "id": "c4",
+        "text": "ripe",
+        "isDistractor": false,
+        "translation": "maduras"
+      },
+      {
+        "id": "d2",
+        "text": "harvests",
+        "isDistractor": true,
+        "translation": "cosechas"
+      },
+      {
+        "id": "c9",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "d4",
-        "text": "Does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c4",
-        "text": "sunshine",
+        "id": "c10",
+        "text": "harvest",
         "isDistractor": false,
-        "translation": "luz solar"
+        "translation": "cosechar"
       },
       {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c7",
+        "id": "c8",
         "text": "farmer",
         "isDistractor": false,
         "translation": "granjero"
       },
       {
         "id": "c5",
+        "text": "apples",
+        "isDistractor": false,
+        "translation": "manzanas"
+      },
+      {
+        "id": "d3",
+        "text": "it",
+        "isDistractor": true,
+        "translation": "ello"
+      }
+    ],
+    "translations": {
+      "are": "(verbo ser/estar)",
+      "there": "(existencia)",
+      "any": "alguna",
+      "ripe": "maduras",
+      "apples": "manzanas",
+      "for": "para",
+      "the": "el",
+      "farmer": "granjero",
+      "to": "(marca de infinitivo)",
+      "harvest": "cosechar",
+      "in": "con",
+      "this": "este",
+      "weather": "clima",
+      "is": "(verbo ser/estar)",
+      "harvests": "cosechas",
+      "it": "ello",
+      "weathered": "resistió"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: no especificado",
+      "Verbo: haber (existencia)",
+      "Complemento: ropa cómoda para ponerse",
+      "Complemento: con este clima"
+    ],
+    "hintDisplay": "Sujeto: no especificado / Verbo: haber (existencia) / Complemento: ropa cómoda para ponerse / Complemento: con este clima",
+    "spanishSentence": "¿No hay ropa cómoda para que me ponga con este clima?",
+    "correctSentence": "Isn't there any comfortable clothing for me to wear in this weather?",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "clothing",
+        "isDistractor": false,
+        "translation": "ropa"
+      },
+      {
+        "id": "c4",
+        "text": "comfortable",
+        "isDistractor": false,
+        "translation": "cómoda"
+      },
+      {
+        "id": "c3",
+        "text": "any",
+        "isDistractor": false,
+        "translation": "alguna"
+      },
+      {
+        "id": "c1",
+        "text": "Isn't",
+        "isDistractor": false,
+        "translation": "(negación)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d2",
+        "text": "anything",
+        "isDistractor": true,
+        "translation": "algo"
+      },
+      {
+        "id": "c10",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c8",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c6",
         "text": "for",
         "isDistractor": false,
         "translation": "para"
       },
       {
-        "id": "c1",
-        "text": "Is",
+        "id": "c7",
+        "text": "me",
+        "isDistractor": false,
+        "translation": "mí"
+      },
+      {
+        "id": "d3",
+        "text": "comfortablely",
+        "isDistractor": true,
+        "translation": "cómodamente"
+      },
+      {
+        "id": "c11",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "d1",
+        "text": "Aren't",
+        "isDistractor": true,
+        "translation": "(negación)"
+      },
+      {
+        "id": "d4",
+        "text": "wears",
+        "isDistractor": true,
+        "translation": "viste"
+      },
+      {
+        "id": "c12",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "clima"
+      },
+      {
+        "id": "c2",
+        "text": "there",
+        "isDistractor": false,
+        "translation": "(existencia)"
+      },
+      {
+        "id": "c9",
+        "text": "wear",
+        "isDistractor": false,
+        "translation": "ponerme"
+      }
+    ],
+    "translations": {
+      "isn't": "(negación)",
+      "there": "(existencia)",
+      "any": "alguna",
+      "comfortable": "cómoda",
+      "clothing": "ropa",
+      "for": "para",
+      "me": "mí",
+      "to": "(marca de infinitivo)",
+      "wear": "ponerme",
+      "in": "con",
+      "this": "este",
+      "weather": "clima",
+      "aren't": "(negación)",
+      "anything": "algo",
+      "comfortablely": "cómodamente",
+      "wears": "viste"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nubes oscuras",
+      "Verbo: haber",
+      "Complemento: adentro"
+    ],
+    "hintDisplay": "Sujeto: nubes oscuras / Verbo: haber / Complemento: adentro",
+    "spanishSentence": "¿Hay nubes oscuras y nos quedamos adentro?",
+    "correctSentence": "Are there dark clouds, and do we stay inside?",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "do",
         "isDistractor": false,
         "translation": "(auxiliar)"
       },
       {
-        "id": "c11",
-        "text": "crops",
+        "id": "c3",
+        "text": "dark",
         "isDistractor": false,
-        "translation": "cosechas"
+        "translation": "oscuras"
+      },
+      {
+        "id": "c7",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "d3",
+        "text": "cloudy",
+        "isDistractor": true,
+        "translation": "nublado"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c5",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c9",
+        "text": "inside",
+        "isDistractor": false,
+        "translation": "adentro"
+      },
+      {
+        "id": "c4",
+        "text": "clouds",
+        "isDistractor": false,
+        "translation": "nubes"
       },
       {
         "id": "d2",
-        "text": "preparing",
+        "text": "does",
         "isDistractor": true,
-        "translation": "preparando"
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c8",
+        "text": "stay",
+        "isDistractor": false,
+        "translation": "quedamos"
       },
       {
         "id": "c2",
         "text": "there",
         "isDistractor": false,
         "translation": "hay"
+      },
+      {
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(verbo ser/estar)"
+      },
+      {
+        "id": "c1",
+        "text": "Are",
+        "isDistractor": false,
+        "translation": "(verbo ser/estar)"
+      }
+    ],
+    "translations": {
+      "are": "(verbo ser/estar)",
+      "there": "hay",
+      "dark": "oscuras",
+      "clouds": "nubes",
+      "and": "y",
+      "do": "(auxiliar)",
+      "we": "nosotros",
+      "stay": "quedamos",
+      "inside": "adentro",
+      "is": "(verbo ser/estar)",
+      "does": "(auxiliar)",
+      "cloudy": "nublado"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: cobertura suficiente",
+      "Verbo: haber",
+      "Complemento: para los cultivos del granjero",
+      "Complemento: durante la tormenta"
+    ],
+    "hintDisplay": "Sujeto: cobertura suficiente / Verbo: haber / Complemento: para los cultivos del granjero / Complemento: durante la tormenta",
+    "spanishSentence": "¿Hay suficiente cobertura para los cultivos del granjero durante la tormenta?",
+    "correctSentence": "Is there enough cover for the farmer's crops during the storm?",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      },
+      {
+        "id": "c5",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c11",
+        "text": "storm",
+        "isDistractor": false,
+        "translation": "tormenta"
+      },
+      {
+        "id": "c8",
+        "text": "crops",
+        "isDistractor": false,
+        "translation": "cultivos"
+      },
+      {
+        "id": "d1",
+        "text": "protection",
+        "isDistractor": true,
+        "translation": "protección"
       },
       {
         "id": "c3",
@@ -375,539 +806,177 @@
         "translation": "suficiente"
       },
       {
+        "id": "d4",
+        "text": "their",
+        "isDistractor": true,
+        "translation": "sus"
+      },
+      {
+        "id": "d3",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado de ser/estar)"
+      },
+      {
+        "id": "c7",
+        "text": "farmer's",
+        "isDistractor": false,
+        "translation": "del granjero"
+      },
+      {
+        "id": "d2",
+        "text": "covers",
+        "isDistractor": true,
+        "translation": "cubre"
+      },
+      {
         "id": "qm",
         "text": "?",
         "isDistractor": false,
         "translation": "signo de interrogación"
       },
       {
-        "id": "c9",
-        "text": "prepare",
+        "id": "c2",
+        "text": "there",
         "isDistractor": false,
-        "translation": "preparar"
+        "translation": "hay"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(verbo ser/estar)"
+      },
+      {
+        "id": "c4",
+        "text": "cover",
+        "isDistractor": false,
+        "translation": "cobertura"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      }
+    ],
+    "translations": {
+      "is": "(verbo ser/estar)",
+      "there": "hay",
+      "enough": "suficiente",
+      "cover": "cobertura",
+      "for": "para",
+      "the": "el/la",
+      "farmer's": "del granjero",
+      "crops": "cultivos",
+      "during": "durante",
+      "storm": "tormenta",
+      "protection": "protección",
+      "covers": "cubre",
+      "were": "(pasado de ser/estar)",
+      "their": "sus"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "weather"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: información meteorológica",
+      "Verbo: haber",
+      "Complemento: para que el meteorólogo la anuncie"
+    ],
+    "hintDisplay": "Sujeto: información meteorológica / Verbo: haber / Complemento: para que el meteorólogo la anuncie",
+    "spanishSentence": "¿Hay información meteorológica para que el meteorólogo la anuncie?",
+    "correctSentence": "Is there any weather information for the meteorologist to announce?",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "weather",
+        "isDistractor": false,
+        "translation": "meteorológica"
+      },
+      {
+        "id": "d2",
+        "text": "weathered",
+        "isDistractor": true,
+        "translation": "resistió"
+      },
+      {
+        "id": "c6",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c8",
+        "text": "meteorologist",
+        "isDistractor": false,
+        "translation": "meteorólogo"
+      },
+      {
+        "id": "c10",
+        "text": "announce",
+        "isDistractor": false,
+        "translation": "anunciar"
       },
       {
         "id": "d3",
         "text": "him",
         "isDistractor": true,
         "translation": "lo"
-      }
-    ],
-    "translations": {
-      "is": "(auxiliar)",
-      "there": "hay",
-      "enough": "suficiente",
-      "sunshine": "luz solar",
-      "for": "para",
-      "the": "(artículo)",
-      "farmer": "granjero",
-      "to": "(marca de infinitivo)",
-      "prepare": "preparar",
-      "crops": "cosechas",
-      "were": "(auxiliar)",
-      "preparing": "preparando",
-      "him": "lo",
-      "does": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Verbo: ser/estar (negación - forma interrogativa)",
-      "Sujeto: abrigos pesados",
-      "Complemento: para nosotros",
-      "Complemento: para abrigarse/envolverse",
-      "Complemento: cuando hay vientos congelantes"
-    ],
-    "hintDisplay": "Verbo: ser/estar (negación - forma interrogativa) / Sujeto: abrigos pesados / Complemento: para nosotros / Complemento: para abrigarse/envolverse / Complemento: cuando hay vientos congelantes",
-    "spanishSentence": "¿No hay abrigos pesados para que nos abriguemos cuando hay vientos congelantes?",
-    "correctSentence": "Aren't there any heavy coats for us to bundle up with when there are freezing winds?",
-    "cards": [
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false,
-        "translation": "hay"
       },
       {
-        "id": "c11",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
+        "id": "d1",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(verbo ser/estar)"
       },
       {
-        "id": "c12",
-        "text": "when",
+        "id": "c5",
+        "text": "information",
         "isDistractor": false,
-        "translation": "cuando"
+        "translation": "información"
       },
       {
-        "id": "c6",
-        "text": "for",
+        "id": "qm",
+        "text": "?",
         "isDistractor": false,
-        "translation": "para"
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(verbo ser/estar)"
       },
       {
         "id": "c9",
-        "text": "bundle",
-        "isDistractor": false,
-        "translation": "abrigar"
-      },
-      {
-        "id": "c8",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d1",
-        "text": "Were",
-        "isDistractor": true,
-        "translation": "(pretérito)"
-      },
-      {
-        "id": "c13",
-        "text": "there",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c1",
-        "text": "Aren't",
-        "isDistractor": false,
-        "translation": "(negación)"
-      },
-      {
-        "id": "c3",
-        "text": "any",
-        "isDistractor": false,
-        "translation": "ninguno"
-      },
-      {
-        "id": "c4",
-        "text": "heavy",
-        "isDistractor": false,
-        "translation": "pesado"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c5",
-        "text": "coats",
-        "isDistractor": false,
-        "translation": "abrigos"
-      },
-      {
-        "id": "d3",
-        "text": "Does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c7",
-        "text": "us",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c16",
-        "text": "winds",
-        "isDistractor": false,
-        "translation": "vientos"
-      },
-      {
-        "id": "c14",
-        "text": "are",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "c15",
-        "text": "freezing",
-        "isDistractor": false,
-        "translation": "congelante"
-      },
-      {
-        "id": "c10",
-        "text": "up",
-        "isDistractor": false,
-        "translation": "(partícula)"
-      }
-    ],
-    "translations": {
-      "aren't": "(negación)",
-      "there": "hay",
-      "any": "ninguno",
-      "heavy": "pesado",
-      "coats": "abrigos",
-      "for": "para",
-      "us": "nosotros",
-      "to": "(marca de infinitivo)",
-      "bundle": "abrigar",
-      "up": "(partícula)",
-      "with": "con",
-      "when": "cuando",
-      "are": "(presente)",
-      "freezing": "congelante",
-      "winds": "vientos",
-      "were": "(pretérito)",
-      "them": "ellos",
-      "does": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: nubes",
-      "Verbo: haber (existencia)",
-      "Complemento: algunas",
-      "Verbo: despejar (futuro)",
-      "Tiempo: mañana"
-    ],
-    "hintDisplay": "Sujeto: nubes / Verbo: haber (existencia) / Complemento: algunas / Verbo: despejar (futuro) / Tiempo: mañana",
-    "spanishSentence": "¿Hay algunas nubes que se despejarán mañana?",
-    "correctSentence": "Are there any clouds that will clear up tomorrow?",
-    "cards": [
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false,
-        "translation": "que"
-      },
-      {
-        "id": "c4",
-        "text": "clouds",
-        "isDistractor": false,
-        "translation": "nubes"
-      },
-      {
-        "id": "d2",
-        "text": "tomorrow's",
-        "isDistractor": true,
-        "translation": "de mañana"
-      },
-      {
-        "id": "c8",
-        "text": "up",
-        "isDistractor": false,
-        "translation": "(partícula)"
-      },
-      {
-        "id": "c3",
-        "text": "any",
-        "isDistractor": false,
-        "translation": "algunas"
-      },
-      {
-        "id": "d1",
-        "text": "clearing",
-        "isDistractor": true,
-        "translation": "despejando"
-      },
-      {
-        "id": "c9",
-        "text": "tomorrow",
-        "isDistractor": false,
-        "translation": "mañana"
-      },
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "d3",
-        "text": "some",
-        "isDistractor": true,
-        "translation": "algunas"
-      },
-      {
-        "id": "c6",
-        "text": "will",
-        "isDistractor": false,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c7",
-        "text": "clear",
-        "isDistractor": false,
-        "translation": "despejar"
-      },
-      {
-        "id": "c1",
-        "text": "Are",
-        "isDistractor": false,
-        "translation": "(presente)"
-      }
-    ],
-    "translations": {
-      "are": "(presente)",
-      "there": "hay",
-      "any": "algunas",
-      "clouds": "nubes",
-      "that": "que",
-      "will": "(futuro)",
-      "clear": "despejar",
-      "up": "(partícula)",
-      "tomorrow": "mañana",
-      "clearing": "despejando",
-      "tomorrow's": "de mañana",
-      "some": "algunas"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: tormentas eléctricas",
-      "Verbo: haber (existencia)",
-      "Complemento: algunas",
-      "Verbo: reportar (futuro)",
-      "Sujeto: el meteorólogo",
-      "Tiempo: hoy"
-    ],
-    "hintDisplay": "Sujeto: tormentas eléctricas / Verbo: haber (existencia) / Complemento: algunas / Verbo: reportar (futuro) / Sujeto: el meteorólogo / Tiempo: hoy",
-    "spanishSentence": "¿Hay algunas tormentas eléctricas que el meteorólogo reportará hoy?",
-    "correctSentence": "Are there any thunderstorms that the meteorologist will report today?",
-    "cards": [
-      {
-        "id": "c3",
-        "text": "any",
-        "isDistractor": false,
-        "translation": "alguno"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d1",
-        "text": "reported",
-        "isDistractor": true,
-        "translation": "reportado"
-      },
-      {
-        "id": "c7",
-        "text": "meteorologist",
-        "isDistractor": false,
-        "translation": "meteorólogo"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false,
-        "translation": "que"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
       },
       {
         "id": "d4",
-        "text": "storms",
-        "isDistractor": true,
-        "translation": "tormentas"
-      },
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false,
-        "translation": "allí"
-      },
-      {
-        "id": "c10",
-        "text": "today",
-        "isDistractor": false,
-        "translation": "hoy"
-      },
-      {
-        "id": "c8",
         "text": "will",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "(futuro)"
       },
       {
-        "id": "c4",
-        "text": "thunderstorms",
-        "isDistractor": false,
-        "translation": "tormentas eléctricas"
-      },
-      {
-        "id": "c1",
-        "text": "Are",
-        "isDistractor": false,
-        "translation": "(ser/estar)"
-      },
-      {
-        "id": "c9",
-        "text": "report",
-        "isDistractor": false,
-        "translation": "reportar"
-      }
-    ],
-    "translations": {
-      "are": "(ser/estar)",
-      "there": "allí",
-      "any": "alguno",
-      "thunderstorms": "tormentas eléctricas",
-      "that": "que",
-      "the": "(artículo)",
-      "meteorologist": "meteorólogo",
-      "will": "(futuro)",
-      "report": "reportar",
-      "today": "hoy",
-      "reported": "reportado",
-      "them": "los",
-      "does": "(auxiliar)",
-      "storms": "tormentas"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: muchas nubes",
-      "Verbo: haber (existencia)",
-      "Verbo: necesitar (modal/auxiliar - expresar necesidad)",
-      "Complemento: prepararse",
-      "Tiempo: hoy"
-    ],
-    "hintDisplay": "Sujeto: muchas nubes / Verbo: haber (existencia) / Verbo: necesitar (modal/auxiliar - expresar necesidad) / Complemento: prepararse / Tiempo: hoy",
-    "spanishSentence": "¿Hay muchas nubes para las que necesitemos prepararnos hoy?",
-    "correctSentence": "Are there many clouds we need to prepare for today?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Are",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d2",
-        "text": "much",
-        "isDistractor": true,
-        "translation": "mucho"
-      },
-      {
-        "id": "c10",
-        "text": "today",
-        "isDistractor": false,
-        "translation": "hoy"
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d3",
-        "text": "were",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
         "id": "c3",
-        "text": "many",
+        "text": "any",
         "isDistractor": false,
-        "translation": "muchas"
-      },
-      {
-        "id": "d1",
-        "text": "Is",
-        "isDistractor": true,
-        "translation": "es"
-      },
-      {
-        "id": "c6",
-        "text": "need",
-        "isDistractor": false,
-        "translation": "necesitamos"
-      },
-      {
-        "id": "c9",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c4",
-        "text": "clouds",
-        "isDistractor": false,
-        "translation": "nubes"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c8",
-        "text": "prepare",
-        "isDistractor": false,
-        "translation": "preparar"
-      },
-      {
-        "id": "c5",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
+        "translation": "alguna"
       },
       {
         "id": "c2",
@@ -917,110 +986,20 @@
       }
     ],
     "translations": {
-      "are": "(auxiliar)",
+      "is": "(verbo ser/estar)",
       "there": "hay",
-      "many": "muchas",
-      "clouds": "nubes",
-      "we": "nosotros",
-      "need": "necesitamos",
-      "to": "(marca de infinitivo)",
-      "prepare": "preparar",
+      "any": "alguna",
+      "weather": "meteorológica",
+      "information": "información",
       "for": "para",
-      "today": "hoy",
-      "is": "es",
-      "much": "mucho",
-      "were": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "weather"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: lluvia",
-      "Verbo: haber (existencia)",
-      "Complemento: demasiada (excesiva cantidad)",
-      "Tiempo: hoy"
-    ],
-    "hintDisplay": "Sujeto: lluvia / Verbo: haber (existencia) / Complemento: demasiada (excesiva cantidad) / Tiempo: hoy",
-    "spanishSentence": "¿Hay demasiada lluvia hoy?",
-    "correctSentence": "Is there too much rain today?",
-    "cards": [
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c3",
-        "text": "too",
-        "isDistractor": false,
-        "translation": "demasiado"
-      },
-      {
-        "id": "d2",
-        "text": "Does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d3",
-        "text": "Have",
-        "isDistractor": true,
-        "translation": "tener"
-      },
-      {
-        "id": "c4",
-        "text": "much",
-        "isDistractor": false,
-        "translation": "mucho"
-      },
-      {
-        "id": "d1",
-        "text": "Was",
-        "isDistractor": true,
-        "translation": "fue/era"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c6",
-        "text": "today",
-        "isDistractor": false,
-        "translation": "hoy"
-      },
-      {
-        "id": "c5",
-        "text": "rain",
-        "isDistractor": false,
-        "translation": "lluvia"
-      },
-      {
-        "id": "c1",
-        "text": "Is",
-        "isDistractor": false,
-        "translation": "(ser/estar)"
-      }
-    ],
-    "translations": {
-      "is": "(ser/estar)",
-      "there": "hay",
-      "too": "demasiado",
-      "much": "mucho",
-      "rain": "lluvia",
-      "today": "hoy",
-      "was": "fue/era",
-      "does": "(auxiliar)",
-      "have": "tener"
+      "the": "el",
+      "meteorologist": "meteorólogo",
+      "to": "(marca de infinitivo)",
+      "announce": "anunciar",
+      "are": "(verbo ser/estar)",
+      "weathered": "resistió",
+      "him": "lo",
+      "will": "(futuro)"
     },
     "metadata": {
       "tense": "there is/are",
@@ -1033,143 +1012,113 @@
   {
     "hints": [
       "Sujeto: ellos",
-      "Verbo: ser (existencia/cantidad)",
-      "Complemento: tanta lluvia",
-      "Verbo: tener (obligación/necesidad)",
-      "Complemento: que vestirse con ropa impermeable",
-      "Verbo: vestirse (reflexivo, acción de ponerse ropa)"
+      "Verbo: haber",
+      "Complemento: demasiado humo",
+      "Cláusula: para que evacúen"
     ],
-    "hintDisplay": "Sujeto: ellos / Verbo: ser (existencia/cantidad) / Complemento: tanta lluvia / Verbo: tener (obligación/necesidad) / Complemento: que vestirse con ropa impermeable / Verbo: vestirse (reflexivo, acción de ponerse ropa)",
-    "spanishSentence": "¿Hay tanta lluvia que ellos tienen que vestirse con ropa impermeable?",
-    "correctSentence": "Is there so much rain that they have to dress in waterproof clothing?",
+    "hintDisplay": "Sujeto: ellos / Verbo: haber / Complemento: demasiado humo / Cláusula: para que evacúen",
+    "spanishSentence": "¿Hay demasiado humo para que evacúen?",
+    "correctSentence": "Is there too much smoke for them to evacuate?",
     "cards": [
       {
-        "id": "d1",
-        "text": "wears",
+        "id": "d3",
+        "text": "their",
         "isDistractor": true,
-        "translation": "usa"
+        "translation": "su"
       },
       {
-        "id": "c3",
-        "text": "so",
+        "id": "c9",
+        "text": "evacuate",
         "isDistractor": false,
-        "translation": "tan"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c7",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
-        "id": "c8",
-        "text": "have",
-        "isDistractor": false,
-        "translation": "tienen"
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "con"
+        "translation": "evacuar"
       },
       {
         "id": "c1",
         "text": "Is",
         "isDistractor": false,
-        "translation": "(ser/estar)"
+        "translation": "(verbo ser/estar)"
       },
       {
-        "id": "c12",
-        "text": "waterproof",
-        "isDistractor": false,
-        "translation": "impermeable"
-      },
-      {
-        "id": "c2",
-        "text": "there",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c4",
-        "text": "much",
-        "isDistractor": false,
-        "translation": "mucha"
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c10",
-        "text": "dress",
-        "isDistractor": false,
-        "translation": "vestirse"
-      },
-      {
-        "id": "c5",
-        "text": "rain",
-        "isDistractor": false,
-        "translation": "lluvia"
+        "id": "d2",
+        "text": "many",
+        "isDistractor": true,
+        "translation": "muchos"
       },
       {
         "id": "c6",
-        "text": "that",
+        "text": "for",
         "isDistractor": false,
-        "translation": "que"
+        "translation": "para"
       },
       {
         "id": "d4",
-        "text": "rainproof",
+        "text": "evacuates",
         "isDistractor": true,
-        "translation": "impermeable al agua"
+        "translation": "evacúa"
       },
       {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c13",
-        "text": "clothing",
+        "id": "c5",
+        "text": "smoke",
         "isDistractor": false,
-        "translation": "ropa"
+        "translation": "humo"
       },
       {
         "id": "qm",
         "text": "?",
         "isDistractor": false,
         "translation": "signo de interrogación"
+      },
+      {
+        "id": "c2",
+        "text": "there",
+        "isDistractor": false,
+        "translation": "(existencia)"
+      },
+      {
+        "id": "c7",
+        "text": "them",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c3",
+        "text": "too",
+        "isDistractor": false,
+        "translation": "demasiado"
+      },
+      {
+        "id": "c4",
+        "text": "much",
+        "isDistractor": false,
+        "translation": "mucho"
+      },
+      {
+        "id": "d1",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(verbo ser/estar, pasado)"
+      },
+      {
+        "id": "c8",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
       }
     ],
     "translations": {
-      "is": "(ser/estar)",
-      "there": "hay",
-      "so": "tan",
-      "much": "mucha",
-      "rain": "lluvia",
-      "that": "que",
-      "they": "ellos",
-      "have": "tienen",
+      "is": "(verbo ser/estar)",
+      "there": "(existencia)",
+      "too": "demasiado",
+      "much": "mucho",
+      "smoke": "humo",
+      "for": "para",
+      "them": "ellos",
       "to": "(marca de infinitivo)",
-      "dress": "vestirse",
-      "in": "con",
-      "waterproof": "impermeable",
-      "clothing": "ropa",
-      "wears": "usa",
-      "them": "los",
-      "does": "(auxiliar)",
-      "rainproof": "impermeable al agua"
+      "evacuate": "evacuar",
+      "was": "(verbo ser/estar, pasado)",
+      "many": "muchos",
+      "their": "su",
+      "evacuates": "evacúa"
     },
     "metadata": {
       "tense": "there is/are",
@@ -1181,44 +1130,43 @@
   },
   {
     "hints": [
-      "Sujeto: Hay (impersonal)",
-      "Verbo: Ser (estar disponible/existir)",
-      "Complemento: Suficiente luz solar",
-      "Complemento: Para que yo use ropa ligera (propósito/resultado)"
+      "Sujeto: no hay tiempo",
+      "Verbo: haber",
+      "Complemento: para que me prepare para el clima"
     ],
-    "hintDisplay": "Sujeto: Hay (impersonal) / Verbo: Ser (estar disponible/existir) / Complemento: Suficiente luz solar / Complemento: Para que yo use ropa ligera (propósito/resultado)",
-    "spanishSentence": "¿Hay suficiente luz solar para que yo use ropa ligera?",
-    "correctSentence": "Is there enough sunshine for me to wear light clothes?",
+    "hintDisplay": "Sujeto: no hay tiempo / Verbo: haber / Complemento: para que me prepare para el clima",
+    "spanishSentence": "¿No hay tiempo para que me prepare para el clima?",
+    "correctSentence": "Isn't there any time for me to prepare for the weather?",
     "cards": [
       {
-        "id": "c2",
-        "text": "there",
+        "id": "c11",
+        "text": "weather",
         "isDistractor": false,
-        "translation": "hay"
+        "translation": "clima"
       },
       {
-        "id": "c9",
-        "text": "light",
-        "isDistractor": false,
-        "translation": "ligera"
-      },
-      {
-        "id": "c3",
-        "text": "enough",
-        "isDistractor": false,
-        "translation": "suficiente"
-      },
-      {
-        "id": "d3",
-        "text": "sunlight",
+        "id": "d2",
+        "text": "some",
         "isDistractor": true,
-        "translation": "luz del sol"
+        "translation": "algún"
+      },
+      {
+        "id": "c4",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "tiempo"
       },
       {
         "id": "c10",
-        "text": "clothes",
+        "text": "the",
         "isDistractor": false,
-        "translation": "ropa"
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "aren't",
+        "isDistractor": true,
+        "translation": "(negación)"
       },
       {
         "id": "c5",
@@ -1227,10 +1175,28 @@
         "translation": "para"
       },
       {
-        "id": "c4",
-        "text": "sunshine",
+        "id": "d4",
+        "text": "weathering",
+        "isDistractor": true,
+        "translation": "soportando"
+      },
+      {
+        "id": "c8",
+        "text": "prepare",
         "isDistractor": false,
-        "translation": "luz solar"
+        "translation": "preparar"
+      },
+      {
+        "id": "c1",
+        "text": "Isn't",
+        "isDistractor": false,
+        "translation": "(negación)"
+      },
+      {
+        "id": "c3",
+        "text": "any",
+        "isDistractor": false,
+        "translation": "ningún"
       },
       {
         "id": "c6",
@@ -1239,28 +1205,16 @@
         "translation": "mí"
       },
       {
-        "id": "c1",
-        "text": "Is",
-        "isDistractor": false,
-        "translation": "(ser/estar)"
-      },
-      {
-        "id": "c8",
-        "text": "wear",
-        "isDistractor": false,
-        "translation": "usar"
-      },
-      {
-        "id": "d2",
-        "text": "am",
+        "id": "d3",
+        "text": "him",
         "isDistractor": true,
-        "translation": "(ser/estar)"
+        "translation": "él"
       },
       {
-        "id": "d1",
-        "text": "wearing",
-        "isDistractor": true,
-        "translation": "llevando"
+        "id": "c9",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
       },
       {
         "id": "qm",
@@ -1273,22 +1227,29 @@
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c2",
+        "text": "there",
+        "isDistractor": false,
+        "translation": "(existencia)"
       }
     ],
     "translations": {
-      "is": "(ser/estar)",
-      "there": "hay",
-      "enough": "suficiente",
-      "sunshine": "luz solar",
+      "isn't": "(negación)",
+      "there": "(existencia)",
+      "any": "ningún",
+      "time": "tiempo",
       "for": "para",
       "me": "mí",
       "to": "(marca de infinitivo)",
-      "wear": "usar",
-      "light": "ligera",
-      "clothes": "ropa",
-      "wearing": "llevando",
-      "am": "(ser/estar)",
-      "sunlight": "luz del sol"
+      "prepare": "preparar",
+      "the": "el",
+      "weather": "clima",
+      "aren't": "(negación)",
+      "some": "algún",
+      "him": "él",
+      "weathering": "soportando"
     },
     "metadata": {
       "tense": "there is/are",
