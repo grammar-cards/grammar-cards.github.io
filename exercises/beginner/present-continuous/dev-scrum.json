@@ -1,38 +1,155 @@
 [
   {
     "hints": [
-      "Sujeto: El equipo",
-      "Verbo: estar (auxiliar para indicar acción en progreso)",
-      "Complemento: celebrando la finalización del sprint",
-      "Tiempo: aún no (marcador de negación temporal)"
+      "Sujeto: el desarrollador",
+      "Verbo: realizar (presente continuo)",
+      "Complemento: los cambios de código",
+      "Tiempo: ahora"
     ],
-    "hintDisplay": "Sujeto: El equipo / Verbo: estar (auxiliar para indicar acción en progreso) / Complemento: celebrando la finalización del sprint / Tiempo: aún no (marcador de negación temporal)",
-    "spanishSentence": "El equipo aún no está celebrando la finalización del sprint.",
-    "correctSentence": "The team is not celebrating the sprint completion yet.",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: realizar (presente continuo) / Complemento: los cambios de código / Tiempo: ahora",
+    "spanishSentence": "El desarrollador está realizando los cambios de código ahora.",
+    "correctSentence": "The developer is committing the code changes now.",
     "cards": [
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c2",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "d1",
+        "text": "commits",
+        "isDistractor": true,
+        "translation": "realiza"
+      },
+      {
+        "id": "d2",
+        "text": "commit",
+        "isDistractor": true,
+        "translation": "realizar"
+      },
+      {
+        "id": "d4",
+        "text": "committed",
+        "isDistractor": true,
+        "translation": "realizado"
+      },
       {
         "id": "c3",
         "text": "is",
         "isDistractor": false,
-        "translation": "(presente)"
+        "translation": "está"
       },
       {
-        "id": "d1",
-        "text": "are",
-        "isDistractor": true,
-        "translation": "(presente)"
-      },
-      {
-        "id": "c9",
-        "text": "yet",
+        "id": "c7",
+        "text": "changes",
         "isDistractor": false,
-        "translation": "aún"
+        "translation": "cambios"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c6",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c4",
+        "text": "committing",
+        "isDistractor": false,
+        "translation": "realizando"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "developer": "desarrollador",
+      "is": "está",
+      "committing": "realizando",
+      "code": "código",
+      "changes": "cambios",
+      "now": "ahora",
+      "commits": "realiza",
+      "commit": "realizar",
+      "has": "ha",
+      "committed": "realizado"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: planificar (presente continuo)",
+      "Complemento: el backlog del sprint",
+      "Tiempo: para la próxima iteración"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: planificar (presente continuo) / Complemento: el backlog del sprint / Tiempo: para la próxima iteración",
+    "spanishSentence": "El equipo está planificando el backlog del sprint para la siguiente iteración.",
+    "correctSentence": "The team is planning the sprint backlog for the next iteration.",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "iteration",
+        "isDistractor": false,
+        "translation": "iteración"
+      },
+      {
+        "id": "c10",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "siguiente"
       },
       {
         "id": "c5",
-        "text": "celebrating",
+        "text": "the",
         "isDistractor": false,
-        "translation": "celebrando"
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d4",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
       },
       {
         "id": "c2",
@@ -41,71 +158,72 @@
         "translation": "equipo"
       },
       {
-        "id": "d3",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "(perfecto)"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d4",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c7",
+        "id": "c6",
         "text": "sprint",
         "isDistractor": false,
         "translation": "sprint"
       },
       {
         "id": "c8",
-        "text": "completion",
+        "text": "for",
         "isDistractor": false,
-        "translation": "finalización"
+        "translation": "para"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c4",
-        "text": "not",
+        "text": "planning",
         "isDistractor": false,
-        "translation": "no"
+        "translation": "planificando"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "c7",
+        "text": "backlog",
+        "isDistractor": false,
+        "translation": "backlog"
+      },
+      {
+        "id": "d1",
+        "text": "planned",
+        "isDistractor": true,
+        "translation": "planificado"
       },
       {
         "id": "d2",
-        "text": "was",
+        "text": "plans",
         "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "planes"
       }
     ],
     "translations": {
-      "the": "(artículo)",
+      "the": "el",
       "team": "equipo",
-      "is": "(presente)",
-      "not": "no",
-      "celebrating": "celebrando",
+      "is": "está",
+      "planning": "planificando",
       "sprint": "sprint",
-      "completion": "finalización",
-      "yet": "aún",
-      "are": "(presente)",
-      "was": "(pasado)",
-      "has": "(perfecto)",
-      "will": "(futuro)"
+      "backlog": "backlog",
+      "for": "para",
+      "next": "siguiente",
+      "iteration": "iteración",
+      "planned": "planificado",
+      "plans": "planes",
+      "will": "(futuro)",
+      "they": "ellos"
     },
     "metadata": {
       "tense": "present continuous",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"
@@ -113,270 +231,140 @@
   },
   {
     "hints": [
-      "Sujeto: Nosotros",
-      "Verbo: Estar (presente continuo)",
-      "Complemento: Discutiendo los objetivos del sprint y las próximas características",
-      "Complemento: En nuestra reunión de standup diaria"
+      "Sujeto: el líder técnico",
+      "Verbo: diseñar (presente continuo)",
+      "Complemento: la arquitectura del nuevo módulo para el tablero scrum",
+      "Tiempo: este mes"
     ],
-    "hintDisplay": "Sujeto: Nosotros / Verbo: Estar (presente continuo) / Complemento: Discutiendo los objetivos del sprint y las próximas características / Complemento: En nuestra reunión de standup diaria",
-    "spanishSentence": "Estamos discutiendo los objetivos del sprint y las próximas características en nuestra reunión de standup diaria.",
-    "correctSentence": "We are discussing the sprint goals and upcoming features in our daily standup meeting.",
+    "hintDisplay": "Sujeto: el líder técnico / Verbo: diseñar (presente continuo) / Complemento: la arquitectura del nuevo módulo para el tablero scrum / Tiempo: este mes",
+    "spanishSentence": "Este mes, el líder técnico está diseñando la arquitectura del nuevo módulo para el tablero scrum.",
+    "correctSentence": "This month, the tech lead is architecting the new module for the scrum board.",
     "cards": [
       {
-        "id": "c14",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c1",
-        "text": "We",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c7",
-        "text": "and",
-        "isDistractor": false,
-        "translation": "y"
+        "id": "d2",
+        "text": "architects",
+        "isDistractor": true,
+        "translation": "diseña la arquitectura"
       },
       {
         "id": "c3",
-        "text": "discussing",
-        "isDistractor": false,
-        "translation": "discutiendo"
-      },
-      {
-        "id": "c6",
-        "text": "goals",
-        "isDistractor": false,
-        "translation": "objetivos"
-      },
-      {
-        "id": "c4",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
         "id": "c9",
-        "text": "features",
+        "text": "new",
         "isDistractor": false,
-        "translation": "características"
+        "translation": "nuevo"
+      },
+      {
+        "id": "c10",
+        "text": "module",
+        "isDistractor": false,
+        "translation": "módulo"
+      },
+      {
+        "id": "c11",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c5",
+        "text": "lead",
+        "isDistractor": false,
+        "translation": "líder"
+      },
+      {
+        "id": "c4",
+        "text": "tech",
+        "isDistractor": false,
+        "translation": "técnico"
       },
       {
         "id": "c13",
-        "text": "standup",
+        "text": "scrum",
         "isDistractor": false,
-        "translation": "standup"
+        "translation": "scrum"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c2",
-        "text": "are",
+        "text": "month",
         "isDistractor": false,
-        "translation": "(presente continuo)"
-      },
-      {
-        "id": "c11",
-        "text": "our",
-        "isDistractor": false,
-        "translation": "nuestro"
-      },
-      {
-        "id": "c8",
-        "text": "upcoming",
-        "isDistractor": false,
-        "translation": "próximas"
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
+        "translation": "mes"
       },
       {
         "id": "c12",
-        "text": "daily",
+        "text": "the",
         "isDistractor": false,
-        "translation": "diaria"
+        "translation": "el"
       },
       {
-        "id": "d1",
-        "text": "discussed",
-        "isDistractor": true,
-        "translation": "discutido"
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "d3",
-        "text": "were",
+        "text": "led",
         "isDistractor": true,
-        "translation": "fueron"
-      },
-      {
-        "id": "d2",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c5",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      }
-    ],
-    "translations": {
-      "we": "nosotros",
-      "are": "(presente continuo)",
-      "discussing": "discutiendo",
-      "the": "(artículo)",
-      "sprint": "sprint",
-      "goals": "objetivos",
-      "and": "y",
-      "upcoming": "próximas",
-      "features": "características",
-      "in": "en",
-      "our": "nuestro",
-      "daily": "diaria",
-      "standup": "standup",
-      "meeting": "reunión",
-      "discussed": "discutido",
-      "they": "ellos",
-      "were": "fueron"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Yo",
-      "Verbo: Estar (presente continuo - acción en progreso)",
-      "Complemento: Las nuevas características",
-      "Complemento: Al servidor de producción",
-      "Tiempo: Ahora mismo"
-    ],
-    "hintDisplay": "Sujeto: Yo / Verbo: Estar (presente continuo - acción en progreso) / Complemento: Las nuevas características / Complemento: Al servidor de producción / Tiempo: Ahora mismo",
-    "spanishSentence": "Estoy desplegando las nuevas características al servidor de producción ahora mismo.",
-    "correctSentence": "I am deploying the new features to the production server right now.",
-    "cards": [
-      {
-        "id": "c11",
-        "text": "right",
-        "isDistractor": false,
-        "translation": "ahora"
+        "translation": "lideró"
       },
       {
         "id": "c7",
-        "text": "to",
+        "text": "architecting",
         "isDistractor": false,
-        "translation": "(preposición)"
-      },
-      {
-        "id": "c6",
-        "text": "features",
-        "isDistractor": false,
-        "translation": "características"
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "production",
-        "isDistractor": false,
-        "translation": "producción"
-      },
-      {
-        "id": "c10",
-        "text": "server",
-        "isDistractor": false,
-        "translation": "servidor"
-      },
-      {
-        "id": "c5",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nuevas"
-      },
-      {
-        "id": "c3",
-        "text": "deploying",
-        "isDistractor": false,
-        "translation": "desplegando"
-      },
-      {
-        "id": "d4",
-        "text": "distributing",
-        "isDistractor": true,
-        "translation": "distribuyendo"
-      },
-      {
-        "id": "d2",
-        "text": "you",
-        "isDistractor": true,
-        "translation": "tú"
-      },
-      {
-        "id": "d3",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "(pasado)"
+        "translation": "diseñando la arquitectura"
       },
       {
         "id": "d1",
-        "text": "deployed",
+        "text": "designs",
         "isDistractor": true,
-        "translation": "desplegado"
+        "translation": "diseña"
+      },
+      {
+        "id": "c6",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c1",
-        "text": "I",
+        "text": "This",
         "isDistractor": false,
-        "translation": "yo"
+        "translation": "este"
       },
       {
-        "id": "c12",
-        "text": "now",
+        "id": "c14",
+        "text": "board",
         "isDistractor": false,
-        "translation": "mismo"
-      },
-      {
-        "id": "c2",
-        "text": "am",
-        "isDistractor": false,
-        "translation": "(presente)"
+        "translation": "tablero"
       }
     ],
     "translations": {
-      "i": "yo",
-      "am": "(presente)",
-      "deploying": "desplegando",
-      "the": "(artículo)",
-      "new": "nuevas",
-      "features": "características",
-      "to": "(preposición)",
-      "production": "producción",
-      "server": "servidor",
-      "right": "ahora",
-      "now": "mismo",
-      "deployed": "desplegado",
-      "you": "tú",
-      "was": "(pasado)",
-      "distributing": "distribuyendo"
+      "this": "este",
+      "month": "mes",
+      "the": "el",
+      "tech": "técnico",
+      "lead": "líder",
+      "is": "(auxiliar)",
+      "architecting": "diseñando la arquitectura",
+      "new": "nuevo",
+      "module": "módulo",
+      "for": "para",
+      "scrum": "scrum",
+      "board": "tablero",
+      "designs": "diseña",
+      "architects": "diseña la arquitectura",
+      "led": "lideró"
     },
     "metadata": {
       "tense": "present continuous",
@@ -388,52 +376,32 @@
   },
   {
     "hints": [
-      "Sujeto: Ellos",
-      "Verbo: estar (auxiliar para presente continuo)",
-      "Verbo: desplegar",
-      "Complemento: las nuevas características",
-      "Complemento: al servidor de producción",
-      "Tiempo: ahora mismo"
+      "Sujeto: ellos",
+      "Verbo: desplegar (presente continuo)",
+      "Complemento: la corrección",
+      "Cláusula: durante la revisión del sprint"
     ],
-    "hintDisplay": "Sujeto: Ellos / Verbo: estar (auxiliar para presente continuo) / Verbo: desplegar / Complemento: las nuevas características / Complemento: al servidor de producción / Tiempo: ahora mismo",
-    "spanishSentence": "Ellos están desplegando las nuevas características al servidor de producción ahora mismo.",
-    "correctSentence": "They are deploying the new features to the production server right now.",
+    "hintDisplay": "Sujeto: ellos / Verbo: desplegar (presente continuo) / Complemento: la corrección / Cláusula: durante la revisión del sprint",
+    "spanishSentence": "Están desplegando la corrección al servidor de pruebas durante la revisión del sprint.",
+    "correctSentence": "They are currently deploying the fix to the staging server during the sprint review.",
     "cards": [
       {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "al"
+        "id": "d2",
+        "text": "stagingly",
+        "isDistractor": true,
+        "translation": "en etapas"
       },
       {
         "id": "c6",
-        "text": "features",
+        "text": "fix",
         "isDistractor": false,
-        "translation": "características"
+        "translation": "corrección"
       },
       {
-        "id": "d4",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "era"
-      },
-      {
-        "id": "c3",
+        "id": "c4",
         "text": "deploying",
         "isDistractor": false,
         "translation": "desplegando"
-      },
-      {
-        "id": "c5",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nuevas"
       },
       {
         "id": "c10",
@@ -442,28 +410,28 @@
         "translation": "servidor"
       },
       {
-        "id": "d3",
-        "text": "we",
-        "isDistractor": true,
-        "translation": "nosotros"
-      },
-      {
-        "id": "d2",
-        "text": "deployed",
-        "isDistractor": true,
-        "translation": "desplegado"
-      },
-      {
-        "id": "c2",
-        "text": "are",
+        "id": "c7",
+        "text": "to",
         "isDistractor": false,
-        "translation": "(presente continuo)"
+        "translation": "a"
       },
       {
-        "id": "c12",
-        "text": "now",
+        "id": "c5",
+        "text": "the",
         "isDistractor": false,
-        "translation": "ahora"
+        "translation": "el"
+      },
+      {
+        "id": "c11",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c1",
@@ -472,1027 +440,10 @@
         "translation": "ellos"
       },
       {
-        "id": "c11",
-        "text": "right",
-        "isDistractor": false,
-        "translation": "ahora mismo"
-      },
-      {
-        "id": "c9",
-        "text": "production",
-        "isDistractor": false,
-        "translation": "producción"
-      },
-      {
-        "id": "d1",
-        "text": "deploy",
-        "isDistractor": true,
-        "translation": "desplegar"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      }
-    ],
-    "translations": {
-      "they": "ellos",
-      "are": "(presente continuo)",
-      "deploying": "desplegando",
-      "the": "(artículo)",
-      "new": "nuevas",
-      "features": "características",
-      "to": "al",
-      "production": "producción",
-      "server": "servidor",
-      "right": "ahora mismo",
-      "now": "ahora",
-      "deploy": "desplegar",
-      "deployed": "desplegado",
-      "we": "nosotros",
-      "was": "era"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El product owner",
-      "Verbo: estar (auxiliar para construcción continua)",
-      "Verbo: delegar",
-      "Complemento: las tareas del sprint",
-      "Complemento: al equipo de desarrollo",
-      "Tiempo: durante la reunión de scrum"
-    ],
-    "hintDisplay": "Sujeto: El product owner / Verbo: estar (auxiliar para construcción continua) / Verbo: delegar / Complemento: las tareas del sprint / Complemento: al equipo de desarrollo / Tiempo: durante la reunión de scrum",
-    "spanishSentence": "El product owner está delegando las tareas del sprint al equipo de desarrollo durante la reunión de scrum.",
-    "correctSentence": "The product owner is delegating the sprint tasks to the development team during the scrum meeting.",
-    "cards": [
-      {
-        "id": "c12",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c7",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c11",
-        "text": "development",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d2",
-        "text": "distributing",
-        "isDistractor": true,
-        "translation": "distribuyendo"
-      },
-      {
-        "id": "d1",
-        "text": "assigned",
-        "isDistractor": true,
-        "translation": "asignado"
-      },
-      {
-        "id": "d4",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "fue"
-      },
-      {
-        "id": "d3",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "le"
-      },
-      {
         "id": "c3",
-        "text": "owner",
+        "text": "currently",
         "isDistractor": false,
-        "translation": "propietario"
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(preposición)"
-      },
-      {
-        "id": "c13",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c8",
-        "text": "tasks",
-        "isDistractor": false,
-        "translation": "tareas"
-      },
-      {
-        "id": "c15",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c16",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c2",
-        "text": "product",
-        "isDistractor": false,
-        "translation": "producto"
-      },
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente continuo)"
-      },
-      {
-        "id": "c5",
-        "text": "delegating",
-        "isDistractor": false,
-        "translation": "delegando"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "product": "producto",
-      "owner": "propietario",
-      "is": "(presente continuo)",
-      "delegating": "delegando",
-      "sprint": "sprint",
-      "tasks": "tareas",
-      "to": "(preposición)",
-      "development": "desarrollo",
-      "team": "equipo",
-      "during": "durante",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "assigned": "asignado",
-      "distributing": "distribuyendo",
-      "him": "le",
-      "was": "fue"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: yo",
-      "Verbo: aprobar (acción en progreso)",
-      "Complemento: los entregables del sprint",
-      "Tiempo: en esta reunión"
-    ],
-    "hintDisplay": "Sujeto: yo / Verbo: aprobar (acción en progreso) / Complemento: los entregables del sprint / Tiempo: en esta reunión",
-    "spanishSentence": "Estoy aprobando los entregables del sprint en esta reunión.",
-    "correctSentence": "I am approving the sprint deliverables in this meeting.",
-    "cards": [
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "c2",
-        "text": "am",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "d1",
-        "text": "approves",
-        "isDistractor": true,
-        "translation": "aprueba"
-      },
-      {
-        "id": "c5",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "d4",
-        "text": "deliverable",
-        "isDistractor": true,
-        "translation": "entregable"
-      },
-      {
-        "id": "c6",
-        "text": "deliverables",
-        "isDistractor": false,
-        "translation": "entregables"
-      },
-      {
-        "id": "c7",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c3",
-        "text": "approving",
-        "isDistractor": false,
-        "translation": "aprobando"
-      },
-      {
-        "id": "c8",
-        "text": "this",
-        "isDistractor": false,
-        "translation": "este"
-      },
-      {
-        "id": "c9",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "d3",
-        "text": "were",
-        "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "d2",
-        "text": "you",
-        "isDistractor": true,
-        "translation": "tú"
-      }
-    ],
-    "translations": {
-      "i": "yo",
-      "am": "(presente)",
-      "approving": "aprobando",
-      "the": "(artículo)",
-      "sprint": "sprint",
-      "deliverables": "entregables",
-      "in": "en",
-      "this": "este",
-      "meeting": "reunión",
-      "approves": "aprueba",
-      "you": "tú",
-      "were": "(pasado)",
-      "deliverable": "entregable"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El pasante",
-      "Verbo: estar (presente continuo)",
-      "Verbo: presentar",
-      "Complemento: el informe de progreso del sprint",
-      "Complemento: al equipo",
-      "Complemento: en la reunión de desarrollo"
-    ],
-    "hintDisplay": "Sujeto: El pasante / Verbo: estar (presente continuo) / Verbo: presentar / Complemento: el informe de progreso del sprint / Complemento: al equipo / Complemento: en la reunión de desarrollo",
-    "spanishSentence": "El pasante está presentando el informe de progreso del sprint al equipo en la reunión de desarrollo.",
-    "correctSentence": "The intern is presenting the sprint progress report to the team in the dev meeting.",
-    "cards": [
-      {
-        "id": "c3",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "c15",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "report",
-        "isDistractor": false,
-        "translation": "informe"
-      },
-      {
-        "id": "c6",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d2",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "c4",
-        "text": "presenting",
-        "isDistractor": false,
-        "translation": "presentando"
-      },
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "d1",
-        "text": "presented",
-        "isDistractor": true,
-        "translation": "presentó"
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c11",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c14",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "d4",
-        "text": "proposes",
-        "isDistractor": true,
-        "translation": "propone"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(preposición)"
-      },
-      {
-        "id": "d3",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c7",
-        "text": "progress",
-        "isDistractor": false,
-        "translation": "progreso"
-      },
-      {
-        "id": "c2",
-        "text": "intern",
-        "isDistractor": false,
-        "translation": "pasante"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "intern": "pasante",
-      "is": "(presente)",
-      "presenting": "presentando",
-      "sprint": "sprint",
-      "progress": "progreso",
-      "report": "informe",
-      "to": "(preposición)",
-      "team": "equipo",
-      "in": "en",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "presented": "presentó",
-      "their": "su",
-      "was": "(pasado)",
-      "proposes": "propone"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El scrum master",
-      "Verbo: rastrear (estar + gerundio, acción en progreso)",
-      "Complemento: el progreso del equipo",
-      "Tiempo: durante el sprint"
-    ],
-    "hintDisplay": "Sujeto: El scrum master / Verbo: rastrear (estar + gerundio, acción en progreso) / Complemento: el progreso del equipo / Tiempo: durante el sprint",
-    "spanishSentence": "El scrum master está rastreando el progreso del equipo durante el sprint.",
-    "correctSentence": "The scrum master is tracking the team's progress during the sprint.",
-    "cards": [
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(ser/estar presente)"
-      },
-      {
-        "id": "c2",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c7",
-        "text": "team's",
-        "isDistractor": false,
-        "translation": "del equipo"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c5",
-        "text": "tracking",
-        "isDistractor": false,
-        "translation": "rastreando"
-      },
-      {
-        "id": "d1",
-        "text": "traced",
-        "isDistractor": true,
-        "translation": "rastreado"
-      },
-      {
-        "id": "c9",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c3",
-        "text": "master",
-        "isDistractor": false,
-        "translation": "máster"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d4",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "c11",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "d3",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "(ser/estar pasado)"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c8",
-        "text": "progress",
-        "isDistractor": false,
-        "translation": "progreso"
-      },
-      {
-        "id": "d2",
-        "text": "follows",
-        "isDistractor": true,
-        "translation": "sigue"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "scrum": "scrum",
-      "master": "máster",
-      "is": "(ser/estar presente)",
-      "tracking": "rastreando",
-      "team's": "del equipo",
-      "progress": "progreso",
-      "during": "durante",
-      "sprint": "sprint",
-      "traced": "rastreado",
-      "follows": "sigue",
-      "was": "(ser/estar pasado)",
-      "their": "su"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El stakeholder",
-      "Verbo: estar (auxiliar para presente continuo)",
-      "Complemento: asistiendo a la reunión de desarrollo",
-      "Tiempo: hoy"
-    ],
-    "hintDisplay": "Sujeto: El stakeholder / Verbo: estar (auxiliar para presente continuo) / Complemento: asistiendo a la reunión de desarrollo / Tiempo: hoy",
-    "spanishSentence": "El stakeholder no está asistiendo a la reunión de desarrollo hoy.",
-    "correctSentence": "The stakeholder is not attending the dev meeting today.",
-    "cards": [
-      {
-        "id": "c5",
-        "text": "attending",
-        "isDistractor": false,
-        "translation": "asistiendo"
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c3",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "d2",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "c8",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c2",
-        "text": "stakeholder",
-        "isDistractor": false,
-        "translation": "stakeholder"
-      },
-      {
-        "id": "c9",
-        "text": "today",
-        "isDistractor": false,
-        "translation": "hoy"
-      },
-      {
-        "id": "d1",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "meetings",
-        "isDistractor": true,
-        "translation": "reuniones"
-      },
-      {
-        "id": "c7",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "stakeholder": "stakeholder",
-      "is": "(presente)",
-      "not": "no",
-      "attending": "asistiendo",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "today": "hoy",
-      "was": "(pasado)",
-      "their": "su",
-      "meetings": "reuniones"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El ingeniero de QA",
-      "Verbo: estar (presente continuo)",
-      "Verbo: probar",
-      "Complemento: las nuevas funcionalidades",
-      "Complemento: que fueron implementadas en este sprint"
-    ],
-    "hintDisplay": "Sujeto: El ingeniero de QA / Verbo: estar (presente continuo) / Verbo: probar / Complemento: las nuevas funcionalidades / Complemento: que fueron implementadas en este sprint",
-    "spanishSentence": "El ingeniero de QA está probando las nuevas funcionalidades que fueron implementadas en este sprint.",
-    "correctSentence": "The QA engineer is testing the new features that were implemented in this sprint.",
-    "cards": [
-      {
-        "id": "c5",
-        "text": "testing",
-        "isDistractor": false,
-        "translation": "probando"
-      },
-      {
-        "id": "d4",
-        "text": "deployment",
-        "isDistractor": true,
-        "translation": "despliegue"
-      },
-      {
-        "id": "c13",
-        "text": "this",
-        "isDistractor": false,
-        "translation": "este"
-      },
-      {
-        "id": "c14",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "c8",
-        "text": "features",
-        "isDistractor": false,
-        "translation": "funcionalidades"
-      },
-      {
-        "id": "c10",
-        "text": "were",
-        "isDistractor": false,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d1",
-        "text": "implement",
-        "isDistractor": true,
-        "translation": "implementar"
-      },
-      {
-        "id": "c7",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nuevas"
-      },
-      {
-        "id": "c9",
-        "text": "that",
-        "isDistractor": false,
-        "translation": "que"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c2",
-        "text": "QA",
-        "isDistractor": false,
-        "translation": "QA"
-      },
-      {
-        "id": "d3",
-        "text": "developing",
-        "isDistractor": true,
-        "translation": "desarrollando"
-      },
-      {
-        "id": "d2",
-        "text": "tests",
-        "isDistractor": true,
-        "translation": "pruebas"
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false,
-        "translation": "ingeniero"
-      },
-      {
-        "id": "c11",
-        "text": "implemented",
-        "isDistractor": false,
-        "translation": "implementadas"
-      },
-      {
-        "id": "c12",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "qa": "QA",
-      "engineer": "ingeniero",
-      "is": "(presente)",
-      "testing": "probando",
-      "new": "nuevas",
-      "features": "funcionalidades",
-      "that": "que",
-      "were": "(pasado)",
-      "implemented": "implementadas",
-      "in": "en",
-      "this": "este",
-      "sprint": "sprint",
-      "implement": "implementar",
-      "tests": "pruebas",
-      "developing": "desarrollando",
-      "deployment": "despliegue"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: La persona o entidad que tiene interés en el proyecto",
-      "Verbo: no estar (negación + presente continuo)",
-      "Complemento: cuestionar la programación del sprint",
-      "Tiempo: durante la reunión de desarrollo"
-    ],
-    "hintDisplay": "Sujeto: La persona o entidad que tiene interés en el proyecto / Verbo: no estar (negación + presente continuo) / Complemento: cuestionar la programación del sprint / Tiempo: durante la reunión de desarrollo",
-    "spanishSentence": "El stakeholder no está cuestionando la línea de tiempo del sprint durante la reunión de desarrollo.",
-    "correctSentence": "The stakeholder is not questioning the sprint timeline during the dev meeting.",
-    "cards": [
-      {
-        "id": "c2",
-        "text": "stakeholder",
-        "isDistractor": false,
-        "translation": "parte interesada"
-      },
-      {
-        "id": "c8",
-        "text": "timeline",
-        "isDistractor": false,
-        "translation": "línea de tiempo"
-      },
-      {
-        "id": "c11",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c5",
-        "text": "questioning",
-        "isDistractor": false,
-        "translation": "cuestionando"
-      },
-      {
-        "id": "c9",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "d1",
-        "text": "challenging",
-        "isDistractor": true,
-        "translation": "desafiando"
-      },
-      {
-        "id": "d2",
-        "text": "disputing",
-        "isDistractor": true,
-        "translation": "disputando"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "contesting",
-        "isDistractor": true,
-        "translation": "impugnando"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c7",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "stakeholder": "parte interesada",
-      "is": "(presente)",
-      "not": "no",
-      "questioning": "cuestionando",
-      "sprint": "sprint",
-      "timeline": "línea de tiempo",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "challenging": "desafiando",
-      "disputing": "disputando",
-      "contesting": "impugnando"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Tiempo: En este momento / Ahora mismo",
-      "Sujeto: Yo",
-      "Verbo: Estar (presente continuo)",
-      "Complemento: Diseñando una nueva arquitectura de microservicios",
-      "Complemento: Que discutiremos en la revisión de sprint de hoy"
-    ],
-    "hintDisplay": "Tiempo: En este momento / Ahora mismo / Sujeto: Yo / Verbo: Estar (presente continuo) / Complemento: Diseñando una nueva arquitectura de microservicios / Complemento: Que discutiremos en la revisión de sprint de hoy",
-    "spanishSentence": "En este momento, estoy diseñando la nueva arquitectura de microservicios que discutiremos en la revisión de sprint de hoy.",
-    "correctSentence": "Right now, I'm designing the new microservices architecture that we'll be discussing in today's sprint review.",
-    "cards": [
-      {
-        "id": "c8",
-        "text": "architecture",
-        "isDistractor": false,
-        "translation": "arquitectura"
-      },
-      {
-        "id": "c4",
-        "text": "designing",
-        "isDistractor": false,
-        "translation": "diseñando"
-      },
-      {
-        "id": "c6",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nuevo"
-      },
-      {
-        "id": "c14",
-        "text": "today's",
-        "isDistractor": false,
-        "translation": "de hoy"
-      },
-      {
-        "id": "c1",
-        "text": "Right",
-        "isDistractor": false,
-        "translation": "ahora mismo"
+        "translation": "actualmente"
       },
       {
         "id": "d3",
@@ -1501,658 +452,475 @@
         "translation": "revisado"
       },
       {
-        "id": "d4",
-        "text": "our",
-        "isDistractor": true,
-        "translation": "nuestro"
+        "id": "c9",
+        "text": "staging",
+        "isDistractor": false,
+        "translation": "de pruebas"
       },
       {
-        "id": "c11",
-        "text": "be",
+        "id": "d4",
+        "text": "spint",
+        "isDistractor": true,
+        "translation": "sprint"
+      },
+      {
+        "id": "d1",
+        "text": "deploys",
+        "isDistractor": true,
+        "translation": "despliega"
+      },
+      {
+        "id": "c2",
+        "text": "are",
         "isDistractor": false,
         "translation": "(auxiliar)"
       },
       {
-        "id": "c15",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c10",
-        "text": "we'll",
-        "isDistractor": false,
-        "translation": "discutiremos"
-      },
-      {
-        "id": "c7",
-        "text": "microservices",
-        "isDistractor": false,
-        "translation": "microservicios"
-      },
-      {
-        "id": "d2",
-        "text": "discuss",
-        "isDistractor": true,
-        "translation": "discutir"
-      },
-      {
-        "id": "c5",
+        "id": "c12",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "I'm",
-        "isDistractor": false,
-        "translation": "estoy"
+        "translation": "el"
       },
       {
         "id": "c13",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c2",
-        "text": "now",
-        "isDistractor": false,
-        "translation": "ahora"
-      },
-      {
-        "id": "c16",
-        "text": "review",
-        "isDistractor": false,
-        "translation": "revisión"
-      },
-      {
-        "id": "d1",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c9",
-        "text": "that",
-        "isDistractor": false,
-        "translation": "que"
-      },
-      {
-        "id": "c12",
-        "text": "discussing",
-        "isDistractor": false,
-        "translation": "discutiendo"
-      },
-      {
-        "id": "cm1",
-        "text": ",",
-        "isDistractor": false,
-        "translation": "coma"
-      }
-    ],
-    "translations": {
-      "right": "ahora mismo",
-      "now": "ahora",
-      "i'm": "estoy",
-      "designing": "diseñando",
-      "the": "(artículo)",
-      "new": "nuevo",
-      "microservices": "microservicios",
-      "architecture": "arquitectura",
-      "that": "que",
-      "we'll": "discutiremos",
-      "be": "(auxiliar)",
-      "discussing": "discutiendo",
-      "in": "en",
-      "today's": "de hoy",
-      "sprint": "sprint",
-      "review": "revisión",
-      "will": "(futuro)",
-      "discuss": "discutir",
-      "reviewed": "revisado",
-      "our": "nuestro"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: Yo",
-      "Verbo: Empujar (en presente continuo)",
-      "Complemento: la nueva característica",
-      "Complemento: a la rama principal",
-      "Tiempo: en este momento / ahora mismo"
-    ],
-    "hintDisplay": "Sujeto: Yo / Verbo: Empujar (en presente continuo) / Complemento: la nueva característica / Complemento: a la rama principal / Tiempo: en este momento / ahora mismo",
-    "spanishSentence": "Estoy enviando la nueva característica a la rama principal en este momento.",
-    "correctSentence": "I am pushing the new feature to the main branch right now.",
-    "cards": [
-      {
-        "id": "c10",
-        "text": "branch",
-        "isDistractor": false,
-        "translation": "rama"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(preposición)"
-      },
-      {
-        "id": "c2",
-        "text": "am",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "d2",
-        "text": "you",
-        "isDistractor": true,
-        "translation": "tú"
-      },
-      {
-        "id": "c3",
-        "text": "pushing",
-        "isDistractor": false,
-        "translation": "enviando"
-      },
-      {
-        "id": "c5",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nueva"
-      },
-      {
-        "id": "c11",
-        "text": "right",
-        "isDistractor": false,
-        "translation": "ahora mismo"
-      },
-      {
-        "id": "c6",
-        "text": "feature",
-        "isDistractor": false,
-        "translation": "característica"
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "now",
-        "isDistractor": false,
-        "translation": "en este momento"
-      },
-      {
-        "id": "d1",
-        "text": "pulled",
-        "isDistractor": true,
-        "translation": "extraído"
-      },
-      {
-        "id": "c1",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
-      },
-      {
-        "id": "d3",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c9",
-        "text": "main",
-        "isDistractor": false,
-        "translation": "principal"
-      }
-    ],
-    "translations": {
-      "i": "yo",
-      "am": "(presente)",
-      "pushing": "enviando",
-      "the": "(artículo)",
-      "new": "nueva",
-      "feature": "característica",
-      "to": "(preposición)",
-      "main": "principal",
-      "branch": "rama",
-      "right": "ahora mismo",
-      "now": "en este momento",
-      "pulled": "extraído",
-      "you": "tú",
-      "will": "(futuro)"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El interno",
-      "Verbo: ser (negación en presente continuo)",
-      "Complemento: observando la reunión de planificación del sprint",
-      "Tiempo: en este momento"
-    ],
-    "hintDisplay": "Sujeto: El interno / Verbo: ser (negación en presente continuo) / Complemento: observando la reunión de planificación del sprint / Tiempo: en este momento",
-    "spanishSentence": "El interno no está observando la reunión de planificación del sprint en este momento.",
-    "correctSentence": "The intern is not observing the sprint planning meeting right now.",
-    "cards": [
-      {
-        "id": "c3",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "d1",
-        "text": "watching",
-        "isDistractor": true,
-        "translation": "viendo"
-      },
-      {
-        "id": "c5",
-        "text": "observing",
-        "isDistractor": false,
-        "translation": "observando"
-      },
-      {
-        "id": "d4",
-        "text": "observes",
-        "isDistractor": true,
-        "translation": "observa"
-      },
-      {
-        "id": "c10",
-        "text": "right",
-        "isDistractor": false,
-        "translation": "ahora mismo"
-      },
-      {
-        "id": "c7",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c4",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "d3",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c11",
-        "text": "now",
-        "isDistractor": false,
-        "translation": "ahora"
-      },
-      {
-        "id": "d2",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c2",
-        "text": "intern",
-        "isDistractor": false,
-        "translation": "interno"
-      },
-      {
-        "id": "c9",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c8",
-        "text": "planning",
-        "isDistractor": false,
-        "translation": "planificación"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "intern": "interno",
-      "is": "(presente)",
-      "not": "no",
-      "observing": "observando",
-      "sprint": "sprint",
-      "planning": "planificación",
-      "meeting": "reunión",
-      "right": "ahora mismo",
-      "now": "ahora",
-      "watching": "viendo",
-      "was": "(pasado)",
-      "they": "ellos",
-      "observes": "observa"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El ingeniero de QA",
-      "Verbo: estar (presente continuo)",
-      "Complemento: reportando ningún error crítico",
-      "Tiempo: en este sprint"
-    ],
-    "hintDisplay": "Sujeto: El ingeniero de QA / Verbo: estar (presente continuo) / Complemento: reportando ningún error crítico / Tiempo: en este sprint",
-    "spanishSentence": "El ingeniero de QA no está reportando ningún error crítico en este sprint.",
-    "correctSentence": "The QA engineer is not reporting any critical bugs in this sprint.",
-    "cards": [
-      {
-        "id": "d2",
-        "text": "his",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "c9",
-        "text": "bugs",
-        "isDistractor": false,
-        "translation": "errores"
-      },
-      {
-        "id": "c7",
-        "text": "any",
-        "isDistractor": false,
-        "translation": "ningún"
-      },
-      {
-        "id": "d3",
-        "text": "were",
-        "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c6",
-        "text": "reporting",
-        "isDistractor": false,
-        "translation": "reportando"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c11",
-        "text": "this",
-        "isDistractor": false,
-        "translation": "este"
-      },
-      {
-        "id": "c5",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c2",
-        "text": "QA",
-        "isDistractor": false,
-        "translation": "QA"
-      },
-      {
-        "id": "c3",
-        "text": "engineer",
-        "isDistractor": false,
-        "translation": "ingeniero"
-      },
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c8",
-        "text": "critical",
-        "isDistractor": false,
-        "translation": "crítico"
-      },
-      {
-        "id": "d1",
-        "text": "reported",
-        "isDistractor": true,
-        "translation": "reportó"
-      },
-      {
-        "id": "c12",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      }
-    ],
-    "translations": {
-      "the": "(artículo)",
-      "qa": "QA",
-      "engineer": "ingeniero",
-      "is": "(presente)",
-      "not": "no",
-      "reporting": "reportando",
-      "any": "ningún",
-      "critical": "crítico",
-      "bugs": "errores",
-      "in": "en",
-      "this": "este",
-      "sprint": "sprint",
-      "reported": "reportó",
-      "his": "su",
-      "were": "(pasado)"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El propietario del producto",
-      "Verbo: estar (auxiliar para formar presente continuo)",
-      "Verbo: aprobar",
-      "Complemento: las historias de usuario",
-      "Complemento: para el próximo sprint",
-      "Complemento: durante la reunión de scrum"
-    ],
-    "hintDisplay": "Sujeto: El propietario del producto / Verbo: estar (auxiliar para formar presente continuo) / Verbo: aprobar / Complemento: las historias de usuario / Complemento: para el próximo sprint / Complemento: durante la reunión de scrum",
-    "spanishSentence": "El propietario del producto está aprobando las historias de usuario para el próximo sprint durante la reunión de scrum.",
-    "correctSentence": "The product owner is approving the user stories for the next sprint during the scrum meeting.",
-    "cards": [
-      {
-        "id": "d2",
-        "text": "their",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "c11",
-        "text": "next",
-        "isDistractor": false,
-        "translation": "próximo"
-      },
-      {
-        "id": "c16",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c15",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c8",
-        "text": "stories",
-        "isDistractor": false,
-        "translation": "historias"
-      },
-      {
-        "id": "c3",
-        "text": "owner",
-        "isDistractor": false,
-        "translation": "propietario"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "haber"
-      },
-      {
-        "id": "c9",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c12",
         "text": "sprint",
         "isDistractor": false,
         "translation": "sprint"
       },
       {
         "id": "c14",
-        "text": "the",
+        "text": "review",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "revisión"
+      }
+    ],
+    "translations": {
+      "they": "ellos",
+      "are": "(auxiliar)",
+      "currently": "actualmente",
+      "deploying": "desplegando",
+      "the": "el",
+      "fix": "corrección",
+      "to": "a",
+      "staging": "de pruebas",
+      "server": "servidor",
+      "during": "durante",
+      "sprint": "sprint",
+      "review": "revisión",
+      "deploys": "despliega",
+      "stagingly": "en etapas",
+      "reviewed": "revisado",
+      "spint": "sprint"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el product owner",
+      "Verbo: planificar (presente continuo)",
+      "Complemento: el alcance del próximo sprint",
+      "Cláusula: durante la reunión de desarrollo"
+    ],
+    "hintDisplay": "Sujeto: el product owner / Verbo: planificar (presente continuo) / Complemento: el alcance del próximo sprint / Cláusula: durante la reunión de desarrollo",
+    "spanishSentence": "El product owner está planificando el alcance del próximo sprint durante la reunión de desarrollo.",
+    "correctSentence": "The product owner is planning the next sprint's scope during the dev meeting.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "planned",
+        "isDistractor": true,
+        "translation": "planificado"
+      },
+      {
+        "id": "c13",
+        "text": "meeting",
+        "isDistractor": false,
+        "translation": "reunión"
+      },
+      {
+        "id": "c10",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "d4",
+        "text": "session",
+        "isDistractor": true,
+        "translation": "sesión"
       },
       {
         "id": "c1",
         "text": "The",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d1",
-        "text": "approved",
-        "isDistractor": true,
-        "translation": "aprobado"
-      },
-      {
-        "id": "d4",
-        "text": "sprinting",
-        "isDistractor": true,
-        "translation": "hacer sprint"
-      },
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "c7",
-        "text": "user",
-        "isDistractor": false,
-        "translation": "usuario"
+        "translation": "el"
       },
       {
         "id": "c5",
-        "text": "approving",
+        "text": "planning",
         "isDistractor": false,
-        "translation": "aprobando"
-      },
-      {
-        "id": "c13",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
+        "translation": "planificando"
       },
       {
         "id": "c2",
         "text": "product",
         "isDistractor": false,
         "translation": "producto"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "owner",
+        "isDistractor": false,
+        "translation": "dueño"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "sprint's",
+        "isDistractor": false,
+        "translation": "del sprint"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c12",
+        "text": "dev",
+        "isDistractor": false,
+        "translation": "de desarrollo"
+      },
+      {
+        "id": "c7",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "d2",
+        "text": "plans",
+        "isDistractor": true,
+        "translation": "planes"
+      },
+      {
+        "id": "c9",
+        "text": "scope",
+        "isDistractor": false,
+        "translation": "alcance"
+      },
+      {
+        "id": "c4",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
       }
     ],
     "translations": {
-      "the": "(artículo)",
+      "the": "el",
       "product": "producto",
-      "owner": "propietario",
-      "is": "(presente)",
-      "approving": "aprobando",
-      "user": "usuario",
-      "stories": "historias",
-      "for": "para",
+      "owner": "dueño",
+      "is": "está",
+      "planning": "planificando",
       "next": "próximo",
-      "sprint": "sprint",
+      "sprint's": "del sprint",
+      "scope": "alcance",
       "during": "durante",
-      "scrum": "scrum",
+      "dev": "de desarrollo",
       "meeting": "reunión",
-      "approved": "aprobado",
-      "their": "su",
-      "have": "haber",
-      "sprinting": "hacer sprint"
+      "planned": "planificado",
+      "plans": "planes",
+      "will": "(futuro)",
+      "session": "sesión"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el scrum master",
+      "Verbo: aclarar (negación)",
+      "Complemento: el objetivo del sprint con el equipo",
+      "Tiempo: ahora"
+    ],
+    "hintDisplay": "Sujeto: el scrum master / Verbo: aclarar (negación) / Complemento: el objetivo del sprint con el equipo / Tiempo: ahora",
+    "spanishSentence": "El scrum master no está aclarando el objetivo del sprint con el equipo ahora.",
+    "correctSentence": "The scrum master is not clarifying the sprint goal with the team now.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "with",
+        "isDistractor": false,
+        "translation": "con"
+      },
+      {
+        "id": "c8",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c6",
+        "text": "clarifying",
+        "isDistractor": false,
+        "translation": "aclarando"
+      },
+      {
+        "id": "c9",
+        "text": "goal",
+        "isDistractor": false,
+        "translation": "objetivo"
+      },
+      {
+        "id": "c2",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "d1",
+        "text": "isn't",
+        "isDistractor": true,
+        "translation": "no está"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "goals",
+        "isDistractor": true,
+        "translation": "objetivos"
+      },
+      {
+        "id": "c3",
+        "text": "master",
+        "isDistractor": false,
+        "translation": "master"
+      },
+      {
+        "id": "c4",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "d2",
+        "text": "clarify",
+        "isDistractor": true,
+        "translation": "aclarar"
+      },
+      {
+        "id": "c12",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c13",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "scrum": "scrum",
+      "master": "master",
+      "is": "está",
+      "not": "no",
+      "clarifying": "aclarando",
+      "sprint": "sprint",
+      "goal": "objetivo",
+      "with": "con",
+      "team": "equipo",
+      "now": "ahora",
+      "isn't": "no está",
+      "clarify": "aclarar",
+      "goals": "objetivos"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el pasante",
+      "Verbo: presentar (presente continuo)",
+      "Complemento: las métricas del sprint",
+      "Tiempo: ahora mismo",
+      "Cláusula: al equipo de desarrollo"
+    ],
+    "hintDisplay": "Sujeto: el pasante / Verbo: presentar (presente continuo) / Complemento: las métricas del sprint / Tiempo: ahora mismo / Cláusula: al equipo de desarrollo",
+    "spanishSentence": "Ahora mismo, el pasante está presentando las métricas del sprint al equipo de desarrollo.",
+    "correctSentence": "Right now, the intern is presenting the sprint metrics to the development team.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "al"
+      },
+      {
+        "id": "c12",
+        "text": "development",
+        "isDistractor": false,
+        "translation": "desarrollo"
+      },
+      {
+        "id": "c13",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "d3",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "estaba"
+      },
+      {
+        "id": "c4",
+        "text": "intern",
+        "isDistractor": false,
+        "translation": "pasante"
+      },
+      {
+        "id": "c5",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "c2",
+        "text": "now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c9",
+        "text": "metrics",
+        "isDistractor": false,
+        "translation": "métricas"
+      },
+      {
+        "id": "c6",
+        "text": "presenting",
+        "isDistractor": false,
+        "translation": "presentando"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "Right",
+        "isDistractor": false,
+        "translation": "justo"
+      },
+      {
+        "id": "d1",
+        "text": "presents",
+        "isDistractor": true,
+        "translation": "presenta"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "right": "justo",
+      "now": "ahora",
+      "the": "el",
+      "intern": "pasante",
+      "is": "está",
+      "presenting": "presentando",
+      "sprint": "sprint",
+      "metrics": "métricas",
+      "to": "al",
+      "development": "desarrollo",
+      "team": "equipo",
+      "presents": "presenta",
+      "he": "él",
+      "was": "estaba"
     },
     "metadata": {
       "tense": "present continuous",
@@ -2165,249 +933,100 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: estar (presente continuo, auxiliar)",
-      "Verbo: desplegar",
-      "Complemento: las nuevas características",
-      "Complemento: a producción",
-      "Tiempo: en este momento / ahora mismo"
+      "Verbo: discutir (presente continuo)",
+      "Complemento: el backlog del sprint",
+      "Tiempo: ahora mismo"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: estar (presente continuo, auxiliar) / Verbo: desplegar / Complemento: las nuevas características / Complemento: a producción / Tiempo: en este momento / ahora mismo",
-    "spanishSentence": "Estamos desplegando las nuevas características a producción en este momento.",
-    "correctSentence": "We are deploying the new features to production right now.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: discutir (presente continuo) / Complemento: el backlog del sprint / Tiempo: ahora mismo",
+    "spanishSentence": "Estamos discutiendo el backlog del sprint ahora mismo.",
+    "correctSentence": "We are discussing the sprint backlog right now.",
     "cards": [
       {
-        "id": "c1",
-        "text": "We",
+        "id": "c7",
+        "text": "right",
         "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c8",
-        "text": "production",
-        "isDistractor": false,
-        "translation": "producción"
-      },
-      {
-        "id": "d1",
-        "text": "deployed",
-        "isDistractor": true,
-        "translation": "desplegado"
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "justo"
       },
       {
         "id": "d3",
-        "text": "have",
+        "text": "were",
         "isDistractor": true,
-        "translation": "haber"
-      },
-      {
-        "id": "d2",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c3",
-        "text": "deploying",
-        "isDistractor": false,
-        "translation": "desplegando"
-      },
-      {
-        "id": "c6",
-        "text": "features",
-        "isDistractor": false,
-        "translation": "características"
-      },
-      {
-        "id": "d4",
-        "text": "displaying",
-        "isDistractor": true,
-        "translation": "mostrando"
-      },
-      {
-        "id": "c5",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nuevas"
-      },
-      {
-        "id": "c9",
-        "text": "right",
-        "isDistractor": false,
-        "translation": "ahora mismo"
-      },
-      {
-        "id": "c7",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "a"
-      },
-      {
-        "id": "c10",
-        "text": "now",
-        "isDistractor": false,
-        "translation": "en este momento"
+        "translation": "(pasado continuo)"
       },
       {
         "id": "c2",
         "text": "are",
         "isDistractor": false,
         "translation": "(presente continuo)"
-      }
-    ],
-    "translations": {
-      "we": "nosotros",
-      "are": "(presente continuo)",
-      "deploying": "desplegando",
-      "the": "(artículo)",
-      "new": "nuevas",
-      "features": "características",
-      "to": "a",
-      "production": "producción",
-      "right": "ahora mismo",
-      "now": "en este momento",
-      "deployed": "desplegado",
-      "they": "ellos",
-      "have": "haber",
-      "displaying": "mostrando"
-    },
-    "metadata": {
-      "tense": "present continuous",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: El scrum master",
-      "Verbo: estar (progresivo/continuo)",
-      "Complemento: programando la reunión de planificación del sprint",
-      "Tiempo: para la próxima semana"
-    ],
-    "hintDisplay": "Sujeto: El scrum master / Verbo: estar (progresivo/continuo) / Complemento: programando la reunión de planificación del sprint / Tiempo: para la próxima semana",
-    "spanishSentence": "El scrum master está programando la reunión de planificación del sprint para la próxima semana.",
-    "correctSentence": "The scrum master is scheduling the sprint planning meeting for next week.",
-    "cards": [
-      {
-        "id": "c12",
-        "text": "week",
-        "isDistractor": false,
-        "translation": "semana"
       },
       {
-        "id": "c10",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c7",
+        "id": "c5",
         "text": "sprint",
         "isDistractor": false,
         "translation": "sprint"
       },
       {
-        "id": "c5",
-        "text": "scheduling",
-        "isDistractor": false,
-        "translation": "programando"
-      },
-      {
-        "id": "c9",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "d3",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "d4",
-        "text": "scattering",
-        "isDistractor": true,
-        "translation": "dispersando"
-      },
-      {
-        "id": "c2",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c4",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
         "id": "d1",
-        "text": "scheduled",
+        "text": "discussed",
         "isDistractor": true,
-        "translation": "programado"
-      },
-      {
-        "id": "d2",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "c11",
-        "text": "next",
-        "isDistractor": false,
-        "translation": "próxima"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "discutido"
       },
       {
         "id": "c3",
-        "text": "master",
+        "text": "discussing",
         "isDistractor": false,
-        "translation": "maestro"
+        "translation": "discutiendo"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c8",
-        "text": "planning",
+        "text": "now",
         "isDistractor": false,
-        "translation": "planificación"
+        "translation": "ahora"
+      },
+      {
+        "id": "c6",
+        "text": "backlog",
+        "isDistractor": false,
+        "translation": "backlog"
+      },
+      {
+        "id": "d4",
+        "text": "sprintbacklog",
+        "isDistractor": true,
+        "translation": "backlog del sprint"
+      },
+      {
+        "id": "d2",
+        "text": "we're",
+        "isDistractor": true,
+        "translation": "nosotros estamos"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
       }
     ],
     "translations": {
-      "the": "(artículo)",
-      "scrum": "scrum",
-      "master": "maestro",
-      "is": "(presente)",
-      "scheduling": "programando",
+      "we": "nosotros",
+      "are": "(presente continuo)",
+      "discussing": "discutiendo",
+      "the": "el",
       "sprint": "sprint",
-      "planning": "planificación",
-      "meeting": "reunión",
-      "for": "para",
-      "next": "próxima",
-      "week": "semana",
-      "scheduled": "programado",
-      "him": "lo",
-      "was": "(pasado)",
-      "scattering": "dispersando"
+      "backlog": "backlog",
+      "right": "justo",
+      "now": "ahora",
+      "discussed": "discutido",
+      "we're": "nosotros estamos",
+      "were": "(pasado continuo)",
+      "sprintbacklog": "backlog del sprint"
     },
     "metadata": {
       "tense": "present continuous",
@@ -2419,20 +1038,44 @@
   },
   {
     "hints": [
-      "Sujeto: Ellos",
-      "Verbo: ser (negación con auxiliar 'estar' en presente continuo)",
-      "Complemento: depurar el problema crítico",
-      "Tiempo: ahora mismo durante la reunión de scrum"
+      "Sujeto: el interesado",
+      "Verbo: evaluar (presente continuo)",
+      "Complemento: el progreso del sprint",
+      "Cláusula: durante la reunión de desarrollo"
     ],
-    "hintDisplay": "Sujeto: Ellos / Verbo: ser (negación con auxiliar 'estar' en presente continuo) / Complemento: depurar el problema crítico / Tiempo: ahora mismo durante la reunión de scrum",
-    "spanishSentence": "Ellos no están depurando el problema crítico ahora mismo durante la reunión de scrum.",
-    "correctSentence": "They are not debugging the critical issue right now during the scrum meeting.",
+    "hintDisplay": "Sujeto: el interesado / Verbo: evaluar (presente continuo) / Complemento: el progreso del sprint / Cláusula: durante la reunión de desarrollo",
+    "spanishSentence": "El interesado no está evaluando el progreso del sprint hoy durante la reunión de desarrollo.",
+    "correctSentence": "The stakeholder is not evaluating the sprint progress today during the dev meeting.",
     "cards": [
       {
-        "id": "c7",
-        "text": "issue",
+        "id": "d4",
+        "text": "stakeholders",
+        "isDistractor": true,
+        "translation": "interesados"
+      },
+      {
+        "id": "c1",
+        "text": "The",
         "isDistractor": false,
-        "translation": "problema"
+        "translation": "el"
+      },
+      {
+        "id": "d3",
+        "text": "doesn't",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c2",
+        "text": "stakeholder",
+        "isDistractor": false,
+        "translation": "interesado"
+      },
+      {
+        "id": "c5",
+        "text": "evaluating",
+        "isDistractor": false,
+        "translation": "evaluando"
       },
       {
         "id": "c10",
@@ -2441,106 +1084,88 @@
         "translation": "durante"
       },
       {
-        "id": "c1",
-        "text": "They",
-        "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
         "id": "c13",
         "text": "meeting",
         "isDistractor": false,
         "translation": "reunión"
       },
       {
-        "id": "c8",
-        "text": "right",
-        "isDistractor": false,
-        "translation": "ahora mismo"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
+        "id": "c4",
         "text": "not",
         "isDistractor": false,
         "translation": "no"
       },
       {
-        "id": "c4",
-        "text": "debugging",
+        "id": "c12",
+        "text": "dev",
         "isDistractor": false,
-        "translation": "depurando"
-      },
-      {
-        "id": "c2",
-        "text": "are",
-        "isDistractor": false,
-        "translation": "(presente continuo)"
-      },
-      {
-        "id": "c9",
-        "text": "now",
-        "isDistractor": false,
-        "translation": "ahora"
-      },
-      {
-        "id": "d2",
-        "text": "we",
-        "isDistractor": true,
-        "translation": "nosotros"
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "desarrollo"
       },
       {
         "id": "d1",
-        "text": "debugged",
+        "text": "isn't",
         "isDistractor": true,
-        "translation": "depurado"
+        "translation": "no está"
+      },
+      {
+        "id": "c9",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c8",
+        "text": "progress",
+        "isDistractor": false,
+        "translation": "progreso"
+      },
+      {
+        "id": "d2",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "estaba"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "c11",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
       },
       {
         "id": "c6",
-        "text": "critical",
+        "text": "the",
         "isDistractor": false,
-        "translation": "crítico"
+        "translation": "el"
       }
     ],
     "translations": {
-      "they": "ellos",
-      "are": "(presente continuo)",
+      "the": "el",
+      "stakeholder": "interesado",
+      "is": "está",
       "not": "no",
-      "debugging": "depurando",
-      "the": "(artículo)",
-      "critical": "crítico",
-      "issue": "problema",
-      "right": "ahora mismo",
-      "now": "ahora",
+      "evaluating": "evaluando",
+      "sprint": "sprint",
+      "progress": "progreso",
+      "today": "hoy",
       "during": "durante",
-      "scrum": "scrum",
+      "dev": "desarrollo",
       "meeting": "reunión",
-      "debugged": "depurado",
-      "we": "nosotros",
-      "does": "(auxiliar)"
+      "isn't": "no está",
+      "was": "estaba",
+      "doesn't": "(auxiliar)",
+      "stakeholders": "interesados"
     },
     "metadata": {
       "tense": "present continuous",
@@ -2552,27 +1177,1325 @@
   },
   {
     "hints": [
-      "Sujeto: El equipo",
-      "Verbo: estar (presente continuo)",
-      "Complemento: haciendo una lluvia de ideas sobre nuevas funcionalidades",
-      "Complemento: para el próximo sprint",
-      "Tiempo: durante nuestro standup diario"
+      "Complemento: esta semana",
+      "Sujeto: el ingeniero de calidad",
+      "Verbo: marcar (presente continuo)",
+      "Complemento: los errores críticos encontrados",
+      "Cláusula: durante las reuniones de revisión del sprint"
     ],
-    "hintDisplay": "Sujeto: El equipo / Verbo: estar (presente continuo) / Complemento: haciendo una lluvia de ideas sobre nuevas funcionalidades / Complemento: para el próximo sprint / Tiempo: durante nuestro standup diario",
-    "spanishSentence": "El equipo está haciendo una lluvia de ideas sobre nuevas funcionalidades para el próximo sprint durante nuestro standup diario.",
-    "correctSentence": "The team is brainstorming new features for the next sprint during our daily standup.",
+    "hintDisplay": "Complemento: esta semana / Sujeto: el ingeniero de calidad / Verbo: marcar (presente continuo) / Complemento: los errores críticos encontrados / Cláusula: durante las reuniones de revisión del sprint",
+    "spanishSentence": "Esta semana, el ingeniero de calidad está marcando los errores críticos encontrados durante las reuniones de revisión del sprint.",
+    "correctSentence": "This week, the QA engineer is flagging the critical bugs found during sprint review meetings.",
     "cards": [
+      {
+        "id": "c12",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c4",
+        "text": "QA",
+        "isDistractor": false,
+        "translation": "calidad"
+      },
+      {
+        "id": "c1",
+        "text": "This",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "bugs",
+        "isDistractor": false,
+        "translation": "errores"
+      },
+      {
+        "id": "c7",
+        "text": "flagging",
+        "isDistractor": false,
+        "translation": "marcando"
+      },
+      {
+        "id": "d3",
+        "text": "identifying",
+        "isDistractor": true,
+        "translation": "identificando"
+      },
+      {
+        "id": "c11",
+        "text": "found",
+        "isDistractor": false,
+        "translation": "encontrados"
+      },
+      {
+        "id": "d1",
+        "text": "marked",
+        "isDistractor": true,
+        "translation": "marcados"
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c9",
+        "text": "critical",
+        "isDistractor": false,
+        "translation": "críticos"
+      },
+      {
+        "id": "d4",
+        "text": "reported",
+        "isDistractor": true,
+        "translation": "reportados"
+      },
+      {
+        "id": "c15",
+        "text": "meetings",
+        "isDistractor": false,
+        "translation": "reuniones"
+      },
+      {
+        "id": "c2",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c6",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c14",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisión"
+      },
+      {
+        "id": "d2",
+        "text": "flags",
+        "isDistractor": true,
+        "translation": "marcas"
+      },
+      {
+        "id": "c13",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c5",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      }
+    ],
+    "translations": {
+      "this": "esta",
+      "week": "semana",
+      "the": "el",
+      "qa": "calidad",
+      "engineer": "ingeniero",
+      "is": "(auxiliar)",
+      "flagging": "marcando",
+      "critical": "críticos",
+      "bugs": "errores",
+      "found": "encontrados",
+      "during": "durante",
+      "sprint": "sprint",
+      "review": "revisión",
+      "meetings": "reuniones",
+      "marked": "marcados",
+      "flags": "marcas",
+      "identifying": "identificando",
+      "reported": "reportados"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: discutir (presente continuo)",
+      "Complemento: el backlog del sprint",
+      "Tiempo: hoy"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: discutir (presente continuo) / Complemento: el backlog del sprint / Tiempo: hoy",
+    "spanishSentence": "El equipo está discutiendo el backlog del sprint hoy.",
+    "correctSentence": "The team is discussing the sprint backlog today.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "d1",
+        "text": "discusses",
+        "isDistractor": true,
+        "translation": "discute"
+      },
+      {
+        "id": "c3",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "c4",
+        "text": "discussing",
+        "isDistractor": false,
+        "translation": "discutiendo"
+      },
+      {
+        "id": "d4",
+        "text": "backlogs",
+        "isDistractor": true,
+        "translation": "backlogs"
+      },
+      {
+        "id": "d2",
+        "text": "discussed",
+        "isDistractor": true,
+        "translation": "discutió"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "backlog",
+        "isDistractor": false,
+        "translation": "backlog"
+      },
+      {
+        "id": "c2",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c6",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
       {
         "id": "c1",
         "text": "The",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "team": "equipo",
+      "is": "está",
+      "discussing": "discutiendo",
+      "sprint": "sprint",
+      "backlog": "backlog",
+      "today": "hoy",
+      "discusses": "discute",
+      "discussed": "discutió",
+      "will": "(futuro)",
+      "backlogs": "backlogs"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el interesado",
+      "Verbo: patrocinar (negación, presente continuo)",
+      "Complemento: la nueva funcionalidad para el próximo sprint"
+    ],
+    "hintDisplay": "Sujeto: el interesado / Verbo: patrocinar (negación, presente continuo) / Complemento: la nueva funcionalidad para el próximo sprint",
+    "spanishSentence": "En este momento, el interesado no está patrocinando la nueva funcionalidad para el próximo sprint.",
+    "correctSentence": "At the moment, the stakeholder is not sponsoring the new feature for the upcoming sprint.",
+    "cards": [
+      {
+        "id": "c14",
+        "text": "upcoming",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c10",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
+      },
+      {
+        "id": "d1",
+        "text": "sponsors",
+        "isDistractor": true,
+        "translation": "patrocina"
+      },
+      {
+        "id": "c1",
+        "text": "At",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c7",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "c3",
+        "text": "moment",
+        "isDistractor": false,
+        "translation": "momento"
+      },
+      {
+        "id": "c12",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c5",
+        "text": "stakeholder",
+        "isDistractor": false,
+        "translation": "interesado"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "c9",
-        "text": "next",
+        "text": "the",
         "isDistractor": false,
-        "translation": "próximo"
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "d2",
+        "text": "supported",
+        "isDistractor": true,
+        "translation": "apoyado"
+      },
+      {
+        "id": "c8",
+        "text": "sponsoring",
+        "isDistractor": false,
+        "translation": "patrocinando"
+      },
+      {
+        "id": "d3",
+        "text": "sponsor",
+        "isDistractor": true,
+        "translation": "patrocinador"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "c6",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c11",
+        "text": "feature",
+        "isDistractor": false,
+        "translation": "funcionalidad"
+      },
+      {
+        "id": "c15",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      }
+    ],
+    "translations": {
+      "at": "en",
+      "the": "(artículo definido)",
+      "moment": "momento",
+      "stakeholder": "interesado",
+      "is": "(auxiliar)",
+      "not": "no",
+      "sponsoring": "patrocinando",
+      "new": "nueva",
+      "feature": "funcionalidad",
+      "for": "para",
+      "upcoming": "próximo",
+      "sprint": "sprint",
+      "sponsors": "patrocina",
+      "supported": "apoyado",
+      "sponsor": "patrocinador"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el ingeniero de control de calidad",
+      "Verbo: estar validando (presente continuo)",
+      "Complemento: la nueva pasarela de pagos",
+      "Cláusula: el equipo todavía está esperando los resultados de las pruebas (por lo tanto)"
+    ],
+    "hintDisplay": "Sujeto: el ingeniero de control de calidad / Verbo: estar validando (presente continuo) / Complemento: la nueva pasarela de pagos / Cláusula: el equipo todavía está esperando los resultados de las pruebas (por lo tanto)",
+    "spanishSentence": "El ingeniero de control de calidad no está validando actualmente la nueva pasarela de pagos, por lo que el equipo todavía está esperando los resultados de las pruebas.",
+    "correctSentence": "The QA engineer is not currently validating the new payment gateway, so the team is still waiting for the test results.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "estaba"
+      },
+      {
+        "id": "c7",
+        "text": "validating",
+        "isDistractor": false,
+        "translation": "validando"
+      },
+      {
+        "id": "c21",
+        "text": "results",
+        "isDistractor": false,
+        "translation": "resultados"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c11",
+        "text": "gateway",
+        "isDistractor": false,
+        "translation": "pasarela"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c12",
+        "text": "so",
+        "isDistractor": false,
+        "translation": "por lo que"
+      },
+      {
+        "id": "c14",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c16",
+        "text": "still",
+        "isDistractor": false,
+        "translation": "todavía"
+      },
+      {
+        "id": "d4",
+        "text": "awaiting",
+        "isDistractor": true,
+        "translation": "esperando"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c4",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "c20",
+        "text": "test",
+        "isDistractor": false,
+        "translation": "de pruebas"
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c18",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "por"
+      },
+      {
+        "id": "c2",
+        "text": "QA",
+        "isDistractor": false,
+        "translation": "control de calidad"
+      },
+      {
+        "id": "c10",
+        "text": "payment",
+        "isDistractor": false,
+        "translation": "de pagos"
+      },
+      {
+        "id": "c17",
+        "text": "waiting",
+        "isDistractor": false,
+        "translation": "esperando"
+      },
+      {
+        "id": "c15",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "d2",
+        "text": "payments",
+        "isDistractor": true,
+        "translation": "pagos"
+      },
+      {
+        "id": "c19",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "validates",
+        "isDistractor": true,
+        "translation": "valida"
+      },
+      {
+        "id": "c9",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
+      },
+      {
+        "id": "c6",
+        "text": "currently",
+        "isDistractor": false,
+        "translation": "actualmente"
+      },
+      {
+        "id": "c3",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "qa": "control de calidad",
+      "engineer": "ingeniero",
+      "is": "está",
+      "not": "no",
+      "currently": "actualmente",
+      "validating": "validando",
+      "new": "nueva",
+      "payment": "de pagos",
+      "gateway": "pasarela",
+      "so": "por lo que",
+      "team": "equipo",
+      "still": "todavía",
+      "waiting": "esperando",
+      "for": "por",
+      "test": "de pruebas",
+      "results": "resultados",
+      "validates": "valida",
+      "payments": "pagos",
+      "was": "estaba",
+      "awaiting": "esperando"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Tiempo: en este momento",
+      "Verbo: revisar (presente continuo)",
+      "Complemento: la solicitud de cambios",
+      "Cláusula: en la reunión de planificación del sprint"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Tiempo: en este momento / Verbo: revisar (presente continuo) / Complemento: la solicitud de cambios / Cláusula: en la reunión de planificación del sprint",
+    "spanishSentence": "En este momento, el desarrollador está revisando la solicitud de cambios en la reunión de planificación del sprint.",
+    "correctSentence": "At the moment, the developer is reviewing the pull request in the sprint planning meeting.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "reviewing",
+        "isDistractor": false,
+        "translation": "revisando"
+      },
+      {
+        "id": "c15",
+        "text": "meeting",
+        "isDistractor": false,
+        "translation": "reunión"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d2",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c10",
+        "text": "request",
+        "isDistractor": false,
+        "translation": "de cambios"
+      },
+      {
+        "id": "c13",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c1",
+        "text": "At",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c11",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c14",
+        "text": "planning",
+        "isDistractor": false,
+        "translation": "planificación"
+      },
+      {
+        "id": "c9",
+        "text": "pull",
+        "isDistractor": false,
+        "translation": "solicitud"
+      },
+      {
+        "id": "d3",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "moment",
+        "isDistractor": false,
+        "translation": "momento"
+      },
+      {
+        "id": "c5",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "d1",
+        "text": "reviewed",
+        "isDistractor": true,
+        "translation": "revisado"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c6",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      }
+    ],
+    "translations": {
+      "at": "en",
+      "the": "el",
+      "moment": "momento",
+      "developer": "desarrollador",
+      "is": "(auxiliar)",
+      "reviewing": "revisando",
+      "pull": "solicitud",
+      "request": "de cambios",
+      "in": "en",
+      "sprint": "sprint",
+      "planning": "planificación",
+      "meeting": "reunión",
+      "reviewed": "revisado",
+      "was": "(pasado)",
+      "he": "él"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: yo",
+      "Verbo: seguir (con el sentido de observar y aprender de alguien)",
+      "Complemento: al desarrollador senior",
+      "Tiempo: ahora mismo",
+      "Cláusula: durante la reunión diaria de scrum"
+    ],
+    "hintDisplay": "Sujeto: yo / Verbo: seguir (con el sentido de observar y aprender de alguien) / Complemento: al desarrollador senior / Tiempo: ahora mismo / Cláusula: durante la reunión diaria de scrum",
+    "spanishSentence": "Ahora estoy siguiendo al desarrollador senior durante la reunión diaria de scrum.",
+    "correctSentence": "Now I am shadowing the senior developer during the daily scrum meeting.",
+    "cards": [
+      {
+        "id": "c2",
+        "text": "I",
+        "isDistractor": false,
+        "translation": "yo"
+      },
+      {
+        "id": "c8",
+        "text": "during",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c1",
+        "text": "Now",
+        "isDistractor": false,
+        "translation": "ahora"
+      },
+      {
+        "id": "c11",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "c10",
+        "text": "daily",
+        "isDistractor": false,
+        "translation": "diaria"
+      },
+      {
+        "id": "c12",
+        "text": "meeting",
+        "isDistractor": false,
+        "translation": "reunión"
+      },
+      {
+        "id": "c7",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c6",
+        "text": "senior",
+        "isDistractor": false,
+        "translation": "senior"
+      },
+      {
+        "id": "d1",
+        "text": "Following",
+        "isDistractor": true,
+        "translation": "siguiendo"
+      },
+      {
+        "id": "d2",
+        "text": "shadowed",
+        "isDistractor": true,
+        "translation": "seguido"
+      },
+      {
+        "id": "c4",
+        "text": "shadowing",
+        "isDistractor": false,
+        "translation": "siguiendo"
+      },
+      {
+        "id": "c3",
+        "text": "am",
+        "isDistractor": false,
+        "translation": "(marca de gerundio)"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo definido)"
+      }
+    ],
+    "translations": {
+      "now": "ahora",
+      "i": "yo",
+      "am": "(marca de gerundio)",
+      "shadowing": "siguiendo",
+      "the": "(artículo definido)",
+      "senior": "senior",
+      "developer": "desarrollador",
+      "during": "durante",
+      "daily": "diaria",
+      "scrum": "scrum",
+      "meeting": "reunión",
+      "following": "siguiendo",
+      "shadowed": "seguido"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: planificar (presente continuo, negación)",
+      "Complemento: los objetivos del sprint",
+      "Tiempo: esta semana"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: planificar (presente continuo, negación) / Complemento: los objetivos del sprint / Tiempo: esta semana",
+    "spanishSentence": "No estamos planificando los objetivos del sprint esta semana.",
+    "correctSentence": "We are not planning the sprint goals this week.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c9",
+        "text": "week",
+        "isDistractor": false,
+        "translation": "semana"
+      },
+      {
+        "id": "c4",
+        "text": "planning",
+        "isDistractor": false,
+        "translation": "planificando"
+      },
+      {
+        "id": "c7",
+        "text": "goals",
+        "isDistractor": false,
+        "translation": "objetivos"
+      },
+      {
+        "id": "d2",
+        "text": "planned",
+        "isDistractor": true,
+        "translation": "planificado"
+      },
+      {
+        "id": "c6",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c1",
+        "text": "We",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "c2",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente continuo)"
+      },
+      {
+        "id": "d3",
+        "text": "we're",
+        "isDistractor": true,
+        "translation": "nosotros estamos"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "aren't",
+        "isDistractor": true,
+        "translation": "(negación + presente continuo)"
+      },
+      {
+        "id": "c8",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "esta"
+      },
+      {
+        "id": "d4",
+        "text": "goal",
+        "isDistractor": true,
+        "translation": "objetivo"
+      }
+    ],
+    "translations": {
+      "we": "nosotros",
+      "are": "(presente continuo)",
+      "not": "no",
+      "planning": "planificando",
+      "the": "el",
+      "sprint": "sprint",
+      "goals": "objetivos",
+      "this": "esta",
+      "week": "semana",
+      "aren't": "(negación + presente continuo)",
+      "planned": "planificado",
+      "we're": "nosotros estamos",
+      "goal": "objetivo"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ellos",
+      "Verbo: revisar (presente continuo)",
+      "Complemento: el backlog del sprint",
+      "Tiempo: hoy"
+    ],
+    "hintDisplay": "Sujeto: ellos / Verbo: revisar (presente continuo) / Complemento: el backlog del sprint / Tiempo: hoy",
+    "spanishSentence": "Ellos están revisando el backlog del sprint hoy.",
+    "correctSentence": "They are reviewing the sprint backlog today.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "backlog",
+        "isDistractor": false,
+        "translation": "backlog"
+      },
+      {
+        "id": "d2",
+        "text": "he",
+        "isDistractor": true,
+        "translation": "él"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c1",
+        "text": "They",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "d1",
+        "text": "reviewed",
+        "isDistractor": true,
+        "translation": "revisado"
+      },
+      {
+        "id": "c7",
+        "text": "today",
+        "isDistractor": false,
+        "translation": "hoy"
+      },
+      {
+        "id": "c3",
+        "text": "reviewing",
+        "isDistractor": false,
+        "translation": "revisando"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c5",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "d4",
+        "text": "backlogg",
+        "isDistractor": true,
+        "translation": "backlog"
+      },
+      {
+        "id": "c2",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(presente continuo)"
+      }
+    ],
+    "translations": {
+      "they": "ellos",
+      "are": "(presente continuo)",
+      "reviewing": "revisando",
+      "the": "el",
+      "sprint": "sprint",
+      "backlog": "backlog",
+      "today": "hoy",
+      "reviewed": "revisado",
+      "he": "él",
+      "will": "(futuro)",
+      "backlogg": "backlog"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el líder técnico",
+      "Verbo: delegar (negación en presente continuo)",
+      "Complemento: las tareas de corrección de errores",
+      "Tiempo: actualmente",
+      "Cláusula: en la reunión de scrum"
+    ],
+    "hintDisplay": "Sujeto: el líder técnico / Verbo: delegar (negación en presente continuo) / Complemento: las tareas de corrección de errores / Tiempo: actualmente / Cláusula: en la reunión de scrum",
+    "spanishSentence": "El líder técnico no está delegando actualmente las tareas de corrección de errores en la reunión de scrum.",
+    "correctSentence": "The tech lead is not currently delegating the bug-fixing tasks in the scrum meeting.",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "bugfixed",
+        "isDistractor": true,
+        "translation": "corregido"
+      },
+      {
+        "id": "c14",
+        "text": "meeting",
+        "isDistractor": false,
+        "translation": "reunión"
+      },
+      {
+        "id": "c13",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "d2",
+        "text": "assigning",
+        "isDistractor": true,
+        "translation": "asignando"
+      },
+      {
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "d1",
+        "text": "delegates",
+        "isDistractor": true,
+        "translation": "delega"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c9",
+        "text": "bug-fixing",
+        "isDistractor": false,
+        "translation": "corrección de errores"
+      },
+      {
+        "id": "c11",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c4",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "c10",
+        "text": "tasks",
+        "isDistractor": false,
+        "translation": "tareas"
+      },
+      {
+        "id": "c7",
+        "text": "delegating",
+        "isDistractor": false,
+        "translation": "delegando"
+      },
+      {
+        "id": "c2",
+        "text": "tech",
+        "isDistractor": false,
+        "translation": "técnico"
+      },
+      {
+        "id": "c6",
+        "text": "currently",
+        "isDistractor": false,
+        "translation": "actualmente"
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c3",
+        "text": "lead",
+        "isDistractor": false,
+        "translation": "líder"
+      }
+    ],
+    "translations": {
+      "the": "el",
+      "tech": "técnico",
+      "lead": "líder",
+      "is": "está",
+      "not": "no",
+      "currently": "actualmente",
+      "delegating": "delegando",
+      "bug-fixing": "corrección de errores",
+      "tasks": "tareas",
+      "in": "en",
+      "scrum": "scrum",
+      "meeting": "reunión",
+      "delegates": "delega",
+      "assigning": "asignando",
+      "bugfixed": "corregido"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el scrum master",
+      "Verbo: organizar (presente continuo)",
+      "Complemento: la reunión de planificación del sprint",
+      "Tiempo: en este momento"
+    ],
+    "hintDisplay": "Sujeto: el scrum master / Verbo: organizar (presente continuo) / Complemento: la reunión de planificación del sprint / Tiempo: en este momento",
+    "spanishSentence": "En este momento, el scrum master está organizando la reunión de planificación del sprint.",
+    "correctSentence": "At the moment, the scrum master is organizing the sprint planning meeting.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c11",
+        "text": "planning",
+        "isDistractor": false,
+        "translation": "planificación"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c8",
+        "text": "organizing",
+        "isDistractor": false,
+        "translation": "organizando"
+      },
+      {
+        "id": "d3",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "estaba"
+      },
+      {
+        "id": "d1",
+        "text": "organizes",
+        "isDistractor": true,
+        "translation": "organiza"
+      },
+      {
+        "id": "c6",
+        "text": "master",
+        "isDistractor": false,
+        "translation": "master"
+      },
+      {
+        "id": "c3",
+        "text": "moment",
+        "isDistractor": false,
+        "translation": "momento"
+      },
+      {
+        "id": "c5",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "c12",
+        "text": "meeting",
+        "isDistractor": false,
+        "translation": "reunión"
+      },
+      {
+        "id": "d4",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "haber"
       },
       {
         "id": "c10",
@@ -2581,114 +2504,205 @@
         "translation": "sprint"
       },
       {
-        "id": "c11",
-        "text": "during",
+        "id": "c1",
+        "text": "At",
         "isDistractor": false,
-        "translation": "durante"
+        "translation": "en"
       },
       {
-        "id": "c8",
+        "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "our",
-        "isDistractor": false,
-        "translation": "nuestro"
-      },
-      {
-        "id": "c14",
-        "text": "standup",
-        "isDistractor": false,
-        "translation": "standup"
-      },
-      {
-        "id": "c13",
-        "text": "daily",
-        "isDistractor": false,
-        "translation": "diario"
-      },
-      {
-        "id": "c3",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(presente)"
-      },
-      {
-        "id": "d3",
-        "text": "were",
-        "isDistractor": true,
-        "translation": "(pasado)"
+        "translation": "el"
       },
       {
         "id": "d2",
-        "text": "their",
+        "text": "organized",
         "isDistractor": true,
-        "translation": "su"
+        "translation": "organizó"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "at": "en",
+      "the": "el",
+      "moment": "momento",
+      "scrum": "scrum",
+      "master": "master",
+      "is": "está",
+      "organizing": "organizando",
+      "sprint": "sprint",
+      "planning": "planificación",
+      "meeting": "reunión",
+      "organizes": "organiza",
+      "organized": "organizó",
+      "was": "estaba",
+      "have": "haber"
+    },
+    "metadata": {
+      "tense": "present continuous",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el product owner",
+      "Verbo: aprobar (presente continuo)",
+      "Complemento: el backlog del sprint",
+      "Tiempo: ahora mismo",
+      "Cláusula: para el próximo ciclo de desarrollo"
+    ],
+    "hintDisplay": "Sujeto: el product owner / Verbo: aprobar (presente continuo) / Complemento: el backlog del sprint / Tiempo: ahora mismo / Cláusula: para el próximo ciclo de desarrollo",
+    "spanishSentence": "Ahora mismo, el product owner está aprobando el backlog del sprint para el próximo ciclo de desarrollo.",
+    "correctSentence": "Right now, the product owner is approving the sprint backlog for the next development cycle.",
+    "cards": [
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "d1",
-        "text": "brainstormed",
+        "text": "approves",
         "isDistractor": true,
-        "translation": "hicieron lluvia de ideas"
+        "translation": "aprueba"
+      },
+      {
+        "id": "c14",
+        "text": "development",
+        "isDistractor": false,
+        "translation": "desarrollo"
       },
       {
         "id": "c5",
-        "text": "new",
+        "text": "owner",
         "isDistractor": false,
-        "translation": "nuevas"
+        "translation": "propietario"
       },
       {
-        "id": "d4",
-        "text": "upcoming",
-        "isDistractor": true,
-        "translation": "próximo"
+        "id": "c12",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
-        "id": "c7",
+        "id": "c11",
         "text": "for",
         "isDistractor": false,
         "translation": "para"
       },
       {
-        "id": "c6",
-        "text": "features",
-        "isDistractor": false,
-        "translation": "funcionalidades"
+        "id": "d4",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "c4",
-        "text": "brainstorming",
+        "text": "product",
         "isDistractor": false,
-        "translation": "haciendo una lluvia de ideas"
+        "translation": "producto"
+      },
+      {
+        "id": "c10",
+        "text": "backlog",
+        "isDistractor": false,
+        "translation": "backlog"
       },
       {
         "id": "c2",
-        "text": "team",
+        "text": "now",
         "isDistractor": false,
-        "translation": "equipo"
+        "translation": "ahora"
+      },
+      {
+        "id": "c13",
+        "text": "next",
+        "isDistractor": false,
+        "translation": "próximo"
+      },
+      {
+        "id": "c15",
+        "text": "cycle",
+        "isDistractor": false,
+        "translation": "ciclo"
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "Right",
+        "isDistractor": false,
+        "translation": "momento"
+      },
+      {
+        "id": "d2",
+        "text": "approved",
+        "isDistractor": true,
+        "translation": "aprobado"
+      },
+      {
+        "id": "c9",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c7",
+        "text": "approving",
+        "isDistractor": false,
+        "translation": "aprobando"
+      },
+      {
+        "id": "c6",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "está"
+      },
+      {
+        "id": "d3",
+        "text": "this",
+        "isDistractor": true,
+        "translation": "esto"
       }
     ],
     "translations": {
-      "the": "(artículo)",
-      "team": "equipo",
-      "is": "(presente)",
-      "brainstorming": "haciendo una lluvia de ideas",
-      "new": "nuevas",
-      "features": "funcionalidades",
+      "right": "momento",
+      "now": "ahora",
+      "the": "el",
+      "product": "producto",
+      "owner": "propietario",
+      "is": "está",
+      "approving": "aprobando",
+      "sprint": "sprint",
+      "backlog": "backlog",
       "for": "para",
       "next": "próximo",
-      "sprint": "sprint",
-      "during": "durante",
-      "our": "nuestro",
-      "daily": "diario",
-      "standup": "standup",
-      "brainstormed": "hicieron lluvia de ideas",
-      "their": "su",
-      "were": "(pasado)",
-      "upcoming": "próximo"
+      "development": "desarrollo",
+      "cycle": "ciclo",
+      "approves": "aprueba",
+      "approved": "aprobado",
+      "this": "esto",
+      "will": "(futuro)"
     },
     "metadata": {
       "tense": "present continuous",

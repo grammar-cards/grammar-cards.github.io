@@ -1,44 +1,26 @@
 [
   {
     "hints": [
-      "Sujeto: el desarrollador",
-      "Verbo: estar (pasado continuo, forma negativa en pregunta)",
-      "Complemento: optimizando la consulta de la base de datos",
-      "Complemento: cuando el sistema se bloqueó"
+      "Sujeto: el ingeniero de DevOps",
+      "Verbo: escalar (pasado continuo)",
+      "Complemento: los servidores de producción",
+      "Cláusula: cuando la alerta de monitoreo lo interrumpió"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: estar (pasado continuo, forma negativa en pregunta) / Complemento: optimizando la consulta de la base de datos / Complemento: cuando el sistema se bloqueó",
-    "spanishSentence": "¿No estaba el desarrollador optimizando la consulta de la base de datos cuando el sistema se bloqueó?",
-    "correctSentence": "Wasn't the developer optimizing the database query when the system crashed?",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: escalar (pasado continuo) / Complemento: los servidores de producción / Cláusula: cuando la alerta de monitoreo lo interrumpió",
+    "spanishSentence": "¿Estaba el ingeniero de DevOps escalando los servidores de producción cuando la alerta de monitoreo lo interrumpió?",
+    "correctSentence": "Was the DevOps engineer scaling the production servers when the monitoring alert interrupted him?",
     "cards": [
       {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
+        "id": "d4",
+        "text": "deploying",
+        "isDistractor": true,
+        "translation": "desplegando"
       },
       {
         "id": "d2",
-        "text": "Will",
+        "text": "interrupts",
         "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c10",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
-      },
-      {
-        "id": "c7",
-        "text": "query",
-        "isDistractor": false,
-        "translation": "consulta"
-      },
-      {
-        "id": "c4",
-        "text": "optimizing",
-        "isDistractor": false,
-        "translation": "optimizando"
+        "translation": "interrumpe"
       },
       {
         "id": "qm",
@@ -47,232 +29,119 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "d4",
-        "text": "Him",
+        "id": "d3",
+        "text": "them",
         "isDistractor": true,
+        "translation": "los"
+      },
+      {
+        "id": "c14",
+        "text": "him",
+        "isDistractor": false,
         "translation": "lo"
       },
       {
-        "id": "c5",
+        "id": "c6",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "database",
-        "isDistractor": false,
-        "translation": "base de datos"
-      },
-      {
-        "id": "c3",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "d5",
-        "text": "Crashing",
-        "isDistractor": true,
-        "translation": "bloqueándose"
-      },
-      {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "el"
       },
       {
         "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "Optimized",
-        "isDistractor": true,
-        "translation": "optimizado"
-      },
-      {
-        "id": "c8",
-        "text": "when",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "d1",
-        "text": "Weren't",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c11",
-        "text": "crashed",
-        "isDistractor": false,
-        "translation": "se bloqueó"
-      }
-    ],
-    "translations": {
-      "wasn't": "(auxiliar)",
-      "the": "(artículo)",
-      "developer": "desarrollador",
-      "optimizing": "optimizando",
-      "database": "base de datos",
-      "query": "consulta",
-      "when": "cuando",
-      "system": "sistema",
-      "crashed": "se bloqueó",
-      "weren't": "(auxiliar)",
-      "will": "(futuro)",
-      "optimized": "optimizado",
-      "him": "lo",
-      "crashing": "bloqueándose"
-    },
-    "metadata": {
-      "tense": "past continuous",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el equipo",
-      "Verbo: estar (auxiliar, para formar progresivo)",
-      "Verbo: monitorear",
-      "Complemento: el rendimiento del sistema",
-      "Complemento: mientras se realizaba el despliegue"
-    ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: estar (auxiliar, para formar progresivo) / Verbo: monitorear / Complemento: el rendimiento del sistema / Complemento: mientras se realizaba el despliegue",
-    "spanishSentence": "¿Estaba el equipo monitoreando el rendimiento del sistema mientras se realizaba el despliegue?",
-    "correctSentence": "Was the team monitoring the system performance while the deployment was happening?",
-    "cards": [
-      {
-        "id": "d3",
-        "text": "Monitor",
-        "isDistractor": true,
-        "translation": "monitorear"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
+        "translation": "el"
       },
       {
         "id": "c3",
-        "text": "team",
+        "text": "DevOps",
         "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c11",
-        "text": "was",
-        "isDistractor": false,
-        "translation": "(pasado)"
+        "translation": "devops"
       },
       {
         "id": "c10",
-        "text": "deployment",
-        "isDistractor": false,
-        "translation": "despliegue"
-      },
-      {
-        "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "c12",
-        "text": "happening",
+        "id": "c4",
+        "text": "engineer",
         "isDistractor": false,
-        "translation": "ocurriendo"
+        "translation": "ingeniero"
       },
       {
         "id": "c1",
         "text": "Was",
         "isDistractor": false,
-        "translation": "(pasado)"
+        "translation": "estaba"
       },
       {
-        "id": "d5",
-        "text": "Occurring",
-        "isDistractor": true,
-        "translation": "ocurriendo"
-      },
-      {
-        "id": "d2",
-        "text": "Had",
-        "isDistractor": true,
-        "translation": "había"
-      },
-      {
-        "id": "c5",
-        "text": "the",
+        "id": "c12",
+        "text": "alert",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "alerta"
       },
       {
-        "id": "c7",
-        "text": "performance",
+        "id": "c13",
+        "text": "interrupted",
         "isDistractor": false,
-        "translation": "rendimiento"
-      },
-      {
-        "id": "d4",
-        "text": "Its",
-        "isDistractor": true,
-        "translation": "su"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
+        "translation": "interrumpió"
       },
       {
         "id": "d1",
-        "text": "Were",
+        "text": "scaled",
         "isDistractor": true,
-        "translation": "(pasado)"
+        "translation": "escaló"
       },
       {
-        "id": "c4",
-        "text": "monitoring",
+        "id": "c5",
+        "text": "scaling",
         "isDistractor": false,
-        "translation": "monitoreando"
+        "translation": "escalando"
       },
       {
         "id": "c8",
-        "text": "while",
+        "text": "servers",
         "isDistractor": false,
-        "translation": "mientras"
+        "translation": "servidores"
+      },
+      {
+        "id": "c11",
+        "text": "monitoring",
+        "isDistractor": false,
+        "translation": "monitoreo"
+      },
+      {
+        "id": "c9",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
+      },
+      {
+        "id": "c7",
+        "text": "production",
+        "isDistractor": false,
+        "translation": "producción"
       }
     ],
     "translations": {
-      "was": "(pasado)",
-      "the": "(artículo)",
-      "team": "equipo",
-      "monitoring": "monitoreando",
-      "system": "sistema",
-      "performance": "rendimiento",
-      "while": "mientras",
-      "deployment": "despliegue",
-      "happening": "ocurriendo",
-      "were": "(pasado)",
-      "had": "había",
-      "monitor": "monitorear",
-      "its": "su",
-      "occurring": "ocurriendo"
+      "was": "estaba",
+      "the": "el",
+      "devops": "devops",
+      "engineer": "ingeniero",
+      "scaling": "escalando",
+      "production": "producción",
+      "servers": "servidores",
+      "when": "cuando",
+      "monitoring": "monitoreo",
+      "alert": "alerta",
+      "interrupted": "interrumpió",
+      "him": "lo",
+      "scaled": "escaló",
+      "interrupts": "interrumpe",
+      "them": "los",
+      "deploying": "desplegando"
     },
     "metadata": {
       "tense": "past continuous",
@@ -285,50 +154,25 @@
   {
     "hints": [
       "Sujeto: el desarrollador backend",
-      "Verbo: estar (en pasado continuo)",
-      "Complemento: migrando la base de datos al nuevo servidor",
-      "Complemento: cuando el sistema se bloqueó",
-      "Tiempo: cuando ocurrió una acción en el pasado"
+      "Verbo: estar migrando (imperfecto)",
+      "Complemento: la base de datos",
+      "Cláusula: cuando el servidor se cayó"
     ],
-    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: estar (en pasado continuo) / Complemento: migrando la base de datos al nuevo servidor / Complemento: cuando el sistema se bloqueó / Tiempo: cuando ocurrió una acción en el pasado",
-    "spanishSentence": "¿Estaba el desarrollador backend migrando la base de datos al nuevo servidor cuando el sistema se bloqueó?",
-    "correctSentence": "Was the backend developer migrating the database to the new server when the system crashed?",
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: estar migrando (imperfecto) / Complemento: la base de datos / Cláusula: cuando el servidor se cayó",
+    "spanishSentence": "¿No estaba el desarrollador backend migrando la base de datos cuando el servidor se cayó?",
+    "correctSentence": "Wasn't the backend developer migrating the database when the server crashed?",
     "cards": [
       {
         "id": "d2",
-        "text": "Has",
+        "text": "does",
         "isDistractor": true,
         "translation": "(auxiliar)"
       },
       {
-        "id": "c1",
-        "text": "Was",
-        "isDistractor": false,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c15",
-        "text": "crashed",
-        "isDistractor": false,
-        "translation": "se bloqueó"
-      },
-      {
-        "id": "c7",
-        "text": "database",
-        "isDistractor": false,
-        "translation": "base de datos"
-      },
-      {
-        "id": "c13",
+        "id": "c6",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "backend",
-        "isDistractor": false,
-        "translation": "backend"
+        "translation": "el"
       },
       {
         "id": "qm",
@@ -337,76 +181,34 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "c11",
-        "text": "server",
-        "isDistractor": false,
-        "translation": "servidor"
-      },
-      {
-        "id": "d4",
-        "text": "server's",
-        "isDistractor": true,
-        "translation": "del servidor"
-      },
-      {
-        "id": "d3",
-        "text": "Were",
-        "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c12",
-        "text": "when",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "c14",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
-      },
-      {
-        "id": "c8",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(preposición)"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c10",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nuevo"
-      },
-      {
-        "id": "d1",
-        "text": "migrate",
-        "isDistractor": true,
-        "translation": "migrar"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
         "id": "c4",
         "text": "developer",
         "isDistractor": false,
         "translation": "desarrollador"
       },
       {
-        "id": "c9",
-        "text": "the",
+        "id": "d4",
+        "text": "crashes",
+        "isDistractor": true,
+        "translation": "se cae"
+      },
+      {
+        "id": "c10",
+        "text": "server",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "servidor"
+      },
+      {
+        "id": "c3",
+        "text": "backend",
+        "isDistractor": false,
+        "translation": "backend"
+      },
+      {
+        "id": "c8",
+        "text": "when",
+        "isDistractor": false,
+        "translation": "cuando"
       },
       {
         "id": "c5",
@@ -415,30 +217,225 @@
         "translation": "migrando"
       },
       {
-        "id": "d5",
-        "text": "crashing",
+        "id": "d3",
+        "text": "migrated",
         "isDistractor": true,
-        "translation": "bloqueándose"
+        "translation": "migró"
+      },
+      {
+        "id": "c7",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "d1",
+        "text": "Was",
+        "isDistractor": true,
+        "translation": "(auxiliar pasado)"
+      },
+      {
+        "id": "c11",
+        "text": "crashed",
+        "isDistractor": false,
+        "translation": "se cayó"
+      },
+      {
+        "id": "c1",
+        "text": "Wasn't",
+        "isDistractor": false,
+        "translation": "(auxiliar negación pasado)"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       }
     ],
     "translations": {
-      "was": "(pasado)",
-      "the": "(artículo)",
+      "wasn't": "(auxiliar negación pasado)",
+      "the": "el",
       "backend": "backend",
       "developer": "desarrollador",
       "migrating": "migrando",
       "database": "base de datos",
-      "to": "(preposición)",
-      "new": "nuevo",
-      "server": "servidor",
       "when": "cuando",
-      "system": "sistema",
-      "crashed": "se bloqueó",
-      "migrate": "migrar",
-      "has": "(auxiliar)",
-      "were": "(pasado)",
-      "server's": "del servidor",
-      "crashing": "bloqueándose"
+      "server": "servidor",
+      "crashed": "se cayó",
+      "was": "(auxiliar pasado)",
+      "does": "(auxiliar)",
+      "migrated": "migró",
+      "crashes": "se cae"
+    },
+    "metadata": {
+      "tense": "past continuous",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el arquitecto",
+      "Verbo: documentar (pasado continuo)",
+      "Complemento: los cambios de la API",
+      "Cláusula: mientras el desarrollador líder revisaba el código heredado (pasado continuo)"
+    ],
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: documentar (pasado continuo) / Complemento: los cambios de la API / Cláusula: mientras el desarrollador líder revisaba el código heredado (pasado continuo)",
+    "spanishSentence": "Mientras el arquitecto estaba documentando los cambios de la API, ¿estaba el desarrollador líder revisando el código heredado?",
+    "correctSentence": "While the architect was documenting the API changes, was the lead developer reviewing the legacy code?",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "(pretérito imperfecto, 3ª pers. sing.)"
+      },
+      {
+        "id": "c13",
+        "text": "reviewing",
+        "isDistractor": false,
+        "translation": "revisando"
+      },
+      {
+        "id": "d3",
+        "text": "document",
+        "isDistractor": true,
+        "translation": "documentar"
+      },
+      {
+        "id": "c15",
+        "text": "legacy",
+        "isDistractor": false,
+        "translation": "heredado"
+      },
+      {
+        "id": "c12",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c5",
+        "text": "documenting",
+        "isDistractor": false,
+        "translation": "documentando"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la (artículo definido)"
+      },
+      {
+        "id": "c11",
+        "text": "lead",
+        "isDistractor": false,
+        "translation": "líder"
+      },
+      {
+        "id": "c1",
+        "text": "While",
+        "isDistractor": false,
+        "translation": "mientras"
+      },
+      {
+        "id": "d1",
+        "text": "Were",
+        "isDistractor": true,
+        "translation": "(pretérito imperfecto, 3ª pers. pl.)"
+      },
+      {
+        "id": "c4",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "(pretérito imperfecto, 3ª pers. sing.)"
+      },
+      {
+        "id": "c16",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la (artículo definido)"
+      },
+      {
+        "id": "d2",
+        "text": "architects",
+        "isDistractor": true,
+        "translation": "arquitectos"
+      },
+      {
+        "id": "c14",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la (artículo definido)"
+      },
+      {
+        "id": "c3",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecto"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "API",
+        "isDistractor": false,
+        "translation": "API (siglas)"
+      },
+      {
+        "id": "c8",
+        "text": "changes",
+        "isDistractor": false,
+        "translation": "cambios"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la (artículo definido)"
+      }
+    ],
+    "translations": {
+      "while": "mientras",
+      "the": "el/la (artículo definido)",
+      "architect": "arquitecto",
+      "was": "(pretérito imperfecto, 3ª pers. sing.)",
+      "documenting": "documentando",
+      "api": "API (siglas)",
+      "changes": "cambios",
+      "lead": "líder",
+      "developer": "desarrollador",
+      "reviewing": "revisando",
+      "legacy": "heredado",
+      "code": "código",
+      "were": "(pretérito imperfecto, 3ª pers. pl.)",
+      "architects": "arquitectos",
+      "document": "documentar"
     },
     "metadata": {
       "tense": "past continuous",
@@ -450,110 +447,62 @@
   },
   {
     "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: estar (auxiliar para pasado continuo)",
-      "Complemento: evaluando la arquitectura del sistema",
-      "Tiempo: cuando llegó el equipo de desarrollo"
+      "Sujeto: el equipo",
+      "Verbo: probar (pretérito imperfecto)",
+      "Complemento: la nueva función",
+      "Cláusula: mientras también estaban probando la migración de la base de datos"
     ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: estar (auxiliar para pasado continuo) / Complemento: evaluando la arquitectura del sistema / Tiempo: cuando llegó el equipo de desarrollo",
-    "spanishSentence": "¿Estaba el arquitecto evaluando la arquitectura del sistema cuando llegó el equipo de desarrollo?",
-    "correctSentence": "Was the architect evaluating the system architecture when the development team arrived?",
+    "hintDisplay": "Sujeto: el equipo / Verbo: probar (pretérito imperfecto) / Complemento: la nueva función / Cláusula: mientras también estaban probando la migración de la base de datos",
+    "spanishSentence": "¿Mientras el equipo estaba probando la nueva función, también estaban probando la migración de la base de datos?",
+    "correctSentence": "While the team was testing the new feature, were they also testing the database migration?",
     "cards": [
       {
+        "id": "c1",
+        "text": "While",
+        "isDistractor": false,
+        "translation": "mientras"
+      },
+      {
         "id": "c3",
-        "text": "architect",
-        "isDistractor": false,
-        "translation": "arquitecto"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c12",
-        "text": "arrived",
-        "isDistractor": false,
-        "translation": "llegó"
-      },
-      {
-        "id": "c4",
-        "text": "evaluating",
-        "isDistractor": false,
-        "translation": "evaluando"
-      },
-      {
-        "id": "c11",
         "text": "team",
         "isDistractor": false,
         "translation": "equipo"
       },
       {
         "id": "c8",
-        "text": "when",
+        "text": "feature",
         "isDistractor": false,
-        "translation": "cuando"
+        "translation": "función"
       },
       {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c2",
+        "id": "c13",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "d4",
-        "text": "having",
-        "isDistractor": true,
-        "translation": "teniendo"
-      },
-      {
-        "id": "d5",
-        "text": "designing",
-        "isDistractor": true,
-        "translation": "diseñando"
+        "id": "c9",
+        "text": "were",
+        "isDistractor": false,
+        "translation": "estaban"
       },
       {
         "id": "c6",
-        "text": "system",
+        "text": "the",
         "isDistractor": false,
-        "translation": "sistema"
+        "translation": "el"
       },
       {
-        "id": "c1",
-        "text": "Was",
+        "id": "c15",
+        "text": "migration",
         "isDistractor": false,
-        "translation": "(pasado)"
+        "translation": "migración"
       },
       {
-        "id": "c7",
-        "text": "architecture",
-        "isDistractor": false,
-        "translation": "arquitectura"
-      },
-      {
-        "id": "d1",
-        "text": "Were",
+        "id": "d2",
+        "text": "it",
         "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c10",
-        "text": "development",
-        "isDistractor": false,
-        "translation": "desarrollo"
+        "translation": "ello"
       },
       {
         "id": "qm",
@@ -562,28 +511,351 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "d2",
-        "text": "evaluates",
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c7",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nueva"
+      },
+      {
+        "id": "c5",
+        "text": "testing",
+        "isDistractor": false,
+        "translation": "probando"
+      },
+      {
+        "id": "d1",
+        "text": "is",
         "isDistractor": true,
-        "translation": "evalúa"
+        "translation": "es"
+      },
+      {
+        "id": "c4",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "estaba"
+      },
+      {
+        "id": "c10",
+        "text": "they",
+        "isDistractor": false,
+        "translation": "ellos"
+      },
+      {
+        "id": "c11",
+        "text": "also",
+        "isDistractor": false,
+        "translation": "también"
+      },
+      {
+        "id": "c14",
+        "text": "database",
+        "isDistractor": false,
+        "translation": "base de datos"
+      },
+      {
+        "id": "c12",
+        "text": "testing",
+        "isDistractor": false,
+        "translation": "probando"
       }
     ],
     "translations": {
-      "was": "(pasado)",
-      "the": "(artículo)",
-      "architect": "arquitecto",
-      "evaluating": "evaluando",
-      "system": "sistema",
-      "architecture": "arquitectura",
-      "when": "cuando",
-      "development": "desarrollo",
+      "while": "mientras",
+      "the": "el",
       "team": "equipo",
-      "arrived": "llegó",
-      "were": "(pasado)",
-      "evaluates": "evalúa",
-      "them": "los",
-      "having": "teniendo",
-      "designing": "diseñando"
+      "was": "estaba",
+      "testing": "probando",
+      "new": "nueva",
+      "feature": "función",
+      "were": "estaban",
+      "they": "ellos",
+      "also": "también",
+      "database": "base de datos",
+      "migration": "migración",
+      "is": "es",
+      "it": "ello"
+    },
+    "metadata": {
+      "tense": "past continuous",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el desarrollador",
+      "Verbo: refactorizar (pasado continuo)",
+      "Complemento: el código heredado",
+      "Tiempo: a las 8 pm anoche"
+    ],
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: refactorizar (pasado continuo) / Complemento: el código heredado / Tiempo: a las 8 pm anoche",
+    "spanishSentence": "¿A las 8 pm anoche, estaba el desarrollador refactorizando el código heredado?",
+    "correctSentence": "At 8 pm last night, was the developer refactoring the legacy codebase?",
+    "cards": [
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c2",
+        "text": "8",
+        "isDistractor": false,
+        "translation": "ocho"
+      },
+      {
+        "id": "c6",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "(auxiliar pasado)"
+      },
+      {
+        "id": "d3",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
+      },
+      {
+        "id": "c9",
+        "text": "refactoring",
+        "isDistractor": false,
+        "translation": "refactorizando"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c8",
+        "text": "developer",
+        "isDistractor": false,
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c1",
+        "text": "At",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "c5",
+        "text": "night",
+        "isDistractor": false,
+        "translation": "noche"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c4",
+        "text": "last",
+        "isDistractor": false,
+        "translation": "pasado"
+      },
+      {
+        "id": "c3",
+        "text": "pm",
+        "isDistractor": false,
+        "translation": "pm"
+      },
+      {
+        "id": "c11",
+        "text": "legacy",
+        "isDistractor": false,
+        "translation": "heredado"
+      },
+      {
+        "id": "c12",
+        "text": "codebase",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "d4",
+        "text": "fixed",
+        "isDistractor": true,
+        "translation": "arreglado"
+      },
+      {
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(auxiliar presente)"
+      },
+      {
+        "id": "d2",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(auxiliar pasado plural)"
+      }
+    ],
+    "translations": {
+      "8": "ocho",
+      "at": "a",
+      "pm": "pm",
+      "last": "pasado",
+      "night": "noche",
+      "was": "(auxiliar pasado)",
+      "the": "el",
+      "developer": "desarrollador",
+      "refactoring": "refactorizando",
+      "legacy": "heredado",
+      "codebase": "código",
+      "is": "(auxiliar presente)",
+      "were": "(auxiliar pasado plural)",
+      "has": "ha",
+      "fixed": "arreglado"
+    },
+    "metadata": {
+      "tense": "past continuous",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: los desarrolladores frontend",
+      "Verbo: obtener (pasado continuo, pregunta)",
+      "Complemento: los datos de la API",
+      "Tiempo: toda la mañana"
+    ],
+    "hintDisplay": "Sujeto: los desarrolladores frontend / Verbo: obtener (pasado continuo, pregunta) / Complemento: los datos de la API / Tiempo: toda la mañana",
+    "spanishSentence": "¿Estaban los desarrolladores frontend obteniendo los datos de la API toda la mañana?",
+    "correctSentence": "Were the frontend developers fetching the API data all morning?",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "Was",
+        "isDistractor": true,
+        "translation": "(auxiliar pasado continuo)"
+      },
+      {
+        "id": "c2",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/los"
+      },
+      {
+        "id": "c9",
+        "text": "all",
+        "isDistractor": false,
+        "translation": "toda"
+      },
+      {
+        "id": "c10",
+        "text": "morning",
+        "isDistractor": false,
+        "translation": "mañana"
+      },
+      {
+        "id": "c1",
+        "text": "Were",
+        "isDistractor": false,
+        "translation": "(auxiliar pasado continuo)"
+      },
+      {
+        "id": "c5",
+        "text": "fetching",
+        "isDistractor": false,
+        "translation": "obteniendo"
+      },
+      {
+        "id": "d4",
+        "text": "Gotten",
+        "isDistractor": true,
+        "translation": "obtenido"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/los"
+      },
+      {
+        "id": "c4",
+        "text": "developers",
+        "isDistractor": false,
+        "translation": "desarrolladores"
+      },
+      {
+        "id": "c3",
+        "text": "frontend",
+        "isDistractor": false,
+        "translation": "frontend"
+      },
+      {
+        "id": "d3",
+        "text": "Did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "API",
+        "isDistractor": false,
+        "translation": "API"
+      },
+      {
+        "id": "d2",
+        "text": "Have",
+        "isDistractor": true,
+        "translation": "haber"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c8",
+        "text": "data",
+        "isDistractor": false,
+        "translation": "datos"
+      }
+    ],
+    "translations": {
+      "were": "(auxiliar pasado continuo)",
+      "the": "el/los",
+      "frontend": "frontend",
+      "developers": "desarrolladores",
+      "fetching": "obteniendo",
+      "api": "API",
+      "data": "datos",
+      "all": "toda",
+      "morning": "mañana",
+      "was": "(auxiliar pasado continuo)",
+      "have": "haber",
+      "did": "(auxiliar)",
+      "gotten": "obtenido"
     },
     "metadata": {
       "tense": "past continuous",
@@ -596,20 +868,37 @@
   {
     "hints": [
       "Sujeto: ellos",
-      "Verbo: estar (pasado continuo)",
-      "Verbo: construir (acción en progreso)",
-      "Complemento: la nueva arquitectura de software",
-      "Tiempo: cuando el sistema se cayó"
+      "Verbo: optimizar (pasado continuo)",
+      "Complemento: las consultas de la base de datos",
+      "Tiempo: todo el día"
     ],
-    "hintDisplay": "Sujeto: ellos / Verbo: estar (pasado continuo) / Verbo: construir (acción en progreso) / Complemento: la nueva arquitectura de software / Tiempo: cuando el sistema se cayó",
-    "spanishSentence": "¿Estaban ellos construyendo la nueva arquitectura de software cuando el sistema se cayó?",
-    "correctSentence": "Were they building the new software architecture when the system crashed?",
+    "hintDisplay": "Sujeto: ellos / Verbo: optimizar (pasado continuo) / Complemento: las consultas de la base de datos / Tiempo: todo el día",
+    "spanishSentence": "¿Estaban ellos optimizando las consultas de la base de datos todo el día?",
+    "correctSentence": "Were they optimizing the database queries all day?",
     "cards": [
+      {
+        "id": "d1",
+        "text": "Was",
+        "isDistractor": true,
+        "translation": "(auxiliar pasado)"
+      },
       {
         "id": "c1",
         "text": "Were",
         "isDistractor": false,
-        "translation": "(pasado del verbo ser/estar)"
+        "translation": "(auxiliar pasado)"
+      },
+      {
+        "id": "c6",
+        "text": "queries",
+        "isDistractor": false,
+        "translation": "consultas"
+      },
+      {
+        "id": "c4",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c2",
@@ -618,415 +907,64 @@
         "translation": "ellos"
       },
       {
-        "id": "c9",
-        "text": "the",
+        "id": "c5",
+        "text": "database",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d5",
-        "text": "constructing",
-        "isDistractor": true,
-        "translation": "construyendo"
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c8",
-        "text": "when",
-        "isDistractor": false,
-        "translation": "cuando"
+        "translation": "base de datos"
       },
       {
         "id": "c7",
-        "text": "architecture",
+        "text": "all",
         "isDistractor": false,
-        "translation": "arquitectura"
+        "translation": "todo"
       },
       {
-        "id": "c6",
-        "text": "software",
+        "id": "c3",
+        "text": "optimizing",
         "isDistractor": false,
-        "translation": "software"
+        "translation": "optimizando"
+      },
+      {
+        "id": "d3",
+        "text": "they're",
+        "isDistractor": true,
+        "translation": "ellos son"
+      },
+      {
+        "id": "c8",
+        "text": "day",
+        "isDistractor": false,
+        "translation": "día"
+      },
+      {
+        "id": "d2",
+        "text": "optimized",
+        "isDistractor": true,
+        "translation": "optimizado"
       },
       {
         "id": "qm",
         "text": "?",
         "isDistractor": false,
         "translation": "signo de interrogación"
-      },
-      {
-        "id": "d2",
-        "text": "he",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c10",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
-      },
-      {
-        "id": "c3",
-        "text": "building",
-        "isDistractor": false,
-        "translation": "construyendo"
-      },
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d4",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "estaba"
-      },
-      {
-        "id": "c11",
-        "text": "crashed",
-        "isDistractor": false,
-        "translation": "se cayó"
-      },
-      {
-        "id": "d1",
-        "text": "built",
-        "isDistractor": true,
-        "translation": "construida"
-      },
-      {
-        "id": "c5",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nueva"
       }
     ],
     "translations": {
-      "were": "(pasado del verbo ser/estar)",
+      "were": "(auxiliar pasado)",
       "they": "ellos",
-      "building": "construyendo",
-      "the": "(artículo)",
-      "new": "nueva",
-      "software": "software",
-      "architecture": "arquitectura",
-      "when": "cuando",
-      "system": "sistema",
-      "crashed": "se cayó",
-      "built": "construida",
-      "he": "él",
-      "does": "(auxiliar)",
-      "was": "estaba",
-      "constructing": "construyendo"
+      "optimizing": "optimizando",
+      "the": "el",
+      "database": "base de datos",
+      "queries": "consultas",
+      "all": "todo",
+      "day": "día",
+      "was": "(auxiliar pasado)",
+      "optimized": "optimizado",
+      "they're": "ellos son"
     },
     "metadata": {
       "tense": "past continuous",
       "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el desarrollador frontend",
-      "Verbo: estar (progressive - acción en progreso en el pasado)",
-      "Complemento: obteniendo/traer datos de la API",
-      "Complemento: cuando el servidor se cayó"
-    ],
-    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: estar (progressive - acción en progreso en el pasado) / Complemento: obteniendo/traer datos de la API / Complemento: cuando el servidor se cayó",
-    "spanishSentence": "¿Estaba el desarrollador frontend obteniendo datos de la API cuando el servidor se cayó?",
-    "correctSentence": "Was the frontend developer fetching data from the API when the server went down?",
-    "cards": [
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c7",
-        "text": "from",
-        "isDistractor": false,
-        "translation": "de"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c14",
-        "text": "down",
-        "isDistractor": false,
-        "translation": "abajo"
-      },
-      {
-        "id": "c6",
-        "text": "data",
-        "isDistractor": false,
-        "translation": "datos"
-      },
-      {
-        "id": "c1",
-        "text": "Was",
-        "isDistractor": false,
-        "translation": "(pretérito)"
-      },
-      {
-        "id": "c4",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c10",
-        "text": "when",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "d2",
-        "text": "he",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "d1",
-        "text": "fetched",
-        "isDistractor": true,
-        "translation": "obtuvo"
-      },
-      {
-        "id": "d3",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c9",
-        "text": "API",
-        "isDistractor": false,
-        "translation": "API"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c13",
-        "text": "went",
-        "isDistractor": false,
-        "translation": "se cayó"
-      },
-      {
-        "id": "c5",
-        "text": "fetching",
-        "isDistractor": false,
-        "translation": "obteniendo"
-      },
-      {
-        "id": "c12",
-        "text": "server",
-        "isDistractor": false,
-        "translation": "servidor"
-      },
-      {
-        "id": "d5",
-        "text": "crashed",
-        "isDistractor": true,
-        "translation": "se estrelló"
-      },
-      {
-        "id": "c3",
-        "text": "frontend",
-        "isDistractor": false,
-        "translation": "frontend"
-      },
-      {
-        "id": "d4",
-        "text": "downloading",
-        "isDistractor": true,
-        "translation": "descargando"
-      }
-    ],
-    "translations": {
-      "was": "(pretérito)",
-      "the": "(artículo)",
-      "frontend": "frontend",
-      "developer": "desarrollador",
-      "fetching": "obteniendo",
-      "data": "datos",
-      "from": "de",
-      "api": "API",
-      "when": "cuando",
-      "server": "servidor",
-      "went": "se cayó",
-      "down": "abajo",
-      "fetched": "obtuvo",
-      "he": "él",
-      "does": "(auxiliar)",
-      "downloading": "descargando",
-      "crashed": "se estrelló"
-    },
-    "metadata": {
-      "tense": "past continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el ingeniero de DevOps",
-      "Verbo: estar (pasado continuo)",
-      "Complemento: escalando la infraestructura",
-      "Verbo: fallar (pasado simple)",
-      "Complemento: el despliegue",
-      "Tiempo: cuando (marcador de simultaneidad en pasado)"
-    ],
-    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: estar (pasado continuo) / Complemento: escalando la infraestructura / Verbo: fallar (pasado simple) / Complemento: el despliegue / Tiempo: cuando (marcador de simultaneidad en pasado)",
-    "spanishSentence": "¿No estaba el ingeniero de DevOps escalando la infraestructura cuando falló el despliegue?",
-    "correctSentence": "Wasn't the DevOps engineer scaling the infrastructure when the deployment failed?",
-    "cards": [
-      {
-        "id": "c10",
-        "text": "deployment",
-        "isDistractor": false,
-        "translation": "despliegue"
-      },
-      {
-        "id": "d1",
-        "text": "Were",
-        "isDistractor": true,
-        "translation": "(estaban)"
-      },
-      {
-        "id": "d4",
-        "text": "deploying",
-        "isDistractor": true,
-        "translation": "desplegando"
-      },
-      {
-        "id": "d3",
-        "text": "scaled",
-        "isDistractor": true,
-        "translation": "escalado"
-      },
-      {
-        "id": "c7",
-        "text": "infrastructure",
-        "isDistractor": false,
-        "translation": "infraestructura"
-      },
-      {
-        "id": "c8",
-        "text": "when",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "c5",
-        "text": "scaling",
-        "isDistractor": false,
-        "translation": "escalando"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c3",
-        "text": "DevOps",
-        "isDistractor": false,
-        "translation": "DevOps"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false,
-        "translation": "(no estaba)"
-      },
-      {
-        "id": "d2",
-        "text": "Hasn't",
-        "isDistractor": true,
-        "translation": "(no ha)"
-      },
-      {
-        "id": "c11",
-        "text": "failed",
-        "isDistractor": false,
-        "translation": "falló"
-      },
-      {
-        "id": "c4",
-        "text": "engineer",
-        "isDistractor": false,
-        "translation": "ingeniero"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "d5",
-        "text": "infrastructures",
-        "isDistractor": true,
-        "translation": "infraestructuras"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      }
-    ],
-    "translations": {
-      "wasn't": "(no estaba)",
-      "the": "(artículo)",
-      "devops": "DevOps",
-      "engineer": "ingeniero",
-      "scaling": "escalando",
-      "infrastructure": "infraestructura",
-      "when": "cuando",
-      "deployment": "despliegue",
-      "failed": "falló",
-      "were": "(estaban)",
-      "hasn't": "(no ha)",
-      "scaled": "escalado",
-      "deploying": "desplegando",
-      "infrastructures": "infraestructuras"
-    },
-    "metadata": {
-      "tense": "past continuous",
-      "isNegative": true,
       "isQuestion": true,
       "difficulty": "intermediate",
       "topic": "software engineering"
@@ -1035,266 +973,147 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: estar (auxiliar para indicar acción en progreso)",
-      "Verbo: construir (acción principal)",
-      "Complemento: la nueva arquitectura de microservicios",
-      "Tiempo: cuando el servidor se cayó (momento específico del pasado)",
-      "Verbo: caer/colapsar (en pasado simple, acción que interrumpe)"
+      "Verbo: estar probando (pasado continuo)",
+      "Complemento: el nuevo script de despliegue",
+      "Tiempo: anoche a las 8 pm"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: estar (auxiliar para indicar acción en progreso) / Verbo: construir (acción principal) / Complemento: la nueva arquitectura de microservicios / Tiempo: cuando el servidor se cayó (momento específico del pasado) / Verbo: caer/colapsar (en pasado simple, acción que interrumpe)",
-    "spanishSentence": "¿Estábamos construyendo la nueva arquitectura de microservicios cuando el servidor se cayó?",
-    "correctSentence": "Were we building the new microservices architecture when the server crashed?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: estar probando (pasado continuo) / Complemento: el nuevo script de despliegue / Tiempo: anoche a las 8 pm",
+    "spanishSentence": "A las 8 pm anoche, no estábamos probando el nuevo script de despliegue.",
+    "correctSentence": "At 8 pm last night, we weren't testing the new deployment script?",
     "cards": [
       {
-        "id": "d3",
-        "text": "designing",
-        "isDistractor": true,
-        "translation": "diseñando"
-      },
-      {
-        "id": "d2",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
+        "id": "c7",
+        "text": "weren't",
+        "isDistractor": false,
+        "translation": "(pretérito imperfecto negativo)"
       },
       {
         "id": "c4",
-        "text": "the",
+        "text": "last",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "anoche"
       },
       {
-        "id": "c6",
-        "text": "microservices",
+        "id": "c2",
+        "text": "8",
         "isDistractor": false,
-        "translation": "microservicios"
+        "translation": "8"
+      },
+      {
+        "id": "c1",
+        "text": "At",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "d4",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "era"
+      },
+      {
+        "id": "d1",
+        "text": "wasn't",
+        "isDistractor": true,
+        "translation": "(pretérito imperfecto negativo)"
+      },
+      {
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
       },
       {
         "id": "d5",
-        "text": "failed",
+        "text": "were",
         "isDistractor": true,
-        "translation": "falló"
+        "translation": "eran"
+      },
+      {
+        "id": "c10",
+        "text": "new",
+        "isDistractor": false,
+        "translation": "nuevo"
       },
       {
         "id": "c9",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "c1",
-        "text": "Were",
-        "isDistractor": false,
-        "translation": "(pretérito del verbo ser/estar)"
-      },
-      {
-        "id": "c7",
-        "text": "architecture",
-        "isDistractor": false,
-        "translation": "arquitectura"
-      },
-      {
-        "id": "c5",
-        "text": "new",
-        "isDistractor": false,
-        "translation": "nueva"
-      },
-      {
-        "id": "d1",
-        "text": "built",
+        "id": "d3",
+        "text": "werenot",
         "isDistractor": true,
-        "translation": "construida"
+        "translation": "(pretérito imperfecto negativo)"
+      },
+      {
+        "id": "d2",
+        "text": "weren",
+        "isDistractor": true,
+        "translation": "(pretérito imperfecto negativo)"
+      },
+      {
+        "id": "c3",
+        "text": "pm",
+        "isDistractor": false,
+        "translation": "pm"
+      },
+      {
+        "id": "c8",
+        "text": "testing",
+        "isDistractor": false,
+        "translation": "probando"
       },
       {
         "id": "c11",
-        "text": "crashed",
+        "text": "deployment",
         "isDistractor": false,
-        "translation": "se cayó"
+        "translation": "despliegue"
       },
       {
-        "id": "c2",
+        "id": "c6",
         "text": "we",
         "isDistractor": false,
         "translation": "nosotros"
       },
       {
-        "id": "c10",
-        "text": "server",
-        "isDistractor": false,
-        "translation": "servidor"
-      },
-      {
         "id": "qm",
         "text": "?",
         "isDistractor": false,
         "translation": "signo de interrogación"
       },
       {
-        "id": "c3",
-        "text": "building",
+        "id": "c12",
+        "text": "script",
         "isDistractor": false,
-        "translation": "construyendo"
-      },
-      {
-        "id": "d4",
-        "text": "infrastructure",
-        "isDistractor": true,
-        "translation": "infraestructura"
-      },
-      {
-        "id": "c8",
-        "text": "when",
-        "isDistractor": false,
-        "translation": "cuando"
-      }
-    ],
-    "translations": {
-      "were": "(pretérito del verbo ser/estar)",
-      "we": "nosotros",
-      "building": "construyendo",
-      "the": "(artículo)",
-      "new": "nueva",
-      "microservices": "microservicios",
-      "architecture": "arquitectura",
-      "when": "cuando",
-      "server": "servidor",
-      "crashed": "se cayó",
-      "built": "construida",
-      "they": "ellos",
-      "designing": "diseñando",
-      "infrastructure": "infraestructura",
-      "failed": "falló"
-    },
-    "metadata": {
-      "tense": "past continuous",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "intermediate",
-      "topic": "software engineering"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el arquitecto",
-      "Verbo: estar (auxiliar para pasado continuo)",
-      "Complemento: diseñar la arquitectura del sistema",
-      "Tiempo: cuando comenzó la reunión"
-    ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: estar (auxiliar para pasado continuo) / Complemento: diseñar la arquitectura del sistema / Tiempo: cuando comenzó la reunión",
-    "spanishSentence": "¿No estaba el arquitecto diseñando la arquitectura del sistema cuando comenzó la reunión?",
-    "correctSentence": "Wasn't the architect designing the system architecture when the meeting started?",
-    "cards": [
-      {
-        "id": "c7",
-        "text": "architecture",
-        "isDistractor": false,
-        "translation": "arquitectura"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d2",
-        "text": "Were",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c11",
-        "text": "started",
-        "isDistractor": false,
-        "translation": "comenzó"
-      },
-      {
-        "id": "c1",
-        "text": "Wasn't",
-        "isDistractor": false,
-        "translation": "no estaba"
-      },
-      {
-        "id": "c3",
-        "text": "architect",
-        "isDistractor": false,
-        "translation": "arquitecto"
-      },
-      {
-        "id": "c8",
-        "text": "when",
-        "isDistractor": false,
-        "translation": "cuando"
-      },
-      {
-        "id": "c10",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
+        "translation": "script"
       },
       {
         "id": "c5",
-        "text": "the",
+        "text": "night",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "d3",
-        "text": "Isn't",
-        "isDistractor": true,
-        "translation": "no está"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "(artículo)"
-      },
-      {
-        "id": "c6",
-        "text": "system",
-        "isDistractor": false,
-        "translation": "sistema"
-      },
-      {
-        "id": "d1",
-        "text": "Hasn't",
-        "isDistractor": true,
-        "translation": "no ha"
-      },
-      {
-        "id": "c4",
-        "text": "designing",
-        "isDistractor": false,
-        "translation": "diseñando"
-      },
-      {
-        "id": "d4",
-        "text": "Starting",
-        "isDistractor": true,
-        "translation": "comenzando"
+        "translation": "noche"
       }
     ],
     "translations": {
-      "wasn't": "no estaba",
-      "the": "(artículo)",
-      "architect": "arquitecto",
-      "designing": "diseñando",
-      "system": "sistema",
-      "architecture": "arquitectura",
-      "when": "cuando",
-      "meeting": "reunión",
-      "started": "comenzó",
-      "hasn't": "no ha",
-      "were": "(auxiliar)",
-      "isn't": "no está",
-      "starting": "comenzando"
+      "8": "8",
+      "at": "a",
+      "pm": "pm",
+      "last": "anoche",
+      "night": "noche",
+      "we": "nosotros",
+      "weren't": "(pretérito imperfecto negativo)",
+      "testing": "probando",
+      "the": "el",
+      "new": "nuevo",
+      "deployment": "despliegue",
+      "script": "script",
+      "wasn't": "(pretérito imperfecto negativo)",
+      "weren": "(pretérito imperfecto negativo)",
+      "werenot": "(pretérito imperfecto negativo)",
+      "was": "era",
+      "were": "eran"
     },
     "metadata": {
       "tense": "past continuous",
@@ -1306,62 +1125,92 @@
   },
   {
     "hints": [
-      "Sujeto: el equipo",
-      "Verbo: estar (pasado continuo)",
-      "Complemento: configurando los ajustes del servidor",
-      "Tiempo: cuando el sistema se bloqueó"
+      "Sujeto: el desarrollador",
+      "Verbo: depurar",
+      "Complemento: el código",
+      "Cláusula: cuando el servidor se cayó"
     ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: estar (pasado continuo) / Complemento: configurando los ajustes del servidor / Tiempo: cuando el sistema se bloqueó",
-    "spanishSentence": "¿Estaba el equipo configurando los ajustes del servidor cuando el sistema se bloqueó?",
-    "correctSentence": "Was the team configuring the server settings when the system crashed?",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: depurar / Complemento: el código / Cláusula: cuando el servidor se cayó",
+    "spanishSentence": "¿Estaba el desarrollador depurando el código cuando el servidor se cayó?",
+    "correctSentence": "Was the developer debugging the code when the server crashed?",
     "cards": [
       {
-        "id": "c11",
-        "text": "crashed",
+        "id": "c6",
+        "text": "code",
         "isDistractor": false,
-        "translation": "se bloqueó"
+        "translation": "código"
       },
       {
-        "id": "c9",
+        "id": "d2",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "(auxiliar pluscuamperfecto)"
+      },
+      {
+        "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el"
       },
       {
-        "id": "c4",
-        "text": "configuring",
-        "isDistractor": false,
-        "translation": "configurando"
+        "id": "d1",
+        "text": "debugged",
+        "isDistractor": true,
+        "translation": "depuró"
       },
       {
         "id": "c7",
-        "text": "settings",
-        "isDistractor": false,
-        "translation": "ajustes"
-      },
-      {
-        "id": "c6",
-        "text": "server",
-        "isDistractor": false,
-        "translation": "servidor"
-      },
-      {
-        "id": "c8",
         "text": "when",
         "isDistractor": false,
         "translation": "cuando"
       },
       {
+        "id": "d4",
+        "text": "fixing",
+        "isDistractor": true,
+        "translation": "arreglando"
+      },
+      {
         "id": "c3",
-        "text": "team",
+        "text": "developer",
         "isDistractor": false,
-        "translation": "equipo"
+        "translation": "desarrollador"
+      },
+      {
+        "id": "c5",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "crashed",
+        "isDistractor": false,
+        "translation": "se cayó"
+      },
+      {
+        "id": "c9",
+        "text": "server",
+        "isDistractor": false,
+        "translation": "servidor"
+      },
+      {
+        "id": "d5",
+        "text": "network",
+        "isDistractor": true,
+        "translation": "red"
       },
       {
         "id": "c1",
         "text": "Was",
         "isDistractor": false,
-        "translation": "(pretérito)"
+        "translation": "(auxiliar pasado)"
+      },
+      {
+        "id": "d3",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(auxiliar pasado)"
       },
       {
         "id": "qm",
@@ -1370,62 +1219,196 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "d2",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
+        "id": "c4",
+        "text": "debugging",
+        "isDistractor": false,
+        "translation": "depurando"
       },
       {
-        "id": "c5",
+        "id": "c8",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
-      },
+        "translation": "el"
+      }
+    ],
+    "translations": {
+      "was": "(auxiliar pasado)",
+      "the": "el",
+      "developer": "desarrollador",
+      "debugging": "depurando",
+      "code": "código",
+      "when": "cuando",
+      "server": "servidor",
+      "crashed": "se cayó",
+      "debugged": "depuró",
+      "had": "(auxiliar pluscuamperfecto)",
+      "were": "(auxiliar pasado)",
+      "fixing": "arreglando",
+      "network": "red"
+    },
+    "metadata": {
+      "tense": "past continuous",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "intermediate",
+      "topic": "software engineering"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: el equipo",
+      "Verbo: revisar (pasado continuo)",
+      "Complemento: los registros de despliegue",
+      "Cláusula: mientras la arquitecta estaba evaluando el rendimiento del sistema"
+    ],
+    "hintDisplay": "Sujeto: el equipo / Verbo: revisar (pasado continuo) / Complemento: los registros de despliegue / Cláusula: mientras la arquitecta estaba evaluando el rendimiento del sistema",
+    "spanishSentence": "¿Mientras la arquitecta estaba evaluando el rendimiento del sistema, estaba el equipo revisando los registros de despliegue?",
+    "correctSentence": "While the architect was evaluating the system's performance, was the team reviewing the deployment logs?",
+    "cards": [
       {
         "id": "d3",
-        "text": "have",
+        "text": "does",
         "isDistractor": true,
-        "translation": "haber"
+        "translation": "(auxiliar)"
       },
       {
-        "id": "c10",
-        "text": "system",
+        "id": "c9",
+        "text": "was",
         "isDistractor": false,
-        "translation": "sistema"
+        "translation": "estaba"
       },
       {
         "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo)"
+        "translation": "el/la"
       },
       {
-        "id": "d4",
-        "text": "adjusting",
-        "isDistractor": true,
-        "translation": "ajustando"
+        "id": "cm1",
+        "text": ",",
+        "isDistractor": false,
+        "translation": "coma"
+      },
+      {
+        "id": "c5",
+        "text": "evaluating",
+        "isDistractor": false,
+        "translation": "evaluando"
       },
       {
         "id": "d1",
-        "text": "configure",
+        "text": "weren't",
         "isDistractor": true,
-        "translation": "configurar"
+        "translation": "no estaban"
+      },
+      {
+        "id": "c1",
+        "text": "While",
+        "isDistractor": false,
+        "translation": "mientras"
+      },
+      {
+        "id": "d4",
+        "text": "had",
+        "isDistractor": true,
+        "translation": "había"
+      },
+      {
+        "id": "c15",
+        "text": "logs",
+        "isDistractor": false,
+        "translation": "registros"
+      },
+      {
+        "id": "c11",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "c8",
+        "text": "performance",
+        "isDistractor": false,
+        "translation": "rendimiento"
+      },
+      {
+        "id": "c14",
+        "text": "deployment",
+        "isDistractor": false,
+        "translation": "despliegue"
+      },
+      {
+        "id": "c7",
+        "text": "system's",
+        "isDistractor": false,
+        "translation": "del sistema"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      },
+      {
+        "id": "d2",
+        "text": "did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c13",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      },
+      {
+        "id": "c4",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "estaba (pasado continuo)"
+      },
+      {
+        "id": "c12",
+        "text": "reviewing",
+        "isDistractor": false,
+        "translation": "revisando"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      },
+      {
+        "id": "c3",
+        "text": "architect",
+        "isDistractor": false,
+        "translation": "arquitecta"
       }
     ],
     "translations": {
-      "was": "(pretérito)",
-      "the": "(artículo)",
+      "while": "mientras",
+      "the": "el/la",
+      "architect": "arquitecta",
+      "wasn't": "no estaba",
+      "evaluating": "evaluando",
+      "system's": "del sistema",
+      "performance": "rendimiento",
+      "was": "estaba (pasado continuo)",
       "team": "equipo",
-      "configuring": "configurando",
-      "server": "servidor",
-      "settings": "ajustes",
-      "when": "cuando",
-      "system": "sistema",
-      "crashed": "se bloqueó",
-      "configure": "configurar",
-      "they": "ellos",
-      "have": "haber",
-      "adjusting": "ajustando"
+      "reviewing": "revisando",
+      "deployment": "despliegue",
+      "logs": "registros",
+      "weren't": "no estaban",
+      "did": "(auxiliar)",
+      "does": "(auxiliar)",
+      "had": "había"
     },
     "metadata": {
       "tense": "past continuous",
