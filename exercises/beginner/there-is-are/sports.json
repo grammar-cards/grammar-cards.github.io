@@ -760,19 +760,19 @@
   },
   {
     "hints": [
-      "Sujeto: no hay ejercicios",
-      "Verbo: haber (existencia)",
-      "Complemento: para que el entrenador los instruya"
+      "Verbo: haber (existencia, negativo)",
+      "Complemento: ejercicios",
+      "Cláusula: para que el entrenador los enseñe"
     ],
-    "hintDisplay": "Sujeto: no hay ejercicios / Verbo: haber (existencia) / Complemento: para que el entrenador los instruya",
-    "spanishSentence": "No hay ejercicios para que el entrenador los instruya.",
-    "correctSentence": "There are no drills for the coach to instruct.",
+    "hintDisplay": "Verbo: haber (existencia, negativo) / Complemento: ejercicios / Cláusula: para que el entrenador los enseñe",
+    "spanishSentence": "No hay ejercicios para que el entrenador los enseñe.",
+    "correctSentence": "There are no drills for the coach to teach.",
     "cards": [
       {
-        "id": "d1",
-        "text": "instructs",
-        "isDistractor": true,
-        "translation": "instruye"
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "hay"
       },
       {
         "id": "c2",
@@ -781,16 +781,34 @@
         "translation": "(verbo ser/estar)"
       },
       {
-        "id": "c7",
-        "text": "coach",
+        "id": "c3",
+        "text": "no",
         "isDistractor": false,
-        "translation": "entrenador"
+        "translation": "no"
       },
       {
         "id": "c4",
         "text": "drills",
         "isDistractor": false,
         "translation": "ejercicios"
+      },
+      {
+        "id": "c5",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "coach",
+        "isDistractor": false,
+        "translation": "entrenador"
       },
       {
         "id": "c8",
@@ -800,27 +818,15 @@
       },
       {
         "id": "c9",
-        "text": "instruct",
+        "text": "teach",
         "isDistractor": false,
-        "translation": "instruir"
+        "translation": "enseñar"
       },
       {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
+        "id": "d1",
+        "text": "teaches",
+        "isDistractor": true,
+        "translation": "enseña"
       },
       {
         "id": "d2",
@@ -833,12 +839,6 @@
         "text": "is",
         "isDistractor": true,
         "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "c3",
-        "text": "no",
-        "isDistractor": false,
-        "translation": "no"
       },
       {
         "id": "d4",
@@ -856,11 +856,11 @@
       "the": "el",
       "coach": "entrenador",
       "to": "(marca de infinitivo)",
-      "instruct": "instruir",
-      "instructs": "instruye",
       "them": "los",
       "is": "(verbo ser/estar)",
-      "lessons": "lecciones"
+      "lessons": "lecciones",
+      "teach": "enseñar",
+      "teaches": "enseña"
     },
     "metadata": {
       "tense": "there is/are",

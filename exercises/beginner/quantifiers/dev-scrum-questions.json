@@ -448,31 +448,19 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: hablar (pregunta negativa)",
-      "Complemento: un poco del progreso",
+      "Verbo: hacer (pregunta negativa)",
+      "Complemento: un poco de progreso",
       "Complemento: en las reuniones de desarrollo y el scrum"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: hablar (pregunta negativa) / Complemento: un poco del progreso / Complemento: en las reuniones de desarrollo y el scrum",
-    "spanishSentence": "¿No hablamos un poco del progreso en las reuniones de desarrollo y el scrum?",
-    "correctSentence": "Don't we discuss a little progress in the dev meetings and scrum?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: hacer (pregunta negativa) / Complemento: un poco de progreso / Complemento: en las reuniones de desarrollo y el scrum",
+    "spanishSentence": "¿No hacemos un poco de progreso en las reuniones de desarrollo y el scrum?",
+    "correctSentence": "Don't we make a little progress in the dev meetings and scrum?",
     "cards": [
       {
-        "id": "qm",
-        "text": "?",
+        "id": "c1",
+        "text": "Don't",
         "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c7",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c3",
-        "text": "discuss",
-        "isDistractor": false,
-        "translation": "hablamos"
+        "translation": "(auxiliar)"
       },
       {
         "id": "c2",
@@ -481,10 +469,46 @@
         "translation": "nosotros"
       },
       {
+        "id": "c3",
+        "text": "make",
+        "isDistractor": false,
+        "translation": "hacemos"
+      },
+      {
         "id": "c4",
         "text": "a",
         "isDistractor": false,
-        "translation": "un poco de"
+        "translation": "un"
+      },
+      {
+        "id": "c5",
+        "text": "little",
+        "isDistractor": false,
+        "translation": "poco"
+      },
+      {
+        "id": "c6",
+        "text": "progress",
+        "isDistractor": false,
+        "translation": "progreso"
+      },
+      {
+        "id": "c7",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "las"
+      },
+      {
+        "id": "c9",
+        "text": "dev",
+        "isDistractor": false,
+        "translation": "desarrollo"
       },
       {
         "id": "c10",
@@ -505,40 +529,16 @@
         "translation": "scrum"
       },
       {
-        "id": "c5",
-        "text": "little",
-        "isDistractor": false,
-        "translation": "poco"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "las"
-      },
-      {
         "id": "d3",
         "text": "progressing",
         "isDistractor": true,
         "translation": "progresando"
       },
       {
-        "id": "c9",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c6",
-        "text": "progress",
-        "isDistractor": false,
-        "translation": "progreso"
-      },
-      {
         "id": "d2",
-        "text": "discussed",
+        "text": "makes",
         "isDistractor": true,
-        "translation": "discutió"
+        "translation": "hace"
       },
       {
         "id": "d1",
@@ -547,17 +547,16 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "c1",
-        "text": "Don't",
+        "id": "qm",
+        "text": "?",
         "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "signo de interrogación"
       }
     ],
     "translations": {
       "don't": "(auxiliar)",
       "we": "nosotros",
-      "discuss": "hablamos",
-      "a": "un poco de",
+      "a": "un",
       "little": "poco",
       "progress": "progreso",
       "in": "en",
@@ -567,8 +566,9 @@
       "and": "y",
       "scrum": "scrum",
       "does": "(auxiliar)",
-      "discussed": "discutió",
-      "progressing": "progresando"
+      "progressing": "progresando",
+      "make": "hacemos",
+      "makes": "hace"
     },
     "metadata": {
       "tense": "quantifiers",
@@ -581,18 +581,18 @@
   {
     "hints": [
       "Sujeto: el stakeholder",
-      "Verbo: patrocinar",
+      "Verbo: enviar (pregunta, presente simple)",
       "Complemento: demasiados correos sobre las reuniones de desarrollo y scrum"
     ],
-    "hintDisplay": "Sujeto: el stakeholder / Verbo: patrocinar / Complemento: demasiados correos sobre las reuniones de desarrollo y scrum",
-    "spanishSentence": "¿El stakeholder patrocina demasiados correos sobre las reuniones de desarrollo y el scrum?",
-    "correctSentence": "Does the stakeholder sponsor too many emails about the dev meetings and scrum?",
+    "hintDisplay": "Sujeto: el stakeholder / Verbo: enviar (pregunta, presente simple) / Complemento: demasiados correos sobre las reuniones de desarrollo y scrum",
+    "spanishSentence": "¿El stakeholder envía demasiados correos sobre las reuniones de desarrollo y el scrum?",
+    "correctSentence": "Does the stakeholder send too many emails about the dev meetings and scrum?",
     "cards": [
       {
-        "id": "c6",
-        "text": "many",
+        "id": "c1",
+        "text": "Does",
         "isDistractor": false,
-        "translation": "muchos"
+        "translation": "(auxiliar)"
       },
       {
         "id": "c2",
@@ -601,64 +601,16 @@
         "translation": "el"
       },
       {
-        "id": "c13",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c4",
-        "text": "sponsor",
-        "isDistractor": false,
-        "translation": "patrocina"
-      },
-      {
-        "id": "c9",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "d3",
-        "text": "meeting",
-        "isDistractor": true,
-        "translation": "reunión"
-      },
-      {
-        "id": "c8",
-        "text": "about",
-        "isDistractor": false,
-        "translation": "sobre"
-      },
-      {
-        "id": "c1",
-        "text": "Does",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c11",
-        "text": "meetings",
-        "isDistractor": false,
-        "translation": "reuniones"
-      },
-      {
         "id": "c3",
         "text": "stakeholder",
         "isDistractor": false,
         "translation": "parte interesada"
       },
       {
-        "id": "c10",
-        "text": "dev",
+        "id": "c4",
+        "text": "send",
         "isDistractor": false,
-        "translation": "desarrollo"
+        "translation": "enviar"
       },
       {
         "id": "c5",
@@ -667,16 +619,10 @@
         "translation": "demasiados"
       },
       {
-        "id": "c12",
-        "text": "and",
+        "id": "c6",
+        "text": "many",
         "isDistractor": false,
-        "translation": "y"
-      },
-      {
-        "id": "d2",
-        "text": "stakeholders",
-        "isDistractor": true,
-        "translation": "partes interesadas"
+        "translation": "muchos"
       },
       {
         "id": "c7",
@@ -685,17 +631,70 @@
         "translation": "correos"
       },
       {
+        "id": "c8",
+        "text": "about",
+        "isDistractor": false,
+        "translation": "sobre"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c10",
+        "text": "dev",
+        "isDistractor": false,
+        "translation": "desarrollo"
+      },
+      {
+        "id": "c11",
+        "text": "meetings",
+        "isDistractor": false,
+        "translation": "reuniones"
+      },
+      {
+        "id": "c12",
+        "text": "and",
+        "isDistractor": false,
+        "translation": "y"
+      },
+      {
+        "id": "c13",
+        "text": "scrum",
+        "isDistractor": false,
+        "translation": "scrum"
+      },
+      {
+        "id": "d3",
+        "text": "meeting",
+        "isDistractor": true,
+        "translation": "reunión"
+      },
+      {
+        "id": "d2",
+        "text": "stakeholders",
+        "isDistractor": true,
+        "translation": "partes interesadas"
+      },
+      {
         "id": "d1",
         "text": "doesn't",
         "isDistractor": true,
         "translation": "(auxiliar + negación)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
       }
     ],
     "translations": {
       "does": "(auxiliar)",
       "the": "el",
       "stakeholder": "parte interesada",
-      "sponsor": "patrocina",
       "too": "demasiados",
       "many": "muchos",
       "emails": "correos",
@@ -706,7 +705,8 @@
       "scrum": "scrum",
       "doesn't": "(auxiliar + negación)",
       "stakeholders": "partes interesadas",
-      "meeting": "reunión"
+      "meeting": "reunión",
+      "send": "enviar"
     },
     "metadata": {
       "tense": "quantifiers",

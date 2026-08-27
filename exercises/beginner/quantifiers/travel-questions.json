@@ -549,32 +549,20 @@
   },
   {
     "hints": [
-      "Sujeto: el guía",
-      "Verbo: organizar",
+      "Sujeto: tú (el guía)",
+      "Verbo: organizar (futuro)",
       "Complemento: el recorrido",
-      "Complemento: con demasiado tráfico"
+      "Cláusula: si hay demasiado tráfico"
     ],
-    "hintDisplay": "Sujeto: el guía / Verbo: organizar / Complemento: el recorrido / Complemento: con demasiado tráfico",
-    "spanishSentence": "Como guía, ¿cómo organizarás el recorrido con demasiado tráfico?",
-    "correctSentence": "As the guide, how will you organize the tour with too much traffic?",
+    "hintDisplay": "Sujeto: tú (el guía) / Verbo: organizar (futuro) / Complemento: el recorrido / Cláusula: si hay demasiado tráfico",
+    "spanishSentence": "Como guía, ¿cómo organizarás el recorrido si hay demasiado tráfico?",
+    "correctSentence": "As the guide, how will you organize the tour if there is too much traffic?",
     "cards": [
-      {
-        "id": "d4",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
       {
         "id": "c1",
         "text": "As",
         "isDistractor": false,
         "translation": "como"
-      },
-      {
-        "id": "c13",
-        "text": "traffic",
-        "isDistractor": false,
-        "translation": "tráfico"
       },
       {
         "id": "c2",
@@ -583,10 +571,40 @@
         "translation": "el"
       },
       {
-        "id": "c8",
+        "id": "c3",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "guide",
+        "isDistractor": false,
+        "translation": "guía"
+      },
+      {
+        "id": "c5",
+        "text": "how",
+        "isDistractor": false,
+        "translation": "cómo"
+      },
+      {
+        "id": "c6",
+        "text": "will",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c7",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "tú"
+      },
+      {
+        "id": "c8",
+        "text": "organize",
+        "isDistractor": false,
+        "translation": "organizar"
       },
       {
         "id": "c9",
@@ -595,16 +613,64 @@
         "translation": "recorrido"
       },
       {
-        "id": "c4",
-        "text": "how",
+        "id": "c10",
+        "text": "if",
         "isDistractor": false,
-        "translation": "cómo"
+        "translation": "si"
       },
       {
-        "id": "c5",
-        "text": "will",
+        "id": "c11",
+        "text": "there",
         "isDistractor": false,
-        "translation": "(futuro)"
+        "translation": "(existencia)"
+      },
+      {
+        "id": "c12",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "hay"
+      },
+      {
+        "id": "c13",
+        "text": "too",
+        "isDistractor": false,
+        "translation": "demasiado"
+      },
+      {
+        "id": "c14",
+        "text": "much",
+        "isDistractor": false,
+        "translation": "mucho"
+      },
+      {
+        "id": "c15",
+        "text": "traffic",
+        "isDistractor": false,
+        "translation": "tráfico"
+      },
+      {
+        "id": "d1",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "d2",
+        "text": "organizes",
+        "isDistractor": true,
+        "translation": "organiza"
+      },
+      {
+        "id": "d3",
+        "text": "organized",
+        "isDistractor": true,
+        "translation": "organizado"
+      },
+      {
+        "id": "d4",
+        "text": "can",
+        "isDistractor": true,
+        "translation": "poder"
       },
       {
         "id": "cm1",
@@ -613,64 +679,10 @@
         "translation": "coma"
       },
       {
-        "id": "c7",
-        "text": "organize",
-        "isDistractor": false,
-        "translation": "organizar"
-      },
-      {
-        "id": "c6",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "d1",
-        "text": "organizes",
-        "isDistractor": true,
-        "translation": "organiza"
-      },
-      {
-        "id": "d2",
-        "text": "organized",
-        "isDistractor": true,
-        "translation": "organizado"
-      },
-      {
         "id": "qm",
         "text": "?",
         "isDistractor": false,
         "translation": "signo de interrogación"
-      },
-      {
-        "id": "c10",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "c3",
-        "text": "guide",
-        "isDistractor": false,
-        "translation": "guía"
-      },
-      {
-        "id": "d3",
-        "text": "can",
-        "isDistractor": true,
-        "translation": "poder"
-      },
-      {
-        "id": "c12",
-        "text": "much",
-        "isDistractor": false,
-        "translation": "mucho"
-      },
-      {
-        "id": "c11",
-        "text": "too",
-        "isDistractor": false,
-        "translation": "demasiado"
       }
     ],
     "translations": {
@@ -682,14 +694,16 @@
       "you": "tú",
       "organize": "organizar",
       "tour": "recorrido",
-      "with": "con",
       "too": "demasiado",
       "much": "mucho",
       "traffic": "tráfico",
       "organizes": "organiza",
       "organized": "organizado",
       "can": "poder",
-      "they": "ellos"
+      "they": "ellos",
+      "if": "si",
+      "there": "(existencia)",
+      "is": "hay"
     },
     "metadata": {
       "tense": "quantifiers",
