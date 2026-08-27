@@ -196,71 +196,93 @@
   },
   {
     "hints": [
-      "Sujeto: la aplicación",
-      "Verbo: fallar (imperativo afirmativo)",
-      "Complemento: ahora"
+      "Sujeto: el desarrollador",
+      "Verbo: arreglar (imperativo afirmativo)",
+      "Complemento: el fallo",
+      "Cláusula: antes del lanzamiento"
     ],
-    "hintDisplay": "Sujeto: la aplicación / Verbo: fallar (imperativo afirmativo) / Complemento: ahora",
-    "spanishSentence": "App, falla ahora.",
-    "correctSentence": "App, crash now.",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: arreglar (imperativo afirmativo) / Complemento: el fallo / Cláusula: antes del lanzamiento",
+    "spanishSentence": "Desarrollador, arregla el fallo antes del lanzamiento.",
+    "correctSentence": "Developer, fix the crash before the release.",
     "cards": [
       {
-        "id": "c3",
-        "text": "now",
-        "isDistractor": false,
-        "translation": "ahora"
-      },
-      {
         "id": "c1",
-        "text": "App",
+        "text": "Developer",
         "isDistractor": false,
-        "translation": "aplicación"
+        "translation": "desarrollador"
       },
       {
         "id": "c2",
+        "text": "fix",
+        "isDistractor": false,
+        "translation": "arreglar"
+      },
+      {
+        "id": "c3",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
         "text": "crash",
         "isDistractor": false,
-        "translation": "fallar"
+        "translation": "fallo"
+      },
+      {
+        "id": "c5",
+        "text": "before",
+        "isDistractor": false,
+        "translation": "antes de"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c7",
+        "text": "release",
+        "isDistractor": false,
+        "translation": "lanzamiento"
       },
       {
         "id": "d1",
-        "text": "Crashing",
+        "text": "crashes",
         "isDistractor": true,
-        "translation": "fallando"
+        "translation": "falla"
+      },
+      {
+        "id": "d2",
+        "text": "fixing",
+        "isDistractor": true,
+        "translation": "arreglando"
+      },
+      {
+        "id": "d3",
+        "text": "fixed",
+        "isDistractor": true,
+        "translation": "arregló"
       },
       {
         "id": "cm1",
         "text": ",",
         "isDistractor": false,
         "translation": "coma"
-      },
-      {
-        "id": "d4",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "d2",
-        "text": "Crashs",
-        "isDistractor": true,
-        "translation": "falla"
-      },
-      {
-        "id": "d3",
-        "text": "It",
-        "isDistractor": true,
-        "translation": "ello"
       }
     ],
     "translations": {
-      "app": "aplicación",
-      "crash": "fallar",
-      "now": "ahora",
-      "crashing": "fallando",
-      "crashs": "falla",
-      "it": "ello",
-      "will": "(futuro)"
+      "developer": "desarrollador",
+      "fix": "arreglar",
+      "the": "el",
+      "crash": "fallo",
+      "before": "antes de",
+      "release": "lanzamiento",
+      ",": "coma",
+      "crashes": "falla",
+      "fixing": "arreglando",
+      "fixed": "arregló"
     },
     "metadata": {
       "tense": "imperative",
