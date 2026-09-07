@@ -286,12 +286,12 @@
     "hints": [
       "Sujeto: ellos",
       "Verbo: sugerir",
-      "Complemento: que ellos no evacuen",
-      "Cláusula: a pesar de la advertencia de clima severo"
+      "Complemento: que evacuen",
+      "Cláusula: debido a la advertencia de clima severo"
     ],
-    "hintDisplay": "Sujeto: ellos / Verbo: sugerir / Complemento: que ellos no evacuen / Cláusula: a pesar de la advertencia de clima severo",
-    "spanishSentence": "Ellos sugieren que ellos no evacuen a pesar de la advertencia de clima severo.",
-    "correctSentence": "They suggest that they not evacuate despite the severe weather warning.",
+    "hintDisplay": "Sujeto: ellos / Verbo: sugerir / Complemento: que evacuen / Cláusula: debido a la advertencia de clima severo",
+    "spanishSentence": "Ellos sugieren que evacuen debido a la advertencia de clima severo.",
+    "correctSentence": "They suggest that they evacuate because of the severe weather warning.",
     "cards": [
       {
         "id": "c1",
@@ -300,16 +300,16 @@
         "translation": "ellos"
       },
       {
-        "id": "c5",
-        "text": "not",
+        "id": "c2",
+        "text": "suggest",
         "isDistractor": false,
-        "translation": "no"
+        "translation": "sugieren"
       },
       {
-        "id": "c8",
-        "text": "the",
+        "id": "c3",
+        "text": "that",
         "isDistractor": false,
-        "translation": "el"
+        "translation": "que"
       },
       {
         "id": "d2",
@@ -330,40 +330,40 @@
         "translation": "sugirió"
       },
       {
-        "id": "c11",
-        "text": "warning",
-        "isDistractor": false,
-        "translation": "advertencia"
-      },
-      {
-        "id": "c9",
-        "text": "severe",
-        "isDistractor": false,
-        "translation": "severo"
-      },
-      {
         "id": "c4",
         "text": "they",
         "isDistractor": false,
         "translation": "ellos"
       },
       {
-        "id": "c7",
-        "text": "despite",
-        "isDistractor": false,
-        "translation": "a pesar de"
-      },
-      {
-        "id": "c6",
+        "id": "c5",
         "text": "evacuate",
         "isDistractor": false,
         "translation": "evacuen"
       },
       {
-        "id": "c10",
-        "text": "weather",
+        "id": "c6",
+        "text": "because",
         "isDistractor": false,
-        "translation": "clima"
+        "translation": "debido"
+      },
+      {
+        "id": "c7",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "a"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c9",
+        "text": "severe",
+        "isDistractor": false,
+        "translation": "severo"
       },
       {
         "id": "d4",
@@ -378,25 +378,23 @@
         "translation": "(condicional)"
       },
       {
-        "id": "c2",
-        "text": "suggest",
+        "id": "c10",
+        "text": "weather",
         "isDistractor": false,
-        "translation": "sugieren"
+        "translation": "clima"
       },
       {
-        "id": "c3",
-        "text": "that",
+        "id": "c11",
+        "text": "warning",
         "isDistractor": false,
-        "translation": "que"
+        "translation": "advertencia"
       }
     ],
     "translations": {
       "they": "ellos",
       "suggest": "sugieren",
       "that": "que",
-      "not": "no",
       "evacuate": "evacuen",
-      "despite": "a pesar de",
       "the": "el",
       "severe": "severo",
       "weather": "clima",
@@ -405,11 +403,13 @@
       "evacuates": "evacúa",
       "him": "le",
       "warningly": "advertidamente",
-      "would": "(condicional)"
+      "would": "(condicional)",
+      "because": "debido",
+      "of": "a"
     },
     "metadata": {
       "tense": "subjunctive",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "weather"
