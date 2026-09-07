@@ -696,11 +696,11 @@
     "hints": [
       "Sujeto: el vendedor",
       "Verbo: pedir (solicitar algo a alguien)",
-      "Complemento: a ella (la clienta)",
-      "Cláusula: que recomendara la chaqueta más vendida a la clienta"
+      "Complemento: a ella",
+      "Cláusula: que recomendara la chaqueta más vendida al cliente"
     ],
-    "hintDisplay": "Sujeto: el vendedor / Verbo: pedir (solicitar algo a alguien) / Complemento: a ella (la clienta) / Cláusula: que recomendara la chaqueta más vendida a la clienta",
-    "spanishSentence": "El vendedor le pidió que recomendara la chaqueta más vendida a la clienta.",
+    "hintDisplay": "Sujeto: el vendedor / Verbo: pedir (solicitar algo a alguien) / Complemento: a ella / Cláusula: que recomendara la chaqueta más vendida al cliente",
+    "spanishSentence": "El vendedor le pidió a ella que recomendara la chaqueta más vendida al cliente.",
     "correctSentence": "The salesperson asked her to recommend the best-selling jacket to the customer.",
     "cards": [
       {
@@ -743,7 +743,7 @@
         "id": "c12",
         "text": "customer",
         "isDistractor": false,
-        "translation": "clienta"
+        "translation": "cliente"
       },
       {
         "id": "c10",
@@ -821,7 +821,7 @@
       "recommend": "recomendara",
       "best-selling": "más vendida",
       "jacket": "chaqueta",
-      "customer": "clienta",
+      "customer": "cliente",
       "recommends": "recomienda",
       "selling": "vendiendo",
       "salesman": "vendedor",
@@ -1483,41 +1483,41 @@
       "Sujeto: yo",
       "Verbo: quejarse",
       "Tiempo: tiempo pasado (pretérito)",
-      "Cláusula: que ahorraba dinero en el centro comercial"
+      "Cláusula: que gastaba demasiado dinero en el centro comercial"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: quejarse / Tiempo: tiempo pasado (pretérito) / Cláusula: que ahorraba dinero en el centro comercial",
-    "spanishSentence": "Me quejé de que ahorraba dinero en el centro comercial.",
-    "correctSentence": "I complained that I saved money at the shopping mall.",
+    "hintDisplay": "Sujeto: yo / Verbo: quejarse / Tiempo: tiempo pasado (pretérito) / Cláusula: que gastaba demasiado dinero en el centro comercial",
+    "spanishSentence": "Me quejé de que gastaba demasiado dinero en el centro comercial.",
+    "correctSentence": "I complained that I spent too much money at the shopping mall.",
     "cards": [
       {
         "id": "c8",
-        "text": "the",
+        "text": "money",
         "isDistractor": false,
-        "translation": "el"
+        "translation": "dinero"
       },
       {
         "id": "d5",
-        "text": "was",
-        "isDistractor": true,
-        "translation": "(auxiliar pasado)"
-      },
-      {
-        "id": "d1",
         "text": "saves",
         "isDistractor": true,
         "translation": "ahorra"
       },
       {
-        "id": "d6",
-        "text": "complaining",
+        "id": "d1",
+        "text": "save",
         "isDistractor": true,
-        "translation": "quejándome"
+        "translation": "ahorrar"
+      },
+      {
+        "id": "d6",
+        "text": "am",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c6",
-        "text": "money",
+        "text": "too",
         "isDistractor": false,
-        "translation": "dinero"
+        "translation": "demasiado"
       },
       {
         "id": "c3",
@@ -1539,15 +1539,15 @@
       },
       {
         "id": "c10",
-        "text": "mall",
+        "text": "the",
         "isDistractor": false,
-        "translation": "centro comercial"
+        "translation": "el"
       },
       {
         "id": "c5",
-        "text": "saved",
+        "text": "spent",
         "isDistractor": false,
-        "translation": "ahorraba"
+        "translation": "gastaba"
       },
       {
         "id": "c2",
@@ -1557,21 +1557,21 @@
       },
       {
         "id": "c7",
+        "text": "much",
+        "isDistractor": false,
+        "translation": "mucho"
+      },
+      {
+        "id": "c9",
         "text": "at",
         "isDistractor": false,
         "translation": "en"
       },
       {
-        "id": "c9",
-        "text": "shopping",
-        "isDistractor": false,
-        "translation": "centro comercial"
-      },
-      {
         "id": "d2",
-        "text": "save",
+        "text": "was",
         "isDistractor": true,
-        "translation": "ahorrar"
+        "translation": "(auxiliar pasado)"
       },
       {
         "id": "c1",
@@ -1581,9 +1581,21 @@
       },
       {
         "id": "d3",
-        "text": "am",
+        "text": "complaining",
         "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "quejándome"
+      },
+      {
+        "id": "c11",
+        "text": "shopping",
+        "isDistractor": false,
+        "translation": "centro comercial"
+      },
+      {
+        "id": "c12",
+        "text": "mall",
+        "isDistractor": false,
+        "translation": "centro comercial"
       }
     ],
     "translations": {
@@ -1601,7 +1613,10 @@
       "am": "(auxiliar)",
       "saving": "ahorrando",
       "was": "(auxiliar pasado)",
-      "complaining": "quejándome"
+      "complaining": "quejándome",
+      "spent": "gastaba",
+      "too": "demasiado",
+      "much": "mucho"
     },
     "metadata": {
       "tense": "reported speech",
