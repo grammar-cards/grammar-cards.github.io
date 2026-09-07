@@ -1768,13 +1768,13 @@
   {
     "hints": [
       "Sujeto: el sistema",
-      "Verbo: tener (posesión, pasado)",
-      "Complemento: los archivos",
-      "Verbo: cargar (participio)"
+      "Verbo: hacer que alguien realice una acción (pasado)",
+      "Complemento: el técnico",
+      "Complemento: cargar los archivos"
     ],
-    "hintDisplay": "Sujeto: el sistema / Verbo: tener (posesión, pasado) / Complemento: los archivos / Verbo: cargar (participio)",
-    "spanishSentence": "El sistema no tenía los archivos cargados.",
-    "correctSentence": "The system didn’t have the files loaded.",
+    "hintDisplay": "Sujeto: el sistema / Verbo: hacer que alguien realice una acción (pasado) / Complemento: el técnico / Complemento: cargar los archivos",
+    "spanishSentence": "El sistema hizo que el técnico cargara los archivos.",
+    "correctSentence": "The system had the technician load the files.",
     "cards": [
       {
         "id": "d2",
@@ -1783,10 +1783,10 @@
         "translation": "eran"
       },
       {
-        "id": "c4",
-        "text": "have",
+        "id": "c3",
+        "text": "had",
         "isDistractor": false,
-        "translation": "tener"
+        "translation": "hizo que"
       },
       {
         "id": "d1",
@@ -1795,10 +1795,10 @@
         "translation": "ha"
       },
       {
-        "id": "c3",
-        "text": "didn’t",
+        "id": "c5",
+        "text": "technician",
         "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "técnico"
       },
       {
         "id": "c2",
@@ -1814,18 +1814,18 @@
       },
       {
         "id": "c7",
-        "text": "loaded",
+        "text": "the",
         "isDistractor": false,
-        "translation": "cargados"
+        "translation": "el"
       },
       {
-        "id": "c6",
+        "id": "c8",
         "text": "files",
         "isDistractor": false,
         "translation": "archivos"
       },
       {
-        "id": "c5",
+        "id": "c4",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
@@ -1841,15 +1841,21 @@
         "text": "they",
         "isDistractor": true,
         "translation": "ellos"
+      },
+      {
+        "id": "c6",
+        "text": "load",
+        "isDistractor": false,
+        "translation": "cargar"
       }
     ],
     "translations": {
       "the": "el",
       "system": "sistema",
-      "didn’t": "(auxiliar)",
-      "have": "tener",
+      "had": "hizo que",
+      "technician": "técnico",
+      "load": "cargar",
       "files": "archivos",
-      "loaded": "cargados",
       "has": "ha",
       "were": "eran",
       "they": "ellos",
@@ -1857,7 +1863,7 @@
     },
     "metadata": {
       "tense": "causative",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "technology"

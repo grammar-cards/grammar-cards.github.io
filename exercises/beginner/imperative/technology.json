@@ -1901,12 +1901,12 @@
   {
     "hints": [
       "Sujeto: sistema",
-      "Verbo: fallar (imperativo)",
+      "Verbo: fallar (imperativo negativo)",
       "Complemento: ahora"
     ],
-    "hintDisplay": "Sujeto: sistema / Verbo: fallar (imperativo) / Complemento: ahora",
-    "spanishSentence": "Sistema, falla ahora.",
-    "correctSentence": "System, crash now.",
+    "hintDisplay": "Sujeto: sistema / Verbo: fallar (imperativo negativo) / Complemento: ahora",
+    "spanishSentence": "Sistema, no falles ahora.",
+    "correctSentence": "System, don't crash now.",
     "cards": [
       {
         "id": "c1",
@@ -1915,13 +1915,19 @@
         "translation": "sistema"
       },
       {
+        "id": "c2",
+        "text": "don't",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
         "id": "d2",
         "text": "fail",
         "isDistractor": true,
         "translation": "fallar"
       },
       {
-        "id": "c3",
+        "id": "c4",
         "text": "now",
         "isDistractor": false,
         "translation": "ahora"
@@ -1939,7 +1945,7 @@
         "translation": "fallas"
       },
       {
-        "id": "c2",
+        "id": "c3",
         "text": "crash",
         "isDistractor": false,
         "translation": "falla"
@@ -1959,6 +1965,7 @@
     ],
     "translations": {
       "system": "sistema",
+      "don't": "no",
       "crash": "falla",
       "now": "ahora",
       "fails": "falla",
@@ -1968,7 +1975,7 @@
     },
     "metadata": {
       "tense": "imperative",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "technology"
