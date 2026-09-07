@@ -382,12 +382,12 @@
     "hints": [
       "Sujeto: el vecino",
       "Verbo: conducir (presente simple)",
-      "Complemento: muchas horas",
+      "Complemento: durante muchas horas",
       "Tiempo: todos los días"
     ],
-    "hintDisplay": "Sujeto: el vecino / Verbo: conducir (presente simple) / Complemento: muchas horas / Tiempo: todos los días",
-    "spanishSentence": "¿El vecino conduce muchas horas todos los días?",
-    "correctSentence": "Does the neighbor drive many hours every day?",
+    "hintDisplay": "Sujeto: el vecino / Verbo: conducir (presente simple) / Complemento: durante muchas horas / Tiempo: todos los días",
+    "spanishSentence": "¿El vecino conduce durante muchas horas todos los días?",
+    "correctSentence": "Does the neighbor drive for many hours every day?",
     "cards": [
       {
         "id": "d1",
@@ -396,7 +396,7 @@
         "translation": "conduce"
       },
       {
-        "id": "c7",
+        "id": "c8",
         "text": "every",
         "isDistractor": false,
         "translation": "cada"
@@ -427,6 +427,12 @@
       },
       {
         "id": "c5",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "durante"
+      },
+      {
+        "id": "c6",
         "text": "many",
         "isDistractor": false,
         "translation": "muchas"
@@ -444,13 +450,13 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "c6",
+        "id": "c7",
         "text": "hours",
         "isDistractor": false,
         "translation": "horas"
       },
       {
-        "id": "c8",
+        "id": "c9",
         "text": "day",
         "isDistractor": false,
         "translation": "día"
@@ -461,6 +467,7 @@
       "the": "el",
       "neighbor": "vecino",
       "drive": "conducir",
+      "for": "durante",
       "many": "muchas",
       "hours": "horas",
       "every": "cada",
@@ -752,7 +759,7 @@
     ],
     "hintDisplay": "Sujeto: mi papá / Verbo: caminar (presente simple, en pregunta) / Complemento: algunas millas / Tiempo: todas las mañanas",
     "spanishSentence": "¿Mi papá camina algunas millas todas las mañanas?",
-    "correctSentence": "Does my dad walk some miles every morning?",
+    "correctSentence": "Does my dad walk any miles every morning?",
     "cards": [
       {
         "id": "c8",
@@ -816,7 +823,7 @@
       },
       {
         "id": "c5",
-        "text": "some",
+        "text": "any",
         "isDistractor": false,
         "translation": "algunas"
       },
@@ -838,7 +845,7 @@
       "my": "mi",
       "dad": "papá",
       "walk": "caminar",
-      "some": "algunas",
+      "any": "algunas",
       "miles": "millas",
       "every": "todas las",
       "morning": "mañana",
@@ -858,13 +865,13 @@
   {
     "hints": [
       "Sujeto: yo",
-      "Verbo: leer (presente simple, en forma negativa)",
+      "Verbo: leer (presente simple, en forma interrogativa)",
       "Complemento: mucha información",
       "Complemento: en mi rutina diaria"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: leer (presente simple, en forma negativa) / Complemento: mucha información / Complemento: en mi rutina diaria",
-    "spanishSentence": "No leo mucha información en mi rutina diaria.",
-    "correctSentence": "I don't read much information in my daily routine?",
+    "hintDisplay": "Sujeto: yo / Verbo: leer (presente simple, en forma interrogativa) / Complemento: mucha información / Complemento: en mi rutina diaria",
+    "spanishSentence": "¿Leo mucha información en mi rutina diaria?",
+    "correctSentence": "Do I read much information in my daily routine?",
     "cards": [
       {
         "id": "c8",
@@ -874,9 +881,9 @@
       },
       {
         "id": "c1",
-        "text": "I",
+        "text": "Do",
         "isDistractor": false,
-        "translation": "yo"
+        "translation": "(auxiliar)"
       },
       {
         "id": "qm",
@@ -904,9 +911,9 @@
       },
       {
         "id": "d4",
-        "text": "do",
+        "text": "don't",
         "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "no"
       },
       {
         "id": "c7",
@@ -946,9 +953,9 @@
       },
       {
         "id": "c2",
-        "text": "don't",
+        "text": "I",
         "isDistractor": false,
-        "translation": "no"
+        "translation": "yo"
       }
     ],
     "translations": {
@@ -968,7 +975,7 @@
     },
     "metadata": {
       "tense": "quantifiers",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": true,
       "difficulty": "beginner",
       "topic": "daily routine"
