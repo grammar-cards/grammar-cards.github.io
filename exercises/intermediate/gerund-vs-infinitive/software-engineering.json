@@ -1349,11 +1349,11 @@
     "hints": [
       "Sujeto: nosotros",
       "Verbo: practicar",
-      "Complemento: desplegar los microservicios en el entorno de producción",
+      "Complemento: el despliegue de los microservicios en el entorno de producción",
       "Tiempo: cada viernes"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: practicar / Complemento: desplegar los microservicios en el entorno de producción / Tiempo: cada viernes",
-    "spanishSentence": "Practicamos cómo desplegar los microservicios en el entorno de producción cada viernes.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: practicar / Complemento: el despliegue de los microservicios en el entorno de producción / Tiempo: cada viernes",
+    "spanishSentence": "Practicamos el despliegue de los microservicios en el entorno de producción cada viernes.",
     "correctSentence": "We practice deploying the microservices to the production environment every Friday.",
     "cards": [
       {
@@ -1608,12 +1608,12 @@
     "hints": [
       "Sujeto: el ingeniero de DevOps",
       "Verbo: prometer",
-      "Cláusula: no automatizar el pipeline de despliegue",
+      "Cláusula: no romper el pipeline de despliegue",
       "Tiempo: presente simple"
     ],
-    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: prometer / Cláusula: no automatizar el pipeline de despliegue / Tiempo: presente simple",
-    "spanishSentence": "El ingeniero de DevOps promete no automatizar el pipeline de despliegue.",
-    "correctSentence": "The DevOps engineer promises not to automate the deployment pipeline.",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: prometer / Cláusula: no romper el pipeline de despliegue / Tiempo: presente simple",
+    "spanishSentence": "El ingeniero de DevOps promete no romper el pipeline de despliegue.",
+    "correctSentence": "The DevOps engineer promises not to break the deployment pipeline.",
     "cards": [
       {
         "id": "c4",
@@ -1641,9 +1641,9 @@
       },
       {
         "id": "c7",
-        "text": "automate",
+        "text": "break",
         "isDistractor": false,
-        "translation": "automatizar"
+        "translation": "romper"
       },
       {
         "id": "d1",
@@ -1713,7 +1713,7 @@
       "promises": "promete",
       "not": "no",
       "to": "(marca de infinitivo)",
-      "automate": "automatizar",
+      "break": "romper",
       "deployment": "despliegue",
       "pipeline": "pipeline",
       "promised": "prometió",
@@ -1866,16 +1866,16 @@
   {
     "hints": [
       "Sujeto: el desarrollador backend",
-      "Verbo: evitar (negación)",
-      "Complemento: autenticar al usuario",
+      "Verbo: evitar",
+      "Complemento: bloquear al usuario",
       "Cláusula: antes de que se otorgue el acceso"
     ],
-    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: evitar (negación) / Complemento: autenticar al usuario / Cláusula: antes de que se otorgue el acceso",
-    "spanishSentence": "El desarrollador backend no evitó autenticar al usuario antes de otorgar el acceso.",
-    "correctSentence": "The backend developer didn't avoid authenticating the user before granting access.",
+    "hintDisplay": "Sujeto: el desarrollador backend / Verbo: evitar / Complemento: bloquear al usuario / Cláusula: antes de que se otorgue el acceso",
+    "spanishSentence": "El desarrollador backend evitó bloquear al usuario antes de otorgar el acceso.",
+    "correctSentence": "The backend developer avoided blocking the user before granting access.",
     "cards": [
       {
-        "id": "c7",
+        "id": "c6",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
@@ -1887,7 +1887,7 @@
         "translation": "acceder"
       },
       {
-        "id": "c11",
+        "id": "c10",
         "text": "access",
         "isDistractor": false,
         "translation": "acceso"
@@ -1899,15 +1899,15 @@
         "translation": "backend"
       },
       {
-        "id": "d1",
+        "id": "c4",
         "text": "avoided",
-        "isDistractor": true,
+        "isDistractor": false,
         "translation": "evitó"
       },
       {
-        "id": "c4",
+        "id": "d1",
         "text": "didn't",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "(auxiliar negativo)"
       },
       {
@@ -1917,12 +1917,6 @@
         "translation": "el"
       },
       {
-        "id": "c5",
-        "text": "avoid",
-        "isDistractor": false,
-        "translation": "evitar"
-      },
-      {
         "id": "c3",
         "text": "developer",
         "isDistractor": false,
@@ -1930,30 +1924,30 @@
       },
       {
         "id": "d2",
-        "text": "authenticate",
+        "text": "blocked",
         "isDistractor": true,
-        "translation": "autenticar"
+        "translation": "bloqueado"
       },
       {
-        "id": "c8",
+        "id": "c7",
         "text": "user",
         "isDistractor": false,
         "translation": "usuario"
       },
       {
-        "id": "c6",
-        "text": "authenticating",
+        "id": "c5",
+        "text": "blocking",
         "isDistractor": false,
-        "translation": "autenticando"
+        "translation": "bloquear"
       },
       {
-        "id": "c9",
+        "id": "c8",
         "text": "before",
         "isDistractor": false,
         "translation": "antes de"
       },
       {
-        "id": "c10",
+        "id": "c9",
         "text": "granting",
         "isDistractor": false,
         "translation": "otorgar"
@@ -1963,20 +1957,19 @@
       "the": "el",
       "backend": "backend",
       "developer": "desarrollador",
-      "didn't": "(auxiliar negativo)",
-      "avoid": "evitar",
-      "authenticating": "autenticando",
+      "avoided": "evitó",
+      "blocking": "bloquear",
       "user": "usuario",
       "before": "antes de",
       "granting": "otorgar",
       "access": "acceso",
-      "avoided": "evitó",
-      "authenticate": "autenticar",
+      "didn't": "(auxiliar negativo)",
+      "blocked": "bloqueado",
       "accessing": "acceder"
     },
     "metadata": {
       "tense": "gerund vs infinitive",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "software engineering"

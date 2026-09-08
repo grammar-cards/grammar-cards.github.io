@@ -254,10 +254,10 @@
     "hints": [
       "Sujeto: el ingeniero de DevOps",
       "Verbo: automatizar (presente simple, en forma interrogativa)",
-      "Complemento: algunas tareas de implementación"
+      "Complemento: algunas tareas de despliegue"
     ],
-    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: automatizar (presente simple, en forma interrogativa) / Complemento: algunas tareas de implementación",
-    "spanishSentence": "¿El ingeniero de DevOps automatiza algunas tareas de implementación?",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: automatizar (presente simple, en forma interrogativa) / Complemento: algunas tareas de despliegue",
+    "spanishSentence": "¿El ingeniero de DevOps automatiza algunas tareas de despliegue?",
     "correctSentence": "Does the DevOps engineer automate some deployment tasks?",
     "cards": [
       {
@@ -357,12 +357,12 @@
   {
     "hints": [
       "Sujeto: ellos",
-      "Verbo: desplegar",
-      "Complemento: con demasiado tráfico"
+      "Verbo: generar",
+      "Complemento: demasiado tráfico"
     ],
-    "hintDisplay": "Sujeto: ellos / Verbo: desplegar / Complemento: con demasiado tráfico",
-    "spanishSentence": "¿Despliegan con demasiado tráfico?",
-    "correctSentence": "Do they deploy with too much traffic?",
+    "hintDisplay": "Sujeto: ellos / Verbo: generar / Complemento: demasiado tráfico",
+    "spanishSentence": "¿Generan demasiado tráfico?",
+    "correctSentence": "Do they generate too much traffic?",
     "cards": [
       {
         "id": "c2",
@@ -371,13 +371,13 @@
         "translation": "ellos"
       },
       {
-        "id": "c4",
+        "id": "d4",
         "text": "with",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "con"
       },
       {
-        "id": "c6",
+        "id": "c5",
         "text": "much",
         "isDistractor": false,
         "translation": "mucho"
@@ -402,12 +402,12 @@
       },
       {
         "id": "c3",
-        "text": "deploy",
+        "text": "generate",
         "isDistractor": false,
-        "translation": "despliegan"
+        "translation": "generan"
       },
       {
-        "id": "c7",
+        "id": "c6",
         "text": "traffic",
         "isDistractor": false,
         "translation": "tráfico"
@@ -419,7 +419,7 @@
         "translation": "ellos"
       },
       {
-        "id": "c5",
+        "id": "c4",
         "text": "too",
         "isDistractor": false,
         "translation": "demasiado"
@@ -434,7 +434,7 @@
     "translations": {
       "do": "(auxiliar)",
       "they": "ellos",
-      "deploy": "despliegan",
+      "generate": "generan",
       "with": "con",
       "too": "demasiado",
       "much": "mucho",
@@ -558,16 +558,16 @@
   {
     "hints": [
       "Sujeto: el desarrollador frontend",
-      "Verbo: mostrar (negación en presente)",
+      "Verbo: mostrar (negación en presente, interrogativa)",
       "Complemento: muchas notificaciones",
       "Complemento: en el panel"
     ],
-    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: mostrar (negación en presente) / Complemento: muchas notificaciones / Complemento: en el panel",
-    "spanishSentence": "El desarrollador frontend no muestra muchas notificaciones en el panel.",
-    "correctSentence": "The frontend developer doesn't display a lot of notifications on the dashboard?",
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: mostrar (negación en presente, interrogativa) / Complemento: muchas notificaciones / Complemento: en el panel",
+    "spanishSentence": "¿El desarrollador frontend no muestra muchas notificaciones en el panel?",
+    "correctSentence": "Doesn't the frontend developer display many notifications on the dashboard?",
     "cards": [
       {
-        "id": "c3",
+        "id": "c4",
         "text": "developer",
         "isDistractor": false,
         "translation": "desarrollador"
@@ -579,19 +579,19 @@
         "translation": "muestra"
       },
       {
-        "id": "c1",
-        "text": "The",
+        "id": "c2",
+        "text": "the",
         "isDistractor": false,
         "translation": "el"
       },
       {
-        "id": "c8",
+        "id": "d5",
         "text": "of",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "de"
       },
       {
-        "id": "c10",
+        "id": "c8",
         "text": "on",
         "isDistractor": false,
         "translation": "en"
@@ -603,21 +603,21 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "c4",
-        "text": "doesn't",
+        "id": "c1",
+        "text": "Doesn't",
         "isDistractor": false,
         "translation": "no"
       },
       {
-        "id": "c12",
+        "id": "c10",
         "text": "dashboard",
         "isDistractor": false,
         "translation": "panel"
       },
       {
-        "id": "c7",
+        "id": "d4",
         "text": "lot",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "montón"
       },
       {
@@ -627,15 +627,15 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "c2",
+        "id": "c3",
         "text": "frontend",
         "isDistractor": false,
         "translation": "frontend"
       },
       {
-        "id": "c6",
+        "id": "d3",
         "text": "a",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "un"
       },
       {
@@ -645,32 +645,39 @@
         "translation": "mostrado"
       },
       {
-        "id": "c9",
+        "id": "c7",
         "text": "notifications",
         "isDistractor": false,
         "translation": "notificaciones"
       },
       {
-        "id": "c11",
+        "id": "c9",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
+      },
+      {
+        "id": "c6",
+        "text": "many",
+        "isDistractor": false,
+        "translation": "muchas"
       }
     ],
     "translations": {
+      "doesn't": "no",
       "the": "el",
       "frontend": "frontend",
       "developer": "desarrollador",
-      "doesn't": "no",
       "display": "muestra",
-      "a": "un",
-      "lot": "montón",
-      "of": "de",
+      "many": "muchas",
       "notifications": "notificaciones",
       "on": "en",
       "dashboard": "panel",
       "displayed": "mostrado",
-      "does": "(auxiliar)"
+      "does": "(auxiliar)",
+      "a": "un",
+      "lot": "montón",
+      "of": "de"
     },
     "metadata": {
       "tense": "quantifiers",
@@ -928,10 +935,10 @@
     "hints": [
       "Sujeto: el equipo",
       "Verbo: probar (pretérito perfecto compuesto)",
-      "Complemento: algunas funciones nuevas del software"
+      "Complemento: unas pocas funciones nuevas del software"
     ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: probar (pretérito perfecto compuesto) / Complemento: algunas funciones nuevas del software",
-    "spanishSentence": "¿El equipo ha probado algunas funciones nuevas del software?",
+    "hintDisplay": "Sujeto: el equipo / Verbo: probar (pretérito perfecto compuesto) / Complemento: unas pocas funciones nuevas del software",
+    "spanishSentence": "¿El equipo ha probado unas pocas funciones nuevas del software?",
     "correctSentence": "Has the team tested a few new software features?",
     "cards": [
       {
@@ -980,7 +987,7 @@
         "id": "c6",
         "text": "few",
         "isDistractor": false,
-        "translation": "algunas"
+        "translation": "pocas"
       },
       {
         "id": "c5",
@@ -1025,7 +1032,7 @@
       "team": "equipo",
       "tested": "probado",
       "a": "una",
-      "few": "algunas",
+      "few": "pocas",
       "new": "nuevas",
       "software": "software",
       "features": "funciones",
@@ -1046,12 +1053,12 @@
     "hints": [
       "Sujeto: nosotros",
       "Verbo: probar (presente simple en forma interrogativa)",
-      "Complemento: mucho software",
-      "Cláusula: antes de la implementación"
+      "Complemento: ningún software",
+      "Cláusula: antes del despliegue"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: probar (presente simple en forma interrogativa) / Complemento: mucho software / Cláusula: antes de la implementación",
-    "spanishSentence": "¿No probamos mucho software antes de la implementación?",
-    "correctSentence": "Don't we test much software before deployment?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: probar (presente simple en forma interrogativa) / Complemento: ningún software / Cláusula: antes del despliegue",
+    "spanishSentence": "¿No probamos ningún software antes del despliegue?",
+    "correctSentence": "Don't we test any software before deployment?",
     "cards": [
       {
         "id": "d1",
@@ -1091,9 +1098,9 @@
       },
       {
         "id": "c4",
-        "text": "much",
+        "text": "any",
         "isDistractor": false,
-        "translation": "mucho"
+        "translation": "ningún"
       },
       {
         "id": "d2",
@@ -1124,10 +1131,10 @@
       "don't": "(auxiliar)",
       "we": "nosotros",
       "test": "probar",
-      "much": "mucho",
+      "any": "ningún",
       "software": "software",
       "before": "antes de",
-      "deployment": "implementación",
+      "deployment": "despliegue",
       "does": "(auxiliar)",
       "he": "él",
       "tested": "probado"

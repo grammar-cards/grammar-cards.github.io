@@ -134,13 +134,13 @@
   },
   {
     "hints": [
-      "Sujeto: alguien",
-      "Verbo: hacer que otra persona realice una acción",
+      "Sujeto: nosotros",
+      "Verbo: hacer que se monitoree algo (pasado)",
       "Complemento: el sistema",
       "Verbo: monitorear"
     ],
-    "hintDisplay": "Sujeto: alguien / Verbo: hacer que otra persona realice una acción / Complemento: el sistema / Verbo: monitorear",
-    "spanishSentence": "Hicimos que alguien monitoreara el sistema.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: hacer que se monitoree algo (pasado) / Complemento: el sistema / Verbo: monitorear",
+    "spanishSentence": "Hicimos que se monitoreara el sistema.",
     "correctSentence": "We had the system monitored.",
     "cards": [
       {
@@ -729,18 +729,19 @@
     "hints": [
       "Sujeto: el desarrollador",
       "Verbo: hacer que alguien realice una acción en el pasado",
-      "Complemento: el código",
-      "Cláusula: que un ingeniero de software refactorizara el código"
+      "Complemento: un ingeniero de software",
+      "Verbo: refactorizar",
+      "Complemento: el código"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: hacer que alguien realice una acción en el pasado / Complemento: el código / Cláusula: que un ingeniero de software refactorizara el código",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: hacer que alguien realice una acción en el pasado / Complemento: un ingeniero de software / Verbo: refactorizar / Complemento: el código",
     "spanishSentence": "El desarrollador hizo que un ingeniero de software refactorizara el código.",
-    "correctSentence": "The developer had the code refactored by a software engineer.",
+    "correctSentence": "The developer had a software engineer refactor the code.",
     "cards": [
       {
-        "id": "c7",
-        "text": "by",
+        "id": "c1",
+        "text": "The",
         "isDistractor": false,
-        "translation": "por"
+        "translation": "el"
       },
       {
         "id": "c2",
@@ -749,40 +750,46 @@
         "translation": "desarrollador"
       },
       {
-        "id": "d4",
-        "text": "made",
-        "isDistractor": true,
-        "translation": "hecho"
-      },
-      {
-        "id": "c6",
-        "text": "refactored",
+        "id": "c3",
+        "text": "had",
         "isDistractor": false,
-        "translation": "refactorizara"
+        "translation": "hizo que"
       },
       {
-        "id": "c9",
-        "text": "software",
-        "isDistractor": false,
-        "translation": "software"
-      },
-      {
-        "id": "c8",
+        "id": "c4",
         "text": "a",
         "isDistractor": false,
         "translation": "un"
       },
       {
-        "id": "c1",
-        "text": "The",
+        "id": "c5",
+        "text": "software",
+        "isDistractor": false,
+        "translation": "software"
+      },
+      {
+        "id": "c6",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
+        "id": "c7",
+        "text": "refactor",
+        "isDistractor": false,
+        "translation": "refactorizara"
+      },
+      {
+        "id": "c8",
+        "text": "the",
         "isDistractor": false,
         "translation": "el"
       },
       {
-        "id": "d5",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "él"
+        "id": "c9",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
       },
       {
         "id": "d1",
@@ -791,10 +798,10 @@
         "translation": "ha"
       },
       {
-        "id": "c5",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
+        "id": "d2",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "han"
       },
       {
         "id": "d3",
@@ -803,52 +810,46 @@
         "translation": "dejar"
       },
       {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "d2",
-        "text": "have",
+        "id": "d4",
+        "text": "made",
         "isDistractor": true,
-        "translation": "han"
+        "translation": "hecho"
       },
       {
-        "id": "c10",
-        "text": "engineer",
-        "isDistractor": false,
-        "translation": "ingeniero"
+        "id": "d5",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "él"
       },
       {
         "id": "d6",
-        "text": "refactor",
+        "text": "refactored",
         "isDistractor": true,
-        "translation": "refactorizar"
+        "translation": "refactorizado"
       },
       {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false,
-        "translation": "hizo que"
+        "id": "d7",
+        "text": "by",
+        "isDistractor": true,
+        "translation": "por"
       }
     ],
     "translations": {
       "the": "el",
       "developer": "desarrollador",
       "had": "hizo que",
-      "code": "código",
-      "refactored": "refactorizara",
-      "by": "por",
       "a": "un",
       "software": "software",
       "engineer": "ingeniero",
+      "refactor": "refactorizara",
+      "code": "código",
+      "refactored": "refactorizado",
+      "by": "por",
       "has": "ha",
       "have": "han",
       "let": "dejar",
       "made": "hecho",
-      "him": "él",
-      "refactor": "refactorizar"
+      "him": "él"
     },
     "metadata": {
       "tense": "causative",
@@ -994,91 +995,19 @@
     "hints": [
       "Sujeto: el equipo",
       "Verbo: hacer que alguien realice una acción",
-      "Complemento: el software",
       "Complemento: un consultor externo",
-      "Verbo: configurar (acción encargada)"
+      "Verbo: configurar",
+      "Complemento: el software"
     ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: hacer que alguien realice una acción / Complemento: el software / Complemento: un consultor externo / Verbo: configurar (acción encargada)",
+    "hintDisplay": "Sujeto: el equipo / Verbo: hacer que alguien realice una acción / Complemento: un consultor externo / Verbo: configurar / Complemento: el software",
     "spanishSentence": "El equipo hizo que un consultor externo configurara el software.",
-    "correctSentence": "The team had the software configured by an external consultant.",
+    "correctSentence": "The team had an external consultant configure the software.",
     "cards": [
-      {
-        "id": "c4",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el/la"
-      },
-      {
-        "id": "c6",
-        "text": "configured",
-        "isDistractor": false,
-        "translation": "configurara"
-      },
-      {
-        "id": "d3",
-        "text": "make",
-        "isDistractor": true,
-        "translation": "hacer que"
-      },
-      {
-        "id": "c5",
-        "text": "software",
-        "isDistractor": false,
-        "translation": "software"
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false,
-        "translation": "hizo que"
-      },
-      {
-        "id": "c9",
-        "text": "external",
-        "isDistractor": false,
-        "translation": "externo"
-      },
-      {
-        "id": "c10",
-        "text": "consultant",
-        "isDistractor": false,
-        "translation": "consultor"
-      },
       {
         "id": "c1",
         "text": "The",
         "isDistractor": false,
         "translation": "el/la"
-      },
-      {
-        "id": "c8",
-        "text": "an",
-        "isDistractor": false,
-        "translation": "un"
-      },
-      {
-        "id": "d5",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "lo"
-      },
-      {
-        "id": "c7",
-        "text": "by",
-        "isDistractor": false,
-        "translation": "por"
-      },
-      {
-        "id": "d2",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "hace que"
-      },
-      {
-        "id": "d1",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "hacer que"
       },
       {
         "id": "c2",
@@ -1087,22 +1016,101 @@
         "translation": "equipo"
       },
       {
+        "id": "c3",
+        "text": "had",
+        "isDistractor": false,
+        "translation": "hizo que"
+      },
+      {
+        "id": "c4",
+        "text": "an",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c5",
+        "text": "external",
+        "isDistractor": false,
+        "translation": "externo"
+      },
+      {
+        "id": "c6",
+        "text": "consultant",
+        "isDistractor": false,
+        "translation": "consultor"
+      },
+      {
+        "id": "c7",
+        "text": "configure",
+        "isDistractor": false,
+        "translation": "configurara"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el/la"
+      },
+      {
+        "id": "c9",
+        "text": "software",
+        "isDistractor": false,
+        "translation": "software"
+      },
+      {
+        "id": "d1",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "hacer que"
+      },
+      {
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "hace que"
+      },
+      {
+        "id": "d3",
+        "text": "make",
+        "isDistractor": true,
+        "translation": "hacer que"
+      },
+      {
         "id": "d4",
         "text": "made",
         "isDistractor": true,
         "translation": "hizo que"
+      },
+      {
+        "id": "d5",
+        "text": "him",
+        "isDistractor": true,
+        "translation": "lo"
+      },
+      {
+        "id": "d6",
+        "text": "configured",
+        "isDistractor": true,
+        "translation": "configurado"
+      },
+      {
+        "id": "d7",
+        "text": "by",
+        "isDistractor": true,
+        "translation": "por"
       }
     ],
     "translations": {
       "the": "el/la",
       "team": "equipo",
       "had": "hizo que",
-      "software": "software",
-      "configured": "configurara",
-      "by": "por",
       "an": "un",
       "external": "externo",
       "consultant": "consultor",
+      "configure": "configurara",
+      "software": "software",
+      "configured": "configurado",
+      "by": "por",
       "have": "hacer que",
       "has": "hace que",
       "make": "hacer que",
@@ -1120,11 +1128,11 @@
   {
     "hints": [
       "Sujeto: nosotros",
-      "Verbo: lograr (en pasado, seguido de una acción)",
-      "Complemento: construir la nueva funcionalidad"
+      "Verbo: lograr que se realice una acción (en pasado)",
+      "Complemento: que construyeran la nueva funcionalidad"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: lograr (en pasado, seguido de una acción) / Complemento: construir la nueva funcionalidad",
-    "spanishSentence": "No logramos construir la nueva funcionalidad.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: lograr que se realice una acción (en pasado) / Complemento: que construyeran la nueva funcionalidad",
+    "spanishSentence": "No logramos que construyeran la nueva funcionalidad.",
     "correctSentence": "We didn't get the new feature built.",
     "cards": [
       {
@@ -2189,48 +2197,31 @@
     "hints": [
       "Sujeto: el ingeniero de DevOps",
       "Verbo: hacer que alguien realice una acción (causativo, pasado)",
-      "Complemento: el pipeline de despliegue",
-      "Cláusula: que un especialista lo configurara"
+      "Complemento: un especialista",
+      "Verbo: configurar",
+      "Complemento: el pipeline de despliegue"
     ],
-    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: hacer que alguien realice una acción (causativo, pasado) / Complemento: el pipeline de despliegue / Cláusula: que un especialista lo configurara",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: hacer que alguien realice una acción (causativo, pasado) / Complemento: un especialista / Verbo: configurar / Complemento: el pipeline de despliegue",
     "spanishSentence": "El ingeniero de DevOps hizo que un especialista configurara el pipeline de despliegue.",
-    "correctSentence": "The DevOps engineer had the deployment pipeline configured by a specialist.",
+    "correctSentence": "The DevOps engineer had a specialist configure the deployment pipeline.",
     "cards": [
       {
-        "id": "c9",
-        "text": "by",
+        "id": "c1",
+        "text": "The",
         "isDistractor": false,
-        "translation": "por"
+        "translation": "el"
       },
       {
-        "id": "c10",
-        "text": "a",
+        "id": "c2",
+        "text": "DevOps",
         "isDistractor": false,
-        "translation": "un"
-      },
-      {
-        "id": "d6",
-        "text": "configuration",
-        "isDistractor": true,
-        "translation": "configuración"
+        "translation": "DevOps"
       },
       {
         "id": "c3",
         "text": "engineer",
         "isDistractor": false,
         "translation": "ingeniero"
-      },
-      {
-        "id": "d5",
-        "text": "developer",
-        "isDistractor": true,
-        "translation": "desarrollador"
-      },
-      {
-        "id": "d3",
-        "text": "make",
-        "isDistractor": true,
-        "translation": "hacer que"
       },
       {
         "id": "c4",
@@ -2240,15 +2231,45 @@
       },
       {
         "id": "c5",
+        "text": "a",
+        "isDistractor": false,
+        "translation": "un"
+      },
+      {
+        "id": "c6",
+        "text": "specialist",
+        "isDistractor": false,
+        "translation": "especialista"
+      },
+      {
+        "id": "c7",
+        "text": "configure",
+        "isDistractor": false,
+        "translation": "configurara"
+      },
+      {
+        "id": "c8",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
       },
       {
-        "id": "c6",
+        "id": "c9",
         "text": "deployment",
         "isDistractor": false,
         "translation": "despliegue"
+      },
+      {
+        "id": "c10",
+        "text": "pipeline",
+        "isDistractor": false,
+        "translation": "pipeline"
+      },
+      {
+        "id": "d1",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "ha"
       },
       {
         "id": "d2",
@@ -2257,46 +2278,34 @@
         "translation": "han"
       },
       {
+        "id": "d3",
+        "text": "make",
+        "isDistractor": true,
+        "translation": "hacer que"
+      },
+      {
         "id": "d4",
-        "text": "them",
+        "text": "developer",
         "isDistractor": true,
-        "translation": "ellos"
+        "translation": "desarrollador"
       },
       {
-        "id": "c11",
-        "text": "specialist",
-        "isDistractor": false,
-        "translation": "especialista"
+        "id": "d5",
+        "text": "configuration",
+        "isDistractor": true,
+        "translation": "configuración"
       },
       {
-        "id": "c7",
-        "text": "pipeline",
-        "isDistractor": false,
-        "translation": "pipeline"
-      },
-      {
-        "id": "c8",
+        "id": "d6",
         "text": "configured",
-        "isDistractor": false,
-        "translation": "configurara"
-      },
-      {
-        "id": "c2",
-        "text": "DevOps",
-        "isDistractor": false,
-        "translation": "DevOps"
-      },
-      {
-        "id": "c1",
-        "text": "The",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "d1",
-        "text": "has",
         "isDistractor": true,
-        "translation": "ha"
+        "translation": "configurado"
+      },
+      {
+        "id": "d7",
+        "text": "by",
+        "isDistractor": true,
+        "translation": "por"
       }
     ],
     "translations": {
@@ -2304,16 +2313,16 @@
       "devops": "DevOps",
       "engineer": "ingeniero",
       "had": "hizo que",
-      "deployment": "despliegue",
-      "pipeline": "pipeline",
-      "configured": "configurara",
-      "by": "por",
       "a": "un",
       "specialist": "especialista",
+      "configure": "configurara",
+      "deployment": "despliegue",
+      "pipeline": "pipeline",
+      "configured": "configurado",
+      "by": "por",
       "has": "ha",
       "have": "han",
       "make": "hacer que",
-      "them": "ellos",
       "developer": "desarrollador",
       "configuration": "configuración"
     },
@@ -2461,19 +2470,19 @@
     "hints": [
       "Sujeto: el desarrollador",
       "Verbo: hacer que alguien realice una acción",
-      "Complemento: el código",
       "Complemento: un especialista en rendimiento",
-      "Verbo: optimizar"
+      "Verbo: optimizar",
+      "Complemento: el código"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: hacer que alguien realice una acción / Complemento: el código / Complemento: un especialista en rendimiento / Verbo: optimizar",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: hacer que alguien realice una acción / Complemento: un especialista en rendimiento / Verbo: optimizar / Complemento: el código",
     "spanishSentence": "El desarrollador hizo que un especialista en rendimiento optimizara el código.",
-    "correctSentence": "The developer had the code optimized by a performance specialist.",
+    "correctSentence": "The developer had a performance specialist optimize the code.",
     "cards": [
       {
-        "id": "d4",
-        "text": "himself",
-        "isDistractor": true,
-        "translation": "él mismo"
+        "id": "c1",
+        "text": "The",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "c2",
@@ -2482,52 +2491,46 @@
         "translation": "desarrollador"
       },
       {
-        "id": "d2",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "tiene"
-      },
-      {
-        "id": "c1",
-        "text": "The",
+        "id": "c3",
+        "text": "had",
         "isDistractor": false,
-        "translation": "el"
+        "translation": "hizo que"
       },
       {
-        "id": "c6",
-        "text": "optimized",
+        "id": "c4",
+        "text": "a",
         "isDistractor": false,
-        "translation": "optimizara"
-      },
-      {
-        "id": "d3",
-        "text": "got",
-        "isDistractor": true,
-        "translation": "consiguió que"
+        "translation": "un"
       },
       {
         "id": "c5",
-        "text": "code",
+        "text": "performance",
         "isDistractor": false,
-        "translation": "código"
+        "translation": "rendimiento"
       },
       {
-        "id": "c10",
+        "id": "c6",
         "text": "specialist",
         "isDistractor": false,
         "translation": "especialista"
       },
       {
-        "id": "c4",
+        "id": "c7",
+        "text": "optimize",
+        "isDistractor": false,
+        "translation": "optimizara"
+      },
+      {
+        "id": "c8",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
       },
       {
         "id": "c9",
-        "text": "performance",
+        "text": "code",
         "isDistractor": false,
-        "translation": "rendimiento"
+        "translation": "código"
       },
       {
         "id": "d1",
@@ -2536,34 +2539,47 @@
         "translation": "tener"
       },
       {
-        "id": "c8",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "un"
+        "id": "d2",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "tiene"
       },
       {
-        "id": "c7",
+        "id": "d3",
+        "text": "got",
+        "isDistractor": true,
+        "translation": "consiguió que"
+      },
+      {
+        "id": "d4",
+        "text": "himself",
+        "isDistractor": true,
+        "translation": "él mismo"
+      },
+      {
+        "id": "d5",
+        "text": "optimized",
+        "isDistractor": true,
+        "translation": "optimizado"
+      },
+      {
+        "id": "d6",
         "text": "by",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "por"
-      },
-      {
-        "id": "c3",
-        "text": "had",
-        "isDistractor": false,
-        "translation": "hizo que"
       }
     ],
     "translations": {
       "the": "el",
       "developer": "desarrollador",
       "had": "hizo que",
-      "code": "código",
-      "optimized": "optimizara",
-      "by": "por",
       "a": "un",
       "performance": "rendimiento",
       "specialist": "especialista",
+      "optimize": "optimizara",
+      "code": "código",
+      "optimized": "optimizado",
+      "by": "por",
       "have": "tener",
       "has": "tiene",
       "got": "consiguió que",

@@ -135,11 +135,11 @@
     "hints": [
       "Sujeto: nosotros",
       "Verbo: entrar (movimiento, con el sentido de 'venir a')",
-      "Complemento: implementar la nueva función",
+      "Complemento: desplegar la nueva función",
       "Cláusula: después de que la revisión del código pase"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: entrar (movimiento, con el sentido de 'venir a') / Complemento: implementar la nueva función / Cláusula: después de que la revisión del código pase",
-    "spanishSentence": "Entramos para implementar la nueva función después de que pase la revisión del código.",
+    "hintDisplay": "Sujeto: nosotros / Verbo: entrar (movimiento, con el sentido de 'venir a') / Complemento: desplegar la nueva función / Cláusula: después de que la revisión del código pase",
+    "spanishSentence": "Entramos para desplegar la nueva función después de que pase la revisión del código.",
     "correctSentence": "We come in to deploy the new feature after the code review passes.",
     "cards": [
       {
@@ -280,13 +280,13 @@
   },
   {
     "hints": [
-      "Sujeto: el arquitecto",
+      "Sujeto: yo (como arquitecto)",
       "Verbo: contar (como 'contar con alguien' para apoyarse en él)",
       "Complemento: el equipo",
-      "Cláusula: antes de que implementemos (subordinada temporal)"
+      "Cláusula: antes de que despleguemos (subordinada temporal)"
     ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: contar (como 'contar con alguien' para apoyarse en él) / Complemento: el equipo / Cláusula: antes de que implementemos (subordinada temporal)",
-    "spanishSentence": "Como arquitecto, cuento con el equipo para evaluar el rendimiento del sistema antes de implementar.",
+    "hintDisplay": "Sujeto: yo (como arquitecto) / Verbo: contar (como 'contar con alguien' para apoyarse en él) / Complemento: el equipo / Cláusula: antes de que despleguemos (subordinada temporal)",
+    "spanishSentence": "Como arquitecto, cuento con el equipo para evaluar el rendimiento del sistema antes de desplegar.",
     "correctSentence": "As the architect, I count on the team to evaluate the system's performance before we deploy.",
     "cards": [
       {
@@ -789,13 +789,13 @@
   },
   {
     "hints": [
-      "Sujeto: la desarrolladora de backend",
+      "Sujeto: el desarrollador de backend",
       "Verbo: retroceder y mirar (pasado)",
       "Complemento: el diagrama completo de la arquitectura",
       "Tiempo: no hay marcador temporal"
     ],
-    "hintDisplay": "Sujeto: la desarrolladora de backend / Verbo: retroceder y mirar (pasado) / Complemento: el diagrama completo de la arquitectura / Tiempo: no hay marcador temporal",
-    "spanishSentence": "La desarrolladora de backend retrocedió y miró el diagrama completo de la arquitectura.",
+    "hintDisplay": "Sujeto: el desarrollador de backend / Verbo: retroceder y mirar (pasado) / Complemento: el diagrama completo de la arquitectura / Tiempo: no hay marcador temporal",
+    "spanishSentence": "El desarrollador de backend retrocedió y miró el diagrama completo de la arquitectura.",
     "correctSentence": "The backend developer stepped back and looked at the whole architecture diagram.",
     "cards": [
       {
@@ -814,7 +814,7 @@
         "id": "c3",
         "text": "developer",
         "isDistractor": false,
-        "translation": "desarrolladora"
+        "translation": "desarrollador"
       },
       {
         "id": "c4",
@@ -904,7 +904,7 @@
     "translations": {
       "the": "el/la",
       "backend": "backend",
-      "developer": "desarrolladora",
+      "developer": "desarrollador",
       "stepped": "retrocedió",
       "back": "atrás",
       "and": "y",
@@ -935,7 +935,7 @@
       "Cláusula: durante la revisión de código"
     ],
     "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: señalar (en pasado simple) / Complemento: el error en el componente de visualización / Cláusula: durante la revisión de código",
-    "spanishSentence": "El frontend developer señaló el error en el componente de visualización durante la revisión de código.",
+    "spanishSentence": "El desarrollador frontend señaló el error en el componente de visualización durante la revisión de código.",
     "correctSentence": "The frontend developer pointed out the bug in the display component during the code review.",
     "cards": [
       {
@@ -1228,11 +1228,12 @@
   {
     "hints": [
       "Sujeto: el arquitecto",
-      "Verbo: parecerse (tomar como modelo)",
+      "Verbo: contar con alguien (apoyarse en él)",
+      "Complemento: el desarrollador principal",
       "Tiempo: antes de diseñar el sistema",
-      "Cláusula: antes de que el arquitecto esbozara las dependencias de los módulos, tomó como modelo al desarrollador principal"
+      "Cláusula: para esbozar las dependencias de los módulos"
     ],
-    "hintDisplay": "Sujeto: el arquitecto / Verbo: parecerse (tomar como modelo) / Tiempo: antes de diseñar el sistema / Cláusula: antes de que el arquitecto esbozara las dependencias de los módulos, tomó como modelo al desarrollador principal",
+    "hintDisplay": "Sujeto: el arquitecto / Verbo: contar con alguien (apoyarse en él) / Complemento: el desarrollador principal / Tiempo: antes de diseñar el sistema / Cláusula: para esbozar las dependencias de los módulos",
     "spanishSentence": "Antes de diseñar el sistema, el arquitecto contó con el desarrollador principal para esbozar las dependencias de los módulos.",
     "correctSentence": "Before designing the system, the architect counted on the lead developer to sketch out the module dependencies.",
     "cards": [
@@ -1528,12 +1529,12 @@
     "hints": [
       "Sujeto: el ingeniero de DevOps",
       "Verbo: pedir",
-      "Cláusula: mientras el sistema escala durante la prueba de carga máxima",
+      "Cláusula: mientras el sistema escalaba durante la prueba de carga máxima",
       "Complemento: al equipo que aguantara"
     ],
-    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: pedir / Cláusula: mientras el sistema escala durante la prueba de carga máxima / Complemento: al equipo que aguantara",
-    "spanishSentence": "El ingeniero de DevOps le pidió al equipo que aguantara mientras el sistema escala durante la prueba de carga máxima.",
-    "correctSentence": "The DevOps engineer asked the team to hold on while the system scales up during the peak load test.",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: pedir / Cláusula: mientras el sistema escalaba durante la prueba de carga máxima / Complemento: al equipo que aguantara",
+    "spanishSentence": "El ingeniero de DevOps le pidió al equipo que aguantara mientras el sistema escalaba durante la prueba de carga máxima.",
+    "correctSentence": "The DevOps engineer asked the team to hold on while the system was scaling up during the peak load test.",
     "cards": [
       {
         "id": "c4",
@@ -1560,10 +1561,16 @@
         "translation": "ellos"
       },
       {
-        "id": "c19",
+        "id": "c20",
         "text": "test",
         "isDistractor": false,
         "translation": "prueba"
+      },
+      {
+        "id": "c14",
+        "text": "was",
+        "isDistractor": false,
+        "translation": "estaba"
       },
       {
         "id": "c1",
@@ -1578,7 +1585,7 @@
         "translation": "aguantar"
       },
       {
-        "id": "c18",
+        "id": "c19",
         "text": "load",
         "isDistractor": false,
         "translation": "carga"
@@ -1597,9 +1604,9 @@
       },
       {
         "id": "c13",
-        "text": "scales",
+        "text": "scaling",
         "isDistractor": false,
-        "translation": "escala"
+        "translation": "escalaba"
       },
       {
         "id": "d4",
@@ -1608,7 +1615,7 @@
         "translation": "soportar"
       },
       {
-        "id": "c15",
+        "id": "c16",
         "text": "during",
         "isDistractor": false,
         "translation": "durante"
@@ -1650,19 +1657,19 @@
         "translation": "mientras"
       },
       {
-        "id": "c16",
+        "id": "c17",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
       },
       {
-        "id": "c17",
+        "id": "c18",
         "text": "peak",
         "isDistractor": false,
         "translation": "pico"
       },
       {
-        "id": "c14",
+        "id": "c15",
         "text": "up",
         "isDistractor": false,
         "translation": "(arriba)"
@@ -1685,7 +1692,8 @@
       "on": "(continuación)",
       "while": "mientras",
       "system": "sistema",
-      "scales": "escala",
+      "scaling": "escalaba",
+      "was": "estaba",
       "up": "(arriba)",
       "during": "durante",
       "peak": "pico",
@@ -2260,13 +2268,13 @@
   {
     "hints": [
       "Sujeto: el desarrollador frontend",
-      "Verbo: dar la vuelta",
-      "Complemento: al pipeline de renderizado",
+      "Verbo: revisar (pasado simple)",
+      "Complemento: el pipeline de renderizado",
       "Cláusula: para corregir el problema de parpadeo"
     ],
-    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: dar la vuelta / Complemento: al pipeline de renderizado / Cláusula: para corregir el problema de parpadeo",
-    "spanishSentence": "El desarrollador frontend dio la vuelta al pipeline de renderizado para corregir el problema de parpadeo.",
-    "correctSentence": "The frontend developer turned around the rendering pipeline to fix the flickering issue.",
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: revisar (pasado simple) / Complemento: el pipeline de renderizado / Cláusula: para corregir el problema de parpadeo",
+    "spanishSentence": "El desarrollador frontend revisó el pipeline de renderizado para corregir el problema de parpadeo.",
+    "correctSentence": "The frontend developer looked over the rendering pipeline to fix the flickering issue.",
     "cards": [
       {
         "id": "c7",
@@ -2300,9 +2308,9 @@
       },
       {
         "id": "c4",
-        "text": "turned",
+        "text": "looked",
         "isDistractor": false,
-        "translation": "dio la vuelta"
+        "translation": "revisó"
       },
       {
         "id": "d4",
@@ -2348,9 +2356,9 @@
       },
       {
         "id": "c5",
-        "text": "around",
+        "text": "over",
         "isDistractor": false,
-        "translation": "a"
+        "translation": "(partícula verbal)"
       },
       {
         "id": "c2",
@@ -2375,8 +2383,8 @@
       "the": "el",
       "frontend": "frontend",
       "developer": "desarrollador",
-      "turned": "dio la vuelta",
-      "around": "a",
+      "looked": "revisó",
+      "over": "(partícula verbal)",
       "rendering": "renderizado",
       "pipeline": "pipeline",
       "to": "(marca de infinitivo)",
@@ -2546,16 +2554,16 @@
   {
     "hints": [
       "Sujeto: el equipo",
-      "Verbo: cancelar (negación, pasado simple)",
+      "Verbo: cancelar (pasado simple)",
       "Complemento: la prueba",
       "Cláusula: a pesar de que el error crítico no estaba resuelto (conector: a pesar de que)"
     ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: cancelar (negación, pasado simple) / Complemento: la prueba / Cláusula: a pesar de que el error crítico no estaba resuelto (conector: a pesar de que)",
-    "spanishSentence": "El equipo no canceló la prueba a pesar del error crítico sin resolver.",
-    "correctSentence": "The team did not call off the test despite the unresolved critical bug.",
+    "hintDisplay": "Sujeto: el equipo / Verbo: cancelar (pasado simple) / Complemento: la prueba / Cláusula: a pesar de que el error crítico no estaba resuelto (conector: a pesar de que)",
+    "spanishSentence": "El equipo canceló la prueba a pesar del error crítico sin resolver.",
+    "correctSentence": "The team called off the test despite the unresolved critical bug.",
     "cards": [
       {
-        "id": "c9",
+        "id": "c7",
         "text": "despite",
         "isDistractor": false,
         "translation": "a pesar de"
@@ -2573,22 +2581,22 @@
         "translation": "el"
       },
       {
-        "id": "c5",
-        "text": "call",
+        "id": "c3",
+        "text": "called",
         "isDistractor": false,
         "translation": "canceló"
       },
       {
-        "id": "c11",
+        "id": "c9",
         "text": "unresolved",
         "isDistractor": false,
         "translation": "sin resolver"
       },
       {
-        "id": "c6",
+        "id": "c4",
         "text": "off",
         "isDistractor": false,
-        "translation": "no"
+        "translation": "(partícula verbal)"
       },
       {
         "id": "c2",
@@ -2597,37 +2605,37 @@
         "translation": "equipo"
       },
       {
-        "id": "c4",
+        "id": "d5",
         "text": "not",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "no"
       },
       {
-        "id": "c13",
+        "id": "c11",
         "text": "bug",
         "isDistractor": false,
         "translation": "error"
       },
       {
-        "id": "c10",
+        "id": "c8",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
       },
       {
-        "id": "c8",
+        "id": "c6",
         "text": "test",
         "isDistractor": false,
         "translation": "prueba"
       },
       {
-        "id": "c3",
+        "id": "d6",
         "text": "did",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "(auxiliar)"
       },
       {
-        "id": "c12",
+        "id": "c10",
         "text": "critical",
         "isDistractor": false,
         "translation": "crítico"
@@ -2645,7 +2653,7 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "c7",
+        "id": "c5",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
@@ -2660,23 +2668,23 @@
     "translations": {
       "the": "el",
       "team": "equipo",
-      "did": "(auxiliar)",
-      "not": "no",
-      "call": "canceló",
-      "off": "no",
+      "called": "canceló",
+      "off": "(partícula verbal)",
       "test": "prueba",
       "despite": "a pesar de",
       "unresolved": "sin resolver",
       "critical": "crítico",
       "bug": "error",
       "didn't": "(auxiliar)",
+      "did": "(auxiliar)",
+      "not": "no",
       "postpone": "posponer",
       "overlooked": "pasado por alto",
       "cancelled": "cancelado"
     },
     "metadata": {
       "tense": "phrasal verbs",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "intermediate",
       "topic": "software engineering"
@@ -2685,25 +2693,25 @@
   {
     "hints": [
       "Sujeto: el desarrollador frontend",
-      "Verbo: concluir",
-      "Complemento: la solicitud de fetch",
-      "Cláusula: antes de que manejar los datos de la respuesta"
+      "Verbo: manejar",
+      "Complemento: los datos de la respuesta",
+      "Cláusula: antes de concluir la solicitud de fetch"
     ],
-    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: concluir / Complemento: la solicitud de fetch / Cláusula: antes de que manejar los datos de la respuesta",
-    "spanishSentence": "El desarrollador frontend no concluye la solicitud de fetch antes de manejar los datos de la respuesta.",
-    "correctSentence": "The frontend developer does not wrap up the fetch request before handling the response data.",
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: manejar / Complemento: los datos de la respuesta / Cláusula: antes de concluir la solicitud de fetch",
+    "spanishSentence": "El desarrollador frontend no maneja los datos de la respuesta antes de concluir la solicitud de fetch.",
+    "correctSentence": "The frontend developer does not handle the response data before wrapping up the fetch request.",
     "cards": [
       {
         "id": "c7",
-        "text": "up",
+        "text": "the",
         "isDistractor": false,
-        "translation": "(completivo)"
+        "translation": "el"
       },
       {
         "id": "c15",
-        "text": "data",
+        "text": "request",
         "isDistractor": false,
-        "translation": "datos"
+        "translation": "solicitud"
       },
       {
         "id": "c13",
@@ -2755,27 +2763,27 @@
       },
       {
         "id": "c14",
-        "text": "response",
+        "text": "fetch",
         "isDistractor": false,
-        "translation": "respuesta"
+        "translation": "fetch"
       },
       {
         "id": "c11",
+        "text": "wrapping",
+        "isDistractor": false,
+        "translation": "concluir"
+      },
+      {
+        "id": "c10",
         "text": "before",
         "isDistractor": false,
         "translation": "antes de"
       },
       {
-        "id": "c10",
-        "text": "request",
-        "isDistractor": false,
-        "translation": "solicitud"
-      },
-      {
         "id": "c12",
-        "text": "handling",
+        "text": "up",
         "isDistractor": false,
-        "translation": "manejar"
+        "translation": "(completivo)"
       },
       {
         "id": "c5",
@@ -2785,15 +2793,15 @@
       },
       {
         "id": "c9",
-        "text": "fetch",
+        "text": "data",
         "isDistractor": false,
-        "translation": "fetch"
+        "translation": "datos"
       },
       {
         "id": "c6",
-        "text": "wrap",
+        "text": "handle",
         "isDistractor": false,
-        "translation": "concluye"
+        "translation": "manejar"
       },
       {
         "id": "c1",
@@ -2803,9 +2811,9 @@
       },
       {
         "id": "c8",
-        "text": "the",
+        "text": "response",
         "isDistractor": false,
-        "translation": "el"
+        "translation": "respuesta"
       },
       {
         "id": "d3",
@@ -2820,12 +2828,12 @@
       "developer": "desarrollador",
       "does": "(auxiliar)",
       "not": "no",
-      "wrap": "concluye",
+      "handle": "manejar",
       "up": "(completivo)",
       "fetch": "fetch",
       "request": "solicitud",
       "before": "antes de",
-      "handling": "manejar",
+      "wrapping": "concluir",
       "response": "respuesta",
       "data": "datos",
       "concludes": "concluye",
@@ -2846,10 +2854,10 @@
     "hints": [
       "Sujeto: el desarrollador",
       "Verbo: salir (presente, negación)",
-      "Complemento: del código base al construir la nueva función",
-      "Cláusula: mientras construye la nueva función"
+      "Complemento: a almorzar",
+      "Cláusula: cuando construye la nueva función"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: salir (presente, negación) / Complemento: del código base al construir la nueva función / Cláusula: mientras construye la nueva función",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: salir (presente, negación) / Complemento: a almorzar / Cláusula: cuando construye la nueva función",
     "spanishSentence": "El desarrollador no sale a almorzar cuando construye la nueva función.",
     "correctSentence": "The developer doesn't go out for lunch when building the new feature.",
     "cards": [
@@ -2884,7 +2892,7 @@
         "translation": "a"
       },
       {
-        "id": "c13",
+        "id": "c7",
         "text": "feature",
         "isDistractor": false,
         "translation": "función"

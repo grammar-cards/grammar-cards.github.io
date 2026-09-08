@@ -4,13 +4,13 @@
       "Sujeto: el desarrollador",
       "Verbo: depurar (presente simple, uso habitual)",
       "Complemento: el código",
-      "Cláusula: antes de implementarlo",
+      "Cláusula: antes de desplegarlo",
       "Tiempo: no hay marcador temporal",
       "Complemento: la aplicación",
-      "Complemento: no se bloqueará (futuro simple)"
+      "Complemento: no se caerá (futuro simple)"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: depurar (presente simple, uso habitual) / Complemento: el código / Cláusula: antes de implementarlo / Tiempo: no hay marcador temporal / Complemento: la aplicación / Complemento: no se bloqueará (futuro simple)",
-    "spanishSentence": "Si el desarrollador depura el código antes de implementarlo, la aplicación no se bloqueará.",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: depurar (presente simple, uso habitual) / Complemento: el código / Cláusula: antes de desplegarlo / Tiempo: no hay marcador temporal / Complemento: la aplicación / Complemento: no se caerá (futuro simple)",
+    "spanishSentence": "Si el desarrollador depura el código antes de desplegarlo, la aplicación no se caerá.",
     "correctSentence": "If the developer debugs the code before deploying, the app will not crash.",
     "cards": [
       {
@@ -156,7 +156,7 @@
     ],
     "hintDisplay": "Sujeto: los desarrolladores / Verbo: desplegar / Complemento: la nueva versión / Cláusula: el sistema no se caerá durante las horas pico",
     "spanishSentence": "Si los desarrolladores despliegan la nueva versión, el sistema no se caerá durante las horas pico.",
-    "correctSentence": "If the developers deploy the new build, the system will not crash during peak hours.",
+    "correctSentence": "If the developers deploy the new version, the system will not crash during peak hours.",
     "cards": [
       {
         "id": "d1",
@@ -256,7 +256,7 @@
       },
       {
         "id": "c7",
-        "text": "build",
+        "text": "version",
         "isDistractor": false,
         "translation": "versión"
       },
@@ -291,7 +291,7 @@
       "developers": "desarrolladores",
       "deploy": "despliegan",
       "new": "nueva",
-      "build": "versión",
+      "version": "versión",
       "system": "sistema",
       "will": "(futuro)",
       "not": "no",
@@ -475,14 +475,14 @@
   },
   {
     "hints": [
-      "Sujeto: el desarrollador de frontend",
+      "Sujeto: el desarrollador frontend",
       "Verbo: recibir",
       "Complemento: los datos",
       "Tiempo: (presente simple, acción general)",
-      "Cláusula: si el desarrollador de frontend recibe los datos"
+      "Cláusula: la aplicación no mostrará el mensaje de error"
     ],
-    "hintDisplay": "Sujeto: el desarrollador de frontend / Verbo: recibir / Complemento: los datos / Tiempo: (presente simple, acción general) / Cláusula: si el desarrollador de frontend recibe los datos",
-    "spanishSentence": "Si el frontend developer recibe los datos, no mostrará el mensaje de error.",
+    "hintDisplay": "Sujeto: el desarrollador frontend / Verbo: recibir / Complemento: los datos / Tiempo: (presente simple, acción general) / Cláusula: la aplicación no mostrará el mensaje de error",
+    "spanishSentence": "Si el desarrollador frontend recibe los datos, la aplicación no mostrará el mensaje de error.",
     "correctSentence": "If the frontend developer receives the data, it will not display the error message.",
     "cards": [
       {
@@ -1255,12 +1255,12 @@
   {
     "hints": [
       "Sujeto: nosotros (implícito)",
-      "Verbo: construir (presente de subjuntivo, con valor condicional)",
+      "Verbo: construir (presente de indicativo)",
       "Complemento: la funcionalidad con diseño modular",
       "Tiempo: no hay marcador temporal concreto",
       "Cláusula: si construimos la funcionalidad con diseño modular"
     ],
-    "hintDisplay": "Sujeto: nosotros (implícito) / Verbo: construir (presente de subjuntivo, con valor condicional) / Complemento: la funcionalidad con diseño modular / Tiempo: no hay marcador temporal concreto / Cláusula: si construimos la funcionalidad con diseño modular",
+    "hintDisplay": "Sujeto: nosotros (implícito) / Verbo: construir (presente de indicativo) / Complemento: la funcionalidad con diseño modular / Tiempo: no hay marcador temporal concreto / Cláusula: si construimos la funcionalidad con diseño modular",
     "spanishSentence": "Si construimos la funcionalidad con diseño modular, reduciremos los costos de mantenimiento futuros.",
     "correctSentence": "If we build the feature with modular design, we will reduce future maintenance costs.",
     "cards": [
@@ -1558,12 +1558,9 @@
       "Sujeto: el equipo",
       "Verbo: configurar",
       "Complemento: el balanceador de carga correctamente",
-      "Cláusula: mientras el equipo configura el balanceador de carga correctamente",
-      "Sujeto: el sistema",
-      "Verbo: manejar (futuro simple)",
-      "Complemento: el pico de tráfico sin tiempo de inactividad"
+      "Cláusula: el sistema manejará el pico de tráfico sin tiempo de inactividad"
     ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: configurar / Complemento: el balanceador de carga correctamente / Cláusula: mientras el equipo configura el balanceador de carga correctamente / Sujeto: el sistema / Verbo: manejar (futuro simple) / Complemento: el pico de tráfico sin tiempo de inactividad",
+    "hintDisplay": "Sujeto: el equipo / Verbo: configurar / Complemento: el balanceador de carga correctamente / Cláusula: el sistema manejará el pico de tráfico sin tiempo de inactividad",
     "spanishSentence": "Si el equipo configura el balanceador de carga correctamente, el sistema manejará el pico de tráfico sin tiempo de inactividad.",
     "correctSentence": "If the team configures the load balancer correctly, the system will handle the traffic spike without downtime.",
     "cards": [
@@ -1892,12 +1889,12 @@
     "hints": [
       "Sujeto: el ingeniero de DevOps",
       "Verbo: configurar",
-      "Tiempo: no aplica (presente de subjuntivo en la subordinada condicional)",
-      "Complemento: la tubería de CI/CD",
-      "Cláusula: si el ingeniero no configura la tubería de CI/CD"
+      "Tiempo: no aplica (presente de indicativo en la subordinada condicional)",
+      "Complemento: el pipeline de CI/CD",
+      "Cláusula: si el ingeniero no configura el pipeline de CI/CD"
     ],
-    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: configurar / Tiempo: no aplica (presente de subjuntivo en la subordinada condicional) / Complemento: la tubería de CI/CD / Cláusula: si el ingeniero no configura la tubería de CI/CD",
-    "spanishSentence": "Si el ingeniero de DevOps no configura la tubería de CI/CD, el despliegue fallará.",
+    "hintDisplay": "Sujeto: el ingeniero de DevOps / Verbo: configurar / Tiempo: no aplica (presente de indicativo en la subordinada condicional) / Complemento: el pipeline de CI/CD / Cláusula: si el ingeniero no configura el pipeline de CI/CD",
+    "spanishSentence": "Si el ingeniero de DevOps no configura el pipeline de CI/CD, el despliegue fallará.",
     "correctSentence": "If the DevOps engineer does not configure the CI/CD pipeline, the deployment will fail.",
     "cards": [
       {
@@ -2044,11 +2041,11 @@
   {
     "hints": [
       "Sujeto: el desarrollador",
-      "Verbo: refactorizar (futuro simple de indicativo)",
+      "Verbo: refactorizar (presente simple)",
       "Complemento: el módulo heredado",
       "Cláusula: el rendimiento mejorará significativamente"
     ],
-    "hintDisplay": "Sujeto: el desarrollador / Verbo: refactorizar (futuro simple de indicativo) / Complemento: el módulo heredado / Cláusula: el rendimiento mejorará significativamente",
+    "hintDisplay": "Sujeto: el desarrollador / Verbo: refactorizar (presente simple) / Complemento: el módulo heredado / Cláusula: el rendimiento mejorará significativamente",
     "spanishSentence": "Si el desarrollador refactoriza el módulo heredado, el rendimiento mejorará significativamente.",
     "correctSentence": "If the developer refactors the legacy module, the performance will improve significantly.",
     "cards": [
@@ -2504,11 +2501,11 @@
       "Sujeto: el equipo",
       "Verbo: evitar (futuro simple)",
       "Complemento: errores críticos en producción",
-      "Cláusula: antes del lanzamiento, si prueba el nuevo módulo"
+      "Cláusula: si el equipo prueba el nuevo módulo antes del lanzamiento"
     ],
-    "hintDisplay": "Sujeto: el equipo / Verbo: evitar (futuro simple) / Complemento: errores críticos en producción / Cláusula: antes del lanzamiento, si prueba el nuevo módulo",
+    "hintDisplay": "Sujeto: el equipo / Verbo: evitar (futuro simple) / Complemento: errores críticos en producción / Cláusula: si el equipo prueba el nuevo módulo antes del lanzamiento",
     "spanishSentence": "Si el equipo prueba el nuevo módulo antes del lanzamiento, evitará errores críticos en producción.",
-    "correctSentence": "If the team tests the new module before release, they will avoid critical bugs in production.",
+    "correctSentence": "If the team tests the new module before release, it will avoid critical bugs in production.",
     "cards": [
       {
         "id": "c14",
@@ -2584,9 +2581,9 @@
       },
       {
         "id": "c10",
-        "text": "they",
+        "text": "it",
         "isDistractor": false,
-        "translation": "ellos"
+        "translation": "el equipo"
       },
       {
         "id": "c16",
@@ -2640,7 +2637,7 @@
       "module": "módulo",
       "before": "antes de",
       "release": "lanzamiento",
-      "they": "ellos",
+      "it": "el equipo",
       "will": "(futuro)",
       "avoid": "evitará",
       "critical": "críticos",
