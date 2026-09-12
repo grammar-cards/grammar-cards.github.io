@@ -2138,11 +2138,11 @@
       "Verbo: autenticar",
       "Complemento: la solicitud con el token heredado",
       "Tiempo: ahora",
-      "Cláusula: si el desarrollador de backend no hubiera autenticado la solicitud con el token heredado"
+      "Cláusula: si el desarrollador de backend hubiera autenticado la solicitud con el token heredado"
     ],
-    "hintDisplay": "Sujeto: el desarrollador de backend / Verbo: autenticar / Complemento: la solicitud con el token heredado / Tiempo: ahora / Cláusula: si el desarrollador de backend no hubiera autenticado la solicitud con el token heredado",
-    "spanishSentence": "Si el desarrollador de backend no hubiera autenticado la solicitud con el token heredado, el sistema sería vulnerable a ataques ahora.",
-    "correctSentence": "If the backend developer had not authenticated the request with the legacy token, the system would be vulnerable to attacks now.",
+    "hintDisplay": "Sujeto: el desarrollador de backend / Verbo: autenticar / Complemento: la solicitud con el token heredado / Tiempo: ahora / Cláusula: si el desarrollador de backend hubiera autenticado la solicitud con el token heredado",
+    "spanishSentence": "Si el desarrollador de backend hubiera autenticado la solicitud con el token heredado, el sistema sería vulnerable a ataques ahora.",
+    "correctSentence": "If the backend developer had authenticated the request with the legacy token, the system would be vulnerable to attacks now.",
     "cards": [
       {
         "id": "c11",
@@ -2153,7 +2153,7 @@
       {
         "id": "c6",
         "text": "not",
-        "isDistractor": false,
+        "isDistractor": true,
         "translation": "no"
       },
       {
