@@ -2,24 +2,24 @@
   {
     "hints": [
       "Sujeto: yo",
-      "Verbo: hacer que (causativo, en pasado negativo)",
+      "Verbo: hacer que (causativo, en pasado)",
       "Complemento: el ingeniero de control de calidad",
-      "Cláusula: antes de que documentara el incidente",
-      "Complemento: el incidente"
+      "Complemento: documentara el incidente",
+      "Tiempo: antes del lanzamiento"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: hacer que (causativo, en pasado negativo) / Complemento: el ingeniero de control de calidad / Cláusula: antes de que documentara el incidente / Complemento: el incidente",
-    "spanishSentence": "No hice que el ingeniero de control de calidad documentara el incidente antes del lanzamiento.",
-    "correctSentence": "I didn't have the QA engineer document the incident before the release.",
+    "hintDisplay": "Sujeto: yo / Verbo: hacer que (causativo, en pasado) / Complemento: el ingeniero de control de calidad / Complemento: documentara el incidente / Tiempo: antes del lanzamiento",
+    "spanishSentence": "Hice que el ingeniero de control de calidad documentara el incidente antes del lanzamiento.",
+    "correctSentence": "I had the QA engineer document the incident before the release.",
     "cards": [
       {
-        "id": "c4",
+        "id": "c3",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
       },
       {
-        "id": "c3",
-        "text": "have",
+        "id": "c2",
+        "text": "had",
         "isDistractor": false,
         "translation": "hice que"
       },
@@ -96,10 +96,10 @@
         "translation": "el"
       },
       {
-        "id": "c2",
+        "id": "d5",
         "text": "didn't",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
+        "isDistractor": true,
+        "translation": "(auxiliar negativo)"
       },
       {
         "id": "c1",
@@ -110,8 +110,7 @@
     ],
     "translations": {
       "i": "(sujeto)",
-      "didn't": "(auxiliar)",
-      "have": "hice que",
+      "had": "hice que",
       "the": "el",
       "qa": "control de calidad",
       "engineer": "ingeniero",
@@ -119,6 +118,7 @@
       "incident": "incidente",
       "before": "antes del",
       "release": "lanzamiento",
+      "didn't": "(auxiliar negativo)",
       "has": "(auxiliar)",
       "does": "(auxiliar)",
       "them": "los",
@@ -126,7 +126,7 @@
     },
     "metadata": {
       "tense": "causative",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "job interviews"
@@ -137,11 +137,11 @@
       "Sujeto: yo",
       "Verbo: lograr (en pasado)",
       "Complemento: que mi líder revisara el plan de reversión",
-      "Cláusula: antes de que ocurriera el lanzamiento"
+      "Tiempo: antes del lanzamiento"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: lograr (en pasado) / Complemento: que mi líder revisara el plan de reversión / Cláusula: antes de que ocurriera el lanzamiento",
-    "spanishSentence": "No logré que mi líder revisara el plan de reversión antes del lanzamiento.",
-    "correctSentence": "I didn't get my lead to check the rollback plan before release.",
+    "hintDisplay": "Sujeto: yo / Verbo: lograr (en pasado) / Complemento: que mi líder revisara el plan de reversión / Tiempo: antes del lanzamiento",
+    "spanishSentence": "Logré que mi líder revisara el plan de reversión antes del lanzamiento.",
+    "correctSentence": "I got my lead to check the rollback plan before the release.",
     "cards": [
       {
         "id": "c12",
@@ -150,10 +150,10 @@
         "translation": "lanzamiento"
       },
       {
-        "id": "c2",
-        "text": "didn't",
+        "id": "c13",
+        "text": "the",
         "isDistractor": false,
-        "translation": "(auxiliar de negación)"
+        "translation": "el"
       },
       {
         "id": "d2",
@@ -162,8 +162,8 @@
         "translation": "dejé"
       },
       {
-        "id": "c3",
-        "text": "get",
+        "id": "c2",
+        "text": "got",
         "isDistractor": false,
         "translation": "logré"
       },
@@ -181,9 +181,9 @@
       },
       {
         "id": "d1",
-        "text": "got",
+        "text": "get",
         "isDistractor": true,
-        "translation": "logré"
+        "translation": "lograr"
       },
       {
         "id": "c11",
@@ -254,8 +254,7 @@
     ],
     "translations": {
       "i": "(sujeto: yo)",
-      "didn't": "(auxiliar de negación)",
-      "get": "logré",
+      "got": "logré",
       "my": "mi",
       "lead": "líder",
       "to": "(marca de infinitivo)",
@@ -263,9 +262,9 @@
       "the": "el",
       "rollback": "reversión",
       "plan": "plan",
-      "before": "antes",
+      "before": "antes del",
       "release": "lanzamiento",
-      "got": "logré",
+      "get": "lograr",
       "let": "dejé",
       "leader": "líder",
       "him": "lo",
@@ -274,7 +273,7 @@
     },
     "metadata": {
       "tense": "causative",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "job interviews"
@@ -1537,13 +1536,12 @@
       "Sujeto: yo",
       "Verbo: hacer que alguien realice una acción (pasado)",
       "Complemento: mi líder",
-      "Cláusula: antes de que evaluara la arquitectura",
-      "Complemento: la arquitectura",
-      "Tiempo: antes de la entrevista técnica"
+      "Complemento: evaluara la arquitectura",
+      "Tiempo: antes de la revisión de diseño"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: hacer que alguien realice una acción (pasado) / Complemento: mi líder / Cláusula: antes de que evaluara la arquitectura / Complemento: la arquitectura / Tiempo: antes de la entrevista técnica",
-    "spanishSentence": "Hice que mi líder evaluara la arquitectura antes de la entrevista técnica.",
-    "correctSentence": "I had my lead evaluate the architecture before the technical interview.",
+    "hintDisplay": "Sujeto: yo / Verbo: hacer que alguien realice una acción (pasado) / Complemento: mi líder / Complemento: evaluara la arquitectura / Tiempo: antes de la revisión de diseño",
+    "spanishSentence": "Hice que mi líder evaluara la arquitectura antes de la revisión de diseño.",
+    "correctSentence": "I had my lead evaluate the architecture before the design review.",
     "cards": [
       {
         "id": "c2",
@@ -1595,9 +1593,9 @@
       },
       {
         "id": "c10",
-        "text": "technical",
+        "text": "design",
         "isDistractor": false,
-        "translation": "técnica"
+        "translation": "de diseño"
       },
       {
         "id": "c9",
@@ -1625,9 +1623,9 @@
       },
       {
         "id": "c11",
-        "text": "interview",
+        "text": "review",
         "isDistractor": false,
-        "translation": "entrevista"
+        "translation": "revisión"
       },
       {
         "id": "d6",
@@ -1657,8 +1655,8 @@
       "the": "la",
       "architecture": "arquitectura",
       "before": "antes de",
-      "technical": "técnica",
-      "interview": "entrevista",
+      "design": "de diseño",
+      "review": "revisión",
       "have": "(verbo causativo)",
       "let": "dejar",
       "make": "hacer",
@@ -2218,8 +2216,8 @@
       "Tiempo: antes del lanzamiento"
     ],
     "hintDisplay": "Sujeto: yo / Verbo: conseguir que algo fuera realizado / Complemento: la migración probada por otro desarrollador / Tiempo: antes del lanzamiento",
-    "spanishSentence": "No conseguí que otro desarrollador probara la migración antes del lanzamiento.",
-    "correctSentence": "I didn't get the migration tested by another developer before release.",
+    "spanishSentence": "Conseguí que otro desarrollador probara la migración antes del lanzamiento.",
+    "correctSentence": "I got the migration tested by another developer before the release.",
     "cards": [
       {
         "id": "c10",
@@ -2276,10 +2274,10 @@
         "translation": "conseguido"
       },
       {
-        "id": "c2",
-        "text": "didn't",
+        "id": "c12",
+        "text": "the",
         "isDistractor": false,
-        "translation": "(auxiliar de negación)"
+        "translation": "el"
       },
       {
         "id": "c11",
@@ -2300,8 +2298,8 @@
         "translation": "desarrolladores"
       },
       {
-        "id": "c3",
-        "text": "get",
+        "id": "c2",
+        "text": "got",
         "isDistractor": false,
         "translation": "conseguí"
       },
@@ -2320,11 +2318,10 @@
     ],
     "translations": {
       "i": "(pronombre: yo)",
-      "didn't": "(auxiliar de negación)",
-      "get": "conseguí",
+      "got": "conseguí",
       "the": "la",
       "migration": "migración",
-      "tested": "probara (probara a prueba)",
+      "tested": "probara",
       "by": "por",
       "another": "otro",
       "developer": "desarrollador",
@@ -2338,7 +2335,7 @@
     },
     "metadata": {
       "tense": "causative",
-      "isNegative": true,
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "advanced",
       "topic": "job interviews"
@@ -2615,14 +2612,14 @@
   {
     "hints": [
       "Sujeto: yo",
-      "Verbo: hacer que alguien revise",
+      "Verbo: hacer que (causativo, presente perfecto negativo)",
       "Complemento: mi líder",
-      "Complemento: el cálculo",
-      "Cláusula: antes de que se enviara la propuesta de software"
+      "Complemento: revise la estimación",
+      "Tiempo: todavía"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: hacer que alguien revise / Complemento: mi líder / Complemento: el cálculo / Cláusula: antes de que se enviara la propuesta de software",
-    "spanishSentence": "No hice que mi líder revisara el cálculo antes de enviar la propuesta de software.",
-    "correctSentence": "I didn't have my lead review the estimate before submitting the software proposal.",
+    "hintDisplay": "Sujeto: yo / Verbo: hacer que (causativo, presente perfecto negativo) / Complemento: mi líder / Complemento: revise la estimación / Tiempo: todavía",
+    "spanishSentence": "Todavía no he hecho que mi líder revise la estimación.",
+    "correctSentence": "I haven't had my lead review the estimate yet.",
     "cards": [
       {
         "id": "c5",
@@ -2634,13 +2631,13 @@
         "id": "c6",
         "text": "review",
         "isDistractor": false,
-        "translation": "revisara (revisar)"
+        "translation": "revise (revisar)"
       },
       {
         "id": "d1",
-        "text": "had",
+        "text": "have",
         "isDistractor": true,
-        "translation": "(auxiliar causativo)"
+        "translation": "(auxiliar)"
       },
       {
         "id": "d4",
@@ -2653,18 +2650,6 @@
         "text": "my",
         "isDistractor": false,
         "translation": "mi"
-      },
-      {
-        "id": "c12",
-        "text": "software",
-        "isDistractor": false,
-        "translation": "software"
-      },
-      {
-        "id": "c10",
-        "text": "submitting",
-        "isDistractor": false,
-        "translation": "enviar (presentando)"
       },
       {
         "id": "d3",
@@ -2682,19 +2667,13 @@
         "id": "c8",
         "text": "estimate",
         "isDistractor": false,
-        "translation": "cálculo"
+        "translation": "estimación"
       },
       {
         "id": "c7",
         "text": "the",
         "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
+        "translation": "la"
       },
       {
         "id": "d5",
@@ -2704,15 +2683,15 @@
       },
       {
         "id": "c9",
-        "text": "before",
+        "text": "yet",
         "isDistractor": false,
-        "translation": "antes de"
+        "translation": "todavía"
       },
       {
         "id": "c3",
-        "text": "have",
+        "text": "had",
         "isDistractor": false,
-        "translation": "hiciera (tuviera)"
+        "translation": "hecho que"
       },
       {
         "id": "d2",
@@ -2722,31 +2701,22 @@
       },
       {
         "id": "c2",
-        "text": "didn't",
+        "text": "haven't",
         "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c13",
-        "text": "proposal",
-        "isDistractor": false,
-        "translation": "propuesta"
+        "translation": "no he"
       }
     ],
     "translations": {
       "i": "(pronombre)",
-      "didn't": "(auxiliar)",
-      "have": "hiciera (tuviera)",
+      "haven't": "no he",
+      "had": "hecho que",
       "my": "mi",
       "lead": "líder",
-      "review": "revisara (revisar)",
-      "the": "el",
-      "estimate": "cálculo",
-      "before": "antes de",
-      "submitting": "enviar (presentando)",
-      "software": "software",
-      "proposal": "propuesta",
-      "had": "(auxiliar causativo)",
+      "review": "revise (revisar)",
+      "the": "la",
+      "estimate": "estimación",
+      "yet": "todavía",
+      "have": "(auxiliar)",
       "has": "(auxiliar)",
       "him": "lo",
       "leader": "líder",

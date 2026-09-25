@@ -402,13 +402,13 @@
   },
   {
     "hints": [
-      "Sujeto: yo",
-      "Verbo: explicar (imperativo negativo)",
-      "Complemento: una revisión de código que salió mal"
+      "Sujeto: tú (implícito)",
+      "Verbo: omitir (imperativo negativo)",
+      "Complemento: los detalles de una revisión de código que salió mal"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: explicar (imperativo negativo) / Complemento: una revisión de código que salió mal",
-    "spanishSentence": "No me expliques paso a paso una revisión de código que salió mal.",
-    "correctSentence": "Don't walk me through a code review that went badly.",
+    "hintDisplay": "Sujeto: tú (implícito) / Verbo: omitir (imperativo negativo) / Complemento: los detalles de una revisión de código que salió mal",
+    "spanishSentence": "No omitas los detalles de una revisión de código que salió mal.",
+    "correctSentence": "Don't skip the details of a code review that went badly.",
     "cards": [
       {
         "id": "d3",
@@ -430,9 +430,15 @@
       },
       {
         "id": "c2",
-        "text": "walk",
+        "text": "skip",
         "isDistractor": false,
-        "translation": "expliques (guíes)"
+        "translation": "omitas"
+      },
+      {
+        "id": "c11",
+        "text": "of",
+        "isDistractor": false,
+        "translation": "de"
       },
       {
         "id": "c8",
@@ -460,9 +466,9 @@
       },
       {
         "id": "c3",
-        "text": "me",
+        "text": "the",
         "isDistractor": false,
-        "translation": "me"
+        "translation": "los"
       },
       {
         "id": "c6",
@@ -478,9 +484,9 @@
       },
       {
         "id": "c4",
-        "text": "through",
+        "text": "details",
         "isDistractor": false,
-        "translation": "paso a paso (a través de)"
+        "translation": "detalles"
       },
       {
         "id": "c7",
@@ -491,9 +497,10 @@
     ],
     "translations": {
       "don't": "(negación)",
-      "walk": "expliques (guíes)",
-      "me": "me",
-      "through": "paso a paso (a través de)",
+      "skip": "omitas",
+      "the": "los",
+      "details": "detalles",
+      "of": "de",
       "a": "una",
       "code": "código",
       "review": "revisión",
@@ -923,10 +930,10 @@
     "hints": [
       "Sujeto: tú",
       "Verbo: explicar (imperativo)",
-      "Complemento: una compensación que tuviste que hacer"
+      "Complemento: una concesión que tuviste que hacer"
     ],
-    "hintDisplay": "Sujeto: tú / Verbo: explicar (imperativo) / Complemento: una compensación que tuviste que hacer",
-    "spanishSentence": "Explica una compensación que tuviste que hacer.",
+    "hintDisplay": "Sujeto: tú / Verbo: explicar (imperativo) / Complemento: una concesión que tuviste que hacer",
+    "spanishSentence": "Explica una concesión que tuviste que hacer.",
     "correctSentence": "Explain a tradeoff you had to make.",
     "cards": [
       {
@@ -957,7 +964,7 @@
         "id": "c3",
         "text": "tradeoff",
         "isDistractor": false,
-        "translation": "compensación"
+        "translation": "concesión"
       },
       {
         "id": "d2",
@@ -975,7 +982,7 @@
         "id": "d1",
         "text": "tradeoffs",
         "isDistractor": true,
-        "translation": "compensaciones"
+        "translation": "concesiones"
       },
       {
         "id": "c7",
@@ -993,12 +1000,12 @@
     "translations": {
       "explain": "Explica",
       "a": "una",
-      "tradeoff": "compensación",
+      "tradeoff": "concesión",
       "you": "tuviste que",
       "had": "(auxiliar)",
       "to": "(marca de infinitivo)",
       "make": "hacer",
-      "tradeoffs": "compensaciones",
+      "tradeoffs": "concesiones",
       "have": "han",
       "made": "hecho"
     },
@@ -1180,43 +1187,37 @@
   },
   {
     "hints": [
-      "Sujeto: tú",
-      "Verbo: evitar",
-      "Complemento: dar un ejemplo de una fecha límite que no cumpliste"
+      "Sujeto: tú (implícito)",
+      "Verbo: preocuparse (imperativo negativo)",
+      "Complemento: por mencionar una fecha límite que no cumpliste"
     ],
-    "hintDisplay": "Sujeto: tú / Verbo: evitar / Complemento: dar un ejemplo de una fecha límite que no cumpliste",
-    "spanishSentence": "No evites dar un ejemplo de una fecha límite que no cumpliste.",
-    "correctSentence": "Don't avoid giving an example of a deadline you missed.",
+    "hintDisplay": "Sujeto: tú (implícito) / Verbo: preocuparse (imperativo negativo) / Complemento: por mencionar una fecha límite que no cumpliste",
+    "spanishSentence": "No te preocupes por mencionar una fecha límite que no cumpliste.",
+    "correctSentence": "Don't worry about mentioning a deadline you missed.",
     "cards": [
       {
-        "id": "c10",
+        "id": "c8",
         "text": "missed",
         "isDistractor": false,
         "translation": "no cumpliste (perdiste)"
       },
       {
         "id": "d1",
-        "text": "avoidance",
+        "text": "worried",
         "isDistractor": true,
-        "translation": "evitación"
+        "translation": "preocupado"
       },
       {
         "id": "d2",
-        "text": "gave",
+        "text": "mention",
         "isDistractor": true,
-        "translation": "diste"
+        "translation": "mencionar"
       },
       {
-        "id": "c8",
+        "id": "c6",
         "text": "deadline",
         "isDistractor": false,
         "translation": "fecha límite"
-      },
-      {
-        "id": "c5",
-        "text": "example",
-        "isDistractor": false,
-        "translation": "ejemplo"
       },
       {
         "id": "d3",
@@ -1225,40 +1226,34 @@
         "translation": "tu"
       },
       {
-        "id": "c9",
+        "id": "c7",
         "text": "you",
         "isDistractor": false,
         "translation": "tú"
       },
       {
-        "id": "c7",
+        "id": "c5",
         "text": "a",
         "isDistractor": false,
         "translation": "una"
       },
       {
         "id": "c2",
-        "text": "avoid",
+        "text": "worry",
         "isDistractor": false,
-        "translation": "evites"
-      },
-      {
-        "id": "c6",
-        "text": "of",
-        "isDistractor": false,
-        "translation": "de"
-      },
-      {
-        "id": "c4",
-        "text": "an",
-        "isDistractor": false,
-        "translation": "un"
+        "translation": "te preocupes"
       },
       {
         "id": "c3",
-        "text": "giving",
+        "text": "about",
         "isDistractor": false,
-        "translation": "dar"
+        "translation": "por"
+      },
+      {
+        "id": "c4",
+        "text": "mentioning",
+        "isDistractor": false,
+        "translation": "mencionar"
       },
       {
         "id": "d4",
@@ -1275,17 +1270,15 @@
     ],
     "translations": {
       "don't": "(negación)",
-      "avoid": "evites",
-      "giving": "dar",
-      "an": "un",
-      "example": "ejemplo",
-      "of": "de",
+      "worry": "te preocupes",
+      "about": "por",
+      "mentioning": "mencionar",
       "a": "una",
       "deadline": "fecha límite",
       "you": "tú",
       "missed": "no cumpliste (perdiste)",
-      "avoidance": "evitación",
-      "gave": "diste",
+      "worried": "preocupado",
+      "mention": "mencionar",
       "your": "tu",
       "could": "podrías"
     },
