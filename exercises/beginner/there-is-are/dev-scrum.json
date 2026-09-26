@@ -1,74 +1,282 @@
 [
   {
     "hints": [
-      "Sujeto: hay",
-      "Verbo: haber (existencia)",
-      "Complemento: suficiente tiempo",
-      "Cláusula: durante el scrum, planificar la próxima reunión de desarrollo"
+      "Sujeto: varias solicitudes de cambios",
+      "Verbo: haber",
+      "Complemento: en la cola de revisión de código"
     ],
-    "hintDisplay": "Sujeto: hay / Verbo: haber (existencia) / Complemento: suficiente tiempo / Cláusula: durante el scrum, planificar la próxima reunión de desarrollo",
-    "spanishSentence": "Hay suficiente tiempo para que planifiquemos la próxima reunión de desarrollo durante el scrum.",
-    "correctSentence": "There is enough time for us to plan the next dev meeting during scrum.",
+    "hintDisplay": "Sujeto: varias solicitudes de cambios / Verbo: haber / Complemento: en la cola de revisión de código",
+    "spanishSentence": "Hay varias solicitudes de cambios en la cola de revisión de código.",
+    "correctSentence": "There are several pull requests in the code review queue.",
     "cards": [
+      {
+        "id": "d4",
+        "text": "many",
+        "isDistractor": true,
+        "translation": "muchas"
+      },
+      {
+        "id": "c2",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "hay"
+      },
+      {
+        "id": "c4",
+        "text": "pull",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "c3",
+        "text": "several",
+        "isDistractor": false,
+        "translation": "varias"
+      },
+      {
+        "id": "d2",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c8",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
       {
         "id": "c1",
         "text": "There",
         "isDistractor": false,
-        "translation": "(existencial)"
+        "translation": "(existencia)"
       },
       {
-        "id": "c12",
-        "text": "meeting",
+        "id": "c7",
+        "text": "the",
         "isDistractor": false,
-        "translation": "reunión"
+        "translation": "(artículo)"
       },
       {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "d2",
-        "text": "them",
+        "id": "d3",
+        "text": "some",
         "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c6",
-        "text": "us",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "d4",
-        "text": "planning",
-        "isDistractor": true,
-        "translation": "planificación"
-      },
-      {
-        "id": "c13",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c14",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
+        "translation": "algunas"
       },
       {
         "id": "c10",
-        "text": "next",
+        "text": "queue",
         "isDistractor": false,
-        "translation": "próxima"
+        "translation": "cola"
+      },
+      {
+        "id": "c9",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisión"
+      },
+      {
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c5",
+        "text": "requests",
+        "isDistractor": false,
+        "translation": "solicitudes"
+      }
+    ],
+    "translations": {
+      "there": "(existencia)",
+      "are": "hay",
+      "several": "varias",
+      "pull": "de",
+      "requests": "solicitudes",
+      "in": "en",
+      "the": "(artículo)",
+      "code": "código",
+      "review": "revisión",
+      "queue": "cola",
+      "is": "(presente)",
+      "was": "(pasado)",
+      "some": "algunas",
+      "many": "muchas"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: demasiado trabajo",
+      "Verbo: haber",
+      "Complemento: en curso en el tablero del sprint"
+    ],
+    "hintDisplay": "Sujeto: demasiado trabajo / Verbo: haber / Complemento: en curso en el tablero del sprint",
+    "spanishSentence": "Hay demasiado trabajo en curso en el tablero del sprint.",
+    "correctSentence": "There is too much work in progress on the sprint board.",
+    "cards": [
+      {
+        "id": "d2",
+        "text": "many",
+        "isDistractor": true,
+        "translation": "muchos"
+      },
+      {
+        "id": "c8",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c11",
+        "text": "board",
+        "isDistractor": false,
+        "translation": "tablero"
+      },
+      {
+        "id": "c7",
+        "text": "progress",
+        "isDistractor": false,
+        "translation": "curso"
+      },
+      {
+        "id": "c10",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c5",
+        "text": "work",
+        "isDistractor": false,
+        "translation": "trabajo"
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c4",
+        "text": "much",
+        "isDistractor": false,
+        "translation": "(cantidad)"
+      },
+      {
+        "id": "c3",
+        "text": "too",
+        "isDistractor": false,
+        "translation": "demasiado"
+      },
+      {
+        "id": "d1",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(verbo ser/estar)"
+      },
+      {
+        "id": "d3",
+        "text": "ongoing",
+        "isDistractor": true,
+        "translation": "en curso"
+      },
+      {
+        "id": "d4",
+        "text": "backlog",
+        "isDistractor": true,
+        "translation": "trabajo pendiente"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "hay"
       },
       {
         "id": "c9",
         "text": "the",
         "isDistractor": false,
-        "translation": "la"
+        "translation": "el"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencial)"
+      }
+    ],
+    "translations": {
+      "there": "(existencial)",
+      "is": "hay",
+      "too": "demasiado",
+      "much": "(cantidad)",
+      "work": "trabajo",
+      "in": "en",
+      "progress": "curso",
+      "on": "en",
+      "the": "el",
+      "sprint": "sprint",
+      "board": "tablero",
+      "are": "(verbo ser/estar)",
+      "many": "muchos",
+      "ongoing": "en curso",
+      "backlog": "trabajo pendiente"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: comentarios valiosos",
+      "Verbo: haber",
+      "Complemento: en la retro"
+    ],
+    "hintDisplay": "Sujeto: comentarios valiosos / Verbo: haber / Complemento: en la retro",
+    "spanishSentence": "Hay comentarios valiosos en la retro.",
+    "correctSentence": "There is valuable feedback in the retro.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencia)"
+      },
+      {
+        "id": "c3",
+        "text": "valuable",
+        "isDistractor": false,
+        "translation": "valiosos"
+      },
+      {
+        "id": "c4",
+        "text": "feedback",
+        "isDistractor": false,
+        "translation": "comentarios"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "hay (está)"
       },
       {
         "id": "d1",
@@ -77,67 +285,40 @@
         "translation": "tiene"
       },
       {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c3",
-        "text": "enough",
-        "isDistractor": false,
-        "translation": "suficiente"
-      },
-      {
-        "id": "c4",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c11",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c8",
-        "text": "plan",
-        "isDistractor": false,
-        "translation": "planificar"
-      },
-      {
-        "id": "d3",
-        "text": "can",
-        "isDistractor": true,
-        "translation": "puede"
-      },
-      {
         "id": "c7",
-        "text": "to",
+        "text": "retro",
         "isDistractor": false,
-        "translation": "(marca de infinitivo)"
+        "translation": "retro"
+      },
+      {
+        "id": "c5",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "d2",
+        "text": "retrospective",
+        "isDistractor": true,
+        "translation": "retrospectiva"
       }
     ],
     "translations": {
-      "there": "(existencial)",
-      "is": "hay",
-      "enough": "suficiente",
-      "time": "tiempo",
-      "for": "para",
-      "us": "nosotros",
-      "to": "(marca de infinitivo)",
-      "plan": "planificar",
+      "there": "(existencia)",
+      "is": "hay (está)",
+      "valuable": "valiosos",
+      "feedback": "comentarios",
+      "in": "en",
       "the": "la",
-      "next": "próxima",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "during": "durante",
-      "scrum": "scrum",
+      "retro": "retro",
       "has": "tiene",
-      "them": "ellos",
-      "can": "puede",
-      "planning": "planificación"
+      "retrospective": "retrospectiva"
     },
     "metadata": {
       "tense": "there is/are",
@@ -149,38 +330,19 @@
   },
   {
     "hints": [
-      "Sujeto: no hay una actualización",
+      "Sujeto: varias historias duplicadas",
       "Verbo: haber",
-      "Complemento: para la reunión de scrum",
-      "Complemento: por parte del scrum master"
+      "Complemento: en el backlog"
     ],
-    "hintDisplay": "Sujeto: no hay una actualización / Verbo: haber / Complemento: para la reunión de scrum / Complemento: por parte del scrum master",
-    "spanishSentence": "No hay una actualización para la reunión de scrum por parte del scrum master.",
-    "correctSentence": "There isn't an update for the scrum meeting from the scrum master.",
+    "hintDisplay": "Sujeto: varias historias duplicadas / Verbo: haber / Complemento: en el backlog",
+    "spanishSentence": "Hay varias historias duplicadas en el backlog.",
+    "correctSentence": "There are several duplicate stories in the backlog.",
     "cards": [
       {
-        "id": "c2",
-        "text": "isn't",
+        "id": "c8",
+        "text": "backlog",
         "isDistractor": false,
-        "translation": "no hay"
-      },
-      {
-        "id": "c11",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c3",
-        "text": "an",
-        "isDistractor": false,
-        "translation": "un"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "la"
+        "translation": "backlog"
       },
       {
         "id": "c1",
@@ -189,594 +351,16 @@
         "translation": "(existencia)"
       },
       {
-        "id": "d1",
-        "text": "aren't",
-        "isDistractor": true,
-        "translation": "(auxiliar de negación)"
-      },
-      {
-        "id": "c12",
-        "text": "master",
-        "isDistractor": false,
-        "translation": "líder"
-      },
-      {
-        "id": "c7",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c9",
-        "text": "from",
-        "isDistractor": false,
-        "translation": "por parte de"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "la"
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
         "id": "c4",
-        "text": "update",
+        "text": "duplicate",
         "isDistractor": false,
-        "translation": "actualización"
-      },
-      {
-        "id": "c8",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "d2",
-        "text": "to",
-        "isDistractor": true,
-        "translation": "(marca de infinitivo)"
-      }
-    ],
-    "translations": {
-      "there": "(existencia)",
-      "isn't": "no hay",
-      "an": "un",
-      "update": "actualización",
-      "for": "para",
-      "the": "la",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "from": "por parte de",
-      "master": "líder",
-      "aren't": "(auxiliar de negación)",
-      "to": "(marca de infinitivo)"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: un stakeholder",
-      "Verbo: patrocinar (presente)",
-      "Complemento: la reunión de scrum"
-    ],
-    "hintDisplay": "Sujeto: un stakeholder / Verbo: patrocinar (presente) / Complemento: la reunión de scrum",
-    "spanishSentence": "Hay un stakeholder que patrocina la reunión de scrum.",
-    "correctSentence": "There is a stakeholder who sponsors the scrum meeting.",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "stakeholders",
-        "isDistractor": true,
-        "translation": "stakeholders (partes interesadas)"
-      },
-      {
-        "id": "d4",
-        "text": "which",
-        "isDistractor": true,
-        "translation": "que"
-      },
-      {
-        "id": "d3",
-        "text": "sponsored",
-        "isDistractor": true,
-        "translation": "patrocinado"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "(existencia)"
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c8",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "Scrum"
-      },
-      {
-        "id": "c5",
-        "text": "who",
-        "isDistractor": false,
-        "translation": "que"
-      },
-      {
-        "id": "d2",
-        "text": "sponsor",
-        "isDistractor": true,
-        "translation": "patrocinador"
-      },
-      {
-        "id": "c3",
-        "text": "a",
-        "isDistractor": false,
-        "translation": "un/una"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "la"
-      },
-      {
-        "id": "c6",
-        "text": "sponsors",
-        "isDistractor": false,
-        "translation": "patrocina"
-      },
-      {
-        "id": "c9",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c4",
-        "text": "stakeholder",
-        "isDistractor": false,
-        "translation": "stakeholder (parte interesada)"
-      }
-    ],
-    "translations": {
-      "there": "(existencia)",
-      "is": "hay",
-      "a": "un/una",
-      "stakeholder": "stakeholder (stakeholder)",
-      "who": "que",
-      "sponsors": "patrocina",
-      "the": "la",
-      "scrum": "Scrum",
-      "meeting": "reunión",
-      "stakeholders": "stakeholders (stakeholders)",
-      "sponsor": "patrocinador",
-      "sponsored": "patrocinado",
-      "which": "que"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: hay varias decisiones",
-      "Verbo: deber (obligación)",
-      "Complemento: tomar",
-      "Complemento: durante las reuniones de desarrollo y el scrum"
-    ],
-    "hintDisplay": "Sujeto: hay varias decisiones / Verbo: deber (obligación) / Complemento: tomar / Complemento: durante las reuniones de desarrollo y el scrum",
-    "spanishSentence": "Hay varias decisiones que el líder técnico debe tomar durante las reuniones de desarrollo y el scrum.",
-    "correctSentence": "There are several decisions that the tech lead must make during dev meetings and scrum.",
-    "cards": [
-      {
-        "id": "c9",
-        "text": "must",
-        "isDistractor": false,
-        "translation": "debe"
-      },
-      {
-        "id": "c12",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "d3",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c7",
-        "text": "tech",
-        "isDistractor": false,
-        "translation": "técnico"
-      },
-      {
-        "id": "c14",
-        "text": "and",
-        "isDistractor": false,
-        "translation": "y"
-      },
-      {
-        "id": "d4",
-        "text": "making",
-        "isDistractor": true,
-        "translation": "haciendo"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c4",
-        "text": "decisions",
-        "isDistractor": false,
-        "translation": "decisiones"
-      },
-      {
-        "id": "c3",
-        "text": "several",
-        "isDistractor": false,
-        "translation": "varias"
-      },
-      {
-        "id": "c10",
-        "text": "make",
-        "isDistractor": false,
-        "translation": "tomar"
-      },
-      {
-        "id": "c8",
-        "text": "lead",
-        "isDistractor": false,
-        "translation": "líder"
-      },
-      {
-        "id": "c5",
-        "text": "that",
-        "isDistractor": false,
-        "translation": "que"
-      },
-      {
-        "id": "c15",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "d1",
-        "text": "is",
-        "isDistractor": true,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "d2",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c13",
-        "text": "meetings",
-        "isDistractor": false,
-        "translation": "reuniones"
-      },
-      {
-        "id": "c2",
-        "text": "are",
-        "isDistractor": false,
-        "translation": "(presente de existir)"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "are": "(presente de existir)",
-      "several": "varias",
-      "decisions": "decisiones",
-      "that": "que",
-      "the": "el",
-      "tech": "técnico",
-      "lead": "líder",
-      "must": "debe",
-      "make": "tomar",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meetings": "reuniones",
-      "and": "y",
-      "scrum": "scrum",
-      "is": "(verbo ser/estar)",
-      "does": "(auxiliar)",
-      "they": "ellos",
-      "making": "haciendo"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: no hay tiempo",
-      "Verbo: haber",
-      "Complemento: para que el desarrollador haga rebase antes de la reunión de scrum",
-      "Cláusula: antes de que el desarrollador haga rebase antes de la reunión de scrum"
-    ],
-    "hintDisplay": "Sujeto: no hay tiempo / Verbo: haber / Complemento: para que el desarrollador haga rebase antes de la reunión de scrum / Cláusula: antes de que el desarrollador haga rebase antes de la reunión de scrum",
-    "spanishSentence": "No hay tiempo para que el desarrollador haga rebase antes de la reunión de scrum.",
-    "correctSentence": "There is no time for the developer to rebase before the scrum meeting.",
-    "cards": [
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c12",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c4",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c9",
-        "text": "rebase",
-        "isDistractor": false,
-        "translation": "hacer rebase"
-      },
-      {
-        "id": "c3",
-        "text": "no",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c10",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "(existencia)"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c13",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c8",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d1",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "ha"
-      },
-      {
-        "id": "d3",
-        "text": "rebased",
-        "isDistractor": true,
-        "translation": "rebasado"
-      },
-      {
-        "id": "c7",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      }
-    ],
-    "translations": {
-      "there": "(existencia)",
-      "is": "hay",
-      "no": "no",
-      "time": "tiempo",
-      "for": "para",
-      "the": "el",
-      "developer": "desarrollador",
-      "to": "(marca de infinitivo)",
-      "rebase": "hacer rebase",
-      "before": "antes de",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "has": "ha",
-      "them": "ellos",
-      "rebased": "rebasado"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: hay varias historias de usuario",
-      "Verbo: poder (posibilidad)",
-      "Complemento: aceptar",
-      "Complemento: durante la revisión del sprint"
-    ],
-    "hintDisplay": "Sujeto: hay varias historias de usuario / Verbo: poder (posibilidad) / Complemento: aceptar / Complemento: durante la revisión del sprint",
-    "spanishSentence": "Hay varias historias de usuario que el propietario del producto puede aceptar durante la revisión del sprint.",
-    "correctSentence": "There are several user stories that the product owner can accept during the sprint review.",
-    "cards": [
-      {
-        "id": "d3",
-        "text": "could",
-        "isDistractor": true,
-        "translation": "podría"
-      },
-      {
-        "id": "c3",
-        "text": "several",
-        "isDistractor": false,
-        "translation": "varias"
-      },
-      {
-        "id": "c9",
-        "text": "owner",
-        "isDistractor": false,
-        "translation": "propietario"
-      },
-      {
-        "id": "c4",
-        "text": "user",
-        "isDistractor": false,
-        "translation": "usuario"
-      },
-      {
-        "id": "c6",
-        "text": "that",
-        "isDistractor": false,
-        "translation": "que"
-      },
-      {
-        "id": "c10",
-        "text": "can",
-        "isDistractor": false,
-        "translation": "puede"
-      },
-      {
-        "id": "c12",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c11",
-        "text": "accept",
-        "isDistractor": false,
-        "translation": "aceptar"
+        "translation": "duplicadas"
       },
       {
         "id": "c7",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
-      },
-      {
-        "id": "c15",
-        "text": "review",
-        "isDistractor": false,
-        "translation": "revisión"
-      },
-      {
-        "id": "c2",
-        "text": "are",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "d1",
-        "text": "is",
-        "isDistractor": true,
-        "translation": "es"
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "d4",
-        "text": "reject",
-        "isDistractor": true,
-        "translation": "rechazar"
-      },
-      {
-        "id": "c8",
-        "text": "product",
-        "isDistractor": false,
-        "translation": "producto"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "(existencia)"
-      },
-      {
-        "id": "d2",
-        "text": "users",
-        "isDistractor": true,
-        "translation": "usuarios"
       },
       {
         "id": "c5",
@@ -785,243 +369,16 @@
         "translation": "historias"
       },
       {
-        "id": "c14",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      }
-    ],
-    "translations": {
-      "there": "(existencia)",
-      "are": "hay",
-      "several": "varias",
-      "user": "usuario",
-      "stories": "historias",
-      "that": "que",
-      "the": "el",
-      "product": "producto",
-      "owner": "propietario",
-      "can": "puede",
-      "accept": "aceptar",
-      "during": "durante",
-      "sprint": "sprint",
-      "review": "revisión",
-      "is": "es",
-      "users": "usuarios",
-      "could": "podría",
-      "reject": "rechazar"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: ellos",
-      "Verbo: refactorizar",
-      "Complemento: módulos de código",
-      "Complemento: durante las reuniones de desarrollo y scrum"
-    ],
-    "hintDisplay": "Sujeto: ellos / Verbo: refactorizar / Complemento: módulos de código / Complemento: durante las reuniones de desarrollo y scrum",
-    "spanishSentence": "Hay módulos de código que ellos refactorizan durante las reuniones de desarrollo y Scrum.",
-    "correctSentence": "There are code modules they refactor during dev meetings and Scrum.",
-    "cards": [
-      {
-        "id": "c4",
-        "text": "modules",
-        "isDistractor": false,
-        "translation": "módulos"
-      },
-      {
-        "id": "d1",
-        "text": "is",
-        "isDistractor": true,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "c8",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c5",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
-        "id": "d4",
-        "text": "development",
-        "isDistractor": true,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c7",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c11",
-        "text": "Scrum",
-        "isDistractor": false,
-        "translation": "Scrum"
-      },
-      {
-        "id": "c10",
-        "text": "and",
-        "isDistractor": false,
-        "translation": "y"
-      },
-      {
         "id": "c6",
-        "text": "refactor",
+        "text": "in",
         "isDistractor": false,
-        "translation": "refactorizan"
+        "translation": "en"
       },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c3",
-        "text": "code",
-        "isDistractor": false,
-        "translation": "código"
-      },
-      {
-        "id": "c9",
-        "text": "meetings",
-        "isDistractor": false,
-        "translation": "reuniones"
-      },
-      {
-        "id": "d3",
-        "text": "refactored",
-        "isDistractor": true,
-        "translation": "refactorizados"
-      },
-      {
-        "id": "c2",
-        "text": "are",
-        "isDistractor": false,
-        "translation": "(verbo ser/estar)"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "are": "(verbo ser/estar)",
-      "code": "código",
-      "modules": "módulos",
-      "they": "ellos",
-      "refactor": "refactorizan",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meetings": "reuniones",
-      "and": "y",
-      "scrum": "Scrum",
-      "is": "(verbo ser/estar)",
-      "them": "los",
-      "refactored": "refactorizados",
-      "development": "desarrollo"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: varias discusiones enfocadas",
-      "Verbo: haber",
-      "Complemento: en las reuniones de desarrollo y Scrum",
-      "Cláusula: en las que el equipo colabora"
-    ],
-    "hintDisplay": "Sujeto: varias discusiones enfocadas / Verbo: haber / Complemento: en las reuniones de desarrollo y Scrum / Cláusula: en las que el equipo colabora",
-    "spanishSentence": "Hay varias discusiones enfocadas en las reuniones de desarrollo y Scrum en las que el equipo colabora.",
-    "correctSentence": "There are several focused discussions in dev meetings and Scrum where the team collaborates.",
-    "cards": [
       {
         "id": "d1",
-        "text": "is",
+        "text": "backlogs",
         "isDistractor": true,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c2",
-        "text": "are",
-        "isDistractor": false,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c5",
-        "text": "discussions",
-        "isDistractor": false,
-        "translation": "discusiones"
-      },
-      {
-        "id": "c11",
-        "text": "where",
-        "isDistractor": false,
-        "translation": "en las que"
-      },
-      {
-        "id": "d3",
-        "text": "individually",
-        "isDistractor": true,
-        "translation": "individualmente"
-      },
-      {
-        "id": "c10",
-        "text": "Scrum",
-        "isDistractor": false,
-        "translation": "Scrum"
-      },
-      {
-        "id": "c13",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "d2",
-        "text": "discuss",
-        "isDistractor": true,
-        "translation": "discutir"
-      },
-      {
-        "id": "c7",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
+        "translation": "backlogs"
       },
       {
         "id": "c3",
@@ -1030,54 +387,147 @@
         "translation": "varias"
       },
       {
-        "id": "c14",
-        "text": "collaborates",
+        "id": "c2",
+        "text": "are",
         "isDistractor": false,
-        "translation": "colabora"
+        "translation": "hay"
       },
       {
-        "id": "c8",
-        "text": "meetings",
+        "id": "d2",
+        "text": "many",
+        "isDistractor": true,
+        "translation": "muchas"
+      }
+    ],
+    "translations": {
+      "there": "(existencia)",
+      "are": "hay",
+      "several": "varias",
+      "duplicate": "duplicadas",
+      "stories": "historias",
+      "in": "en",
+      "the": "el",
+      "backlog": "backlog",
+      "backlogs": "backlogs",
+      "many": "muchas"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: varias quejas del equipo",
+      "Verbo: haber",
+      "Complemento: en la retrospectiva"
+    ],
+    "hintDisplay": "Sujeto: varias quejas del equipo / Verbo: haber / Complemento: en la retrospectiva",
+    "spanishSentence": "Hay varias quejas del equipo en la retrospectiva.",
+    "correctSentence": "There are several complaints from the team in the retro.",
+    "cards": [
+      {
+        "id": "c1",
+        "text": "There",
         "isDistractor": false,
-        "translation": "reuniones"
+        "translation": "(existencia)"
       },
       {
-        "id": "c4",
-        "text": "focused",
-        "isDistractor": false,
-        "translation": "enfocadas"
+        "id": "d3",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
       },
       {
         "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "several",
+        "isDistractor": false,
+        "translation": "varias"
+      },
+      {
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c7",
+        "text": "team",
+        "isDistractor": false,
+        "translation": "equipo"
+      },
+      {
+        "id": "d4",
+        "text": "complaint",
+        "isDistractor": true,
+        "translation": "queja"
+      },
+      {
+        "id": "d2",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c2",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "hay"
+      },
+      {
+        "id": "c4",
+        "text": "complaints",
+        "isDistractor": false,
+        "translation": "quejas"
+      },
+      {
+        "id": "c5",
+        "text": "from",
+        "isDistractor": false,
+        "translation": "del"
+      },
+      {
+        "id": "c10",
+        "text": "retro",
+        "isDistractor": false,
+        "translation": "retrospectiva"
+      },
+      {
+        "id": "c8",
         "text": "in",
         "isDistractor": false,
         "translation": "en"
       },
       {
         "id": "c9",
-        "text": "and",
+        "text": "the",
         "isDistractor": false,
-        "translation": "y"
+        "translation": "el"
       }
     ],
     "translations": {
-      "there": "hay",
-      "are": "(verbo ser/estar)",
+      "there": "(existencia)",
+      "are": "hay",
       "several": "varias",
-      "focused": "enfocadas",
-      "discussions": "discusiones",
-      "in": "en",
-      "dev": "desarrollo",
-      "meetings": "reuniones",
-      "and": "y",
-      "scrum": "Scrum",
-      "where": "en las que",
+      "complaints": "quejas",
+      "from": "del",
       "the": "el",
       "team": "equipo",
-      "collaborates": "colabora",
-      "is": "(verbo ser/estar)",
-      "discuss": "discutir",
-      "individually": "individualmente"
+      "in": "en",
+      "retro": "retrospectiva",
+      "is": "(presente)",
+      "was": "(pasado)",
+      "were": "(pasado)",
+      "complaint": "queja"
     },
     "metadata": {
       "tense": "there is/are",
@@ -1089,171 +539,49 @@
   },
   {
     "hints": [
-      "Sujeto: información útil",
-      "Verbo: haber (existencia)",
-      "Complemento: para que el practicante ayude en la reunión de scrum"
+      "Sujeto: no hay trabajo urgente",
+      "Verbo: haber",
+      "Complemento: en el backlog"
     ],
-    "hintDisplay": "Sujeto: información útil / Verbo: haber (existencia) / Complemento: para que el practicante ayude en la reunión de scrum",
-    "spanishSentence": "Hay información útil para que el practicante ayude en la reunión de scrum.",
-    "correctSentence": "There is useful information for the intern to assist with the scrum meeting.",
+    "hintDisplay": "Sujeto: no hay trabajo urgente / Verbo: haber / Complemento: en el backlog",
+    "spanishSentence": "No hay trabajo urgente en el backlog.",
+    "correctSentence": "There is no urgent work in the backlog.",
     "cards": [
       {
-        "id": "d4",
-        "text": "assists",
-        "isDistractor": true,
-        "translation": "ayuda"
-      },
-      {
-        "id": "c12",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c6",
+        "id": "c7",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
       },
       {
-        "id": "c13",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c10",
-        "text": "with",
-        "isDistractor": false,
-        "translation": "con"
-      },
-      {
-        "id": "d2",
-        "text": "usefully",
+        "id": "d3",
+        "text": "any",
         "isDistractor": true,
-        "translation": "útilmente"
+        "translation": "(algún)"
       },
       {
-        "id": "c11",
-        "text": "the",
+        "id": "c5",
+        "text": "work",
         "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c9",
-        "text": "assist",
-        "isDistractor": false,
-        "translation": "ayudar"
-      },
-      {
-        "id": "d1",
-        "text": "are",
-        "isDistractor": true,
-        "translation": "(verbo ser/estar)"
+        "translation": "trabajo"
       },
       {
         "id": "c2",
         "text": "is",
         "isDistractor": false,
-        "translation": "(verbo haber)"
-      },
-      {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c4",
-        "text": "information",
-        "isDistractor": false,
-        "translation": "información"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
         "translation": "hay"
       },
       {
-        "id": "c8",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
+        "id": "d2",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
         "id": "c3",
-        "text": "useful",
+        "text": "no",
         "isDistractor": false,
-        "translation": "útil"
-      },
-      {
-        "id": "c7",
-        "text": "intern",
-        "isDistractor": false,
-        "translation": "practicante"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "is": "(verbo haber)",
-      "useful": "útil",
-      "information": "información",
-      "for": "para",
-      "the": "el",
-      "intern": "practicante",
-      "to": "(marca de infinitivo)",
-      "assist": "ayudar",
-      "with": "con",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "are": "(verbo ser/estar)",
-      "usefully": "útilmente",
-      "them": "ellos",
-      "assists": "ayuda"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: no hay tiempo",
-      "Verbo: haber (existencia)",
-      "Complemento: para que el ingeniero de QA automatice las pruebas",
-      "Cláusula: durante la reunión de desarrollo"
-    ],
-    "hintDisplay": "Sujeto: no hay tiempo / Verbo: haber (existencia) / Complemento: para que el ingeniero de QA automatice las pruebas / Cláusula: durante la reunión de desarrollo",
-    "spanishSentence": "No hay tiempo para que el ingeniero de QA automatice las pruebas durante la reunión de desarrollo.",
-    "correctSentence": "There is no time for the QA engineer to automate the tests during the dev meeting.",
-    "cards": [
-      {
-        "id": "d3",
-        "text": "automates",
-        "isDistractor": true,
-        "translation": "automatiza"
-      },
-      {
-        "id": "c13",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
+        "translation": "no"
       },
       {
         "id": "c1",
@@ -1263,120 +591,41 @@
       },
       {
         "id": "c4",
-        "text": "time",
+        "text": "urgent",
         "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c15",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c10",
-        "text": "automate",
-        "isDistractor": false,
-        "translation": "automatizar"
-      },
-      {
-        "id": "c16",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
+        "translation": "urgente"
       },
       {
         "id": "d1",
-        "text": "have",
+        "text": "has",
         "isDistractor": true,
-        "translation": "tener"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c7",
-        "text": "QA",
-        "isDistractor": false,
-        "translation": "calidad"
-      },
-      {
-        "id": "c12",
-        "text": "tests",
-        "isDistractor": false,
-        "translation": "pruebas"
-      },
-      {
-        "id": "c3",
-        "text": "no",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "d4",
-        "text": "among",
-        "isDistractor": true,
-        "translation": "entre"
+        "translation": "(auxiliar)"
       },
       {
         "id": "c6",
-        "text": "the",
+        "text": "in",
         "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "hay"
+        "translation": "en"
       },
       {
         "id": "c8",
-        "text": "engineer",
+        "text": "backlog",
         "isDistractor": false,
-        "translation": "ingeniero"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
+        "translation": "backlog"
       }
     ],
     "translations": {
       "there": "(existencia)",
       "is": "hay",
       "no": "no",
-      "time": "tiempo",
-      "for": "para",
+      "urgent": "urgente",
+      "work": "trabajo",
+      "in": "en",
       "the": "el",
-      "qa": "calidad",
-      "engineer": "ingeniero",
-      "to": "(marca de infinitivo)",
-      "automate": "automatizar",
-      "tests": "pruebas",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "have": "tener",
-      "them": "ellos",
-      "automates": "automatiza",
-      "among": "entre"
+      "backlog": "backlog",
+      "has": "(auxiliar)",
+      "are": "(auxiliar)",
+      "any": "(algún)"
     },
     "metadata": {
       "tense": "there is/are",
@@ -1388,92 +637,187 @@
   },
   {
     "hints": [
-      "Sujeto: varias solicitudes de cambios",
+      "Sujeto: no hay muchos comentarios",
       "Verbo: haber",
-      "Complemento: para que el líder técnico las revise",
-      "Complemento: durante la reunión de scrum"
+      "Complemento: en la cola de revisión de código"
     ],
-    "hintDisplay": "Sujeto: varias solicitudes de cambios / Verbo: haber / Complemento: para que el líder técnico las revise / Complemento: durante la reunión de scrum",
-    "spanishSentence": "Hay varias solicitudes de cambios para que el líder técnico las revise durante la reunión de scrum.",
-    "correctSentence": "There are several pull requests for the tech lead to review during the scrum meeting.",
+    "hintDisplay": "Sujeto: no hay muchos comentarios / Verbo: haber / Complemento: en la cola de revisión de código",
+    "spanishSentence": "No hay muchos comentarios en la cola de revisión de código.",
+    "correctSentence": "There aren't many comments in the code review queue.",
     "cards": [
       {
-        "id": "c9",
-        "text": "lead",
+        "id": "c2",
+        "text": "aren't",
         "isDistractor": false,
-        "translation": "líder"
+        "translation": "(negación)"
+      },
+      {
+        "id": "d2",
+        "text": "some",
+        "isDistractor": true,
+        "translation": "algunos"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c4",
+        "text": "comments",
+        "isDistractor": false,
+        "translation": "comentarios"
+      },
+      {
+        "id": "d4",
+        "text": "few",
+        "isDistractor": true,
+        "translation": "pocos"
+      },
+      {
+        "id": "c3",
+        "text": "many",
+        "isDistractor": false,
+        "translation": "muchos"
       },
       {
         "id": "d1",
         "text": "is",
         "isDistractor": true,
-        "translation": "(auxiliar)"
+        "translation": "(verbo auxiliar)"
       },
       {
         "id": "c5",
-        "text": "requests",
+        "text": "in",
         "isDistractor": false,
-        "translation": "solicitudes"
+        "translation": "en"
       },
       {
-        "id": "c10",
-        "text": "to",
+        "id": "c7",
+        "text": "code",
         "isDistractor": false,
-        "translation": "(marca de infinitivo)"
+        "translation": "código"
       },
       {
-        "id": "c2",
-        "text": "are",
+        "id": "c9",
+        "text": "queue",
         "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "las"
-      },
-      {
-        "id": "c12",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c3",
-        "text": "several",
-        "isDistractor": false,
-        "translation": "varias"
+        "translation": "cola"
       },
       {
         "id": "c8",
-        "text": "tech",
+        "text": "review",
         "isDistractor": false,
-        "translation": "técnico"
+        "translation": "revisión"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencia)"
+      },
+      {
+        "id": "d3",
+        "text": "much",
+        "isDistractor": true,
+        "translation": "mucho"
+      }
+    ],
+    "translations": {
+      "there": "(existencia)",
+      "aren't": "(negación)",
+      "many": "muchos",
+      "comments": "comentarios",
+      "in": "en",
+      "the": "la",
+      "code": "código",
+      "review": "revisión",
+      "queue": "cola",
+      "is": "(verbo auxiliar)",
+      "some": "algunos",
+      "much": "mucho",
+      "few": "pocos"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tres tickets",
+      "Verbo: estar",
+      "Complemento: bloqueados",
+      "Complemento: en el tablero",
+      "Complemento: del sprint"
+    ],
+    "hintDisplay": "Sujeto: tres tickets / Verbo: estar / Complemento: bloqueados / Complemento: en el tablero / Complemento: del sprint",
+    "spanishSentence": "Hay tres tickets bloqueados en el tablero del sprint.",
+    "correctSentence": "There are three blocked tickets on the sprint board.",
+    "cards": [
+      {
+        "id": "c5",
+        "text": "tickets",
+        "isDistractor": false,
+        "translation": "tickets"
+      },
+      {
+        "id": "c9",
+        "text": "board",
+        "isDistractor": false,
+        "translation": "tablero"
+      },
+      {
+        "id": "c8",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(verbo copulativo)"
+      },
+      {
+        "id": "c3",
+        "text": "three",
+        "isDistractor": false,
+        "translation": "tres"
+      },
+      {
+        "id": "d2",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(verbo copulativo)"
+      },
+      {
+        "id": "d3",
+        "text": "those",
+        "isDistractor": true,
+        "translation": "esos"
+      },
+      {
+        "id": "c6",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
       },
       {
         "id": "c4",
-        "text": "pull",
+        "text": "blocked",
         "isDistractor": false,
-        "translation": "cambios"
+        "translation": "bloqueados"
       },
       {
-        "id": "c11",
-        "text": "review",
-        "isDistractor": false,
-        "translation": "revisar"
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c14",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
+        "id": "d4",
+        "text": "blocking",
+        "isDistractor": true,
+        "translation": "bloqueando"
       },
       {
         "id": "c7",
@@ -1482,52 +826,155 @@
         "translation": "el"
       },
       {
-        "id": "c6",
-        "text": "for",
+        "id": "c1",
+        "text": "There",
         "isDistractor": false,
-        "translation": "para"
+        "translation": "hay"
+      },
+      {
+        "id": "c2",
+        "text": "are",
+        "isDistractor": false,
+        "translation": "(verbo copulativo)"
+      }
+    ],
+    "translations": {
+      "there": "hay",
+      "are": "(verbo copulativo)",
+      "three": "tres",
+      "blocked": "bloqueados",
+      "tickets": "tickets",
+      "on": "en",
+      "the": "el",
+      "sprint": "sprint",
+      "board": "tablero",
+      "is": "(verbo copulativo)",
+      "were": "(verbo copulativo)",
+      "those": "esos",
+      "blocking": "bloqueando"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: no hay pruebas fallidas",
+      "Verbo: haber",
+      "Complemento: en la cola de revisión de código"
+    ],
+    "hintDisplay": "Sujeto: no hay pruebas fallidas / Verbo: haber / Complemento: en la cola de revisión de código",
+    "spanishSentence": "No hay pruebas fallidas en la cola de revisión de código.",
+    "correctSentence": "There aren't any failing tests in the code review queue.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
       },
       {
         "id": "d3",
-        "text": "reviewing",
+        "text": "some",
         "isDistractor": true,
-        "translation": "revisando"
+        "translation": "(determinante)"
       },
       {
-        "id": "c15",
-        "text": "meeting",
+        "id": "c3",
+        "text": "any",
         "isDistractor": false,
-        "translation": "reunión"
+        "translation": "(determinante)"
+      },
+      {
+        "id": "c8",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
+      },
+      {
+        "id": "c5",
+        "text": "tests",
+        "isDistractor": false,
+        "translation": "pruebas"
       },
       {
         "id": "c1",
         "text": "There",
         "isDistractor": false,
         "translation": "(existencial)"
+      },
+      {
+        "id": "c2",
+        "text": "aren't",
+        "isDistractor": false,
+        "translation": "(negación)"
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c9",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisión"
+      },
+      {
+        "id": "c4",
+        "text": "failing",
+        "isDistractor": false,
+        "translation": "fallidas"
+      },
+      {
+        "id": "c10",
+        "text": "queue",
+        "isDistractor": false,
+        "translation": "cola"
+      },
+      {
+        "id": "d2",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "d4",
+        "text": "failed",
+        "isDistractor": true,
+        "translation": "fallidas"
       }
     ],
     "translations": {
       "there": "(existencial)",
-      "are": "hay",
-      "several": "varias",
-      "pull": "cambios",
-      "requests": "solicitudes",
-      "for": "para",
-      "the": "el",
-      "tech": "técnico",
-      "lead": "líder",
-      "to": "(marca de infinitivo)",
-      "review": "revisar",
-      "during": "durante",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "is": "(auxiliar)",
-      "them": "las",
-      "reviewing": "revisando"
+      "aren't": "(negación)",
+      "any": "(determinante)",
+      "failing": "fallidas",
+      "tests": "pruebas",
+      "in": "en",
+      "the": "la",
+      "code": "código",
+      "review": "revisión",
+      "queue": "cola",
+      "is": "(presente)",
+      "was": "(pasado)",
+      "some": "(determinante)",
+      "failed": "fallidas"
     },
     "metadata": {
       "tense": "there is/are",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"
@@ -1535,259 +982,523 @@
   },
   {
     "hints": [
-      "Sujeto: hay",
-      "Verbo: haber (existencia)",
-      "Complemento: suficiente tiempo",
-      "Cláusula: antes de que el desarrollador suba el código",
-      "Complemento: la reunión de scrum"
+      "Sujeto: dos tareas",
+      "Verbo: quedar",
+      "Complemento: pendientes",
+      "Complemento: de la retro"
     ],
-    "hintDisplay": "Sujeto: hay / Verbo: haber (existencia) / Complemento: suficiente tiempo / Cláusula: antes de que el desarrollador suba el código / Complemento: la reunión de scrum",
-    "spanishSentence": "Hay suficiente tiempo para que el desarrollador suba el código antes de la reunión de scrum.",
-    "correctSentence": "There is enough time for the developer to push the code before the scrum meeting.",
+    "hintDisplay": "Sujeto: dos tareas / Verbo: quedar / Complemento: pendientes / Complemento: de la retro",
+    "spanishSentence": "Todavía hay dos tareas pendientes de la retro.",
+    "correctSentence": "There are two action items from the retro still open.",
     "cards": [
       {
-        "id": "c4",
-        "text": "time",
+        "id": "c9",
+        "text": "still",
         "isDistractor": false,
-        "translation": "tiempo"
+        "translation": "todavía"
       },
       {
-        "id": "d3",
-        "text": "pushed",
+        "id": "d1",
+        "text": "is",
         "isDistractor": true,
-        "translation": "subido"
+        "translation": "(presente de ser/estar)"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencia)"
       },
       {
         "id": "c8",
-        "text": "to",
+        "text": "retro",
         "isDistractor": false,
-        "translation": "(marca de infinitivo)"
+        "translation": "retro"
       },
       {
-        "id": "c11",
-        "text": "code",
+        "id": "c10",
+        "text": "open",
         "isDistractor": false,
-        "translation": "código"
+        "translation": "pendientes (abiertas)"
       },
       {
-        "id": "d4",
-        "text": "during",
+        "id": "d3",
+        "text": "their",
         "isDistractor": true,
-        "translation": "durante"
-      },
-      {
-        "id": "c14",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c12",
-        "text": "before",
-        "isDistractor": false,
-        "translation": "antes de"
+        "translation": "su"
       },
       {
         "id": "c3",
-        "text": "enough",
+        "text": "two",
         "isDistractor": false,
-        "translation": "suficiente"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c9",
-        "text": "push",
-        "isDistractor": false,
-        "translation": "subir"
-      },
-      {
-        "id": "c15",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "d2",
-        "text": "developer's",
-        "isDistractor": true,
-        "translation": "del desarrollador"
-      },
-      {
-        "id": "d1",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c13",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c7",
-        "text": "developer",
-        "isDistractor": false,
-        "translation": "desarrollador"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "is": "(verbo ser/estar)",
-      "enough": "suficiente",
-      "time": "tiempo",
-      "for": "para",
-      "the": "el",
-      "developer": "desarrollador",
-      "to": "(marca de infinitivo)",
-      "push": "subir",
-      "code": "código",
-      "before": "antes de",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "has": "(auxiliar)",
-      "developer's": "del desarrollador",
-      "pushed": "subido",
-      "during": "durante"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: hay",
-      "Verbo: haber (existencia)",
-      "Complemento: varios criterios de evaluación",
-      "Complemento: para que el stakeholder los evalúe",
-      "Complemento: durante la reunión de scrum"
-    ],
-    "hintDisplay": "Sujeto: hay / Verbo: haber (existencia) / Complemento: varios criterios de evaluación / Complemento: para que el stakeholder los evalúe / Complemento: durante la reunión de scrum",
-    "spanishSentence": "Hay varios criterios de evaluación para que el stakeholder los evalúe durante la reunión de scrum.",
-    "correctSentence": "There are several evaluation criteria for the stakeholder to evaluate during the scrum meeting.",
-    "cards": [
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
+        "translation": "dos"
       },
       {
         "id": "c6",
-        "text": "for",
+        "text": "from",
         "isDistractor": false,
-        "translation": "para"
+        "translation": "de"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
       },
       {
         "id": "d2",
-        "text": "them",
+        "text": "were",
         "isDistractor": true,
-        "translation": "los"
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d1",
-        "text": "evaluates",
-        "isDistractor": true,
-        "translation": "evalúa"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c8",
-        "text": "stakeholder",
-        "isDistractor": false,
-        "translation": "stakeholder (parte interesada)"
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c14",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c10",
-        "text": "evaluate",
-        "isDistractor": false,
-        "translation": "evaluar"
-      },
-      {
-        "id": "c4",
-        "text": "evaluation",
-        "isDistractor": false,
-        "translation": "evaluación"
-      },
-      {
-        "id": "c13",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "Scrum"
-      },
-      {
-        "id": "d3",
-        "text": "is",
-        "isDistractor": true,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "c5",
-        "text": "criteria",
-        "isDistractor": false,
-        "translation": "criterios"
+        "translation": "(pasado de ser/estar)"
       },
       {
         "id": "c2",
         "text": "are",
         "isDistractor": false,
-        "translation": "(verbo ser/estar)"
+        "translation": "hay"
+      },
+      {
+        "id": "c5",
+        "text": "items",
+        "isDistractor": false,
+        "translation": "tareas (elementos)"
+      },
+      {
+        "id": "c4",
+        "text": "action",
+        "isDistractor": false,
+        "translation": "pendientes (acción)"
+      }
+    ],
+    "translations": {
+      "there": "(existencia)",
+      "are": "hay",
+      "two": "dos",
+      "action": "pendientes (acción)",
+      "items": "tareas (elementos)",
+      "from": "de",
+      "the": "la",
+      "retro": "retro",
+      "still": "todavía",
+      "open": "pendientes (abiertas)",
+      "is": "(presente de ser/estar)",
+      "were": "(pasado de ser/estar)",
+      "their": "su"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: demasiado trabajo",
+      "Verbo: quedar",
+      "Complemento: pendiente en el tablero del sprint",
+      "Tiempo: todavía"
+    ],
+    "hintDisplay": "Sujeto: demasiado trabajo / Verbo: quedar / Complemento: pendiente en el tablero del sprint / Tiempo: todavía",
+    "spanishSentence": "Todavía hay demasiado trabajo pendiente en el tablero del sprint.",
+    "correctSentence": "There is still too much work left on the sprint board.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "still",
+        "isDistractor": false,
+        "translation": "todavía"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c5",
+        "text": "much",
+        "isDistractor": false,
+        "translation": "mucho"
+      },
+      {
+        "id": "d3",
+        "text": "remaining",
+        "isDistractor": true,
+        "translation": "pendiente"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencial)"
+      },
+      {
+        "id": "c11",
+        "text": "board",
+        "isDistractor": false,
+        "translation": "tablero"
+      },
+      {
+        "id": "c8",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c7",
+        "text": "left",
+        "isDistractor": false,
+        "translation": "pendiente (restante)"
+      },
+      {
+        "id": "d1",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c6",
+        "text": "work",
+        "isDistractor": false,
+        "translation": "trabajo"
+      },
+      {
+        "id": "c4",
+        "text": "too",
+        "isDistractor": false,
+        "translation": "demasiado"
+      },
+      {
+        "id": "d2",
+        "text": "workload",
+        "isDistractor": true,
+        "translation": "carga de trabajo"
+      },
+      {
+        "id": "c10",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "hay"
+      }
+    ],
+    "translations": {
+      "there": "(existencial)",
+      "is": "hay",
+      "still": "todavía",
+      "too": "demasiado",
+      "much": "mucho",
+      "work": "trabajo",
+      "left": "pendiente (restante)",
+      "on": "en",
+      "the": "el",
+      "sprint": "sprint",
+      "board": "tablero",
+      "are": "(auxiliar)",
+      "workload": "carga de trabajo",
+      "remaining": "pendiente"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: no hay",
+      "Verbo: haber",
+      "Complemento: comentarios prácticos",
+      "Complemento: en la retrospectiva"
+    ],
+    "hintDisplay": "Sujeto: no hay / Verbo: haber / Complemento: comentarios prácticos / Complemento: en la retrospectiva",
+    "spanishSentence": "No hay comentarios prácticos en la retrospectiva.",
+    "correctSentence": "There is no actionable feedback in the retro.",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c8",
+        "text": "retro",
+        "isDistractor": false,
+        "translation": "retrospectiva"
+      },
+      {
+        "id": "d1",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencial)"
+      },
+      {
+        "id": "d3",
+        "text": "useful",
+        "isDistractor": true,
+        "translation": "útiles"
+      },
+      {
+        "id": "c4",
+        "text": "actionable",
+        "isDistractor": false,
+        "translation": "prácticos"
+      },
+      {
+        "id": "c3",
+        "text": "no",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "hay"
+      },
+      {
+        "id": "d2",
+        "text": "any",
+        "isDistractor": true,
+        "translation": "algún"
+      },
+      {
+        "id": "c5",
+        "text": "feedback",
+        "isDistractor": false,
+        "translation": "comentarios"
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      }
+    ],
+    "translations": {
+      "there": "(existencial)",
+      "is": "hay",
+      "no": "no",
+      "actionable": "prácticos",
+      "feedback": "comentarios",
+      "in": "en",
+      "the": "la",
+      "retro": "retrospectiva",
+      "are": "(auxiliar)",
+      "any": "algún",
+      "useful": "útiles"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ninguna historia",
+      "Verbo: haber",
+      "Complemento: sin asignar en el tablero del sprint"
+    ],
+    "hintDisplay": "Sujeto: ninguna historia / Verbo: haber / Complemento: sin asignar en el tablero del sprint",
+    "spanishSentence": "No hay historias sin asignar en el tablero del sprint.",
+    "correctSentence": "There aren't any unassigned stories on the sprint board.",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c2",
+        "text": "aren't",
+        "isDistractor": false,
+        "translation": "hay (no hay)"
+      },
+      {
+        "id": "c5",
+        "text": "stories",
+        "isDistractor": false,
+        "translation": "historias"
+      },
+      {
+        "id": "d2",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "c9",
+        "text": "board",
+        "isDistractor": false,
+        "translation": "tablero"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencia)"
+      },
+      {
+        "id": "d3",
+        "text": "some",
+        "isDistractor": true,
+        "translation": "algunas"
+      },
+      {
+        "id": "c4",
+        "text": "unassigned",
+        "isDistractor": false,
+        "translation": "sin asignar"
+      },
+      {
+        "id": "c8",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "d4",
+        "text": "assigned",
+        "isDistractor": true,
+        "translation": "asignadas"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c3",
+        "text": "any",
+        "isDistractor": false,
+        "translation": "(negación)"
+      },
+      {
+        "id": "c6",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      }
+    ],
+    "translations": {
+      "there": "(existencia)",
+      "aren't": "hay (no hay)",
+      "any": "(negación)",
+      "unassigned": "sin asignar",
+      "stories": "historias",
+      "on": "en",
+      "the": "el",
+      "sprint": "sprint",
+      "board": "tablero",
+      "is": "(presente)",
+      "were": "(pasado)",
+      "some": "algunas",
+      "assigned": "asignadas"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: varios conflictos de fusión",
+      "Verbo: haber",
+      "Complemento: en la cola de revisión de código"
+    ],
+    "hintDisplay": "Sujeto: varios conflictos de fusión / Verbo: haber / Complemento: en la cola de revisión de código",
+    "spanishSentence": "Hay varios conflictos de fusión en la cola de revisión de código.",
+    "correctSentence": "There are several merge conflicts in the code review queue.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "review",
+        "isDistractor": false,
+        "translation": "revisión"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "hay"
+      },
+      {
+        "id": "c6",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c10",
+        "text": "queue",
+        "isDistractor": false,
+        "translation": "cola"
+      },
+      {
+        "id": "c4",
+        "text": "merge",
+        "isDistractor": false,
+        "translation": "fusión"
+      },
+      {
+        "id": "d2",
+        "text": "conflicting",
+        "isDistractor": true,
+        "translation": "conflictivos"
+      },
+      {
+        "id": "d3",
+        "text": "some",
+        "isDistractor": true,
+        "translation": "algunos"
+      },
+      {
+        "id": "d1",
+        "text": "merging",
+        "isDistractor": true,
+        "translation": "fusionando"
+      },
+      {
+        "id": "c5",
+        "text": "conflicts",
+        "isDistractor": false,
+        "translation": "conflictos"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c8",
+        "text": "code",
+        "isDistractor": false,
+        "translation": "código"
       },
       {
         "id": "c3",
@@ -1796,901 +1507,33 @@
         "translation": "varios"
       },
       {
-        "id": "c12",
-        "text": "the",
+        "id": "d4",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado de «estar»)"
+      },
+      {
+        "id": "c2",
+        "text": "are",
         "isDistractor": false,
-        "translation": "el"
+        "translation": "(forma verbal de «haber»)"
       }
     ],
     "translations": {
       "there": "hay",
-      "are": "(verbo ser/estar)",
+      "are": "(forma verbal de «haber»)",
       "several": "varios",
-      "evaluation": "evaluación",
-      "criteria": "criterios",
-      "for": "para",
-      "the": "el",
-      "stakeholder": "stakeholder (stakeholder)",
-      "to": "(marca de infinitivo)",
-      "evaluate": "evaluar",
-      "during": "durante",
-      "scrum": "Scrum",
-      "meeting": "reunión",
-      "evaluates": "evalúa",
-      "them": "los",
-      "is": "(verbo ser/estar)"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: información",
-      "Verbo: haber",
-      "Complemento: para que el scrum master haga seguimiento durante las reuniones de desarrollo"
-    ],
-    "hintDisplay": "Sujeto: información / Verbo: haber / Complemento: para que el scrum master haga seguimiento durante las reuniones de desarrollo",
-    "spanishSentence": "Hay información para que el scrum master haga seguimiento durante las reuniones de desarrollo.",
-    "correctSentence": "There is information for the scrum master to track during the dev meetings.",
-    "cards": [
-      {
-        "id": "c8",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c10",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c4",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c6",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c7",
-        "text": "master",
-        "isDistractor": false,
-        "translation": "responsable"
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "d1",
-        "text": "tracked",
-        "isDistractor": true,
-        "translation": "seguido"
-      },
-      {
-        "id": "d2",
-        "text": "tracking",
-        "isDistractor": true,
-        "translation": "seguimiento"
-      },
-      {
-        "id": "c3",
-        "text": "information",
-        "isDistractor": false,
-        "translation": "información"
-      },
-      {
-        "id": "d4",
-        "text": "does",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c9",
-        "text": "track",
-        "isDistractor": false,
-        "translation": "hacer seguimiento"
-      },
-      {
-        "id": "c12",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "d3",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellos/ellas"
-      },
-      {
-        "id": "c5",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el/la"
-      },
-      {
-        "id": "c13",
-        "text": "meetings",
-        "isDistractor": false,
-        "translation": "reuniones"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el/la"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "is": "(verbo ser/estar)",
-      "information": "información",
-      "for": "para",
-      "the": "el/la",
-      "scrum": "scrum",
-      "master": "responsable",
-      "to": "(marca de infinitivo)",
-      "track": "hacer seguimiento",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meetings": "reuniones",
-      "tracked": "seguido",
-      "tracking": "seguimiento",
-      "them": "ellos/ellas",
-      "does": "(auxiliar)"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: no hay reuniones",
-      "Verbo: haber (existencia)",
-      "Complemento: para que el interno observe",
-      "Tiempo: durante el scrum"
-    ],
-    "hintDisplay": "Sujeto: no hay reuniones / Verbo: haber (existencia) / Complemento: para que el interno observe / Tiempo: durante el scrum",
-    "spanishSentence": "No hay reuniones para que el interno observe durante el scrum.",
-    "correctSentence": "There aren't any meetings for the intern to observe during the scrum.",
-    "cards": [
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c9",
-        "text": "observe",
-        "isDistractor": false,
-        "translation": "observar"
-      },
-      {
-        "id": "c8",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c7",
-        "text": "intern",
-        "isDistractor": false,
-        "translation": "interno"
-      },
-      {
-        "id": "d4",
-        "text": "attend",
-        "isDistractor": true,
-        "translation": "asistir"
-      },
-      {
-        "id": "c4",
-        "text": "meetings",
-        "isDistractor": false,
-        "translation": "reuniones"
-      },
-      {
-        "id": "d1",
-        "text": "isn't",
-        "isDistractor": true,
-        "translation": "no es"
-      },
-      {
-        "id": "d3",
-        "text": "him",
-        "isDistractor": true,
-        "translation": "él"
-      },
-      {
-        "id": "c10",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c12",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c2",
-        "text": "aren't",
-        "isDistractor": false,
-        "translation": "no hay"
-      },
-      {
-        "id": "c3",
-        "text": "any",
-        "isDistractor": false,
-        "translation": "ningunas"
-      },
-      {
-        "id": "d2",
-        "text": "some",
-        "isDistractor": true,
-        "translation": "algunas"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "aren't": "no hay",
-      "any": "ningunas",
-      "meetings": "reuniones",
-      "for": "para",
-      "the": "el",
-      "intern": "interno",
-      "to": "(marca de infinitivo)",
-      "observe": "observar",
-      "during": "durante",
-      "scrum": "scrum",
-      "isn't": "no es",
-      "some": "algunas",
-      "him": "él",
-      "attend": "asistir"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: ellos",
-      "Verbo: haber",
-      "Complemento: suficiente tiempo",
-      "Cláusula: durante la reunión de scrum, ellos depuran"
-    ],
-    "hintDisplay": "Sujeto: ellos / Verbo: haber / Complemento: suficiente tiempo / Cláusula: durante la reunión de scrum, ellos depuran",
-    "spanishSentence": "No hay suficiente tiempo para que ellos depuren durante la reunión de scrum.",
-    "correctSentence": "There is not enough time for them to debug during the scrum meeting.",
-    "cards": [
-      {
-        "id": "c9",
-        "text": "debug",
-        "isDistractor": false,
-        "translation": "depurar"
-      },
-      {
-        "id": "c8",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c10",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c13",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "d1",
-        "text": "has",
-        "isDistractor": true,
-        "translation": "(verbo tener)"
-      },
-      {
-        "id": "c6",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "d4",
-        "text": "among",
-        "isDistractor": true,
-        "translation": "entre"
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "d3",
-        "text": "debugging",
-        "isDistractor": true,
-        "translation": "depuración"
-      },
-      {
-        "id": "c5",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c12",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c7",
-        "text": "them",
-        "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
-        "id": "c3",
-        "text": "not",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c4",
-        "text": "enough",
-        "isDistractor": false,
-        "translation": "suficiente"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "d2",
-        "text": "us",
-        "isDistractor": true,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "la"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "is": "(verbo ser/estar)",
-      "not": "no",
-      "enough": "suficiente",
-      "time": "tiempo",
-      "for": "para",
-      "them": "ellos",
-      "to": "(marca de infinitivo)",
-      "debug": "depurar",
-      "during": "durante",
-      "the": "la",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "has": "(verbo tener)",
-      "us": "nosotros",
-      "debugging": "depuración",
-      "among": "entre"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": false,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el dueño del producto",
-      "Verbo: haber",
-      "Complemento: ningún tiempo para revisar el backlog del sprint",
-      "Cláusula: durante la reunión de desarrollo"
-    ],
-    "hintDisplay": "Sujeto: el dueño del producto / Verbo: haber / Complemento: ningún tiempo para revisar el backlog del sprint / Cláusula: durante la reunión de desarrollo",
-    "spanishSentence": "No hay tiempo para que el dueño del producto revise el backlog del sprint durante la reunión de desarrollo.",
-    "correctSentence": "There is no time for the product owner to review the sprint backlog during the dev meeting.",
-    "cards": [
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "d4",
-        "text": "reviews",
-        "isDistractor": true,
-        "translation": "revisa"
-      },
-      {
-        "id": "c9",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c13",
-        "text": "backlog",
-        "isDistractor": false,
-        "translation": "backlog"
-      },
-      {
-        "id": "d1",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "tener"
-      },
-      {
-        "id": "c8",
-        "text": "owner",
-        "isDistractor": false,
-        "translation": "dueño"
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "c14",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c12",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c4",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "d3",
-        "text": "can",
-        "isDistractor": true,
-        "translation": "poder"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c17",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c15",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c7",
-        "text": "product",
-        "isDistractor": false,
-        "translation": "producto"
-      },
-      {
-        "id": "c3",
-        "text": "no",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c16",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c10",
-        "text": "review",
-        "isDistractor": false,
-        "translation": "revisar"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "is": "(verbo ser/estar)",
-      "no": "no",
-      "time": "tiempo",
-      "for": "para",
-      "the": "el",
-      "product": "producto",
-      "owner": "dueño",
-      "to": "(marca de infinitivo)",
-      "review": "revisar",
-      "sprint": "sprint",
-      "backlog": "backlog",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "have": "tener",
-      "them": "ellos",
-      "can": "poder",
-      "reviews": "revisa"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: no hay tiempo",
-      "Verbo: haber",
-      "Complemento: discutir el backlog del sprint en la reunión de desarrollo"
-    ],
-    "hintDisplay": "Sujeto: no hay tiempo / Verbo: haber / Complemento: discutir el backlog del sprint en la reunión de desarrollo",
-    "spanishSentence": "No hay tiempo para discutir el backlog del sprint en la reunión de desarrollo.",
-    "correctSentence": "There is no time to discuss the sprint backlog in the dev meeting.",
-    "cards": [
-      {
-        "id": "c4",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c10",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c13",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c5",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c11",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c8",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c12",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "c7",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c6",
-        "text": "discuss",
-        "isDistractor": false,
-        "translation": "discutir"
-      },
-      {
-        "id": "d2",
-        "text": "discussing",
-        "isDistractor": true,
-        "translation": "discutiendo"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "d4",
-        "text": "developmental",
-        "isDistractor": true,
-        "translation": "de desarrollo"
-      },
-      {
-        "id": "c3",
-        "text": "no",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "d1",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "tener"
-      },
-      {
-        "id": "d3",
-        "text": "they",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c9",
-        "text": "backlog",
-        "isDistractor": false,
-        "translation": "backlog"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "is": "(verbo ser/estar)",
-      "no": "no",
-      "time": "tiempo",
-      "to": "(marca de infinitivo)",
-      "discuss": "discutir",
-      "the": "el",
-      "sprint": "sprint",
-      "backlog": "backlog",
+      "merge": "fusión",
+      "conflicts": "conflictos",
       "in": "en",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "have": "tener",
-      "discussing": "discutiendo",
-      "they": "ellos",
-      "developmental": "de desarrollo"
-    },
-    "metadata": {
-      "tense": "there is/are",
-      "isNegative": true,
-      "isQuestion": false,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: hay suficiente tiempo",
-      "Verbo: haber (existencia)",
-      "Complemento: para que el equipo planifique el próximo sprint",
-      "Cláusula: durante la reunión de desarrollo"
-    ],
-    "hintDisplay": "Sujeto: hay suficiente tiempo / Verbo: haber (existencia) / Complemento: para que el equipo planifique el próximo sprint / Cláusula: durante la reunión de desarrollo",
-    "spanishSentence": "Hay suficiente tiempo para que el equipo planifique el próximo sprint durante la reunión de desarrollo.",
-    "correctSentence": "There is enough time for the team to plan the next sprint during the dev meeting.",
-    "cards": [
-      {
-        "id": "c4",
-        "text": "time",
-        "isDistractor": false,
-        "translation": "tiempo"
-      },
-      {
-        "id": "c11",
-        "text": "next",
-        "isDistractor": false,
-        "translation": "próximo"
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "d3",
-        "text": "planning",
-        "isDistractor": true,
-        "translation": "planificación"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "hay"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c16",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c3",
-        "text": "enough",
-        "isDistractor": false,
-        "translation": "suficiente"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c2",
-        "text": "is",
-        "isDistractor": false,
-        "translation": "(verbo ser/estar)"
-      },
-      {
-        "id": "c9",
-        "text": "plan",
-        "isDistractor": false,
-        "translation": "planificar"
-      },
-      {
-        "id": "c15",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "d1",
-        "text": "have",
-        "isDistractor": true,
-        "translation": "tener"
-      },
-      {
-        "id": "c13",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c8",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c12",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "d2",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c7",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c5",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      }
-    ],
-    "translations": {
-      "there": "hay",
-      "is": "(verbo ser/estar)",
-      "enough": "suficiente",
-      "time": "tiempo",
-      "for": "para",
-      "the": "el",
-      "team": "equipo",
-      "to": "(marca de infinitivo)",
-      "plan": "planificar",
-      "next": "próximo",
-      "sprint": "sprint",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "have": "tener",
-      "them": "ellos",
-      "planning": "planificación"
+      "the": "la",
+      "code": "código",
+      "review": "revisión",
+      "queue": "cola",
+      "merging": "fusionando",
+      "conflicting": "conflictivos",
+      "some": "algunos",
+      "were": "(pasado de «estar»)"
     },
     "metadata": {
       "tense": "there is/are",
@@ -2702,92 +1545,19 @@
   },
   {
     "hints": [
-      "Sujeto: no hay reportes de errores",
+      "Sujeto: hay tres tareas",
       "Verbo: haber",
-      "Complemento: sin verificar",
-      "Complemento: para que el ingeniero de QA los verifique durante la reunión de desarrollo"
+      "Complemento: pendientes de la retrospectiva"
     ],
-    "hintDisplay": "Sujeto: no hay reportes de errores / Verbo: haber / Complemento: sin verificar / Complemento: para que el ingeniero de QA los verifique durante la reunión de desarrollo",
-    "spanishSentence": "No hay reportes de errores sin verificar para que el ingeniero de QA los verifique durante la reunión de desarrollo.",
-    "correctSentence": "There are no unverified bug reports for the QA engineer to verify during the dev meeting.",
+    "hintDisplay": "Sujeto: hay tres tareas / Verbo: haber / Complemento: pendientes de la retrospectiva",
+    "spanishSentence": "Hay tres tareas pendientes de la retro.",
+    "correctSentence": "There are three action items from the retro.",
     "cards": [
       {
-        "id": "c11",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c7",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
-        "id": "c14",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "d3",
-        "text": "does",
+        "id": "d2",
+        "text": "was",
         "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c3",
-        "text": "no",
-        "isDistractor": false,
-        "translation": "no"
-      },
-      {
-        "id": "c12",
-        "text": "verify",
-        "isDistractor": false,
-        "translation": "verificar"
-      },
-      {
-        "id": "c9",
-        "text": "QA",
-        "isDistractor": false,
-        "translation": "QA"
-      },
-      {
-        "id": "c1",
-        "text": "There",
-        "isDistractor": false,
-        "translation": "(existencia)"
-      },
-      {
-        "id": "c15",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c16",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c6",
-        "text": "reports",
-        "isDistractor": false,
-        "translation": "reportes"
-      },
-      {
-        "id": "d1",
-        "text": "verified",
-        "isDistractor": true,
-        "translation": "verificado"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
+        "translation": "(pasado)"
       },
       {
         "id": "c2",
@@ -2796,59 +1566,623 @@
         "translation": "hay"
       },
       {
-        "id": "c10",
-        "text": "engineer",
-        "isDistractor": false,
-        "translation": "ingeniero"
+        "id": "d4",
+        "text": "those",
+        "isDistractor": true,
+        "translation": "esas"
       },
       {
-        "id": "c4",
-        "text": "unverified",
+        "id": "c1",
+        "text": "There",
         "isDistractor": false,
-        "translation": "sin verificar"
+        "translation": "(existencia)"
       },
       {
         "id": "c5",
-        "text": "bug",
+        "text": "items",
         "isDistractor": false,
-        "translation": "error"
+        "translation": "tareas"
       },
       {
-        "id": "d2",
-        "text": "him",
+        "id": "d1",
+        "text": "is",
         "isDistractor": true,
-        "translation": "lo"
+        "translation": "(presente)"
       },
       {
-        "id": "c13",
-        "text": "during",
+        "id": "c4",
+        "text": "action",
         "isDistractor": false,
-        "translation": "durante"
+        "translation": "tareas"
+      },
+      {
+        "id": "c6",
+        "text": "from",
+        "isDistractor": false,
+        "translation": "de"
+      },
+      {
+        "id": "d3",
+        "text": "have",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c3",
+        "text": "three",
+        "isDistractor": false,
+        "translation": "tres"
+      },
+      {
+        "id": "c8",
+        "text": "retro",
+        "isDistractor": false,
+        "translation": "retro"
       }
     ],
     "translations": {
       "there": "(existencia)",
       "are": "hay",
-      "no": "no",
-      "unverified": "sin verificar",
-      "bug": "error",
-      "reports": "reportes",
+      "three": "tres",
+      "action": "tareas",
+      "items": "tareas",
+      "from": "de",
+      "the": "la",
+      "retro": "retro",
+      "is": "(presente)",
+      "was": "(pasado)",
+      "have": "(auxiliar)",
+      "those": "esas"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: hay suficiente tiempo",
+      "Verbo: haber",
+      "Complemento: para la retrospectiva"
+    ],
+    "hintDisplay": "Sujeto: hay suficiente tiempo / Verbo: haber / Complemento: para la retrospectiva",
+    "spanishSentence": "Hay suficiente tiempo para la retrospectiva.",
+    "correctSentence": "There is enough time for the retro.",
+    "cards": [
+      {
+        "id": "c3",
+        "text": "enough",
+        "isDistractor": false,
+        "translation": "suficiente"
+      },
+      {
+        "id": "c5",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      },
+      {
+        "id": "d3",
+        "text": "were",
+        "isDistractor": true,
+        "translation": "(pasado)"
+      },
+      {
+        "id": "d2",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "d4",
+        "text": "retrospective",
+        "isDistractor": true,
+        "translation": "retrospectiva"
+      },
+      {
+        "id": "c4",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "tiempo"
+      },
+      {
+        "id": "d1",
+        "text": "has",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "retro",
+        "isDistractor": false,
+        "translation": "retrospectiva"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencia)"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "hay"
+      }
+    ],
+    "translations": {
+      "there": "(existencia)",
+      "is": "hay",
+      "enough": "suficiente",
+      "time": "tiempo",
       "for": "para",
+      "the": "la",
+      "retro": "retrospectiva",
+      "has": "(auxiliar)",
+      "they": "ellos",
+      "were": "(pasado)",
+      "retrospective": "retrospectiva"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: impersonal",
+      "Verbo: haber",
+      "Complemento: tiempo suficiente para la retrospectiva"
+    ],
+    "hintDisplay": "Sujeto: impersonal / Verbo: haber / Complemento: tiempo suficiente para la retrospectiva",
+    "spanishSentence": "Apenas hay tiempo suficiente para la retrospectiva.",
+    "correctSentence": "There is barely enough time for the retro.",
+    "cards": [
+      {
+        "id": "c8",
+        "text": "retro",
+        "isDistractor": false,
+        "translation": "retrospectiva"
+      },
+      {
+        "id": "d2",
+        "text": "plenty",
+        "isDistractor": true,
+        "translation": "mucho"
+      },
+      {
+        "id": "d3",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "era"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "hay"
+      },
+      {
+        "id": "c3",
+        "text": "barely",
+        "isDistractor": false,
+        "translation": "apenas"
+      },
+      {
+        "id": "c4",
+        "text": "enough",
+        "isDistractor": false,
+        "translation": "suficiente"
+      },
+      {
+        "id": "d4",
+        "text": "retrospective",
+        "isDistractor": true,
+        "translation": "retrospectiva"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencial)"
+      },
+      {
+        "id": "c5",
+        "text": "time",
+        "isDistractor": false,
+        "translation": "tiempo"
+      },
+      {
+        "id": "d1",
+        "text": "hardly",
+        "isDistractor": true,
+        "translation": "apenas"
+      },
+      {
+        "id": "c6",
+        "text": "for",
+        "isDistractor": false,
+        "translation": "para"
+      }
+    ],
+    "translations": {
+      "there": "(existencial)",
+      "is": "hay",
+      "barely": "apenas",
+      "enough": "suficiente",
+      "time": "tiempo",
+      "for": "para",
+      "the": "la",
+      "retro": "retrospectiva",
+      "hardly": "apenas",
+      "plenty": "mucho",
+      "was": "era",
+      "retrospective": "retrospectiva"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: ningún ticket",
+      "Verbo: haber",
+      "Complemento: en progreso",
+      "Complemento: en el tablero del sprint"
+    ],
+    "hintDisplay": "Sujeto: ningún ticket / Verbo: haber / Complemento: en progreso / Complemento: en el tablero del sprint",
+    "spanishSentence": "No hay tickets en progreso en el tablero del sprint.",
+    "correctSentence": "There aren't any tickets in progress on the sprint board.",
+    "cards": [
+      {
+        "id": "c6",
+        "text": "progress",
+        "isDistractor": false,
+        "translation": "progreso"
+      },
+      {
+        "id": "d3",
+        "text": "some",
+        "isDistractor": true,
+        "translation": "algunos"
+      },
+      {
+        "id": "c3",
+        "text": "any",
+        "isDistractor": false,
+        "translation": "(negación)"
+      },
+      {
+        "id": "d4",
+        "text": "tasks",
+        "isDistractor": true,
+        "translation": "tareas"
+      },
+      {
+        "id": "c4",
+        "text": "tickets",
+        "isDistractor": false,
+        "translation": "tickets"
+      },
+      {
+        "id": "d2",
+        "text": "was",
+        "isDistractor": true,
+        "translation": "(verbo auxiliar)"
+      },
+      {
+        "id": "c7",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c2",
+        "text": "aren't",
+        "isDistractor": false,
+        "translation": "hay (no hay)"
+      },
+      {
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(verbo auxiliar)"
+      },
+      {
+        "id": "c10",
+        "text": "board",
+        "isDistractor": false,
+        "translation": "tablero"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencia)"
+      },
+      {
+        "id": "c9",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c5",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      }
+    ],
+    "translations": {
+      "there": "(existencia)",
+      "aren't": "hay (no hay)",
+      "any": "(negación)",
+      "tickets": "tickets",
+      "in": "en",
+      "progress": "progreso",
+      "on": "en",
       "the": "el",
-      "qa": "QA",
-      "engineer": "ingeniero",
-      "to": "(marca de infinitivo)",
-      "verify": "verificar",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "verified": "verificado",
-      "him": "lo",
-      "does": "(auxiliar)"
+      "sprint": "sprint",
+      "board": "tablero",
+      "is": "(verbo auxiliar)",
+      "was": "(verbo auxiliar)",
+      "some": "algunos",
+      "tasks": "tareas"
     },
     "metadata": {
       "tense": "there is/are",
       "isNegative": true,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: comentarios útiles",
+      "Verbo: haber",
+      "Complemento: en la retro"
+    ],
+    "hintDisplay": "Sujeto: comentarios útiles / Verbo: haber / Complemento: en la retro",
+    "spanishSentence": "Hay comentarios útiles en la retro.",
+    "correctSentence": "There is useful feedback in the retro.",
+    "cards": [
+      {
+        "id": "c4",
+        "text": "feedback",
+        "isDistractor": false,
+        "translation": "comentarios"
+      },
+      {
+        "id": "d2",
+        "text": "some",
+        "isDistractor": true,
+        "translation": "(cantidad)"
+      },
+      {
+        "id": "c7",
+        "text": "retro",
+        "isDistractor": false,
+        "translation": "retro"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencial)"
+      },
+      {
+        "id": "c3",
+        "text": "useful",
+        "isDistractor": false,
+        "translation": "útiles"
+      },
+      {
+        "id": "c5",
+        "text": "in",
+        "isDistractor": false,
+        "translation": "en"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "hay"
+      },
+      {
+        "id": "d1",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(plural)"
+      },
+      {
+        "id": "d3",
+        "text": "helpful",
+        "isDistractor": true,
+        "translation": "útiles"
+      },
+      {
+        "id": "d4",
+        "text": "retrospective",
+        "isDistractor": true,
+        "translation": "retrospectiva"
+      }
+    ],
+    "translations": {
+      "there": "(existencial)",
+      "is": "hay",
+      "useful": "útiles",
+      "feedback": "comentarios",
+      "in": "en",
+      "the": "la",
+      "retro": "retro",
+      "are": "(plural)",
+      "some": "(cantidad)",
+      "helpful": "útiles",
+      "retrospective": "retrospectiva"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
+      "isQuestion": false,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: trabajo de QA",
+      "Verbo: haber",
+      "Complemento: demasiado trabajo de QA en el tablero del sprint"
+    ],
+    "hintDisplay": "Sujeto: trabajo de QA / Verbo: haber / Complemento: demasiado trabajo de QA en el tablero del sprint",
+    "spanishSentence": "Hay demasiado trabajo de QA en el tablero del sprint.",
+    "correctSentence": "There is too much QA work on the sprint board.",
+    "cards": [
+      {
+        "id": "c9",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c8",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c4",
+        "text": "much",
+        "isDistractor": false,
+        "translation": "(cantidad)"
+      },
+      {
+        "id": "d4",
+        "text": "there's",
+        "isDistractor": true,
+        "translation": "hay"
+      },
+      {
+        "id": "d3",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c5",
+        "text": "QA",
+        "isDistractor": false,
+        "translation": "QA"
+      },
+      {
+        "id": "c6",
+        "text": "work",
+        "isDistractor": false,
+        "translation": "trabajo"
+      },
+      {
+        "id": "c10",
+        "text": "board",
+        "isDistractor": false,
+        "translation": "tablero"
+      },
+      {
+        "id": "d1",
+        "text": "many",
+        "isDistractor": true,
+        "translation": "muchos"
+      },
+      {
+        "id": "c2",
+        "text": "is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "c3",
+        "text": "too",
+        "isDistractor": false,
+        "translation": "demasiado"
+      },
+      {
+        "id": "c1",
+        "text": "There",
+        "isDistractor": false,
+        "translation": "(existencia)"
+      },
+      {
+        "id": "d2",
+        "text": "little",
+        "isDistractor": true,
+        "translation": "poco"
+      },
+      {
+        "id": "c7",
+        "text": "on",
+        "isDistractor": false,
+        "translation": "en"
+      }
+    ],
+    "translations": {
+      "there": "(existencia)",
+      "is": "(presente)",
+      "too": "demasiado",
+      "much": "(cantidad)",
+      "qa": "QA",
+      "work": "trabajo",
+      "on": "en",
+      "the": "el",
+      "sprint": "sprint",
+      "board": "tablero",
+      "many": "muchos",
+      "little": "poco",
+      "are": "(presente)",
+      "there's": "hay"
+    },
+    "metadata": {
+      "tense": "there is/are",
+      "isNegative": false,
       "isQuestion": false,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"

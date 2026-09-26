@@ -1,44 +1,55 @@
 [
   {
     "hints": [
-      "Sujeto: nosotros",
-      "Verbo: estimar (futuro inmediato interrogativo negativo)",
-      "Complemento: los puntos de historia",
-      "Tiempo: en la próxima reunión de scrum"
+      "Sujeto: tú",
+      "Verbo: ir a trabajar",
+      "Complemento: en pareja con el ingeniero de control de calidad"
     ],
-    "hintDisplay": "Sujeto: nosotros / Verbo: estimar (futuro inmediato interrogativo negativo) / Complemento: los puntos de historia / Tiempo: en la próxima reunión de scrum",
-    "spanishSentence": "¿No vamos a estimar los puntos de historia en la próxima reunión de scrum?",
-    "correctSentence": "Aren't we going to estimate the story points in the next scrum meeting?",
+    "hintDisplay": "Sujeto: tú / Verbo: ir a trabajar / Complemento: en pareja con el ingeniero de control de calidad",
+    "spanishSentence": "¿No vas a trabajar en pareja con el ingeniero de QA?",
+    "correctSentence": "Aren’t you going to pair with the QA engineer?",
     "cards": [
       {
+        "id": "d2",
+        "text": "do",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c9",
+        "text": "engineer",
+        "isDistractor": false,
+        "translation": "ingeniero"
+      },
+      {
         "id": "d4",
-        "text": "estimating",
+        "text": "they",
         "isDistractor": true,
-        "translation": "estimando"
+        "translation": "ellos"
       },
       {
-        "id": "qm",
-        "text": "?",
+        "id": "c8",
+        "text": "QA",
         "isDistractor": false,
-        "translation": "signo de interrogación"
+        "translation": "QA"
       },
       {
-        "id": "c7",
-        "text": "story",
+        "id": "c1",
+        "text": "Aren’t",
         "isDistractor": false,
-        "translation": "historia"
+        "translation": "(auxiliar de negación)"
       },
       {
-        "id": "d1",
-        "text": "Won't",
-        "isDistractor": true,
-        "translation": "(auxiliar negación futuro)"
+        "id": "c5",
+        "text": "pair",
+        "isDistractor": false,
+        "translation": "trabajar en pareja (emparejarse)"
       },
       {
-        "id": "d3",
-        "text": "Should",
-        "isDistractor": true,
-        "translation": "deberíamos"
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "(sujeto)"
       },
       {
         "id": "c4",
@@ -47,95 +58,56 @@
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "c1",
-        "text": "Aren't",
-        "isDistractor": false,
-        "translation": "(auxiliar negación + presente)"
+        "id": "d1",
+        "text": "is",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
       },
       {
-        "id": "c12",
-        "text": "scrum",
+        "id": "qm",
+        "text": "?",
         "isDistractor": false,
-        "translation": "scrum"
+        "translation": "signo de interrogación"
       },
       {
         "id": "c3",
         "text": "going",
         "isDistractor": false,
-        "translation": "yendo"
+        "translation": "vas"
       },
       {
-        "id": "c11",
-        "text": "next",
-        "isDistractor": false,
-        "translation": "próxima"
-      },
-      {
-        "id": "c13",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c10",
+        "id": "c7",
         "text": "the",
         "isDistractor": false,
         "translation": "el"
       },
       {
-        "id": "c5",
-        "text": "estimate",
-        "isDistractor": false,
-        "translation": "estimar"
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c2",
-        "text": "we",
-        "isDistractor": false,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c8",
-        "text": "points",
-        "isDistractor": false,
-        "translation": "puntos"
+        "id": "d3",
+        "text": "work",
+        "isDistractor": true,
+        "translation": "trabajar"
       },
       {
         "id": "c6",
-        "text": "the",
+        "text": "with",
         "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "d2",
-        "text": "We're",
-        "isDistractor": true,
-        "translation": "estamos"
+        "translation": "con"
       }
     ],
     "translations": {
-      "aren't": "(auxiliar negación + presente)",
-      "we": "nosotros",
-      "going": "yendo",
+      "aren’t": "(auxiliar de negación)",
+      "you": "(sujeto)",
+      "going": "vas",
       "to": "(marca de infinitivo)",
-      "estimate": "estimar",
+      "pair": "trabajar en pareja (emparejarse)",
+      "with": "con",
       "the": "el",
-      "story": "historia",
-      "points": "puntos",
-      "in": "en",
-      "next": "próxima",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "won't": "(auxiliar negación futuro)",
-      "we're": "estamos",
-      "should": "deberíamos",
-      "estimating": "estimando"
+      "qa": "QA",
+      "engineer": "ingeniero",
+      "is": "(auxiliar)",
+      "do": "(auxiliar)",
+      "work": "trabajar",
+      "they": "ellos"
     },
     "metadata": {
       "tense": "going to",
@@ -147,20 +119,38 @@
   },
   {
     "hints": [
-      "Sujeto: yo",
-      "Verbo: ir (para expresar futuro próximo)",
-      "Complemento: aprender a usar el tablero de sprint",
-      "Cláusula: mientras la reunión de desarrollo"
+      "Sujeto: el propietario del producto",
+      "Verbo: agregar (en una pregunta negativa sobre una acción futura)",
+      "Complemento: los criterios de aceptación",
+      "Complemento: a la historia de la página de perfil"
     ],
-    "hintDisplay": "Sujeto: yo / Verbo: ir (para expresar futuro próximo) / Complemento: aprender a usar el tablero de sprint / Cláusula: mientras la reunión de desarrollo",
-    "spanishSentence": "¿Voy a aprender a usar el tablero de sprint durante la reunión de desarrollo?",
-    "correctSentence": "Am I going to learn how to use the sprint board during the dev meeting?",
+    "hintDisplay": "Sujeto: el propietario del producto / Verbo: agregar (en una pregunta negativa sobre una acción futura) / Complemento: los criterios de aceptación / Complemento: a la historia de la página de perfil",
+    "spanishSentence": "¿El propietario del producto no va a agregar los criterios de aceptación a la historia de la página de perfil?",
+    "correctSentence": "Is the product owner not going to add the acceptance criteria to the profile page story?",
     "cards": [
       {
-        "id": "c12",
-        "text": "during",
+        "id": "c16",
+        "text": "story",
         "isDistractor": false,
-        "translation": "durante"
+        "translation": "historia"
+      },
+      {
+        "id": "c5",
+        "text": "not",
+        "isDistractor": false,
+        "translation": "no"
+      },
+      {
+        "id": "c3",
+        "text": "product",
+        "isDistractor": false,
+        "translation": "producto"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
       },
       {
         "id": "c7",
@@ -169,46 +159,10 @@
         "translation": "(marca de infinitivo)"
       },
       {
-        "id": "c9",
+        "id": "c13",
         "text": "the",
         "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d3",
-        "text": "We",
-        "isDistractor": true,
-        "translation": "nosotros"
-      },
-      {
-        "id": "c10",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c14",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "d1",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c1",
-        "text": "Am",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "(artículo)"
       },
       {
         "id": "qm",
@@ -217,81 +171,105 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "c6",
-        "text": "how",
-        "isDistractor": false,
-        "translation": "cómo"
-      },
-      {
         "id": "d2",
-        "text": "Should",
+        "text": "does",
         "isDistractor": true,
-        "translation": "debería"
-      },
-      {
-        "id": "c15",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c2",
-        "text": "I",
-        "isDistractor": false,
-        "translation": "yo"
+        "translation": "(auxiliar)"
       },
       {
         "id": "c8",
-        "text": "use",
+        "text": "add",
         "isDistractor": false,
-        "translation": "usar"
-      },
-      {
-        "id": "c3",
-        "text": "going",
-        "isDistractor": false,
-        "translation": "ir"
-      },
-      {
-        "id": "c5",
-        "text": "learn",
-        "isDistractor": false,
-        "translation": "aprender"
+        "translation": "agregar"
       },
       {
         "id": "c11",
-        "text": "board",
+        "text": "criteria",
         "isDistractor": false,
-        "translation": "tablero"
+        "translation": "criterios"
       },
       {
-        "id": "c13",
+        "id": "c10",
+        "text": "acceptance",
+        "isDistractor": false,
+        "translation": "aceptación"
+      },
+      {
+        "id": "c6",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "va"
+      },
+      {
+        "id": "c12",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c2",
         "text": "the",
         "isDistractor": false,
-        "translation": "el"
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c1",
+        "text": "Is",
+        "isDistractor": false,
+        "translation": "(presente)"
+      },
+      {
+        "id": "d1",
+        "text": "are",
+        "isDistractor": true,
+        "translation": "(presente)"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
+      },
+      {
+        "id": "c4",
+        "text": "owner",
+        "isDistractor": false,
+        "translation": "propietario"
+      },
+      {
+        "id": "c15",
+        "text": "page",
+        "isDistractor": false,
+        "translation": "página"
+      },
+      {
+        "id": "c14",
+        "text": "profile",
+        "isDistractor": false,
+        "translation": "perfil"
       }
     ],
     "translations": {
-      "am": "(auxiliar)",
-      "i": "yo",
-      "going": "ir",
+      "is": "(presente)",
+      "the": "(artículo)",
+      "product": "producto",
+      "owner": "propietario",
+      "not": "no",
+      "going": "va",
       "to": "(marca de infinitivo)",
-      "learn": "aprender",
-      "how": "cómo",
-      "use": "usar",
-      "the": "el",
-      "sprint": "sprint",
-      "board": "tablero",
-      "during": "durante",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "will": "(futuro)",
-      "should": "debería",
-      "we": "nosotros"
+      "add": "agregar",
+      "acceptance": "aceptación",
+      "criteria": "criterios",
+      "profile": "perfil",
+      "page": "página",
+      "story": "historia",
+      "are": "(presente)",
+      "does": "(auxiliar)",
+      "they": "ellos"
     },
     "metadata": {
       "tense": "going to",
-      "isNegative": false,
+      "isNegative": true,
       "isQuestion": true,
       "difficulty": "beginner",
       "topic": "dev meetings & scrum"
@@ -299,20 +277,31 @@
   },
   {
     "hints": [
-      "Sujeto: ustedes",
-      "Verbo: ir a (futuro inmediato)",
-      "Complemento: patrocinar las herramientas de desarrollo del nuevo sprint",
-      "Complemento: para el equipo de desarrollo"
+      "Sujeto: nosotros",
+      "Verbo: llevar",
+      "Complemento: la historia de búsqueda al siguiente sprint"
     ],
-    "hintDisplay": "Sujeto: ustedes / Verbo: ir a (futuro inmediato) / Complemento: patrocinar las herramientas de desarrollo del nuevo sprint / Complemento: para el equipo de desarrollo",
-    "spanishSentence": "¿Ustedes van a patrocinar las herramientas de desarrollo del nuevo sprint para el equipo de desarrollo?",
-    "correctSentence": "Are you going to sponsor the new sprint's development tools for the dev team?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: llevar / Complemento: la historia de búsqueda al siguiente sprint",
+    "spanishSentence": "¿Vamos a llevar la historia de búsqueda al siguiente sprint?",
+    "correctSentence": "Are we going to carry the search story over to the next sprint?",
     "cards": [
       {
-        "id": "c6",
-        "text": "the",
+        "id": "c10",
+        "text": "to",
         "isDistractor": false,
-        "translation": "el"
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d4",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "(ellos)"
+      },
+      {
+        "id": "c13",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
       },
       {
         "id": "c1",
@@ -321,70 +310,70 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "c14",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c8",
-        "text": "sprint's",
-        "isDistractor": false,
-        "translation": "del sprint"
-      },
-      {
-        "id": "c11",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      },
-      {
         "id": "c2",
-        "text": "you",
+        "text": "we",
         "isDistractor": false,
-        "translation": "ustedes"
+        "translation": "(nosotros)"
       },
       {
         "id": "c5",
-        "text": "sponsor",
+        "text": "carry",
         "isDistractor": false,
-        "translation": "patrocinar"
+        "translation": "llevar"
       },
       {
-        "id": "c13",
-        "text": "dev",
+        "id": "c3",
+        "text": "going",
         "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "d3",
-        "text": "finance",
-        "isDistractor": true,
-        "translation": "financiar"
+        "translation": "(futuro)"
       },
       {
         "id": "c7",
-        "text": "new",
+        "text": "search",
         "isDistractor": false,
-        "translation": "nuevo"
+        "translation": "búsqueda"
       },
       {
-        "id": "c10",
-        "text": "tools",
+        "id": "c6",
+        "text": "the",
         "isDistractor": false,
-        "translation": "herramientas"
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c9",
+        "text": "over",
+        "isDistractor": false,
+        "translation": "(continuidad)"
+      },
+      {
+        "id": "d1",
+        "text": "bring",
+        "isDistractor": true,
+        "translation": "traer"
+      },
+      {
+        "id": "d2",
+        "text": "move",
+        "isDistractor": true,
+        "translation": "mover"
       },
       {
         "id": "c12",
-        "text": "the",
+        "text": "next",
         "isDistractor": false,
-        "translation": "el"
+        "translation": "siguiente"
       },
       {
-        "id": "c4",
-        "text": "to",
+        "id": "c11",
+        "text": "the",
         "isDistractor": false,
-        "translation": "(marca de infinitivo)"
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d3",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
       },
       {
         "id": "qm",
@@ -393,54 +382,34 @@
         "translation": "signo de interrogación"
       },
       {
-        "id": "d1",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "d2",
-        "text": "They",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c9",
-        "text": "development",
+        "id": "c8",
+        "text": "story",
         "isDistractor": false,
-        "translation": "desarrollo"
+        "translation": "historia"
       },
       {
-        "id": "d4",
-        "text": "equipment",
-        "isDistractor": true,
-        "translation": "equipamiento"
-      },
-      {
-        "id": "c3",
-        "text": "going",
+        "id": "c4",
+        "text": "to",
         "isDistractor": false,
-        "translation": "ir"
+        "translation": "(marca de infinitivo)"
       }
     ],
     "translations": {
       "are": "(auxiliar)",
-      "you": "ustedes",
-      "going": "ir",
+      "we": "(nosotros)",
+      "going": "(futuro)",
       "to": "(marca de infinitivo)",
-      "sponsor": "patrocinar",
-      "the": "el",
-      "new": "nuevo",
-      "sprint's": "del sprint",
-      "development": "desarrollo",
-      "tools": "herramientas",
-      "for": "para",
-      "dev": "desarrollo",
-      "team": "equipo",
+      "carry": "llevar",
+      "the": "(artículo)",
+      "search": "búsqueda",
+      "story": "historia",
+      "over": "(continuidad)",
+      "next": "siguiente",
+      "sprint": "sprint",
+      "bring": "traer",
+      "move": "mover",
       "will": "(futuro)",
-      "they": "ellos",
-      "finance": "financiar",
-      "equipment": "equipamiento"
+      "they": "(ellos)"
     },
     "metadata": {
       "tense": "going to",
@@ -453,45 +422,118 @@
   {
     "hints": [
       "Sujeto: tú",
-      "Verbo: depurar",
-      "Complemento: la API",
-      "Tiempo: antes de la reunión de scrum",
-      "Cláusula: la reunión de scrum"
+      "Verbo: encargarse (pregunta negativa)",
+      "Complemento: del error de pagos"
     ],
-    "hintDisplay": "Sujeto: tú / Verbo: depurar / Complemento: la API / Tiempo: antes de la reunión de scrum / Cláusula: la reunión de scrum",
-    "spanishSentence": "¿Vas a depurar la API antes de la reunión de scrum?",
-    "correctSentence": "Are you going to debug the API before the scrum meeting?",
+    "hintDisplay": "Sujeto: tú / Verbo: encargarse (pregunta negativa) / Complemento: del error de pagos",
+    "spanishSentence": "¿No vas a encargarte del error de pagos?",
+    "correctSentence": "Aren't you going to pick up the payment bug?",
     "cards": [
       {
-        "id": "d3",
-        "text": "meet",
+        "id": "c8",
+        "text": "payment",
+        "isDistractor": false,
+        "translation": "pagos (pago)"
+      },
+      {
+        "id": "d2",
+        "text": "handle",
         "isDistractor": true,
-        "translation": "reunirse"
+        "translation": "encargarte (encargarse)"
       },
       {
         "id": "c2",
         "text": "you",
         "isDistractor": false,
-        "translation": "tú"
+        "translation": "(tú)"
       },
       {
-        "id": "d4",
-        "text": "agile",
+        "id": "c1",
+        "text": "Aren't",
+        "isDistractor": false,
+        "translation": "(negación)"
+      },
+      {
+        "id": "c3",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "vas"
+      },
+      {
+        "id": "c6",
+        "text": "up",
+        "isDistractor": false,
+        "translation": "(parte de la expresión verbal)"
+      },
+      {
+        "id": "c7",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c5",
+        "text": "pick",
+        "isDistractor": false,
+        "translation": "encargarte (recoger)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d1",
+        "text": "Is",
         "isDistractor": true,
-        "translation": "ágil"
+        "translation": "(verbo auxiliar)"
       },
       {
-        "id": "c11",
-        "text": "meeting",
+        "id": "c9",
+        "text": "bug",
         "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c10",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
+        "translation": "error"
+      }
+    ],
+    "translations": {
+      "aren't": "(negación)",
+      "you": "(tú)",
+      "going": "vas",
+      "to": "(marca de infinitivo)",
+      "pick": "encargarte (recoger)",
+      "up": "(parte de la expresión verbal)",
+      "the": "(artículo)",
+      "payment": "pagos (pago)",
+      "bug": "error",
+      "is": "(verbo auxiliar)",
+      "handle": "encargarte (encargarse)"
+    },
+    "metadata": {
+      "tense": "going to",
+      "isNegative": true,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: terminar",
+      "Complemento: la historia de reportes",
+      "Tiempo: en este sprint"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: terminar / Complemento: la historia de reportes / Tiempo: en este sprint",
+    "spanishSentence": "¿Vamos a terminar la historia de reportes en este sprint?",
+    "correctSentence": "Are we going to finish the reporting story this sprint?",
+    "cards": [
       {
         "id": "c4",
         "text": "to",
@@ -505,16 +547,166 @@
         "translation": "signo de interrogación"
       },
       {
+        "id": "d2",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "(ellos)"
+      },
+      {
+        "id": "c7",
+        "text": "reporting",
+        "isDistractor": false,
+        "translation": "reportes"
+      },
+      {
+        "id": "c3",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "(parte de ir a)"
+      },
+      {
+        "id": "c9",
+        "text": "this",
+        "isDistractor": false,
+        "translation": "este"
+      },
+      {
+        "id": "c10",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "d1",
+        "text": "Is",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d4",
+        "text": "during",
+        "isDistractor": true,
+        "translation": "durante"
+      },
+      {
+        "id": "c8",
+        "text": "story",
+        "isDistractor": false,
+        "translation": "historia"
+      },
+      {
+        "id": "d3",
+        "text": "completed",
+        "isDistractor": true,
+        "translation": "completada"
+      },
+      {
+        "id": "c1",
+        "text": "Are",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
         "id": "c6",
         "text": "the",
         "isDistractor": false,
-        "translation": "la"
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "(nosotros, omitido)"
       },
       {
         "id": "c5",
-        "text": "debug",
+        "text": "finish",
         "isDistractor": false,
-        "translation": "depurar"
+        "translation": "terminar"
+      }
+    ],
+    "translations": {
+      "are": "(auxiliar)",
+      "we": "(nosotros, omitido)",
+      "going": "(parte de ir a)",
+      "to": "(marca de infinitivo)",
+      "finish": "terminar",
+      "the": "(artículo)",
+      "reporting": "reportes",
+      "story": "historia",
+      "this": "este",
+      "sprint": "sprint",
+      "is": "(auxiliar)",
+      "they": "(ellos)",
+      "completed": "completada",
+      "during": "durante"
+    },
+    "metadata": {
+      "tense": "going to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú",
+      "Verbo: reordenar",
+      "Complemento: el backlog",
+      "Tiempo: antes de la próxima planificación del sprint"
+    ],
+    "hintDisplay": "Sujeto: tú / Verbo: reordenar / Complemento: el backlog / Tiempo: antes de la próxima planificación del sprint",
+    "spanishSentence": "¿Vas a reordenar el backlog antes de la próxima planificación del sprint?",
+    "correctSentence": "Are you going to reorder the backlog before the next sprint planning?",
+    "cards": [
+      {
+        "id": "c11",
+        "text": "sprint",
+        "isDistractor": false,
+        "translation": "sprint"
+      },
+      {
+        "id": "c3",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "vas"
+      },
+      {
+        "id": "c1",
+        "text": "Are",
+        "isDistractor": false,
+        "translation": "(auxiliar de pregunta)"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "reordered",
+        "isDistractor": true,
+        "translation": "reordenó"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "(sujeto implícito)"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
+      },
+      {
+        "id": "c9",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "el"
       },
       {
         "id": "d2",
@@ -523,10 +715,22 @@
         "translation": "(futuro)"
       },
       {
-        "id": "c1",
-        "text": "Are",
+        "id": "c12",
+        "text": "planning",
         "isDistractor": false,
-        "translation": "(auxiliar)"
+        "translation": "planificación"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "(sujeto implícito)"
       },
       {
         "id": "c8",
@@ -535,45 +739,39 @@
         "translation": "antes de"
       },
       {
-        "id": "c3",
-        "text": "going",
+        "id": "c5",
+        "text": "reorder",
         "isDistractor": false,
-        "translation": "ir"
+        "translation": "reordenar"
       },
       {
-        "id": "c9",
-        "text": "the",
+        "id": "c10",
+        "text": "next",
         "isDistractor": false,
-        "translation": "la"
+        "translation": "próxima"
       },
       {
         "id": "c7",
-        "text": "API",
+        "text": "backlog",
         "isDistractor": false,
-        "translation": "API"
-      },
-      {
-        "id": "d1",
-        "text": "debugging",
-        "isDistractor": true,
-        "translation": "depuración"
+        "translation": "backlog"
       }
     ],
     "translations": {
-      "are": "(auxiliar)",
-      "you": "tú",
-      "going": "ir",
+      "are": "(auxiliar de pregunta)",
+      "you": "(sujeto implícito)",
+      "going": "vas",
       "to": "(marca de infinitivo)",
-      "debug": "depurar",
-      "the": "la",
-      "api": "API",
+      "reorder": "reordenar",
+      "the": "el",
+      "backlog": "backlog",
       "before": "antes de",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "debugging": "depuración",
+      "next": "próxima",
+      "sprint": "sprint",
+      "planning": "planificación",
+      "reordered": "reordenó",
       "will": "(futuro)",
-      "meet": "reunirse",
-      "agile": "ágil"
+      "they": "(sujeto implícito)"
     },
     "metadata": {
       "tense": "going to",
@@ -585,50 +783,364 @@
   },
   {
     "hints": [
-      "Sujeto: ustedes",
-      "Verbo: ir a aclarar (futuro inmediato)",
-      "Complemento: los criterios de aceptación",
-      "Complemento: en la revisión del sprint"
+      "Sujeto: nosotros",
+      "Verbo: omitir",
+      "Complemento: la retrospectiva"
     ],
-    "hintDisplay": "Sujeto: ustedes / Verbo: ir a aclarar (futuro inmediato) / Complemento: los criterios de aceptación / Complemento: en la revisión del sprint",
-    "spanishSentence": "¿Ustedes van a aclarar los criterios de aceptación en la revisión del sprint?",
-    "correctSentence": "Are you going to clarify the acceptance criteria in the sprint review?",
+    "hintDisplay": "Sujeto: nosotros / Verbo: omitir / Complemento: la retrospectiva",
+    "spanishSentence": "¿Vamos a omitir la retrospectiva?",
+    "correctSentence": "Are we going to skip the retro?",
     "cards": [
+      {
+        "id": "c7",
+        "text": "retro",
+        "isDistractor": false,
+        "translation": "retrospectiva"
+      },
+      {
+        "id": "c1",
+        "text": "Are",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c5",
+        "text": "skip",
+        "isDistractor": false,
+        "translation": "omitir"
+      },
       {
         "id": "c6",
         "text": "the",
         "isDistractor": false,
-        "translation": "(artículo definido)"
+        "translation": "la"
       },
       {
-        "id": "c8",
-        "text": "criteria",
+        "id": "c2",
+        "text": "we",
         "isDistractor": false,
-        "translation": "criterios"
+        "translation": "nosotros"
       },
       {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
+        "id": "d3",
+        "text": "cancel",
+        "isDistractor": true,
+        "translation": "cancelar"
       },
       {
-        "id": "c11",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
+        "id": "d2",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "ellos"
       },
       {
-        "id": "c10",
-        "text": "the",
+        "id": "qm",
+        "text": "?",
         "isDistractor": false,
-        "translation": "(artículo definido)"
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d1",
+        "text": "Did",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d4",
+        "text": "review",
+        "isDistractor": true,
+        "translation": "revisión"
       },
       {
         "id": "c3",
         "text": "going",
         "isDistractor": false,
-        "translation": "ir (en construcción 'going to' = ir a)"
+        "translation": "vamos"
+      }
+    ],
+    "translations": {
+      "are": "(auxiliar)",
+      "we": "nosotros",
+      "going": "vamos",
+      "to": "(marca de infinitivo)",
+      "skip": "omitir",
+      "the": "la",
+      "retro": "retrospectiva",
+      "did": "(auxiliar)",
+      "they": "ellos",
+      "cancel": "cancelar",
+      "review": "revisión"
+    },
+    "metadata": {
+      "tense": "going to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: nosotros",
+      "Verbo: dividir (plan o intención)",
+      "Complemento: la historia del registro de usuarios"
+    ],
+    "hintDisplay": "Sujeto: nosotros / Verbo: dividir (plan o intención) / Complemento: la historia del registro de usuarios",
+    "spanishSentence": "¿Vamos a dividir la historia del registro de usuarios?",
+    "correctSentence": "Are we going to split the sign-up story?",
+    "cards": [
+      {
+        "id": "c7",
+        "text": "sign-up",
+        "isDistractor": false,
+        "translation": "registro"
+      },
+      {
+        "id": "c1",
+        "text": "Are",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d1",
+        "text": "break",
+        "isDistractor": true,
+        "translation": "romper"
+      },
+      {
+        "id": "c3",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c8",
+        "text": "story",
+        "isDistractor": false,
+        "translation": "historia"
+      },
+      {
+        "id": "c2",
+        "text": "we",
+        "isDistractor": false,
+        "translation": "nosotros"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "d2",
+        "text": "will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "d3",
+        "text": "sign-in",
+        "isDistractor": true,
+        "translation": "inicio de sesión"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      },
+      {
+        "id": "c5",
+        "text": "split",
+        "isDistractor": false,
+        "translation": "dividir"
+      }
+    ],
+    "translations": {
+      "are": "(auxiliar)",
+      "we": "nosotros",
+      "going": "(futuro)",
+      "to": "(marca de infinitivo)",
+      "split": "dividir",
+      "the": "la",
+      "sign-up": "registro",
+      "story": "historia",
+      "break": "romper",
+      "will": "(futuro)",
+      "sign-in": "inicio de sesión"
+    },
+    "metadata": {
+      "tense": "going to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú",
+      "Verbo: aceptar",
+      "Complemento: la historia de usuario de búsqueda"
+    ],
+    "hintDisplay": "Sujeto: tú / Verbo: aceptar / Complemento: la historia de usuario de búsqueda",
+    "spanishSentence": "¿Vas a aceptar la historia de usuario de búsqueda?",
+    "correctSentence": "Are you going to accept the search user story?",
+    "cards": [
+      {
+        "id": "d1",
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c4",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c5",
+        "text": "accept",
+        "isDistractor": false,
+        "translation": "aceptar"
+      },
+      {
+        "id": "d3",
+        "text": "they",
+        "isDistractor": true,
+        "translation": "(ellos)"
+      },
+      {
+        "id": "c3",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c8",
+        "text": "user",
+        "isDistractor": false,
+        "translation": "usuario"
+      },
+      {
+        "id": "c2",
+        "text": "you",
+        "isDistractor": false,
+        "translation": "(tú)"
+      },
+      {
+        "id": "c7",
+        "text": "search",
+        "isDistractor": false,
+        "translation": "búsqueda"
+      },
+      {
+        "id": "c1",
+        "text": "Are",
+        "isDistractor": false,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "d4",
+        "text": "except",
+        "isDistractor": true,
+        "translation": "excepto"
+      },
+      {
+        "id": "d2",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c9",
+        "text": "story",
+        "isDistractor": false,
+        "translation": "historia"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "la"
+      }
+    ],
+    "translations": {
+      "are": "(auxiliar)",
+      "you": "(tú)",
+      "going": "(futuro)",
+      "to": "(marca de infinitivo)",
+      "accept": "aceptar",
+      "the": "la",
+      "search": "búsqueda",
+      "user": "usuario",
+      "story": "historia",
+      "will": "(futuro)",
+      "does": "(auxiliar)",
+      "they": "(ellos)",
+      "except": "excepto"
+    },
+    "metadata": {
+      "tense": "going to",
+      "isNegative": false,
+      "isQuestion": true,
+      "difficulty": "beginner",
+      "topic": "dev meetings & scrum"
+    }
+  },
+  {
+    "hints": [
+      "Sujeto: tú",
+      "Verbo: agregar",
+      "Complemento: los criterios de aceptación",
+      "Complemento: a la historia de la página de perfil"
+    ],
+    "hintDisplay": "Sujeto: tú / Verbo: agregar / Complemento: los criterios de aceptación / Complemento: a la historia de la página de perfil",
+    "spanishSentence": "¿Vas a agregar los criterios de aceptación a la historia de la página de perfil?",
+    "correctSentence": "Are you going to add the acceptance criteria to the profile page story?",
+    "cards": [
+      {
+        "id": "d3",
+        "text": "you'll",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c10",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "c3",
+        "text": "going",
+        "isDistractor": false,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c12",
+        "text": "page",
+        "isDistractor": false,
+        "translation": "página"
       },
       {
         "id": "c7",
@@ -637,10 +1149,64 @@
         "translation": "aceptación"
       },
       {
+        "id": "c13",
+        "text": "story",
+        "isDistractor": false,
+        "translation": "historia"
+      },
+      {
+        "id": "qm",
+        "text": "?",
+        "isDistractor": false,
+        "translation": "signo de interrogación"
+      },
+      {
+        "id": "c5",
+        "text": "add",
+        "isDistractor": false,
+        "translation": "agregar"
+      },
+      {
+        "id": "d1",
+        "text": "Does",
+        "isDistractor": true,
+        "translation": "(auxiliar)"
+      },
+      {
+        "id": "c9",
+        "text": "to",
+        "isDistractor": false,
+        "translation": "(marca de infinitivo)"
+      },
+      {
+        "id": "c6",
+        "text": "the",
+        "isDistractor": false,
+        "translation": "(artículo)"
+      },
+      {
+        "id": "d2",
+        "text": "Will",
+        "isDistractor": true,
+        "translation": "(futuro)"
+      },
+      {
+        "id": "c11",
+        "text": "profile",
+        "isDistractor": false,
+        "translation": "perfil"
+      },
+      {
+        "id": "c8",
+        "text": "criteria",
+        "isDistractor": false,
+        "translation": "criterios"
+      },
+      {
         "id": "c2",
         "text": "you",
         "isDistractor": false,
-        "translation": "ustedes"
+        "translation": "(sujeto)"
       },
       {
         "id": "c1",
@@ -649,780 +1215,27 @@
         "translation": "(auxiliar)"
       },
       {
-        "id": "d1",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c5",
-        "text": "clarify",
-        "isDistractor": false,
-        "translation": "aclarar"
-      },
-      {
         "id": "c4",
         "text": "to",
         "isDistractor": false,
         "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c12",
-        "text": "review",
-        "isDistractor": false,
-        "translation": "revisión"
-      },
-      {
-        "id": "d2",
-        "text": "They",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
       }
     ],
     "translations": {
       "are": "(auxiliar)",
-      "you": "ustedes",
-      "going": "ir (en construcción 'going to' = ir a)",
+      "you": "(sujeto)",
+      "going": "(futuro)",
       "to": "(marca de infinitivo)",
-      "clarify": "aclarar",
-      "the": "(artículo definido)",
+      "add": "agregar",
+      "the": "(artículo)",
       "acceptance": "aceptación",
       "criteria": "criterios",
-      "in": "en",
-      "sprint": "sprint",
-      "review": "revisión",
+      "profile": "perfil",
+      "page": "página",
+      "story": "historia",
+      "does": "(auxiliar)",
       "will": "(futuro)",
-      "they": "ellos"
-    },
-    "metadata": {
-      "tense": "going to",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: los miembros del equipo",
-      "Verbo: ir (futuro idiomático de 'planear')",
-      "Complemento: el backlog del sprint",
-      "Complemento: en la próxima reunión de desarrollo",
-      "Cláusula: (no hay cláusula subordinada)"
-    ],
-    "hintDisplay": "Sujeto: los miembros del equipo / Verbo: ir (futuro idiomático de 'planear') / Complemento: el backlog del sprint / Complemento: en la próxima reunión de desarrollo / Cláusula: (no hay cláusula subordinada)",
-    "spanishSentence": "¿Los miembros del equipo van a planear el backlog del sprint en la próxima reunión de desarrollo?",
-    "correctSentence": "Are the team members going to plan the sprint backlog in the next dev meeting?",
-    "cards": [
-      {
-        "id": "d3",
-        "text": "planning",
-        "isDistractor": true,
-        "translation": "planeando"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c5",
-        "text": "going",
-        "isDistractor": false,
-        "translation": "van"
-      },
-      {
-        "id": "c4",
-        "text": "members",
-        "isDistractor": false,
-        "translation": "miembros"
-      },
-      {
-        "id": "c15",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "c7",
-        "text": "plan",
-        "isDistractor": false,
-        "translation": "planear"
-      },
-      {
-        "id": "c1",
-        "text": "Are",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c9",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c3",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "d2",
-        "text": "do",
-        "isDistractor": true,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c13",
-        "text": "next",
-        "isDistractor": false,
-        "translation": "próxima"
-      },
-      {
-        "id": "c6",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d1",
-        "text": "Is",
-        "isDistractor": true,
-        "translation": "es"
-      },
-      {
-        "id": "c14",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "de desarrollo"
-      },
-      {
-        "id": "c11",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "d4",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c10",
-        "text": "backlog",
-        "isDistractor": false,
-        "translation": "backlog"
-      }
-    ],
-    "translations": {
-      "are": "(auxiliar)",
-      "the": "el",
-      "team": "equipo",
-      "members": "miembros",
-      "going": "van",
-      "to": "(marca de infinitivo)",
-      "plan": "planear",
-      "sprint": "sprint",
-      "backlog": "backlog",
-      "in": "en",
-      "next": "próxima",
-      "dev": "de desarrollo",
-      "meeting": "reunión",
-      "is": "es",
-      "do": "(auxiliar)",
-      "planning": "planeando",
-      "will": "(futuro)"
-    },
-    "metadata": {
-      "tense": "going to",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: el líder técnico",
-      "Verbo: revisar (futuro con 'ir a', pregunta negativa)",
-      "Complemento: las solicitudes de extracción",
-      "Cláusula: durante la reunión de scrum"
-    ],
-    "hintDisplay": "Sujeto: el líder técnico / Verbo: revisar (futuro con 'ir a', pregunta negativa) / Complemento: las solicitudes de extracción / Cláusula: durante la reunión de scrum",
-    "spanishSentence": "¿No va a revisar el líder técnico las solicitudes de extracción durante la reunión de scrum?",
-    "correctSentence": "Isn't the tech lead going to review the pull requests during the scrum meeting?",
-    "cards": [
-      {
-        "id": "c1",
-        "text": "Isn't",
-        "isDistractor": false,
-        "translation": "(no + verbo ser/estar)"
-      },
-      {
-        "id": "c2",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c3",
-        "text": "tech",
-        "isDistractor": false,
-        "translation": "técnico"
-      },
-      {
-        "id": "c4",
-        "text": "lead",
-        "isDistractor": false,
-        "translation": "líder"
-      },
-      {
-        "id": "c5",
-        "text": "going",
-        "isDistractor": false,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c6",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c7",
-        "text": "review",
-        "isDistractor": false,
-        "translation": "revisar"
-      },
-      {
-        "id": "c8",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c9",
-        "text": "pull",
-        "isDistractor": false,
-        "translation": "extracción"
-      },
-      {
-        "id": "c10",
-        "text": "requests",
-        "isDistractor": false,
-        "translation": "solicitudes"
-      },
-      {
-        "id": "c11",
-        "text": "during",
-        "isDistractor": false,
-        "translation": "durante"
-      },
-      {
-        "id": "c12",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c13",
-        "text": "scrum",
-        "isDistractor": false,
-        "translation": "scrum"
-      },
-      {
-        "id": "c14",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "d1",
-        "text": "whose",
-        "isDistractor": true,
-        "translation": "cuyo"
-      },
-      {
-        "id": "d2",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "d3",
-        "text": "Won't",
-        "isDistractor": true,
-        "translation": "(futuro negativo)"
-      },
-      {
-        "id": "d4",
-        "text": "reviewing",
-        "isDistractor": true,
-        "translation": "revisando"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      }
-    ],
-    "translations": {
-      "won't": "(futuro negativo)",
-      "the": "el",
-      "tech": "técnico",
-      "lead": "líder",
-      "be": "ser",
-      "reviewing": "revisando",
-      "pull": "extracción",
-      "requests": "solicitudes",
-      "during": "durante",
-      "scrum": "scrum",
-      "meeting": "reunión",
-      "review": "revisar",
-      "will": "(futuro)",
-      "whose": "cuyo",
-      "isn't": "(no + verbo ser/estar)",
-      "going": "(futuro)",
-      "to": "(marca de infinitivo)"
-    },
-    "metadata": {
-      "tense": "going to",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: tú (implícito)",
-      "Verbo: documentar (futuro inmediato)",
-      "Complemento: los casos de prueba",
-      "Complemento: en el informe del sprint",
-      "Tiempo: ahora (en este contexto)"
-    ],
-    "hintDisplay": "Sujeto: tú (implícito) / Verbo: documentar (futuro inmediato) / Complemento: los casos de prueba / Complemento: en el informe del sprint / Tiempo: ahora (en este contexto)",
-    "spanishSentence": "¿No vas a documentar los casos de prueba en el informe del sprint?",
-    "correctSentence": "Aren't you going to document the test cases in the sprint report?",
-    "cards": [
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c2",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "tú"
-      },
-      {
-        "id": "d2",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c5",
-        "text": "document",
-        "isDistractor": false,
-        "translation": "documentar"
-      },
-      {
-        "id": "c12",
-        "text": "report",
-        "isDistractor": false,
-        "translation": "informe"
-      },
-      {
-        "id": "c7",
-        "text": "test",
-        "isDistractor": false,
-        "translation": "de prueba"
-      },
-      {
-        "id": "c11",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c8",
-        "text": "cases",
-        "isDistractor": false,
-        "translation": "casos"
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      },
-      {
-        "id": "c1",
-        "text": "Aren't",
-        "isDistractor": false,
-        "translation": "(auxiliar negación)"
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c3",
-        "text": "going",
-        "isDistractor": false,
-        "translation": "ir"
-      },
-      {
-        "id": "d1",
-        "text": "Won't",
-        "isDistractor": true,
-        "translation": "(auxiliar negación futuro)"
-      },
-      {
-        "id": "d3",
-        "text": "You're",
-        "isDistractor": true,
-        "translation": "tú eres"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      }
-    ],
-    "translations": {
-      "aren't": "(auxiliar negación)",
-      "you": "tú",
-      "going": "ir",
-      "to": "(marca de infinitivo)",
-      "document": "documentar",
-      "the": "el",
-      "test": "de prueba",
-      "cases": "casos",
-      "in": "en",
-      "sprint": "sprint",
-      "report": "informe",
-      "won't": "(auxiliar negación futuro)",
-      "will": "(futuro)",
-      "you're": "tú eres"
-    },
-    "metadata": {
-      "tense": "going to",
-      "isNegative": true,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: ellos",
-      "Verbo: ir (auxiliar, seguido de 'a revisar')",
-      "Complemento: el backlog del sprint",
-      "Complemento: en la reunión de desarrollo"
-    ],
-    "hintDisplay": "Sujeto: ellos / Verbo: ir (auxiliar, seguido de 'a revisar') / Complemento: el backlog del sprint / Complemento: en la reunión de desarrollo",
-    "spanishSentence": "¿Van a revisar el backlog del sprint en la reunión de desarrollo?",
-    "correctSentence": "Are they going to review the sprint backlog in the dev meeting?",
-    "cards": [
-      {
-        "id": "d1",
-        "text": "Is",
-        "isDistractor": true,
-        "translation": "es"
-      },
-      {
-        "id": "d3",
-        "text": "they're",
-        "isDistractor": true,
-        "translation": "ellos son"
-      },
-      {
-        "id": "c1",
-        "text": "Are",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "c12",
-        "text": "meeting",
-        "isDistractor": false,
-        "translation": "reunión"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "d4",
-        "text": "discuss",
-        "isDistractor": true,
-        "translation": "discutir"
-      },
-      {
-        "id": "c3",
-        "text": "going",
-        "isDistractor": false,
-        "translation": "ir"
-      },
-      {
-        "id": "c5",
-        "text": "review",
-        "isDistractor": false,
-        "translation": "revisar"
-      },
-      {
-        "id": "c11",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "el"
-      },
-      {
-        "id": "c7",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "c8",
-        "text": "backlog",
-        "isDistractor": false,
-        "translation": "backlog"
-      },
-      {
-        "id": "c2",
-        "text": "they",
-        "isDistractor": false,
-        "translation": "ellos"
-      },
-      {
-        "id": "d2",
-        "text": "Will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c9",
-        "text": "in",
-        "isDistractor": false,
-        "translation": "en"
-      }
-    ],
-    "translations": {
-      "are": "(auxiliar)",
-      "they": "ellos",
-      "going": "ir",
-      "to": "(marca de infinitivo)",
-      "review": "revisar",
-      "the": "el",
-      "sprint": "sprint",
-      "backlog": "backlog",
-      "in": "en",
-      "dev": "desarrollo",
-      "meeting": "reunión",
-      "is": "es",
-      "will": "(futuro)",
-      "they're": "ellos son",
-      "discuss": "discutir"
-    },
-    "metadata": {
-      "tense": "going to",
-      "isNegative": false,
-      "isQuestion": true,
-      "difficulty": "beginner",
-      "topic": "dev meetings & scrum"
-    }
-  },
-  {
-    "hints": [
-      "Sujeto: ustedes",
-      "Verbo: ir (futuro inmediato de 'ir a' + infinitivo)",
-      "Complemento: organizar la retrospectiva del sprint para el equipo de desarrollo",
-      "Tiempo: no hay marcador temporal concreto"
-    ],
-    "hintDisplay": "Sujeto: ustedes / Verbo: ir (futuro inmediato de 'ir a' + infinitivo) / Complemento: organizar la retrospectiva del sprint para el equipo de desarrollo / Tiempo: no hay marcador temporal concreto",
-    "spanishSentence": "¿Ustedes van a organizar la retrospectiva del sprint para el equipo de desarrollo?",
-    "correctSentence": "Are you going to organize the sprint retrospective for the dev team?",
-    "cards": [
-      {
-        "id": "c4",
-        "text": "to",
-        "isDistractor": false,
-        "translation": "(marca de infinitivo)"
-      },
-      {
-        "id": "d4",
-        "text": "them",
-        "isDistractor": true,
-        "translation": "ellos"
-      },
-      {
-        "id": "c5",
-        "text": "organize",
-        "isDistractor": false,
-        "translation": "organizar"
-      },
-      {
-        "id": "c7",
-        "text": "sprint",
-        "isDistractor": false,
-        "translation": "sprint"
-      },
-      {
-        "id": "c2",
-        "text": "you",
-        "isDistractor": false,
-        "translation": "ustedes"
-      },
-      {
-        "id": "c8",
-        "text": "retrospective",
-        "isDistractor": false,
-        "translation": "retrospectiva"
-      },
-      {
-        "id": "qm",
-        "text": "?",
-        "isDistractor": false,
-        "translation": "signo de interrogación"
-      },
-      {
-        "id": "c12",
-        "text": "team",
-        "isDistractor": false,
-        "translation": "equipo"
-      },
-      {
-        "id": "c1",
-        "text": "Are",
-        "isDistractor": false,
-        "translation": "(auxiliar)"
-      },
-      {
-        "id": "d1",
-        "text": "were",
-        "isDistractor": true,
-        "translation": "(pasado)"
-      },
-      {
-        "id": "c11",
-        "text": "dev",
-        "isDistractor": false,
-        "translation": "desarrollo"
-      },
-      {
-        "id": "d2",
-        "text": "will",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "d3",
-        "text": "shall",
-        "isDistractor": true,
-        "translation": "(futuro)"
-      },
-      {
-        "id": "c3",
-        "text": "going",
-        "isDistractor": false,
-        "translation": "van"
-      },
-      {
-        "id": "c10",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "la"
-      },
-      {
-        "id": "c6",
-        "text": "the",
-        "isDistractor": false,
-        "translation": "la"
-      },
-      {
-        "id": "c9",
-        "text": "for",
-        "isDistractor": false,
-        "translation": "para"
-      }
-    ],
-    "translations": {
-      "are": "(auxiliar)",
-      "you": "ustedes",
-      "going": "van",
-      "to": "(marca de infinitivo)",
-      "organize": "organizar",
-      "the": "la",
-      "sprint": "sprint",
-      "retrospective": "retrospectiva",
-      "for": "para",
-      "dev": "desarrollo",
-      "team": "equipo",
-      "were": "(pasado)",
-      "will": "(futuro)",
-      "shall": "(futuro)",
-      "them": "ellos"
+      "you'll": "(futuro)"
     },
     "metadata": {
       "tense": "going to",
